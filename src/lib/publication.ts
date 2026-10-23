@@ -16,7 +16,8 @@ export function reviewedTranslation(eventId: string, translations: readonly Even
 }
 
 export function isPublicStory(story: StoryRecord, enabled: readonly string[] = locales): boolean {
-  return story.publication === 'published' && story.editorial === 'reviewed' && enabled.includes(story.locale);
+  return story.publication === 'published' && story.editorial === 'reviewed' && enabled.includes(story.locale)
+    && !(story as StoryRecord & { synthetic?: boolean }).synthetic;
 }
 
 export function eventLocale(event: EventRecord, requested: Locale, translations: readonly EventTranslation[] = eventTranslations,
