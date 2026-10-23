@@ -5,6 +5,7 @@ import {videoDuration} from '../lib/media';
 import '../styles/media.css';
 const {item,locale='en'}=Astro.props as {item:MediaRecord;locale:Locale};
 const t=(text:string)=>tr(locale,text);
+const credit=item.credit==='Videographer not recorded.'?undefined:t(item.credit);
 ---
 <figure class="video-record" id={item.id}>
   <video controls playsinline preload="none" poster={item.videoPoster} width={item.width} height={item.height} aria-label={item.alt[locale]} aria-describedby={`${item.id}-caption`}>
@@ -12,7 +13,7 @@ const t=(text:string)=>tr(locale,text);
     {item.captions?.[locale]&&<track kind="captions" src={item.captions[locale]} srclang={locale} label={locale==='fa'?'فارسی':'English'} default />}
     <p><a href={item.src}>{t('Open the video file')}</a></p>
   </video>
-  <figcaption id={`${item.id}-caption`}><p class="video-label"><span>{t('Video')}</span><bdi dir="ltr">{videoDuration(item.duration??0,locale)}</bdi>{item.audioContent==='silent'&&<span>{t('Silent web version')}</span>}</p><p>{item.caption[locale]}</p><small>{t(item.credit)}</small></figcaption>
+  <figcaption id={`${item.id}-caption`}><p class="video-label"><span>{t('Video')}</span><bdi dir="ltr">{videoDuration(item.duration??0,locale)}</bdi>{item.audioContent==='silent'&&<span>{t('Silent web version')}</span>}</p><p>{item.caption[locale]}</p>{credit&&<small>{credit}</small>}</figcaption>
   <details class="video-description"><summary>{t('Read the video description')}</summary><p>{item.transcript?.[locale]}</p></details>
   <a class="text-link" href={item.src}>{t('Open the video file')} <span aria-hidden="true">↗</span></a>
 </figure>

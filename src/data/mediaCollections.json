@@ -2,16 +2,12 @@
   {
     "id": "community-meals",
     "title": {
-      "en": "A meal together",
-      "fa": "غذا خوردن در کنار هم"
+      "en": "Dinner together",
+      "fa": "شام در کنار هم"
     },
     "description": {
-      "en": "Friends around the dinner table, with four clips from the buffet.",
-      "fa": "دوستان دور میز شام، همراه با چهار ویدیو از بوفه."
-    },
-    "note": {
-      "en": "The event names and dates for these scenes have not been confirmed. The photographs stay together by subject, with descriptions of what they show.",
-      "fa": "نام و تاریخ برنامه‌های این تصاویر هنوز تأیید نشده است. عکس‌ها بر اساس موضوع کنار هم قرار گرفته‌اند و توضیح هر کدام به آنچه در تصویر دیده می‌شود محدود است."
+      "en": "An evening of dinner and conversation with the SIGS community.",
+      "fa": "شام و گفت‌وگو در کنار جمع SIGS."
     },
     "coverId": "community-meals-image-110",
     "mediaIds": [
@@ -48,16 +44,12 @@
   {
     "id": "beach-gatherings",
     "title": {
-      "en": "Gatherings by the beach",
-      "fa": "دورهمی‌های ساحلی"
+      "en": "By the beach",
+      "fa": "کنار ساحل"
     },
     "description": {
-      "en": "Photographs around the fire and three aerial videos of the beach at night.",
-      "fa": "عکس‌های کنار آتش و سه ویدیوی هوایی از ساحل در شب."
-    },
-    "note": {
-      "en": "The event names and dates for these scenes have not been confirmed. The photographs stay together by subject, with descriptions of what they show.",
-      "fa": "نام و تاریخ برنامه‌های این تصاویر هنوز تأیید نشده است. عکس‌ها بر اساس موضوع کنار هم قرار گرفته‌اند و توضیح هر کدام به آنچه در تصویر دیده می‌شود محدود است."
+      "en": "Gathering around the fire on the beach after dark.",
+      "fa": "دورهمی کنار آتش ساحل، پس از غروب."
     },
     "coverId": "beach-gatherings-image-083",
     "mediaIds": [
@@ -79,16 +71,12 @@
   {
     "id": "boat-outing",
     "title": {
-      "en": "A boat outing",
-      "fa": "گردش با قایق"
+      "en": "Out on the water",
+      "fa": "گردش روی آب"
     },
     "description": {
-      "en": "On deck, by the rail, and together on the water at sunset.",
-      "fa": "روی عرشه، کنار نرده‌ها و در کنار هم روی آب هنگام غروب."
-    },
-    "note": {
-      "en": "The event names and dates for these scenes have not been confirmed. The photographs stay together by subject, with descriptions of what they show.",
-      "fa": "نام و تاریخ برنامه‌های این تصاویر هنوز تأیید نشده است. عکس‌ها بر اساس موضوع کنار هم قرار گرفته‌اند و توضیح هر کدام به آنچه در تصویر دیده می‌شود محدود است."
+      "en": "A boat outing with the SIGS community, from daylight to sunset.",
+      "fa": "گردش با قایق در کنار جمع SIGS، از روشنایی روز تا غروب."
     },
     "coverId": "boat-outing-image-071",
     "mediaIds": [
@@ -117,16 +105,16 @@
   {
     "id": "nowruz-celebrations",
     "title": {
-      "en": "Nowruz celebrations",
-      "fa": "جشن‌های نوروز"
+      "en": "Nowruz together",
+      "fa": "نوروز در کنار هم"
     },
     "description": {
-      "en": "Haft-seen tables, stage performances, group photographs, and Nowruz invitations.",
-      "fa": "سفره‌های هفت‌سین، اجراهای روی صحنه، عکس‌های گروهی و دعوت‌نامه‌های نوروز."
+      "en": "Welcoming the new year with haft-seen, music and celebration.",
+      "fa": "استقبال از سال نو با هفت‌سین، موسیقی و جشن."
     },
     "note": {
-      "en": "The posters retain the dates they advertised. The photographs show Nowruz settings, but their exact years and event matches have not been confirmed.",
-      "fa": "تاریخ اعلام‌شده روی پوسترها حفظ شده است. عکس‌ها حال‌وهوای نوروز را نشان می‌دهند، اما سال دقیق و ارتباط آن‌ها با برنامه‌ای مشخص هنوز تأیید نشده است."
+      "en": "The invitations are historical; registration is closed.",
+      "fa": "دعوت‌نامه‌ها مربوط به گذشته‌اند و ثبت‌نام آن‌ها بسته است."
     },
     "coverId": "nowruz-celebrations-image-026",
     "mediaIds": [
@@ -159,16 +147,12 @@
   {
     "id": "gatherings-and-dance",
     "title": {
-      "en": "Music, dance, and gatherings",
-      "fa": "موسیقی، رقص و دورهمی"
+      "en": "Music and dance",
+      "fa": "موسیقی و رقص"
     },
     "description": {
-      "en": "From the dinner tables to the dance floor, photographs from earlier collections.",
-      "fa": "از میزهای شام تا فضای رقص، عکس‌هایی از مجموعه‌های قدیمی‌تر."
-    },
-    "note": {
-      "en": "The event names and dates for these scenes have not been confirmed. The photographs stay together by subject, with descriptions of what they show.",
-      "fa": "نام و تاریخ برنامه‌های این تصاویر هنوز تأیید نشده است. عکس‌ها بر اساس موضوع کنار هم قرار گرفته‌اند و توضیح هر کدام به آنچه در تصویر دیده می‌شود محدود است."
+      "en": "Coming together for music, dancing and dinner.",
+      "fa": "دورهمی با موسیقی، رقص و شام."
     },
     "coverId": "gatherings-and-dance-image-027",
     "mediaIds": [
@@ -197,16 +181,12 @@
   {
     "id": "costume-and-karaoke",
     "title": {
-      "en": "A costume gathering",
-      "fa": "دورهمی با لباس‌های نمایشی"
+      "en": "Costume night",
+      "fa": "شبی با لباس‌های نمایشی"
     },
     "description": {
-      "en": "Group photographs in costume and an evening with a microphone.",
-      "fa": "عکس‌های گروهی با لباس‌های نمایشی و شبی با میکروفن."
-    },
-    "note": {
-      "en": "The event names and dates for these scenes have not been confirmed. The photographs stay together by subject, with descriptions of what they show.",
-      "fa": "نام و تاریخ برنامه‌های این تصاویر هنوز تأیید نشده است. عکس‌ها بر اساس موضوع کنار هم قرار گرفته‌اند و توضیح هر کدام به آنچه در تصویر دیده می‌شود محدود است."
+      "en": "Dressing up for an evening with the SIGS community.",
+      "fa": "دورهمی جمع SIGS با لباس‌های نمایشی."
     },
     "coverId": "costume-and-karaoke-image-087",
     "mediaIds": [
@@ -223,16 +203,12 @@
   {
     "id": "indoor-community-gathering",
     "title": {
-      "en": "An indoor gathering",
-      "fa": "دورهمی در یک سالن"
+      "en": "A community gathering",
+      "fa": "دورهمی انجمن"
     },
     "description": {
-      "en": "Group portraits and a view of a gathering around tables.",
-      "fa": "عکس‌های گروهی و نمایی از یک دورهمی دور میزها."
-    },
-    "note": {
-      "en": "The event names and dates for these scenes have not been confirmed. The photographs stay together by subject, with descriptions of what they show.",
-      "fa": "نام و تاریخ برنامه‌های این تصاویر هنوز تأیید نشده است. عکس‌ها بر اساس موضوع کنار هم قرار گرفته‌اند و توضیح هر کدام به آنچه در تصویر دیده می‌شود محدود است."
+      "en": "Taking time to meet and talk with the SIGS community.",
+      "fa": "دیدار و گفت‌وگو در جمع SIGS."
     },
     "coverId": "indoor-community-gathering-image-073",
     "mediaIds": [
@@ -245,16 +221,12 @@
   {
     "id": "group-portraits",
     "title": {
-      "en": "Together in a group photograph",
-      "fa": "در کنار هم در یک عکس گروهی"
+      "en": "Community gatherings",
+      "fa": "گردهمایی‌های انجمن"
     },
     "description": {
-      "en": "Two group portraits from community gatherings.",
-      "fa": "دو عکس گروهی از دورهمی‌های انجمن."
-    },
-    "note": {
-      "en": "The event names and dates for these scenes have not been confirmed. The photographs stay together by subject, with descriptions of what they show.",
-      "fa": "نام و تاریخ برنامه‌های این تصاویر هنوز تأیید نشده است. عکس‌ها بر اساس موضوع کنار هم قرار گرفته‌اند و توضیح هر کدام به آنچه در تصویر دیده می‌شود محدود است."
+      "en": "Getting together with the SIGS community.",
+      "fa": "دیدار و دورهمی در جمع SIGS."
     },
     "coverId": "group-portraits-image-118",
     "mediaIds": [
@@ -266,16 +238,12 @@
   {
     "id": "watching-football",
     "title": {
-      "en": "Watching football together",
+      "en": "Football together",
       "fa": "تماشای فوتبال در کنار هم"
     },
     "description": {
-      "en": "Tables, friends, and a football match on the big screen.",
-      "fa": "میزها، دوستان و مسابقهٔ فوتبال روی پردهٔ بزرگ."
-    },
-    "note": {
-      "en": "The event names and dates for these scenes have not been confirmed. The photographs stay together by subject, with descriptions of what they show.",
-      "fa": "نام و تاریخ برنامه‌های این تصاویر هنوز تأیید نشده است. عکس‌ها بر اساس موضوع کنار هم قرار گرفته‌اند و توضیح هر کدام به آنچه در تصویر دیده می‌شود محدود است."
+      "en": "Following the match with the SIGS community.",
+      "fa": "دورهمی جمع SIGS برای دنبال‌کردن مسابقه."
     },
     "coverId": "watching-football-image-119",
     "mediaIds": [
@@ -287,16 +255,16 @@
   {
     "id": "yalda-celebrations",
     "title": {
-      "en": "Yalda invitations",
-      "fa": "دعوت‌نامه‌های یلدا"
+      "en": "Yalda nights",
+      "fa": "شب‌های یلدا"
     },
     "description": {
-      "en": "Historical posters for Yalda celebrations, with their advertised programs.",
-      "fa": "پوسترهای تاریخی جشن‌های یلدا با برنامه‌های اعلام‌شدهٔ هر کدام."
+      "en": "Invitations to Yalda evenings of poetry, music and dinner.",
+      "fa": "دعوت به شب‌های یلدا با شعر، موسیقی و شام."
     },
     "note": {
-      "en": "These are historical invitations. Printed performers, ticket links, and registration information refer to the advertised programs and are not current offers. Event links retain the known date context.",
-      "fa": "این‌ها دعوت‌نامه‌های قدیمی هستند. نام اجراکنندگان، پیوندهای بلیت و اطلاعات ثبت‌نام چاپ‌شده به همان برنامه‌های اعلام‌شده مربوط است و پیشنهاد فعلی نیست. پیوند برنامه‌ها، تاریخ و زمینهٔ شناخته‌شدهٔ هر دعوت‌نامه را نشان می‌دهد."
+      "en": "These are past invitations. Registration is closed.",
+      "fa": "این دعوت‌نامه‌ها مربوط به گذشته‌اند و ثبت‌نام بسته است."
     },
     "coverId": "yalda-celebrations-image-042",
     "mediaIds": [
@@ -319,16 +287,16 @@
   {
     "id": "posters-and-venues",
     "title": {
-      "en": "Event designs and places",
-      "fa": "طرح‌ها و مکان‌های برنامه‌ها"
+      "en": "Posters and venues",
+      "fa": "پوسترها و مکان‌ها"
     },
     "description": {
-      "en": "Event graphics and reference images of rooms and venues.",
-      "fa": "طرح‌های برنامه‌ها و تصاویر مرجع سالن‌ها و مکان‌ها."
+      "en": "Event posters and graphics, alongside views of halls and other venues.",
+      "fa": "پوسترها و طرح‌های برنامه‌ها، در کنار نماهایی از سالن‌ها و مکان‌های دیگر."
     },
     "note": {
-      "en": "These images document designs and places, rather than establishing that a particular gathering took place. The Street View screenshot retains its attribution and its own historical capture label.",
-      "fa": "این تصاویر طرح‌ها و مکان‌ها را نشان می‌دهند و به‌تنهایی شاهد برگزاری یک گردهمایی مشخص نیستند. نام پدیدآورنده و برچسب تاریخ ثبت در تصویر Street View حفظ شده است."
+      "en": "Venue images are references. The invitations are historical; registration is closed.",
+      "fa": "تصاویر مکان‌ها برای معرفی فضاها آمده‌اند. دعوت‌نامه‌ها مربوط به گذشته‌اند و ثبت‌نام بسته است."
     },
     "coverId": "posters-and-venues-image-004",
     "mediaIds": [
@@ -348,12 +316,12 @@
       "fa": "فیلم و شعر"
     },
     "description": {
-      "en": "A Persian poetry evening and the invitation to a screening of Tales.",
-      "fa": "یک شب شعر فارسی و دعوت‌نامهٔ نمایش فیلم Tales."
+      "en": "Persian Poetry Night and the invitation to Tales, with a screenwriter Q&A.",
+      "fa": "شب شعر فارسی و دعوت‌نامهٔ نمایش فیلم «قصه‌ها»، همراه با پرسش‌وپاسخ با فیلم‌نامه‌نویس."
     },
     "note": {
-      "en": "The poetry photograph is from February 23, 2019. The Tales poster advertises a screening and Q&A on March 31, 2016. Follow each event link for the dated record.",
-      "fa": "عکس شب شعر مربوط به ۲۳ فوریهٔ ۲۰۱۹ است. پوستر Tales، نمایش فیلم و پرسش‌وپاسخ در ۳۱ مارس ۲۰۱۶ را اعلام می‌کند. برای سابقهٔ تاریخ‌دار هر برنامه، پیوند آن را دنبال کنید."
+      "en": "Past invitation: Tales screening and screenwriter Q&A, March 31, 2016.",
+      "fa": "دعوت‌نامهٔ قدیمی: نمایش فیلم «قصه‌ها» و پرسش‌وپاسخ با فیلم‌نامه‌نویس، ۳۱ مارس ۲۰۱۶."
     },
     "coverId": "poetry-night-2019-photo",
     "mediaIds": [

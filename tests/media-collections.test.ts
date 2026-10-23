@@ -35,7 +35,7 @@ test('collection covers, bilingual descriptions and event links belong to their 
     const cover = publicMedia.find(item => item.id === collection.coverId)!;
     assert.ok(cover, collection.id);
     if (cover.kind === 'video') assert.ok(cover.videoPoster, collection.id);
-    for (const field of [collection.title, collection.description, collection.note]) {
+    for (const field of [collection.title, collection.description, ...(collection.note ? [collection.note] : [])]) {
       assert.deepEqual(Object.keys(field).sort(), ['en', 'fa']);
       assert.ok(field.en.trim(), collection.id);
       assert.match(field.fa, /[\u0621-\u063a\u0641-\u064a\u067e\u0686\u0698\u06a9\u06af\u06cc]/u, collection.id);
@@ -57,6 +57,11 @@ test('collection publication rejects orphaned assets, broken covers, missing tra
   const untranslated = structuredClone(mediaCollections);
   untranslated[0].description.fa = '';
   assert.ok(validateMediaCollections(untranslated).some(error => error.includes('both languages')));
+  const withoutNote = structuredClone(mediaCollections);
+  delete withoutNote[0].note;
+  assert.deepEqual(validateMediaCollections(withoutNote), []);
+  withoutNote[0].note = { en: 'Historical ticket information.', fa: '' };
+  assert.ok(validateMediaCollections(withoutNote).some(error => error.includes('both languages')));
   const withdrawn = structuredClone(publicMedia);
   withdrawn.find(record => record.id === mediaCollections[0].coverId)!.rights = 'pending';
   assert.ok(validateMediaCollections(mediaCollections, withdrawn).some(error => error.includes('published with permission')));
