@@ -23,8 +23,10 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "yalda-celebrations-image-005"
+    ],
+    "heroImage": "yalda-celebrations-image-005",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -57,8 +59,10 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-celebrations-image-006"
+    ],
+    "heroImage": "nowruz-celebrations-image-006",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -153,18 +157,20 @@
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": "UCI Student Center",
+    "venue": "Pacific Ballroom C, UCI Student Center",
     "category": "culture",
     "sigsRole": "co-organizer",
-    "summary": "SIGS and the Cal State Long Beach Persian Student Association advertised Nowruz with Sibarg Musical Ensemble, Persian dinner and DJ Taraneh. The archive retains the Student Center venue without a specific room.",
+    "summary": "SIGS and the Cal State Long Beach Persian Student Association advertised Nowruz with Sibarg Musical Ensemble, Persian dinner and DJ Taraneh. The poster identifies Pacific Ballroom C at the UCI Student Center.",
     "occurrenceEvidence": "announced",
     "archiveLabel": "Archived announcement",
     "publication": "published",
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-celebrations-image-016"
+    ],
+    "heroImage": "nowruz-celebrations-image-016",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -265,8 +271,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "yalda-celebrations-image-013"
+    ],
+    "heroImage": "yalda-celebrations-image-013",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -285,7 +293,7 @@
       "precision": "day",
       "contextYear": 2018
     },
-    "timeDisplay": "6:30 to 11 PM",
+    "timeDisplay": "6:30 to 11 PM in the archived listing; 7:30 to 11:55 PM on the poster",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
@@ -299,8 +307,10 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-celebrations-image-023"
+    ],
+    "heroImage": "nowruz-celebrations-image-023",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -371,8 +381,11 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "yalda-celebrations-image-042",
+      "yalda-celebrations-image-043"
+    ],
+    "heroImage": "yalda-celebrations-image-042",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -441,8 +454,11 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-celebrations-image-047",
+      "nowruz-celebrations-image-048"
+    ],
+    "heroImage": "nowruz-celebrations-image-047",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -475,8 +491,11 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "yalda-celebrations-image-046",
+      "yalda-celebrations-image-049"
+    ],
+    "heroImage": "yalda-celebrations-image-046",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"

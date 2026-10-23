@@ -1,0 +1,9 @@
+---
+import {href,type Locale} from '../config/site';
+import {tr,formatNumber} from '../i18n/ui';
+import {mediaCollections,collectionItems,collectionPath,publicMedia,type MediaCollection} from '../lib/media';
+import '../styles/media.css';
+const {locale='en',collections=mediaCollections}=Astro.props as {locale:Locale;collections?:MediaCollection[]};
+const t=(text:string)=>tr(locale,text);
+---
+<div class="collection-directory">{collections.map(collection=>{const cover=publicMedia.find(item=>item.id===collection.coverId);const items=collectionItems(collection);return <article class="collection-preview"><a class="collection-image" href={href(locale,collectionPath(collection))}>{cover&&<img src={cover.thumbnail??cover.videoPoster??cover.src} width={cover.width} height={cover.height} alt={cover.alt[locale]} loading="lazy" />}</a><div><p class="eyebrow">{formatNumber(locale,items.filter(item=>item.kind!=='video').length)} {t('images')}{items.some(item=>item.kind==='video')&&<> · {formatNumber(locale,items.filter(item=>item.kind==='video').length)} {t('videos')}</>}</p><h3><a href={href(locale,collectionPath(collection))}>{collection.title[locale]} <span aria-hidden="true">↗</span></a></h3><p>{collection.description[locale]}</p></div></article>;})}</div>

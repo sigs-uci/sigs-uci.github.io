@@ -2,8 +2,9 @@ import { defineCollection } from 'astro:content';
 import { file } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { data, validatePublicData } from './data';
+import { validateMediaCollections } from './lib/media';
 
-const errors = validatePublicData(data);
+const errors = [...validatePublicData(data),...validateMediaCollections()];
 if (errors.length) throw new Error(`Public content validation failed:\n${errors.join('\n')}`);
 
 const id = z.string().min(1);
@@ -44,7 +45,11 @@ const milestones = defineCollection({ loader: file('src/data/milestones.json'), 
 const resources = defineCollection({ loader: file('src/data/resources.json'), schema: z.object({ id, category: text, title: text,
   description: text, url: z.url(), source: text, reviewedOn: text, reviewScope: text, ownerRole: text }) });
 const media = defineCollection({ loader: file('src/data/media.json'), schema: z.object({ id, src: text,
-  thumbnail: z.string().optional(), kind: z.enum(['photo', 'poster']).optional(),
+  thumbnail: z.string().optional(), kind: z.enum(['photo', 'poster', 'video']).optional(),
+  videoPoster: z.string().optional(), duration: z.number().positive().optional(),
+  audioContent: z.enum(['music', 'speech', 'silent', 'ambient']).optional(),
+  transcript: z.object({ en: text.optional(), fa: text.optional() }).optional(),
+  captions: z.object({ en: text.optional(), fa: text.optional() }).optional(),
   width: z.number().int().positive(), height: z.number().int().positive(), eventId: optionalText,
   focalPoint: z.tuple([z.number().min(0).max(1), z.number().min(0).max(1)]),
   alt: z.object({ en: text, fa: z.string().optional() }), caption: z.object({ en: z.string().optional(), fa: z.string().optional() }),

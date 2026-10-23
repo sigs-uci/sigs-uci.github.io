@@ -1,0 +1,24 @@
+---
+import {href,emailLink,type Locale} from '../config/site';
+import {tr,formatNumber} from '../i18n/ui';
+import {publicVideos,publicMedia,mediaCollections} from '../lib/media';
+import Gallery from './Gallery.astro';
+import Video from './Video.astro';
+import CollectionDirectory from './CollectionDirectory.astro';
+import '../styles/media.css';
+const {locale='en',videosOnly=false}=Astro.props as {locale:Locale;videosOnly?:boolean};
+const t=(text:string)=>tr(locale,text);
+const historical=publicMedia.filter(item=>['poetry-night-2019-photo','tales-2016-poster','yalda-2025-flyer'].includes(item.id));
+const aerialVideos=publicVideos.filter(item=>item.width>=item.height);
+const tableVideos=publicVideos.filter(item=>item.width<item.height);
+---
+<div class="wrap page-body">
+  <nav class="media-subnav subnav" aria-label={t('Community media')}><a href={href(locale,'community/memories')} aria-current={!videosOnly?'page':undefined}>{t('Photo collections')}</a><a href={href(locale,'community/videos')} aria-current={videosOnly?'page':undefined}>{t('Videos')}</a><a href={href(locale,'events/archive')}>{t('Event archive')}</a></nav>
+  {videosOnly?<><p class="prose">{t('Watch the full clips from the coast and the dinner table. Each video starts only when you press play and includes a written description. These web versions are silent.')}</p><section aria-labelledby="coast-videos"><h2 id="coast-videos">{t('The beach, from above.')}</h2><div class="video-grid landscape-videos">{aerialVideos.map(item=><Video item={item} locale={locale}/>)}</div></section><section aria-labelledby="table-videos"><h2 id="table-videos">{t('Around the dinner table.')}</h2><div class="video-grid portrait-videos">{tableVideos.map(item=><Video item={item} locale={locale}/>)}</div></section></>:<>
+    <section class="media-opening"><div><p class="eyebrow">{t('The people. The places. The moments.')}</p><h2>{t('A closer look at life in SIGS.')}</h2><p>{t('Browse photographs, event designs, and seven short videos. Some collections have a dated event record; others keep a simple description until their details can be confirmed.')}</p><p class="media-total">{formatNumber(locale,publicMedia.filter(item=>item.kind!=='video').length)} {t('images')} · {formatNumber(locale,publicVideos.length)} {t('videos')} · {formatNumber(locale,mediaCollections.length)} {t('collections')}</p></div><a class="button primary" href={href(locale,'community/videos')}>{t('Watch the videos')} ↗</a></section>
+    <nav class="video-strip" aria-label={t('Choose a video')}>{publicVideos.map(item=><a href={`${href(locale,'community/videos')}#${item.id}`}><span class="video-thumb"><img src={item.videoPoster} width={item.width} height={item.height} alt="" loading="lazy"/><span aria-hidden="true">▶</span></span><span>{item.caption[locale]}</span></a>)}</nav>
+    <section class="section" aria-labelledby="photo-collections"><div class="section-heading"><h2 id="photo-collections">{t('Photo collections')}</h2></div><CollectionDirectory locale={locale}/></section>
+    <section aria-labelledby="dated-media"><h2 id="dated-media">{t('Posters and a poetry night')}</h2><p class="prose">{t('These images also link to the dated records of their gatherings or announcements.')}</p><Gallery items={historical} locale={locale} dense/></section>
+  </>}
+  <section class="notice"><h2>{t('Help put a name to a memory.')}</h2><p>{t('Know an event date, a photographer, or a detail we should correct? Send the collection link and tell us what may be published. You can also ask about an image or request its removal.')}</p><a class="text-link" href={emailLink(t('SIGS media correction'))}>{t('Contact SIGS')}</a></section>
+</div>

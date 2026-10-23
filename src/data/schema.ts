@@ -123,7 +123,12 @@ export interface MediaRecord {
   id: string;
   src: string;
   thumbnail?: string;
-  kind?: 'photo' | 'poster';
+  kind?: 'photo' | 'poster' | 'video';
+  videoPoster?: string;
+  duration?: number;
+  audioContent?: 'music' | 'speech' | 'silent' | 'ambient';
+  transcript?: Partial<Record<Locale, string>>;
+  captions?: Partial<Record<Locale, string>>;
   width: number;
   height: number;
   eventId: string | null;
@@ -208,6 +213,7 @@ const occurrenceSupported = new Set<OccurrenceEvidence>(['occurrence_corroborate
 const eventKeys = new Set(['id', 'slug', 'title', 'locale', 'date', 'timeDisplay', 'timeZone', 'startInstant', 'endInstant', 'venue', 'category', 'sigsRole', 'summary', 'occurrenceEvidence', 'archiveLabel', 'publication', 'eventState', 'registration', 'registrationUrl', 'gallery', 'heroImage', 'editorial', 'publicSourceLinks', 'generateCalendarDownload', 'generateEventStructuredData', 'allDay', 'calendarUpdated', 'calendarSequence', 'accessibility', 'cost', 'audience']);
 const storyKeys = new Set(['id', 'slug', 'title', 'summary', 'locale', 'publication', 'editorial', 'publishedOn', 'body', 'relatedEventIds', 'mediaIds', 'kind', 'credit']);
 const translationKeys = new Set(['eventId', 'locale', 'title', 'summary', 'body', 'status', 'sourceRevision', 'reviewedOn']);
+const mediaKeys = new Set(['id', 'src', 'thumbnail', 'kind', 'videoPoster', 'duration', 'audioContent', 'transcript', 'captions', 'width', 'height', 'eventId', 'focalPoint', 'alt', 'caption', 'credit', 'publication', 'rights']);
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const datePattern = /^\d{4}-\d{2}-\d{2}$/;
 const instantPattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/;
@@ -231,6 +237,11 @@ function publicUrl(value: string, allowMail = false): boolean {
   }
 }
 
+function localMediaPath(value: string, extension?: string): boolean {
+  return /^\/media\/[A-Za-z0-9_./-]+$/.test(value) && value.split('/').every(part => part !== '.' && part !== '..')
+    && (!extension || value.toLowerCase().endsWith(extension));
+}
+
 export function validatePublicData(data: PublicData): string[] {
   const errors: string[] = [];
   const issue = (path: string, message: string) => errors.push(`${path}: ${message}`);
@@ -243,9 +254,10 @@ export function validatePublicData(data: PublicData): string[] {
   const mediaIds = new Set(data.media.map(media => media.id));
   const mediaRecords = new Map(data.media.map(media => [media.id, media]));
   const visibleMedia = (id: string): boolean => mediaRecords.get(id)?.publication === 'published' && mediaRecords.get(id)?.rights === 'approved';
+  const visibleImage = (id: string): boolean => visibleMedia(id) && mediaRecords.get(id)?.kind !== 'video';
   const people = new Map(data.people.map(person => [person.id, person]));
   data.people.forEach(person => {
-    if (person.portrait && !visibleMedia(person.portrait)) issue(`people.${person.id}`, 'Portraits need published media with permission');
+    if (person.portrait && !visibleImage(person.portrait)) issue(`people.${person.id}`, 'Portraits need published images with permission');
   });
   const slugs = data.events.map(event => event.slug);
   if (new Set(slugs).size !== slugs.length) issue('events', 'Slugs must be unique');
@@ -302,6 +314,7 @@ export function validatePublicData(data: PublicData): string[] {
     if (event.calendarUpdated && !isInstant(event.calendarUpdated)) issue(key, 'Calendar update must be an explicit instant');
     if (event.calendarSequence !== undefined && (!Number.isInteger(event.calendarSequence) || event.calendarSequence < 0)) issue(key, 'Calendar sequence must be a nonnegative integer');
     if (event.heroImage && !mediaIds.has(event.heroImage)) issue(key, 'Hero image reference does not exist');
+    if (event.heroImage && mediaRecords.get(event.heroImage)?.kind === 'video') issue(key, 'Hero image must reference an image');
     event.gallery.forEach(id => { if (!mediaIds.has(id)) issue(key, 'Gallery reference does not exist'); });
     if (event.publication === 'published') {
       if (event.heroImage && !visibleMedia(event.heroImage)) issue(key, 'Published hero image needs published media with permission');
@@ -321,7 +334,7 @@ export function validatePublicData(data: PublicData): string[] {
       if (!Number.isInteger(member.displayOrder) || member.displayOrder < 1) issue(key, 'Display order must be a positive integer');
       if (member.telegramUrl && !/^https?:\/\/t\.me\/[A-Za-z0-9_]+$/.test(member.telegramUrl)) issue(key, 'Team contact must be a public Telegram profile');
       if (member.portrait && !mediaIds.has(member.portrait)) issue(key, 'Portrait reference does not exist');
-      if (member.portrait && !visibleMedia(member.portrait)) issue(key, 'Team portraits need published media with permission');
+      if (member.portrait && !visibleImage(member.portrait)) issue(key, 'Team portraits need published images with permission');
     });
   });
   const current = data.boardTerms.filter(term => term.status === 'current');
@@ -360,15 +373,37 @@ export function validatePublicData(data: PublicData): string[] {
   data.programs.forEach(program => { if (!data.programDetails.some(detail => detail.id === program.id)) issue(`programs.${program.id}`, 'Program needs a detail record'); });
   data.media.forEach(media => {
     const key = `media.${media.id}`;
+    if (Object.keys(media).some(field => !mediaKeys.has(field))) issue(key, 'Contains an unsupported media field');
+    if (!slugPattern.test(media.id)) issue(key, 'Media IDs must use lowercase words and hyphens');
     if (media.publication === 'published' && media.rights !== 'approved') issue(key, 'Published media needs permission');
     if (!['draft', 'published'].includes(media.publication) || !['approved', 'pending'].includes(media.rights)) issue(key, 'Unknown media publication or permission state');
     if (media.eventId && !eventIds.has(media.eventId)) issue(key, 'Event reference does not exist');
-    if (!media.src.startsWith('/') || media.src.startsWith('//') || media.src.includes('..')) issue(key, 'Asset must use a local public path');
-    if (media.thumbnail && (!media.thumbnail.startsWith('/') || media.thumbnail.startsWith('//') || media.thumbnail.includes('..'))) issue(key, 'Thumbnail must use a local public path');
-    if (media.kind && !['photo', 'poster'].includes(media.kind)) issue(key, 'Unknown media kind');
+    if (!localMediaPath(media.src, media.kind === 'video' ? '.mp4' : '.webp')) issue(key, 'Asset must use a local public derivative path with the correct format');
+    if (media.thumbnail !== undefined && !localMediaPath(media.thumbnail, '.webp')) issue(key, 'Thumbnail must use a local WebP path');
+    if (media.kind && !['photo', 'poster', 'video'].includes(media.kind)) issue(key, 'Unknown media kind');
     if (!Number.isInteger(media.width) || !Number.isInteger(media.height) || media.width <= 0 || media.height <= 0 || !media.credit.trim()) issue(key, 'Dimensions and credit are required');
     if (media.focalPoint.length !== 2 || media.focalPoint.some(value => !Number.isFinite(value) || value < 0 || value > 1)) issue(key, 'Focal point coordinates must be between zero and one');
     if (!media.alt.en?.trim()) issue(key, 'English alternative text is required');
+    if (media.publication === 'published') {
+      if (!media.alt.en?.trim() || !media.alt.fa?.trim()) issue(key, 'Published media needs English and Persian alternative text');
+      if (!media.caption.en?.trim() || !media.caption.fa?.trim()) issue(key, 'Published media needs English and Persian captions');
+    }
+    if (media.kind === 'video') {
+      if (media.videoPoster !== undefined && !localMediaPath(media.videoPoster, '.webp')) issue(key, 'Video poster must use a local WebP path');
+      if (media.duration !== undefined && (!Number.isFinite(media.duration) || media.duration <= 0)) issue(key, 'Video duration must be positive seconds');
+      if (media.audioContent !== undefined && !['music', 'speech', 'silent', 'ambient'].includes(media.audioContent)) issue(key, 'Unknown video audio content');
+      for (const [field, texts] of [['transcript', media.transcript], ['captions', media.captions]] as const) {
+        if (texts && (Object.keys(texts).some(locale => !['en', 'fa'].includes(locale)) || Object.values(texts).some(text => !text?.trim()))) issue(key, `Video ${field} needs supported languages and nonblank values`);
+      }
+      if (media.captions) for (const value of Object.values(media.captions)) {
+        if (value && !localMediaPath(value, '.vtt')) issue(key, 'Video captions must use local WebVTT paths');
+      }
+      if (media.publication === 'published') {
+        if (!media.videoPoster || media.duration === undefined || !media.audioContent) issue(key, 'Published videos need a poster, duration and audio content classification');
+        if (!media.transcript?.en?.trim() || !media.transcript.fa?.trim()) issue(key, 'Published videos need English and Persian descriptive transcripts');
+        if (media.audioContent === 'speech' && (!media.captions?.en || !media.captions.fa)) issue(key, 'Speech videos need English and Persian timed captions');
+      }
+    } else if (['videoPoster', 'duration', 'audioContent', 'transcript', 'captions'].some(field => field in media)) issue(key, 'Video fields belong to video records');
   });
   const translated = new Set<string>();
   data.eventTranslations.forEach(translation => {
