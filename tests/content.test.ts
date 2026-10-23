@@ -14,7 +14,10 @@ test('public content passes validation and keeps the historical evidence split',
 
 test('archive facts preserve dates, unknown rooms and closed registration', () => {
   const byId = Object.fromEntries(events.map((event) => [event.id, event]));
-  assert.equal(byId['nowruz-2017'].venue, 'UCI Student Center');
+  assert.equal(byId['nowruz-2017'].venue, 'Pacific Ballroom C, UCI Student Center');
+  assert.equal(byId['nowruz-2018'].timeDisplay, '6:30 to 11 PM in the archived listing; 7:30 to 11:55 PM on the poster');
+  assert.equal(byId['nowruz-2018'].startInstant, null);
+  assert.equal(byId['nowruz-2018'].endInstant, null);
   assert.equal(byId['nowruz-2021'].startInstant, null);
   assert.equal(byId['yalda-2023'].date.value, '2023-12-16');
   assert.notEqual(byId['solidarity-2026-02-02'].id, byId['solidarity-2026-02-10'].id);
@@ -23,15 +26,15 @@ test('archive facts preserve dates, unknown rooms and closed registration', () =
     ['tales-2016', 'tales-2016-poster'],
     ['yalda-2025', 'yalda-2025-flyer'],
   ]);
-  assert.equal(media.length, approved.size);
+  for (const [eventId, imageId] of approved) assert.ok(media.some(image => image.id === imageId && image.eventId === eventId && image.publication === 'published' && image.rights === 'approved'));
   for (const event of events) {
     assert.equal(event.registration, 'closed');
     assert.equal(event.registrationUrl, null);
     assert.equal(event.startInstant, null);
     assert.equal(event.endInstant, null);
     const imageId = approved.get(event.id);
-    assert.deepEqual(event.gallery, imageId ? [imageId] : []);
-    assert.equal(event.heroImage, imageId ?? null);
+    if (imageId) assert.ok(event.gallery.includes(imageId));
+    for (const id of [...event.gallery, ...(event.heroImage ? [event.heroImage] : [])]) assert.ok(media.some(image => image.id === id && image.eventId === event.id && image.publication === 'published' && image.rights === 'approved'));
     if (imageId) {
       const image = media.find(item => item.id === imageId)!;
       assert.equal(image.eventId, event.id);

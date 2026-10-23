@@ -8,6 +8,10 @@ Astro builds static routes for `https://sigs-uci.github.io`, with no repository-
 
 `src/lib/archive.ts` groups published historical records into populated years. Those groups generate durable year pages and the homepage archive directory. Program profiles in `src/data/programDetails.json` link canonical event IDs to historical context. Neither view creates extra events or changes their evidence labels.
 
+`src/data/media.json` holds photograph, poster and video records. `src/data/mediaCollections.json` assigns every published, approved media record to exactly one collection. `src/lib/media.ts` exposes the `MediaCollection` interface, selects public media, validates collection references and bilingual copy, and supplies collection paths. Each collection gets a page under `/en/community/memories/` and `/fa/community/memories/`. A thematic collection can remain undated. Related archive links provide context; they do not establish the date or event association of an individual image.
+
+Videos use native browser controls with local MP4 files, WebP poster frames and descriptive text in both languages. The seven current videos are full-length silent web editions. The three aerial originals have no audio stream; audio from the four dinner recordings is omitted from their public editions. Original recordings remain in controlled storage. The `transcript` field holds the scene description, including the silent-version explanation where audio was removed.
+
 `src/lib/calendar.ts` creates calendar snapshots from confirmed instants or genuine all-day ranges. It uses a stable event UID, UTC timed entries, exclusive all-day ends, valid calendar statuses, escaped text and UTF-8 line folding. Historical records do not get invented instants or calendar downloads.
 
 Pagefind indexes the same `dist/` produced by Astro, with separate English and Persian indexes selected from the page language. Search loads on demand. Searchable templates mark their content body; redirects, search pages, 404 and unpublished routes stay outside the index. Persian normalization covers common yeh/kaf forms and half-spaces; it does not promise language stemming.
@@ -18,7 +22,7 @@ The UI uses Manrope and Vazirmatn, CSS tokens and small client enhancements. The
 
 ## Verification
 
-`npm run check` validates content and checks Astro/TypeScript. `npm test` exercises selectors, registration, query state, date precision, both daylight-saving transitions, calendar serialization and content relationships. `npm run links` checks internal targets and anchors in built HTML. `npm run output:check` checks static output, search, metadata and language counterparts.
+`npm run check` validates content, collection assignments and collection text in both languages, then checks Astro/TypeScript. `npm test` exercises selectors, registration, query state, date precision, both daylight-saving transitions, calendar serialization and content relationships. `npm run links` checks internal targets and anchors in built HTML. `npm run output:check` checks static output, search, metadata and language counterparts. These commands run locally; GitHub CI is not configured. Deployment remains a manual release step.
 
 These checks support review; they do not establish accessibility conformance or content approval. Review actual desktop and phone layouts, keyboard behavior, reduced motion and language shaping before a release. Performance measurements need a stated device and network profile; a lab result does not measure field interaction latency.
 

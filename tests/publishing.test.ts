@@ -35,8 +35,8 @@ test('photo update needs published permission before a public event can referenc
   const event = copy.events[0];
   const previous = structuredClone(event);
   copy.media.push({ id: 'test-photo', src: '/media/test-photo.webp', width: 800, height: 600,
-    eventId: event.id, focalPoint: [0.5, 0.5], alt: { en: 'Isolated image fixture' },
-    caption: { en: 'A fixture used for the publishing test.' }, credit: 'Test fixture',
+    eventId: event.id, focalPoint: [0.5, 0.5], alt: { en: 'Isolated image fixture', fa: 'تصویر آزمایشی' },
+    caption: { en: 'A fixture used for the publishing test.', fa: 'تصویری برای آزمون انتشار.' }, credit: 'Test fixture',
     publication: 'draft', rights: 'pending' });
   event.gallery = ['test-photo'];
   assert.ok(validatePublicData(copy).length > 0);

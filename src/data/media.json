@@ -70,5 +70,2951 @@
     "credit": "Design credit not recorded.",
     "publication": "published",
     "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-001",
+    "src": "/media/collections/gatherings-and-dance-image-001.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-001-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1066,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests seated around white-covered dinner tables in a crowded room.",
+      "fa": "مهمانان دور میزهای شام با رومیزی سفید در اتاقی شلوغ نشسته‌اند."
+    },
+    "caption": {
+      "en": "A room of guests gathered around dinner tables.",
+      "fa": "جمعی از مهمانان دور میزهای شام."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-002",
+    "src": "/media/collections/nowruz-celebrations-image-002.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-002-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 900,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A round table covered in black cloth and stacked with bananas, grapes, apples and a pineapple.",
+      "fa": "میزی گرد با رومیزی سیاه و چیدمانی از موز، انگور، سیب و آناناس."
+    },
+    "caption": {
+      "en": "A fruit display prepared for a gathering.",
+      "fa": "چیدمان میوه برای یک گردهمایی."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-003",
+    "src": "/media/collections/nowruz-celebrations-image-003.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-003-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A Haft-seen table with pink and turquoise cloth, flowers, a mirror, candles and painted eggs.",
+      "fa": "سفرهٔ هفت‌سین با پارچه‌های صورتی و فیروزه‌ای، گل، آینه، شمع و تخم‌مرغ‌های رنگی."
+    },
+    "caption": {
+      "en": "A decorated Haft-seen table.",
+      "fa": "سفرهٔ هفت‌سین آراسته."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "posters-and-venues-image-004",
+    "src": "/media/collections/posters-and-venues-image-004.webp",
+    "thumbnail": "/media/collections/posters-and-venues-image-004-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 900,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An event room set with round tables, white cloths and pink and turquoise napkins.",
+      "fa": "سالن برنامه با میزهای گرد، رومیزی‌های سفید و دستمال‌های صورتی و فیروزه‌ای."
+    },
+    "caption": {
+      "en": "An event room before guests arrive. The specific occasion is not identified.",
+      "fa": "سالن برنامه پیش از آمدن مهمانان. مناسبت دقیق مشخص نیست."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-celebrations-image-005",
+    "src": "/media/collections/yalda-celebrations-image-005.webp",
+    "thumbnail": "/media/collections/yalda-celebrations-image-005-small.webp",
+    "kind": "poster",
+    "width": 940,
+    "height": 813,
+    "eventId": "yalda-2015",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Yalda Party poster with a moon, pomegranates and the printed date December 12, 2015.",
+      "fa": "پوستر جشن یلدا با تصویر ماه و انار و تاریخ چاپ‌شدهٔ ۱۲ دسامبر ۲۰۱۵."
+    },
+    "caption": {
+      "en": "Poster advertising the SIGS and PLCC Yalda Party for December 12, 2015. Its program and links belong to that historical invitation.",
+      "fa": "پوستر جشن یلدای SIGS و PLCC برای ۱۲ دسامبر ۲۰۱۵. برنامه و پیوندهای روی آن مربوط به همان دعوت‌نامهٔ قدیمی هستند."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-006",
+    "src": "/media/collections/nowruz-celebrations-image-006.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-006-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 1379,
+    "eventId": "nowruz-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Green Nowruz 1395 poster with a Haft-seen illustration and March 19, 2016 event details.",
+      "fa": "پوستر سبز نوروز ۱۳۹۵ با تصویر هفت‌سین و جزئیات برنامهٔ ۱۹ مارس ۲۰۱۶."
+    },
+    "caption": {
+      "en": "Poster advertising SIGS Nowruz for March 19, 2016, from 6 PM to midnight in Pacific Ballroom C. Printed parking information is historical.",
+      "fa": "پوستر نوروز SIGS برای ۱۹ مارس ۲۰۱۶، از ساعت ۶ عصر تا نیمه‌شب در Pacific Ballroom C. اطلاعات چاپ‌شدهٔ پارکینگ مربوط به همان دوره است."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-007",
+    "src": "/media/collections/gatherings-and-dance-image-007.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-007-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 996,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses behind a red table decorated with candles, flowers, fruit and bowls of pomegranate seeds.",
+      "fa": "گروهی پشت میزی قرمز با شمع، گل، میوه و ظرف‌های انار دانه‌شده ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A group around a seasonal table of fruit and candles.",
+      "fa": "جمعی کنار میز میوه و شمع‌های یک جشن."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-008",
+    "src": "/media/collections/nowruz-celebrations-image-008.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-008-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 811,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group stands around a Haft-seen display with a mirror, candles, flowers and a small bowl.",
+      "fa": "گروهی دور سفرهٔ هفت‌سینی با آینه، شمع، گل و تنگ کوچک ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A group portrait beside a Haft-seen display.",
+      "fa": "عکس گروهی کنار سفرهٔ هفت‌سین."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "posters-and-venues-image-009",
+    "src": "/media/collections/posters-and-venues-image-009.webp",
+    "thumbnail": "/media/collections/posters-and-venues-image-009-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1196,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An illuminated conference-center building, outdoor tables and paths beneath a purple evening sky.",
+      "fa": "ساختمان روشن مرکز همایش، میزهای فضای باز و مسیرهای پیاده زیر آسمان بنفش غروب."
+    },
+    "caption": {
+      "en": "A conference-center exterior at dusk. The photograph does not establish an event date.",
+      "fa": "نمای بیرونی یک مرکز همایش در غروب. تاریخ برنامه‌ای از این عکس مشخص نمی‌شود."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "posters-and-venues-image-010",
+    "src": "/media/collections/posters-and-venues-image-010.webp",
+    "thumbnail": "/media/collections/posters-and-venues-image-010-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 901,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People wearing colored vests sit at tables beneath a projected discussion slide in a large room.",
+      "fa": "افرادی با جلیقه‌های رنگی در سالنی بزرگ، زیر تصویر پرسش‌های بحث روی پرده، دور میزها نشسته‌اند."
+    },
+    "caption": {
+      "en": "A group session in an event room. The occasion and its connection to a specific SIGS gathering are unconfirmed.",
+      "fa": "نشستی گروهی در یک سالن. مناسبت و ارتباط آن با برنامه‌ای مشخص از SIGS تایید نشده است."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-011",
+    "src": "/media/collections/gatherings-and-dance-image-011.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-011-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1066,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A crowded dance floor with guests raising their hands; a studio watermark appears in the lower left.",
+      "fa": "جمعیت در فضای رقص دست‌هایشان را بالا برده‌اند؛ نشان استودیو در گوشهٔ پایین چپ دیده می‌شود."
+    },
+    "caption": {
+      "en": "Guests dancing together in a crowded room. Historical contact details are omitted from this web version.",
+      "fa": "رقص مهمانان در سالنی پرجمعیت. اطلاعات تماس قدیمی در این نسخهٔ وب حذف شده است."
+    },
+    "credit": "BLUEYESTUDIO (visible watermark).",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-012",
+    "src": "/media/collections/gatherings-and-dance-image-012.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-012-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1066,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dance across a crowded event room with pink lighting along the walls.",
+      "fa": "مهمانان در سالن پرجمعیتی با نور صورتی کنار دیوارها می‌رقصند."
+    },
+    "caption": {
+      "en": "A wide view of the dance floor. Historical contact details are omitted from this web version.",
+      "fa": "نمایی باز از فضای رقص. اطلاعات تماس قدیمی در این نسخهٔ وب حذف شده است."
+    },
+    "credit": "BLUEYESTUDIO (visible watermark).",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-celebrations-image-013",
+    "src": "/media/collections/yalda-celebrations-image-013.webp",
+    "thumbnail": "/media/collections/yalda-celebrations-image-013-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 624,
+    "eventId": "yalda-2017",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Pale blue Yalda poster with pomegranates, the SIGS emblem and December 9, 2017 printed in red.",
+      "fa": "پوستر آبی روشن یلدا با انار، نشان SIGS و تاریخ ۹ دسامبر ۲۰۱۷ با رنگ قرمز."
+    },
+    "caption": {
+      "en": "Poster advertising Yalda for December 9, 2017 in Pacific Ballroom D at UCI.",
+      "fa": "پوستر یلدا برای ۹ دسامبر ۲۰۱۷ در Pacific Ballroom D در UCI."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "posters-and-venues-image-014",
+    "src": "/media/collections/posters-and-venues-image-014.webp",
+    "thumbnail": "/media/collections/posters-and-venues-image-014-small.webp",
+    "kind": "poster",
+    "width": 700,
+    "height": 700,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An After Party graphic with blurred colored lights and a LIQUID V mark.",
+      "fa": "طرحی با نوشتهٔ After Party، نورهای رنگی محو و نشان LIQUID V."
+    },
+    "caption": {
+      "en": "An after-party graphic. No event date or SIGS event is identified on the image.",
+      "fa": "طرحی برای مهمانی پس از برنامه. تاریخ یا برنامه‌ای از SIGS روی تصویر مشخص نشده است."
+    },
+    "credit": "LIQUID V mark visible; designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "posters-and-venues-image-015",
+    "src": "/media/collections/posters-and-venues-image-015.webp",
+    "thumbnail": "/media/collections/posters-and-venues-image-015-small.webp",
+    "kind": "photo",
+    "width": 999,
+    "height": 562,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Google Street View screenshot of a building numbered 7000, with a July 2011 imagery label and map inset.",
+      "fa": "تصویر Google Street View از ساختمانی با شمارهٔ ۷۰۰۰، برچسب تصاویر ژوئیهٔ ۲۰۱۱ و نقشهٔ کوچک در گوشه."
+    },
+    "caption": {
+      "en": "A venue-reference screenshot labelled July 2011 in Google Street View. It is not a photograph of a SIGS event.",
+      "fa": "تصویر مرجع مکان در Google Street View با برچسب ژوئیهٔ ۲۰۱۱. این تصویر، عکس یک برنامهٔ SIGS نیست."
+    },
+    "credit": "Google Street View; attribution retained in the screenshot.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-016",
+    "src": "/media/collections/nowruz-celebrations-image-016.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-016-small.webp",
+    "kind": "poster",
+    "width": 1580,
+    "height": 1236,
+    "eventId": "nowruz-2017",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Nowruz 1396 poster with red Persian lettering, sprouted greens, a goldfish and March 18, 2017 details.",
+      "fa": "پوستر نوروز ۱۳۹۶ با نوشتهٔ قرمز فارسی، سبزه، ماهی قرمز و جزئیات ۱۸ مارس ۲۰۱۷."
+    },
+    "caption": {
+      "en": "Poster advertising Nowruz for March 18, 2017 in Pacific Ballroom C at UCI, with SIGS and Cal State Long Beach Persian Student Association logos.",
+      "fa": "پوستر نوروز برای ۱۸ مارس ۲۰۱۷ در Pacific Ballroom C در UCI، با نشان‌های SIGS و انجمن دانشجویان ایرانی Cal State Long Beach."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-017",
+    "src": "/media/collections/gatherings-and-dance-image-017.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-017-small.webp",
+    "kind": "photo",
+    "width": 1000,
+    "height": 540,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group on the dance floor faces the camera, with several guests raising their hands.",
+      "fa": "گروهی در فضای رقص رو به دوربین هستند و چند نفر دست‌هایشان را بالا برده‌اند."
+    },
+    "caption": {
+      "en": "A group on the dance floor. Historical contact details are omitted from this web version.",
+      "fa": "جمعی در فضای رقص. اطلاعات تماس قدیمی در این نسخهٔ وب حذف شده است."
+    },
+    "credit": "BLUEYESTUDIO (visible watermark).",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-018",
+    "src": "/media/collections/gatherings-and-dance-image-018.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-018-small.webp",
+    "kind": "photo",
+    "width": 1000,
+    "height": 540,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Four musicians sit with a keyboard, microphones, hand drums and a hammered string instrument.",
+      "fa": "چهار نوازنده کنار کیبورد، میکروفن‌ها، سازهای کوبه‌ای و سنتور نشسته‌اند."
+    },
+    "caption": {
+      "en": "Musicians seated for a performance. The date and program are not identified in the image. Historical contact details are omitted from this web version.",
+      "fa": "نوازندگان برای اجرا نشسته‌اند. تاریخ و برنامه در تصویر مشخص نیست. اطلاعات تماس قدیمی در این نسخهٔ وب حذف شده است."
+    },
+    "credit": "BLUEYESTUDIO (visible watermark).",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-019",
+    "src": "/media/collections/gatherings-and-dance-image-019.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-019-small.webp",
+    "kind": "photo",
+    "width": 760,
+    "height": 472,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests sit facing a stage while trays of food line a table in the foreground and pomegranates appear on a projection screen.",
+      "fa": "مهمانان رو به صحنه نشسته‌اند؛ سینی‌های غذا روی میز جلوی تصویر و تصویر انار روی پرده دیده می‌شود."
+    },
+    "caption": {
+      "en": "Dinner tables facing a stage, with a pomegranate image projected behind it.",
+      "fa": "میزهای شام رو به صحنه، با تصویر انار روی پردهٔ پشت آن."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-020",
+    "src": "/media/collections/gatherings-and-dance-image-020.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-020-small.webp",
+    "kind": "photo",
+    "width": 640,
+    "height": 539,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A close crop of guests dancing, including a person in a green floral top near the center.",
+      "fa": "نمای نزدیک مهمانان در حال رقص، با فردی در لباس سبز گل‌دار نزدیک مرکز تصویر."
+    },
+    "caption": {
+      "en": "A closer view of the dance floor.",
+      "fa": "نمایی نزدیک‌تر از فضای رقص."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-021",
+    "src": "/media/collections/gatherings-and-dance-image-021.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-021-small.webp",
+    "kind": "photo",
+    "width": 760,
+    "height": 530,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A wider crop of guests dancing, with a green floral top near the center and people along both sides.",
+      "fa": "نمای بازتر مهمانان در حال رقص، با لباس سبز گل‌دار نزدیک مرکز و افراد در دو سوی تصویر."
+    },
+    "caption": {
+      "en": "A wider version of the same dance-floor photograph.",
+      "fa": "نسخهٔ بازتر همان عکس از فضای رقص."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-022",
+    "src": "/media/collections/nowruz-celebrations-image-022.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-022-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1067,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dancers in yellow, pink and blue costumes hold up scarves on a stage before a green projection.",
+      "fa": "رقصندگان با لباس‌های زرد، صورتی و آبی، شال‌ها را روی صحنه و مقابل تصویر سبز پرده بالا گرفته‌اند."
+    },
+    "caption": {
+      "en": "A dance performance on a stage decorated for the new year.",
+      "fa": "اجرای رقص روی صحنه‌ای با تزیینات سال نو."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-023",
+    "src": "/media/collections/nowruz-celebrations-image-023.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-023-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 624,
+    "eventId": "nowruz-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Nowruz 1397 poster advertising March 18, 2018, with sprouted greens, a fishbowl and SIGS and WesternU emblems.",
+      "fa": "پوستر نوروز ۱۳۹۷ برای ۱۸ مارس ۲۰۱۸، با سبزه، تنگ ماهی و نشان‌های SIGS و WesternU."
+    },
+    "caption": {
+      "en": "Poster advertising Nowruz for March 18, 2018 in Pacific Ballroom C. It prints 7:30 PM to 11:55 PM, which differs from another time retained in the archive record.",
+      "fa": "پوستر نوروز برای ۱۸ مارس ۲۰۱۸ در Pacific Ballroom C. ساعت چاپ‌شدهٔ ۷:۳۰ تا ۱۱:۵۵ شب با ساعت دیگری که در مدخل آرشیو آمده متفاوت است."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-024",
+    "src": "/media/collections/gatherings-and-dance-image-024.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-024-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests face one another on the dance floor, with other people gathered behind them.",
+      "fa": "مهمانان در فضای رقص روبه‌روی هم هستند و افراد دیگری پشت آن‌ها جمع شده‌اند."
+    },
+    "caption": {
+      "en": "A moment on the dance floor.",
+      "fa": "لحظه‌ای در فضای رقص."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-025",
+    "src": "/media/collections/gatherings-and-dance-image-025.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-025-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses together on a dance floor beneath warm ceiling lights.",
+      "fa": "جمع بزرگی در فضای رقص، زیر نور گرم چراغ‌های سقف، برای عکس ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A group portrait in a crowded event room.",
+      "fa": "عکس گروهی در سالنی پرجمعیت."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-026",
+    "src": "/media/collections/nowruz-celebrations-image-026.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-026-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests pose beside a gold-covered Haft-seen display with candles, greenery and a mirror.",
+      "fa": "مهمانان کنار سفرهٔ هفت‌سینی طلایی با شمع، سبزه و آینه برای عکس ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Guests beside a Haft-seen table.",
+      "fa": "مهمانان کنار سفرهٔ هفت‌سین."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-027",
+    "src": "/media/collections/gatherings-and-dance-image-027.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-027-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests in rows raise their hands toward the camera, with a crowded room behind them.",
+      "fa": "مهمانان در چند ردیف، رو به دوربین دست‌هایشان را بالا برده‌اند و سالن پشت آن‌ها پرجمعیت است."
+    },
+    "caption": {
+      "en": "A wide group photograph from the dance floor.",
+      "fa": "عکس گروهی باز از فضای رقص."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-028",
+    "src": "/media/collections/gatherings-and-dance-image-028.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-028-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A small group poses close together on a crowded dance floor.",
+      "fa": "گروهی کوچک در فضای رقص پرجمعیت، نزدیک هم برای عکس ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A small group posing together on the dance floor.",
+      "fa": "عکس گروهی در فضای رقص."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-029",
+    "src": "/media/collections/nowruz-celebrations-image-029.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-029-small.webp",
+    "kind": "photo",
+    "width": 1140,
+    "height": 1331,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A closer crop of a group beside a gold Haft-seen display, with one guest seated in front.",
+      "fa": "نمای نزدیک‌تر گروهی کنار سفرهٔ هفت‌سین طلایی، با فردی نشسته در جلو."
+    },
+    "caption": {
+      "en": "A cropped group portrait at a Haft-seen table.",
+      "fa": "نسخهٔ برش‌خوردهٔ عکس گروهی کنار هفت‌سین."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-030",
+    "src": "/media/collections/nowruz-celebrations-image-030.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-030-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses beside a gold Haft-seen display, with one guest seated in front and others standing behind.",
+      "fa": "گروهی کنار سفرهٔ هفت‌سین طلایی هستند؛ یک نفر جلو نشسته و دیگران پشت او ایستاده‌اند."
+    },
+    "caption": {
+      "en": "The wider version of a group portrait at a Haft-seen table.",
+      "fa": "نسخهٔ بازتر عکس گروهی کنار هفت‌سین."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-031",
+    "src": "/media/collections/nowruz-celebrations-image-031.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-031-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1067,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dancers in pink, yellow and blue costumes pose together on a stage beneath a green projection.",
+      "fa": "رقصندگان با لباس‌های صورتی، زرد و آبی، روی صحنه و زیر تصویر سبز پرده برای عکس ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Dancers posing on a stage.",
+      "fa": "رقصندگان در حال گرفتن عکس روی صحنه."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-032",
+    "src": "/media/collections/nowruz-celebrations-image-032.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-032-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group stands on both sides of a gold-covered Haft-seen table with a mirror and candles.",
+      "fa": "گروهی در دو سوی سفرهٔ هفت‌سین طلایی با آینه و شمع ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A group beside a decorated Haft-seen table.",
+      "fa": "جمعی کنار سفرهٔ هفت‌سین آراسته."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-033",
+    "src": "/media/collections/nowruz-celebrations-image-033.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-033-small.webp",
+    "kind": "photo",
+    "width": 1140,
+    "height": 1331,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A tighter crop of a group standing to the left of a gold-covered Haft-seen table.",
+      "fa": "نمای بسته‌تر گروهی که سمت چپ سفرهٔ هفت‌سین طلایی ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A closer version of a Haft-seen group photograph.",
+      "fa": "نسخهٔ نزدیک‌تر عکس گروهی هفت‌سین."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-034",
+    "src": "/media/collections/nowruz-celebrations-image-034.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-034-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group stands beside a gold-covered Haft-seen table with flowers, candles and a mirror.",
+      "fa": "گروهی کنار سفرهٔ هفت‌سین طلایی با گل، شمع و آینه ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A wider version of a Haft-seen group photograph.",
+      "fa": "نسخهٔ بازتر عکس گروهی هفت‌سین."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-035",
+    "src": "/media/collections/gatherings-and-dance-image-035.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-035-small.webp",
+    "kind": "photo",
+    "width": 1140,
+    "height": 1334,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A closer crop of a crowd posing at the front of a room, with a person in a white shirt leaning forward.",
+      "fa": "نمای نزدیک‌تر جمعیت جلوی سالن، با فردی در پیراهن سفید که به جلو خم شده است."
+    },
+    "caption": {
+      "en": "A cropped group photograph near the music equipment.",
+      "fa": "نسخهٔ برش‌خوردهٔ عکس گروهی کنار تجهیزات موسیقی."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-036",
+    "src": "/media/collections/gatherings-and-dance-image-036.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-036-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1067,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A wider view of a crowd posing near music equipment, with hands raised across the back rows.",
+      "fa": "نمای بازتر جمعیتی کنار تجهیزات موسیقی، با دست‌های بالاگرفته در ردیف‌های عقب."
+    },
+    "caption": {
+      "en": "The wider version of a group photograph near the music equipment.",
+      "fa": "نسخهٔ بازتر عکس گروهی کنار تجهیزات موسیقی."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-037",
+    "src": "/media/collections/nowruz-celebrations-image-037.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-037-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1066,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group on a stage wears coordinated black vests, hats, scarves and red waist sashes.",
+      "fa": "گروهی روی صحنه، جلیقه و کلاه سیاه، شال و کمربند قرمز هماهنگ پوشیده‌اند."
+    },
+    "caption": {
+      "en": "A group posing on stage in coordinated costumes.",
+      "fa": "عکس گروهی روی صحنه با لباس‌های هماهنگ."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-038",
+    "src": "/media/collections/nowruz-celebrations-image-038.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-038-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people stand behind a keyboard and laptop; one holds a microphone, and SIGS and WesternU emblems appear on the projection behind them.",
+      "fa": "دو نفر پشت کیبورد و لپ‌تاپ ایستاده‌اند؛ یکی میکروفن در دست دارد و نشان‌های SIGS و WesternU روی پردهٔ پشت آن‌ها دیده می‌شود."
+    },
+    "caption": {
+      "en": "Two people beside the music equipment, with the SIGS and WesternU emblems behind them.",
+      "fa": "دو نفر کنار تجهیزات موسیقی، با نشان‌های SIGS و WesternU در پشت آن‌ها."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-039",
+    "src": "/media/collections/gatherings-and-dance-image-039.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-039-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses close together, with more guests visible behind them.",
+      "fa": "گروهی نزدیک هم برای عکس ایستاده‌اند و مهمانان دیگری پشت آن‌ها دیده می‌شوند."
+    },
+    "caption": {
+      "en": "A group photograph in the crowd.",
+      "fa": "عکس گروهی در میان جمعیت."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-040",
+    "src": "/media/collections/gatherings-and-dance-image-040.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-040-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1065,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses across the dance floor with other guests and warm room lighting behind them.",
+      "fa": "گروهی در فضای رقص برای عکس ایستاده‌اند و مهمانان دیگر و نور گرم سالن پشت آن‌ها دیده می‌شود."
+    },
+    "caption": {
+      "en": "A group on the dance floor.",
+      "fa": "جمعی در فضای رقص."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "posters-and-venues-image-041",
+    "src": "/media/collections/posters-and-venues-image-041.webp",
+    "thumbnail": "/media/collections/posters-and-venues-image-041-small.webp",
+    "kind": "poster",
+    "width": 599,
+    "height": 899,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Summer Party flyer with a glowing diamond, dancing silhouettes, June 16 and DJ Aaraa printed on it.",
+      "fa": "پوستر Summer Party با لوزی نورانی، سایهٔ افراد در حال رقص و نوشته‌های ۱۶ ژوئن و DJ Aaraa."
+    },
+    "caption": {
+      "en": "SIGS Summer Party flyer advertising June 16 and DJ Aaraa at Views Hookah Lounge. A year is not printed.",
+      "fa": "پوستر مهمانی تابستانی SIGS برای ۱۶ ژوئن با DJ Aaraa در Views Hookah Lounge. سال روی پوستر چاپ نشده است."
+    },
+    "credit": "PosterMyWall mark visible; designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-celebrations-image-042",
+    "src": "/media/collections/yalda-celebrations-image-042.webp",
+    "thumbnail": "/media/collections/yalda-celebrations-image-042-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 800,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Wide red Yalda Night poster with a portrait labelled Kamyar, pomegranates and Saturday December 15 details.",
+      "fa": "پوستر افقی قرمز Yalda Night با تصویری با نام کامیار، انار و جزئیات شنبه ۱۵ دسامبر."
+    },
+    "caption": {
+      "en": "Wide Yalda Night poster advertising Kamyar, DJ Sepand and DJ Aaraa for Saturday December 15 in Pacific Ballroom CD. The year is not printed; booking details are historical. Historical contact details are omitted from this web version.",
+      "fa": "پوستر افقی شب یلدا برای شنبه ۱۵ دسامبر در Pacific Ballroom CD، با نام کامیار، DJ Sepand و DJ Aaraa. سال روی پوستر چاپ نشده و اطلاعات رزرو مربوط به همان آگهی قدیمی است. اطلاعات تماس قدیمی در این نسخهٔ وب حذف شده است."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-celebrations-image-043",
+    "src": "/media/collections/yalda-celebrations-image-043.webp",
+    "thumbnail": "/media/collections/yalda-celebrations-image-043-small.webp",
+    "kind": "poster",
+    "width": 1467,
+    "height": 2200,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Tall Yalda Night poster with a portrait labelled Kamyar and red panels listing December 15 and the advertised music program.",
+      "fa": "پوستر عمودی شب یلدا با تصویری با نام کامیار و بخش‌های قرمز شامل ۱۵ دسامبر و برنامهٔ موسیقی اعلام‌شده."
+    },
+    "caption": {
+      "en": "Tall version of the Yalda Night invitation advertising Kamyar and a December 15 gathering. Printed ticket and contact details are historical. Historical contact details are omitted from this web version.",
+      "fa": "نسخهٔ عمودی دعوت‌نامهٔ شب یلدا با نام کامیار برای گردهمایی ۱۵ دسامبر. اطلاعات چاپ‌شدهٔ بلیت و تماس مربوط به همان آگهی قدیمی است. اطلاعات تماس قدیمی در این نسخهٔ وب حذف شده است."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-044",
+    "src": "/media/collections/gatherings-and-dance-image-044.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-044-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1067,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dance across an event room beneath red, green and blue light spots.",
+      "fa": "مهمانان زیر نورهای قرمز، سبز و آبی در سالن می‌رقصند."
+    },
+    "caption": {
+      "en": "Guests dancing under colored lights.",
+      "fa": "رقص مهمانان زیر نورهای رنگی."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "gatherings-and-dance-image-045",
+    "src": "/media/collections/gatherings-and-dance-image-045.webp",
+    "thumbnail": "/media/collections/gatherings-and-dance-image-045-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 874,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses behind a table decorated with red flowers, candles, pomegranates and carved watermelon.",
+      "fa": "گروهی پشت میزی با گل‌های قرمز، شمع، انار و هندوانهٔ تزیین‌شده برای عکس ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A group beside a red seasonal table.",
+      "fa": "جمعی کنار میز قرمز یک جشن."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-celebrations-image-046",
+    "src": "/media/collections/yalda-celebrations-image-046.webp",
+    "thumbnail": "/media/collections/yalda-celebrations-image-046-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 838,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Wide Yalda Night poster with a portrait labelled Sandy, December 14 and advertised DJ names against a red and black background.",
+      "fa": "پوستر افقی شب یلدا با تصویری با نام سندی، ۱۴ دسامبر و نام دی‌جی‌های اعلام‌شده روی زمینهٔ قرمز و سیاه."
+    },
+    "caption": {
+      "en": "Yalda Night poster advertising Sandy for Saturday December 14. The year is not printed; its ticket and booking details are historical. Historical contact details are omitted from this web version.",
+      "fa": "پوستر شب یلدا با نام سندی برای شنبه ۱۴ دسامبر. سال روی پوستر چاپ نشده و اطلاعات بلیت و رزرو مربوط به همان آگهی قدیمی است. اطلاعات تماس قدیمی در این نسخهٔ وب حذف شده است."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-047",
+    "src": "/media/collections/nowruz-celebrations-image-047.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-047-small.webp",
+    "kind": "poster",
+    "width": 890,
+    "height": 638,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Green Nowruz 1398 graphic advertising Friday March 22 and stand-up comedy by K-Von.",
+      "fa": "طرح سبز نوروز ۱۳۹۸ برای جمعه ۲۲ مارس، با آگهی استندآپ کمدی K-Von."
+    },
+    "caption": {
+      "en": "Nowruz 1398 promotional graphic advertising K-Von and Friday March 22.",
+      "fa": "طرح تبلیغاتی نوروز ۱۳۹۸ با نام K-Von برای جمعه ۲۲ مارس."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-celebrations-image-048",
+    "src": "/media/collections/nowruz-celebrations-image-048.webp",
+    "thumbnail": "/media/collections/nowruz-celebrations-image-048-small.webp",
+    "kind": "poster",
+    "width": 1199,
+    "height": 626,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Green Nowruz 1398 graphic with portraits labelled DJ Mohsen and DJ Julius and Friday March 22 printed in a corner.",
+      "fa": "طرح سبز نوروز ۱۳۹۸ با دو تصویر با نام‌های DJ Mohsen و DJ Julius و نوشتهٔ جمعه ۲۲ مارس در گوشه."
+    },
+    "caption": {
+      "en": "Nowruz 1398 promotional graphic advertising DJ Mohsen and DJ Julius for Friday March 22.",
+      "fa": "طرح تبلیغاتی نوروز ۱۳۹۸ با نام DJ Mohsen و DJ Julius برای جمعه ۲۲ مارس."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-celebrations-image-049",
+    "src": "/media/collections/yalda-celebrations-image-049.webp",
+    "thumbnail": "/media/collections/yalda-celebrations-image-049-small.webp",
+    "kind": "poster",
+    "width": 820,
+    "height": 462,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Alternate Yalda Night graphic with a portrait labelled Sandy, a SIGS emblem and Saturday December 14 printed on a red and black background.",
+      "fa": "طرح دیگر شب یلدا با تصویری با نام سندی، نشان SIGS و نوشتهٔ شنبه ۱۴ دسامبر روی زمینهٔ قرمز و سیاه."
+    },
+    "caption": {
+      "en": "An alternate Yalda Night graphic advertising Sandy and Saturday December 14. A year is not printed.",
+      "fa": "طرح دیگری از شب یلدا با نام سندی برای شنبه ۱۴ دسامبر. سال روی تصویر چاپ نشده است."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-video-050",
+    "src": "/media/collections/beach-gatherings-video-050.mp4",
+    "kind": "video",
+    "videoPoster": "/media/collections/beach-gatherings-video-050-poster.webp",
+    "width": 1280,
+    "height": 720,
+    "duration": 25.466667,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "A silent aerial view circles above a ring of lights on a dark beach.",
+      "fa": "در این فیلم بی‌صدا، نمای هوایی بالای حلقه‌ای از نور در ساحل تاریک حرکت می‌کند."
+    },
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Aerial footage of a bright circle on the sand at night.",
+      "fa": "فیلم هوایی از حلقه‌ای روشن روی شن‌های ساحل در شب."
+    },
+    "caption": {
+      "en": "An illuminated circle on the beach, filmed from above.",
+      "fa": "حلقه‌ای روشن در ساحل، از نمای بالا."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-video-051",
+    "src": "/media/collections/beach-gatherings-video-051.mp4",
+    "kind": "video",
+    "videoPoster": "/media/collections/beach-gatherings-video-051-poster.webp",
+    "width": 1280,
+    "height": 720,
+    "duration": 28.966667,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Silent aerial footage moves over people gathered near beach fires and a ring of lights.",
+      "fa": "در این فیلم هوایی بی‌صدا، دوربین از بالای افرادی نزدیک آتش‌های ساحل و حلقه‌ای از نور می‌گذرد."
+    },
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An aerial view moves across beach fires and a brightly lit ring on the sand.",
+      "fa": "نمای هوایی از روی آتش‌های ساحل و حلقه‌ای روشن روی شن‌ها می‌گذرد."
+    },
+    "caption": {
+      "en": "Aerial footage across fires and gatherings along the beach.",
+      "fa": "نمای هوایی از آتش‌ها و دورهمی‌های ساحلی."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-video-052",
+    "src": "/media/collections/beach-gatherings-video-052.mp4",
+    "kind": "video",
+    "videoPoster": "/media/collections/beach-gatherings-video-052-poster.webp",
+    "width": 1280,
+    "height": 720,
+    "duration": 6.4,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Silent aerial footage pulls back from a beach gathering to show the sand, fires and nearby walkway.",
+      "fa": "در این فیلم هوایی بی‌صدا، دوربین از دورهمی ساحلی فاصله می‌گیرد و شن‌ها، آتش‌ها و مسیر پیاده‌روی نزدیک را نشان می‌دهد."
+    },
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An aerial camera rises above groups gathered near beach fires.",
+      "fa": "دوربین هوایی از بالای گروه‌هایی نزدیک آتش‌های ساحل فاصله می‌گیرد."
+    },
+    "caption": {
+      "en": "Pulling back from a beach gathering toward the nearby walkway.",
+      "fa": "فاصله‌گرفتن از دورهمی ساحلی به سمت مسیر پیاده‌روی نزدیک."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-053",
+    "src": "/media/collections/boat-outing-image-053.webp",
+    "thumbnail": "/media/collections/boat-outing-image-053-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A person stands beside the rail on a covered boat walkway, with other attendees nearby.",
+      "fa": "فردی کنار نردهٔ راهروی سرپوشیدهٔ قایق ایستاده و دیگران نزدیک او هستند."
+    },
+    "caption": {
+      "en": "A person stands beside the rail on a covered boat walkway, with other attendees nearby.",
+      "fa": "فردی کنار نردهٔ راهروی سرپوشیدهٔ قایق ایستاده و دیگران نزدیک او هستند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-054",
+    "src": "/media/collections/boat-outing-image-054.webp",
+    "thumbnail": "/media/collections/boat-outing-image-054-small.webp",
+    "kind": "photo",
+    "width": 853,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People stand along a covered boat walkway near a stair rail.",
+      "fa": "چند نفر در راهروی سرپوشیدهٔ قایق، نزدیک نردهٔ پله‌ها ایستاده‌اند."
+    },
+    "caption": {
+      "en": "People stand along a covered boat walkway near a stair rail.",
+      "fa": "چند نفر در راهروی سرپوشیدهٔ قایق، نزدیک نردهٔ پله‌ها ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-055",
+    "src": "/media/collections/boat-outing-image-055.webp",
+    "thumbnail": "/media/collections/boat-outing-image-055-small.webp",
+    "kind": "photo",
+    "width": 853,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People talk together in the narrow covered walkway of a boat.",
+      "fa": "چند نفر در راهروی باریک و سرپوشیدهٔ قایق با هم صحبت می‌کنند."
+    },
+    "caption": {
+      "en": "People talk together in the narrow covered walkway of a boat.",
+      "fa": "چند نفر در راهروی باریک و سرپوشیدهٔ قایق با هم صحبت می‌کنند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-056",
+    "src": "/media/collections/boat-outing-image-056.webp",
+    "thumbnail": "/media/collections/boat-outing-image-056-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Four people pose beside a boat rail in daylight.",
+      "fa": "چهار نفر در روشنایی روز کنار نردهٔ قایق برای عکس ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Four people pose beside a boat rail in daylight.",
+      "fa": "چهار نفر در روشنایی روز کنار نردهٔ قایق برای عکس ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-057",
+    "src": "/media/collections/boat-outing-image-057.webp",
+    "thumbnail": "/media/collections/boat-outing-image-057-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses close together beside the rail on a boat deck.",
+      "fa": "گروهی کنار نردهٔ عرشهٔ قایق، نزدیک هم برای عکس ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A group poses close together beside the rail on a boat deck.",
+      "fa": "گروهی کنار نردهٔ عرشهٔ قایق، نزدیک هم برای عکس ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-058",
+    "src": "/media/collections/boat-outing-image-058.webp",
+    "thumbnail": "/media/collections/boat-outing-image-058-small.webp",
+    "kind": "photo",
+    "width": 853,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Several people pose at different heights along a boat stairway.",
+      "fa": "چند نفر روی پله‌های قایق در ارتفاع‌های مختلف برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "Several people pose at different heights along a boat stairway.",
+      "fa": "چند نفر روی پله‌های قایق در ارتفاع‌های مختلف برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-059",
+    "src": "/media/collections/boat-outing-image-059.webp",
+    "thumbnail": "/media/collections/boat-outing-image-059-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 775,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A small group poses beneath a boat canopy, with bright water behind them.",
+      "fa": "گروهی کوچک زیر سایبان قایق برای عکس ایستاده‌اند و آب روشن پشت سرشان دیده می‌شود."
+    },
+    "caption": {
+      "en": "A small group poses beneath a boat canopy, with bright water behind them.",
+      "fa": "گروهی کوچک زیر سایبان قایق برای عکس ایستاده‌اند و آب روشن پشت سرشان دیده می‌شود."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-060",
+    "src": "/media/collections/boat-outing-image-060.webp",
+    "thumbnail": "/media/collections/boat-outing-image-060-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People gather beneath a boat canopy, some leaning into the foreground for a group photograph.",
+      "fa": "چند نفر زیر سایبان قایق جمع شده‌اند و بعضی برای عکس گروهی به جلوی تصویر آمده‌اند."
+    },
+    "caption": {
+      "en": "People gather beneath a boat canopy, some leaning into the foreground for a group photograph.",
+      "fa": "چند نفر زیر سایبان قایق جمع شده‌اند و بعضی برای عکس گروهی به جلوی تصویر آمده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-061",
+    "src": "/media/collections/boat-outing-image-061.webp",
+    "thumbnail": "/media/collections/boat-outing-image-061-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People stand close together on a crowded covered boat deck.",
+      "fa": "چند نفر روی عرشهٔ سرپوشیده و شلوغ قایق نزدیک هم ایستاده‌اند."
+    },
+    "caption": {
+      "en": "People stand close together on a crowded covered boat deck.",
+      "fa": "چند نفر روی عرشهٔ سرپوشیده و شلوغ قایق نزدیک هم ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-062",
+    "src": "/media/collections/boat-outing-image-062.webp",
+    "thumbnail": "/media/collections/boat-outing-image-062-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group faces the camera beneath the blue roof of a boat deck.",
+      "fa": "گروهی زیر سقف آبی عرشهٔ قایق رو به دوربین ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A group faces the camera beneath the blue roof of a boat deck.",
+      "fa": "گروهی زیر سقف آبی عرشهٔ قایق رو به دوربین ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-063",
+    "src": "/media/collections/boat-outing-image-063.webp",
+    "thumbnail": "/media/collections/boat-outing-image-063-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses beneath a boat canopy, with several people crouching at the front.",
+      "fa": "گروهی بزرگ زیر سایبان قایق برای عکس قرار گرفته‌اند و چند نفر در جلو نشسته‌اند."
+    },
+    "caption": {
+      "en": "A large group poses beneath a boat canopy, with several people crouching at the front.",
+      "fa": "گروهی بزرگ زیر سایبان قایق برای عکس قرار گرفته‌اند و چند نفر در جلو نشسته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-064",
+    "src": "/media/collections/boat-outing-image-064.webp",
+    "thumbnail": "/media/collections/boat-outing-image-064-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses closely together on a covered boat deck.",
+      "fa": "گروهی بزرگ روی عرشهٔ سرپوشیدهٔ قایق نزدیک هم برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A large group poses closely together on a covered boat deck.",
+      "fa": "گروهی بزرگ روی عرشهٔ سرپوشیدهٔ قایق نزدیک هم برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-065",
+    "src": "/media/collections/boat-outing-image-065.webp",
+    "thumbnail": "/media/collections/boat-outing-image-065-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People gather under a boat canopy, with an attendee raising an arm at the back.",
+      "fa": "چند نفر زیر سایبان قایق جمع شده‌اند و فردی در عقب تصویر دستش را بالا برده است."
+    },
+    "caption": {
+      "en": "People gather under a boat canopy, with an attendee raising an arm at the back.",
+      "fa": "چند نفر زیر سایبان قایق جمع شده‌اند و فردی در عقب تصویر دستش را بالا برده است."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-066",
+    "src": "/media/collections/boat-outing-image-066.webp",
+    "thumbnail": "/media/collections/boat-outing-image-066-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 922,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A small group poses together on the open part of a boat deck.",
+      "fa": "گروهی کوچک در بخش روباز عرشهٔ قایق کنار هم برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A small group poses together on the open part of a boat deck.",
+      "fa": "گروهی کوچک در بخش روباز عرشهٔ قایق کنار هم برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-067",
+    "src": "/media/collections/boat-outing-image-067.webp",
+    "thumbnail": "/media/collections/boat-outing-image-067-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 853,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Four people pose together in warm sunlight on a boat.",
+      "fa": "چهار نفر در نور گرم آفتاب روی قایق کنار هم برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "Four people pose together in warm sunlight on a boat.",
+      "fa": "چهار نفر در نور گرم آفتاب روی قایق کنار هم برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-068",
+    "src": "/media/collections/boat-outing-image-068.webp",
+    "thumbnail": "/media/collections/boat-outing-image-068-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses at the end of a boat, with open water and the setting sun behind them.",
+      "fa": "گروهی بزرگ در انتهای قایق برای عکس قرار گرفته‌اند و آب و خورشید در حال غروب پشت سرشان دیده می‌شود."
+    },
+    "caption": {
+      "en": "A large group poses at the end of a boat, with open water and the setting sun behind them.",
+      "fa": "گروهی بزرگ در انتهای قایق برای عکس قرار گرفته‌اند و آب و خورشید در حال غروب پشت سرشان دیده می‌شود."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-069",
+    "src": "/media/collections/boat-outing-image-069.webp",
+    "thumbnail": "/media/collections/boat-outing-image-069-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A wide group photograph on a boat, with the sun low over the water.",
+      "fa": "عکسی گروهی با نمای باز روی قایق، با خورشید نزدیک افق روی آب."
+    },
+    "caption": {
+      "en": "A wide group photograph on a boat, with the sun low over the water.",
+      "fa": "عکسی گروهی با نمای باز روی قایق، با خورشید نزدیک افق روی آب."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-070",
+    "src": "/media/collections/boat-outing-image-070.webp",
+    "thumbnail": "/media/collections/boat-outing-image-070-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group stands behind a boat rail as the sun sets over the water.",
+      "fa": "گروهی پشت نردهٔ قایق ایستاده‌اند و خورشید روی آب غروب می‌کند."
+    },
+    "caption": {
+      "en": "A group stands behind a boat rail as the sun sets over the water.",
+      "fa": "گروهی پشت نردهٔ قایق ایستاده‌اند و خورشید روی آب غروب می‌کند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "boat-outing-image-071",
+    "src": "/media/collections/boat-outing-image-071.webp",
+    "thumbnail": "/media/collections/boat-outing-image-071-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group looks up toward the camera on a boat, with sunlight reflected on the water behind them.",
+      "fa": "گروهی روی قایق رو به دوربین بالای سرشان نگاه می‌کنند و نور آفتاب روی آب پشت سرشان افتاده است."
+    },
+    "caption": {
+      "en": "A group looks up toward the camera on a boat, with sunlight reflected on the water behind them.",
+      "fa": "گروهی روی قایق رو به دوربین بالای سرشان نگاه می‌کنند و نور آفتاب روی آب پشت سرشان افتاده است."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "indoor-community-gathering-image-072",
+    "src": "/media/collections/indoor-community-gathering-image-072.webp",
+    "thumbnail": "/media/collections/indoor-community-gathering-image-072-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses in rows in a meeting room beneath a wall-mounted screen.",
+      "fa": "گروهی بزرگ در چند ردیف، زیر نمایشگر دیواری یک اتاق، برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A large group poses in rows in a meeting room beneath a wall-mounted screen.",
+      "fa": "گروهی بزرگ در چند ردیف، زیر نمایشگر دیواری یک اتاق، برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "indoor-community-gathering-image-073",
+    "src": "/media/collections/indoor-community-gathering-image-073.webp",
+    "thumbnail": "/media/collections/indoor-community-gathering-image-073-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People stand and sit together for a wide group photograph in a meeting room.",
+      "fa": "چند نفر در یک اتاق، ایستاده و نشسته، برای عکس گروهی با نمای باز قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "People stand and sit together for a wide group photograph in a meeting room.",
+      "fa": "چند نفر در یک اتاق، ایستاده و نشسته، برای عکس گروهی با نمای باز قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "indoor-community-gathering-image-074",
+    "src": "/media/collections/indoor-community-gathering-image-074.webp",
+    "thumbnail": "/media/collections/indoor-community-gathering-image-074-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Attendees sit around tables and face the camera in a meeting room.",
+      "fa": "شرکت‌کنندگان در یک اتاق دور میزها نشسته‌اند و رو به دوربین دارند."
+    },
+    "caption": {
+      "en": "Attendees sit around tables and face the camera in a meeting room.",
+      "fa": "شرکت‌کنندگان در یک اتاق دور میزها نشسته‌اند و رو به دوربین دارند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-075",
+    "src": "/media/collections/beach-gatherings-image-075.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-075-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 1278,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People pose behind a glowing fire pit on the sand at night.",
+      "fa": "چند نفر شب‌هنگام پشت آتش روشن در ساحل برای عکس ایستاده‌اند."
+    },
+    "caption": {
+      "en": "People pose behind a glowing fire pit on the sand at night.",
+      "fa": "چند نفر شب‌هنگام پشت آتش روشن در ساحل برای عکس ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-076",
+    "src": "/media/collections/beach-gatherings-image-076.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-076-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 962,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses closely together beside a beach fire at night.",
+      "fa": "گروهی شب‌هنگام کنار آتش ساحل، نزدیک هم برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A group poses closely together beside a beach fire at night.",
+      "fa": "گروهی شب‌هنگام کنار آتش ساحل، نزدیک هم برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-077",
+    "src": "/media/collections/beach-gatherings-image-077.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-077-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 962,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Several people stand shoulder to shoulder, their faces lit by a nearby fire.",
+      "fa": "چند نفر شانه‌به‌شانه ایستاده‌اند و نور آتش نزدیکشان به چهره‌هایشان افتاده است."
+    },
+    "caption": {
+      "en": "Several people stand shoulder to shoulder, their faces lit by a nearby fire.",
+      "fa": "چند نفر شانه‌به‌شانه ایستاده‌اند و نور آتش نزدیکشان به چهره‌هایشان افتاده است."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-078",
+    "src": "/media/collections/beach-gatherings-image-078.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-078-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 962,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group stands and crouches around a glowing fire pit on the beach.",
+      "fa": "گروهی دور آتش روشن ساحل، ایستاده و نشسته، برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A group stands and crouches around a glowing fire pit on the beach.",
+      "fa": "گروهی دور آتش روشن ساحل، ایستاده و نشسته، برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-079",
+    "src": "/media/collections/beach-gatherings-image-079.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-079-small.webp",
+    "kind": "photo",
+    "width": 962,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People stand around a beach fire, with the flames bright in the foreground.",
+      "fa": "چند نفر دور آتش ساحل ایستاده‌اند و شعله‌ها در جلوی تصویر روشن‌اند."
+    },
+    "caption": {
+      "en": "People stand around a beach fire, with the flames bright in the foreground.",
+      "fa": "چند نفر دور آتش ساحل ایستاده‌اند و شعله‌ها در جلوی تصویر روشن‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-080",
+    "src": "/media/collections/beach-gatherings-image-080.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-080-small.webp",
+    "kind": "photo",
+    "width": 962,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Several people stand together on the dark beach near a fire.",
+      "fa": "چند نفر در ساحل تاریک، نزدیک آتش، کنار هم ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Several people stand together on the dark beach near a fire.",
+      "fa": "چند نفر در ساحل تاریک، نزدیک آتش، کنار هم ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-081",
+    "src": "/media/collections/beach-gatherings-image-081.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-081-small.webp",
+    "kind": "photo",
+    "width": 962,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People sit in a circle around a beach fire at night, with palm trees and lights behind them.",
+      "fa": "چند نفر شب‌هنگام دور آتش ساحل نشسته‌اند و نخل‌ها و چراغ‌ها پشت سرشان دیده می‌شوند."
+    },
+    "caption": {
+      "en": "People sit in a circle around a beach fire at night, with palm trees and lights behind them.",
+      "fa": "چند نفر شب‌هنگام دور آتش ساحل نشسته‌اند و نخل‌ها و چراغ‌ها پشت سرشان دیده می‌شوند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-082",
+    "src": "/media/collections/beach-gatherings-image-082.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-082-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 962,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group sits and stands beside a bright, smoky fire on the sand.",
+      "fa": "گروهی کنار آتش روشن و پردود روی شن‌ها، نشسته و ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A group sits and stands beside a bright, smoky fire on the sand.",
+      "fa": "گروهی کنار آتش روشن و پردود روی شن‌ها، نشسته و ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gatherings-image-083",
+    "src": "/media/collections/beach-gatherings-image-083.webp",
+    "thumbnail": "/media/collections/beach-gatherings-image-083-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses on the sand around a small fire at night.",
+      "fa": "گروهی بزرگ شب‌هنگام روی شن‌ها دور آتشی کوچک برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A large group poses on the sand around a small fire at night.",
+      "fa": "گروهی بزرگ شب‌هنگام روی شن‌ها دور آتشی کوچک برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "costume-and-karaoke-image-084",
+    "src": "/media/collections/costume-and-karaoke-image-084.webp",
+    "thumbnail": "/media/collections/costume-and-karaoke-image-084-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People in assorted costumes pose in a meeting room under colored light spots.",
+      "fa": "چند نفر با لباس‌های نمایشی گوناگون، زیر لکه‌های نور رنگی یک اتاق، برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "People in assorted costumes pose in a meeting room under colored light spots.",
+      "fa": "چند نفر با لباس‌های نمایشی گوناگون، زیر لکه‌های نور رنگی یک اتاق، برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "costume-and-karaoke-image-085",
+    "src": "/media/collections/costume-and-karaoke-image-085.webp",
+    "thumbnail": "/media/collections/costume-and-karaoke-image-085-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 787,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group in assorted costumes poses in standing and seated rows in a meeting room.",
+      "fa": "گروهی بزرگ با لباس‌های نمایشی گوناگون در چند ردیف ایستاده و نشستهٔ یک اتاق برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A large group in assorted costumes poses in standing and seated rows in a meeting room.",
+      "fa": "گروهی بزرگ با لباس‌های نمایشی گوناگون در چند ردیف ایستاده و نشستهٔ یک اتاق برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "costume-and-karaoke-image-086",
+    "src": "/media/collections/costume-and-karaoke-image-086.webp",
+    "thumbnail": "/media/collections/costume-and-karaoke-image-086-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 763,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A wide group photograph of people in costumes, with a few attendees seated in front.",
+      "fa": "عکس گروهی با نمای باز از افرادی با لباس‌های نمایشی، با چند نفر نشسته در جلو."
+    },
+    "caption": {
+      "en": "A wide group photograph of people in costumes, with a few attendees seated in front.",
+      "fa": "عکس گروهی با نمای باز از افرادی با لباس‌های نمایشی، با چند نفر نشسته در جلو."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "costume-and-karaoke-image-087",
+    "src": "/media/collections/costume-and-karaoke-image-087.webp",
+    "thumbnail": "/media/collections/costume-and-karaoke-image-087-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 1003,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People in costumes pose together, with several seated or crouching at the front.",
+      "fa": "چند نفر با لباس‌های نمایشی کنار هم برای عکس قرار گرفته‌اند و بعضی در جلو نشسته‌اند."
+    },
+    "caption": {
+      "en": "People in costumes pose together, with several seated or crouching at the front.",
+      "fa": "چند نفر با لباس‌های نمایشی کنار هم برای عکس قرار گرفته‌اند و بعضی در جلو نشسته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "costume-and-karaoke-image-088",
+    "src": "/media/collections/costume-and-karaoke-image-088.webp",
+    "thumbnail": "/media/collections/costume-and-karaoke-image-088-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses beneath colored party lights in a meeting room.",
+      "fa": "گروهی بزرگ زیر نورهای رنگی یک اتاق برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A large group poses beneath colored party lights in a meeting room.",
+      "fa": "گروهی بزرگ زیر نورهای رنگی یک اتاق برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "costume-and-karaoke-image-089",
+    "src": "/media/collections/costume-and-karaoke-image-089.webp",
+    "thumbnail": "/media/collections/costume-and-karaoke-image-089-small.webp",
+    "kind": "photo",
+    "width": 962,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A person holds a microphone beside a seated attendee in a room dotted with colored lights.",
+      "fa": "فردی کنار یکی از حاضران که نشسته است میکروفون در دست دارد و نورهای رنگی روی دیوار دیده می‌شوند."
+    },
+    "caption": {
+      "en": "A person holds a microphone beside a seated attendee in a room dotted with colored lights.",
+      "fa": "فردی کنار یکی از حاضران که نشسته است میکروفون در دست دارد و نورهای رنگی روی دیوار دیده می‌شوند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "costume-and-karaoke-image-090",
+    "src": "/media/collections/costume-and-karaoke-image-090.webp",
+    "thumbnail": "/media/collections/costume-and-karaoke-image-090-small.webp",
+    "kind": "photo",
+    "width": 962,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An attendee in a checked shirt with the hood up stands with folded arms.",
+      "fa": "یکی از حاضران با پیراهن چهارخانه و کلاه سویشرت روی سر، با دست‌های روی سینه ایستاده است."
+    },
+    "caption": {
+      "en": "An attendee in a checked shirt with the hood up stands with folded arms.",
+      "fa": "یکی از حاضران با پیراهن چهارخانه و کلاه سویشرت روی سر، با دست‌های روی سینه ایستاده است."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-video-091",
+    "src": "/media/collections/community-meals-video-091.mp4",
+    "kind": "video",
+    "videoPoster": "/media/collections/community-meals-video-091-poster.webp",
+    "width": 720,
+    "height": 1280,
+    "duration": 7.5,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Silent web version: the camera moves along a buffet table, showing people serving food, warming trays, salad and drinks.",
+      "fa": "نسخهٔ بی‌صدای وب: دوربین در طول میز بوفه حرکت می‌کند و افرادی در حال کشیدن غذا، ظرف‌های گرم‌کن، سالاد و نوشیدنی‌ها را نشان می‌دهد."
+    },
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A vertical video follows people and trays of food along a buffet table.",
+      "fa": "فیلمی عمودی، افراد و ظرف‌های غذا را در طول میز بوفه نشان می‌دهد."
+    },
+    "caption": {
+      "en": "Along the buffet, from serving trays to salad and drinks.",
+      "fa": "در طول میز بوفه، از ظرف‌های غذا تا سالاد و نوشیدنی‌ها."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-video-092",
+    "src": "/media/collections/community-meals-video-092.mp4",
+    "kind": "video",
+    "videoPoster": "/media/collections/community-meals-video-092-poster.webp",
+    "width": 720,
+    "height": 1280,
+    "duration": 9.633333,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Silent web version: a close view moves from one tray of food to the next, ending with salad bowls and rows of drinks.",
+      "fa": "نسخهٔ بی‌صدای وب: نمای نزدیک از یک ظرف غذا به ظرف بعدی می‌رود و در پایان کاسه‌های سالاد و ردیف نوشیدنی‌ها را نشان می‌دهد."
+    },
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A close view moves along warming trays, salads and drinks at a buffet.",
+      "fa": "نمای نزدیک از ظرف‌های گرم‌کن، سالادها و نوشیدنی‌های روی میز بوفه می‌گذرد."
+    },
+    "caption": {
+      "en": "A closer look at dishes set out for a shared meal.",
+      "fa": "نمای نزدیک از غذاهای آمادهٔ یک وعده در کنار هم."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-video-093",
+    "src": "/media/collections/community-meals-video-093.mp4",
+    "kind": "video",
+    "videoPoster": "/media/collections/community-meals-video-093-poster.webp",
+    "width": 720,
+    "height": 1280,
+    "duration": 9.733333,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Silent web version: the camera turns from the buffet queue toward round tables where attendees sit and talk.",
+      "fa": "نسخهٔ بی‌صدای وب: دوربین از صف بوفه به سمت میزهای گرد می‌چرخد؛ شرکت‌کنندگان پشت میزها نشسته‌اند و صحبت می‌کنند."
+    },
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A vertical video moves from a buffet queue across a hall of diners.",
+      "fa": "فیلمی عمودی از صف بوفه به سمت حاضران در سالن غذاخوری می‌چرخد."
+    },
+    "caption": {
+      "en": "From the buffet queue to the tables across the hall.",
+      "fa": "از صف بوفه تا میزهای بخش‌های دیگر سالن."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-video-094",
+    "src": "/media/collections/community-meals-video-094.mp4",
+    "kind": "video",
+    "videoPoster": "/media/collections/community-meals-video-094-poster.webp",
+    "width": 720,
+    "height": 1280,
+    "duration": 6.633333,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Silent web version: the camera moves along warming trays, showing several dishes and serving utensils.",
+      "fa": "نسخهٔ بی‌صدای وب: دوربین در طول ظرف‌های گرم‌کن حرکت می‌کند و چند نوع غذا و وسایل کشیدن غذا را نشان می‌دهد."
+    },
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A vertical close-up moves along several trays of food at a buffet.",
+      "fa": "نمای نزدیک عمودی از چند ظرف غذا روی میز بوفه می‌گذرد."
+    },
+    "caption": {
+      "en": "A sweep along the warming trays and serving dishes.",
+      "fa": "گشتی در امتداد ظرف‌های گرم‌کن و غذاهای روی میز."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-095",
+    "src": "/media/collections/community-meals-image-095.webp",
+    "thumbnail": "/media/collections/community-meals-image-095-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group sits around a red-covered table with plates of food.",
+      "fa": "گروهی دور میزی با رومیزی قرمز و بشقاب‌های غذا نشسته‌اند."
+    },
+    "caption": {
+      "en": "A group sits around a red-covered table with plates of food.",
+      "fa": "گروهی دور میزی با رومیزی قرمز و بشقاب‌های غذا نشسته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-096",
+    "src": "/media/collections/community-meals-image-096.webp",
+    "thumbnail": "/media/collections/community-meals-image-096-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Attendees talk at red-covered tables in a brightly lit hall.",
+      "fa": "شرکت‌کنندگان در سالنی روشن، دور میزهایی با رومیزی قرمز با هم صحبت می‌کنند."
+    },
+    "caption": {
+      "en": "Attendees talk at red-covered tables in a brightly lit hall.",
+      "fa": "شرکت‌کنندگان در سالنی روشن، دور میزهایی با رومیزی قرمز با هم صحبت می‌کنند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-097",
+    "src": "/media/collections/community-meals-image-097.webp",
+    "thumbnail": "/media/collections/community-meals-image-097-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People sit and talk at round tables, with a blank projection screen above them.",
+      "fa": "چند نفر دور میزهای گرد نشسته‌اند و صحبت می‌کنند و پردهٔ نمایش خالی بالای سرشان است."
+    },
+    "caption": {
+      "en": "People sit and talk at round tables, with a blank projection screen above them.",
+      "fa": "چند نفر دور میزهای گرد نشسته‌اند و صحبت می‌کنند و پردهٔ نمایش خالی بالای سرشان است."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-098",
+    "src": "/media/collections/community-meals-image-098.webp",
+    "thumbnail": "/media/collections/community-meals-image-098-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People gather at round tables near a whiteboard during a meal.",
+      "fa": "چند نفر هنگام غذا خوردن دور میزهای گرد نزدیک تختهٔ سفید جمع شده‌اند."
+    },
+    "caption": {
+      "en": "People gather at round tables near a whiteboard during a meal.",
+      "fa": "چند نفر هنگام غذا خوردن دور میزهای گرد نزدیک تختهٔ سفید جمع شده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-099",
+    "src": "/media/collections/community-meals-image-099.webp",
+    "thumbnail": "/media/collections/community-meals-image-099-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Attendees serve food from covered warming trays along a buffet table.",
+      "fa": "شرکت‌کنندگان از ظرف‌های گرم‌کن غذا روی میز بوفه برای خود غذا می‌کشند."
+    },
+    "caption": {
+      "en": "Attendees serve food from covered warming trays along a buffet table.",
+      "fa": "شرکت‌کنندگان از ظرف‌های گرم‌کن غذا روی میز بوفه برای خود غذا می‌کشند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-100",
+    "src": "/media/collections/community-meals-image-100.webp",
+    "thumbnail": "/media/collections/community-meals-image-100-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People move between dining tables and a buffet in a large hall.",
+      "fa": "چند نفر در سالنی بزرگ بین میزهای غذا و بوفه رفت‌وآمد می‌کنند."
+    },
+    "caption": {
+      "en": "People move between dining tables and a buffet in a large hall.",
+      "fa": "چند نفر در سالنی بزرگ بین میزهای غذا و بوفه رفت‌وآمد می‌کنند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-101",
+    "src": "/media/collections/community-meals-image-101.webp",
+    "thumbnail": "/media/collections/community-meals-image-101-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Attendees talk around a white-covered table near the glass doors of a hall.",
+      "fa": "شرکت‌کنندگان دور میزی با رومیزی سفید، نزدیک درهای شیشه‌ای سالن، با هم صحبت می‌کنند."
+    },
+    "caption": {
+      "en": "Attendees talk around a white-covered table near the glass doors of a hall.",
+      "fa": "شرکت‌کنندگان دور میزی با رومیزی سفید، نزدیک درهای شیشه‌ای سالن، با هم صحبت می‌کنند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-102",
+    "src": "/media/collections/community-meals-image-102.webp",
+    "thumbnail": "/media/collections/community-meals-image-102-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Three people pose at a round table with plates of food in front of them.",
+      "fa": "سه نفر دور میزی گرد با بشقاب‌های غذا در جلویشان، برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "Three people pose at a round table with plates of food in front of them.",
+      "fa": "سه نفر دور میزی گرد با بشقاب‌های غذا در جلویشان، برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-103",
+    "src": "/media/collections/community-meals-image-103.webp",
+    "thumbnail": "/media/collections/community-meals-image-103-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people stand near the warming trays at a buffet table.",
+      "fa": "دو نفر نزدیک ظرف‌های گرم‌کن روی میز بوفه ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Two people stand near the warming trays at a buffet table.",
+      "fa": "دو نفر نزدیک ظرف‌های گرم‌کن روی میز بوفه ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-104",
+    "src": "/media/collections/community-meals-image-104.webp",
+    "thumbnail": "/media/collections/community-meals-image-104-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Three people pose together at a white-covered dining table.",
+      "fa": "سه نفر کنار هم دور میزی با رومیزی سفید برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "Three people pose together at a white-covered dining table.",
+      "fa": "سه نفر کنار هم دور میزی با رومیزی سفید برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-105",
+    "src": "/media/collections/community-meals-image-105.webp",
+    "thumbnail": "/media/collections/community-meals-image-105-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Three people sit beside one another at a round dining table.",
+      "fa": "سه نفر کنار هم دور یک میز گرد غذاخوری نشسته‌اند."
+    },
+    "caption": {
+      "en": "Three people sit beside one another at a round dining table.",
+      "fa": "سه نفر کنار هم دور یک میز گرد غذاخوری نشسته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-106",
+    "src": "/media/collections/community-meals-image-106.webp",
+    "thumbnail": "/media/collections/community-meals-image-106-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two attendees pose together with plates of food on the table.",
+      "fa": "دو نفر از حاضران کنار هم برای عکس قرار گرفته‌اند و بشقاب‌های غذا روی میز است."
+    },
+    "caption": {
+      "en": "Two attendees pose together with plates of food on the table.",
+      "fa": "دو نفر از حاضران کنار هم برای عکس قرار گرفته‌اند و بشقاب‌های غذا روی میز است."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-107",
+    "src": "/media/collections/community-meals-image-107.webp",
+    "thumbnail": "/media/collections/community-meals-image-107-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Four people pose around a red-covered dining table.",
+      "fa": "چهار نفر دور میزی با رومیزی قرمز برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "Four people pose around a red-covered dining table.",
+      "fa": "چهار نفر دور میزی با رومیزی قرمز برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-108",
+    "src": "/media/collections/community-meals-image-108.webp",
+    "thumbnail": "/media/collections/community-meals-image-108-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses around a white-covered table, with more diners behind them.",
+      "fa": "گروهی دور میزی با رومیزی سفید برای عکس قرار گرفته‌اند و افراد دیگری پشت سرشان غذا می‌خورند."
+    },
+    "caption": {
+      "en": "A group poses around a white-covered table, with more diners behind them.",
+      "fa": "گروهی دور میزی با رومیزی سفید برای عکس قرار گرفته‌اند و افراد دیگری پشت سرشان غذا می‌خورند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-109",
+    "src": "/media/collections/community-meals-image-109.webp",
+    "thumbnail": "/media/collections/community-meals-image-109-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two attendees sit side by side at a red-covered table.",
+      "fa": "دو نفر از حاضران کنار هم پشت میزی با رومیزی قرمز نشسته‌اند."
+    },
+    "caption": {
+      "en": "Two attendees sit side by side at a red-covered table.",
+      "fa": "دو نفر از حاضران کنار هم پشت میزی با رومیزی قرمز نشسته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-110",
+    "src": "/media/collections/community-meals-image-110.webp",
+    "thumbnail": "/media/collections/community-meals-image-110-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group poses around a red-covered table beneath a projection screen.",
+      "fa": "گروهی دور میزی با رومیزی قرمز، زیر پردهٔ نمایش، برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A group poses around a red-covered table beneath a projection screen.",
+      "fa": "گروهی دور میزی با رومیزی قرمز، زیر پردهٔ نمایش، برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-111",
+    "src": "/media/collections/community-meals-image-111.webp",
+    "thumbnail": "/media/collections/community-meals-image-111-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "People pose around a red-covered table, with other attendees seated across the hall.",
+      "fa": "چند نفر دور میزی با رومیزی قرمز برای عکس قرار گرفته‌اند و دیگران در بخش‌های دیگر سالن نشسته‌اند."
+    },
+    "caption": {
+      "en": "People pose around a red-covered table, with other attendees seated across the hall.",
+      "fa": "چند نفر دور میزی با رومیزی قرمز برای عکس قرار گرفته‌اند و دیگران در بخش‌های دیگر سالن نشسته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-112",
+    "src": "/media/collections/community-meals-image-112.webp",
+    "thumbnail": "/media/collections/community-meals-image-112-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two adults and two children pose at a table with snacks and small toys.",
+      "fa": "دو بزرگسال و دو کودک پشت میزی با خوراکی و اسباب‌بازی‌های کوچک برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "Two adults and two children pose at a table with snacks and small toys.",
+      "fa": "دو بزرگسال و دو کودک پشت میزی با خوراکی و اسباب‌بازی‌های کوچک برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-113",
+    "src": "/media/collections/community-meals-image-113.webp",
+    "thumbnail": "/media/collections/community-meals-image-113-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A person stands with arms outstretched behind a red-covered table with an open laptop.",
+      "fa": "فردی با دست‌های باز پشت میزی با رومیزی قرمز و لپ‌تاپی باز ایستاده است."
+    },
+    "caption": {
+      "en": "A person stands with arms outstretched behind a red-covered table with an open laptop.",
+      "fa": "فردی با دست‌های باز پشت میزی با رومیزی قرمز و لپ‌تاپی باز ایستاده است."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-114",
+    "src": "/media/collections/community-meals-image-114.webp",
+    "thumbnail": "/media/collections/community-meals-image-114-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people stand by a buffet table, one looking down at a phone.",
+      "fa": "دو نفر کنار میز بوفه ایستاده‌اند و یکی از آن‌ها به تلفنش نگاه می‌کند."
+    },
+    "caption": {
+      "en": "Two people stand by a buffet table, one looking down at a phone.",
+      "fa": "دو نفر کنار میز بوفه ایستاده‌اند و یکی از آن‌ها به تلفنش نگاه می‌کند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-115",
+    "src": "/media/collections/community-meals-image-115.webp",
+    "thumbnail": "/media/collections/community-meals-image-115-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group sits around a dining table, with many more tables filling the hall.",
+      "fa": "گروهی دور میز غذا نشسته‌اند و میزهای دیگری هم در سالن دیده می‌شوند."
+    },
+    "caption": {
+      "en": "A group sits around a dining table, with many more tables filling the hall.",
+      "fa": "گروهی دور میز غذا نشسته‌اند و میزهای دیگری هم در سالن دیده می‌شوند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-116",
+    "src": "/media/collections/community-meals-image-116.webp",
+    "thumbnail": "/media/collections/community-meals-image-116-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people stand behind trays of food at a buffet.",
+      "fa": "دو نفر پشت ظرف‌های غذا در بوفه ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Two people stand behind trays of food at a buffet.",
+      "fa": "دو نفر پشت ظرف‌های غذا در بوفه ایستاده‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-meals-image-117",
+    "src": "/media/collections/community-meals-image-117.webp",
+    "thumbnail": "/media/collections/community-meals-image-117-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A small group poses for a close group selfie indoors.",
+      "fa": "گروهی کوچک در فضای داخلی برای سلفی گروهی نزدیک هم قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A small group poses for a close group selfie indoors.",
+      "fa": "گروهی کوچک در فضای داخلی برای سلفی گروهی نزدیک هم قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "group-portraits-image-118",
+    "src": "/media/collections/group-portraits-image-118.webp",
+    "thumbnail": "/media/collections/group-portraits-image-118-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses with raised cups in a hall with circular ceiling lights.",
+      "fa": "گروهی بزرگ در سالنی با چراغ‌های حلقه‌ای سقف، لیوان‌هایشان را بالا گرفته‌اند و برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A large group poses with raised cups in a hall with circular ceiling lights.",
+      "fa": "گروهی بزرگ در سالنی با چراغ‌های حلقه‌ای سقف، لیوان‌هایشان را بالا گرفته‌اند و برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "watching-football-image-119",
+    "src": "/media/collections/watching-football-image-119.webp",
+    "thumbnail": "/media/collections/watching-football-image-119-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Attendees sit around tables facing a projected football match in a dim room.",
+      "fa": "شرکت‌کنندگان در اتاقی کم‌نور دور میزها نشسته‌اند و مسابقهٔ فوتبال را روی پرده تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Attendees sit around tables facing a projected football match in a dim room.",
+      "fa": "شرکت‌کنندگان در اتاقی کم‌نور دور میزها نشسته‌اند و مسابقهٔ فوتبال را روی پرده تماشا می‌کنند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "watching-football-image-120",
+    "src": "/media/collections/watching-football-image-120.webp",
+    "thumbnail": "/media/collections/watching-football-image-120-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group watches a projected football match from tables in a darkened room.",
+      "fa": "گروهی در اتاقی تاریک، از پشت میزها مسابقهٔ فوتبال را روی پرده تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "A group watches a projected football match from tables in a darkened room.",
+      "fa": "گروهی در اتاقی تاریک، از پشت میزها مسابقهٔ فوتبال را روی پرده تماشا می‌کنند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "group-portraits-image-121",
+    "src": "/media/collections/group-portraits-image-121.webp",
+    "thumbnail": "/media/collections/group-portraits-image-121-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 960,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses behind long tables in a meeting room.",
+      "fa": "گروهی بزرگ پشت میزهای بلند یک اتاق برای عکس قرار گرفته‌اند."
+    },
+    "caption": {
+      "en": "A large group poses behind long tables in a meeting room.",
+      "fa": "گروهی بزرگ پشت میزهای بلند یک اتاق برای عکس قرار گرفته‌اند."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
   }
 ]

@@ -34,11 +34,23 @@ Edit `src/data/people.json` for stable public names. Roles and Telegram contacts
 
 For a new current term, mark the old term `former`, add the approved memberships, update `organization.currentBoardTermId` and synchronize `organization.currentBoard` in `src/data/organization.json`. Each term receives a page automatically; previous term URLs remain available. Do not infer continuous membership dates, biographies or portraits. Run validation before previewing both the current and former term pages.
 
-## Attach a photograph
+## Publish photographs and collections
 
-Select an image with publication permission, a public credit and a known event context. Retain permission evidence and the original in controlled storage. Create small web derivatives, strip location metadata, preserve required visible credits and record dimensions. Avoid cropping faces without checking the result.
+Select an image with publication permission and supported context. It may belong to a known event or an undated collection. Folder names and filenames do not establish event dates. Retain permission evidence and the original in controlled storage. Create web derivatives and smaller thumbnails, strip location metadata, preserve required visible credits and record dimensions. Avoid cropping faces without checking the result.
 
-Add a `MediaRecord` in `src/data/media.json`. Its local `src`, dimensions, focal point, alternative text, caption and credit describe the actual derivative. Mark it published and approved only after the decision has been made. Reference its ID in the event gallery or hero field. Preview the image at narrow and wide widths, test the viewer with Escape and verify focus returns to the opening link. A media record does not itself establish permission.
+Add a `MediaRecord` in `src/data/media.json`. Its local `src`, dimensions, focal point, English and Persian alternative text, caption and credit describe the actual derivative. Use `thumbnail` for a smaller preview and `kind: "poster"` for artwork that should appear in full. Record the photographer's credit when known; otherwise use `Photographer not recorded.` rather than inventing a name or courtesy claim. Keep historical poster times and registration instructions in their original context.
+
+Mark the record published and approved only after the publication decision. Reference its ID in the event gallery or hero field only when that association is supported; otherwise leave `eventId` null. For a collection, add a record in `src/data/mediaCollections.json` with a stable ID, English and Persian title, description and note, a `coverId`, ordered `mediaIds` and any supported `eventIds`. An undated collection can have an empty event list. Grouping images does not establish a new event or its date.
+
+Preview the collection and its images at narrow and wide widths. Test the viewer with Escape and verify focus returns to the opening link. Check captions, visible credits and image proportions. A media record does not itself establish permission.
+
+## Publish a video
+
+Review the approved clip and its audio. Create an MP4 web derivative and a WebP poster frame, then add a media record with `kind: "video"`, the local `src`, `videoPoster`, actual width and height, and duration in seconds. Include English and Persian alt text, a distinct scene caption and a descriptive text in `transcript`. Use a known videographer credit, or `Videographer not recorded.` when it is unknown. Add the video ID to its collection's `mediaIds`.
+
+Set `audioContent` to match the public file. For a silent web version, use `silent` and explicitly describe it as a silent web version in both descriptive texts. A muted derivative does not mean the original was silent. Retain the original recording in controlled storage. If publishing audible speech, provide accurate English and Persian timed WebVTT files through `captions`, and check them against the audio. Describe relevant sounds and visual action without inventing dialogue.
+
+Play every public video from beginning to end. Check duration, poster loading, keyboard controls, mobile playback, the audio label and both language descriptions. Confirm the actual public file has the intended audio before release.
 
 ## Resources and partners
 

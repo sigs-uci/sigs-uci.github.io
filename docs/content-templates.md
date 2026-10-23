@@ -1,6 +1,6 @@
 # Public content fields
 
-These templates describe records, not events to publish. Prepare missing details outside this repository and add the record once its public content is ready. The TypeScript interfaces in `src/data/schema.ts` are the field reference.
+These templates describe records, not events to publish. Prepare missing details outside this repository and add the record once its public content is ready. The TypeScript interfaces in `src/data/schema.ts` are the field reference; `MediaCollection` is defined in `src/lib/media.ts`.
 
 ## Event
 
@@ -41,9 +41,27 @@ Allowed filters are `period` (`all`, `past`, `upcoming`) and `category` (`cultur
 
 ## Media
 
-A `MediaRecord` needs a stable ID, local public asset path, width and height, optional event ID, focal point from 0 to 1, localized alt text and caption, and public credit. Its publication and rights states are separate. Published event pages may reference only published media with approved rights.
+A `MediaRecord` needs a stable ID, local public asset path, width and height, focal point from 0 to 1, English and Persian alt text and caption, and public credit. Use `kind: "photo"`, `"poster"` or `"video"`. Its publication and rights states are separate. Published event pages may reference only published media with approved rights.
 
-An optional `thumbnail` points to a smaller local derivative for gallery previews. Use `kind: "poster"` for a historical poster that should be shown in full. Poster wording and QR codes stay in their dated context; they do not reopen registration. Record the dimensions of the actual public derivative after preparing it.
+Set `eventId` to a supported canonical event ID or null. Unknown names and dates can stay unknown in an undated thematic collection. A filename, folder label or similar-looking room is not enough to establish a date or event association.
+
+Image `src` paths use WebP derivatives. An optional `thumbnail` points to a smaller local WebP file for gallery previews. Use `kind: "poster"` for a historical poster that should be shown in full. Poster wording and QR codes stay in their dated context; they do not reopen registration. Record the dimensions of the actual public derivative after preparing it. Preserve visible credits and use an honest unknown-credit label when the photographer or designer is not recorded.
+
+Video `src` paths use MP4. A published video also needs `videoPoster` pointing to a local WebP frame, positive `duration` in seconds, `audioContent`, and English and Persian descriptive text in `transcript`. `audioContent` describes the public file and accepts `silent`, `ambient`, `music` or `speech`. For an edition with audio removed, both descriptions must say it is a silent web version; do not describe the original as silent. Speech requires reviewed timed WebVTT files in both languages through `captions.en` and `captions.fa`. Alt text labels the clip, the caption identifies its scene, and the description explains relevant visual action and sound.
+
+## Media collection
+
+Add collections in `src/data/mediaCollections.json`. Each record needs:
+
+| Field | What to enter |
+| --- | --- |
+| `id` | A stable lowercase identifier with hyphens, used in the collection URL |
+| `title`, `description`, `note` | English and Persian text, including any uncertainty about dates or event names |
+| `coverId` | A media ID that belongs to this collection |
+| `mediaIds` | The distinct media IDs in display order |
+| `eventIds` | Related published event IDs, or an empty array when no association is established |
+
+Every published, approved media record belongs to exactly one collection. Validation checks that assignment, the cover, both language versions and published media/event references. Collection links can point to related historical context without assigning those events to every photograph. Add an individual `eventId` only when that image's association is supported. Collections do not create dated events or turn archived announcements into documented gatherings.
 
 ## Team term
 

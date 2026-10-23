@@ -22,7 +22,9 @@ Public content lives in `src/data/`. Components and routes read those records ra
 
 The archive has a page for each populated year. Six program profiles connect those records to the wider SIGS story. The campus directory and newcomer guide point to official UCI services, and current and previous team pages preserve each term's roles and contacts.
 
-نسخهٔ فارسی شامل آرشیو رویدادها، معرفی برنامه‌ها، راهنمای دانشجویان تازه‌وارد، منابع دانشگاه و اطلاعات تیم فعلی و قبلی است. برای پیشنهاد اصلاح متن یا اطلاعات، با [sigs@uci.edu](mailto:sigs@uci.edu) تماس بگیرید.
+Memories brings photographs, historical posters and full-length videos into browsable collections, each with English and Persian pages. The videos play with native browser controls as silent web editions, with scene descriptions in both languages. Unconfirmed event names and dates stay unspecified.
+
+نسخهٔ فارسی شامل آرشیو رویدادها، معرفی برنامه‌ها، مجموعه‌های عکس و ویدیوی بی‌صدا، راهنمای دانشجویان تازه‌وارد، منابع دانشگاه و اطلاعات تیم فعلی و قبلی است. برای پیشنهاد اصلاح متن یا اطلاعات، با [sigs@uci.edu](mailto:sigs@uci.edu) تماس بگیرید.
 
 I keep editing instructions in [the officer guide](docs/officer-guide.md), with [content templates](docs/content-templates.md), [architecture notes](docs/architecture.md) and [release instructions](docs/release.md). [Content readiness](docs/content-readiness.md) records the remaining publication decisions.
 
