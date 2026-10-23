@@ -4,7 +4,7 @@ export function setupGallery(root:HTMLElement){
   const controls=Array.from(dialog.querySelectorAll<HTMLButtonElement>('button'));
   const number=new Intl.NumberFormat(document.documentElement.lang,{useGrouping:false});
   let index=0;let origin:HTMLElement|null=null;
-  const show=(n:number)=>{index=(n+links.length)%links.length;const link=links[index];const image=dialog.querySelector<HTMLImageElement>('[data-gallery-image]')!;image.src=link.href;image.alt=link.querySelector('img')?.alt??'';dialog.querySelector('[data-gallery-caption]')!.textContent=link.dataset.caption??'';dialog.querySelector('[data-gallery-count]')!.textContent=`${number.format(index+1)} / ${number.format(links.length)}`;};
+  const show=(n:number)=>{index=(n+links.length)%links.length;const link=links[index];const image=dialog.querySelector<HTMLImageElement>('[data-gallery-image]')!;image.src=link.href;image.alt=link.querySelector('img')?.alt??'';const caption=link.dataset.caption??'';const position=`${number.format(index+1)} / ${number.format(links.length)}`;dialog.querySelector('[data-gallery-caption]')!.textContent=caption;dialog.querySelector('[data-gallery-count]')!.textContent=position;dialog.querySelector('[data-gallery-status]')!.textContent=`${position}. ${caption}`;};
   dialog.querySelector('[data-gallery-close]')?.addEventListener('click',()=>dialog.close());
   dialog.querySelector('[data-gallery-prev]')?.addEventListener('click',()=>show(index-1));
   dialog.querySelector('[data-gallery-next]')?.addEventListener('click',()=>show(index+1));
@@ -19,5 +19,5 @@ export function setupGallery(root:HTMLElement){
     }
   });
   dialog.addEventListener('close',()=>origin?.focus());
-  return(link:HTMLAnchorElement)=>{origin=link;show(links.indexOf(link));dialog.showModal();};
+  return(link:HTMLAnchorElement)=>{origin=link;dialog.showModal();show(links.indexOf(link));};
 }

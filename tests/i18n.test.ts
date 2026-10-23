@@ -105,6 +105,32 @@ test('future participation and lifecycle states have Persian labels before an of
   assert.equal(missing.length, 0, `Missing Persian participation labels: ${missing.join('\n')}`);
 });
 
+test('event role display labels are translated rather than only the stored role codes', async () => {
+  const source = await readFile(new URL('../src/components/EventDetail.astro', import.meta.url), 'utf8');
+  const frontmatter = source.split('---')[1];
+  const parsed = ts.createSourceFile('event-detail.ts', frontmatter, ts.ScriptTarget.Latest);
+  const labels = new Map<string, string>();
+  for (const statement of parsed.statements) if (ts.isVariableStatement(statement)) {
+    for (const declaration of statement.declarationList.declarations) {
+      if (!ts.isIdentifier(declaration.name) || declaration.name.text !== 'roleLabels'
+        || !declaration.initializer || !ts.isObjectLiteralExpression(declaration.initializer)) continue;
+      for (const property of declaration.initializer.properties) {
+        if (ts.isPropertyAssignment(property) && (ts.isIdentifier(property.name) || ts.isStringLiteral(property.name)) && ts.isStringLiteral(property.initializer)) labels.set(property.name.text, property.initializer.text);
+      }
+    }
+  }
+  assert.ok(labels.size > 0, 'The event detail role display map must be checked');
+  for (const event of events.filter(isPublicEvent)) assert.ok(labels.has(event.sigsRole), event.sigsRole);
+  for (const label of labels.values()) assert.match(tr('fa', label), persianText, label);
+});
+
+test('a missing Persian interface message fails before it can become an English public fallback', () => {
+  const message = 'An untranslated isolated interface fixture';
+  assert.equal(tr('en', message), message);
+  assert.throws(() => tr('fa', message), /Missing Persian interface text/);
+  assert.equal(tr('fa', 'برنامهٔ SIGS'), 'برنامهٔ SIGS');
+});
+
 test('published media has Persian alternatives and captions while names and contact links remain shared', () => {
   for (const item of data.media.filter(item => item.publication === 'published' && item.rights === 'approved')) {
     assert.match(item.alt.fa ?? '', persianText, `${item.id}: alternative text`);

@@ -81,6 +81,12 @@ export interface ProgramRecord {
   period: string;
 }
 
+export interface ProgramRelatedLink {
+  label: string;
+  path: string;
+  query?: { period?: 'all' | 'past' | 'upcoming'; category?: EventCategory };
+}
+
 export interface ProgramDetail {
   id: string;
   title: string;
@@ -88,7 +94,7 @@ export interface ProgramDetail {
   periodLabel: string;
   sections: { title: string; paragraphs: string[] }[];
   relatedEventIds: string[];
-  relatedPaths: { label: string; path: string }[];
+  relatedPaths: ProgramRelatedLink[];
   publicContextLinks: { label: string; url: string }[];
 }
 
@@ -336,7 +342,19 @@ export function validatePublicData(data: PublicData): string[] {
     if (![program.title, program.intro, program.periodLabel].every(text => text.trim())) issue(key, 'Title, introduction and period are required');
     if (!program.sections.length || program.sections.some(section => !section.title.trim() || !section.paragraphs.length || section.paragraphs.some(text => !text.trim()))) issue(key, 'Sections need headings and paragraphs');
     program.relatedEventIds.forEach(id => { if (!eventIds.has(id)) issue(key, 'Event reference does not exist'); });
-    program.relatedPaths.forEach(link => { if (!link.label.trim() || !/^[a-z0-9]+(?:[/-][a-z0-9]+)*$/.test(link.path)) issue(key, 'Related links need a label and local page path'); });
+    program.relatedPaths.forEach(link => {
+      if (!link.label.trim() || !/^[a-z0-9]+(?:[/-][a-z0-9]+)*$/.test(link.path)) issue(key, 'Related links need a label and local page path');
+      if (Object.keys(link).some(field => !['label', 'path', 'query'].includes(field))) issue(key, 'Related link contains an unsupported field');
+      if (link.query !== undefined) {
+        if (!['events', 'events/archive'].includes(link.path)) issue(key, 'Event filters can only link to an event listing');
+        if (!link.query || typeof link.query !== 'object' || Array.isArray(link.query) || Object.keys(link.query).length === 0
+          || Object.keys(link.query).some(field => !['period', 'category'].includes(field))) issue(key, 'Related query needs supported event filters');
+        else {
+          if (link.query.period !== undefined && !['all', 'past', 'upcoming'].includes(link.query.period)) issue(key, 'Unknown related event period');
+          if (link.query.category !== undefined && !['culture', 'film-poetry', 'community', 'newcomers', 'professional'].includes(link.query.category)) issue(key, 'Unknown related event category');
+        }
+      }
+    });
     program.publicContextLinks.forEach(link => { if (!link.label.trim() || !publicUrl(link.url)) issue(key, 'Public context links need a label and web URL'); });
   });
   data.programs.forEach(program => { if (!data.programDetails.some(detail => detail.id === program.id)) issue(`programs.${program.id}`, 'Program needs a detail record'); });

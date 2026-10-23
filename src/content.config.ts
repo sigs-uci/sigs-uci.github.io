@@ -33,7 +33,11 @@ const boardTerms = defineCollection({ loader: file('src/data/boardTerms.json'), 
 const programs = defineCollection({ loader: file('src/data/programs.json'), schema: z.object({ id, name: text, summary: text, period: text }) });
 const programDetails = defineCollection({ loader: file('src/data/programDetails.json'), schema: z.object({ id, title: text, intro: text,
   periodLabel: text, sections: z.array(z.object({ title: text, paragraphs: z.array(text).min(1) })).min(1),
-  relatedEventIds: z.array(text), relatedPaths: z.array(z.object({ label: text, path: text })),
+  relatedEventIds: z.array(text), relatedPaths: z.array(z.object({ label: text, path: text,
+    query: z.object({ period: z.enum(['all', 'past', 'upcoming']).optional(),
+      category: z.enum(['culture', 'film-poetry', 'community', 'newcomers', 'professional']).optional() })
+      .strict().refine(query => Object.keys(query).length > 0, 'Event query needs a filter').optional(),
+  }).strict().refine(link => !link.query || ['events', 'events/archive'].includes(link.path), 'Event filters need an event listing')),
   publicContextLinks: z.array(z.object({ label: text, url: z.url() })) }) });
 const milestones = defineCollection({ loader: file('src/data/milestones.json'), schema: z.object({ id, year: z.number().int(), title: text,
   summary: text, eventIds: z.array(text), precision: text }) });

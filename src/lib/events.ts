@@ -120,7 +120,9 @@ export function filtersToQuery(filters: EventFilters): string {
 
 export function filterEvents<T extends EventSearchRecord>(records: readonly T[], input: EventFilters = {}, now = new Date()): T[] {
   const filters = normalizeFilters(input);
-  const query = normalizeSearch(filters.query);
+  const filterText = (value: string) => normalizeSearch(value).replace(/[۰-۹٠-٩]/g, digit =>
+    String(digit.charCodeAt(0) - (digit >= '۰' && digit <= '۹' ? 0x6f0 : 0x660)));
+  const query = filterText(filters.query);
   return records.filter((event) => {
     if (!isPublicEvent(event)) return false;
     if (filters.year && !String(effectiveDay(event) ?? event.date.contextYear ?? '').startsWith(filters.year)) return false;
@@ -128,7 +130,7 @@ export function filterEvents<T extends EventSearchRecord>(records: readonly T[],
     if (filters.period === 'upcoming' && (!event.startInstant && !event.allDay
       || hasEnded(event, now) || !['scheduled', 'rescheduled'].includes(event.eventState))) return false;
     if (filters.period === 'past' && !hasEnded(event, now)) return false;
-    return !query || normalizeSearch([event.title, event.summary, event.venue, event.category].filter(Boolean).join(' ')).includes(query);
+    return !query || filterText([event.title, event.summary, event.venue, event.category].filter(Boolean).join(' ')).includes(query);
   });
 }
 

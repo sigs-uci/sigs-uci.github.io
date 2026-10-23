@@ -31,6 +31,14 @@ These templates describe records, not events to publish. Prepare missing details
 
 Each theme in `src/data/programs.json` has a matching record in `src/data/programDetails.json`. Keep its historical period explicit. Add titled sections, supported public paragraphs, canonical event IDs, related local paths, and suitable public context links. The program page links existing event records; it does not create new occurrences. A program profile is not a current schedule.
 
+Each `relatedPaths` entry needs a `label` and local `path`. An optional `query` can filter links to `events` or `events/archive`:
+
+```json
+{ "label": "Browse the cultural archive", "path": "events/archive", "query": { "category": "culture" } }
+```
+
+Allowed filters are `period` (`all`, `past`, `upcoming`) and `category` (`culture`, `film-poetry`, `community`, `newcomers`, `professional`). A query must contain at least one filter; other keys, values and destinations are rejected. Keep query parameters out of `path`; the page appends them after constructing the localized URL.
+
 ## Media
 
 A `MediaRecord` needs a stable ID, local public asset path, width and height, optional event ID, focal point from 0 to 1, localized alt text and caption, and public credit. Its publication and rights states are separate. Published event pages may reference only published media with approved rights.
