@@ -25,3 +25,9 @@
 .join-step{padding:25px 0;padding-inline-start:60px}.history-entry{padding-inline-end:30px;padding-inline-start:0}
 .person-portrait{margin:0 0 20px;max-width:180px}.person-portrait img{width:160px;height:160px;object-fit:cover;border-radius:12px}.person-portrait figcaption{font-size:11px;color:var(--muted);margin-top:8px}
 @media(max-width:767px){.join-step{padding-inline-start:45px}.history-entry{padding-inline-end:45px}}
+
+html[lang=fa] :is(h1,h2,h3,h4,.event-date strong){letter-spacing:normal}html[lang=fa] .hero h1{line-height:1.45}html[lang=fa] .hero-intro{line-height:1.95}html[lang=fa] :is(.person h3,.home-team-names strong){font-family:Manrope,Vazirmatn,Arial,sans-serif}html[lang=fa] .join-step:before{content:counter(steps,persian)}html[lang=fa] .identity-name{max-width:190px}html[lang=fa] .prose{max-width:760px}html[lang=fa] :is(.page-heading p,.event-record-summary,.meta-list dd){line-height:1.95}.language[lang=en]{font-family:Manrope,Arial,sans-serif}.gallery-dialog [data-gallery-count]{direction:ltr;unicode-bidi:isolate}
+@media(max-width:767px){html[lang=fa] .identity-name{max-width:150px}}
+@media(max-width:389px){html[lang=fa] .identity-name{max-width:105px}}
+
+.weekday-short{display:none}@media(max-width:500px){.calendar .weekday-full{display:none}.calendar .weekday-short{display:inline;text-decoration:none}}

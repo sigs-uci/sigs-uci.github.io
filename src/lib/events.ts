@@ -148,7 +148,7 @@ export function formatDate(event: EventRecord, locale = 'en'): string {
     return start;
   }
   if (event.date.contextYear) return new Intl.NumberFormat(language, { useGrouping: false }).format(event.date.contextYear);
-  return 'Date not recorded';
+  return locale === 'fa' ? 'تاریخ ثبت نشده' : 'Date not recorded';
 }
 
 export function formatTimeRange(event: EventRecord, locale = 'en'): string | null {

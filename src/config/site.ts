@@ -3,7 +3,7 @@ export const site = {
   origin: 'https://sigs-uci.github.io',
   email: 'sigs@uci.edu',
   timezone: 'America/Los_Angeles',
-  persianApproved: false,
+  persianApproved: true,
 };
 export const locales = site.persianApproved ? ['en', 'fa'] as const : ['en'] as const;
 export type Locale = 'en' | 'fa';

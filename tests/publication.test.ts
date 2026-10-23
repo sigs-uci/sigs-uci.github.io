@@ -22,8 +22,16 @@ test('counterparts need review of the current source and an enabled locale', () 
   assert.equal(eventLocale(event, 'fa', [translation], ['en', 'fa']), 'fa');
   assert.equal(reviewedTranslation(event.id, [{ ...translation, status: 'draft' }]), undefined);
   assert.equal(reviewedTranslation(event.id, [translation], [{ ...event, summary: event.summary + ' Correction.' }]), undefined);
-  assert.deepEqual(availableLocales(`events/${event.slug}`), ['en']);
+  assert.deepEqual(availableLocales(`events/${event.slug}`), ['en', 'fa']);
   assert.deepEqual(availableLocales('missing-page'), []);
+  assert.equal(eventLocale(event, 'fa', [], ['en', 'fa']), 'en');
+  assert.equal(eventLocale(event, 'fa', [{ ...translation, sourceRevision: 'stale' }], ['en', 'fa']), 'en');
+  assert.equal(reviewedTranslation(event.id, [{ ...translation, reviewedOn: null }]), undefined);
+  assert.equal(reviewedTranslation(event.id, [{ ...translation, reviewedOn: '2026-02-30' }]), undefined);
+  assert.equal(reviewedTranslation(event.id, [{ ...translation, locale: 'en' as EventTranslation['locale'] }]), undefined);
+  assert.equal(reviewedTranslation(event.id, [{ ...translation, title: '  ' }]), undefined);
+  assert.equal(reviewedTranslation(event.id, [{ ...translation, summary: '' }]), undefined);
+  assert.equal(reviewedTranslation(event.id, [{ ...translation, body: ['  '] }]), undefined);
 });
 
 test('stories cannot publish into a disabled locale or with draft editorial state', () => {

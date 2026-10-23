@@ -2,7 +2,7 @@
 
 Pushing source to `main` and publishing the website are separate actions. Validation runs locally. There is no GitHub workflow for checks on pushes or pull requests.
 
-The release workflow accepts a typed publication confirmation and requires the repository variable `PAGES_DEPLOY_ENABLED` to equal the literal string `true`. It also requires the `sigs-uci/sigs-uci.github.io` repository and `refs/heads/main`. Leave the variable unset until publication is authorized.
+The release workflow accepts a typed publication confirmation and requires the repository variable `PAGES_DEPLOY_ENABLED` to equal the literal string `true`. It also requires the `sigs-uci/sigs-uci.github.io` repository and `refs/heads/main`. Keep the variable unset or `false` between authorized releases.
 
 Keep the Pages build source set to GitHub Actions. Branch publishing can publish a main push independently of the manual release gate. Inspect the actual Pages source before changing the release setup.
 
@@ -14,7 +14,7 @@ When publication is authorized, enable the repository variable and manually run 
 
 The separate deployment job receives Pages and OIDC write permissions and uses the `github-pages` environment. It deploys the artifact from that successful run. No production secret is required in the build job. Action versions are pinned to immutable commits; review their official releases before updating the pins.
 
-After a successful deployment, check the public root, an event deep link, the team pages, search, keyboard navigation and `/404.html`. Record the live URL and deployed SHA. A successful upload or skipped deployment is not proof that a site is live.
+After a successful deployment, check the public root, English and Persian homepages, an event deep link in both languages, the team pages, search, keyboard navigation and `/404.html`. Check that the language switch preserves the page. Record the live URL and deployed SHA, then return `PAGES_DEPLOY_ENABLED` to `false`. A successful upload or skipped deployment is not proof that a site is live.
 
 ## Correct or recover
 

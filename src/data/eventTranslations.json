@@ -1,1 +1,202 @@
-[]
+[
+  {
+    "eventId": "yalda-2015",
+    "locale": "fa",
+    "title": "جشن یلدای ۲۰۱۵",
+    "summary": "SIGS و Persian Language & Culture Club جشن یلدا را برگزار کردند. در برنامهٔ اعلام‌شده، حافظ‌خوانی، اجرای گروه موسیقی، شام ایرانی و اجرای DJ Sepand آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "c6d5e4e410e7644894ce84416151c9454dfc9c733e8b5638bf7e5ef3f0577e6f",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "nowruz-2016",
+    "locale": "fa",
+    "title": "نوروز ۱۳۹۵ / ۲۰۱۶",
+    "summary": "SIGS میزبان جشن نوروز در Pacific Ballroom C بود. پس از برنامه، گزارشی از این دورهمی در حساب برگزارکننده منتشر شد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3344c7bb18118346e2aa4e6f3c26d2b7260cf982ff6633b7e8fef09874011d4a",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "tales-2016",
+    "locale": "fa",
+    "title": "نمایش فیلم Tales و پرسش‌وپاسخ",
+    "summary": "در اطلاعیه، نمایش رایگان و عمومی فیلم Tales و جلسهٔ پرسش‌وپاسخ با فیلم‌نامه‌نویس اعلام شده بود. نام SIGS و برنامهٔ دکتری Visual Studies به‌عنوان حامیان مشترک آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "34d8b6fce61b915bdb0314a03d866f70d639bdf037ea905fc47b4358a41cc0df",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "yalda-2016",
+    "locale": "fa",
+    "title": "شب یلدای ۲۰۱۶",
+    "summary": "SIGS و دانشجویان ایرانی‌آمریکایی WesternU برنامهٔ یلدا را در UCI Student Center اعلام کردند. حافظ‌خوانی، نشست‌های فرهنگی، موسیقی سنتی، شام و موسیقی دی‌جی در برنامهٔ اعلام‌شده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3b27081ebfad7b861e8301e9b27741fdef0ef684c50b557cc87aa39fcd1a3a7e",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "nowruz-2017",
+    "locale": "fa",
+    "title": "نوروز ۱۳۹۶ / ۲۰۱۷",
+    "summary": "SIGS و Cal State Long Beach Persian Student Association برنامهٔ نوروز را با گروه موسیقی Sibarg، شام ایرانی و DJ Taraneh اعلام کردند. در آرشیو، محل برگزاری UCI Student Center ثبت شده است، اما اتاق مشخصی ذکر نشده است.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "d40173cc2bdf6415a3e740b9589aa4e79b3734eecf9f40a7d60f57df2bd0ddae",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "iftar-2017",
+    "locale": "fa",
+    "title": "افطاری SIGS در UCI",
+    "summary": "دورهمی افطاری SIGS برای ۱۸ ژوئن در Palo Verde اعلام شده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "9448ea3621355ffe9e49a780603f28fa77d8b5439fcdf7eab310ee871c96d10c",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "welcome-2017",
+    "locale": "fa",
+    "title": "دورهمی خوشامدگویی به دانشجویان جدید",
+    "summary": "دورهمی خوشامدگویی به دانشجویان جدید در Verano Place BBQ اعلام شده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "0dcd2ef6f9b1b334adca7e8901e01cad79ccd6d5f5cacebd4f9e3fdfeb9b5366",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "yalda-2017",
+    "locale": "fa",
+    "title": "شب یلدای ۲۰۱۷",
+    "summary": "SIGS جشن یلدا را در Pacific Ballroom D در UCI Student Center اعلام کرده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "4a4a976311f02420fb2832c0f3361534efe67db4ed4c7ad382d18acf0122b433",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "nowruz-2018",
+    "locale": "fa",
+    "title": "نوروز ۱۳۹۷ / ۲۰۱۸",
+    "summary": "SIGS و دانشجویان ایرانی‌آمریکایی WesternU جشن نوروز را برگزار کردند. در برنامهٔ اعلام‌شده، موسیقی سنتی، رقص ایرانی، شام و اجرای DJ Sepand آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "909f43e545be17b418fe2dd6d19da4bdc329fd8d732b8bbcb8a8e6dfc2fe5aa8",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "innovation-forum-2018",
+    "locale": "fa",
+    "title": "همایش نوآوری ایرانی‌آمریکایی",
+    "summary": "SIGS همراه با IACP و SUTA از حامیان همایش نوآوری ایرانی‌آمریکایی بود. موضوع همایش، نوآوری در فناوری، کسب‌وکار و حوزهٔ اجتماعی بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "afa1936c644874a7c19bedb27b5898b7da979912d860c562b0aad8c8cd4dd36c",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "yalda-2018",
+    "locale": "fa",
+    "title": "شب یلدای ۲۰۱۸ با کامیار",
+    "summary": "در برنامهٔ اعلام‌شدهٔ یلدای SIGS، شعر حافظ، موسیقی سنتی، Kamyar، DJ Sepand و DJ Aaraa آمده بود. مستندات بعدی نیز برگزاری این دورهمی را تأیید می‌کنند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "7b480763daa9eb15edf8891e795562f14cfde097f847651adc8be2618f45e880",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "poetry-night-2019",
+    "locale": "fa",
+    "title": "شب شعر فارسی SIGS",
+    "summary": "دورهمی با محور شعر فارسی و کنار هم بودن. تاریخ برنامه در آرشیو ثبت شده است؛ محل برگزاری و ساعت اعلام‌شده پیدا نشده‌اند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "326b9f0e28f157f0e47fe1223fd696be121912a0568c566deaeb0d7435487369",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "nowruz-2019",
+    "locale": "fa",
+    "title": "نوروز ۱۳۹۸ / ۲۰۱۹",
+    "summary": "SIGS دورهمی نوروز را در UCI Student Center برگزار کرد. برنامهٔ اعلام‌شده شامل K-Von، Rassam Ensemble، رقص ایرانی، DJ Mohsen، DJ Julius و شام بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "e05c2c2685032430f0061391c36ae673983bc33cde1fca448f32f6d3fd961fda",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "yalda-2019",
+    "locale": "fa",
+    "title": "شب یلدای ۲۰۱۹ با سندی",
+    "summary": "دورهمی یلدا در Pacific Ballroom CD. در برنامهٔ اعلام‌شده، اجرای Sandy و گروهش، بازی، کارائوکه و مهمانی پس از برنامه با دی‌جی آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "74f5f6446b9a0b7f3ced3e88523fceacf6c826c3f153b279ee08008eb2d418ba",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "nowruz-2021",
+    "locale": "fa",
+    "title": "نوروز ۱۴۰۰: کنسرت آنلاین میلاد درخشانی",
+    "summary": "SIGS کنسرت آنلاین نوروز با حضور میلاد درخشانی را اعلام کرده بود. ساعت اعلام‌شده ۷ تا ۸ شب به وقت کالیفرنیا بود؛ زمان دقیق آغاز و پایان به وقت جهانی مشخص نیست.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "441b7a3fc686234864e2ecca9275981084f816c9240add2d49822f5ed73b6ee0",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "yalda-2023",
+    "locale": "fa",
+    "title": "شب یلدای ۲۰۲۳",
+    "summary": "SIGS برنامهٔ یلدا را با موسیقی دی‌جی، پیش‌غذا، بازی و جایزه، موسیقی سنتی و رقص اعلام کرد. اطلاعیهٔ دسامبر ۲۰۲۳ در این صفحه آرشیو شده است.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "6ff1ab1878f22477550d008c1774500525597a7cdf2604e51fee1e878443e454",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "networking-2025",
+    "locale": "fa",
+    "title": "رویداد شبکه‌سازی OC Rising Leaders و SIGS",
+    "summary": "گروه Orange County Rising Leaders از بنیاد IAW، همکاری با SIGS را برای حلقه‌های گفت‌وگوی حرفه‌ای و فعالیت‌های شبکه‌سازی اعلام کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8f8cf6c59fc5b4a5bc8861284fd9ea7b7267cf3fed6b1c5b036f0954e4044d79",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "yalda-2025",
+    "locale": "fa",
+    "title": "جشن شب یلدای ۲۰۲۵",
+    "summary": "در اطلاعیه، دورهمی یلدا با موسیقی ایرانی، شعر کلاسیک فارسی، شام و انار در Verano Community Center توصیف شده بود. سال برنامه در این آرشیو، بر پایهٔ اطلاعات تاریخی پیرامون آن ثبت شده است.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "22c2d4f560dbb56a20a5ea429a42f4ac67c1848c41843ac0c87c926dc874dbce",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "solidarity-2026-02-02",
+    "locale": "fa",
+    "title": "تجمع همبستگی در دانشگاه با ISU",
+    "summary": "روزنامهٔ دانشجویی UCI از تجمع همبستگی در دانشگاه گزارش داد که ISU با همکاری SIGS برگزار کرده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3c81ceee1f6ed82c53286d50e5ae01de5477a204be8044c7af80eafe9f13e382",
+    "reviewedOn": "2026-10-22"
+  },
+  {
+    "eventId": "solidarity-2026-02-10",
+    "locale": "fa",
+    "title": "گردهمایی همبستگی UCI برای آزادی در ایران",
+    "summary": "هیئت‌مدیرهٔ SIGS جامعهٔ دانشگاهی UCI را به گردهمایی همبستگی در Ring Road، روبه‌روی کتابخانهٔ Langson دعوت کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "ea471747975cd15d1567e1b0b4d69a493457cb255af50891b241e2613d258d2b",
+    "reviewedOn": "2026-10-22"
+  }
+]

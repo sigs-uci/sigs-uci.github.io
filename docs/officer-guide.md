@@ -46,11 +46,11 @@ Resource records use official destinations, a factual description, the date chec
 
 Current partner recognition needs a confirmed relationship, permitted identity assets and accurate context. Dated acknowledgments stay historical. Do not add a payment link, sponsorship price or tax claim without an approved arrangement.
 
-## Persian publication
+## English and Persian updates
 
-Prepare translations for review outside the public repository. Shared event dates, venue and registration stay in the English record. Add reviewed event text to `src/data/eventTranslations.json`, identifying its event, source revision and actual review date. Run `npx tsx scripts/translation-revision.ts EVENT_ID` to get the current English text revision. Record that value only after the reviewer has checked that version. A changed title or summary removes the Persian counterpart until it is reviewed again. Preserve Latin names and contact URLs until an approved Persian spelling exists.
+Both languages are published. Keep the interface dictionary in `src/i18n/fa.json` in step with new English labels, page descriptions and public-content wording. Prepare translations for review outside the public repository. Shared event dates, venue and registration stay in the English record. Add reviewed event text to `src/data/eventTranslations.json`, identifying its event, source revision and actual review date. Run `npx tsx scripts/translation-revision.ts EVENT_ID` to get the current English text revision. Record that value only after the reviewer has checked that version. A changed title or summary removes the Persian counterpart until it is reviewed again. Preserve Latin names and contact URLs until an approved Persian spelling exists.
 
-Publish the reviewed dictionary and core copy before enabling the Persian locale in site configuration. Then publish only reviewed counterparts, reciprocal language links and correct `lang="fa" dir="rtl"` markup. Check real paragraphs, half-spaces, mixed Latin text, buttons, search results and Gregorian dates at 320 px. Update the production locale check when Persian publication has been approved. Unreviewed copy must not be committed simply because it is excluded from search.
+Review new text in both languages, with reciprocal language links and correct `lang="fa" dir="rtl"` markup. Add Persian alternative text and captions when publishing media. Check real paragraphs, half-spaces, mixed Latin text, buttons, search results and Gregorian dates at 320 px. The output check verifies language counterparts and search indexes. Unreviewed copy must not be committed simply because it is excluded from search.
 
 ## A failed build or correction
 

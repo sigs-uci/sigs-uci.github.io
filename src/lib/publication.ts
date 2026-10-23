@@ -11,8 +11,11 @@ export function eventTextRevision(event: Pick<EventRecord, 'title' | 'summary'>)
 export function reviewedTranslation(eventId: string, translations: readonly EventTranslation[] = eventTranslations,
   sourceEvents: readonly EventRecord[] = events): EventTranslation | undefined {
   const source = sourceEvents.find(event => event.id === eventId && isPublicEvent(event));
-  return translations.find((translation) => translation.eventId === eventId && translation.status === 'reviewed'
-    && Boolean(source && translation.reviewedOn && translation.sourceRevision === eventTextRevision(source)));
+  return translations.find((translation) => translation.eventId === eventId && translation.locale === 'fa' && translation.status === 'reviewed'
+    && translation.title.trim() && translation.summary.trim() && translation.body.every(paragraph => paragraph.trim())
+    && Boolean(source && translation.reviewedOn && /^\d{4}-\d{2}-\d{2}$/.test(translation.reviewedOn)
+      && Number.isFinite(Date.parse(translation.reviewedOn)) && new Date(translation.reviewedOn).toISOString().slice(0, 10) === translation.reviewedOn
+      && translation.sourceRevision === eventTextRevision(source)));
 }
 
 export function isPublicStory(story: StoryRecord, enabled: readonly string[] = locales): boolean {
