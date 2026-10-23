@@ -7,9 +7,11 @@ import Leadership from '../../components/Leadership.astro';
 import StandardContent from '../../components/StandardContent.astro';
 import Search from '../../components/Search.astro';
 import Story from '../../components/Story.astro';
+import Program from '../../components/Program.astro';
+import ArchiveYear from '../../components/ArchiveYear.astro';
 import {locales,type Locale} from '../../config/site';
 import {pages} from '../../lib/routes';
-import {events,stories,type EventRecord,type StoryRecord,type EventTranslation} from '../../data';
+import {events,programDetails,stories,type EventRecord,type StoryRecord,type EventTranslation} from '../../data';
 import {isPublicEvent} from '../../lib/events';
 import {reviewedTranslation,isPublicStory} from '../../lib/publication';
 import {tr} from '../../i18n/ui';
@@ -23,10 +25,12 @@ export function getStaticPaths(){
 const {page,event,story,translation}=Astro.props as {page:{path:string;title:string;description:string};event?:EventRecord;story?:StoryRecord;translation?:EventTranslation};
 const locale=Astro.params.locale as Locale;const path=page.path;const t=(s:string)=>tr(locale,s);
 const noindex=['search','languages'].includes(path);
+const program = programDetails.find(program => path === `community/programs/${program.id}`);
+const archiveYear = /^events\/archive\/\d{4}$/.test(path) ? path.split('/')[2] : undefined;
 ---
 <Base title={page.title} description={page.description} locale={locale} path={path} noindex={noindex} search={!noindex}>
 {path===''?<Home locale={locale}/>:event?<EventDetail event={event} translation={translation} locale={locale}/>:story?<Story story={story} locale={locale}/>:<>
 <section class="page-heading"><div class="wrap"><p class="eyebrow">SIGS / {t(path.split('/')[0]==='events'?'Gatherings':path.split('/')[0]==='about'?'Our community':path.split('/')[0]==='resources'?'Student life':path.split('/')[0]==='community'?'Life together':'At UC Irvine')}</p><h1 data-pagefind-meta="title">{t(page.title)}</h1><p>{t(page.description)}</p></div></section>
-{path==='events'||path==='events/archive'?<EventExplorer locale={locale} archive={path.endsWith('archive')}/>:path.startsWith('about/leadership')?<Leadership locale={locale} termId={path.split('/')[2]}/>:path==='search'?<Search locale={locale}/>:<StandardContent locale={locale} path={path}/>}
+{program?<Program program={program} locale={locale}/>:archiveYear?<ArchiveYear year={archiveYear} locale={locale}/>:path==='events'||path==='events/archive'?<EventExplorer locale={locale} archive={path.endsWith('archive')}/>:path.startsWith('about/leadership')?<Leadership locale={locale} termId={path.split('/')[2]}/>:path==='search'?<Search locale={locale}/>:<StandardContent locale={locale} path={path}/>}
 </>}
 </Base>

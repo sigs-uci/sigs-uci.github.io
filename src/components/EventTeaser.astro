@@ -1,0 +1,17 @@
+---
+import type { EventRecord } from '../data';
+import type { Locale } from '../config/site';
+import { formatDate } from '../lib/events';
+import { eventHref, eventLocale, reviewedTranslation } from '../lib/publication';
+import { tr } from '../i18n/ui';
+import '../styles/editorial.css';
+const { event, locale = 'en', level = 3 } = Astro.props as { event: EventRecord; locale: Locale; level?: 2 | 3 };
+const Heading = level === 2 ? 'h2' : 'h3';
+const language = eventLocale(event, locale);
+const translation = language === 'fa' ? reviewedTranslation(event.id) : undefined;
+const t = (s: string) => tr(locale, s);
+---
+<article class="record-preview">
+  <div class="record-preview-date"><time datetime={event.date.value ?? undefined}><bdi>{formatDate(event, locale)}</bdi></time><span>{t(event.archiveLabel ?? event.eventState)}</span></div>
+  <div><Heading><a href={eventHref(event, locale)} lang={language}>{translation?.title ?? event.title}</a></Heading><p lang={language}>{translation?.summary ?? event.summary}</p>{event.venue && <p class="record-preview-place">{t(event.venue)}</p>}{locale === 'fa' && language === 'en' && <span class="quiet">{t('English record')}</span>}</div>
+</article>

@@ -1,4 +1,5 @@
-import { boardTerms, organization, type BoardTerm } from '../data';
+import { boardTerms, organization, programs, type BoardTerm } from '../data';
+import { archiveYears } from './archive';
 
 const corePages = [
   { path: '', title: 'See you at SIGS.', description: 'The Iranian graduate student community at UC Irvine. Find gatherings, meet the team, and get in touch.' },
@@ -6,7 +7,6 @@ const corePages = [
   { path: 'events/archive', title: 'The event archive', description: 'Cultural celebrations, film, poetry, and community gatherings from the SIGS record.' },
   { path: 'community', title: 'A community beyond the classroom.', description: 'Celebrations, conversations, and connections across the Iranian graduate community at UC Irvine.' },
   { path: 'community/memories', title: 'Memories', description: 'Return to the gatherings in the SIGS archive and contribute a photograph or correction.' },
-  { path: 'community/programs/docunight', title: 'Docunight', description: 'A historical SIGS program for documentary film and conversation.' },
   { path: 'resources', title: 'Find what you need.', description: 'Official UC Irvine resources for arriving on campus, student life, and support.' },
   { path: 'resources/new-students', title: 'New to UCI?', description: 'A starting point for housing, campus services, transport, and finding your community.' },
   { path: 'about', title: 'This is SIGS.', description: 'Meet the Society of Iranian Graduate Students at UC Irvine and the people who keep it going.' },
@@ -29,6 +29,9 @@ export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTerm
       : page),
     ...terms.map(term => ({ path: `about/leadership/${term.id}`, title: `The ${term.term} team`,
       description: `The ${term.status === 'current' ? 'current' : 'previous'} SIGS team, with roles and contacts listed for ${term.term}.` })),
+    ...programs.map(program => ({ path: `community/programs/${program.id}`, title: program.name, description: program.summary })),
+    ...archiveYears().map(entry => ({ path: `events/archive/${entry.year}`, title: `SIGS in ${entry.year}`,
+      description: `Browse ${entry.records.length} historical event records from ${entry.year}, with dates, descriptions, and the context of each gathering or announcement.` })),
   ];
 }
 

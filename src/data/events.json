@@ -82,6 +82,8 @@
     "startInstant": null,
     "endInstant": null,
     "venue": "HG1030, Humanities Gateway, UC Irvine",
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public",
     "category": "film-poetry",
     "sigsRole": "co-sponsor",
     "summary": "The announcement offered a free public screening of Tales and a Q&A with the screenwriter. SIGS and the Visual Studies PhD Program were named as co-sponsors.",
@@ -91,8 +93,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "tales-2016-poster"
+    ],
+    "heroImage": "tales-2016-poster",
     "editorial": {
       "en": "edited",
       "fa": "not_translated"
@@ -401,8 +405,10 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "poetry-night-2019-photo"
+    ],
+    "heroImage": "poetry-night-2019-photo",
     "editorial": {
       "en": "edited",
       "fa": "not_translated"
@@ -607,8 +613,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "yalda-2025-flyer"
+    ],
+    "heroImage": "yalda-2025-flyer",
     "editorial": {
       "en": "edited",
       "fa": "not_translated"

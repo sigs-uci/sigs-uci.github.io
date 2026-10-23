@@ -81,6 +81,17 @@ export interface ProgramRecord {
   period: string;
 }
 
+export interface ProgramDetail {
+  id: string;
+  title: string;
+  intro: string;
+  periodLabel: string;
+  sections: { title: string; paragraphs: string[] }[];
+  relatedEventIds: string[];
+  relatedPaths: { label: string; path: string }[];
+  publicContextLinks: { label: string; url: string }[];
+}
+
 export interface MilestoneRecord {
   id: string;
   year: number;
@@ -105,6 +116,8 @@ export interface ResourceRecord {
 export interface MediaRecord {
   id: string;
   src: string;
+  thumbnail?: string;
+  kind?: 'photo' | 'poster';
   width: number;
   height: number;
   eventId: string | null;
@@ -174,6 +187,7 @@ export interface PublicData {
   organization: OrganizationRecord;
   events: EventRecord[];
   programs: ProgramRecord[];
+  programDetails: ProgramDetail[];
   people: PersonRecord[];
   boardTerms: BoardTerm[];
   milestones: MilestoneRecord[];
@@ -217,7 +231,7 @@ export function validatePublicData(data: PublicData): string[] {
     const ids = records.map(record => record.id);
     if (new Set(ids).size !== ids.length) issue(collection, 'IDs must be unique');
   };
-  for (const key of ['events', 'programs', 'people', 'boardTerms', 'milestones', 'resources', 'media', 'stories'] as const) unique(data[key], key);
+  for (const key of ['events', 'programs', 'programDetails', 'people', 'boardTerms', 'milestones', 'resources', 'media', 'stories'] as const) unique(data[key], key);
   const eventIds = new Set(data.events.map(event => event.id));
   const mediaIds = new Set(data.media.map(media => media.id));
   const mediaRecords = new Map(data.media.map(media => [media.id, media]));
@@ -313,12 +327,26 @@ export function validatePublicData(data: PublicData): string[] {
   data.milestones.forEach(milestone => milestone.eventIds.forEach(id => {
     if (!eventIds.has(id)) issue(`milestones.${milestone.id}`, 'Event reference does not exist');
   }));
+  const detailKeys = new Set(['id', 'title', 'intro', 'periodLabel', 'sections', 'relatedEventIds', 'relatedPaths', 'publicContextLinks']);
+  data.programDetails.forEach(program => {
+    const key = `programDetails.${program.id}`;
+    if (Object.keys(program).some(field => !detailKeys.has(field))) issue(key, 'Contains an unsupported field');
+    if (!data.programs.some(theme => theme.id === program.id)) issue(key, 'Program theme does not exist');
+    if (![program.title, program.intro, program.periodLabel].every(text => text.trim())) issue(key, 'Title, introduction and period are required');
+    if (!program.sections.length || program.sections.some(section => !section.title.trim() || !section.paragraphs.length || section.paragraphs.some(text => !text.trim()))) issue(key, 'Sections need headings and paragraphs');
+    program.relatedEventIds.forEach(id => { if (!eventIds.has(id)) issue(key, 'Event reference does not exist'); });
+    program.relatedPaths.forEach(link => { if (!link.label.trim() || !/^[a-z0-9]+(?:[/-][a-z0-9]+)*$/.test(link.path)) issue(key, 'Related links need a label and local page path'); });
+    program.publicContextLinks.forEach(link => { if (!link.label.trim() || !publicUrl(link.url)) issue(key, 'Public context links need a label and web URL'); });
+  });
+  data.programs.forEach(program => { if (!data.programDetails.some(detail => detail.id === program.id)) issue(`programs.${program.id}`, 'Program needs a detail record'); });
   data.media.forEach(media => {
     const key = `media.${media.id}`;
     if (media.publication === 'published' && media.rights !== 'approved') issue(key, 'Published media needs permission');
     if (!['draft', 'published'].includes(media.publication) || !['approved', 'pending'].includes(media.rights)) issue(key, 'Unknown media publication or permission state');
     if (media.eventId && !eventIds.has(media.eventId)) issue(key, 'Event reference does not exist');
     if (!media.src.startsWith('/') || media.src.startsWith('//') || media.src.includes('..')) issue(key, 'Asset must use a local public path');
+    if (media.thumbnail && (!media.thumbnail.startsWith('/') || media.thumbnail.startsWith('//') || media.thumbnail.includes('..'))) issue(key, 'Thumbnail must use a local public path');
+    if (media.kind && !['photo', 'poster'].includes(media.kind)) issue(key, 'Unknown media kind');
     if (!Number.isInteger(media.width) || !Number.isInteger(media.height) || media.width <= 0 || media.height <= 0 || !media.credit.trim()) issue(key, 'Dimensions and credit are required');
     if (media.focalPoint.length !== 2 || media.focalPoint.some(value => !Number.isFinite(value) || value < 0 || value > 1)) issue(key, 'Focal point coordinates must be between zero and one');
     if (!media.alt.en?.trim()) issue(key, 'English alternative text is required');

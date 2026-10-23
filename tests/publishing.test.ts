@@ -40,8 +40,9 @@ test('photo update needs published permission before a public event can referenc
     publication: 'draft', rights: 'pending' });
   event.gallery = ['test-photo'];
   assert.ok(validatePublicData(copy).length > 0);
-  copy.media[0].rights = 'approved';
-  copy.media[0].publication = 'published';
+  const addedImage = copy.media.find(image => image.id === 'test-photo')!;
+  addedImage.rights = 'approved';
+  addedImage.publication = 'published';
   assert.deepEqual(validatePublicData(copy), []);
-  assert.deepEqual({ ...event, gallery: [] }, previous);
+  assert.deepEqual({ ...event, gallery: previous.gallery }, previous);
 });

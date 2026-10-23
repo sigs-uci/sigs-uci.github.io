@@ -6,6 +6,8 @@ Astro builds static routes for `https://sigs-uci.github.io`, with no repository-
 
 `src/lib/events.ts` owns the event publication selector, the next event, filters, query strings, date display, search normalization and registration actions. Callers pass a clock for deterministic tests. Date-only archive records retain their uncertainty. A past date does not change an event's occurrence evidence.
 
+`src/lib/archive.ts` groups published historical records into populated years. Those groups generate durable year pages and the homepage archive directory. Program profiles in `src/data/programDetails.json` link canonical event IDs to historical context. Neither view creates extra events or changes their evidence labels.
+
 `src/lib/calendar.ts` creates calendar snapshots from confirmed instants or genuine all-day ranges. It uses a stable event UID, UTC timed entries, exclusive all-day ends, valid calendar statuses, escaped text and UTF-8 line folding. Historical records do not get invented instants or calendar downloads.
 
 Pagefind indexes the same `dist/` produced by Astro. Search loads on demand. Searchable templates mark their content body; redirects, search pages, 404 and unpublished routes stay outside the index. Persian normalization covers common yeh/kaf forms and half-spaces; it does not promise language stemming.
