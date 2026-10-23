@@ -3,8 +3,12 @@ import fa from './fa.json';
 
 export const dictionaries: Record<Locale, Record<string, string>> = { en: {}, fa };
 export function tr(locale: Locale, text: string): string {
-  const translated = dictionaries[locale]?.[text] ?? text;
-  return locale === 'fa' ? translated.replace(/[۰-۹]+\s*-\s*[۰-۹]+/g, range => `\u2066${range}\u2069`) : translated;
+  const translated = dictionaries[locale]?.[text];
+  if (locale === 'fa' && translated === undefined && /[A-Za-z]/.test(text) && !/[\u0621-\u063a\u0641-\u064a\u067e\u0686\u0698\u06a9\u06af\u06cc]/u.test(text)) {
+    throw new Error(`Missing Persian interface text: ${text}`);
+  }
+  const value = translated ?? text;
+  return locale === 'fa' ? value.replace(/[۰-۹]+\s*-\s*[۰-۹]+/g, range => `\u2066${range}\u2069`) : value;
 }
 export const languageName = (locale: Locale) => locale === 'fa' ? 'فارسی' : 'English';
 export const formatNumber = (locale: Locale, value: number) => new Intl.NumberFormat(locale === 'fa' ? 'fa-IR' : 'en-US', { useGrouping: false }).format(value);

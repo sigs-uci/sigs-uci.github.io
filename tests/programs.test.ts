@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import { data, events, programs, programDetails as details, validatePublicData } from '../src/data';
 import { isPublicEvent } from '../src/lib/events';
 import { buildPages } from '../src/lib/routes';
+import { programLinkHref } from '../src/lib/programs';
+import type { ProgramRelatedLink } from '../src/data/schema';
 
 test('each program has one public profile route with no duplicate route destinations', () => {
   assert.deepEqual(details.map(detail => detail.id).sort(), programs.map(program => program.id).sort());
@@ -41,4 +43,32 @@ test('program validation rejects missing themes, event references and unsupporte
   const nonWebContext = structuredClone(data);
   nonWebContext.programDetails[0].publicContextLinks[0].url = 'mailto:example@example.com';
   assert.ok(validatePublicData(nonWebContext).some(error => error.includes('web URL')));
+});
+
+test('program event shortcuts retain their promised filters in both languages', () => {
+  const current = details.find(program => program.id === 'docunight')!.relatedPaths.find(link => link.query?.period === 'upcoming')!;
+  const cultural = details.find(program => program.id === 'cultural-celebrations')!.relatedPaths.find(link => link.query?.category === 'culture')!;
+  assert.ok(current);
+  assert.ok(cultural);
+  for (const locale of ['en', 'fa'] as const) {
+    assert.equal(programLinkHref(current, locale), `/${locale}/events/?period=upcoming`);
+    assert.equal(programLinkHref(cultural, locale), `/${locale}/events/archive/?category=culture`);
+    assert.equal(programLinkHref({ label: 'Read about SIGS', path: 'about' }, locale), `/${locale}/about/`);
+  }
+  assert.equal(programLinkHref({ label: 'Browse events', path: 'events', query: { period: 'past', category: 'film-poetry' } }, 'fa'), '/fa/events/?period=past&category=film-poetry');
+});
+
+test('program filters reject unknown keys, values and destinations', () => {
+  const invalid: ProgramRelatedLink[] = [
+    { label: 'No filters', path: 'events', query: {} },
+    { label: 'Wrong destination', path: 'about', query: { category: 'culture' } },
+    { label: 'Unknown parameter', path: 'events', query: { q: 'hidden' } } as unknown as ProgramRelatedLink,
+    { label: 'Unknown period', path: 'events', query: { period: 'tomorrow' } } as unknown as ProgramRelatedLink,
+    { label: 'Unknown category', path: 'events/archive', query: { category: 'other' } } as unknown as ProgramRelatedLink,
+  ];
+  for (const link of invalid) {
+    const candidate = structuredClone(data);
+    candidate.programDetails[0].relatedPaths[0] = link;
+    assert.ok(validatePublicData(candidate).some(error => error.startsWith('programDetails.')), link.label);
+  }
 });

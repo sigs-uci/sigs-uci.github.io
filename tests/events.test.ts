@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { events } from '../src/data/index';
+import { events, eventTranslations } from '../src/data/index';
 import { campusDay, filterEvents, filtersFromQuery, filtersToQuery, formatDate, isPublicEvent,
   nextEvent, normalizeSearch, registrationAction } from '../src/lib/events';
 import { eventFixture, testClock } from './fixtures/events';
@@ -42,6 +42,16 @@ test('query state survives a URL round trip and unknown periods reset', () => {
 test('Persian search normalization handles yeh, kaf and half spaces', () => {
   assert.equal(normalizeSearch('كتاب يار'), normalizeSearch('کتاب یار'));
   assert.equal(normalizeSearch('دانش‌جو'), normalizeSearch('دانش جو'));
+});
+
+test('event filters find the same records with Western, Persian and Arabic-Indic numerals', () => {
+  const localized = events.map(event => {
+    const translation = eventTranslations.find(record => record.eventId === event.id)!;
+    return { ...event, title: translation.title, summary: translation.summary };
+  });
+  for (const query of ['2025', '۲۰۲۵', '٢٠٢٥']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id), ['yalda-2025']);
+  for (const query of ['HG1030', 'HG۱۰۳۰', 'HG١٠٣٠']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id), ['tales-2016']);
+  assert.equal(normalizeSearch('۲۰۲۵'), '۲۰۲۵');
 });
 
 test('date labels retain the Gregorian calendar and date-only day', () => {

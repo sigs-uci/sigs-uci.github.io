@@ -56,7 +56,7 @@ const otherLabel = counterparts.includes(other) ? (other === 'en' ? 'English' : 
         </nav>
         <div class="header-tools">
           <a class="search-link" href={href(locale,'search')} aria-label={t('Search SIGS')}><svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="m15 15 6 6" stroke="currentColor" stroke-width="1.8"/></svg><span class="sr-only">{t('Search')}</span></a>
-          <a href={otherHref} class="language" lang={other} hreflang={other} dir={other === 'fa' ? 'rtl' : 'ltr'} aria-label={other === 'fa' ? 'فارسی' : 'English'} title={other === 'fa' ? 'فارسی' : 'English'}>{locale === 'en' ? 'فارسی' : 'English'}</a>
+          <a href={otherHref} data-language-switch class="language" lang={other} hreflang={other} dir={other === 'fa' ? 'rtl' : 'ltr'} aria-label={other === 'fa' ? 'فارسی' : 'English'} title={other === 'fa' ? 'فارسی' : 'English'}>{locale === 'en' ? 'فارسی' : 'English'}</a>
           <a class="button gold header-join" href={href(locale,'join')}>{t('Join SIGS')}</a>
           <details class="mobile-menu">
             <summary>{t('Menu')} <span aria-hidden="true">＋</span></summary>
@@ -75,11 +75,12 @@ const otherLabel = counterparts.includes(other) ? (other === 'en' ? 'English' : 
         <div><a class="footer-brand" href={href(locale)}><bdi lang="en">SIGS</bdi><span class="tiny-star" aria-hidden="true">↗</span></a><p>{t('Society of Iranian Graduate Students')}<br />{t('at UC Irvine')}</p><a href={emailLink(t('Hello SIGS'))}><bdi>sigs@uci.edu</bdi></a></div>
         <nav aria-label={t('Explore SIGS')}><h2>{t('Explore')}</h2><a href={href(locale,'events')}>{t('Events')}</a><a href={href(locale,'community')}>{t('Community')}</a><a href={href(locale,'resources')}>{t('Resources')}</a><a href={href(locale,'community/memories')}>{t('Memories')}</a></nav>
         <nav aria-label={t('About SIGS')}><h2>{t('Get to know us')}</h2><a href={href(locale,'about')}>{t('About')}</a><a href={href(locale,'about/leadership')}>{t('Leadership & Team')}</a><a href={href(locale,'partners')}>{t('Partners')}</a><a href={href(locale,'contact')}>{t('Contact')}</a></nav>
-        <nav aria-label={t('Help and information')}><h2>{t('Useful links')}</h2><a href={href(locale,'join')}>{t('Join SIGS')}</a><a href={href(locale,'search')}>{t('Search')}</a><a href={href(locale,'privacy')}>{t('Privacy')}</a><a href={href(locale,'accessibility')}>{t('Accessibility')}</a></nav>
+        <nav aria-label={t('Help and information')}><h2>{t('Useful links')}</h2><a href={href(locale,'join')}>{t('Join SIGS')}</a><a href={href(locale,'search')}>{t('Search')}</a><a href={href(locale,'privacy')}>{t('Privacy')}</a><a href={href(locale,'accessibility')}>{t('Accessibility')}</a><a href={href(locale,'languages')}>{t('English and Persian')}</a></nav>
       </div>
-      <div class="wrap footer-bottom"><span>{t('A student community at UC Irvine.')}</span><a href="https://github.com/sigs-uci/sigs-uci.github.io">{t('Website source')}</a><a href={otherHref}>{t(otherLabel)}</a></div>
+      <div class="wrap footer-bottom"><span>{t('A student community at UC Irvine.')}</span><a href="https://github.com/sigs-uci/sigs-uci.github.io">{t('Website source')}</a><a href={otherHref} data-language-switch hreflang={other}>{t(otherLabel)}</a></div>
     </footer>
     <script>
+      import '../scripts/language';
       const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu');
       document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && menu?.open) { menu.open = false; menu.querySelector('summary')?.focus(); } });
       document.addEventListener('click', (event) => { if (menu?.open && !menu.contains(event.target as Node)) menu.open = false; });

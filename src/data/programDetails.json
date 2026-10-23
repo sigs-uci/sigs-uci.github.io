@@ -23,7 +23,7 @@
     "relatedEventIds": ["tales-2016", "poetry-night-2019"],
     "relatedPaths": [
       { "label": "Explore film and poetry", "path": "community/programs/poetry-and-film" },
-      { "label": "Find current events", "path": "events" },
+      { "label": "Find current events", "path": "events", "query": { "period": "upcoming" } },
       { "label": "Share a memory or correction", "path": "contact" }
     ],
     "publicContextLinks": [
@@ -111,7 +111,7 @@
     ],
     "relatedEventIds": ["yalda-2015", "nowruz-2018", "yalda-2019", "nowruz-2021", "yalda-2025"],
     "relatedPaths": [
-      { "label": "Browse the cultural archive", "path": "events/archive" },
+      { "label": "Browse the cultural archive", "path": "events/archive", "query": { "category": "culture" } },
       { "label": "Explore community memories", "path": "community/memories" },
       { "label": "Talk about a future gathering", "path": "partners" }
     ],

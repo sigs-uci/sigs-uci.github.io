@@ -31,7 +31,7 @@ export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTerm
       description: `The ${term.status === 'current' ? 'current' : 'previous'} SIGS team, with roles and contacts listed for ${term.term}.` })),
     ...programs.map(program => ({ path: `community/programs/${program.id}`, title: program.name, description: program.summary })),
     ...archiveYears().map(entry => ({ path: `events/archive/${entry.year}`, title: `SIGS in ${entry.year}`,
-      description: `Browse ${entry.records.length} historical event records from ${entry.year}, with dates, descriptions, and the context of each gathering or announcement.` })),
+      description: `Browse ${entry.records.length} historical event record${entry.records.length === 1 ? '' : 's'} from ${entry.year}, with dates, descriptions, and the context of each gathering or announcement.` })),
   ];
 }
 
