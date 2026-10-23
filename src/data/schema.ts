@@ -201,6 +201,7 @@ export interface PublicData {
 const occurrenceSupported = new Set<OccurrenceEvidence>(['occurrence_corroborated', 'occurrence_reported', 'institutional_retrospective', 'reported_occurrence']);
 const eventKeys = new Set(['id', 'slug', 'title', 'locale', 'date', 'timeDisplay', 'timeZone', 'startInstant', 'endInstant', 'venue', 'category', 'sigsRole', 'summary', 'occurrenceEvidence', 'archiveLabel', 'publication', 'eventState', 'registration', 'registrationUrl', 'gallery', 'heroImage', 'editorial', 'publicSourceLinks', 'generateCalendarDownload', 'generateEventStructuredData', 'allDay', 'calendarUpdated', 'calendarSequence', 'accessibility', 'cost', 'audience']);
 const storyKeys = new Set(['id', 'slug', 'title', 'summary', 'locale', 'publication', 'editorial', 'publishedOn', 'body', 'relatedEventIds', 'mediaIds', 'kind', 'credit']);
+const translationKeys = new Set(['eventId', 'locale', 'title', 'summary', 'body', 'status', 'sourceRevision', 'reviewedOn']);
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const datePattern = /^\d{4}-\d{2}-\d{2}$/;
 const instantPattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/;
@@ -354,6 +355,9 @@ export function validatePublicData(data: PublicData): string[] {
   const translated = new Set<string>();
   data.eventTranslations.forEach(translation => {
     const key = `eventTranslations.${translation.eventId}`;
+    if (Object.keys(translation).some(field => !translationKeys.has(field))) issue(key, 'Contains an unsupported field; event facts belong to the shared record');
+    if (translation.locale !== 'fa') issue(key, 'Event translations must use the Persian locale');
+    if (!translation.title.trim() || !translation.summary.trim() || translation.body.some(paragraph => !paragraph.trim())) issue(key, 'Translated title, summary and supplied paragraphs must not be blank');
     if (!eventIds.has(translation.eventId) || translated.has(translation.eventId)) issue(key, 'Translation needs one existing shared event');
     translated.add(translation.eventId);
     if (!['draft', 'edited', 'reviewed', 'not_translated'].includes(translation.status)) issue(key, 'Unknown translation state');

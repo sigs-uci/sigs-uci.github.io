@@ -18,7 +18,7 @@ const corePages = [
   { path: 'search', title: 'Search SIGS', description: 'Search events, resources, and the SIGS community website.' },
   { path: 'privacy', title: 'Privacy', description: 'How this static website handles search, email links, hosting, and external services.' },
   { path: 'accessibility', title: 'Accessibility', description: 'Accessibility features, known content limits, and how to report a barrier.' },
-  { path: 'languages', title: 'English and Persian', description: 'Language availability and how to help review the Persian website.' },
+  { path: 'languages', title: 'English and Persian', description: 'Read SIGS in English and Persian, with shared event facts and a route for language corrections.' },
 ];
 
 export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTermId = organization.currentBoardTermId) {

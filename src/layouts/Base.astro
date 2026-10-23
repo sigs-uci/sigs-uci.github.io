@@ -23,20 +23,23 @@ const otherLabel = counterparts.includes(other) ? (other === 'en' ? 'English' : 
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{t(title)} | SIGS at UC Irvine</title>
+    <title>{t(title)} | {t('SIGS at UC Irvine')}</title>
     <meta name="description" content={t(description)} />
     <meta name="theme-color" content="#071B38" />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
     {counterparts.map(counterpart => <link rel="alternate" hreflang={counterpart} href={new URL(href(counterpart,path),site.origin).href} />)}
+    {counterparts.includes('en') && <link rel="alternate" hreflang="x-default" href={new URL(href('en',path),site.origin).href} />}
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="preload" href={locale === 'fa' ? '/fonts/vazirmatn.woff2' : '/fonts/manrope.woff2'} as="font" type="font/woff2" crossorigin />
     <meta property="og:title" content={`${t(title)} | SIGS`} />
     <meta property="og:description" content={t(description)} />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content={locale === 'fa' ? 'fa_IR' : 'en_US'} />
+    {counterparts.filter(counterpart => counterpart !== locale).map(counterpart => <meta property="og:locale:alternate" content={counterpart === 'fa' ? 'fa_IR' : 'en_US'} />)}
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={`${site.origin}/share.png`} />
-    <meta property="og:image:alt" content="SIGS, Society of Iranian Graduate Students at UC Irvine" />
+    <meta property="og:image:alt" content={t('SIGS, Society of Iranian Graduate Students at UC Irvine')} />
     <meta name="twitter:card" content="summary_large_image" />
     <script type="application/ld+json" is:inline set:html={serializeMetadata(organizationMetadata)} />
   </head>
@@ -46,14 +49,14 @@ const otherLabel = counterparts.includes(other) ? (other === 'en' ? 'English' : 
       <div class="header-inner wrap">
         <a class="identity" href={href(locale)} aria-label={t('SIGS home')}>
           <Image src={logo} width={64} height={64} alt="" format="png" widths={[64,128]} sizes="64px" loading="eager" />
-          <span><strong><bdi>SIGS</bdi></strong><span class="identity-name" lang="en" dir="ltr">Society of Iranian Graduate Students<br />at UC Irvine</span></span>
+          <span><strong><bdi lang="en">SIGS</bdi></strong><span class="identity-name">{t('Society of Iranian Graduate Students')}<br />{t('at UC Irvine')}</span></span>
         </a>
         <nav class="desktop-nav" aria-label={t('Main navigation')}>
           {nav.map(([p,label]) => <a href={href(locale,p)} aria-current={path.split('/')[0] === p ? 'page' : undefined}>{t(label)}</a>)}
         </nav>
         <div class="header-tools">
           <a class="search-link" href={href(locale,'search')} aria-label={t('Search SIGS')}><svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="m15 15 6 6" stroke="currentColor" stroke-width="1.8"/></svg><span class="sr-only">{t('Search')}</span></a>
-          <a href={otherHref} class="language" lang={other} aria-label={otherLabel} title={otherLabel}>{locale === 'en' ? 'فارسی' : 'English'}</a>
+          <a href={otherHref} class="language" lang={other} hreflang={other} dir={other === 'fa' ? 'rtl' : 'ltr'} aria-label={other === 'fa' ? 'فارسی' : 'English'} title={other === 'fa' ? 'فارسی' : 'English'}>{locale === 'en' ? 'فارسی' : 'English'}</a>
           <a class="button gold header-join" href={href(locale,'join')}>{t('Join SIGS')}</a>
           <details class="mobile-menu">
             <summary>{t('Menu')} <span aria-hidden="true">＋</span></summary>
@@ -69,7 +72,7 @@ const otherLabel = counterparts.includes(other) ? (other === 'en' ? 'English' : 
     <main id="main" tabindex="-1" data-pagefind-body={search && !noindex ? '' : undefined} data-pagefind-ignore={!search || noindex ? 'all' : undefined}><slot /></main>
     <footer class="footer" data-pagefind-ignore>
       <div class="wrap footer-grid">
-        <div><a class="footer-brand" href={href(locale)}>SIGS<span class="tiny-star" aria-hidden="true">↗</span></a><p>Society of Iranian Graduate Students<br />at UC Irvine</p><a href={emailLink('Hello SIGS')}><bdi>sigs@uci.edu</bdi></a></div>
+        <div><a class="footer-brand" href={href(locale)}><bdi lang="en">SIGS</bdi><span class="tiny-star" aria-hidden="true">↗</span></a><p>{t('Society of Iranian Graduate Students')}<br />{t('at UC Irvine')}</p><a href={emailLink(t('Hello SIGS'))}><bdi>sigs@uci.edu</bdi></a></div>
         <nav aria-label={t('Explore SIGS')}><h2>{t('Explore')}</h2><a href={href(locale,'events')}>{t('Events')}</a><a href={href(locale,'community')}>{t('Community')}</a><a href={href(locale,'resources')}>{t('Resources')}</a><a href={href(locale,'community/memories')}>{t('Memories')}</a></nav>
         <nav aria-label={t('About SIGS')}><h2>{t('Get to know us')}</h2><a href={href(locale,'about')}>{t('About')}</a><a href={href(locale,'about/leadership')}>{t('Leadership & Team')}</a><a href={href(locale,'partners')}>{t('Partners')}</a><a href={href(locale,'contact')}>{t('Contact')}</a></nav>
         <nav aria-label={t('Help and information')}><h2>{t('Useful links')}</h2><a href={href(locale,'join')}>{t('Join SIGS')}</a><a href={href(locale,'search')}>{t('Search')}</a><a href={href(locale,'privacy')}>{t('Privacy')}</a><a href={href(locale,'accessibility')}>{t('Accessibility')}</a></nav>

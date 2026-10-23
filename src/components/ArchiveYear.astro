@@ -1,7 +1,7 @@
 ---
 import { href, type Locale } from '../config/site';
 import { archiveYears } from '../lib/archive';
-import { tr } from '../i18n/ui';
+import { tr, formatNumber } from '../i18n/ui';
 import EventTeaser from './EventTeaser.astro';
 import '../styles/editorial.css';
 const { year, locale = 'en' } = Astro.props as { year: string; locale: Locale };
@@ -10,11 +10,12 @@ const selected = years.find(entry => entry.year === year)!;
 const documented = selected.records.filter(event => event.archiveLabel === 'Documented gathering').length;
 const announcements = selected.records.length - documented;
 const t = (s: string) => tr(locale, s);
+const number = (value: number | string) => formatNumber(locale, Number(value));
 ---
 <div class="wrap page-body">
-  <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale, 'events')}>{t('Events')}</a><span aria-hidden="true">/</span><a href={href(locale, 'events/archive')}>{t('Archive')}</a><span aria-hidden="true">/</span><bdi>{year}</bdi></nav>
-  <p class="prose quiet">{t('The records for this year include')} {documented} {t(documented === 1 ? 'documented gathering' : 'documented gatherings')} {t('and')} {announcements} {t(announcements === 1 ? 'archived announcement' : 'archived announcements')}. {t('An announcement preserves what was planned; its date alone does not confirm that it took place.')}</p>
-  <nav class="year-directory" aria-label={t('Other years in the archive')}>{years.map(entry => <a href={href(locale, `events/archive/${entry.year}`)} aria-current={entry.year === year ? 'page' : undefined}><bdi>{entry.year}</bdi><span>{entry.records.length} {t(entry.records.length === 1 ? 'record' : 'records')}</span></a>)}</nav>
+  <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale, 'events')}>{t('Events')}</a><span aria-hidden="true">/</span><a href={href(locale, 'events/archive')}>{t('Archive')}</a><span aria-hidden="true">/</span><bdi>{number(year)}</bdi></nav>
+  <p class="prose quiet">{t('The records for this year include')} {number(documented)} {t(documented === 1 ? 'documented gathering' : 'documented gatherings')} {t('and')} {number(announcements)} {t(announcements === 1 ? 'archived announcement' : 'archived announcements')}. {t('An announcement preserves what was planned; its date alone does not confirm that it took place.')}</p>
+  <nav class="year-directory" aria-label={t('Other years in the archive')}>{years.map(entry => <a href={href(locale, `events/archive/${entry.year}`)} aria-current={entry.year === year ? 'page' : undefined}><bdi>{number(entry.year)}</bdi><span>{number(entry.records.length)} {t(entry.records.length === 1 ? 'record' : 'records')}</span></a>)}</nav>
   <div class="record-directory">{selected.records.map(event => <EventTeaser event={event} locale={locale} level={2} />)}</div>
   <aside class="archive-help"><h2>{t('A detail to add?')}</h2><p>{t('Dates, captions, and public programs can help fill a gap in the archive. Get in touch with the event title and the detail you would like us to check.')}</p><a class="text-link" href={href(locale, 'contact')}>{t('Contact SIGS')} ↗</a><a class="text-link" href={href(locale, 'about/history')}>{t('Read the SIGS history')} ↗</a></aside>
 </div>

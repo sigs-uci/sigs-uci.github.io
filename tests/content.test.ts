@@ -40,7 +40,7 @@ test('archive facts preserve dates, unknown rooms and closed registration', () =
     }
     assert.equal(event.generateCalendarDownload, false);
     assert.equal(event.generateEventStructuredData, false);
-    assert.equal(event.editorial.fa, 'not_translated');
+    assert.equal(event.editorial.fa, 'reviewed');
   }
 });
 

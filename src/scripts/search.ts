@@ -23,7 +23,7 @@ if (root) {
     try {
       const results = await runner.run(query);
       if (!results) return;
-      status.textContent = results.length ? `${results.length} ${results.length === 1 ? root.dataset.single : root.dataset.found}` : root.dataset.empty!;
+      status.textContent = results.length ? `${new Intl.NumberFormat(document.documentElement.lang, { useGrouping: false }).format(results.length)} ${results.length === 1 ? root.dataset.single : root.dataset.found}` : root.dataset.empty!;
       results.forEach(item => {
         const li = document.createElement('li');
         const heading = document.createElement('h2');
