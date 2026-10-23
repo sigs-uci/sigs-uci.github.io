@@ -31,11 +31,16 @@ const boardTerms = defineCollection({ loader: file('src/data/boardTerms.json'), 
     role: text, group: z.enum(['board', 'support', 'advisor']), displayOrder: z.number().int().positive(),
     telegramUrl: optionalText, portrait: optionalText, bio: optionalText, membershipTerm: optionalText })) }) });
 const programs = defineCollection({ loader: file('src/data/programs.json'), schema: z.object({ id, name: text, summary: text, period: text }) });
+const programDetails = defineCollection({ loader: file('src/data/programDetails.json'), schema: z.object({ id, title: text, intro: text,
+  periodLabel: text, sections: z.array(z.object({ title: text, paragraphs: z.array(text).min(1) })).min(1),
+  relatedEventIds: z.array(text), relatedPaths: z.array(z.object({ label: text, path: text })),
+  publicContextLinks: z.array(z.object({ label: text, url: z.url() })) }) });
 const milestones = defineCollection({ loader: file('src/data/milestones.json'), schema: z.object({ id, year: z.number().int(), title: text,
   summary: text, eventIds: z.array(text), precision: text }) });
 const resources = defineCollection({ loader: file('src/data/resources.json'), schema: z.object({ id, category: text, title: text,
   description: text, url: z.url(), source: text, reviewedOn: text, reviewScope: text, ownerRole: text }) });
 const media = defineCollection({ loader: file('src/data/media.json'), schema: z.object({ id, src: text,
+  thumbnail: z.string().optional(), kind: z.enum(['photo', 'poster']).optional(),
   width: z.number().int().positive(), height: z.number().int().positive(), eventId: optionalText,
   focalPoint: z.tuple([z.number().min(0).max(1), z.number().min(0).max(1)]),
   alt: z.object({ en: text, fa: z.string().optional() }), caption: z.object({ en: z.string().optional(), fa: z.string().optional() }),
@@ -49,4 +54,4 @@ const eventTranslations = defineCollection({
     status: editorial, sourceRevision: text, reviewedOn: optionalText }),
 });
 
-export const collections = { events, people, boardTerms, programs, milestones, resources, media, stories, eventTranslations };
+export const collections = { events, people, boardTerms, programs, programDetails, milestones, resources, media, stories, eventTranslations };

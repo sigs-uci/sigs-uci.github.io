@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": "poetry-night-2019-photo",
+    "src": "/media/poetry-night-2019.webp",
+    "thumbnail": "/media/poetry-night-2019-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 851,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.6,
+      0.45
+    ],
+    "alt": {
+      "en": "Attendees seated in a room during SIGS Persian Poetry Night, facing the front tables."
+    },
+    "caption": {
+      "en": "SIGS Persian Poetry Night, February 23, 2019."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "tales-2016-poster",
+    "src": "/media/tales-2016-poster.webp",
+    "thumbnail": "/media/tales-2016-poster-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 2286,
+    "eventId": "tales-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Black and gold Tales screening poster with two illustrated portraits and March 31, 2016 event details."
+    },
+    "caption": {
+      "en": "Poster advertising a free public screening of Tales and a screenwriter Q&A on March 31, 2016, from 7 to 9 PM in Humanities Gateway 1030."
+    },
+    "credit": "Poster credits as printed.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2025-flyer",
+    "src": "/media/yalda-2025-flyer.webp",
+    "thumbnail": "/media/yalda-2025-flyer-small.webp",
+    "kind": "poster",
+    "width": 1200,
+    "height": 1200,
+    "eventId": "yalda-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Red Yalda Night flyer decorated with pomegranates and watermelon, listing December 21 at Verano Community Center."
+    },
+    "caption": {
+      "en": "Archived Yalda invitation for December 21, 2025 at 6 PM in Verano Community Center's Multipurpose Room. Registration is closed; the printed QR code is not a current RSVP. The emblem is part of the historical flyer design."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  }
+]

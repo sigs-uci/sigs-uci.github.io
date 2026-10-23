@@ -27,9 +27,15 @@ These templates describe records, not events to publish. Prepare missing details
 | `generateCalendarDownload`, `generateEventStructuredData` | False without a precise schedule |
 | `calendarUpdated`, `calendarSequence` | Actual update instant and nonnegative revision when calendars are enabled |
 
+## Program profile
+
+Each theme in `src/data/programs.json` has a matching record in `src/data/programDetails.json`. Keep its historical period explicit. Add titled sections, supported public paragraphs, canonical event IDs, related local paths, and suitable public context links. The program page links existing event records; it does not create new occurrences. A program profile is not a current schedule.
+
 ## Media
 
 A `MediaRecord` needs a stable ID, local public asset path, width and height, optional event ID, focal point from 0 to 1, localized alt text and caption, and public credit. Its publication and rights states are separate. Published event pages may reference only published media with approved rights.
+
+An optional `thumbnail` points to a smaller local derivative for gallery previews. Use `kind: "poster"` for a historical poster that should be shown in full. Poster wording and QR codes stay in their dated context; they do not reopen registration. Record the dimensions of the actual public derivative after preparing it.
 
 ## Team term
 

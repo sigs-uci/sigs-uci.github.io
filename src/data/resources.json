@@ -108,5 +108,93 @@
     "reviewedOn": "2026-10-22",
     "reviewScope": "Official page description and destination",
     "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "library-research",
+    "category": "campus",
+    "title": "Find library support for your research",
+    "description": "Use the Libraries’ graduate guide to find research services, tools and library workshops.",
+    "url": "https://guides.lib.uci.edu/graduate-student-support",
+    "source": "UC Irvine Libraries",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "graduate-writing",
+    "category": "connections",
+    "title": "Work on your graduate writing",
+    "description": "The Graduate Writing Hub lists writing consultations and programs for graduate students and postdoctoral scholars.",
+    "url": "https://writingcenter.uci.edu/gwh/",
+    "source": "UCI Writing Center",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "graduate-careers",
+    "category": "connections",
+    "title": "Explore your next career step",
+    "description": "Find graduate career advising, job-search resources and events through the Division of Career Pathways.",
+    "url": "https://career.uci.edu/graduate/",
+    "source": "UCI Division of Career Pathways",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "disability-services",
+    "category": "support",
+    "title": "Arrange disability accommodations",
+    "description": "Find registration information, accommodation services and ways to report an access barrier through the Disability Services Center.",
+    "url": "https://dsc.uci.edu/",
+    "source": "UCI Disability Services Center",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "anteater-express",
+    "category": "campus",
+    "title": "Check the campus shuttle routes",
+    "description": "Use Anteater Express for route maps, current schedules and service updates before your trip.",
+    "url": "https://shuttle.uci.edu/",
+    "source": "UCI Anteater Express",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "campus-recreation",
+    "category": "campus",
+    "title": "Find recreation classes and facilities",
+    "description": "Check Campus Recreation for ARC hours, activity programs and current membership information.",
+    "url": "https://campusrec.uci.edu/",
+    "source": "UCI Campus Recreation",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "graduate-technology",
+    "category": "settling-in",
+    "title": "Set up your campus technology",
+    "description": "OIT’s graduate guide links to UCInetID, email, internet access and technical support information.",
+    "url": "https://www.oit.uci.edu/grad/",
+    "source": "UCI Office of Information Technology",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "teaching-development",
+    "category": "connections",
+    "title": "Develop your teaching practice",
+    "description": "Explore DTEI’s teaching workshops and training opportunities for graduate students and postdoctoral scholars.",
+    "url": "https://dtei.uci.edu/opportunities/grads-postdocs/",
+    "source": "UCI Division of Teaching Excellence and Innovation",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
   }
 ]

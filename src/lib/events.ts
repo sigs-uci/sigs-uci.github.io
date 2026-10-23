@@ -138,11 +138,32 @@ export function formatDate(event: EventRecord, locale = 'en'): string {
     timeZone: event.timeZone ?? campusTimeZone, dateStyle: 'long',
   }).format(new Date(event.startInstant));
   const day = effectiveDay(event);
-  if (day && /^\d{4}-\d{2}-\d{2}$/.test(day)) return new Intl.DateTimeFormat(language, {
-    timeZone: 'UTC', dateStyle: 'long',
-  }).format(new Date(`${day}T12:00:00Z`));
+  if (day && /^\d{4}-\d{2}-\d{2}$/.test(day)) {
+    const formatter = new Intl.DateTimeFormat(language, { timeZone: 'UTC', dateStyle: 'long' });
+    const start = formatter.format(new Date(`${day}T12:00:00Z`));
+    if (event.allDay) {
+      const lastDay = finalDay(event);
+      if (lastDay && lastDay !== day) return `${start} - ${formatter.format(new Date(`${lastDay}T12:00:00Z`))}`;
+    }
+    return start;
+  }
   if (event.date.contextYear) return new Intl.NumberFormat(language, { useGrouping: false }).format(event.date.contextYear);
   return 'Date not recorded';
+}
+
+export function formatTimeRange(event: EventRecord, locale = 'en'): string | null {
+  if (event.timeDisplay?.trim()) return event.timeDisplay;
+  if (!event.startInstant || event.allDay) return null;
+  const language = locale === 'fa' ? 'fa-IR-u-ca-gregory' : 'en-US';
+  const timeZone = event.timeZone ?? campusTimeZone;
+  const start = new Date(event.startInstant);
+  const end = event.endInstant ? new Date(event.endInstant) : null;
+  const crossesDay = end && dayInZone(start, timeZone) !== dayInZone(end, timeZone);
+  const formatter = new Intl.DateTimeFormat(language, {
+    timeZone, hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+    ...(crossesDay ? { month: 'short', day: 'numeric', year: 'numeric' } : {}),
+  });
+  return end ? `${formatter.format(start)} - ${formatter.format(end)}` : formatter.format(start);
 }
 
 export function registrationAction(event: EventRecord): { label: string; href: string | null } {

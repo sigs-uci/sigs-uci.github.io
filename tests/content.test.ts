@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { boardTerms, data, events, people, programs, organization, validatePublicData } from '../src/data/index';
+import { boardTerms, data, events, media, people, programs, organization, validatePublicData } from '../src/data/index';
 
 test('public content passes validation and keeps the historical evidence split', () => {
   assert.deepEqual(validatePublicData(data), []);
@@ -18,12 +18,26 @@ test('archive facts preserve dates, unknown rooms and closed registration', () =
   assert.equal(byId['nowruz-2021'].startInstant, null);
   assert.equal(byId['yalda-2023'].date.value, '2023-12-16');
   assert.notEqual(byId['solidarity-2026-02-02'].id, byId['solidarity-2026-02-10'].id);
+  const approved = new Map([
+    ['poetry-night-2019', 'poetry-night-2019-photo'],
+    ['tales-2016', 'tales-2016-poster'],
+    ['yalda-2025', 'yalda-2025-flyer'],
+  ]);
+  assert.equal(media.length, approved.size);
   for (const event of events) {
     assert.equal(event.registration, 'closed');
     assert.equal(event.registrationUrl, null);
     assert.equal(event.startInstant, null);
     assert.equal(event.endInstant, null);
-    assert.deepEqual(event.gallery, []);
+    const imageId = approved.get(event.id);
+    assert.deepEqual(event.gallery, imageId ? [imageId] : []);
+    assert.equal(event.heroImage, imageId ?? null);
+    if (imageId) {
+      const image = media.find(item => item.id === imageId)!;
+      assert.equal(image.eventId, event.id);
+      assert.equal(image.publication, 'published');
+      assert.equal(image.rights, 'approved');
+    }
     assert.equal(event.generateCalendarDownload, false);
     assert.equal(event.generateEventStructuredData, false);
     assert.equal(event.editorial.fa, 'not_translated');

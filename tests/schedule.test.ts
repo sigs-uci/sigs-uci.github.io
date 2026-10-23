@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { effectiveDay, filterEvents, hasEnded, nextEvent, occursInMonth, occursOnDay } from '../src/lib/events';
+import { effectiveDay, filterEvents, formatDate, formatTimeRange, hasEnded, nextEvent, occursInMonth, occursOnDay } from '../src/lib/events';
+import { events } from '../src/data';
 import { eventFixture } from './fixtures/events';
 
 test('midnight all-day start sorts before a timed event on the same campus day', () => {
@@ -41,4 +42,31 @@ test('multi-day calendars include occupied days and omit the exclusive end', () 
   assert.equal(hasEnded(event, new Date('2027-04-02T00:00:00-07:00')), true);
   const midnightEnd = eventFixture({ startInstant: '2027-03-31T23:00:00-07:00', endInstant: '2027-04-01T00:00:00-07:00' });
   assert.equal(occursInMonth(midnightEnd, '2027-04'), false);
+});
+
+test('event details retain advertised historical times and do not invent unknown times', () => {
+  for (const event of events) assert.equal(formatTimeRange(event), event.timeDisplay);
+  const ambiguous = events.find(event => event.id === 'nowruz-2021')!;
+  assert.equal(formatTimeRange(ambiguous), '7 to 8 PM California time');
+  assert.equal(ambiguous.startInstant, null);
+});
+
+test('precise time ranges show both ends and cross-midnight dates', () => {
+  const event = eventFixture({ timeDisplay: null, startInstant: '2027-03-15T19:00:00-07:00', endInstant: '2027-03-15T21:00:00-07:00' });
+  const range = formatTimeRange(event)!;
+  assert.match(range, /7:00 PM PDT/);
+  assert.match(range, /9:00 PM PDT/);
+  assert.equal(/[\u2013\u2014]/u.test(range), false);
+  const overnight = formatTimeRange({ ...event, startInstant: '2027-03-15T23:00:00-07:00', endInstant: '2027-03-16T01:00:00-07:00' })!;
+  assert.match(overnight, /Mar 15/);
+  assert.match(overnight, /Mar 16/);
+});
+
+test('all-day detail ranges display the last occupied day rather than the exclusive end', () => {
+  const event = eventFixture({ timeDisplay: null, startInstant: null, endInstant: null, allDay: { start: '2027-03-31', end: '2027-04-02' } });
+  const range = formatDate(event);
+  assert.match(range, /March 31, 2027/);
+  assert.match(range, /April 1, 2027/);
+  assert.equal(range.includes('April 2'), false);
+  assert.equal(formatTimeRange(event), null);
 });
