@@ -1,4 +1,6 @@
-export const pages = [
+import { boardTerms, organization, type BoardTerm } from '../data';
+
+const corePages = [
   { path: '', title: 'See you at SIGS.', description: 'The Iranian graduate student community at UC Irvine. Find gatherings, meet the team, and get in touch.' },
   { path: 'events', title: 'Events', description: 'Find SIGS gatherings and browse the event archive by year or topic.' },
   { path: 'events/archive', title: 'The event archive', description: 'Cultural celebrations, film, poetry, and community gatherings from the SIGS record.' },
@@ -8,9 +10,7 @@ export const pages = [
   { path: 'resources', title: 'Find what you need.', description: 'Official UC Irvine resources for arriving on campus, student life, and support.' },
   { path: 'resources/new-students', title: 'New to UCI?', description: 'A starting point for housing, campus services, transport, and finding your community.' },
   { path: 'about', title: 'This is SIGS.', description: 'Meet the Society of Iranian Graduate Students at UC Irvine and the people who keep it going.' },
-  { path: 'about/leadership', title: 'Leadership & Team', description: 'The current SIGS Board, Support Team, and Advisor for 2026-2027.' },
-  { path: 'about/leadership/2026-2027', title: 'The 2026-2027 team', description: 'The current SIGS Board, Support Team, and Advisor.' },
-  { path: 'about/leadership/2025-2026', title: 'The 2025-2026 team', description: 'The previous SIGS Board and Support Team, with contacts listed for that term.' },
+  { path: 'about/leadership', title: 'Leadership & Team', description: 'Meet the current SIGS team and browse previous terms.' },
   { path: 'about/history', title: 'Our shared history.', description: 'A partial chronology of SIGS, with a path back to the event archive.' },
   { path: 'partners', title: 'Help good things happen.', description: 'Talk with SIGS about cultural gatherings, newcomer support, and professional conversations.' },
   { path: 'join', title: 'Come be part of it.', description: 'Get in touch with SIGS, attend a gathering, or help organize the next one.' },
@@ -20,3 +20,16 @@ export const pages = [
   { path: 'accessibility', title: 'Accessibility', description: 'Accessibility features, known content limits, and how to report a barrier.' },
   { path: 'languages', title: 'English and Persian', description: 'Language availability and how to help review the Persian website.' },
 ];
+
+export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTermId = organization.currentBoardTermId) {
+  const current = terms.find(term => term.id === currentTermId);
+  return [
+    ...corePages.map(page => page.path === 'about/leadership' && current
+      ? { ...page, description: `The current SIGS leadership and team for ${current.term}.` }
+      : page),
+    ...terms.map(term => ({ path: `about/leadership/${term.id}`, title: `The ${term.term} team`,
+      description: `The ${term.status === 'current' ? 'current' : 'previous'} SIGS team, with roles and contacts listed for ${term.term}.` })),
+  ];
+}
+
+export const pages = buildPages();

@@ -186,6 +186,7 @@ export interface PublicData {
 
 const occurrenceSupported = new Set<OccurrenceEvidence>(['occurrence_corroborated', 'occurrence_reported', 'institutional_retrospective', 'reported_occurrence']);
 const eventKeys = new Set(['id', 'slug', 'title', 'locale', 'date', 'timeDisplay', 'timeZone', 'startInstant', 'endInstant', 'venue', 'category', 'sigsRole', 'summary', 'occurrenceEvidence', 'archiveLabel', 'publication', 'eventState', 'registration', 'registrationUrl', 'gallery', 'heroImage', 'editorial', 'publicSourceLinks', 'generateCalendarDownload', 'generateEventStructuredData', 'allDay', 'calendarUpdated', 'calendarSequence', 'accessibility', 'cost', 'audience']);
+const storyKeys = new Set(['id', 'slug', 'title', 'summary', 'locale', 'publication', 'editorial', 'publishedOn', 'body', 'relatedEventIds', 'mediaIds', 'kind', 'credit']);
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const datePattern = /^\d{4}-\d{2}-\d{2}$/;
 const instantPattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/;
@@ -332,7 +333,14 @@ export function validatePublicData(data: PublicData): string[] {
   });
   data.stories.forEach(story => {
     const key = `stories.${story.id}`;
-    if (story.publication === 'published' && story.locale === 'fa' && story.editorial !== 'reviewed') issue(key, 'Persian publication needs reviewed text');
+    if (Object.keys(story).some(field => !storyKeys.has(field))) issue(key, 'Contains an unsupported field');
+    if (!slugPattern.test(story.id) || !slugPattern.test(story.slug)) issue(key, 'ID and slug must use lowercase words and hyphens');
+    if (!['en', 'fa'].includes(story.locale)) issue(key, 'Unknown story locale');
+    if (!['draft', 'published'].includes(story.publication) || !['draft', 'edited', 'reviewed', 'not_translated'].includes(story.editorial)) issue(key, 'Unknown story publication or editorial state');
+    if (!['story', 'yearbook'].includes(story.kind)) issue(key, 'Unknown story kind');
+    if (!isDay(story.publishedOn)) issue(key, 'Publication date must be a valid ISO day');
+    if (story.publication === 'published' && story.editorial !== 'reviewed') issue(key, 'Published stories need reviewed text');
+    if (data.stories.some(other => other.id !== story.id && other.slug === story.slug && other.locale === story.locale)) issue(key, 'Story URL must be unique within a locale');
     story.relatedEventIds.forEach(id => { if (!eventIds.has(id)) issue(key, 'Event reference does not exist'); });
     story.mediaIds.forEach(id => { if (!mediaIds.has(id)) issue(key, 'Media reference does not exist'); });
     if (story.publication === 'published') story.mediaIds.forEach(id => { if (!visibleMedia(id)) issue(key, 'Published stories need published media with permission'); });

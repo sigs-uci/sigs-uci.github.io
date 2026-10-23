@@ -27,6 +27,6 @@ const noindex=['search','languages'].includes(path);
 <Base title={page.title} description={page.description} locale={locale} path={path} noindex={noindex} search={!noindex}>
 {path===''?<Home locale={locale}/>:event?<EventDetail event={event} translation={translation} locale={locale}/>:story?<Story story={story} locale={locale}/>:<>
 <section class="page-heading"><div class="wrap"><p class="eyebrow">SIGS / {t(path.split('/')[0]==='events'?'Gatherings':path.split('/')[0]==='about'?'Our community':path.split('/')[0]==='resources'?'Student life':path.split('/')[0]==='community'?'Life together':'At UC Irvine')}</p><h1 data-pagefind-meta="title">{t(page.title)}</h1><p>{t(page.description)}</p></div></section>
-{path==='events'||path==='events/archive'?<EventExplorer locale={locale} archive={path.endsWith('archive')}/>:path.startsWith('about/leadership')?<Leadership locale={locale} termId={path.split('/')[2]??'2026-2027'}/>:path==='search'?<Search locale={locale}/>:<StandardContent locale={locale} path={path}/>}
+{path==='events'||path==='events/archive'?<EventExplorer locale={locale} archive={path.endsWith('archive')}/>:path.startsWith('about/leadership')?<Leadership locale={locale} termId={path.split('/')[2]}/>:path==='search'?<Search locale={locale}/>:<StandardContent locale={locale} path={path}/>}
 </>}
 </Base>

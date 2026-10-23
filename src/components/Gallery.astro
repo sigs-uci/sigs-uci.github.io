@@ -1,11 +1,13 @@
 ---
-import type {MediaRecord} from '../data';
+import {events,type MediaRecord} from '../data';
 import type {Locale} from '../config/site';
 import {tr} from '../i18n/ui';
+import {isPublicEvent} from '../lib/events';
+import {eventHref,eventLocale,reviewedTranslation} from '../lib/publication';
 const {items,locale='en'} = Astro.props as {items:MediaRecord[];locale:Locale};
 const t=(s:string)=>tr(locale,s);
 ---
-{items.length>0&&<div data-gallery><div class="gallery-grid">{items.map((item)=><figure><a href={item.src} data-gallery-item data-caption={`${item.caption[locale]??item.caption.en??''} ${item.credit}`}><img src={item.src} width={item.width} height={item.height} alt={item.alt[locale]??item.alt.en??''} loading="lazy" style={`object-position:${item.focalPoint[0]*100}% ${item.focalPoint[1]*100}%`} /></a><figcaption>{item.caption[locale]??item.caption.en} <span>{item.credit}</span></figcaption></figure>)}</div><dialog class="gallery-dialog" aria-label={t('Photo viewer')}><header><h2>{t('Photographs & memories')}</h2><button type="button" data-gallery-close autofocus>{t('Close')}</button></header><img src={items[0].src} alt="" data-gallery-image /><p data-gallery-caption></p><nav aria-label={t('Photo controls')}><button type="button" data-gallery-prev>{t('Previous photo')}</button><span data-gallery-count></span><button type="button" data-gallery-next>{t('Next photo')}</button></nav></dialog></div>}
+{items.length>0&&<div data-gallery><div class="gallery-grid">{items.map((item)=>{const event=events.find(event=>event.id===item.eventId&&isPublicEvent(event));const language=event?eventLocale(event,locale):undefined;return <figure><a href={item.src} data-gallery-item data-caption={`${item.caption[locale]??item.caption.en??''} ${item.credit}`}><img src={item.src} width={item.width} height={item.height} alt={item.alt[locale]??item.alt.en??''} lang={item.alt[locale]?locale:'en'} loading="lazy" style={`object-position:${item.focalPoint[0]*100}% ${item.focalPoint[1]*100}%`} /></a><figcaption><span lang={item.caption[locale]?locale:'en'}>{item.caption[locale]??item.caption.en}</span> <span dir="auto">{item.credit}</span>{event&&<p><a href={eventHref(event,locale)} hreflang={language}>{t('View event')}: <span lang={language}>{language==='fa'?reviewedTranslation(event.id)?.title:event.title}</span></a>{locale==='fa'&&language==='en'&&<span> ({t('English record')})</span>}</p>}</figcaption></figure>;})}</div><dialog class="gallery-dialog" aria-label={t('Photo viewer')}><header><h2>{t('Photographs & memories')}</h2><button type="button" data-gallery-close autofocus>{t('Close')}</button></header><img src={items[0].src} alt="" data-gallery-image /><p data-gallery-caption></p><nav aria-label={t('Photo controls')}><button type="button" data-gallery-prev>{t('Previous photo')}</button><span data-gallery-count></span><button type="button" data-gallery-next>{t('Next photo')}</button></nav></dialog></div>}
 <script>
   document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(root=>{
     let ready:Promise<(link:HTMLAnchorElement)=>void>;

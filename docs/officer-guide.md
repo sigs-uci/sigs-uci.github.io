@@ -32,7 +32,7 @@ Historical corrections retain date precision and the archive label. If a room is
 
 Edit `src/data/people.json` for stable public names. Roles and Telegram contacts belong to memberships in `src/data/boardTerms.json`. Keep membership IDs in the form `termId:personId`, preserve display order and use the exact approved URL for that term. A repeated person may have a different contact in another term.
 
-For a new current term, mark the old term `former`, add the approved memberships, update `organization.currentBoardTermId` and synchronize `organization.currentBoard` in `src/data/organization.json`. Do not infer continuous membership dates, biographies or portraits. Run validation before previewing both the current and former term pages.
+For a new current term, mark the old term `former`, add the approved memberships, update `organization.currentBoardTermId` and synchronize `organization.currentBoard` in `src/data/organization.json`. Each term receives a page automatically; previous term URLs remain available. Do not infer continuous membership dates, biographies or portraits. Run validation before previewing both the current and former term pages.
 
 ## Attach a photograph
 

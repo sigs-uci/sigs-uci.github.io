@@ -23,4 +23,5 @@
 @media(max-width:389px){.identity-name{max-width:108px}.hero .actions{display:grid;grid-template-columns:1fr}.hero .button{width:100%}}
 .language{display:inline-flex;align-items:center;min-height:44px}.hero :focus-visible,.footer :focus-visible,.newcomer-band :focus-visible,.film:focus-visible{outline-color:var(--gold)}
 .join-step{padding:25px 0;padding-inline-start:60px}.history-entry{padding-inline-end:30px;padding-inline-start:0}
+.person-portrait{margin:0 0 20px;max-width:180px}.person-portrait img{width:160px;height:160px;object-fit:cover;border-radius:12px}.person-portrait figcaption{font-size:11px;color:var(--muted);margin-top:8px}
 @media(max-width:767px){.join-step{padding-inline-start:45px}.history-entry{padding-inline-end:45px}}
