@@ -6,7 +6,7 @@ export interface MediaCollection {
   id: string;
   title: Record<Locale, string>;
   description: Record<Locale, string>;
-  note: Record<Locale, string>;
+  note?: Record<Locale, string>;
   coverId: string;
   mediaIds: string[];
   eventIds: string[];
@@ -29,7 +29,7 @@ export function validateMediaCollections(collections: readonly MediaCollection[]
     if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(collection.id)||ids.has(collection.id))issue('Collection needs a safe unique ID');
     ids.add(collection.id);
     if(Object.keys(collection).some(field=>!['id','title','description','note','coverId','mediaIds','eventIds'].includes(field)))issue('Contains an unsupported field');
-    for(const text of [collection.title,collection.description,collection.note])if(!text?.en?.trim()||!text?.fa?.trim())issue('Text needs both languages');
+    for(const text of [collection.title,collection.description,...(collection.note === undefined ? [] : [collection.note])])if(!text?.en?.trim()||!text?.fa?.trim())issue('Text needs both languages');
     if(!collection.mediaIds.length||new Set(collection.mediaIds).size!==collection.mediaIds.length)issue('Collection needs distinct media');
     if(!collection.mediaIds.includes(collection.coverId))issue('Cover must belong to the collection');
     for(const id of collection.mediaIds){

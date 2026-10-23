@@ -10,8 +10,8 @@ const selected=['beach-gatherings','nowruz-celebrations','boat-outing'].map(id=>
 const clips=[publicVideos.find(item=>item.src.includes('beach')),publicVideos.find(item=>item.src.includes('community-meals'))].filter((item):item is NonNullable<typeof item>=>Boolean(item));
 ---
 <section class="home-media-feature" aria-labelledby="community-in-pictures"><div class="wrap">
-  <div class="section-heading"><div><p class="eyebrow">{t('Life in SIGS')}</p><h2 id="community-in-pictures">{t('Good company, in the frame.')}</h2><p>{t('A day by the water. A table with friends. Take a look at the people and moments behind the gatherings.')}</p></div><a class="text-link" href={href(locale,'community/memories')}>{t('Explore every collection')} ↗</a></div>
+  <div class="section-heading"><div><p class="eyebrow">{t('Life in SIGS')}</p><h2 id="community-in-pictures">{t('Celebrations and time together')}</h2><p>{t('Nowruz celebrations, beach bonfires, and a boat outing. Explore the photos and videos from SIGS gatherings.')}</p></div><a class="text-link" href={href(locale,'community/memories')}>{t('Explore every collection')} ↗</a></div>
   <div class="home-photo-story">{selected.map(collection=>{if(!collection)return null;const photo=publicMedia.find(item=>item.id===collection.coverId);return photo&&<figure><a href={href(locale,collectionPath(collection))}><img src={photo.src} width={photo.width} height={photo.height} alt={photo.alt[locale]} loading="lazy"/></a><figcaption><a href={href(locale,collectionPath(collection))}>{collection.title[locale]} ↗</a></figcaption></figure>;})}</div>
-  <div class="section-heading"><h3>{t('A moment in motion.')}</h3><a class="text-link" href={href(locale,'community/videos')}>{t('Watch all seven videos')} ↗</a></div>
+  <div class="section-heading"><h3>{t('Videos from our gatherings')}</h3><a class="text-link" href={href(locale,'community/videos')}>{t('Watch all seven videos')} ↗</a></div>
   <div class="video-grid">{clips.map(item=><Video item={item} locale={locale}/>)}</div>
 </div></section>
