@@ -3,7 +3,7 @@ import {href,type Locale} from '../config/site';
 import {tr} from '../i18n/ui';
 const {locale='en'}=Astro.props as {locale:Locale};const t=(s:string)=>tr(locale,s);
 ---
-<div class="wrap page-body" data-search data-loading={t('Searching…')} data-empty={t('No results. Try a different word or browse the event archive.')} data-error={t('Search could not load. Try again, or use the browse links below.')} data-found={t('results')}>
+<div class="wrap page-body" data-search data-loading={t('Searching…')} data-empty={t('No results. Try a different word or browse the event archive.')} data-error={t('Search could not load. Try again, or use the browse links below.')} data-found={t('results')} data-single={t('result')}>
 <p class="quiet">{t('Search event titles, campus resources, and the SIGS website. The search index loads when you search.')}</p>
 <form class="search-form" role="search"><div class="field"><label for="site-search">{t('Search SIGS')}</label><input id="site-search" name="q" type="search" autocomplete="off" required /></div><button class="button primary" type="submit">{t('Search')}</button></form>
 <p data-search-status role="status" aria-live="polite"></p><ol class="search-results" data-search-results></ol>
