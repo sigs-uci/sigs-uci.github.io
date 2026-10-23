@@ -16,7 +16,7 @@ npm run output:check
 npm run preview
 ```
 
-Open the local preview address printed by Astro. The preview serves the built site, including search. `npm run dev` starts the editing server; search needs a build first.
+Open the local preview address printed by Astro. The preview serves the built site, including search. `npm run dev` starts the editing server; search needs a build first. Run validation locally before committing or publishing. Pushes and pull requests do not run GitHub CI.
 
 Public content lives in `src/data/`. Components and routes read those records rather than maintaining separate event lists. The archive distinguishes documented gatherings from archived announcements. A past advertised date does not establish that an event took place.
 
