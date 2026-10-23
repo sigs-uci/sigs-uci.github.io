@@ -1,0 +1,85 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/brand/logo.png';
+import '../styles/global.css';
+import { site, href, emailLink, type Locale } from '../config/site';
+import { tr } from '../i18n/ui';
+import { availableLocales } from '../lib/publication';
+import { organizationMetadata, serializeMetadata } from '../lib/metadata';
+interface Props { title: string; description: string; locale?: Locale; path?: string; noindex?: boolean; search?: boolean; }
+const { title, description, locale = 'en', path = '', noindex = false, search = true } = Astro.props;
+const t = (s: string) => tr(locale,s);
+const nav = [['events','Events'],['community','Community'],['resources','Resources'],['about','About'],['partners','Partners']];
+const canonical = new URL(href(locale,path), site.origin).href;
+const other = locale === 'fa' ? 'en' : 'fa';
+const counterparts = availableLocales(path);
+const otherHref = counterparts.includes(other) ? href(other,path)
+  : other === 'en' ? href('en') : site.persianApproved ? href('fa') : href('en','languages');
+const otherLabel = counterparts.includes(other) ? (other === 'en' ? 'English' : 'Persian')
+  : other === 'en' ? 'English homepage' : site.persianApproved ? 'Persian homepage' : 'Persian language availability';
+---
+<!doctype html>
+<html lang={locale} dir={locale === 'fa' ? 'rtl' : 'ltr'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{t(title)} | SIGS at UC Irvine</title>
+    <meta name="description" content={t(description)} />
+    <meta name="theme-color" content="#071B38" />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonical} />
+    {counterparts.map(counterpart => <link rel="alternate" hreflang={counterpart} href={new URL(href(counterpart,path),site.origin).href} />)}
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preload" href={locale === 'fa' ? '/fonts/vazirmatn.woff2' : '/fonts/manrope.woff2'} as="font" type="font/woff2" crossorigin />
+    <meta property="og:title" content={`${t(title)} | SIGS`} />
+    <meta property="og:description" content={t(description)} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={`${site.origin}/share.png`} />
+    <meta property="og:image:alt" content="SIGS, Society of Iranian Graduate Students at UC Irvine" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" is:inline set:html={serializeMetadata(organizationMetadata)} />
+  </head>
+  <body>
+    <a class="skip" href="#main">{t('Skip to content')}</a>
+    <header class="masthead" data-pagefind-ignore>
+      <div class="header-inner wrap">
+        <a class="identity" href={href(locale)} aria-label={t('SIGS home')}>
+          <Image src={logo} width={64} height={64} alt="" format="png" widths={[64,128]} sizes="64px" loading="eager" />
+          <span><strong><bdi>SIGS</bdi></strong><span class="identity-name" lang="en" dir="ltr">Society of Iranian Graduate Students<br />at UC Irvine</span></span>
+        </a>
+        <nav class="desktop-nav" aria-label={t('Main navigation')}>
+          {nav.map(([p,label]) => <a href={href(locale,p)} aria-current={path.split('/')[0] === p ? 'page' : undefined}>{t(label)}</a>)}
+        </nav>
+        <div class="header-tools">
+          <a class="search-link" href={href(locale,'search')} aria-label={t('Search SIGS')}><svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="m15 15 6 6" stroke="currentColor" stroke-width="1.8"/></svg><span class="sr-only">{t('Search')}</span></a>
+          <a href={otherHref} class="language" lang={other} aria-label={otherLabel} title={otherLabel}>{locale === 'en' ? 'فارسی' : 'English'}</a>
+          <a class="button gold header-join" href={href(locale,'join')}>{t('Join SIGS')}</a>
+          <details class="mobile-menu">
+            <summary>{t('Menu')} <span aria-hidden="true">＋</span></summary>
+            <nav aria-label={t('Mobile navigation')}>
+              <a href={href(locale)} aria-current={!path ? 'page' : undefined}>{t('Home')}</a>
+              {nav.map(([p,label]) => <a href={href(locale,p)} aria-current={path.split('/')[0] === p ? 'page' : undefined}>{t(label)}</a>)}
+              <a href={href(locale,'join')}>{t('Join SIGS')}</a><a href={href(locale,'contact')}>{t('Contact')}</a><a href={href(locale,'search')}>{t('Search')}</a>
+            </nav>
+          </details>
+        </div>
+      </div>
+    </header>
+    <main id="main" tabindex="-1" data-pagefind-body={search && !noindex ? '' : undefined} data-pagefind-ignore={!search || noindex ? 'all' : undefined}><slot /></main>
+    <footer class="footer" data-pagefind-ignore>
+      <div class="wrap footer-grid">
+        <div><a class="footer-brand" href={href(locale)}>SIGS<span class="tiny-star" aria-hidden="true">↗</span></a><p>Society of Iranian Graduate Students<br />at UC Irvine</p><a href={emailLink('Hello SIGS')}><bdi>sigs@uci.edu</bdi></a></div>
+        <nav aria-label={t('Explore SIGS')}><h2>{t('Explore')}</h2><a href={href(locale,'events')}>{t('Events')}</a><a href={href(locale,'community')}>{t('Community')}</a><a href={href(locale,'resources')}>{t('Resources')}</a><a href={href(locale,'community/memories')}>{t('Memories')}</a></nav>
+        <nav aria-label={t('About SIGS')}><h2>{t('Get to know us')}</h2><a href={href(locale,'about')}>{t('About')}</a><a href={href(locale,'about/leadership')}>{t('Leadership & Team')}</a><a href={href(locale,'partners')}>{t('Partners')}</a><a href={href(locale,'contact')}>{t('Contact')}</a></nav>
+        <nav aria-label={t('Help and information')}><h2>{t('Useful links')}</h2><a href={href(locale,'join')}>{t('Join SIGS')}</a><a href={href(locale,'search')}>{t('Search')}</a><a href={href(locale,'privacy')}>{t('Privacy')}</a><a href={href(locale,'accessibility')}>{t('Accessibility')}</a></nav>
+      </div>
+      <div class="wrap footer-bottom"><span>{t('A student community at UC Irvine.')}</span><a href="https://github.com/sigs-uci/sigs-uci.github.io">{t('Website source')}</a><a href={otherHref}>{t(otherLabel)}</a></div>
+    </footer>
+    <script>
+      const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu');
+      document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && menu?.open) { menu.open = false; menu.querySelector('summary')?.focus(); } });
+      document.addEventListener('click', (event) => { if (menu?.open && !menu.contains(event.target as Node)) menu.open = false; });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import Home from '../../components/Home.astro';
+import EventDetail from '../../components/EventDetail.astro';
+import EventExplorer from '../../components/EventExplorer.astro';
+import Leadership from '../../components/Leadership.astro';
+import StandardContent from '../../components/StandardContent.astro';
+import Search from '../../components/Search.astro';
+import Story from '../../components/Story.astro';
+import {locales,type Locale} from '../../config/site';
+import {pages} from '../../lib/routes';
+import {events,stories,type EventRecord,type StoryRecord,type EventTranslation} from '../../data';
+import {isPublicEvent} from '../../lib/events';
+import {reviewedTranslation,isPublicStory} from '../../lib/publication';
+import {tr} from '../../i18n/ui';
+export function getStaticPaths(){
+  return locales.flatMap(locale=>[
+    ...pages.map(page=>({params:{locale,path:page.path||undefined},props:{page}})),
+    ...events.filter(isPublicEvent).filter(event=>locale==='en'||reviewedTranslation(event.id)).map(event=>{const translation=locale==='fa'?reviewedTranslation(event.id):undefined;return {params:{locale,path:`events/${event.slug}`},props:{page:{path:`events/${event.slug}`,title:translation?.title??event.title,description:translation?.summary??event.summary},event,translation}};}),
+    ...stories.filter(story=>isPublicStory(story)&&story.locale===locale).map(story=>({params:{locale,path:`community/stories/${story.slug}`},props:{page:{path:`community/stories/${story.slug}`,title:story.title,description:story.summary},story}})),
+  ]);
+}
+const {page,event,story,translation}=Astro.props as {page:{path:string;title:string;description:string};event?:EventRecord;story?:StoryRecord;translation?:EventTranslation};
+const locale=Astro.params.locale as Locale;const path=page.path;const t=(s:string)=>tr(locale,s);
+const noindex=['search','languages'].includes(path);
+---
+<Base title={page.title} description={page.description} locale={locale} path={path} noindex={noindex} search={!noindex}>
+{path===''?<Home locale={locale}/>:event?<EventDetail event={event} translation={translation} locale={locale}/>:story?<Story story={story} locale={locale}/>:<>
+<section class="page-heading"><div class="wrap"><p class="eyebrow">SIGS / {t(path.split('/')[0]==='events'?'Gatherings':path.split('/')[0]==='about'?'Our community':path.split('/')[0]==='resources'?'Student life':path.split('/')[0]==='community'?'Life together':'At UC Irvine')}</p><h1 data-pagefind-meta="title">{t(page.title)}</h1><p>{t(page.description)}</p></div></section>
+{path==='events'||path==='events/archive'?<EventExplorer locale={locale} archive={path.endsWith('archive')}/>:path.startsWith('about/leadership')?<Leadership locale={locale} termId={path.split('/')[2]??'2026-2027'}/>:path==='search'?<Search locale={locale}/>:<StandardContent locale={locale} path={path}/>}
+</>}
+</Base>

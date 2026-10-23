@@ -1,0 +1,30 @@
+{
+  "name": "sigs-uci-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "content:check": "tsx scripts/validate-content.ts",
+    "check": "npm run content:check && astro check",
+    "test": "tsx --test tests/*.test.ts",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview --host 127.0.0.1",
+    "links": "node scripts/check-links.mjs",
+    "output:check": "node scripts/check-output.mjs"
+  },
+  "dependencies": {
+    "astro": "7.4.2",
+    "zod": "4.6.6"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@types/node": "^24.19.2",
+    "pagefind": "1.5.2",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}

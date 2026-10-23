@@ -1,0 +1,33 @@
+{
+  "name": "Society of Iranian Graduate Students",
+  "shortName": "SIGS",
+  "institution": "University of California, Irvine",
+  "displayName": "Society of Iranian Graduate Students at UC Irvine",
+  "email": "sigs@uci.edu",
+  "origin": "https://sigs-uci.github.io",
+  "timeZone": "America/Los_Angeles",
+  "description": "We bring the Iranian graduate community at UC Irvine together through cultural gatherings, conversation and support for students new to campus.",
+  "currentSponsors": [],
+  "telegramInvite": null,
+  "upcomingEvents": [],
+  "registration": {
+    "status": "registered",
+    "termId": "2026-2027",
+    "confirmedOn": "2026-10-22",
+    "confirmation": "user_confirmed"
+  },
+  "historicalAcknowledgments": [
+    {
+      "context": "2019 Yalda-associated presentation",
+      "names": [
+        "UC Irvine Associated Graduate Students (AGS)",
+        "Saman Foundation",
+        "Seeb Magazine",
+        "Radio 670",
+        "Iranian Hotline"
+      ],
+      "relationship": "Historical acknowledgment in a 2019 Yalda-associated presentation."
+    }
+  ],
+  "socialChannels": []
+}

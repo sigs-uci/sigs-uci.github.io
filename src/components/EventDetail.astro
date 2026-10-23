@@ -1,0 +1,54 @@
+---
+import type { EventRecord, EventTranslation } from '../data';
+import { events, media } from '../data';
+import { href, emailLink, type Locale } from '../config/site';
+import { tr } from '../i18n/ui';
+import { formatDate, registrationAction, isFutureEvent, isPublicEvent } from '../lib/events';
+import { eventHref, eventLocale, reviewedTranslation } from '../lib/publication';
+import { eventMetadata, serializeMetadata } from '../lib/metadata';
+import { calendarDownload } from '../lib/calendar';
+import Gallery from './Gallery.astro';
+const { event, translation, locale = 'en' } = Astro.props as { event: EventRecord; translation?: EventTranslation; locale: Locale };
+const t = (s: string) => tr(locale, s);
+const title = translation?.title ?? event.title;
+const summary = translation?.summary ?? event.summary;
+const action = registrationAction(event);
+const past = event.eventState === 'completed' || !isFutureEvent(event);
+const status = past && !['cancelled', 'postponed', 'rescheduled'].includes(event.eventState) ? event.archiveLabel ?? event.eventState : event.eventState;
+const gallery = media.filter(item => event.gallery.includes(item.id) && item.publication === 'published' && item.rights === 'approved');
+const related = events.filter(record => record.id !== event.id && record.category === event.category && isPublicEvent(record)).slice(0, 2);
+const calendar = calendarDownload(event);
+const metadata = eventMetadata({ ...event, title, summary }, locale);
+const time = event.timeDisplay ?? (event.startInstant ? new Intl.DateTimeFormat(locale === 'fa' ? 'fa-IR-u-ca-gregory' : 'en-US', {
+  timeZone: event.timeZone ?? 'America/Los_Angeles', hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+}).format(new Date(event.startInstant)) : null);
+---
+{metadata && <script type="application/ld+json" is:inline set:html={serializeMetadata(metadata)} />}
+<div class="wrap page-body">
+  <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale)}>{t('Home')}</a><span aria-hidden="true">/</span><a href={href(locale, 'events/archive')}>{t('Event archive')}</a><span aria-hidden="true">/</span><span>{title}</span></nav>
+  <div class="event-opening">
+    <article><span class="status">{t(status)}</span><h1 class="event-heading" data-pagefind-meta="title">{title}</h1><p class="summary">{summary}</p></article>
+    <aside class="callout" aria-label={t('Event details')}>
+      <h2>{t(past ? 'The historical details' : 'Plan your visit')}</h2>
+      <dl class="meta-list">
+        <div><dt>{t('Date')}</dt><dd><time datetime={event.startInstant ?? event.allDay?.start ?? event.date.value ?? undefined}><bdi>{formatDate(event, locale)}</bdi></time></dd></div>
+        <div><dt>{t('Time')}</dt><dd>{t(time ?? (event.allDay ? 'All day' : past ? 'Not recorded' : 'To be confirmed'))}</dd></div>
+        <div><dt>{t('Location')}</dt><dd>{t(event.venue ?? (past ? 'Not recorded' : 'To be confirmed'))}</dd></div>
+        <div><dt>{t('Admission')}</dt><dd>{t(event.cost ?? (past ? 'Historical admission details are not listed.' : 'Contact SIGS for admission details.'))}</dd></div>
+        <div><dt>{t('Audience')}</dt><dd>{t(event.audience ?? (past ? 'Historical eligibility is not listed.' : 'Contact SIGS about eligibility.'))}</dd></div>
+        <div><dt>{t('Participation')}</dt><dd>{t(event.eventState === 'cancelled' || event.eventState === 'postponed' ? action.label : past ? 'This date has passed. Registration is closed.' : action.label)}</dd></div>
+      </dl>
+      {!past && action.href && <a class="button primary" href={action.href}>{t(action.label)}</a>}
+      {calendar && <a class="button light" href={href('en', `events/${event.slug}/calendar.ics`).replace(/\/$/, '')} download={`${event.slug}.ics`}>{t('Download calendar file')}</a>}
+      {event.accessibility && <p>{event.accessibility}</p>}
+      <p style="margin-top:24px;margin-bottom:0">{t('Questions or a correction?')} <a href={emailLink(`Event question: ${event.title}`)}>{t('Contact SIGS')}</a>.</p>
+    </aside>
+  </div>
+  {translation?.body.map(paragraph => <p class="prose">{paragraph}</p>)}
+  {event.archiveLabel && <section class="event-context"><h2>{t('About this record')}</h2><p>{t(event.archiveLabel === 'Archived announcement' ? 'This record preserves an announcement. The advertised details do not establish that every part of the program took place.' : 'This gathering has supporting retrospective, media, or reported occurrence evidence. Program details retain the wording supported by the record.')}</p><p>{t('SIGS role')}: {t(event.sigsRole)}</p>
+    {event.date.precision === 'day_context_year' && <p>{t('The day and month are advertised; the year is supported by the surrounding dated context.')}</p>}
+    {event.publicSourceLinks.length > 0 && <div><h3>{t('Public context')}</h3><ul>{event.publicSourceLinks.map((url, index) => <li><a href={url}>{t('Read the public source')} {event.publicSourceLinks.length > 1 ? index + 1 : ''}</a></li>)}</ul></div>}
+  </section>}
+  <section class="event-context"><h2>{t('Photographs & memories')}</h2>{gallery.length ? <Gallery items={gallery} locale={locale} /> : <p>{t('No photographs are published with this record. If you have a photograph to share or a detail to correct, get in touch with the team.')} <a href={emailLink(`Memory: ${event.title}`)}>{t('Share a memory')}</a>.</p>}</section>
+  {related.length > 0 && <section class="event-context"><h2>{t('Keep exploring')}</h2><div class="related">{related.map(record => <a href={eventHref(record, locale)} lang={eventLocale(record, locale)}><h3>{eventLocale(record, locale) === 'fa' ? reviewedTranslation(record.id)?.title : record.title}</h3><p><bdi>{formatDate(record, locale)}</bdi> · {t(record.archiveLabel ?? record.eventState)}</p>{locale === 'fa' && eventLocale(record, locale) === 'en' && <span>{t('English record')}</span>}</a>)}</div></section>}
+</div>

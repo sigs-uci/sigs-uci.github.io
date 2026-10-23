@@ -1,0 +1,341 @@
+export type Locale = 'en' | 'fa';
+export type Publication = 'draft' | 'published';
+export type EventState = 'tentative' | 'scheduled' | 'postponed' | 'rescheduled' | 'cancelled' | 'completed';
+export type RegistrationState = 'not_required' | 'not_open' | 'open' | 'full' | 'waitlist' | 'closed';
+export type EventCategory = 'culture' | 'film-poetry' | 'community' | 'newcomers' | 'professional';
+export type OccurrenceEvidence = 'announced' | 'announced_with_platform_recap' | 'announced_with_media_collection' | 'occurrence_corroborated' | 'occurrence_reported' | 'institutional_retrospective' | 'reported_occurrence';
+export type EditorialState = 'draft' | 'edited' | 'reviewed' | 'not_translated';
+
+export interface HistoricalDate {
+  value: string | null;
+  precision: 'day' | 'day_context_year' | 'year_context' | 'unknown';
+  contextYear: number | null;
+}
+
+export interface EventRecord {
+  id: string;
+  slug: string;
+  title: string;
+  locale: 'en';
+  date: HistoricalDate;
+  timeDisplay: string | null;
+  timeZone: string | null;
+  startInstant: string | null;
+  endInstant: string | null;
+  venue: string | null;
+  category: EventCategory;
+  sigsRole: string;
+  summary: string;
+  occurrenceEvidence: OccurrenceEvidence;
+  archiveLabel: 'Documented gathering' | 'Archived announcement' | null;
+  publication: Publication;
+  eventState: EventState;
+  registration: RegistrationState;
+  registrationUrl: string | null;
+  gallery: string[];
+  heroImage: string | null;
+  editorial: Record<Locale, EditorialState>;
+  publicSourceLinks: string[];
+  generateCalendarDownload: boolean;
+  generateEventStructuredData: boolean;
+  allDay?: { start: string; end: string } | null;
+  calendarUpdated?: string;
+  calendarSequence?: number;
+  accessibility?: string;
+  cost?: string;
+  audience?: string;
+}
+
+export interface PersonRecord {
+  id: string;
+  name: string;
+  portrait: string | null;
+  bio: string | null;
+}
+
+export interface TeamMembership {
+  id: string;
+  personId: string;
+  termId: string;
+  name: string;
+  role: string;
+  group: 'board' | 'support' | 'advisor';
+  displayOrder: number;
+  telegramUrl: string | null;
+  portrait: string | null;
+  bio: string | null;
+  membershipTerm: string | null;
+}
+
+export interface BoardTerm {
+  id: string;
+  term: string;
+  status: 'current' | 'former';
+  people: TeamMembership[];
+}
+
+export interface ProgramRecord {
+  id: string;
+  name: string;
+  summary: string;
+  period: string;
+}
+
+export interface MilestoneRecord {
+  id: string;
+  year: number;
+  title: string;
+  summary: string;
+  eventIds: string[];
+  precision: HistoricalDate['precision'];
+}
+
+export interface ResourceRecord {
+  id: string;
+  category: 'arriving' | 'settling-in' | 'campus' | 'support' | 'connections';
+  title: string;
+  description: string;
+  url: string;
+  source: string;
+  reviewedOn: string;
+  reviewScope: string;
+  ownerRole: string;
+}
+
+export interface MediaRecord {
+  id: string;
+  src: string;
+  width: number;
+  height: number;
+  eventId: string | null;
+  focalPoint: [number, number];
+  alt: Partial<Record<Locale, string>>;
+  caption: Partial<Record<Locale, string>>;
+  credit: string;
+  publication: Publication;
+  rights: 'approved' | 'pending';
+}
+
+export interface EventTranslation {
+  eventId: string;
+  locale: 'fa';
+  title: string;
+  summary: string;
+  body: string[];
+  status: EditorialState;
+  sourceRevision: string;
+  reviewedOn: string | null;
+}
+
+export interface StoryRecord {
+  id: string;
+  slug: string;
+  title: string;
+  summary: string;
+  locale: Locale;
+  publication: Publication;
+  editorial: EditorialState;
+  publishedOn: string;
+  body: string[];
+  relatedEventIds: string[];
+  mediaIds: string[];
+  kind: 'story' | 'yearbook';
+  credit: string | null;
+}
+
+export interface OrganizationRecord {
+  name: string;
+  shortName: string;
+  institution: string;
+  displayName: string;
+  email: string;
+  origin: string;
+  timeZone: string;
+  description: string;
+  currentBoardTermId: string;
+  currentBoard: TeamMembership[];
+  currentBoardNotice: string | null;
+  currentSponsors: { name: string; url: string | null; logo: string | null }[];
+  telegramInvite: string | null;
+  upcomingEvents: string[];
+  registration: { status: 'registered'; termId: string; confirmedOn: string; confirmation: 'user_confirmed' };
+  historicalAcknowledgments: { context: string; names: string[]; relationship: string }[];
+  socialChannels: { name: string; url: string }[];
+}
+
+export interface MigrationRecord {
+  from: string;
+  to: string;
+  disposition: 'reference' | 'redirect';
+  note: string;
+}
+
+export interface PublicData {
+  organization: OrganizationRecord;
+  events: EventRecord[];
+  programs: ProgramRecord[];
+  people: PersonRecord[];
+  boardTerms: BoardTerm[];
+  milestones: MilestoneRecord[];
+  resources: ResourceRecord[];
+  media: MediaRecord[];
+  stories: StoryRecord[];
+  eventTranslations: EventTranslation[];
+  migrations: MigrationRecord[];
+}
+
+const occurrenceSupported = new Set<OccurrenceEvidence>(['occurrence_corroborated', 'occurrence_reported', 'institutional_retrospective', 'reported_occurrence']);
+const eventKeys = new Set(['id', 'slug', 'title', 'locale', 'date', 'timeDisplay', 'timeZone', 'startInstant', 'endInstant', 'venue', 'category', 'sigsRole', 'summary', 'occurrenceEvidence', 'archiveLabel', 'publication', 'eventState', 'registration', 'registrationUrl', 'gallery', 'heroImage', 'editorial', 'publicSourceLinks', 'generateCalendarDownload', 'generateEventStructuredData', 'allDay', 'calendarUpdated', 'calendarSequence', 'accessibility', 'cost', 'audience']);
+const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const datePattern = /^\d{4}-\d{2}-\d{2}$/;
+const instantPattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/;
+
+function isDay(value: string): boolean {
+  return datePattern.test(value) && Number.isFinite(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
+}
+
+function isInstant(value: string): boolean {
+  return instantPattern.test(value) && isDay(value.slice(0, 10))
+    && Number(value.slice(11, 13)) <= 23 && Number(value.slice(14, 16)) <= 59
+    && Number(value.slice(17, 19)) <= 59 && Number.isFinite(Date.parse(value));
+}
+
+function publicUrl(value: string, allowMail = false): boolean {
+  try {
+    const url = new URL(value);
+    return (url.protocol === 'https:' || url.protocol === 'http:' || (allowMail && url.protocol === 'mailto:')) && !url.username && !url.password;
+  } catch {
+    return false;
+  }
+}
+
+export function validatePublicData(data: PublicData): string[] {
+  const errors: string[] = [];
+  const issue = (path: string, message: string) => errors.push(`${path}: ${message}`);
+  const unique = (records: { id: string }[], collection: string) => {
+    const ids = records.map(record => record.id);
+    if (new Set(ids).size !== ids.length) issue(collection, 'IDs must be unique');
+  };
+  for (const key of ['events', 'programs', 'people', 'boardTerms', 'milestones', 'resources', 'media', 'stories'] as const) unique(data[key], key);
+  const eventIds = new Set(data.events.map(event => event.id));
+  const mediaIds = new Set(data.media.map(media => media.id));
+  const mediaRecords = new Map(data.media.map(media => [media.id, media]));
+  const visibleMedia = (id: string): boolean => mediaRecords.get(id)?.publication === 'published' && mediaRecords.get(id)?.rights === 'approved';
+  const people = new Map(data.people.map(person => [person.id, person]));
+  data.people.forEach(person => {
+    if (person.portrait && !visibleMedia(person.portrait)) issue(`people.${person.id}`, 'Portraits need published media with permission');
+  });
+  const slugs = data.events.map(event => event.slug);
+  if (new Set(slugs).size !== slugs.length) issue('events', 'Slugs must be unique');
+  data.events.forEach(event => {
+    const key = `events.${event.id}`;
+    if (Object.keys(event).some(field => !eventKeys.has(field))) issue(key, 'Contains an unsupported field');
+    if (!slugPattern.test(event.id) || !slugPattern.test(event.slug)) issue(key, 'ID and slug must use lowercase words and hyphens');
+    if (!event.title.trim() || !event.summary.trim()) issue(key, 'Title and summary are required');
+    if (event.locale !== 'en') issue(key, 'Shared event facts must use the English record');
+    if (event.date.value !== null && !isDay(event.date.value)) issue(key, 'Date must be a valid ISO day');
+    if (!['day', 'day_context_year', 'year_context', 'unknown'].includes(event.date.precision)) issue(key, 'Unknown date precision');
+    if (event.date.precision === 'unknown' && event.date.value !== null) issue(key, 'Unknown date precision cannot contain a day');
+    if (event.date.precision === 'day_context_year' && event.date.contextYear === null) issue(key, 'Contextual year precision needs a year');
+    if (event.date.value && event.date.contextYear && Number(event.date.value.slice(0, 4)) !== event.date.contextYear) issue(key, 'Date and context year disagree');
+    if (!['culture', 'film-poetry', 'community', 'newcomers', 'professional'].includes(event.category)) issue(key, 'Unknown category');
+    if (!['draft', 'published'].includes(event.publication)) issue(key, 'Unknown publication state');
+    if (!['tentative', 'scheduled', 'postponed', 'rescheduled', 'cancelled', 'completed'].includes(event.eventState)) issue(key, 'Unknown event state');
+    if (!['not_required', 'not_open', 'open', 'full', 'waitlist', 'closed'].includes(event.registration)) issue(key, 'Unknown registration state');
+    if (!['announced', 'announced_with_platform_recap', 'announced_with_media_collection', 'occurrence_corroborated', 'occurrence_reported', 'institutional_retrospective', 'reported_occurrence'].includes(event.occurrenceEvidence)) issue(key, 'Unknown occurrence evidence');
+    for (const state of Object.values(event.editorial)) {
+      if (!['draft', 'edited', 'reviewed', 'not_translated'].includes(state)) issue(key, 'Unknown editorial state');
+    }
+    if (event.publication === 'published' && event.editorial.en === 'not_translated') issue(key, 'Published English events need English copy');
+    if (event.eventState === 'completed' && !occurrenceSupported.has(event.occurrenceEvidence)) issue(key, 'Completed events need occurrence support');
+    if (event.archiveLabel === 'Documented gathering' && !occurrenceSupported.has(event.occurrenceEvidence)) issue(key, 'Documented gatherings need occurrence support');
+    if (event.archiveLabel === 'Archived announcement' && event.eventState === 'completed') issue(key, 'Announcement-only records cannot be completed');
+    if (event.registrationUrl && !publicUrl(event.registrationUrl)) issue(key, 'Registration URL must be an ordinary web URL');
+    if (['open', 'waitlist'].includes(event.registration) && !event.registrationUrl) issue(key, 'Active registration needs a destination');
+    if (event.eventState === 'cancelled' && ['open', 'waitlist'].includes(event.registration)) issue(key, 'Cancelled events cannot offer active registration');
+    if (event.startInstant && !isInstant(event.startInstant)) issue(key, 'Start must be an explicit instant');
+    if (event.endInstant && !isInstant(event.endInstant)) issue(key, 'End must be an explicit instant');
+    if (event.endInstant && !event.startInstant) issue(key, 'An end instant needs a start instant');
+    if (event.startInstant && event.endInstant && Date.parse(event.endInstant) <= Date.parse(event.startInstant)) issue(key, 'End must follow start');
+    if (event.startInstant && !event.timeZone) issue(key, 'Timed events need a timezone');
+    if (event.timeZone) {
+      try {
+        const formatter = new Intl.DateTimeFormat('en', { timeZone: event.timeZone, year: 'numeric', month: '2-digit', day: '2-digit' });
+        formatter.format();
+        if (event.date.value && event.startInstant && isInstant(event.startInstant)) {
+          const parts = formatter.formatToParts(new Date(event.startInstant));
+          const part = (name: string) => parts.find(value => value.type === name)?.value;
+          const localDay = `${part('year')}-${part('month')}-${part('day')}`;
+          if (event.date.value !== localDay) issue(key, 'Event date must match the start day in its timezone');
+        }
+      }
+      catch { issue(key, 'Timezone is invalid'); }
+    }
+    if (event.allDay) {
+      if (!isDay(event.allDay.start) || !isDay(event.allDay.end) || event.allDay.end <= event.allDay.start) issue(key, 'All-day range needs valid days and an exclusive end');
+      if (event.date.value && event.date.value !== event.allDay.start) issue(key, 'Event date must match the all-day start');
+      if (event.startInstant || event.endInstant) issue(key, 'All-day dates and timed instants cannot be combined');
+    }
+    if ((event.generateCalendarDownload || event.generateEventStructuredData) && !event.startInstant && !event.allDay) issue(key, 'Calendar output needs a precise schedule');
+    if (event.calendarUpdated && !isInstant(event.calendarUpdated)) issue(key, 'Calendar update must be an explicit instant');
+    if (event.calendarSequence !== undefined && (!Number.isInteger(event.calendarSequence) || event.calendarSequence < 0)) issue(key, 'Calendar sequence must be a nonnegative integer');
+    if (event.heroImage && !mediaIds.has(event.heroImage)) issue(key, 'Hero image reference does not exist');
+    event.gallery.forEach(id => { if (!mediaIds.has(id)) issue(key, 'Gallery reference does not exist'); });
+    if (event.publication === 'published') {
+      if (event.heroImage && !visibleMedia(event.heroImage)) issue(key, 'Published hero image needs published media with permission');
+      event.gallery.forEach(id => { if (!visibleMedia(id)) issue(key, 'Published gallery needs published media with permission'); });
+    }
+    event.publicSourceLinks.forEach(url => { if (!publicUrl(url)) issue(key, 'Public source link is invalid'); });
+  });
+  data.boardTerms.forEach(term => {
+    const key = `boardTerms.${term.id}`;
+    unique(term.people, key);
+    const orders = term.people.map(member => member.displayOrder);
+    if (new Set(orders).size !== orders.length) issue(key, 'Display order must be unique within a term');
+    term.people.forEach(member => {
+      if (!people.has(member.personId) || people.get(member.personId)?.name !== member.name) issue(key, 'Person reference must match the public name');
+      if (member.termId !== term.id || member.id !== `${term.id}:${member.personId}`) issue(key, 'Membership must belong to its term and person');
+      if (!member.role.trim() || !['board', 'support', 'advisor'].includes(member.group)) issue(key, 'Role and group are required');
+      if (!Number.isInteger(member.displayOrder) || member.displayOrder < 1) issue(key, 'Display order must be a positive integer');
+      if (member.telegramUrl && !/^https?:\/\/t\.me\/[A-Za-z0-9_]+$/.test(member.telegramUrl)) issue(key, 'Team contact must be a public Telegram profile');
+      if (member.portrait && !mediaIds.has(member.portrait)) issue(key, 'Portrait reference does not exist');
+      if (member.portrait && !visibleMedia(member.portrait)) issue(key, 'Team portraits need published media with permission');
+    });
+  });
+  const current = data.boardTerms.filter(term => term.status === 'current');
+  if (current.length !== 1 || current[0]?.id !== data.organization.currentBoardTermId) issue('organization', 'Current team must identify one matching term');
+  if (JSON.stringify(current[0]?.people) !== JSON.stringify(data.organization.currentBoard)) issue('organization', 'Current team must match its term');
+  if (data.organization.currentBoard.length > 0 && data.organization.currentBoardNotice !== null) issue('organization', 'A populated current team must not have a missing-team notice');
+  data.resources.forEach(resource => {
+    if (!publicUrl(resource.url) || !isDay(resource.reviewedOn) || !resource.source.trim() || !resource.ownerRole.trim()) issue(`resources.${resource.id}`, 'URL, review date, source and owner role are required');
+  });
+  data.milestones.forEach(milestone => milestone.eventIds.forEach(id => {
+    if (!eventIds.has(id)) issue(`milestones.${milestone.id}`, 'Event reference does not exist');
+  }));
+  data.media.forEach(media => {
+    const key = `media.${media.id}`;
+    if (media.publication === 'published' && media.rights !== 'approved') issue(key, 'Published media needs permission');
+    if (!['draft', 'published'].includes(media.publication) || !['approved', 'pending'].includes(media.rights)) issue(key, 'Unknown media publication or permission state');
+    if (media.eventId && !eventIds.has(media.eventId)) issue(key, 'Event reference does not exist');
+    if (!media.src.startsWith('/') || media.src.startsWith('//') || media.src.includes('..')) issue(key, 'Asset must use a local public path');
+    if (!Number.isInteger(media.width) || !Number.isInteger(media.height) || media.width <= 0 || media.height <= 0 || !media.credit.trim()) issue(key, 'Dimensions and credit are required');
+    if (media.focalPoint.length !== 2 || media.focalPoint.some(value => !Number.isFinite(value) || value < 0 || value > 1)) issue(key, 'Focal point coordinates must be between zero and one');
+    if (!media.alt.en?.trim()) issue(key, 'English alternative text is required');
+  });
+  const translated = new Set<string>();
+  data.eventTranslations.forEach(translation => {
+    const key = `eventTranslations.${translation.eventId}`;
+    if (!eventIds.has(translation.eventId) || translated.has(translation.eventId)) issue(key, 'Translation needs one existing shared event');
+    translated.add(translation.eventId);
+    if (!['draft', 'edited', 'reviewed', 'not_translated'].includes(translation.status)) issue(key, 'Unknown translation state');
+    if (translation.status === 'reviewed' && (!translation.reviewedOn || !isDay(translation.reviewedOn) || !translation.sourceRevision.trim())) issue(key, 'Reviewed translations need an actual review date and source revision');
+  });
+  data.stories.forEach(story => {
+    const key = `stories.${story.id}`;
+    if (story.publication === 'published' && story.locale === 'fa' && story.editorial !== 'reviewed') issue(key, 'Persian publication needs reviewed text');
+    story.relatedEventIds.forEach(id => { if (!eventIds.has(id)) issue(key, 'Event reference does not exist'); });
+    story.mediaIds.forEach(id => { if (!mediaIds.has(id)) issue(key, 'Media reference does not exist'); });
+    if (story.publication === 'published') story.mediaIds.forEach(id => { if (!visibleMedia(id)) issue(key, 'Published stories need published media with permission'); });
+  });
+  return errors;
+}
