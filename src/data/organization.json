@@ -1,0 +1,141 @@
+{
+  "name": "Society of Iranian Graduate Students",
+  "shortName": "SIGS",
+  "institution": "University of California, Irvine",
+  "displayName": "Society of Iranian Graduate Students at UC Irvine",
+  "email": "sigs@uci.edu",
+  "origin": "https://sigs-uci.github.io",
+  "timeZone": "America/Los_Angeles",
+  "description": "We bring the Iranian graduate community at UC Irvine together through cultural gatherings, conversation and support for students new to campus.",
+  "currentBoardTermId": "2026-2027",
+  "currentBoard": [
+    {
+      "id": "2026-2027:kourosh-mirsohi",
+      "personId": "kourosh-mirsohi",
+      "termId": "2026-2027",
+      "name": "Kourosh Mirsohi",
+      "role": "President",
+      "group": "board",
+      "displayOrder": 1,
+      "telegramUrl": "https://t.me/KMirso",
+      "portrait": null,
+      "bio": null,
+      "membershipTerm": null
+    },
+    {
+      "id": "2026-2027:shakib-kafashan",
+      "personId": "shakib-kafashan",
+      "termId": "2026-2027",
+      "name": "Shakib Kafashan",
+      "role": "Vice President",
+      "group": "board",
+      "displayOrder": 2,
+      "telegramUrl": "http://t.me/Shakibid",
+      "portrait": null,
+      "bio": null,
+      "membershipTerm": null
+    },
+    {
+      "id": "2026-2027:iman-mohammadi",
+      "personId": "iman-mohammadi",
+      "termId": "2026-2027",
+      "name": "Iman Mohammadi",
+      "role": "Treasurer",
+      "group": "board",
+      "displayOrder": 3,
+      "telegramUrl": "http://t.me/Iman_M_02",
+      "portrait": null,
+      "bio": null,
+      "membershipTerm": null
+    },
+    {
+      "id": "2026-2027:kousha-changizi",
+      "personId": "kousha-changizi",
+      "termId": "2026-2027",
+      "name": "Kousha Changizi",
+      "role": "Officer",
+      "group": "board",
+      "displayOrder": 4,
+      "telegramUrl": "https://t.me/kooshachangizi",
+      "portrait": null,
+      "bio": null,
+      "membershipTerm": null
+    },
+    {
+      "id": "2026-2027:nazanin-dolatkhah",
+      "personId": "nazanin-dolatkhah",
+      "termId": "2026-2027",
+      "name": "Nazanin Dolatkhah",
+      "role": "Support Team",
+      "group": "support",
+      "displayOrder": 5,
+      "telegramUrl": "http://t.me/Dolatkhaah",
+      "portrait": null,
+      "bio": null,
+      "membershipTerm": null
+    },
+    {
+      "id": "2026-2027:mehdi-zafari",
+      "personId": "mehdi-zafari",
+      "termId": "2026-2027",
+      "name": "Mehdi Zafari",
+      "role": "Support Team",
+      "group": "support",
+      "displayOrder": 6,
+      "telegramUrl": "https://t.me/Mehdi_ZD97",
+      "portrait": null,
+      "bio": null,
+      "membershipTerm": null
+    },
+    {
+      "id": "2026-2027:shayan-taherijam",
+      "personId": "shayan-taherijam",
+      "termId": "2026-2027",
+      "name": "Shayan Taherijam",
+      "role": "Support Team",
+      "group": "support",
+      "displayOrder": 7,
+      "telegramUrl": "https://t.me/Shayantj79",
+      "portrait": null,
+      "bio": null,
+      "membershipTerm": null
+    },
+    {
+      "id": "2026-2027:amin-hajarian",
+      "personId": "amin-hajarian",
+      "termId": "2026-2027",
+      "name": "Amin Hajarian",
+      "role": "Advisor",
+      "group": "advisor",
+      "displayOrder": 8,
+      "telegramUrl": "https://t.me/Aminhj0221",
+      "portrait": null,
+      "bio": null,
+      "membershipTerm": null
+    }
+  ],
+  "currentBoardNotice": null,
+  "currentSponsors": [],
+  "telegramInvite": null,
+  "upcomingEvents": [],
+  "registration": {
+    "status": "registered",
+    "termId": "2026-2027",
+    "confirmedOn": "2026-10-22",
+    "confirmation": "user_confirmed"
+  },
+  "historicalAcknowledgments": [
+    {
+      "context": "2019 Yalda-associated presentation",
+      "names": [
+        "UC Irvine Associated Graduate Students (AGS)",
+        "Saman Foundation",
+        "Seeb Magazine",
+        "Radio 670",
+        "Iranian Hotline"
+      ],
+      "relationship": "Historical acknowledgment in a 2019 Yalda-associated presentation."
+    }
+  ],
+  "socialChannels": []
+}

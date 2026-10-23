@@ -1,0 +1,112 @@
+[
+  {
+    "id": "arrival",
+    "category": "arriving",
+    "title": "Start with the graduate arrival checklists",
+    "description": "Use Graduate Division’s checklists to organize questions before arrival and during your first weeks.",
+    "url": "https://grad.uci.edu/current-students/admitted-student-checklists/new-international-graduate-student-pre-arrival-checklist/",
+    "source": "UC Irvine Graduate Division",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "international-center",
+    "category": "arriving",
+    "title": "Contact the International Center",
+    "description": "Find official new-student information and the right office for immigration questions.",
+    "url": "https://ic.uci.edu/welcome-students/students-new-students/",
+    "source": "UCI International Center",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "housing",
+    "category": "settling-in",
+    "title": "Explore graduate and family housing",
+    "description": "Check the university’s current housing options, application process and eligibility details directly.",
+    "url": "https://housing.uci.edu/grad/",
+    "source": "UCI Student Housing",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "transport",
+    "category": "campus",
+    "title": "Plan your trip to campus",
+    "description": "Find parking information, campus maps and transportation options. Check current rules before traveling.",
+    "url": "https://parking.uci.edu/",
+    "source": "UCI Transportation and Distribution Services",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "maps",
+    "category": "campus",
+    "title": "Find your building",
+    "description": "Use the campus map service to plan the walk from parking or transit to your destination.",
+    "url": "https://parking.uci.edu/maps/",
+    "source": "UCI Transportation and Distribution Services",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "student-health",
+    "category": "support",
+    "title": "Review new-student health information",
+    "description": "Go to the Student Health Center for current admission health information and student health services.",
+    "url": "https://studenthealth.uci.edu/new-student/",
+    "source": "UCI Student Health Center",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "counseling",
+    "category": "support",
+    "title": "Find counseling and well-being resources",
+    "description": "The Counseling Center lists resources for graduate students and routes to its services.",
+    "url": "https://counseling.uci.edu/resources/virtual-resources/graduate-student-resources/",
+    "source": "UCI Counseling Center",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "basic-needs",
+    "category": "support",
+    "title": "Get help with basic needs",
+    "description": "Find the Basic Needs Center’s food resources, housing support and consultation information.",
+    "url": "https://basicneeds.uci.edu/",
+    "source": "UCI Basic Needs Center",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "graduate-resource-center",
+    "category": "connections",
+    "title": "Find graduate workshops and writing support",
+    "description": "Explore the Graduate & Postdoctoral Scholar Resource Center’s workshops and links to writing support.",
+    "url": "https://grad.uci.edu/professional-development/graduate-and-postdoctoral-scholar-resource-center/",
+    "source": "UC Irvine Graduate Division",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  },
+  {
+    "id": "ags",
+    "category": "connections",
+    "title": "Connect with graduate student government",
+    "description": "Learn about Associated Graduate Students, its representation and opportunities to take part.",
+    "url": "https://ags.uci.edu/about/",
+    "source": "Associated Graduate Students at UCI",
+    "reviewedOn": "2026-10-22",
+    "reviewScope": "Official page description and destination",
+    "ownerRole": "SIGS content steward"
+  }
+]

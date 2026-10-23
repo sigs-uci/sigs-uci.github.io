@@ -1,0 +1,21 @@
+---
+import {href,type Locale} from '../config/site';
+import {tr} from '../i18n/ui';
+const {locale='en'}=Astro.props as {locale:Locale};const t=(s:string)=>tr(locale,s);
+---
+<div class="wrap page-body" data-search data-loading={t('Searching…')} data-empty={t('No results. Try a different word or browse the event archive.')} data-error={t('Search could not load. Try again, or use the browse links below.')} data-found={t('results')}>
+<p class="quiet">{t('Search event titles, campus resources, and the SIGS website. The search index loads when you search.')}</p>
+<form class="search-form" role="search"><div class="field"><label for="site-search">{t('Search SIGS')}</label><input id="site-search" name="q" type="search" autocomplete="off" required /></div><button class="button primary" type="submit">{t('Search')}</button></form>
+<p data-search-status role="status" aria-live="polite"></p><ol class="search-results" data-search-results></ol>
+<noscript><p class="notice">{t('Search needs JavaScript. Use the links below to browse all published events, resources, or team information.')}</p></noscript>
+<nav class="subnav" aria-label={t('Browse SIGS')}><a href={href(locale,'events/archive')}>{t('Event archive')}</a><a href={href(locale,'resources')}>{t('Resources')}</a><a href={href(locale,'about/leadership')}>{t('Leadership & Team')}</a></nav>
+</div>
+<script>
+  const root=document.querySelector<HTMLElement>('[data-search]');
+  const indexUrl='/pagefind/pagefind.js';
+  if(root){const form=root.querySelector<HTMLFormElement>('form')!;const input=form.querySelector<HTMLInputElement>('input')!;const status=root.querySelector<HTMLElement>('[data-search-status]')!;const list=root.querySelector<HTMLOListElement>('[data-search-results]')!;let sequence=0;let pagefind:any;
+    const search=async()=>{const q=input.value.trim();if(!q)return;const current=++sequence;status.textContent=root.dataset.loading!;list.replaceChildren();try{pagefind??=await import(/* @vite-ignore */ indexUrl);const normalized=q.normalize('NFKC').replace(/ي/g,'ی').replace(/ك/g,'ک').replace(/[\u200c\u200d]/g,' ');const result=await pagefind.search(normalized);const data=await Promise.all(result.results.slice(0,30).map((r:any)=>r.data()));if(current!==sequence)return;status.textContent=data.length?`${result.results.length} ${root.dataset.found}`:root.dataset.empty!;data.forEach((item:any)=>{const li=document.createElement('li');const h=document.createElement('h2');const a=document.createElement('a');a.href=item.url;a.textContent=item.meta.title??item.url;h.append(a);const p=document.createElement('p');const parsed=new DOMParser().parseFromString(item.excerpt,'text/html');for(const node of Array.from(parsed.body.childNodes)){if(node instanceof HTMLElement&&node.tagName==='MARK'){const mark=document.createElement('mark');mark.textContent=node.textContent;p.append(mark);}else p.append(document.createTextNode(node.textContent??''));}li.append(h,p);list.append(li);});}catch{if(current===sequence)status.textContent=root.dataset.error!;}};
+    form.addEventListener('submit',e=>{e.preventDefault();const url=new URL(location.href);url.searchParams.set('q',input.value);history.pushState(null,'',url);search();});
+    const read=()=>{input.value=new URLSearchParams(location.search).get('q')??'';if(input.value)search();else{list.replaceChildren();status.textContent='';}};window.addEventListener('popstate',read);read();
+  }
+</script>

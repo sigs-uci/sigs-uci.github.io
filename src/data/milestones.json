@@ -1,0 +1,81 @@
+[
+  {
+    "id": "registration-record",
+    "year": 2008,
+    "title": "An early registration record",
+    "summary": "A 2019 SIGS presentation records registration at UC Irvine in 2008. This is an attributed historical statement.",
+    "eventIds": [],
+    "precision": "year_context"
+  },
+  {
+    "id": "yalda-2015",
+    "year": 2015,
+    "title": "Yalda together",
+    "summary": "The archive includes a documented Yalda gathering with the Persian Language & Culture Club.",
+    "eventIds": [
+      "yalda-2015"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "film-and-welcome",
+    "year": 2016,
+    "title": "Film and conversation",
+    "summary": "The Tales announcement adds film and discussion to the archive, alongside Nowruz and Yalda.",
+    "eventIds": [
+      "tales-2016",
+      "nowruz-2016"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "welcome-2017",
+    "year": 2017,
+    "title": "Welcoming new students",
+    "summary": "A welcome gathering was advertised at Verano Place BBQ. Docunight screenings are documented for the 2017-2018 period.",
+    "eventIds": [
+      "welcome-2017"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "forum-2018",
+    "year": 2018,
+    "title": "Connections beyond campus",
+    "summary": "SIGS co-sponsored the Iranian American Innovation Forum with IACP and SUTA.",
+    "eventIds": [
+      "innovation-forum-2018"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "poetry-2019",
+    "year": 2019,
+    "title": "A place for poetry",
+    "summary": "The archive preserves a Persian Poetry Night alongside the year’s Nowruz and Yalda gatherings.",
+    "eventIds": [
+      "poetry-night-2019",
+      "nowruz-2019",
+      "yalda-2019"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "online-2021",
+    "year": 2021,
+    "title": "An online Nowruz announcement",
+    "summary": "SIGS advertised a Milad Derakhshani online concert for Nowruz.",
+    "eventIds": [
+      "nowruz-2021"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "team-2026",
+    "year": 2026,
+    "title": "The current team",
+    "summary": "The 2026-2027 team includes Board, Support Team and Advisor roles.",
+    "eventIds": [],
+    "precision": "year_context"
+  }
+]

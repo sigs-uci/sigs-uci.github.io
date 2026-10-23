@@ -1,0 +1,1 @@
+export function GET(){return new Response('User-agent: *\nAllow: /en/\nDisallow: /en/search/\nDisallow: /en/languages/\nSitemap: https://sigs-uci.github.io/sitemap.xml\n',{headers:{'Content-Type':'text/plain; charset=utf-8'}});}

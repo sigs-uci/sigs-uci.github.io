@@ -1,0 +1,13 @@
+---
+import {boardTerms} from '../data';
+import {href,type Locale} from '../config/site';
+import {tr} from '../i18n/ui';
+const {locale='en',termId='2026-2027'}=Astro.props as {locale:Locale;termId:string};
+const t=(s:string)=>tr(locale,s);
+const term=boardTerms.find(term=>term.id===termId)!;
+const groups=[['board','Board'],['support','Support Team'],['advisor','Advisor']];
+---
+<div class="wrap page-body"><nav class="roster-nav" aria-label={t('Team terms')}>{boardTerms.map(board=><a href={href(locale,`about/leadership/${board.id}`)} aria-current={term.id===board.id?'page':undefined}><bdi>{board.term}</bdi> · {t(board.status==='current'?'Current team':'Previous team')}</a>)}</nav>
+<p class="quiet">{t(term.status==='current'?'The current team includes the Board, Support Team, and Advisor.':'These roles and contact links belong to the previous term.')} {t('For organization matters, use')} <a href="mailto:sigs@uci.edu"><bdi>sigs@uci.edu</bdi></a>.</p>
+{groups.map(([id,label])=>{const members=term.people.filter(member=>member.group===id).sort((a,b)=>a.displayOrder-b.displayOrder);return members.length>0&&<section class="roster-group"><h2>{t(label)}</h2><div class="people-list">{members.map(member=><article class="person"><h3><bdi>{member.name}</bdi></h3><p>{t(member.role)}</p>{member.telegramUrl&&<a href={member.telegramUrl} aria-label={`${t('Contact')} ${member.name} ${t('on Telegram')}`}><bdi>{member.telegramUrl.split('/').pop()}</bdi> <span>{t('on Telegram')} ↗</span></a>}</article>)}</div></section>})}
+<p class="archive-note">{t('Individual contacts are listed for their term. For joining the SIGS community, start with the organization email.')}</p></div>
