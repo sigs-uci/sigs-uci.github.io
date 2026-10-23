@@ -12,3 +12,4 @@
 @media(max-width:540px){.collection-directory,.video-grid,.gallery-grid.dense{grid-template-columns:1fr}.collection-image img{height:auto;max-height:340px}.gallery-grid.dense img{height:auto;max-height:440px;object-fit:contain!important}.video-record video{height:auto;max-height:460px;min-height:190px}.home-media-feature .video-record video{height:auto;max-height:420px}.home-photo-story img{height:170px}.home-photo-story figcaption{font-size:11px}.video-strip>a{font-size:10px}.video-thumb img{height:110px}}
 @media(prefers-reduced-motion:reduce){.collection-image img{transition:none}.collection-image:hover img{transform:none}}
 .collection-image img,.gallery-grid.dense figure[data-media-kind=photo] img{object-fit:contain}
+.home-photo-story img{object-fit:contain;background:var(--navy)}
