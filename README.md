@@ -1,8 +1,20 @@
+<a href="https://sigs-uci.github.io/en/"><img src="src/assets/brand/logo.png" width="112" height="112" alt="SIGS emblem"></a>
+
 # SIGS at UC Irvine
 
-This repository holds the Society of Iranian Graduate Students website at UC Irvine, in [English](https://sigs-uci.github.io/en/) and [Persian](https://sigs-uci.github.io/fa/). It brings event information, the community archive, campus resources and team contacts into one static site.
+The website for the Society of Iranian Graduate Students at UC Irvine, in English and Persian. We keep event information, community photographs and videos, campus resources and team contacts in one place.
 
-The site uses Astro and TypeScript. Pagefind builds a search index for each language. Persian pages have a right-to-left layout, local fonts and Persian number formatting. Both versions share event facts and term-specific team contacts.
+[English](https://sigs-uci.github.io/en/) · [فارسی](https://sigs-uci.github.io/fa/) · [Event archive](https://sigs-uci.github.io/en/events/archive/) · [Photos and videos](https://sigs-uci.github.io/en/community/memories/) · [Meet the team](https://sigs-uci.github.io/en/about/leadership/) · [Email SIGS](mailto:sigs@uci.edu)
+
+Explore Nowruz and Yalda, film and poetry, newcomer support and professional connections through the archive and program profiles. Memories brings together photographs, historical posters and full-length silent videos. The archive keeps documented gatherings distinct from past announcements.
+
+<div dir="rtl" lang="fa">
+
+<p>برنامه‌ها، آرشیو رویدادها، عکس‌ها و ویدیوها، منابع دانشگاهی و اطلاعات تیم را در <a href="https://sigs-uci.github.io/fa/">نسخهٔ فارسی وب‌سایت</a> ببینید. برای پیشنهاد اصلاح متن یا اطلاعات، به <a href="mailto:sigs@uci.edu" dir="ltr">sigs@uci.edu</a> ایمیل بزنید.</p>
+
+</div>
+
+## Work locally
 
 Use Node.js 24 and the committed npm lockfile:
 
@@ -18,16 +30,22 @@ npm run preview
 
 Open the local preview address printed by Astro. The preview serves the built site, including search. `npm run dev` starts the editing server; search needs a build first. Run validation locally before committing or publishing. Pushes and pull requests do not run GitHub CI.
 
-Public content lives in `src/data/`. Components and routes read those records rather than maintaining separate event lists. The archive distinguishes documented gatherings from archived announcements. A past advertised date does not establish that an event took place.
+Astro and TypeScript build the static site. Pagefind provides separate search indexes for English and Persian. Persian pages use a right-to-left layout and Persian number formatting; both languages share event facts and term-specific contacts.
 
-The archive has a page for each populated year. Six program profiles connect those records to the wider SIGS story. The campus directory and newcomer guide point to official UCI services, and current and previous team pages preserve each term's roles and contacts.
+## Edit and release
 
-Memories brings photographs, historical posters and full-length videos into browsable collections, each with English and Persian pages. The videos play with native browser controls as silent web editions, with scene descriptions in both languages. Unconfirmed event names and dates stay unspecified.
+Public content lives in `src/data/`. Components and routes read those records. Update the shared facts and review both language versions together.
 
-نسخهٔ فارسی شامل آرشیو رویدادها، معرفی برنامه‌ها، مجموعه‌های عکس و ویدیوی بی‌صدا، راهنمای دانشجویان تازه‌وارد، منابع دانشگاه و اطلاعات تیم فعلی و قبلی است. برای پیشنهاد اصلاح متن یا اطلاعات، با [sigs@uci.edu](mailto:sigs@uci.edu) تماس بگیرید.
+- [Officer guide](docs/officer-guide.md): routine content, team and media updates.
+- [Content templates](docs/content-templates.md): fields and relationships for public records.
+- [Architecture](docs/architecture.md): routes, data, search and language handling.
+- [Content readiness](docs/content-readiness.md): published material and future additions.
+- [Release guide](docs/release.md): local validation and the gated manual Pages release.
 
-I keep editing instructions in [the officer guide](docs/officer-guide.md), with [content templates](docs/content-templates.md), [architecture notes](docs/architecture.md) and [release instructions](docs/release.md). [Content readiness](docs/content-readiness.md) records the remaining publication decisions.
+Pushing source to `main` and deploying the website are separate actions. Follow the release guide to publish a reviewed commit through **Release website**.
 
-The [organization profile repository](https://github.com/sigs-uci/.github) is maintained separately. Website workflows belong here.
+The [organization profile repository](https://github.com/sigs-uci/.github) owns the GitHub organization introduction and shared contributor guidance. Website code and its release workflow belong here.
 
-The supplied SIGS emblem stays intact. Manrope and Vazirmatn retain their font licenses in `public/fonts/`. No general software license has been selected for this repository; media permissions remain separate from software licensing.
+## Assets and licensing
+
+The SIGS emblem is preserved intact. Fonts are served locally, with the [Manrope](public/fonts/Manrope-OFL.txt) and [Vazirmatn](public/fonts/Vazirmatn-OFL.txt) licenses included. No general software license has been selected for this repository; photograph and video permissions remain separate from software licensing.
