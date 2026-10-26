@@ -47,7 +47,7 @@ Set `eventId` to a supported canonical event ID or null. Unknown names and dates
 
 Image `src` paths use WebP derivatives. An optional `thumbnail` points to a smaller local WebP file for gallery previews. Use `kind: "poster"` for a historical poster that should be shown in full. Poster wording and QR codes stay in their dated context; they do not reopen registration. Record the dimensions of the actual public derivative after preparing it. Preserve visible credits and use an honest unknown-credit label when the photographer or designer is not recorded.
 
-Video `src` paths use MP4. A published video also needs `videoPoster` pointing to a local WebP frame, positive `duration` in seconds, `audioContent`, and English and Persian descriptive text in `transcript`. `audioContent` describes the public file and accepts `silent`, `ambient`, `music` or `speech`. For an edition with audio removed, both descriptions must say it is a silent web version; do not describe the original as silent. Speech requires reviewed timed WebVTT files in both languages through `captions.en` and `captions.fa`. Alt text labels the clip, the caption identifies its scene, and the description explains relevant visual action and sound.
+Video `src` paths use MP4. A published video also needs `videoPoster` pointing to a local WebP frame, positive `duration` in seconds, `audioContent`, and English and Persian descriptive text in `transcript`. `audioContent` describes the public file and accepts `silent`, `ambient`, `music` or `speech`. For an edition with audio removed, both descriptions must say it is a silent web version; do not describe the original as silent. Speech requires reviewed timed WebVTT files in both languages through `captions.en` and `captions.fa`. The visible caption gives the supported occasion or context without guessing event names or dates. Put visual detail in alt text and `transcript`, and describe relevant sound in `transcript`.
 
 ## Media collection
 
@@ -56,7 +56,8 @@ Add collections in `src/data/mediaCollections.json`. Each record needs:
 | Field | What to enter |
 | --- | --- |
 | `id` | A stable lowercase identifier with hyphens, used in the collection URL |
-| `title`, `description`, `note` | English and Persian text, including any uncertainty about dates or event names |
+| `title`, `description` | Required English and Persian text about the supported occasion or subject; omit unconfirmed event names and dates |
+| `note` | Optional; when included, provide both English and Persian text |
 | `coverId` | A media ID that belongs to this collection |
 | `mediaIds` | The distinct media IDs in display order |
 | `eventIds` | Related published event IDs, or an empty array when no association is established |
