@@ -32273,10 +32273,10 @@
   },
   {
     "id": "amin-hajarian-portrait",
-    "src": "/media/team/amin-hajarian.webp",
+    "src": "/media/team/amin-hajarian-linkedin.webp",
     "kind": "photo",
-    "width": 150,
-    "height": 150,
+    "width": 400,
+    "height": 400,
     "eventId": null,
     "focalPoint": [
       0.5,
@@ -32290,7 +32290,7 @@
       "en": "Amin Hajarian",
       "fa": "پرترهٔ Amin Hajarian"
     },
-    "credit": "UC Irvine Eddleman Quantum Institute.",
+    "credit": "Amin Hajarian, LinkedIn.",
     "publication": "published",
     "rights": "approved"
   },
@@ -32326,7 +32326,7 @@
     "eventId": null,
     "focalPoint": [
       0.5,
-      0.3
+      0
     ],
     "alt": {
       "en": "Nazanin Dolatkhah",

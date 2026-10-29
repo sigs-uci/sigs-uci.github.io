@@ -25,4 +25,4 @@ Before adding further public content, confirm:
 - Current social-channel ownership and any current partner recognition.
 - Content and technical owners and a Persian reviewer.
 
-All eight current members have verified LinkedIn links and approved portraits, shown on the homepage and leadership pages. The previous term retains its roles, with professional links where verified. Missing future portraits can use initials. Biographies, community interviews and annual highlights can follow once their copy and permissions are ready.
+All eight current members have verified LinkedIn links. Confirmed portraits appear on the homepage and leadership pages; missing portraits use initials. The previous term retains its roles, with professional links where verified. Biographies, community interviews and annual highlights can follow once their copy and permissions are ready.
