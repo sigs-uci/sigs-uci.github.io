@@ -48,6 +48,7 @@ const media = defineCollection({ loader: file('src/data/media.json'), schema: z.
   thumbnail: z.string().optional(), kind: z.enum(['photo', 'poster', 'video']).optional(),
   videoPoster: z.string().optional(), duration: z.number().positive().optional(),
   audioContent: z.enum(['music', 'speech', 'silent', 'ambient']).optional(),
+  audioNote: z.object({ en: text.optional(), fa: text.optional() }).optional(),
   transcript: z.object({ en: text.optional(), fa: text.optional() }).optional(),
   captions: z.object({ en: text.optional(), fa: text.optional() }).optional(),
   width: z.number().int().positive(), height: z.number().int().positive(), eventId: optionalText,
@@ -56,7 +57,7 @@ const media = defineCollection({ loader: file('src/data/media.json'), schema: z.
   credit: text, publication, rights: z.enum(['approved', 'pending']) }) });
 const stories = defineCollection({ loader: file('src/data/stories.json'), schema: z.object({ id, slug: text, title: text,
   summary: text, locale: z.enum(['en', 'fa']), publication, editorial, publishedOn: text, body: z.array(text),
-  relatedEventIds: z.array(text), mediaIds: z.array(text), kind: z.enum(['story', 'yearbook']), credit: optionalText }) });
+  relatedEventIds: z.array(text), mediaIds: z.array(text), kind: z.enum(['story', 'yearbook', 'document']), credit: optionalText, contextNote: text.optional() }) });
 const eventTranslations = defineCollection({
   loader: file('src/data/eventTranslations.json', { parser: (source) => JSON.parse(source).map((record: { eventId: string }) => ({ ...record, id: `fa:${record.eventId}` })) }),
   schema: z.object({ id, eventId: text, locale: z.literal('fa'), title: text, summary: text, body: z.array(text),

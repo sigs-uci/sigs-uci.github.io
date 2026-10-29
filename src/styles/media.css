@@ -70,3 +70,5 @@
   .collection-video-index{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 16px}
   .collection-videos[data-video-selector-ready] .video-record video{block-size:min(65vh,460px)}
 }
+.video-record .video-audio-note{font-size:14px;color:var(--muted)}
+.collection-reading{padding-block:24px;margin-block:0 32px;border-block:1px solid var(--line)}

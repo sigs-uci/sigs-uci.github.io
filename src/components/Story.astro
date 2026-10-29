@@ -4,9 +4,18 @@ import {href,type Locale} from '../config/site';
 import Gallery from './Gallery.astro';
 import {tr} from '../i18n/ui';
 import {isPublicEvent} from '../lib/events';
+import {mediaCollections,collectionPath} from '../lib/media';
 import {eventHref,eventLocale,reviewedTranslation} from '../lib/publication';
 const {story,locale='en'}=Astro.props as {story:StoryRecord;locale:Locale};const t=(s:string)=>tr(locale,s);
 const related=events.filter(e=>story.relatedEventIds.includes(e.id)&&isPublicEvent(e));
-const images=media.filter(m=>story.mediaIds.includes(m.id)&&m.publication==='published'&&m.rights==='approved');
+const albums=mediaCollections.filter(collection=>story.mediaIds.some(id=>collection.mediaIds.includes(id)));
+const images=story.mediaIds.flatMap(id=>media.filter(item=>item.id===id&&item.publication==='published'&&item.rights==='approved'));
 ---
-<article class="wrap page-body"><div class="prose"><p class="eyebrow">{t(story.kind==='yearbook'?'A year in SIGS':'Community story')}</p><h1 data-pagefind-meta="title">{story.title}</h1><p>{story.summary}</p><p><time datetime={story.publishedOn}>{new Intl.DateTimeFormat(locale==='fa'?'fa-IR-u-ca-gregory':'en',{dateStyle:'long',timeZone:'UTC'}).format(new Date(`${story.publishedOn}T12:00:00Z`))}</time>{story.credit&&` · ${story.credit}`}</p>{story.body.map(text=><p>{text}</p>)}</div><Gallery items={images} locale={locale}/>{related.length>0&&<section class="event-context"><h2>{t('Gatherings in this story')}</h2><div class="related">{related.map(event=><a href={eventHref(event,locale)} lang={eventLocale(event,locale)}><h3>{eventLocale(event,locale)==='fa'?reviewedTranslation(event.id)?.title:event.title}</h3><p>{event.archiveLabel?t(event.archiveLabel):''}</p>{locale==='fa'&&eventLocale(event,locale)==='en'&&<span>{t('English record')}</span>}</a>)}</div></section>}<a class="text-link" href={href(locale,'join')}>{t('Take part in SIGS')} ↗</a></article>
+<article class="wrap page-body"><div class="prose"><p class="eyebrow">{t(story.kind==='document'?'Historical document':story.kind==='yearbook'?'A year in SIGS':'Community story')}</p><h1 data-pagefind-meta="title">{story.title}</h1><p>{story.summary}</p><p><time datetime={story.publishedOn}>{new Intl.DateTimeFormat(locale==='fa'?'fa-IR-u-ca-gregory':'en',{dateStyle:'long',timeZone:'UTC'}).format(new Date(`${story.publishedOn}T12:00:00Z`))}</time>{story.credit&&` · ${story.credit}`}</p>{story.contextNote&&<p class="document-context">{story.contextNote}</p>}{story.kind==='document'?<blockquote class="document-text">{story.body.map(text=><p>{text}</p>)}</blockquote>:story.body.map(text=><p>{text}</p>)}</div>{images.length>0&&<section aria-label={story.kind==='document'?t('Original pages'):t('Photographs & memories')}>{story.kind==='document'&&<h2>{t('Original pages')}</h2>}<Gallery items={images} locale={locale}/></section>}{related.length>0&&<section class="event-context"><h2>{t('Gatherings in this story')}</h2><div class="related">{related.map(event=><a href={eventHref(event,locale)} lang={eventLocale(event,locale)}><h3>{eventLocale(event,locale)==='fa'?reviewedTranslation(event.id)?.title:event.title}</h3><p>{event.archiveLabel?t(event.archiveLabel):''}</p>{locale==='fa'&&eventLocale(event,locale)==='en'&&<span>{t('English record')}</span>}</a>)}</div></section>}{story.kind==='document'?albums.map(collection=><p><a class="text-link" href={href(locale,collectionPath(collection))}>{collection.title[locale]} <span aria-hidden="true">↗</span></a></p>):<a class="text-link" href={href(locale,'join')}>{t('Take part in SIGS')} ↗</a>}</article>
+
+<style>
+.prose h1{font-size:clamp(30px,4.5vw,56px);line-height:1.3}
+:global(html[lang=fa]) .prose h1{line-height:1.55}
+.document-context{padding:20px;border-inline-start:3px solid var(--gold);background:var(--canvas);font-size:16px}
+.document-text{margin:28px 0 0;padding:0;border:0;font:inherit}
+</style>

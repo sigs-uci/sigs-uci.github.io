@@ -13,7 +13,7 @@ import MediaLibrary from '../../components/MediaLibrary.astro';
 import MediaCollection from '../../components/MediaCollection.astro';
 import {albumAtPath} from '../../lib/media';
 import {locales,type Locale} from '../../config/site';
-import {pages} from '../../lib/routes';
+import {pages,type PageDefinition} from '../../lib/routes';
 import {events,programDetails,stories,type EventRecord,type StoryRecord,type EventTranslation} from '../../data';
 import {isPublicEvent} from '../../lib/events';
 import {reviewedTranslation,isPublicStory} from '../../lib/publication';
@@ -25,15 +25,15 @@ export function getStaticPaths(){
     ...stories.filter(story=>isPublicStory(story)&&story.locale===locale).map(story=>({params:{locale,path:`community/stories/${story.slug}`},props:{page:{path:`community/stories/${story.slug}`,title:story.title,description:story.summary},story}})),
   ]);
 }
-const {page,event,story,translation}=Astro.props as {page:{path:string;title:string;description:string};event?:EventRecord;story?:StoryRecord;translation?:EventTranslation};
+const {page,event,story,translation}=Astro.props as {page:PageDefinition;event?:EventRecord;story?:StoryRecord;translation?:EventTranslation};
 const locale=Astro.params.locale as Locale;const path=page.path;const t=(s:string)=>tr(locale,s);
 const noindex=['search','languages'].includes(path);
 const program = programDetails.find(program => path === `community/programs/${program.id}`);
 const archiveYear = /^events\/archive\/\d{4}$/.test(path) ? path.split('/')[2] : undefined;
 const album=albumAtPath(path);
 const collection=album?.collection;
-const title=collection?`${collection.title[locale]}${album&&album.page>1?`${locale==='fa'?'، ':', '}${t('Page')} ${formatNumber(locale,album.page)}`:''}`:page.title;
-const description=collection?collection.description[locale]:page.description;
+const title=collection?`${collection.title[locale]}${album&&album.page>1?`${locale==='fa'?'، ':', '}${t('Page')} ${formatNumber(locale,album.page)}`:''}`:page.localized?.[locale]?.title??page.title;
+const description=page.localized?.[locale]?.description??page.description;
 ---
 <Base title={title} description={description} locale={locale} path={path} noindex={noindex} search={!noindex&&(!album||album.page===1)}>
 {path===''?<Home locale={locale}/>:event?<EventDetail event={event} translation={translation} locale={locale}/>:story?<Story story={story} locale={locale}/>:<>

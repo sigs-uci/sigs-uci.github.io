@@ -48,7 +48,7 @@ test('translation records cannot fork shared logistics or publish blank text und
 
 test('the Persian dictionary covers the current data-driven public interface', () => {
   const visible = [
-    ...pages.flatMap(page => [page.title, page.description]),
+    ...pages.filter(page => !page.localized?.fa).flatMap(page => [page.title, page.description]),
     data.organization.description,
     ...data.organization.historicalAcknowledgments.flatMap(item => item.names),
     ...data.programs.flatMap(program => [program.name, program.summary, program.period]),
@@ -63,6 +63,10 @@ test('the Persian dictionary covers the current data-driven public interface', (
   ].filter((value): value is string => Boolean(value));
   const missing = [...new Set(visible)].filter(text => !dictionaries.fa[text]?.trim());
   assert.equal(missing.length, 0, `Missing Persian public text: ${missing.join('\n')}`);
+  for (const page of pages.filter(page => page.localized?.fa)) {
+    assert.match(page.localized!.fa!.title, persianText, page.path);
+    assert.match(page.localized!.fa!.description, persianText, page.path);
+  }
 });
 
 test('literal interface messages cannot silently fall back to English on Persian pages', async () => {

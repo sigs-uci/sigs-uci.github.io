@@ -102,17 +102,23 @@ function inspectVideo(bytes: Buffer) {
   const timescale = bytes.readUInt32BE(movie.body + (version === 1 ? 20 : 12));
   const duration = version === 1 ? Number(bytes.readBigUInt64BE(movie.body + 24)) : bytes.readUInt32BE(movie.body + 16);
   assert.ok(timescale > 0 && duration > 0);
+  let videoDimensions: { width: number; height: number } | undefined;
+  let audioTracks = 0;
   for (const track of children.filter(box => box.type === 'trak')) {
     const trackBoxes = boxes(bytes, track.body, track.end);
     const mdia = trackBoxes.find(box => box.type === 'mdia')!;
     if (!mdia) continue;
     const handler = boxes(bytes, mdia.body, mdia.end).find(box => box.type === 'hdlr');
-    if (!handler || bytes.toString('ascii', handler.body + 8, handler.body + 12) !== 'vide') continue;
+    if (!handler) continue;
+    const kind = bytes.toString('ascii', handler.body + 8, handler.body + 12);
+    if (kind === 'soun') audioTracks++;
+    if (kind !== 'vide') continue;
     const header = trackBoxes.find(box => box.type === 'tkhd')!;
     assert.ok(header, 'Video track header is required');
-    return { width: bytes.readUInt32BE(header.end - 8) / 65536, height: bytes.readUInt32BE(header.end - 4) / 65536, duration: duration / timescale };
+    videoDimensions = { width: bytes.readUInt32BE(header.end - 8) / 65536, height: bytes.readUInt32BE(header.end - 4) / 65536 };
   }
-  assert.fail('A playable video track is required');
+  assert.ok(videoDimensions, 'A playable video track is required');
+  return { ...videoDimensions, duration: duration / timescale, audioTracks };
 }
 
 function cueSeconds(value: string): number {
@@ -125,6 +131,7 @@ test('published videos have stripped MP4 derivatives, matching posters and timed
     assert.equal(actual.width, video.width, video.id);
     assert.equal(actual.height, video.height, video.id);
     assert.ok(Math.abs(actual.duration - video.duration!) < 0.25, `${video.id}: duration must match the public video`);
+    assert.equal(actual.audioTracks > 0, video.audioContent !== 'silent', `${video.id}: audio classification must match the real MP4 soundtrack`);
     const poster = await inspectAsset(video.videoPoster!);
     assert.ok(Math.abs(poster.width / poster.height - video.width / video.height) < 0.01, video.id);
     if (video.thumbnail) await inspectAsset(video.thumbnail);
@@ -176,6 +183,8 @@ test('video publication requires permissions, a poster, real duration and biling
   assert.ok(check({ audioContent: 'speech' }).some(error => error.includes('timed captions')));
   assert.deepEqual(check({ audioContent: 'speech', captions: { en: '/media/test-en.vtt', fa: '/media/test-fa.vtt' } }), []);
   assert.ok(check({ audioContent: 'speech', captions: { en: '/media/test-en.vtt' } }).length > 0);
+  assert.ok(check({ audioNote: { en: 'The original has a gap in its sound.' } }).some(error => error.includes('Audio notes')));
+  assert.deepEqual(check({ audioNote: { en: 'The original has a gap in its sound.', fa: 'صدای نسخهٔ اصلی در بخشی از فیلم قطع است.' } }), []);
 });
 
 test('published photos, posters and videos require both languages for alternative text and captions', () => {

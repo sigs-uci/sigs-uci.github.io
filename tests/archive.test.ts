@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { events } from '../src/data';
-import { archiveYears } from '../src/lib/archive';
+import { archiveYears, archiveDescription } from '../src/lib/archive';
 import { eventFixture } from './fixtures/events';
 
 test('year archives retain each canonical historical record exactly once', () => {
@@ -13,6 +13,15 @@ test('year archives retain each canonical historical record exactly once', () =>
   assert.equal(years.find(year => year.year === '2026')?.records.length, 2);
   assert.equal(years.find(year=>year.year==='2020')?.records.find(record=>record.id==='nowruz-2020')?.eventState,'cancelled');
   assert.equal(years.flatMap(year => year.records).filter(event => event.archiveLabel === 'Archived announcement').length, events.filter(event=>event.archiveLabel==='Archived announcement').length);
+});
+
+test('archive descriptions localize changing counts without a new dictionary entry', () => {
+  assert.match(archiveDescription('2022', 1), /1 historical event record from 2022/);
+  assert.match(archiveDescription('2022', 101), /101 historical event records from 2022/);
+  const description = archiveDescription('2022', 101, 'fa');
+  assert.match(description, /۱۰۱/);
+  assert.match(description, /۲۰۲۲/);
+  assert.doesNotMatch(description, /Browse|historical|101|2022/);
 });
 
 test('archive grouping preserves partial years while omitting unpublished or future fixtures', () => {

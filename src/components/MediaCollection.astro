@@ -1,9 +1,9 @@
 ---
-import {events} from '../data';
+import {events,stories} from '../data';
 import {href,type Locale} from '../config/site';
 import {tr,formatNumber} from '../i18n/ui';
 import {collectionItems,collectionPath,mediaCollections,videoDuration,albumPhotos,albumPages,albumPageSize,type MediaCollection} from '../lib/media';
-import {eventHref,reviewedTranslation} from '../lib/publication';
+import {eventHref,reviewedTranslation,isPublicStory} from '../lib/publication';
 import {isPublicEvent} from '../lib/events';
 import Gallery from './Gallery.astro';
 import Video from './Video.astro';
@@ -18,10 +18,12 @@ const totalPages=albumPages(collection,items);
 const allVideos=items.filter(item=>item.kind==='video');
 const videos=page===1?allVideos:[];
 const related=events.filter(event=>collection.eventIds.includes(event.id)&&isPublicEvent(event));
+const readings=stories.filter(story=>story.locale===locale&&isPublicStory(story)&&story.mediaIds.some(id=>collection.mediaIds.includes(id)));
 ---
 <div class="wrap page-body collection-page">
   <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale,'community')}>{t('Community')}</a><span aria-hidden="true">/</span><a href={href(locale,'community/memories')}>{t('Memories')}</a><span aria-hidden="true">/</span><span>{collection.title[locale]}</span></nav>
   <div class="collection-intro">{collection.note&&<p class="summary">{collection.note[locale]}</p>}<nav class="subnav" aria-label={t('In this collection')}>{photoCount>0&&<a href="#photographs">{t('Photographs and posters')} ({formatNumber(locale,photoCount)})</a>}{allVideos.length>0&&<a href={page===1?'#videos':`${href(locale,collectionPath(collection))}#videos`}>{t('Videos')} ({formatNumber(locale,allVideos.length)})</a>}{related.map(event=><a href={eventHref(event,locale)}>{locale==='fa'?reviewedTranslation(event.id)?.title:event.title}</a>)}</nav></div>
+  {page===1&&readings.map(story=><section class="collection-reading prose"><h2>{story.title}</h2><p>{story.summary}</p><a class="text-link" href={href(locale,`community/stories/${story.slug}`)}>{t(story.kind==='document'?'Read the document':'Read the story')} <span aria-hidden="true">↗</span></a></section>)}
   {photos.length>0&&<section id="photographs" class="collection-photographs" aria-labelledby="collection-photos"><div class="collection-section-heading"><h2 id="collection-photos">{t('Photographs and posters')}</h2><p>{t('Open a photograph for a larger view.')}</p></div>{totalPages>1&&<p class="album-range"><bdi dir="ltr">{formatNumber(locale,(page-1)*albumPageSize+1)}-{formatNumber(locale,Math.min(page*albumPageSize,photoCount))}</bdi> {t('of')} {formatNumber(locale,photoCount)} {t('images')}</p>}<AlbumPagination collection={collection} page={page} total={totalPages} locale={locale}/><Gallery items={photos} locale={locale} dense photoCaptions={collection.id==='posters-and-venues'}/><AlbumPagination collection={collection} page={page} total={totalPages} locale={locale}/></section>}
   {videos.length>0&&<section id="videos" class="collection-videos" aria-labelledby="collection-videos" data-collection-videos>
     <h2 id="collection-videos">{t('Videos')}</h2>
