@@ -1,5 +1,5 @@
 import { events, type EventRecord } from '../data';
-import { effectiveDay, isPublicEvent } from './events';
+import { effectiveDay, isPublicEvent, newestEventsFirst } from './events';
 import type { Locale } from '../config/site';
 
 export function archiveDescription(year: string, count: number, locale: Locale = 'en'): string {
@@ -16,6 +16,6 @@ export function archiveYears(records: readonly EventRecord[] = events) {
     grouped.set(year, [...(grouped.get(year) ?? []), event]);
   }
   return [...grouped.entries()].sort(([a], [b]) => b.localeCompare(a)).map(([year, records]) => ({
-    year, records: records.sort((a, b) => (effectiveDay(b) ?? '').localeCompare(effectiveDay(a) ?? '')),
+    year, records: newestEventsFirst(records),
   }));
 }

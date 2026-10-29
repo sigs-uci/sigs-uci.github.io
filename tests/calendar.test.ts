@@ -5,7 +5,7 @@ import { calendarDownload, escapeCalendarText, foldCalendarLine } from '../src/l
 import { eventFixture } from './fixtures/events';
 
 test('historical days never become invented calendar occurrences', () => {
-  for (const event of events) assert.equal(calendarDownload(event), null);
+  for (const event of events.filter(record => record.archiveLabel)) assert.equal(calendarDownload(event), null);
   assert.equal(calendarDownload(eventFixture({ publication: 'draft' })), null);
   assert.equal(calendarDownload(eventFixture({ startInstant: null })), null);
   assert.equal(calendarDownload(eventFixture({ endInstant: '2026-12-13T01:00:00Z' })), null);

@@ -1,0 +1,33 @@
+---
+import { href, emailLink, type Locale } from '../config/site';
+import type { EventRecord } from '../data';
+import { effectiveDay, formatDate, formatTimeRange, hasEnded } from '../lib/events';
+import { eventHref, eventLocale, reviewedTranslation } from '../lib/publication';
+import { publicMedia } from '../lib/media';
+import { tr } from '../i18n/ui';
+
+const { event, locale, headingId } = Astro.props as { event?: EventRecord; locale: Locale; headingId?: string };
+const t = (text: string) => tr(locale, text);
+const language = event ? eventLocale(event, locale) : locale;
+const translation = event && language === 'fa' ? reviewedTranslation(event.id) : undefined;
+const poster = event && publicMedia.find(item => item.id === event.heroImage && item.kind !== 'video');
+const time = event && formatTimeRange(event, locale);
+const past = event && hasEnded(event);
+---
+{event ? <>
+  <div class="gathering-event-copy">
+    <h2 id={headingId} data-feature-heading>{t(past ? 'Our latest event' : 'The next gathering')}</h2>
+    <h3 lang={language}><a href={eventHref(event, locale)}>{translation?.title ?? event.title}</a></h3>
+    <p class="gathering-event-summary" lang={language}>{translation?.summary ?? event.summary}</p>
+    <dl class="gathering-event-details">
+      <div><dt>{t('Date')}</dt><dd><time datetime={event.startInstant ?? effectiveDay(event) ?? undefined}><bdi>{formatDate(event, locale)}</bdi></time></dd></div>
+      {time && <div><dt>{t('Time')}</dt><dd><bdi>{event.timeDisplay ? t(time) : time}</bdi></dd></div>}
+      {event.venue && <div><dt>{t('Location')}</dt><dd>{t(event.venue)}</dd></div>}
+    </dl>
+    <p class="gathering-event-status" data-feature-past hidden={!past}>{t(event.archiveLabel ?? 'This date has passed. Registration is closed.')}</p>
+    <div class="gathering-event-actions"><a class="button primary" href={eventHref(event, locale)}>{t('View event details')} <span aria-hidden="true">↗</span></a><a class="text-link" href={href(locale, 'events')}>{t('View all events')} <span aria-hidden="true">↗</span></a></div>
+  </div>
+  {poster && <figure class="gathering-event-poster"><a href={eventHref(event, locale)}><img src={poster.src} srcset={poster.thumbnail ? `${poster.thumbnail} 720w, ${poster.src} ${poster.width}w` : undefined} sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1100px) 36vw, 390px" width={poster.width} height={poster.height} alt={poster.alt[locale] ?? poster.alt.en} loading="lazy" /></a>{poster.credit !== 'Photographer not recorded.' && <figcaption dir="auto">{t(poster.credit)}</figcaption>}</figure>}
+</> : <>
+  <h2 id={headingId} data-feature-heading>{t('The next gathering')}</h2><p>{t('No new date is posted yet. Contact the team to ask about taking part or helping organize.')}</p><a class="text-link" href={emailLink(t('Connect with SIGS'))}>{t('Email the team')}</a>
+</>}

@@ -46,7 +46,7 @@ test('archive facts preserve dates, unknown rooms and closed registration', () =
     ['yalda-2025', 'yalda-2025-flyer'],
   ]);
   for (const [eventId, imageId] of approved) assert.ok(media.some(image => image.id === imageId && image.eventId === eventId && image.publication === 'published' && image.rights === 'approved'));
-  for (const event of events) {
+  for (const event of events.filter(record => record.archiveLabel !== null)) {
     assert.equal(event.registration, 'closed');
     assert.equal(event.registrationUrl, null);
     assert.equal(event.startInstant, null);

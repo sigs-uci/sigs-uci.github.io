@@ -10,6 +10,7 @@ export interface EventFilters {
 export const campusTimeZone = 'America/Los_Angeles';
 export type EventSchedule = Pick<EventRecord, 'date' | 'startInstant' | 'allDay'> & Partial<Pick<EventRecord, 'timeZone' | 'endInstant'>>;
 export type EventSearchRecord = Pick<EventRecord, 'id' | 'title' | 'summary' | 'venue' | 'category' | 'publication' | 'editorial' | 'eventState'> & EventSchedule & {searchText?: string};
+export type EventFeatureRecord = EventSchedule & Pick<EventRecord, 'id' | 'publication' | 'editorial' | 'eventState' | 'archiveLabel'>;
 
 export function isPublicEvent(event: Pick<EventRecord, 'publication' | 'editorial'> & { synthetic?: boolean }): boolean {
   return event.publication === 'published' && ['edited', 'reviewed'].includes(event.editorial.en)
@@ -90,6 +91,63 @@ export function nextEvent(records: readonly EventRecord[], now = new Date()): Ev
     .sort((a, b) => scheduleStart(a) - scheduleStart(b))[0];
 }
 
+export function newestEventsFirst<T extends EventSchedule>(records: readonly T[]): T[] {
+  return [...records].sort((a, b) => {
+    const dayA = effectiveDay(a);
+    const dayB = effectiveDay(b);
+    const yearA = Number(dayA?.slice(0, 4) ?? a.date.contextYear ?? -1);
+    const yearB = Number(dayB?.slice(0, 4) ?? b.date.contextYear ?? -1);
+    if (yearA !== yearB) return yearB - yearA;
+    if (dayA && dayB) return scheduleStart(b) - scheduleStart(a);
+    if (dayA) return -1;
+    if (dayB) return 1;
+    return 0;
+  });
+}
+
+export function isFeatureCandidate(event: EventFeatureRecord): boolean {
+  return isPublicEvent(event) && !['tentative', 'postponed', 'cancelled'].includes(event.eventState);
+}
+
+export function publicEventClocks(records: readonly EventFeatureRecord[]): EventFeatureRecord[] {
+  return records.filter(isPublicEvent).map(event => ({
+    id: event.id, publication: event.publication, editorial: { ...event.editorial }, eventState: event.eventState,
+    archiveLabel: event.archiveLabel, date: { ...event.date }, startInstant: event.startInstant,
+    endInstant: event.endInstant ?? null, timeZone: event.timeZone ?? null,
+    allDay: event.allDay ? { ...event.allDay } : null,
+  }));
+}
+
+export function featuredEvent<T extends EventFeatureRecord>(records: readonly T[], now = new Date()): T | undefined {
+  const publicRecords = records.filter(isFeatureCandidate);
+  const currentOrUpcoming = publicRecords.filter(event => ['scheduled', 'rescheduled'].includes(event.eventState)
+    && Boolean(event.startInstant || event.allDay) && !hasEnded(event, now))
+    .sort((a, b) => scheduleStart(a) - scheduleStart(b))[0];
+  return currentOrUpcoming ?? newestEventsFirst(publicRecords.filter(event => hasEnded(event, now)))[0];
+}
+
+export function eventViewState(event: EventFeatureRecord, now = new Date()): { past: boolean; status: string } {
+  const past = event.eventState === 'completed' || hasEnded(event, now);
+  const status = past ? elapsedEventStatus(event) : event.eventState;
+  return { past, status };
+}
+
+export function elapsedEventStatus(event: Pick<EventFeatureRecord, 'archiveLabel' | 'eventState'>): string {
+  return ['cancelled', 'postponed', 'rescheduled'].includes(event.eventState)
+    ? event.eventState : event.archiveLabel ?? 'Past';
+}
+
+export function eventRefreshDelay(records: readonly EventSchedule[], now = new Date()): number {
+  const ends = records.flatMap(event => {
+    if (event.endInstant) return [Date.parse(event.endInstant)];
+    const lastDay = event.allDay?.end ?? (effectiveDay(event)
+      ? new Date(Date.parse(`${effectiveDay(event)}T00:00:00Z`) + 86_400_000).toISOString().slice(0, 10) : null);
+    if (!lastDay) return [];
+    return [scheduleStart({ ...event, date: { value: lastDay, precision: 'day', contextYear: Number(lastDay.slice(0, 4)) }, startInstant: null, allDay: null })];
+  }).filter(instant => instant > now.getTime());
+  return Math.max(1, Math.min(60_000, ...ends.map(instant => instant - now.getTime())));
+}
+
 export function normalizeSearch(value: string): string {
   return value.normalize('NFKC').replace(/ي/g, 'ی').replace(/ك/g, 'ک')
     .replace(/[\u200c\u200d]/g, ' ').toLocaleLowerCase().replace(/\s+/g, ' ').trim();
@@ -124,7 +182,7 @@ export function filterEvents<T extends EventSearchRecord>(records: readonly T[],
     String(digit.charCodeAt(0) - (digit >= '۰' && digit <= '۹' ? 0x6f0 : 0x660)));
   const query = filterText(filters.query);
   const terms = query.split(' ').filter(Boolean);
-  return records.filter((event) => {
+  return newestEventsFirst(records.filter((event) => {
     if (!isPublicEvent(event)) return false;
     if (filters.year && !String(effectiveDay(event) ?? event.date.contextYear ?? '').startsWith(filters.year)) return false;
     if (filters.category && event.category !== filters.category) return false;
@@ -133,7 +191,7 @@ export function filterEvents<T extends EventSearchRecord>(records: readonly T[],
     if (filters.period === 'past' && !hasEnded(event, now)) return false;
     const text = filterText([event.title, event.summary, event.venue, event.category, event.searchText, effectiveDay(event), event.date.contextYear, event.eventState].filter(Boolean).join(' '));
     return terms.every(term => text.includes(term));
-  });
+  }));
 }
 
 export function formatDate(event: EventRecord, locale = 'en'): string {

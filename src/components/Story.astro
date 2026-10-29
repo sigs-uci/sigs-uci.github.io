@@ -3,11 +3,11 @@ import {events,media,type StoryRecord} from '../data';
 import {href,type Locale} from '../config/site';
 import Gallery from './Gallery.astro';
 import {tr} from '../i18n/ui';
-import {isPublicEvent} from '../lib/events';
+import {isPublicEvent,newestEventsFirst} from '../lib/events';
 import {mediaCollections,collectionPath} from '../lib/media';
 import {eventHref,eventLocale,reviewedTranslation} from '../lib/publication';
 const {story,locale='en'}=Astro.props as {story:StoryRecord;locale:Locale};const t=(s:string)=>tr(locale,s);
-const related=events.filter(e=>story.relatedEventIds.includes(e.id)&&isPublicEvent(e));
+const related=newestEventsFirst(events.filter(e=>story.relatedEventIds.includes(e.id)&&isPublicEvent(e)));
 const albums=mediaCollections.filter(collection=>story.mediaIds.some(id=>collection.mediaIds.includes(id)));
 const images=story.mediaIds.flatMap(id=>media.filter(item=>item.id===id&&item.publication==='published'&&item.rights==='approved'));
 ---

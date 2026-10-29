@@ -42,7 +42,7 @@ test('stories cannot publish into a disabled locale or with draft editorial stat
 });
 
 test('historical events emit no Event metadata and future metadata reflects cancellation', () => {
-  for (const event of events) assert.equal(eventMetadata(event), null);
+  for (const event of events.filter(record => record.archiveLabel !== null)) assert.equal(eventMetadata(event), null);
   const future = eventFixture({ generateEventStructuredData: true, eventState: 'cancelled', registration: 'closed' });
   const metadata = eventMetadata(future)!;
   assert.equal(metadata.eventStatus, 'https://schema.org/EventCancelled');

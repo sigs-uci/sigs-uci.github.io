@@ -4,6 +4,7 @@ import { readFile, lstat, realpath } from 'node:fs/promises';
 import path from 'node:path';
 import { imageMetadata } from 'astro/assets/utils';
 import { data, media, validatePublicData, type MediaRecord } from '../src/data';
+import { teamPortraitIds } from '../src/lib/media';
 
 async function assetBytes(src: string) {
   const root = path.resolve('public');
@@ -33,11 +34,13 @@ test('published image records match metadata-free public derivatives and smaller
     const full = await inspectAsset(image.src);
     assert.equal(full.width, image.width);
     assert.equal(full.height, image.height);
-    assert.ok(image.thumbnail);
-    const thumbnail = await inspectAsset(image.thumbnail!);
-    assert.ok(thumbnail.width < full.width);
-    assert.ok(thumbnail.height < full.height);
-    assert.ok(Math.abs(thumbnail.width / thumbnail.height - full.width / full.height) < 0.01);
+    assert.ok(image.thumbnail || teamPortraitIds.has(image.id));
+    if (image.thumbnail) {
+      const thumbnail = await inspectAsset(image.thumbnail);
+      assert.ok(thumbnail.width < full.width);
+      assert.ok(thumbnail.height < full.height);
+      assert.ok(Math.abs(thumbnail.width / thumbnail.height - full.width / full.height) < 0.01);
+    }
   }
 });
 

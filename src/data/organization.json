@@ -9,7 +9,9 @@
   "description": "We bring the Iranian graduate community at UC Irvine together through cultural gatherings, conversation and support for students new to campus.",
   "currentSponsors": [],
   "telegramInvite": null,
-  "upcomingEvents": [],
+  "upcomingEvents": [
+    "gol-ya-pooch-2026"
+  ],
   "registration": {
     "status": "registered",
     "termId": "2026-2027",

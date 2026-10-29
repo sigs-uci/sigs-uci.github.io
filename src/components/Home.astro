@@ -1,12 +1,14 @@
 ---
-import { href, emailLink, type Locale } from '../config/site';
+import { href, type Locale } from '../config/site';
 import { tr, formatTerm } from '../i18n/ui';
-import { boardTerms, events, organization } from '../data';
-import { formatDate, nextEvent } from '../lib/events';
+import { boardTerms, organization, people } from '../data';
+import { formatDate } from '../lib/events';
 import { eventHref, eventLocale, reviewedTranslation } from '../lib/publication';
 import { archiveYears } from '../lib/archive';
 import { publicMedia, mediaCollections, collectionPath } from '../lib/media';
 import HomeMedia from './HomeMedia.astro';
+import HomeFeaturedEvent from './HomeFeaturedEvent.astro';
+import TeamPortrait from './TeamPortrait.astro';
 import '../styles/home.css';
 const { locale = 'en' } = Astro.props as { locale: Locale };
 const t = (text: string) => tr(locale, text);
@@ -17,8 +19,6 @@ const collectionHref = href(locale, homeCollection ? collectionPath(homeCollecti
 const archive = archiveYears().flatMap(entry => entry.records);
 const memory = archive.find(event => event.id === 'poetry-night-2019') ?? archive[0];
 const memoryTitle = memory && eventLocale(memory, locale) === 'fa' ? reviewedTranslation(memory.id)?.title : memory?.title;
-const next = nextEvent(events);
-const nextTitle = next && eventLocale(next, locale) === 'fa' ? reviewedTranslation(next.id)?.title : next?.title;
 ---
 <div class="home-gathering">
   <section class="gathering-opening" aria-labelledby="home-title">
@@ -36,10 +36,7 @@ const nextTitle = next && eventLocale(next, locale) === 'fa' ? reviewedTranslati
     </div>
   </section>
 
-  <section class="wrap gathering-next" aria-labelledby="next-title">
-    <h2 id="next-title">{t('The next gathering')}</h2>
-    {next ? <><div><h3 lang={eventLocale(next, locale)}>{nextTitle}</h3><p><bdi>{formatDate(next, locale)}</bdi>{next.timeDisplay && ` · ${t(next.timeDisplay)}`}{next.venue && ` · ${t(next.venue)}`}</p></div><a class="text-link" href={eventHref(next, locale)}>{t('Event details')} <span aria-hidden="true">↗</span></a></> : <><p>{t('No new date is posted yet. Contact the team to ask about taking part or helping organize.')}</p><a class="text-link" href={emailLink(t('Connect with SIGS'))}>{t('Email the team')}</a></>}
-  </section>
+  <HomeFeaturedEvent locale={locale} />
 
   <HomeMedia locale={locale} />
 
@@ -50,7 +47,13 @@ const nextTitle = next && eventLocale(next, locale) === 'fa' ? reviewedTranslati
 
   {currentTeam && <section class="wrap gathering-team" aria-labelledby="team-title">
     <div class="gathering-section-heading"><div><h2 id="team-title">{t('The people behind SIGS.')}</h2><p class="gathering-term"><bdi>{formatTerm(locale, currentTeam.term)}</bdi> / {t('Leadership & Team')}</p></div><a class="text-link" href={href(locale, 'about/leadership')}>{t('Meet the team')} <span aria-hidden="true">↗</span></a></div>
-    <div class="gathering-team-list">{currentTeam.people.slice().sort((a, b) => a.displayOrder - b.displayOrder).map(member => <a href={`${href(locale, 'about/leadership')}#${member.personId}`}><strong><bdi lang="en" dir="ltr">{member.name}</bdi></strong><span>{t(member.role)}</span></a>)}</div>
+    <div class="gathering-team-list">{currentTeam.people.slice().sort((a, b) => a.displayOrder - b.displayOrder).map(member => {
+      const person = people.find(person => person.id === member.personId);
+      return <article class="gathering-person">
+        <a class="gathering-person-summary" href={`${href(locale, 'about/leadership')}#${member.personId}`}><TeamPortrait personId={member.personId} portraitId={member.portrait} locale={locale} compact /><div class="gathering-person-copy"><strong><bdi lang="en" dir="ltr">{member.name}</bdi></strong><span>{t(member.role)}</span></div></a>
+        {person?.linkedinUrl && <a class="gathering-person-profile" href={person.linkedinUrl} aria-label={`${member.name}: ${t('View LinkedIn profile')}`}>{t('LinkedIn profile')} <span aria-hidden="true">↗</span></a>}
+      </article>;
+    })}</div>
   </section>}
 
   <section class="wrap gathering-history" aria-labelledby="history-title">

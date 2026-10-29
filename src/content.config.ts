@@ -20,13 +20,13 @@ const events = defineCollection({
     venue: optionalText, category: z.enum(['culture', 'film-poetry', 'community', 'newcomers', 'professional']),
     sigsRole: text, occurrenceEvidence: text, archiveLabel: optionalText, publication,
     eventState: z.enum(['tentative', 'scheduled', 'postponed', 'rescheduled', 'cancelled', 'completed']),
-    registration: z.enum(['not_required', 'not_open', 'open', 'full', 'waitlist', 'closed']), registrationUrl: optionalText,
+    registration: z.enum(['not_required', 'not_open', 'open', 'full', 'waitlist', 'closed']), registrationUrl: optionalText, registrationNote: optionalText.optional(), rulesUrl: z.url().nullable().optional(),
     gallery: z.array(text), heroImage: optionalText, editorial: z.object({ en: editorial, fa: editorial }),
     publicSourceLinks: z.array(z.url()), generateCalendarDownload: z.boolean(), generateEventStructuredData: z.boolean(),
   }),
 });
 
-const people = defineCollection({ loader: file('src/data/people.json'), schema: z.object({ id, name: text, portrait: optionalText, bio: optionalText }) });
+const people = defineCollection({ loader: file('src/data/people.json'), schema: z.object({ id, name: text, portrait: optionalText, bio: optionalText, linkedinUrl: z.url().nullable().optional() }) });
 const boardTerms = defineCollection({ loader: file('src/data/boardTerms.json'), schema: z.object({ id, term: text,
   status: z.enum(['current', 'former']), people: z.array(z.object({ id, personId: text, termId: text, name: text,
     role: text, group: z.enum(['board', 'support', 'advisor']), displayOrder: z.number().int().positive(),

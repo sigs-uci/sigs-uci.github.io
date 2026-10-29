@@ -3,8 +3,20 @@ import assert from 'node:assert/strict';
 import { events } from '../src/data';
 import { isPublicEvent } from '../src/lib/events';
 import { availableLocales } from '../src/lib/publication';
-import { collectionItems, collectionPath, mediaCollections, publicMedia, validateMediaCollections } from '../src/lib/media';
+import { collectionItems, collectionPath, mediaCollections, publicMedia, teamPortraitIds, validateMediaCollections } from '../src/lib/media';
 import { pages } from '../src/lib/routes';
+
+test('team portraits stay on team pages without inflating community albums', () => {
+  assert.ok(teamPortraitIds.size > 0);
+  assert.deepEqual(validateMediaCollections(), []);
+  for (const id of teamPortraitIds) {
+    assert.equal(publicMedia.some(item => item.id === id), false);
+    assert.equal(mediaCollections.some(collection => collection.mediaIds.includes(id)), false);
+  }
+  const mixed = structuredClone(mediaCollections);
+  mixed[0].mediaIds.push([...teamPortraitIds][0]);
+  assert.ok(validateMediaCollections(mixed).some(error => error.includes('Team portraits')));
+});
 
 test('every public media item belongs to one collection with a safe unique route', () => {
   const paths = new Set(pages.map(page => page.path));

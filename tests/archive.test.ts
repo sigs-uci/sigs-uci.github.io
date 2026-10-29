@@ -7,7 +7,7 @@ import { eventFixture } from './fixtures/events';
 test('year archives retain each canonical historical record exactly once', () => {
   const years = archiveYears();
   const listed = years.flatMap(year => year.records.map(record => record.id));
-  assert.deepEqual([...listed].sort(), events.map(event => event.id).sort());
+  assert.deepEqual([...listed].sort(), events.filter(event => event.archiveLabel).map(event => event.id).sort());
   assert.equal(new Set(listed).size, listed.length);
   assert.ok(years.find(year => year.year === '2019')?.records.some(record=>record.id==='career-panel-2019'));
   assert.equal(years.find(year => year.year === '2026')?.records.length, 2);

@@ -898,5 +898,15 @@
     "status": "reviewed",
     "sourceRevision": "dc2872bf25b78964415c7d2286430f0abb540659150b01d1395fd17f96dfbb8f",
     "reviewedOn": "2026-10-29"
+  },
+  {
+    "eventId": "gol-ya-pooch-2026",
+    "locale": "fa",
+    "title": "تورنومنت گل یا پوچ SIGS",
+    "summary": "تیم سه‌نفره‌تان را برای یک شب گل یا پوچ و شام کنار هم آماده کنید. تورنومنت SIGS شنبه ۱۴ نوامبر، از ساعت ۵ عصر تا ۱۱ شب، در سالن چندمنظورهٔ مرکز اجتماعات Verano Place برگزار می‌شود و برای تیم قهرمان جایزه داریم.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "65fe34488ee09d68fb128c0e5d8ed5054847b371eed82a0f7e6c604f3da630da",
+    "reviewedOn": "2026-10-29"
   }
 ]

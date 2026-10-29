@@ -14,7 +14,8 @@ import MediaCollection from '../../components/MediaCollection.astro';
 import {albumAtPath} from '../../lib/media';
 import {locales,type Locale} from '../../config/site';
 import {pages,type PageDefinition} from '../../lib/routes';
-import {events,programDetails,stories,type EventRecord,type StoryRecord,type EventTranslation} from '../../data';
+import {events,media,programDetails,stories,type EventRecord,type StoryRecord,type EventTranslation} from '../../data';
+import {eventShareImage} from '../../lib/metadata';
 import {isPublicEvent} from '../../lib/events';
 import {reviewedTranslation,isPublicStory} from '../../lib/publication';
 import {tr,formatNumber} from '../../i18n/ui';
@@ -35,7 +36,7 @@ const collection=album?.collection;
 const title=collection?`${collection.title[locale]}${album&&album.page>1?`${locale==='fa'?'، ':', '}${t('Page')} ${formatNumber(locale,album.page)}`:''}`:page.localized?.[locale]?.title??page.title;
 const description=page.localized?.[locale]?.description??page.description;
 ---
-<Base title={title} description={description} locale={locale} path={path} noindex={noindex} search={!noindex&&(!album||album.page===1)}>
+<Base title={title} description={description} locale={locale} path={path} noindex={noindex} search={!noindex&&(!album||album.page===1)} shareImage={eventShareImage(event,locale,media)}>
 {path===''?<Home locale={locale}/>:event?<EventDetail event={event} translation={translation} locale={locale}/>:story?<Story story={story} locale={locale}/>:<>
 <section class:list={['page-heading',{'media-heading':collection||['community/memories','community/videos'].includes(path)}]}><div class="wrap"><p class="eyebrow">SIGS / {t(path.split('/')[0]==='events'?'Gatherings':path.split('/')[0]==='about'?'Our community':path.split('/')[0]==='resources'?'Student life':path.split('/')[0]==='community'?'Life together':'At UC Irvine')}</p><h1 data-pagefind-meta="title">{t(title)}</h1><p>{t(description)}</p></div></section>
 {collection?<MediaCollection collection={collection} page={album?.page} locale={locale}/>:path==='community/memories'||path==='community/videos'?<MediaLibrary locale={locale} videosOnly={path==='community/videos'}/>:program?<Program program={program} locale={locale}/>:archiveYear?<ArchiveYear year={archiveYear} locale={locale}/>:path==='events'||path==='events/archive'?<EventExplorer locale={locale} archive={path.endsWith('archive')}/>:path.startsWith('about/leadership')?<Leadership locale={locale} termId={path.split('/')[2]}/>:path==='search'?<Search locale={locale}/>:<StandardContent locale={locale} path={path}/>}

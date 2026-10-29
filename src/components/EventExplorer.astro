@@ -1,6 +1,6 @@
 ---
 import {events} from '../data';
-import {effectiveDay,formatDate,isPublicEvent} from '../lib/events';
+import {effectiveDay,formatDate,isPublicEvent,newestEventsFirst} from '../lib/events';
 import {href,type Locale} from '../config/site';
 import {tr} from '../i18n/ui';
 import {eventHref,eventLocale,reviewedTranslation} from '../lib/publication';
@@ -10,7 +10,7 @@ const {locale='en',archive=false}=Astro.props as {locale:Locale;archive:boolean}
 const t=(text:string)=>tr(locale,text);
 const number=(value:number)=>new Intl.NumberFormat(locale==='fa'?'fa-IR':'en-US',{useGrouping:false}).format(value);
 const recordCount=(value:number)=>`${number(value)} ${t(value===1?'record':'records')}`;
-const records=events.filter(isPublicEvent).sort((a,b)=>(effectiveDay(b)??'').localeCompare(effectiveDay(a)??''));
+const records=newestEventsFirst(events.filter(isPublicEvent));
 const recordYear=(event:typeof records[number])=>(effectiveDay(event)??String(event.date.contextYear??'')).slice(0,4);
 const years=[...new Set(records.map(recordYear))].filter(Boolean).sort((a,b)=>Number(b)-Number(a));
 const groups=[...years,...(records.some(event=>!recordYear(event))?['']:[])].map(year=>({year,records:records.filter(event=>recordYear(event)===year)}));

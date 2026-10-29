@@ -21,6 +21,8 @@ These templates describe records, not events to publish. Prepare missing details
 | `eventState` | `tentative`, `scheduled`, `postponed`, `rescheduled`, `cancelled` or `completed` |
 | `registration` | `not_required`, `not_open`, `open`, `full`, `waitlist` or `closed` |
 | `registrationUrl` | An actual destination when registration or waitlist is active |
+| `registrationNote` | Optional checked requirement, such as signing in to the registration service |
+| `rulesUrl` | Optional public link to the tournament or activity rules |
 | `gallery`, `heroImage` | Approved published media IDs, or an empty array and null |
 | `editorial` | English editing state and Persian translation state |
 | `publicSourceLinks` | Suitable public references, if available |
@@ -64,7 +66,7 @@ Add collections in `src/data/mediaCollections.json`. Each record needs:
 | `mediaIds` | The distinct media IDs in display order |
 | `eventIds` | Related published event IDs, or an empty array when no association is established |
 
-Every published, approved media record belongs to exactly one collection. Validation checks that assignment, the cover, both language versions and published media/event references. Collection links can point to related historical context without assigning those events to every photograph. Add an individual `eventId` only when that image's association is supported. Collections do not create dated events or turn archived announcements into documented gatherings.
+Every published, approved community media record belongs to exactly one collection. Validation checks community media assignments, the cover, both language versions and published media/event references. Collection links can point to related historical context without assigning those events to every photograph. Add an individual `eventId` only when that image's association is supported. Collections do not create dated events or turn archived announcements into documented gatherings.
 
 ## Story, document or annual highlights
 

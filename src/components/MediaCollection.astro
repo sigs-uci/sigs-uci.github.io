@@ -4,7 +4,7 @@ import {href,type Locale} from '../config/site';
 import {tr,formatNumber} from '../i18n/ui';
 import {collectionItems,collectionPath,mediaCollections,videoDuration,albumPhotos,albumPages,albumPageSize,type MediaCollection} from '../lib/media';
 import {eventHref,reviewedTranslation,isPublicStory} from '../lib/publication';
-import {isPublicEvent} from '../lib/events';
+import {isPublicEvent,newestEventsFirst} from '../lib/events';
 import Gallery from './Gallery.astro';
 import Video from './Video.astro';
 import CollectionDirectory from './CollectionDirectory.astro';
@@ -17,7 +17,7 @@ const photoCount=items.filter(item=>item.kind!=='video').length;
 const totalPages=albumPages(collection,items);
 const allVideos=items.filter(item=>item.kind==='video');
 const videos=page===1?allVideos:[];
-const related=events.filter(event=>collection.eventIds.includes(event.id)&&isPublicEvent(event));
+const related=newestEventsFirst(events.filter(event=>collection.eventIds.includes(event.id)&&isPublicEvent(event)));
 const readings=stories.filter(story=>story.locale===locale&&isPublicStory(story)&&story.mediaIds.some(id=>collection.mediaIds.includes(id)));
 ---
 <div class="wrap page-body collection-page">

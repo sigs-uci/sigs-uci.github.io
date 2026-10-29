@@ -20,6 +20,8 @@ Add one `EventRecord` in `src/data/events.json` only when its public facts are r
 
 Publication, lifecycle and registration are separate fields. Use `publication: "published"` for a public record. An event may be scheduled while registration is closed. A missing RSVP service is not an open registration form. Use the organization mailbox as the participation route until a real service is configured.
 
+Set `rulesUrl` when the activity has a public rules document. Give the event an approved `heroImage` so its poster appears in the homepage feature and the event URL's sharing metadata. Share the English or Persian event URL; registration and rules links belong on that page.
+
 For a timed occurrence, record start and end with explicit UTC offsets and `timeZone: "America/Los_Angeles"`. Pacific Time changes with daylight saving. Confirm the instants rather than appending PST to every date. For an actual all-day event use `allDay.start` and an exclusive `allDay.end`; do not call a historical date-only record all-day.
 
 Enable `generateCalendarDownload` only for a precise schedule. Set `calendarUpdated` to the real update instant and increment `calendarSequence` when the schedule changes. Calendar downloads are snapshots. They do not promise automatic updates in a subscriber's calendar.
