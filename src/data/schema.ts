@@ -32,6 +32,8 @@ export interface EventRecord {
   eventState: EventState;
   registration: RegistrationState;
   registrationUrl: string | null;
+  registrationNote?: string | null;
+  rulesUrl?: string | null;
   gallery: string[];
   heroImage: string | null;
   editorial: Record<Locale, EditorialState>;
@@ -51,6 +53,7 @@ export interface PersonRecord {
   name: string;
   portrait: string | null;
   bio: string | null;
+  linkedinUrl?: string | null;
 }
 
 export interface TeamMembership {
@@ -212,7 +215,7 @@ export interface PublicData {
 }
 
 const occurrenceSupported = new Set<OccurrenceEvidence>(['occurrence_corroborated', 'occurrence_reported', 'institutional_retrospective', 'reported_occurrence']);
-const eventKeys = new Set(['id', 'slug', 'title', 'locale', 'date', 'timeDisplay', 'timeZone', 'startInstant', 'endInstant', 'venue', 'category', 'sigsRole', 'summary', 'occurrenceEvidence', 'archiveLabel', 'publication', 'eventState', 'registration', 'registrationUrl', 'gallery', 'heroImage', 'editorial', 'publicSourceLinks', 'generateCalendarDownload', 'generateEventStructuredData', 'allDay', 'calendarUpdated', 'calendarSequence', 'accessibility', 'cost', 'audience']);
+const eventKeys = new Set(['id', 'slug', 'title', 'locale', 'date', 'timeDisplay', 'timeZone', 'startInstant', 'endInstant', 'venue', 'category', 'sigsRole', 'summary', 'occurrenceEvidence', 'archiveLabel', 'publication', 'eventState', 'registration', 'registrationUrl', 'registrationNote', 'rulesUrl', 'gallery', 'heroImage', 'editorial', 'publicSourceLinks', 'generateCalendarDownload', 'generateEventStructuredData', 'allDay', 'calendarUpdated', 'calendarSequence', 'accessibility', 'cost', 'audience']);
 const storyKeys = new Set(['id', 'slug', 'title', 'summary', 'locale', 'publication', 'editorial', 'publishedOn', 'body', 'relatedEventIds', 'mediaIds', 'kind', 'credit', 'contextNote']);
 const translationKeys = new Set(['eventId', 'locale', 'title', 'summary', 'body', 'status', 'sourceRevision', 'reviewedOn']);
 const mediaKeys = new Set(['id', 'src', 'thumbnail', 'kind', 'videoPoster', 'duration', 'audioContent', 'audioNote', 'transcript', 'captions', 'width', 'height', 'eventId', 'focalPoint', 'alt', 'caption', 'credit', 'publication', 'rights']);
@@ -244,6 +247,17 @@ function localMediaPath(value: string, extension?: string): boolean {
     && (!extension || value.toLowerCase().endsWith(extension));
 }
 
+function linkedInProfileUrl(value: string): boolean {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && url.hostname === 'www.linkedin.com'
+      && /^\/in\/[A-Za-z0-9%_-]+\/?$/.test(url.pathname)
+      && !url.username && !url.password && !url.port && !url.search && !url.hash;
+  } catch {
+    return false;
+  }
+}
+
 export function validatePublicData(data: PublicData): string[] {
   const errors: string[] = [];
   const issue = (path: string, message: string) => errors.push(`${path}: ${message}`);
@@ -260,6 +274,7 @@ export function validatePublicData(data: PublicData): string[] {
   const people = new Map(data.people.map(person => [person.id, person]));
   data.people.forEach(person => {
     if (person.portrait && !visibleImage(person.portrait)) issue(`people.${person.id}`, 'Portraits need published images with permission');
+    if (person.linkedinUrl !== undefined && person.linkedinUrl !== null && !linkedInProfileUrl(person.linkedinUrl)) issue(`people.${person.id}`, 'LinkedIn links must be public HTTPS profile URLs');
   });
   const slugs = data.events.map(event => event.slug);
   if (new Set(slugs).size !== slugs.length) issue('events', 'Slugs must be unique');
@@ -287,6 +302,8 @@ export function validatePublicData(data: PublicData): string[] {
     if (event.archiveLabel === 'Documented gathering' && !occurrenceSupported.has(event.occurrenceEvidence)) issue(key, 'Documented gatherings need occurrence support');
     if (event.archiveLabel === 'Archived announcement' && event.eventState === 'completed') issue(key, 'Announcement-only records cannot be completed');
     if (event.registrationUrl && !publicUrl(event.registrationUrl)) issue(key, 'Registration URL must be an ordinary web URL');
+    if (event.registrationNote !== undefined && event.registrationNote !== null && !event.registrationNote.trim()) issue(key, 'Registration note must contain text');
+    if (event.rulesUrl !== undefined && event.rulesUrl !== null && (!event.rulesUrl || !publicUrl(event.rulesUrl))) issue(key, 'Rules URL must be an ordinary web URL');
     if (['open', 'waitlist'].includes(event.registration) && !event.registrationUrl) issue(key, 'Active registration needs a destination');
     if (event.eventState === 'cancelled' && ['open', 'waitlist'].includes(event.registration)) issue(key, 'Cancelled events cannot offer active registration');
     if (event.startInstant && !isInstant(event.startInstant)) issue(key, 'Start must be an explicit instant');

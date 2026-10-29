@@ -6,12 +6,14 @@ import '../styles/shell.css';
 import { site, href, emailLink, type Locale } from '../config/site';
 import { tr } from '../i18n/ui';
 import { availableLocales } from '../lib/publication';
-import { organizationMetadata, serializeMetadata } from '../lib/metadata';
-interface Props { title: string; description: string; locale?: Locale; path?: string; noindex?: boolean; search?: boolean; }
-const { title, description, locale = 'en', path = '', noindex = false, search = true } = Astro.props;
+import { organizationMetadata, serializeMetadata, type ShareImage } from '../lib/metadata';
+interface Props { title: string; description: string; locale?: Locale; path?: string; noindex?: boolean; search?: boolean; shareImage?: ShareImage; }
+const { title, description, locale = 'en', path = '', noindex = false, search = true, shareImage } = Astro.props;
 const t = (s: string) => tr(locale,s);
 const nav = [['events','Events'],['community','Community'],['resources','Resources'],['about','About'],['partners','Partners']];
 const canonical = new URL(href(locale,path), site.origin).href;
+const socialImage = shareImage ?? { src: '/share.png', alt: t('SIGS, Society of Iranian Graduate Students at UC Irvine') };
+const socialImageUrl = new URL(socialImage.src, site.origin).href;
 const other = locale === 'fa' ? 'en' : 'fa';
 const counterparts = availableLocales(path);
 const otherHref = counterparts.includes(other) ? href(other,path)
@@ -39,9 +41,15 @@ const otherLabel = counterparts.includes(other) ? (other === 'en' ? 'English' : 
     <meta property="og:locale" content={locale === 'fa' ? 'fa_IR' : 'en_US'} />
     {counterparts.filter(counterpart => counterpart !== locale).map(counterpart => <meta property="og:locale:alternate" content={counterpart === 'fa' ? 'fa_IR' : 'en_US'} />)}
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={`${site.origin}/share.png`} />
-    <meta property="og:image:alt" content={t('SIGS, Society of Iranian Graduate Students at UC Irvine')} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:alt" content={socialImage.alt} />
+    {socialImage.width && <meta property="og:image:width" content={String(socialImage.width)} />}
+    {socialImage.height && <meta property="og:image:height" content={String(socialImage.height)} />}
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${t(title)} | SIGS`} />
+    <meta name="twitter:description" content={t(description)} />
+    <meta name="twitter:image" content={socialImageUrl} />
+    <meta name="twitter:image:alt" content={socialImage.alt} />
     <script type="application/ld+json" is:inline set:html={serializeMetadata(organizationMetadata)} />
   </head>
   <body>

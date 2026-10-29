@@ -6,7 +6,7 @@ The website for the Society of Iranian Graduate Students at UC Irvine, in Englis
 
 [English](https://sigs-uci.github.io/en/) · [فارسی](https://sigs-uci.github.io/fa/) · [Event archive](https://sigs-uci.github.io/en/events/archive/) · [Photos and videos](https://sigs-uci.github.io/en/community/memories/) · [Meet the team](https://sigs-uci.github.io/en/about/leadership/) · [Email SIGS](mailto:sigs@uci.edu)
 
-Explore Nowruz and Yalda, film and poetry, newcomer support and professional connections through the archive and program profiles. Memories brings together event albums, historical posters and silent videos, with photographs and clips to browse on the homepage. The archive keeps documented gatherings distinct from past announcements.
+Explore Nowruz and Yalda, film and poetry, newcomer support and professional connections through the archive and program profiles. Memories brings together event albums, historical posters and videos, with photographs and clips to browse on the homepage. The archive keeps documented gatherings distinct from past announcements.
 
 <div dir="rtl" lang="fa">
 

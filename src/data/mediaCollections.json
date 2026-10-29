@@ -1820,5 +1820,23 @@
       "community-statement-2022-page-04",
       "community-statement-2022-page-05"
     ]
+  },
+  {
+    "id": "gol-ya-pooch-2026",
+    "title": {
+      "en": "Gol Ya Pooch 2026",
+      "fa": "گل یا پوچ ۲۰۲۶"
+    },
+    "description": {
+      "en": "The invitation to the SIGS 3 vs 3 Gol Ya Pooch tournament on November 14, 2026.",
+      "fa": "دعوت‌نامهٔ تورنومنت سه‌به‌سهٔ گل یا پوچ SIGS در ۱۴ نوامبر ۲۰۲۶."
+    },
+    "eventIds": [
+      "gol-ya-pooch-2026"
+    ],
+    "coverId": "gol-ya-pooch-2026-poster",
+    "mediaIds": [
+      "gol-ya-pooch-2026-poster"
+    ]
   }
 ]

@@ -3389,5 +3389,46 @@
     "generateCalendarDownload": false,
     "generateEventStructuredData": false,
     "audience": "Advertised for UCI students, faculty and staff"
+  },
+  {
+    "id": "gol-ya-pooch-2026",
+    "slug": "gol-ya-pooch-2026",
+    "title": "SIGS Gol Ya Pooch Tournament",
+    "locale": "en",
+    "date": {
+      "value": "2026-11-14",
+      "precision": "day",
+      "contextYear": 2026
+    },
+    "timeDisplay": "5 to 11 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": "2026-11-14T17:00:00-08:00",
+    "endInstant": "2026-11-14T23:00:00-08:00",
+    "venue": "Verano Place Community Center, Multipurpose Room",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "Bring a team of three for an evening of Gol Ya Pooch and dinner at UCI. The SIGS tournament takes place Saturday, November 14, from 5 to 11 PM at Verano Place Community Center, with a prize for the champions.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": null,
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "open",
+    "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdzpPYvJAVEchL3302wjiq2b3DLYMxtzFaf3wMlBRvu6W0e9g/viewform",
+    "rulesUrl": "https://docs.google.com/document/d/1TvGZWjL-bYfmzD7M-H1GtPytRhBennR7ZOC5FDQnuz4/edit?usp=sharing",
+    "gallery": [
+      "gol-ya-pooch-2026-poster"
+    ],
+    "heroImage": "gol-ya-pooch-2026-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": true,
+    "generateEventStructuredData": true,
+    "calendarUpdated": "2026-10-29T18:20:04Z",
+    "calendarSequence": 0,
+    "audience": "Teams of three",
+    "registrationNote": "Google sign-in is required for registration."
   }
 ]

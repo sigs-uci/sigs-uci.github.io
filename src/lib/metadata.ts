@@ -1,4 +1,4 @@
-import type { EventRecord } from '../data';
+import type { EventRecord, MediaRecord } from '../data';
 import { site, href, type Locale } from '../config/site';
 import { isPublicEvent } from './events';
 
@@ -7,6 +7,20 @@ export const organizationMetadata = {
   name: 'Society of Iranian Graduate Students at UC Irvine', alternateName: 'SIGS',
   url: site.origin, email: site.email, logo: `${site.origin}/favicon.png`,
 };
+
+export interface ShareImage {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+}
+
+export function eventShareImage(event: EventRecord | undefined, locale: Locale, records: readonly MediaRecord[]): ShareImage | undefined {
+  if (!event || !isPublicEvent(event)) return undefined;
+  const image = records.find(item => item.id === event.heroImage && item.kind !== 'video'
+    && item.publication === 'published' && item.rights === 'approved');
+  return image ? { src: image.src, alt: image.alt[locale] ?? image.alt.en ?? '', width: image.width, height: image.height } : undefined;
+}
 
 export function eventMetadata(event: EventRecord, locale: Locale = 'en'): Record<string, unknown> | null {
   const start = event.startInstant ?? event.allDay?.start;

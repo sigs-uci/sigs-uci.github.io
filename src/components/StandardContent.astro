@@ -4,7 +4,7 @@ import { tr, formatNumber, formatTerm, formatDay } from '../i18n/ui';
 import { boardTerms, events, milestones, organization, programs, resources, stories, type EventRecord } from '../data';
 import CollectionDirectory from './CollectionDirectory.astro';
 import {mediaCollections,publicMedia} from '../lib/media';
-import { isPublicEvent } from '../lib/events';
+import { isPublicEvent, newestEventsFirst } from '../lib/events';
 import { eventHref, eventLocale, isPublicStory, reviewedTranslation } from '../lib/publication';
 import '../styles/editorial.css';
 
@@ -68,7 +68,7 @@ const contactRoutes = [
 
   {path === 'about/history' && <>
     <section class="prose"><p>{t('This is a partial chronology. Some years have photographs and dated records; others have an announcement or a short description. The gaps stay visible, and each event keeps the context that is known.')}</p></section>
-    <div class="timeline">{milestones.map(milestone => {const linkedEvents = milestone.eventIds.map(publishedEvent).filter((event): event is EventRecord => Boolean(event));return <article><time datetime={String(milestone.year)}>{formatNumber(locale,milestone.year)}</time><div><h2>{t(milestone.title)}</h2><p>{t(milestone.summary)}</p>{linkedEvents.length > 0 && <nav class="subnav" aria-label={t(`Event records for ${milestone.year}`)}>{linkedEvents.map(event => <a href={eventHref(event, locale)} lang={eventLocale(event, locale)}>{eventTitle(event)}{locale === 'fa' && eventLocale(event, locale) === 'en' && <span> ({t('English record')})</span>}</a>)}</nav>}{milestone.id === 'team-2026' && <a class="text-link" href={href(locale, 'about/leadership/2026-2027')}>{t('Meet the 2026-2027 team')}</a>}</div></article>;})}</div>
+    <div class="timeline">{milestones.map(milestone => {const linkedEvents = newestEventsFirst(milestone.eventIds.map(publishedEvent).filter((event): event is EventRecord => Boolean(event)));return <article><time datetime={String(milestone.year)}>{formatNumber(locale,milestone.year)}</time><div><h2>{t(milestone.title)}</h2><p>{t(milestone.summary)}</p>{linkedEvents.length > 0 && <nav class="subnav" aria-label={t(`Event records for ${milestone.year}`)}>{linkedEvents.map(event => <a href={eventHref(event, locale)} lang={eventLocale(event, locale)}>{eventTitle(event)}{locale === 'fa' && eventLocale(event, locale) === 'en' && <span> ({t('English record')})</span>}</a>)}</nav>}{milestone.id === 'team-2026' && <a class="text-link" href={href(locale, 'about/leadership/2026-2027')}>{t('Meet the 2026-2027 team')}</a>}</div></article>;})}</div>
     <section class="notice"><h2>{t('Add a missing piece.')}</h2><p>{t('A public poster, a date correction, or a caption can help preserve the story. Send us what you know and tell us what may be shared publicly.')}</p><div class="subnav"><a href={emailLink(t('SIGS history contribution'))}>{t('Contribute to the history')}</a><a href={href(locale, 'events/archive')}>{t('Browse all event records')}</a></div></section>
   </>}
 

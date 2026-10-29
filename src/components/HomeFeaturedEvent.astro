@@ -1,0 +1,25 @@
+---
+import type { Locale } from '../config/site';
+import { events } from '../data';
+import { featuredEvent, isFeatureCandidate, publicEventClocks } from '../lib/events';
+import { publicMedia } from '../lib/media';
+import { tr } from '../i18n/ui';
+import HomeFeaturedEventCard from './HomeFeaturedEventCard.astro';
+
+const { locale } = Astro.props as { locale: Locale };
+const candidates = events.filter(isFeatureCandidate);
+const feature = featuredEvent(candidates);
+const poster = feature && publicMedia.some(item => item.id === feature.heroImage && item.kind !== 'video');
+---
+<div data-home-event-feature data-candidates={JSON.stringify(publicEventClocks(candidates))} data-next-title={tr(locale, 'The next gathering')} data-latest-title={tr(locale, 'Our latest event')}>
+  <section class:list={['wrap', 'gathering-next', { 'gathering-next-featured': Boolean(feature), 'gathering-next-with-poster': Boolean(poster) }]} aria-labelledby="next-title" data-feature-content data-featured-event={feature?.id ?? ''}>
+    <HomeFeaturedEventCard event={feature} locale={locale} headingId="next-title" />
+  </section>
+  <div hidden data-pagefind-ignore>
+    {candidates.map(event => <template data-feature-template={event.id}><HomeFeaturedEventCard event={event} locale={locale} /></template>)}
+    <template data-feature-empty><HomeFeaturedEventCard locale={locale} /></template>
+  </div>
+</div>
+<script>
+  import '../scripts/home-feature';
+</script>

@@ -2,79 +2,92 @@
   {
     "id": "kourosh-mirsohi",
     "name": "Kourosh Mirsohi",
-    "portrait": null,
-    "bio": null
+    "portrait": "kourosh-mirsohi-portrait",
+    "bio": null,
+    "linkedinUrl": "https://www.linkedin.com/in/mirsohi"
   },
   {
     "id": "shakib-kafashan",
     "name": "Shakib Kafashan",
-    "portrait": null,
-    "bio": null
+    "portrait": "shakib-kafashan-portrait",
+    "bio": null,
+    "linkedinUrl": "https://www.linkedin.com/in/shakib-kafashan-7217071b3"
   },
   {
     "id": "iman-mohammadi",
     "name": "Iman Mohammadi",
-    "portrait": null,
-    "bio": null
+    "portrait": "iman-mohammadi-portrait",
+    "bio": null,
+    "linkedinUrl": "https://www.linkedin.com/in/imanmohammadi02"
   },
   {
     "id": "kousha-changizi",
     "name": "Kousha Changizi",
-    "portrait": null,
-    "bio": null
+    "portrait": "kousha-changizi-portrait",
+    "bio": null,
+    "linkedinUrl": "https://www.linkedin.com/in/koushachangizi"
   },
   {
     "id": "nazanin-dolatkhah",
     "name": "Nazanin Dolatkhah",
-    "portrait": null,
-    "bio": null
+    "portrait": "nazanin-dolatkhah-portrait",
+    "bio": null,
+    "linkedinUrl": "https://www.linkedin.com/in/zahra-dolatkhah/"
   },
   {
     "id": "mehdi-zafari",
     "name": "Mehdi Zafari",
-    "portrait": null,
-    "bio": null
+    "portrait": "mehdi-zafari-portrait",
+    "bio": null,
+    "linkedinUrl": "https://www.linkedin.com/in/mehdi-zafari/"
   },
   {
     "id": "shayan-taherijam",
     "name": "Shayan Taherijam",
-    "portrait": null,
-    "bio": null
+    "portrait": "shayan-taherijam-portrait",
+    "bio": null,
+    "linkedinUrl": "https://www.linkedin.com/in/shayan-taherijam"
   },
   {
     "id": "amin-hajarian",
     "name": "Amin Hajarian",
-    "portrait": null,
-    "bio": null
+    "portrait": "amin-hajarian-portrait",
+    "bio": null,
+    "linkedinUrl": "https://www.linkedin.com/in/amin-hajarian-1ab2b1a2"
   },
   {
     "id": "ghazal-naderi",
     "name": "Ghazal Naderi",
     "portrait": null,
-    "bio": null
+    "bio": null,
+    "linkedinUrl": null
   },
   {
     "id": "sepehr-mousaviyan",
     "name": "Sepehr Mousaviyan",
     "portrait": null,
-    "bio": null
+    "bio": null,
+    "linkedinUrl": null
   },
   {
     "id": "samira-hamzehei",
     "name": "Samira Hamzehei",
     "portrait": null,
-    "bio": null
+    "bio": null,
+    "linkedinUrl": null
   },
   {
     "id": "khorshid-kamran",
     "name": "Khorshid Kamran",
     "portrait": null,
-    "bio": null
+    "bio": null,
+    "linkedinUrl": null
   },
   {
     "id": "mojtaba-taherisadr",
     "name": "Mojtaba Taherisadr",
     "portrait": null,
-    "bio": null
+    "bio": null,
+    "linkedinUrl": null
   }
 ]

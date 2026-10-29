@@ -1,0 +1,36 @@
+---
+import { media, people } from '../data';
+import type { Locale } from '../config/site';
+import { tr } from '../i18n/ui';
+
+interface Props {
+  personId: string;
+  locale: Locale;
+  compact?: boolean;
+  portraitId?: string | null;
+}
+
+const { personId, locale, compact = false, portraitId } = Astro.props;
+const person = people.find(record => record.id === personId);
+const portrait = media.find(item => item.id === (portraitId ?? person?.portrait)
+  && item.kind !== 'video' && item.publication === 'published' && item.rights === 'approved');
+const initials = person?.name.split(/\s+/).map(part => part[0]).slice(0, 2).join('') ?? '';
+---
+<figure class:list={['team-portrait', { compact }]} aria-hidden={!portrait ? 'true' : undefined}>
+  {portrait ? <img src={portrait.src} width={portrait.width} height={portrait.height}
+    loading="lazy" decoding="async" alt={portrait.alt[locale] ?? portrait.alt.en}
+    style={`object-position:${portrait.focalPoint[0] * 100}% ${portrait.focalPoint[1] * 100}%`} />
+    : <span class="team-initials" lang="en" dir="ltr">{initials}</span>}
+  {portrait && !compact && <figcaption>{tr(locale, portrait.credit)}</figcaption>}
+</figure>
+
+<style>
+  .team-portrait{margin:0 0 20px;max-width:160px}
+  .team-portrait img,.team-initials{display:block;width:128px;height:128px;border-radius:12px;object-fit:cover}
+  .team-initials{display:grid;place-items:center;background:var(--ice);color:var(--navy);font-family:Manrope,Arial,sans-serif;font-size:36px;font-weight:600;letter-spacing:-.04em;border:1px solid var(--line)}
+  figcaption{font-size:11px;line-height:1.6;color:var(--muted);margin-top:8px;overflow-wrap:anywhere}
+  .compact{margin:0;max-width:88px}
+  .compact img,.compact .team-initials{width:88px;height:88px;border-radius:10px}
+  .compact .team-initials{font-size:26px}
+  @media(max-width:540px){.compact{max-width:72px}.compact img,.compact .team-initials{width:72px;height:72px}}
+</style>

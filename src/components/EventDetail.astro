@@ -3,7 +3,7 @@ import type { EventRecord, EventTranslation } from '../data';
 import { events, media, programDetails } from '../data';
 import { href, emailLink, type Locale } from '../config/site';
 import { tr, formatNumber } from '../i18n/ui';
-import { formatDate, formatTimeRange, registrationAction, hasEnded, isPublicEvent } from '../lib/events';
+import { elapsedEventStatus, eventViewState, formatDate, formatTimeRange, registrationAction, isPublicEvent, newestEventsFirst, publicEventClocks } from '../lib/events';
 import { eventHref, eventLocale, reviewedTranslation } from '../lib/publication';
 import { eventMetadata, serializeMetadata } from '../lib/metadata';
 import { calendarDownload } from '../lib/calendar';
@@ -17,8 +17,8 @@ const title = translation?.title ?? event.title;
 const summary = translation?.summary ?? event.summary;
 const roleLabels: Record<string, string> = { organizer: 'Organizer', 'co-organizer': 'Co-organizer', 'co-sponsor': 'Co-sponsor', partner: 'Partner', collaborator: 'Collaborator', participant: 'participant', community_archive: 'community archive', shared_invitation: 'shared invitation', organizer_named_in_title: 'Named as organizer in the announcement title', organizer_indexed: 'Listed as organizer in the archive', board_invitation: 'Invitation shared by the SIGS board' };
 const action = registrationAction(event);
-const past = event.eventState === 'completed' || hasEnded(event);
-const status = past && !['cancelled', 'postponed', 'rescheduled'].includes(event.eventState) ? event.archiveLabel ?? event.eventState : event.eventState;
+const { past, status } = eventViewState(event);
+const pastStatus = elapsedEventStatus(event);
 const hero = media.find(item => item.id === event.heroImage && item.publication === 'published' && item.rights === 'approved');
 const gallery = media.filter(item => item.kind !== 'video' && item.id !== hero?.id && event.gallery.includes(item.id) && item.publication === 'published' && item.rights === 'approved');
 const eventVideos = media.filter(item => item.kind === 'video' && (event.gallery.includes(item.id) || item.eventId === event.id) && item.publication === 'published' && item.rights === 'approved');
@@ -27,30 +27,30 @@ const albums = mediaCollections.filter(collection=>collection.eventIds.includes(
   return {collection,photos:items.filter(item=>item.kind!=='video').length,videos:items.filter(item=>item.kind==='video').length};
 });
 const programContext = programDetails.filter(program => program.relatedEventIds.includes(event.id));
-const related = events.filter(record => record.id !== event.id && record.category === event.category && isPublicEvent(record))
-  .sort((a,b) => Math.abs(Date.parse(a.date.value ?? '') - Date.parse(event.date.value ?? '')) - Math.abs(Date.parse(b.date.value ?? '') - Date.parse(event.date.value ?? ''))).slice(0, 2);
+const related = newestEventsFirst(events.filter(record => record.id !== event.id && record.category === event.category && isPublicEvent(record))).slice(0, 2);
 const calendar = calendarDownload(event);
 const metadata = eventMetadata({ ...event, title, summary }, locale);
 const time = formatTimeRange(event, locale);
 ---
 {metadata && <script type="application/ld+json" is:inline set:html={serializeMetadata(metadata)} />}
-<div class="wrap page-body event-detail">
-  <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale)}>{t('Home')}</a><span aria-hidden="true">/</span><a href={href(locale, 'events/archive')}>{t('Event archive')}</a><span aria-hidden="true">/</span><span>{title}</span></nav>
+<div class="wrap page-body event-detail" data-event-detail-clock={JSON.stringify(publicEventClocks([event])[0])} data-clock-messages={JSON.stringify({ past: t(pastStatus), heading: t('The historical details'), registration: t('This date has passed. Registration is closed.') })}>
+  <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale)}>{t('Home')}</a><span aria-hidden="true">/</span><a href={href(locale, past ? 'events/archive' : 'events')}>{t(past ? 'Event archive' : 'Events')}</a><span aria-hidden="true">/</span><span>{title}</span></nav>
   <header class="event-detail-heading">
     <span class="status" data-event-state={event.eventState}>{t(status)}</span><h1 class="event-heading" data-pagefind-meta="title">{title}</h1><p class="summary">{summary}</p>
   </header>
   <section class="event-logistics" aria-labelledby="event-logistics-title">
-      <h2 id="event-logistics-title">{t(past ? 'The historical details' : 'Plan your visit')}</h2>
+      <h2 id="event-logistics-title" data-event-logistics-title>{t(past ? 'The historical details' : 'Plan your visit')}</h2>
       <dl class="meta-list">
         <div class="event-logistics-date"><dt>{t('Date')}</dt><dd><time datetime={event.startInstant ?? event.allDay?.start ?? event.date.value ?? undefined}><bdi>{formatDate(event, locale)}</bdi></time></dd></div>
         <div class="event-logistics-time"><dt>{t('Time')}</dt><dd>{t(time ?? (event.allDay ? 'All day' : past ? 'Not recorded' : 'To be confirmed'))}</dd></div>
         <div class="event-logistics-location"><dt>{t('Location')}</dt><dd>{t(event.venue ?? (past ? 'Not recorded' : 'To be confirmed'))}</dd></div>
         {(!past || event.cost) && <div class="event-logistics-admission"><dt>{t('Admission')}</dt><dd>{t(event.cost ?? 'Contact SIGS for admission details.')}</dd></div>}
         {(!past || event.audience) && <div class="event-logistics-audience"><dt>{t('Audience')}</dt><dd>{t(event.audience ?? 'Contact SIGS about eligibility.')}</dd></div>}
-        <div class="event-logistics-participation"><dt>{t('Participation')}</dt><dd>{t(event.eventState === 'cancelled' || event.eventState === 'postponed' ? action.label : past ? 'This date has passed. Registration is closed.' : action.label)}</dd></div>
+        <div class="event-logistics-participation"><dt>{t('Participation')}</dt><dd data-event-participation>{t(event.eventState === 'cancelled' || event.eventState === 'postponed' ? action.label : past ? 'This date has passed. Registration is closed.' : action.label)}</dd></div>
       </dl>
       <div class="event-detail-actions">
-        {!past && action.href && <a class="button primary" href={action.href}>{t(action.label)}</a>}
+        {!past && action.href && <div class="event-live-registration" data-live-registration><a class="button primary" href={action.href} data-event-registration>{t(action.label)}</a>{event.registrationNote && <p>{t(event.registrationNote)}</p>}</div>}
+        {event.rulesUrl && <a class="button light" href={event.rulesUrl}>{t('Tournament rules')}</a>}
         {calendar && <a class="button light" href={href('en', `events/${event.slug}/calendar.ics`).replace(/\/$/, '')} download={`${event.slug}.ics`}>{t('Download calendar file')}</a>}
         <p>{t('Questions or a correction?')} <a href={emailLink(`${t('Event question')}: ${title}`)}>{t('Contact SIGS')}</a>.</p>
       </div>
@@ -63,9 +63,12 @@ const time = formatTimeRange(event, locale);
     {event.publicSourceLinks.length > 0 && <div><h3>{t('Public context')}</h3><ul>{event.publicSourceLinks.map((url, index) => <li><a href={url}>{t('Read the public source')} {event.publicSourceLinks.length > 1 ? formatNumber(locale, index + 1) : ''}</a></li>)}</ul></div>}
   </div></section>}
   {programContext.length>0&&<section class="event-context"><h2>{t('The wider program story')}</h2><div class="related">{programContext.map(program=><a href={href(locale,`community/programs/${program.id}`)}><h3>{t(program.title)}</h3><p>{t(program.intro)}</p></a>)}</div></section>}
-  <section class:list={['event-context',{'event-detail-gallery':gallery.length>0}]}><h2>{t('Photographs & memories')}</h2>{gallery.length ? <Gallery items={gallery} locale={locale} /> : <div class="event-context-content"><p>{t(hero ? (hero.kind === 'poster' ? 'The historical poster is shown above. If you have a photograph to share or a detail to correct, get in touch with the team.' : 'The featured photograph is shown above. If you have another photograph to share or a detail to correct, get in touch with the team.') : 'No photographs are published with this record. If you have a photograph to share or a detail to correct, get in touch with the team.')} <a href={emailLink(`${t('Memory')}: ${title}`)}>{t('Share a memory')}</a>.</p></div>}</section>
-  {albums.length>0&&<section class="event-context"><h2>{t('Related albums')}</h2><div class="related">{albums.map(({collection,photos,videos})=><a href={href(locale,collectionPath(collection))}><h3>{collection.title[locale]}</h3><p>{collection.description[locale]}</p><p>{photos>0&&<>{formatNumber(locale,photos)} {t('images')}</>}{photos>0&&videos>0&&' · '}{videos>0&&<>{formatNumber(locale,videos)} {t('videos')}</>}</p><span>{t('Browse the full album')} <span aria-hidden="true">↗</span></span></a>)}</div></section>}
+  {(past || gallery.length > 0) && <section class:list={['event-context',{'event-detail-gallery':gallery.length>0}]}><h2>{t('Photographs & memories')}</h2>{gallery.length ? <Gallery items={gallery} locale={locale} /> : <div class="event-context-content"><p>{t(hero ? (hero.kind === 'poster' ? 'The historical poster is shown above. If you have a photograph to share or a detail to correct, get in touch with the team.' : 'The featured photograph is shown above. If you have another photograph to share or a detail to correct, get in touch with the team.') : 'No photographs are published with this record. If you have a photograph to share or a detail to correct, get in touch with the team.')} <a href={emailLink(`${t('Memory')}: ${title}`)}>{t('Share a memory')}</a>.</p></div>}</section>}
+  {albums.length>0&&<section class="event-context"><h2>{t('Related albums')}</h2><div class="related">{albums.map(({collection,photos,videos})=><a href={href(locale,collectionPath(collection))}><h3>{collection.title[locale]}</h3><p>{collection.description[locale]}</p><p>{photos>0&&<>{formatNumber(locale,photos)} {t(photos===1?'image':'images')}</>}{photos>0&&videos>0&&' · '}{videos>0&&<>{formatNumber(locale,videos)} {t(videos===1?'video':'videos')}</>}</p><span>{t('Browse the full album')} <span aria-hidden="true">↗</span></span></a>)}</div></section>}
   {eventVideos.length>0&&<section class="event-context"><h2>{t('Related videos')}</h2><div class="video-grid">{eventVideos.map(item=><Video item={item} locale={locale}/>)}</div></section>}
-  {related.length > 0 && <section class="event-context"><h2>{t('Keep exploring')}</h2><div class="related">{related.map(record => <a href={eventHref(record, locale)} lang={eventLocale(record, locale)}><h3>{eventLocale(record, locale) === 'fa' ? reviewedTranslation(record.id)?.title : record.title}</h3><p><bdi>{formatDate(record, locale)}</bdi> · {t(record.archiveLabel ?? record.eventState)}</p>{locale === 'fa' && eventLocale(record, locale) === 'en' && <span>{t('English record')}</span>}</a>)}</div></section>}
+  {related.length > 0 && <section class="event-context" data-pagefind-ignore><h2>{t('Keep exploring')}</h2><div class="related">{related.map(record => <a href={eventHref(record, locale)} lang={eventLocale(record, locale)}><h3>{eventLocale(record, locale) === 'fa' ? reviewedTranslation(record.id)?.title : record.title}</h3><p><bdi>{formatDate(record, locale)}</bdi> · {t(record.archiveLabel ?? record.eventState)}</p>{locale === 'fa' && eventLocale(record, locale) === 'en' && <span>{t('English record')}</span>}</a>)}</div></section>}
   <p class="event-detail-back"><a href={href(locale,'events/archive')}>{t('Browse all event records')} <span aria-hidden="true">↗</span></a></p>
 </div>
+<script>
+  import '../scripts/event-detail';
+</script>

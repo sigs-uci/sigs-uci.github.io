@@ -117,7 +117,9 @@
   "currentBoardNotice": null,
   "currentSponsors": [],
   "telegramInvite": null,
-  "upcomingEvents": [],
+  "upcomingEvents": [
+    "gol-ya-pooch-2026"
+  ],
   "registration": {
     "status": "registered",
     "termId": "2026-2027",

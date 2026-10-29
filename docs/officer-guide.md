@@ -20,6 +20,8 @@ Add one `EventRecord` in `src/data/events.json` only when its public facts are r
 
 Publication, lifecycle and registration are separate fields. Use `publication: "published"` for a public record. An event may be scheduled while registration is closed. A missing RSVP service is not an open registration form. Use the organization mailbox as the participation route until a real service is configured.
 
+Set `rulesUrl` when the activity has a public rules document. Give the event an approved `heroImage` so its poster appears in the homepage feature and the event URL's sharing metadata. Share the English or Persian event URL; registration and rules links belong on that page.
+
 For a timed occurrence, record start and end with explicit UTC offsets and `timeZone: "America/Los_Angeles"`. Pacific Time changes with daylight saving. Confirm the instants rather than appending PST to every date. For an actual all-day event use `allDay.start` and an exclusive `allDay.end`; do not call a historical date-only record all-day.
 
 Enable `generateCalendarDownload` only for a precise schedule. Set `calendarUpdated` to the real update instant and increment `calendarSequence` when the schedule changes. Calendar downloads are snapshots. They do not promise automatic updates in a subscriber's calendar.
@@ -30,7 +32,9 @@ Historical corrections retain date precision and the archive label. If a room is
 
 ## Update leadership
 
-Edit `src/data/people.json` for stable public names. Roles and Telegram contacts belong to memberships in `src/data/boardTerms.json`. Keep membership IDs in the form `termId:personId`, preserve display order and use the exact approved URL for that term. A repeated person may have a different contact in another term.
+Edit `src/data/people.json` for stable public names, verified public `linkedinUrl` values and approved portrait media IDs. Roles belong to memberships in `src/data/boardTerms.json`. Keep membership IDs in the form `termId:personId` and preserve display order. Existing term-specific Telegram records remain in the data, while the interface links to verified professional profiles. Missing photos use initials; do not guess a profile or identify an unlabeled portrait by appearance alone.
+
+Prepare headshots as local WebP images with location and identifying metadata removed. Check the person, credit and publication permission before importing a media record. Referenced team portraits appear on the homepage and team pages; they stay out of community albums and media counts.
 
 For a new current term, mark the old term `former`, add the approved memberships, update `organization.currentBoardTermId` and synchronize `organization.currentBoard` in `src/data/organization.json`. Each term receives a page automatically; previous term URLs remain available. Do not infer continuous membership dates, biographies or portraits. Run validation before previewing both the current and former term pages.
 
@@ -62,7 +66,7 @@ Current partner recognition needs a confirmed relationship, permitted identity a
 
 Both languages are published. Keep the interface dictionary in `src/i18n/fa.json` in step with new English labels, page descriptions and public-content wording. Prepare translations for review outside the public repository. An English interface string passed to `tr()` without a dictionary entry fails the Persian build with `Missing Persian interface text`. Add the exact English key and its reviewed Persian value. A proper name that retains its Latin spelling needs an explicit identity entry, such as `"Docunight": "Docunight"`. Run tests and the full build: source-message scans alone cannot find every computed label.
 
-Event dates, venue and registration remain in the shared English event record. Team contacts stay in their term memberships. Add reviewed event text to `src/data/eventTranslations.json`, identifying its event, source revision and actual review date. Run `npx tsx scripts/translation-revision.ts EVENT_ID` to get the current English text revision. Record that value only after the reviewer has checked that version. A changed title or summary removes the Persian counterpart until it is reviewed again. Preserve Latin names and contact URLs until an approved Persian spelling exists.
+Event dates, venue and registration remain in the shared English event record. Team roles and historical Telegram contacts stay in term memberships; professional profile links belong to people records. Add reviewed event text to `src/data/eventTranslations.json`, identifying its event, source revision and actual review date. Run `npx tsx scripts/translation-revision.ts EVENT_ID` to get the current English text revision. Record that value only after the reviewer has checked that version. A changed title or summary removes the Persian counterpart until it is reviewed again. Preserve Latin names and contact URLs until an approved Persian spelling exists.
 
 Review new text in both languages, with reciprocal language links and correct `lang="fa" dir="rtl"` markup. Add Persian alternative text and captions when publishing media. Check real paragraphs, half-spaces, mixed Latin text, buttons, search results and Gregorian dates at 320 px. The output check verifies language counterparts and search indexes. Unreviewed copy must not be committed simply because it is excluded from search.
 

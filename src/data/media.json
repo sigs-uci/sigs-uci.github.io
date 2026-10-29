@@ -32154,5 +32154,213 @@
     "credit": "Iranian Students of California and the institutional signatories, including SIGS.",
     "publication": "published",
     "rights": "approved"
+  },
+  {
+    "id": "gol-ya-pooch-2026-poster",
+    "src": "/media/gol-ya-pooch-2026-poster.webp",
+    "thumbnail": "/media/gol-ya-pooch-2026-poster-small.webp",
+    "kind": "poster",
+    "width": 1166,
+    "height": 1349,
+    "eventId": "gol-ya-pooch-2026",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster for the SIGS 3 vs 3 Gol Ya Pooch tournament on November 14, 2026, from 5 to 11 PM.",
+      "fa": "پوستر تورنومنت سه‌به‌سهٔ گل یا پوچ SIGS، ۱۴ نوامبر ۲۰۲۶، از ساعت ۵ عصر تا ۱۱ شب."
+    },
+    "caption": {
+      "en": "SIGS Gol Ya Pooch Tournament, November 14, 2026, at Verano Place Community Center.",
+      "fa": "تورنومنت گل یا پوچ SIGS، ۱۴ نوامبر ۲۰۲۶، در مرکز اجتماعات Verano Place."
+    },
+    "credit": "SIGS",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "kourosh-mirsohi-portrait",
+    "src": "/media/team/kourosh-mirsohi.webp",
+    "kind": "photo",
+    "width": 320,
+    "height": 320,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kourosh Mirsohi",
+      "fa": "پرترهٔ Kourosh Mirsohi"
+    },
+    "caption": {
+      "en": "Kourosh Mirsohi",
+      "fa": "پرترهٔ Kourosh Mirsohi"
+    },
+    "credit": "SIGS team profile.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "shakib-kafashan-portrait",
+    "src": "/media/team/shakib-kafashan.webp",
+    "kind": "photo",
+    "width": 320,
+    "height": 320,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Shakib Kafashan",
+      "fa": "پرترهٔ Shakib Kafashan"
+    },
+    "caption": {
+      "en": "Shakib Kafashan",
+      "fa": "پرترهٔ Shakib Kafashan"
+    },
+    "credit": "SIGS team profile.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iman-mohammadi-portrait",
+    "src": "/media/team/iman-mohammadi.webp",
+    "kind": "photo",
+    "width": 320,
+    "height": 320,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Iman Mohammadi",
+      "fa": "پرترهٔ Iman Mohammadi"
+    },
+    "caption": {
+      "en": "Iman Mohammadi",
+      "fa": "پرترهٔ Iman Mohammadi"
+    },
+    "credit": "Iman Mohammadi.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "kousha-changizi-portrait",
+    "src": "/media/team/kousha-changizi.webp",
+    "kind": "photo",
+    "width": 320,
+    "height": 320,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kousha Changizi",
+      "fa": "پرترهٔ Kousha Changizi"
+    },
+    "caption": {
+      "en": "Kousha Changizi",
+      "fa": "پرترهٔ Kousha Changizi"
+    },
+    "credit": "SIGS team profile.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "amin-hajarian-portrait",
+    "src": "/media/team/amin-hajarian.webp",
+    "kind": "photo",
+    "width": 150,
+    "height": 150,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Amin Hajarian",
+      "fa": "پرترهٔ Amin Hajarian"
+    },
+    "caption": {
+      "en": "Amin Hajarian",
+      "fa": "پرترهٔ Amin Hajarian"
+    },
+    "credit": "UC Irvine Eddleman Quantum Institute.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehdi-zafari-portrait",
+    "src": "/media/team/mehdi-zafari.webp",
+    "kind": "photo",
+    "width": 200,
+    "height": 250,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.35
+    ],
+    "alt": {
+      "en": "Mehdi Zafari",
+      "fa": "پرترهٔ Mehdi Zafari"
+    },
+    "caption": {
+      "en": "Mehdi Zafari",
+      "fa": "پرترهٔ Mehdi Zafari"
+    },
+    "credit": "Wireless History Foundation.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nazanin-dolatkhah-portrait",
+    "src": "/media/team/nazanin-dolatkhah.webp",
+    "kind": "photo",
+    "width": 320,
+    "height": 437,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.3
+    ],
+    "alt": {
+      "en": "Nazanin Dolatkhah",
+      "fa": "پرترهٔ Nazanin Dolatkhah"
+    },
+    "caption": {
+      "en": "Nazanin Dolatkhah",
+      "fa": "پرترهٔ Nazanin Dolatkhah"
+    },
+    "credit": "UC Irvine School of Law.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "shayan-taherijam-portrait",
+    "src": "/media/team/shayan-taherijam.webp",
+    "kind": "photo",
+    "width": 280,
+    "height": 280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Shayan Taherijam",
+      "fa": "پرترهٔ Shayan Taherijam"
+    },
+    "caption": {
+      "en": "Shayan Taherijam",
+      "fa": "پرترهٔ Shayan Taherijam"
+    },
+    "credit": "Shayan Taherijam.",
+    "publication": "published",
+    "rights": "approved"
   }
 ]

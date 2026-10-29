@@ -1,14 +1,14 @@
 ---
 import { events, programs, type ProgramDetail } from '../data';
 import { emailLink, href, type Locale } from '../config/site';
-import { isPublicEvent } from '../lib/events';
+import { isPublicEvent, newestEventsFirst } from '../lib/events';
 import { tr } from '../i18n/ui';
 import { programLinkHref } from '../lib/programs';
 import EventTeaser from './EventTeaser.astro';
 import '../styles/editorial.css';
 const { program, locale = 'en' } = Astro.props as { program: ProgramDetail; locale: Locale };
 const t = (s: string) => tr(locale, s);
-const records = program.relatedEventIds.map(id => events.find(event => event.id === id && isPublicEvent(event))).filter(event => event !== undefined);
+const records = newestEventsFirst(program.relatedEventIds.map(id => events.find(event => event.id === id && isPublicEvent(event))).filter(event => event !== undefined));
 ---
 <div class="wrap page-body">
   <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale,'community')}>{t('Community')}</a><span aria-hidden="true">/</span><span>{t(program.title)}</span></nav>
