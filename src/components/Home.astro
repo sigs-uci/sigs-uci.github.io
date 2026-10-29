@@ -44,7 +44,7 @@ const nextTitle = next && eventLocale(next, locale) === 'fa' ? reviewedTranslati
   <HomeMedia locale={locale} />
 
   <section class="gathering-newcomers" aria-labelledby="newcomer-title"><div class="wrap">
-    <div><h2 id="newcomer-title">{t('New to UCI?')}</h2><p>{t('Find the campus information you need, and get in touch with SIGS.')}</p></div>
+    <div><h2 id="newcomer-title" tabindex="-1">{t('New to UCI?')}</h2><p>{t('Find the campus information you need, and get in touch with SIGS.')}</p></div>
     <nav aria-label={t('New student resources')}><a href={href(locale, 'resources/new-students')}>{t('Your first weeks at UCI')} <span aria-hidden="true">↗</span></a><a href={href(locale, 'resources')}>{t('Campus resources')} <span aria-hidden="true">↗</span></a><a href={href(locale, 'join')}>{t('Ask SIGS a question')} <span aria-hidden="true">↗</span></a></nav>
   </div></section>
 
