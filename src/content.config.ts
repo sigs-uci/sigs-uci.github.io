@@ -26,7 +26,8 @@ const events = defineCollection({
   }),
 });
 
-const people = defineCollection({ loader: file('src/data/people.json'), schema: z.object({ id, name: text, portrait: optionalText, bio: optionalText, linkedinUrl: z.url().nullable().optional() }) });
+const people = defineCollection({ loader: file('src/data/people.json'), schema: z.object({ id, name: text, portrait: optionalText, bio: optionalText,
+  linkedinUrl: z.url().nullable().optional(), major: z.object({ en: text, fa: text }).strict().nullable().optional() }) });
 const boardTerms = defineCollection({ loader: file('src/data/boardTerms.json'), schema: z.object({ id, term: text,
   status: z.enum(['current', 'former']), people: z.array(z.object({ id, personId: text, termId: text, name: text,
     role: text, group: z.enum(['board', 'support', 'advisor']), displayOrder: z.number().int().positive(),
