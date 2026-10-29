@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import logo from '../assets/brand/logo.png';
 import '../styles/global.css';
+import '../styles/shell.css';
 import { site, href, emailLink, type Locale } from '../config/site';
 import { tr } from '../i18n/ui';
 import { availableLocales } from '../lib/publication';
@@ -49,7 +50,7 @@ const otherLabel = counterparts.includes(other) ? (other === 'en' ? 'English' : 
       <div class="header-inner wrap">
         <a class="identity" href={href(locale)} aria-label={t('SIGS home')}>
           <Image src={logo} width={64} height={64} alt="" format="png" widths={[64,128]} sizes="64px" loading="eager" />
-          <span><strong><bdi lang="en">SIGS</bdi></strong><span class="identity-name">{t('Society of Iranian Graduate Students')}<br />{t('at UC Irvine')}</span></span>
+          <span><strong><bdi lang="en">SIGS</bdi></strong><span class="identity-name">{t('Society of Iranian Graduate Students')} {t('at UC Irvine')}</span><span class="identity-campus"><bdi lang="en">UC Irvine</bdi></span></span>
         </a>
         <nav class="desktop-nav" aria-label={t('Main navigation')}>
           {nav.map(([p,label]) => <a href={href(locale,p)} aria-current={path.split('/')[0] === p ? 'page' : undefined}>{t(label)}</a>)}

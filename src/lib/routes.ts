@@ -3,7 +3,7 @@ import { archiveYears } from './archive';
 import { mediaCollections, collectionPath } from './media';
 
 const corePages = [
-  { path: '', title: 'See you at SIGS.', description: 'The Iranian graduate student community at UC Irvine. Find gatherings, meet the team, and get in touch.' },
+  { path: '', title: 'Meet SIGS.', description: 'The Iranian graduate student community at UC Irvine. Find gatherings, meet the team, and get in touch.' },
   { path: 'events', title: 'Events', description: 'Find SIGS gatherings and browse the event archive by year or topic.' },
   { path: 'events/archive', title: 'The event archive', description: 'Cultural celebrations, film, poetry, and community gatherings from the SIGS record.' },
   { path: 'community', title: 'A community beyond the classroom.', description: 'Celebrations, conversations, and connections across the Iranian graduate community at UC Irvine.' },

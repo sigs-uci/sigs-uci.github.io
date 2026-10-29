@@ -1,0 +1,39 @@
+.header-inner{min-height:106px;gap:24px;padding-block:18px}
+.identity img{width:56px;height:56px}
+.identity-name{max-width:195px;font-size:11px;line-height:1.45}
+.identity-campus{display:none;font-size:11px;margin-top:5px;line-height:1.35;color:var(--muted)}
+.language{min-width:44px;justify-content:center}
+.button{border-radius:5px}
+.page-heading h1{font-size:clamp(42px,5.2vw,72px);text-wrap:balance}
+.footer{padding-top:44px}
+.footer-grid{padding-bottom:36px}
+.footer a.footer-brand{font-size:38px}
+.footer .tiny-star{font-size:28px}
+.footer nav{gap:4px}
+.footer nav a{display:inline-flex;align-items:center;min-height:40px}
+.footer-bottom a{display:inline-flex;align-items:center;min-height:36px}
+@media(max-width:1190px){.header-inner{gap:18px}.identity-name{font-size:11px;max-width:175px}.header-tools{gap:10px}}
+@media(max-width:1023px){.header-inner{min-height:92px;padding-block:14px}}
+@media(max-width:767px){
+  .header-inner{min-height:86px;gap:8px}
+  .identity{gap:8px}
+  .identity img{width:48px;height:48px}
+  .identity strong{font-size:23px}
+  .identity-name,html[lang=fa] .identity-name{font-size:11px;line-height:1.35;max-width:144px}
+  .header-tools{gap:6px}
+  .mobile-menu summary{font-size:13px;padding:9px 10px}
+  .mobile-menu summary span{margin-inline-start:5px}
+  .page-heading{padding-block:36px 28px}
+  .page-heading h1{font-size:42px}
+  .footer nav a{min-height:44px}
+  .footer-grid{gap:24px}
+}
+@media(max-width:350px){
+  .identity img{width:44px;height:44px}
+  .identity-name,html[lang=fa] .identity-name{display:none}
+  .identity-campus{display:block}
+  .identity strong{font-size:22px}
+  .header-tools{gap:4px}
+  .mobile-menu summary{padding-inline:8px}
+  .page-heading h1{font-size:38px}
+}

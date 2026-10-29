@@ -1,17 +1,19 @@
 ---
-import {href,type Locale} from '../config/site';
-import {tr} from '../i18n/ui';
-import {publicMedia,publicVideos,mediaCollections,collectionPath} from '../lib/media';
-import Video from './Video.astro';
-import '../styles/media.css';
-const {locale='en'}=Astro.props as {locale:Locale};
-const t=(text:string)=>tr(locale,text);
-const selected=['beach-gatherings','nowruz-celebrations','boat-outing'].map(id=>mediaCollections.find(collection=>collection.id===id)).filter(Boolean);
-const clips=[publicVideos.find(item=>item.src.includes('beach')),publicVideos.find(item=>item.src.includes('community-meals'))].filter((item):item is NonNullable<typeof item>=>Boolean(item));
+import { href, type Locale } from '../config/site';
+import { tr } from '../i18n/ui';
+import { publicMedia, publicVideos, mediaCollections, collectionPath, videoDuration } from '../lib/media';
+const { locale = 'en' } = Astro.props as { locale: Locale };
+const t = (text: string) => tr(locale, text);
+const collection = mediaCollections.find(item => item.id === 'nowruz-celebrations');
+const photo = publicMedia.find(item => item.id === 'nowruz-celebrations-image-026');
+const clip = publicVideos.find(item => item.id === 'community-meals-video-093');
+const albumHref = href(locale, collection ? collectionPath(collection) : 'community/memories');
+const clipHref = `${href(locale, 'community/memories/community-meals')}#${clip?.id ?? ''}`;
 ---
-<section class="home-media-feature" aria-labelledby="community-in-pictures"><div class="wrap">
-  <div class="section-heading"><div><p class="eyebrow">{t('Life in SIGS')}</p><h2 id="community-in-pictures">{t('Celebrations and time together')}</h2><p>{t('Nowruz celebrations, beach bonfires, and a boat outing. Explore the photos and videos from SIGS gatherings.')}</p></div><a class="text-link" href={href(locale,'community/memories')}>{t('Explore every collection')} ↗</a></div>
-  <div class="home-photo-story">{selected.map(collection=>{if(!collection)return null;const photo=publicMedia.find(item=>item.id===collection.coverId);return photo&&<figure><a href={href(locale,collectionPath(collection))}><img src={photo.src} width={photo.width} height={photo.height} alt={photo.alt[locale]} loading="lazy"/></a><figcaption><a href={href(locale,collectionPath(collection))}>{collection.title[locale]} ↗</a></figcaption></figure>;})}</div>
-  <div class="section-heading"><h3>{t('Videos from our gatherings')}</h3><a class="text-link" href={href(locale,'community/videos')}>{t('Watch all seven videos')} ↗</a></div>
-  <div class="video-grid">{clips.map(item=><Video item={item} locale={locale}/>)}</div>
-</div></section>
+<section class="wrap gathering-community" aria-labelledby="community-in-pictures">
+  <div class="gathering-section-heading"><h2 id="community-in-pictures">{t('Dinner, celebrations and days out.')}</h2><a class="text-link" href={href(locale, 'community/memories')}>{t('More from our gatherings')} <span aria-hidden="true">↗</span></a></div>
+  <div class="gathering-community-grid">
+    {photo && <figure class="gathering-album"><a href={albumHref}><img src={photo.thumbnail ?? photo.src} srcset={photo.thumbnail ? `${photo.thumbnail} 720w, ${photo.src} ${photo.width}w` : undefined} sizes="(max-width: 767px) calc(100vw - 40px), 52vw" width={photo.width} height={photo.height} alt={photo.alt[locale]} loading="lazy" /></a><figcaption><h3><a href={albumHref}>{t('Nowruz together')} <span aria-hidden="true">↗</span></a></h3>{photo.credit !== 'Photographer not recorded.' && <span>{t(photo.credit)}</span>}</figcaption></figure>}
+    {clip && <article class="gathering-film"><a class="gathering-film-poster" href={clipHref} aria-label={t('Watch the video: Dinner with SIGS')}><img src={clip.videoPoster} width={clip.width} height={clip.height} alt="" loading="lazy" /><span aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="m9 5 11 7-11 7V5Z" fill="currentColor" /></svg></span></a><div><p class="gathering-film-meta"><bdi dir="ltr">{videoDuration(clip.duration ?? 0, locale)}</bdi><br />{clip.audioContent === 'silent' && t('Silent web version')}</p><h3>{t('Dinner with SIGS')}</h3><a class="text-link" href={clipHref}>{t('Watch the video')} <span aria-hidden="true">↗</span></a>{clip.credit !== 'Videographer not recorded.' && <p class="gathering-media-credit">{t(clip.credit)}</p>}</div></article>}
+  </div>
+</section>
