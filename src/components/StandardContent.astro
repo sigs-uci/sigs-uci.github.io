@@ -3,7 +3,7 @@ import { href, emailLink, site, type Locale } from '../config/site';
 import { tr, formatNumber, formatTerm, formatDay } from '../i18n/ui';
 import { boardTerms, events, milestones, organization, programs, resources, stories, type EventRecord } from '../data';
 import CollectionDirectory from './CollectionDirectory.astro';
-import {mediaCollections} from '../lib/media';
+import {mediaCollections,publicMedia} from '../lib/media';
 import { isPublicEvent } from '../lib/events';
 import { eventHref, eventLocale, isPublicStory, reviewedTranslation } from '../lib/publication';
 import '../styles/editorial.css';
@@ -23,6 +23,7 @@ const contextLabel = (path: string, label: string) => t(path.startsWith('events/
 const communityStories = stories.filter(story => story.locale === locale && isPublicStory(story));
 const currentTeam = boardTerms.find(term => term.id === organization.currentBoardTermId);
 const previousTeam = boardTerms.filter(term => term.status === 'former').sort((a, b) => b.id.localeCompare(a.id))[0];
+const communityPhoto = publicMedia.find(item => item.id === 'boat-outing-image-071');
 const resourceGroups = [
   { id: 'arriving', title: 'Before you arrive', summary: 'Start with the university offices that handle your arrival questions.' },
   { id: 'settling-in', title: 'A place to settle in', summary: 'Read current housing information before making plans.' },
@@ -41,9 +42,9 @@ const contactRoutes = [
 
 <div class="wrap page-body">
   {path === 'community' && <>
-    <section class="feature-type" aria-labelledby="community-together">
-      <div><p class="eyebrow" style="color:var(--gold)">{t('Life in SIGS')}</p><h2 id="community-together">{t('A reason to get together.')}</h2><p>{t('A celebration can fill a room. A poem or a film can start a conversation. SIGS has made space for both, along with the ordinary pleasure of meeting someone new.')}</p><a class="button light" href={href(locale, 'join')}>{t('Find your way in')}</a></div>
-      <div class="persian-display" aria-hidden="true">SIGS</div>
+    <section class="feature-type community-feature" aria-labelledby="community-together">
+      <div><p class="eyebrow" style="color:var(--gold)">{t('Life in SIGS')}</p><h2 id="community-together">{t('A reason to get together.')}</h2><p>{t(organization.description)}</p><a class="button light" href={href(locale, 'join')}>{t('Find your way in')}</a></div>
+      {communityPhoto?<figure><a href={href(locale,'community/memories/boat-outing')}><img src={communityPhoto.src} width={communityPhoto.width} height={communityPhoto.height} alt={communityPhoto.alt[locale]} /></a><figcaption><a href={href(locale,'community/memories/boat-outing')}>{t('Out on the water')} <span aria-hidden="true">↗</span></a></figcaption></figure>:<div class="persian-display" aria-hidden="true">SIGS</div>}
     </section>
     <section class="section" aria-labelledby="community-images"><div class="section-heading"><div><p class="eyebrow">{t('Photo collections')}</p><h2 id="community-images">{t('From the community archive.')}</h2></div><a class="text-link" href={href(locale,'community/memories')}>{t('Explore every collection')} ↗</a></div><CollectionDirectory locale={locale} collections={mediaCollections.slice(0,6)}/><a class="button primary" href={href(locale,'community/videos')}>{t('Watch all seven videos')} ↗</a></section>
     <div class="program-list">{programs.map(program => <section class="program"><p class="eyebrow">{t(program.period)}</p><h2><a href={href(locale, `community/programs/${program.id}`)}>{t(program.name)}</a></h2><p>{t(program.summary)}</p><a class="text-link" href={href(locale, `community/programs/${program.id}`)}>{t('Read the program story')} <span aria-hidden="true">↗</span></a></section>)}</div>
@@ -51,13 +52,11 @@ const contactRoutes = [
   </>}
 
   {(path === 'resources' || path === 'resources/new-students') && <>
+    <nav class="resource-guide-nav" aria-labelledby="resource-guide-heading"><h2 id="resource-guide-heading">{t('In this guide')}</h2><div>{resourceGroups.map(group=><a href={`#${group.id}`}>{t(group.title)} <span aria-hidden="true">↓</span></a>)}<a href="#connect-with-sigs">{t('Connect with SIGS')} <span aria-hidden="true">↓</span></a></div></nav>
     {path === 'resources/new-students' && <section class="prose"><h2>{t('Start with the practical things.')}</h2><p>{t('There is a lot to work out in the first few weeks. Use the official links below for current requirements and services. Bring your everyday campus questions to SIGS when you would like a student connection.')}</p><p>{t('For immigration, health, housing eligibility, or financial requirements, ask the responsible university office. This guide points you to those offices and does not replace their advice.')}</p></section>}
     {path === 'resources' && <section class="prose"><p>{t('These links lead to official campus information. Start with the task you need to complete, then check the responsible office’s current guidance.')}</p><p class="quiet">{formatNumber(locale,resources.length)} {t('official campus resources, grouped by what you need to do.')}</p><a class="text-link" href={href(locale, 'resources/new-students')}>{t('New here? Start with the newcomer guide')} <span aria-hidden="true">↗</span></a></section>}
     {path === 'resources/new-students' && <div class="newcomer-route"><section><p class="eyebrow">{t('Before arrival')}</p><h2>{t('Start with the university.')}</h2><p>{t('Find the official arrival checklists and the office responsible for your questions. Explore housing before planning your move.')}</p><ul><li><a href="#arriving">{t('Arrival and the International Center')}</a></li><li><a href="#housing">{t('Graduate and family housing')}</a></li></ul></section><section><p class="eyebrow">{t('Your first weeks')}</p><h2>{t('Get oriented on campus.')}</h2><p>{t('Find your building, look up transport, and get your campus technology working. Read the current new-student health information.')}</p><ul><li><a href="#campus">{t('Maps, transport, and campus services')}</a></li><li><a href="#student-health">{t('New-student health information')}</a></li><li><a href="#graduate-technology">{t('Campus technology')}</a></li></ul></section><section><p class="eyebrow">{t('As you settle in')}</p><h2>{t('Find people and support.')}</h2><p>{t('Make room for your life outside the department. Explore graduate writing and career support, campus activities, and SIGS.')}</p><ul><li><a href="#connections">{t('Graduate workshops and connections')}</a></li><li><a href="#support">{t('Campus support services')}</a></li><li><a href="#connect-with-sigs">{t('Say hello to SIGS')}</a></li></ul></section></div>}
-    <div class="aside-layout" style="margin-top:40px">
-      <div>{resourceGroups.map(group => <section class="resource-list" id={group.id} aria-labelledby={`${group.id}-heading`}><h2 id={`${group.id}-heading`}>{t(group.title)}</h2><p class="quiet">{t(group.summary)}</p>{resources.filter(resource => resource.category === group.id).map(resource => <article class="resource-item" id={resource.id}><h3><a href={resource.url}>{t(resource.title)} <span aria-hidden="true">↗</span></a></h3><p>{t(resource.description)}</p><small>{t(resource.source)}<br />{t('Link and description checked')}: <time datetime={resource.reviewedOn}>{formatDay(locale,resource.reviewedOn)}</time> · {t(resource.ownerRole)}</small></article>)}</section>)}</div>
-      <aside><nav class="resource-nav callout" aria-label={t('In this guide')}><h2>{t('In this guide')}</h2>{resourceGroups.map(group => <a href={`#${group.id}`}>{t(group.title)}</a>)}<a href="#connect-with-sigs">{t('Connect with SIGS')}</a></nav></aside>
-    </div>
+    <div class="resource-guide-content">{resourceGroups.map(group => <section class="resource-list" id={group.id} aria-labelledby={`${group.id}-heading`}><h2 id={`${group.id}-heading`}>{t(group.title)}</h2><p class="quiet">{t(group.summary)}</p>{resources.filter(resource => resource.category === group.id).map(resource => <article class="resource-item" id={resource.id}><h3><a href={resource.url}>{t(resource.title)} <span aria-hidden="true">↗</span></a></h3><p>{t(resource.description)}</p><small>{t(resource.source)}<br />{t('Link and description checked')}: <time datetime={resource.reviewedOn}>{formatDay(locale,resource.reviewedOn)}</time> · {t(resource.ownerRole)}</small></article>)}<a class="resource-guide-back" href="#resource-guide-heading">{t('Back to guide topics')} <span aria-hidden="true">↑</span></a></section>)}</div>
     <section class="notice" id="connect-with-sigs"><h2>{t('A person to ask.')}</h2><p>{t('You can contact SIGS before attending a gathering. Tell us that you are new to campus and what you would like to know. Each activity may have its own audience and registration requirements.')}</p><a class="button primary" href={emailLink(t('New to UCI and SIGS'))}>{t('Say hello to SIGS')}</a></section>
     <p class="archive-note">{t('This directory is maintained by the SIGS content steward. Review dates cover the linked page and its description, not approval of individual advice. Found a moved link?')} <a href={emailLink(t('SIGS resource correction'))}>{t('Send a correction.')}</a></p>
   </>}
@@ -98,3 +97,25 @@ const contactRoutes = [
   {path === 'languages' && <div class="aside-layout"><article class="prose"><h2>{t('Read SIGS in English or Persian.')}</h2><p>{t('Choose a language in the header. The switch opens the same page in the other language when a translation is available.')}</p><h2>{t('Shared facts, clear dates.')}</h2><p>{t('Both versions use the same event dates, places, and team contacts. Dates are shown in the Gregorian calendar. Recorded times keep their campus or historical context.')}</p><h2>{t('Help us keep the wording accurate.')}</h2><p>{t('If a name, translation, or mixed Persian and English line needs correction, send the page link and your suggestion.')}</p><a class="button primary" href={emailLink(t('SIGS language correction'))}>{t('Suggest a language correction')}</a></article><aside class="callout"><h2>{t('Browse in either language.')}</h2><p>{t('Find the current team, browse past gatherings, or get in touch with SIGS.')}</p><div class="subnav"><a href={href('en')} lang="en" hreflang="en" dir="ltr">English</a><a href={href('fa')} lang="fa" hreflang="fa" dir="rtl">فارسی</a></div></aside></div>}
   {path === 'community' && communityStories.length > 0 && <section class="section" aria-labelledby="community-stories"><div class="section-heading"><h2 id="community-stories">{t('Stories and annual highlights')}</h2></div><div class="program-list">{communityStories.map(story => <article class="program"><p class="eyebrow">{t(story.kind === 'yearbook' ? 'A year in SIGS' : 'Community story')}</p><h3><a href={href(story.locale, `community/stories/${story.slug}`)}>{story.title}</a></h3><p>{story.summary}</p><time datetime={story.publishedOn}>{formatDay(locale,story.publishedOn)}</time></article>)}</div></section>}
 </div>
+
+<style>
+  .community-feature{grid-template-columns:1fr 1.2fr;align-items:center;gap:40px;padding:40px}
+  .community-feature figure{margin:0;min-inline-size:0}
+  .community-feature img{inline-size:100%;block-size:auto;aspect-ratio:4/3;object-fit:contain;border-radius:4px}
+  .community-feature figcaption{font-size:14px;margin-block-start:12px}
+  .community-feature figcaption a{color:white}
+  .resource-guide-nav{border-block:1px solid var(--line);padding-block:20px;margin-block-end:36px;scroll-margin-block-start:28px}
+  .resource-guide-nav h2{font-size:21px;margin-block:0 12px}
+  .resource-guide-nav>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 28px}
+  .resource-guide-nav a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-block-size:48px;border-block-end:1px solid var(--line);color:var(--cobalt);font-size:15px;text-decoration:none}
+  .resource-guide-nav a:hover{text-decoration:underline}
+  .resource-guide-nav a span{flex-shrink:0}
+  .resource-guide-content{margin-block-start:40px;max-inline-size:900px}
+  .resource-guide-content .resource-list{scroll-margin-block-start:28px}
+  .resource-guide-back{display:inline-flex;align-items:center;gap:12px;min-block-size:44px;margin-block-start:16px;color:var(--cobalt);font-size:14px}
+  @media(max-width:767px){
+    .community-feature{grid-template-columns:1fr;padding:28px;gap:28px}
+    .resource-guide-nav>div{grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 18px}
+    .resource-guide-nav a{font-size:14px;min-block-size:52px}
+  }
+</style>

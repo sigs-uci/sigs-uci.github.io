@@ -6,11 +6,13 @@ Astro builds static routes for `https://sigs-uci.github.io`, with no repository-
 
 `src/lib/events.ts` owns the event publication selector, the next event, filters, query strings, date display, search normalization and registration actions. Callers pass a clock for deterministic tests. Date-only archive records retain their uncertainty. A past date does not change an event's occurrence evidence.
 
-`src/lib/archive.ts` groups published historical records into populated years. Those groups generate durable year pages and the homepage archive directory. Program profiles in `src/data/programDetails.json` link canonical event IDs to historical context. Neither view creates extra events or changes their evidence labels.
+`src/lib/archive.ts` groups published historical records into populated years. Those groups generate durable year pages and supply the homepage archive feature. Program profiles in `src/data/programDetails.json` link canonical event IDs to historical context. Neither view creates extra events or changes their evidence labels.
 
 `src/data/media.json` holds photograph, poster and video records. `src/data/mediaCollections.json` assigns every published, approved media record to exactly one collection. `src/lib/media.ts` exposes the `MediaCollection` interface, selects public media, validates collection references and bilingual copy, and supplies collection paths. Each collection gets a page under `/en/community/memories/` and `/fa/community/memories/`. A thematic collection can remain undated. Related archive links provide context; they do not establish the date or event association of an individual image.
 
 Videos use native browser controls with local MP4 files, WebP poster frames and descriptive text in both languages. The seven current videos are full-length silent web editions. The three aerial originals have no audio stream; audio from the four dinner recordings is omitted from their public editions. Original recordings remain in controlled storage. The `transcript` field holds the scene description, including the silent-version explanation where audio was removed.
+
+Album pages put uncropped photo previews before the video section. A poster index selects one native player, with the clip ID in the URL fragment. Browser Back restores that selection and changing clips pauses the hidden player. Without JavaScript, every player remains available. Home links directly to the featured clip in its collection.
 
 `src/lib/calendar.ts` creates calendar snapshots from confirmed instants or genuine all-day ranges. It uses a stable event UID, UTC timed entries, exclusive all-day ends, valid calendar statuses, escaped text and UTF-8 line folding. Historical records do not get invented instants or calendar downloads.
 
@@ -19,6 +21,8 @@ Pagefind indexes the same `dist/` produced by Astro, with separate English and P
 `src/i18n/fa.json` holds reviewed Persian interface text and shared-content descriptions. Event translations in `src/data/eventTranslations.json` refer to the exact English title and summary revision. Stale or missing event translations keep their English destination rather than presenting English copy as Persian. Dates use the Gregorian calendar in both languages; stored dates, identifiers and contact URLs do not change with display formatting.
 
 The UI uses Manrope and Vazirmatn, CSS tokens and small client enhancements. The emblem remains still. Reading and ordinary links work without JavaScript. Event filters, the calendar and gallery reuse the same records as their list/detail views. Media is published only after its rights and public credit are recorded.
+
+`src/styles/shell.css` refines the shared masthead and footer. The photographic homepage uses `home.css`; the event explorer and detail use `events.css` and `event-detail.css`. `media.css` controls collection directories, photo contact sheets and video browsing. Homepage features are selected from approved records in `Home.astro` and `HomeMedia.astro`; the complete libraries remain on their collection and archive pages.
 
 ## Verification
 
