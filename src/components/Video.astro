@@ -17,3 +17,12 @@ const credit=item.credit==='Videographer not recorded.'?undefined:t(item.credit)
   <details class="video-description"><summary>{t('Read the video description')}</summary><p>{item.transcript?.[locale]}</p></details>
   <a class="text-link" href={item.src}>{t('Open the video file')} <span aria-hidden="true">↗</span></a>
 </figure>
+<script>
+  const videos=Array.from(document.querySelectorAll<HTMLVideoElement>('video'));
+  videos.forEach(video=>video.addEventListener('play',()=>videos.forEach(other=>{if(other!==video)other.pause();})));
+  if('IntersectionObserver' in window){
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(!entry.isIntersecting)(entry.target as HTMLVideoElement).pause();}));
+    videos.forEach(video=>observer.observe(video));
+  }
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)videos.forEach(video=>video.pause());});
+</script>

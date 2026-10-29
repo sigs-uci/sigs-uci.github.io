@@ -8,14 +8,21 @@ import '../styles/home-media.css';
 const { locale = 'en' } = Astro.props as { locale: Locale };
 const t = (text: string) => tr(locale, text);
 const selected = [
-  'nowruz-celebrations-image-026', 'community-meals-video-093',
-  'boat-outing-image-071', 'beach-gatherings-video-050',
-  'beach-gatherings-image-083', 'gatherings-and-dance-image-027',
+  'nowruz-2017-photo-017', 'beach-volleyball-2018-recap',
+  'welcome-2023-photo-002', 'yalda-2018-kamyar-performance',
+  'boat-outing-image-071', 'halloween-2018-photo-019',
+  'yalda-2018-photo-015', 'nowruz-2019-photo-016',
+  'nowruz-2019-dance-rehearsal', 'community-meals-video-093',
+  'bonfire-fall-2017-photo-007', 'football-gathering-recap',
+  'iftar-2017-photo-003', 'taco-tuesday-2018-recap',
+  'yalda-2016-photo-011', 'community-meals-video-091',
+  'poetry-night-2019-photo', 'beach-gatherings-video-050',
+  'nowruz-2019-photo-010', 'beach-gatherings-image-083',
+  'community-meals-image-110', 'community-meals-video-092',
   'costume-and-karaoke-image-087', 'watching-football-image-119',
-  'community-meals-image-110', 'community-meals-video-091',
-  'indoor-community-gathering-image-073', 'beach-gatherings-video-051',
-  'group-portraits-image-118', 'community-meals-video-092',
-  'poetry-night-2019-photo', 'beach-gatherings-video-052', 'community-meals-video-094',
+  'beach-gatherings-video-051', 'group-portraits-image-118',
+  'community-meals-video-094', 'beach-gatherings-video-052',
+  'indoor-community-gathering-image-073',
 ];
 const moments = selected.flatMap(id => {
   const item = publicMedia.find(record => record.id === id);

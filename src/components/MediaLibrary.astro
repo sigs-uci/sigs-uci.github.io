@@ -1,7 +1,7 @@
 ---
 import {href,emailLink,type Locale} from '../config/site';
 import {tr,formatNumber} from '../i18n/ui';
-import {publicVideos,publicMedia,mediaCollections} from '../lib/media';
+import {publicVideos,publicMedia,mediaCollections,collectionItems,collectionPath} from '../lib/media';
 import Gallery from './Gallery.astro';
 import Video from './Video.astro';
 import CollectionDirectory from './CollectionDirectory.astro';
@@ -9,12 +9,11 @@ import '../styles/media.css';
 const {locale='en',videosOnly=false}=Astro.props as {locale:Locale;videosOnly?:boolean};
 const t=(text:string)=>tr(locale,text);
 const historical=publicMedia.filter(item=>['poetry-night-2019-photo','tales-2016-poster','yalda-2025-flyer'].includes(item.id));
-const aerialVideos=publicVideos.filter(item=>item.width>=item.height);
-const tableVideos=publicVideos.filter(item=>item.width<item.height);
+const videoCollections=mediaCollections.map(collection=>({collection,videos:collectionItems(collection).filter(item=>item.kind==='video')})).filter(group=>group.videos.length>0);
 ---
 <div class="wrap page-body">
   <nav class="media-subnav subnav" aria-label={t('Community media')}><a href={href(locale,'community/memories')} aria-current={!videosOnly?'page':undefined}>{t('Photo collections')}</a><a href={href(locale,'community/videos')} aria-current={videosOnly?'page':undefined}>{t('Videos')}</a><a href={href(locale,'events/archive')}>{t('Event archive')}</a></nav>
-  {videosOnly?<><p class="prose">{t('Revisit a beach bonfire and dinner with SIGS in seven short videos. These web versions are silent; each has a written visual description.')}</p><section aria-labelledby="coast-videos"><h2 id="coast-videos">{t('The beach, from above.')}</h2><div class="video-grid landscape-videos">{aerialVideos.map(item=><Video item={item} locale={locale}/>)}</div></section><section aria-labelledby="table-videos"><h2 id="table-videos">{t('Around the dinner table.')}</h2><div class="video-grid portrait-videos">{tableVideos.map(item=><Video item={item} locale={locale}/>)}</div></section></>:<>
+  {videosOnly?<><h2>{t('Short films from our gatherings.')}</h2><p class="prose">{t('Celebrations, outings and evenings together, with written descriptions in English and Persian.')}</p><nav class="subnav" aria-label={t('Choose a video')}>{videoCollections.map(({collection})=><a href={`#videos-${collection.id}`}>{collection.title[locale]}</a>)}</nav>{videoCollections.map(({collection,videos})=><section class="section" id={`videos-${collection.id}`} aria-labelledby={`heading-${collection.id}`}><div class="section-heading"><h2 id={`heading-${collection.id}`}>{collection.title[locale]}</h2><a href={href(locale,collectionPath(collection))}>{t('Browse the full album')} <span aria-hidden="true">↗</span></a></div><p class="prose">{collection.description[locale]}</p><div class="video-grid">{videos.map(item=><Video item={item} locale={locale}/>)}</div></section>)}</>:<>
     <section class="media-opening"><div><p class="eyebrow">{t('Our photo and video archive')}</p><h2>{t('Life in SIGS, in photos and videos')}</h2><p>{t('Explore Nowruz celebrations, a poetry night, and outings by the water through our photos and videos.')}</p><p class="media-total">{formatNumber(locale,publicMedia.filter(item=>item.kind!=='video').length)} {t('images')} · {formatNumber(locale,publicVideos.length)} {t('videos')} · {formatNumber(locale,mediaCollections.length)} {t('collections')}</p></div><a class="button primary" href={href(locale,'community/videos')}>{t('Watch the videos')} ↗</a></section>
     <nav class="video-strip" aria-label={t('Choose a video')}>{publicVideos.map(item=><a href={`${href(locale,'community/videos')}#${item.id}`}><span class="video-thumb"><img src={item.videoPoster} width={item.width} height={item.height} alt="" loading="lazy"/><span aria-hidden="true">▶</span></span><span>{item.caption[locale]}</span></a>)}</nav>
     <section class="section" aria-labelledby="photo-collections"><div class="section-heading"><h2 id="photo-collections">{t('Photo collections')}</h2></div><CollectionDirectory locale={locale}/></section>

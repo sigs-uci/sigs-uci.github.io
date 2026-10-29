@@ -1,5 +1,616 @@
 [
   {
+    "id": "nowruz-2012",
+    "slug": "nowruz-2012",
+    "title": "Nowruz 1391 / 2012",
+    "locale": "en",
+    "date": {
+      "value": "2012-03-19",
+      "precision": "day",
+      "contextYear": 2012
+    },
+    "timeDisplay": "7 to 11:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Pacific Ballroom D, UCI Student Center",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited friends to celebrate Nowruz together at Pacific Ballroom D. The invitation planned dinner and a gathering for the New Year.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "barbecue-2012",
+    "slug": "barbecue-2012",
+    "title": "SIGS Summer Barbecue 2012",
+    "locale": "en",
+    "date": {
+      "value": "2012-06-22",
+      "precision": "day",
+      "contextYear": 2012
+    },
+    "timeDisplay": "6:30 PM to midnight",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde Clubhouse, UC Irvine",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised an end-of-quarter barbecue at Palo Verde. The invitation included games and an announced guest appearance by Ahmadreza Abedzadeh.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "art-exhibition-2012",
+    "slug": "art-exhibition-2012",
+    "title": "SIGS Art Exhibition 2012",
+    "locale": "en",
+    "date": {
+      "value": "2012-09-14",
+      "precision": "day",
+      "contextYear": 2012
+    },
+    "timeDisplay": "6 to 10 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a free exhibition of student artwork and photography at Palo Verde. The invitation introduced paintings and photographs by members of the local Iranian community.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "art-exhibition-2012-poster"
+    ],
+    "heroImage": "art-exhibition-2012-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free"
+  },
+  {
+    "id": "orientation-2012",
+    "slug": "orientation-2012",
+    "title": "SIGS at International Graduate Orientation 2012",
+    "locale": "en",
+    "date": {
+      "value": "2012-09-20",
+      "precision": "day",
+      "contextYear": 2012
+    },
+    "timeDisplay": null,
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "UCI Student Center",
+    "category": "newcomers",
+    "sigsRole": "participant",
+    "summary": "SIGS joined International Graduate Students Orientation at the UCI Student Center. A same-day welcome invited new Iranian students to find the team there.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "ebrahim-nabavi-2013",
+    "slug": "ebrahim-nabavi-2013",
+    "title": "Ebrahim Nabavi: Why? Really Why?",
+    "locale": "en",
+    "date": {
+      "value": "2013-05-03",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "8 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Moss Cove AB, UCI Student Center",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited Ebrahim Nabavi to UC Irvine for the final stop of his US tour. The advertised comedy show, Why? Really Why?, was planned for Moss Cove AB.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "saadat-abad-2013",
+    "slug": "saadat-abad-2013",
+    "title": "Saadat Abad: Screening with Maziar Miri",
+    "locale": "en",
+    "date": {
+      "value": "2013-05-31",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "7 to 9:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Emerald Bay A, UCI Student Center",
+    "category": "film-poetry",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised Saadat Abad and a Q&A with director Maziar Miri. The free public screening at Emerald Bay A was co-sponsored by the Jordan Center.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "hassan-kassai-2013",
+    "slug": "hassan-kassai-2013",
+    "title": "Hassan Kassai Memorial: Ney and Setar",
+    "locale": "en",
+    "date": {
+      "value": "2013-06-14",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "7 to 9:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "SSPA1100, UC Irvine",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a memorial for ney master Hassan Kassai, co-sponsored by the Jordan Center. The free public invitation featured Hossein Omoumi, Kourosh Taghavi, Faramarz Amiri and Mehrdad Naghibian.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "hassan-kassai-2013-poster"
+    ],
+    "heroImage": "hassan-kassai-2013-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "rumi-2013-06-16",
+    "slug": "rumi-2013-06-16",
+    "title": "Rumi and Shams, June 2013",
+    "locale": "en",
+    "date": {
+      "value": "2013-06-16",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "4 to 6:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde Clubhouse, UC Irvine",
+    "category": "film-poetry",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a free session on Rumi's Masnavi and the ghazals of Shams with Dr. Khazali. This Palo Verde meeting was described as the third session of the monthly series.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "rumi-2013-06-16-poster"
+    ],
+    "heroImage": "rumi-2013-06-16-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "rumi-2013-07-14",
+    "slug": "rumi-2013-07-14",
+    "title": "Rumi and Shams, July 2013",
+    "locale": "en",
+    "date": {
+      "value": "2013-07-14",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "4 to 6:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Newport Beach A, UCI Student Center",
+    "category": "film-poetry",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a monthly Persian literature session with Dr. Khazali at Newport Beach A. Rumi's Masnavi and the ghazals of Shams were the focus, with references to Hafez and Saadi.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "rumi-2013-07-14-poster"
+    ],
+    "heroImage": "rumi-2013-07-14-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "rumi-2013-08-18",
+    "slug": "rumi-2013-08-18",
+    "title": "Rumi and Shams, August 2013",
+    "locale": "en",
+    "date": {
+      "value": "2013-08-18",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "4 to 6:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Woods Cove B, room C108, UCI Student Center",
+    "category": "film-poetry",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited the public to its monthly Rumi and Shams session with Dr. Khazali. The August invitation named Woods Cove B at the Student Center.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "rumi-2013-08-18-poster"
+    ],
+    "heroImage": "rumi-2013-08-18-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "summer-gathering-2013",
+    "slug": "summer-gathering-2013",
+    "title": "SIGS Summer Gathering 2013",
+    "locale": "en",
+    "date": {
+      "value": "2013-08-24",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "8 PM to midnight",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a summer gathering at Palo Verde with dinner and music by DJ Taha. Students and other guests were invited to spend the evening together.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "rumi-2013-09-15",
+    "slug": "rumi-2013-09-15",
+    "title": "Rumi and Shams, September 2013",
+    "locale": "en",
+    "date": {
+      "value": "2013-09-15",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "4 to 6:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Woods Cove B, room C108, UCI Student Center",
+    "category": "film-poetry",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a September meeting of the monthly Rumi and Shams series. Dr. Khazali's free public session was planned for Woods Cove B.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "rumi-2013-09-15-poster"
+    ],
+    "heroImage": "rumi-2013-09-15-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "rumi-2013-10-20",
+    "slug": "rumi-2013-10-20",
+    "title": "Rumi and Shams, October 2013",
+    "locale": "en",
+    "date": {
+      "value": "2013-10-20",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "4 to 6:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Balboa Island B, room G476, UCI Student Center",
+    "category": "film-poetry",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised an October session on Rumi's Masnavi and the ghazals of Shams. Dr. Khazali's free public meeting was planned for Balboa Island B.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "rumi-2013-10-20-poster"
+    ],
+    "heroImage": "rumi-2013-10-20-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "parissa-2013",
+    "slug": "parissa-2013",
+    "title": "Parissa and Hamnavazan Ensemble",
+    "locale": "en",
+    "date": {
+      "value": "2013-11-17",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "6:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Social Science Lecture Hall, UC Irvine",
+    "category": "culture",
+    "sigsRole": "co-organizer",
+    "summary": "Nava Entertainment and SIGS advertised Parissa and Hamnavazan Ensemble in Orange County. The concert invitation named the Social Science Lecture Hall at UC Irvine.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "hush-2014",
+    "slug": "hush-2014",
+    "title": "Hush! Girls Don't Scream: Screening and Q&A",
+    "locale": "en",
+    "date": {
+      "value": "2014-02-06",
+      "precision": "day",
+      "contextYear": 2014
+    },
+    "timeDisplay": "7 to 10 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "SSL228, Social Science Lab, UC Irvine",
+    "category": "film-poetry",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a free public screening of Hush! Girls Don't Scream. The invitation included a Q&A with the film's director and producer, Pouran Derakhshandeh.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "hush-2014-poster"
+    ],
+    "heroImage": "hush-2014-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "nowruz-2014",
+    "slug": "nowruz-2014",
+    "title": "Nowruz 1393 / 2014",
+    "locale": "en",
+    "date": {
+      "value": "2014-03-21",
+      "precision": "day",
+      "contextYear": 2014
+    },
+    "timeDisplay": "6:30 to 11 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Doheny Beach A134, UCI Student Center",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised Nowruz at Doheny Beach in the UCI Student Center. Sibarg Ensemble, Persian dinner and DJ Taraneh were part of the announced program.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "iftar-2015",
+    "slug": "iftar-2015",
+    "title": "Iftar and Dinner 2015",
+    "locale": "en",
+    "date": {
+      "value": "2015-07-10",
+      "precision": "day",
+      "contextYear": 2015
+    },
+    "timeDisplay": "7:30 to 11:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited friends to Iftar and a potluck dinner at Palo Verde. The invitation encouraged the community to help with the shared meal.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
     "id": "yalda-2015",
     "slug": "yalda-2015",
     "title": "Yalda Party 2015",
@@ -16,7 +627,7 @@
     "venue": "7000 Palo Verde Road, Irvine",
     "category": "culture",
     "sigsRole": "co-organizer",
-    "summary": "SIGS and the Persian Language & Culture Club presented a Yalda celebration. The program advertised Hafez recitation, ensemble music, Persian dinner and DJ Sepand.",
+    "summary": "SIGS and the Persian Language & Culture Club held a Yalda celebration at Palo Verde. The invitation paired Hafez recitation and ensemble music with Persian dinner and DJ Sepand.",
     "occurrenceEvidence": "occurrence_corroborated",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -45,14 +656,14 @@
       "precision": "day",
       "contextYear": 2016
     },
-    "timeDisplay": "6 PM to midnight",
+    "timeDisplay": "6 PM on the poster; 6:30 PM in the event listing",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Pacific Ballroom C, UC Irvine",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS hosted a Nowruz celebration at Pacific Ballroom C. An organizer account reported the gathering afterward.",
+    "summary": "SIGS celebrated Nowruz 1395 at UC Irvine. The invitation planned a New Year countdown, traditional music, Persian dinner and DJ Sepand.",
     "occurrenceEvidence": "occurrence_reported",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -70,6 +681,44 @@
     "publicSourceLinks": [],
     "generateCalendarDownload": false,
     "generateEventStructuredData": false
+  },
+  {
+    "id": "super-sohrab-2016",
+    "slug": "super-sohrab-2016",
+    "title": "Super Sohrab: Artist Talk",
+    "locale": "en",
+    "date": {
+      "value": "2016-03-30",
+      "precision": "day",
+      "contextYear": 2016
+    },
+    "timeDisplay": "Reception 6:30 PM; talk 7:30 to 9 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "HG1030, Humanities Gateway, UC Irvine",
+    "category": "culture",
+    "sigsRole": "co-sponsor",
+    "summary": "The Jordan Center advertised an artist talk with Sohrab Kashani about his work and Sazmanab in Tehran. SIGS and the Visual Studies PhD Program co-sponsored the evening.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "super-sohrab-2016-poster"
+    ],
+    "heroImage": "super-sohrab-2016-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
   },
   {
     "id": "tales-2016",
@@ -90,7 +739,7 @@
     "audience": "Advertised as open to the public",
     "category": "film-poetry",
     "sigsRole": "co-sponsor",
-    "summary": "The announcement offered a free public screening of Tales and a Q&A with the screenwriter. SIGS and the Visual Studies PhD Program were named as co-sponsors.",
+    "summary": "The Jordan Center advertised a free screening of Tales and a Q&A with screenwriter Farid Mostafavi. SIGS and the Visual Studies PhD Program co-sponsored the evening in Humanities Gateway.",
     "occurrenceEvidence": "announced",
     "archiveLabel": "Archived announcement",
     "publication": "published",
@@ -126,15 +775,72 @@
     "venue": "Pacific Ballroom D, UCI Student Center",
     "category": "culture",
     "sigsRole": "co-organizer",
-    "summary": "SIGS and Iranian-American Students of WesternU announced Yalda at the Student Center, with Hafez recitation, cultural panels, traditional music, dinner and DJ music.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "summary": "SIGS and Iranian-American Students of WesternU held Yalda at the UCI Student Center. The invitation featured Hafez recitation, Barbad, Persian dinner and DJ Babak.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "yalda-2016-photo-007",
+      "yalda-2016-photo-015",
+      "yalda-2016-photo-013",
+      "yalda-2016-photo-003",
+      "yalda-2016-photo-012",
+      "yalda-2016-photo-001",
+      "yalda-2016-photo-009",
+      "gatherings-and-dance-image-017",
+      "yalda-2016-photo-023",
+      "yalda-2016-photo-031",
+      "yalda-2016-photo-039",
+      "yalda-2016-photo-047"
+    ],
+    "heroImage": "yalda-2016-photo-011",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "bonfire-fall-2017",
+    "slug": "bonfire-fall-2017",
+    "title": "Corona del Mar Bonfire, Fall 2017",
+    "locale": "en",
+    "date": {
+      "value": null,
+      "precision": "year_context",
+      "contextYear": 2017
+    },
+    "timeDisplay": null,
+    "timeZone": null,
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Corona del Mar State Beach",
+    "category": "community",
+    "sigsRole": "community_archive",
+    "summary": "A fall bonfire at Corona del Mar is part of the SIGS community archive. The exact event day has not been recorded.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "bonfire-fall-2017-photo-001",
+      "bonfire-fall-2017-photo-002",
+      "bonfire-fall-2017-photo-004",
+      "bonfire-fall-2017-photo-005",
+      "bonfire-fall-2017-photo-006",
+      "bonfire-fall-2017-photo-007",
+      "bonfire-fall-2017-photo-008",
+      "bonfire-fall-2017-photo-009",
+      "bonfire-fall-2017-photo-010"
+    ],
+    "heroImage": "bonfire-fall-2017-photo-003",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -160,17 +866,29 @@
     "venue": "UCI Student Center",
     "category": "culture",
     "sigsRole": "co-organizer",
-    "summary": "SIGS and the Cal State Long Beach Persian Student Association advertised Nowruz with Sibarg Musical Ensemble, Persian dinner and DJ Taraneh.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "summary": "SIGS and the Cal State Long Beach Persian Student Association celebrated Nowruz 1396 at the UCI Student Center. The invitation featured Sibarg Ensemble, Ebrahim Nabavi, Persian dinner and DJ Taraneh.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "nowruz-celebrations-image-016"
+      "nowruz-celebrations-image-016",
+      "nowruz-2017-photo-025",
+      "nowruz-2017-photo-031",
+      "nowruz-2017-photo-020",
+      "nowruz-2017-photo-066",
+      "nowruz-2017-photo-024",
+      "nowruz-2017-photo-001",
+      "gatherings-and-dance-image-011",
+      "nowruz-2017-photo-007",
+      "nowruz-2017-photo-015",
+      "nowruz-2017-photo-023",
+      "nowruz-2017-photo-039",
+      "nowruz-2017-photo-047"
     ],
-    "heroImage": "nowruz-celebrations-image-016",
+    "heroImage": "nowruz-2017-photo-017",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -189,14 +907,61 @@
       "precision": "day",
       "contextYear": 2017
     },
-    "timeDisplay": null,
+    "timeDisplay": "7:30 to 11 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "7000 Palo Verde Road, Irvine",
     "category": "community",
     "sigsRole": "organizer_named_in_title",
-    "summary": "A SIGS Iftar gathering was announced for June 18 at Palo Verde.",
+    "summary": "SIGS brought the community together for Iftar and dinner at Palo Verde. The invitation welcomed contributions to the shared meal.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "iftar-2017-photo-007",
+      "iftar-2017-photo-001",
+      "iftar-2017-photo-002",
+      "iftar-2017-photo-004",
+      "iftar-2017-photo-005",
+      "iftar-2017-photo-006",
+      "iftar-2017-photo-008",
+      "iftar-2017-photo-009",
+      "iftar-2017-photo-010",
+      "iftar-2017-photo-011",
+      "iftar-2017-photo-012",
+      "iftar-2017-photo-013"
+    ],
+    "heroImage": "iftar-2017-photo-003",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "game-night-11-2017",
+    "slug": "game-night-11-2017",
+    "title": "Game Night 11",
+    "locale": "en",
+    "date": {
+      "value": "2017-08-12",
+      "precision": "day",
+      "contextYear": 2017
+    },
+    "timeDisplay": "From 7:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde Lounge, UC Irvine",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a potluck game night at Palo Verde. The invitation included Hokm, Shelem, chess, backgammon and Mafia.",
     "occurrenceEvidence": "announced",
     "archiveLabel": "Archived announcement",
     "publication": "published",
@@ -223,14 +988,48 @@
       "precision": "day",
       "contextYear": 2017
     },
-    "timeDisplay": null,
+    "timeDisplay": "7:30 to 10:30 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Verano Place BBQ, UC Irvine",
     "category": "newcomers",
     "sigsRole": "organizer_indexed",
-    "summary": "A welcome gathering for new students was advertised at Verano Place BBQ.",
+    "summary": "SIGS invited new and returning students to Verano Place BBQ. The evening was planned as a chance to meet each other and learn how to take part in SIGS activities.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "halloween-2017",
+    "slug": "halloween-2017",
+    "title": "SIGS October Party 2017",
+    "locale": "en",
+    "date": {
+      "value": "2017-10-28",
+      "precision": "day",
+      "contextYear": 2017
+    },
+    "timeDisplay": "From 8:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde, UC Irvine",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised an October party at Palo Verde with food, drinks and dancing. The invitation was for guests aged 21 and over.",
     "occurrenceEvidence": "announced",
     "archiveLabel": "Archived announcement",
     "publication": "published",
@@ -261,10 +1060,10 @@
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": "Pacific Ballroom D, UCI Student Center",
+    "venue": "UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS announced a Yalda celebration in Pacific Ballroom D at the UCI Student Center.",
+    "summary": "SIGS advertised Yalda at the UCI Student Center with Hafez recitation and music by Barbad. The announced program also included Persian dance and DJ Aaraa with DJ Raavi.",
     "occurrenceEvidence": "announced",
     "archiveLabel": "Archived announcement",
     "publication": "published",
@@ -297,10 +1096,10 @@
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": "Pacific Ballroom C, UCI Student Center",
+    "venue": "UC Irvine",
     "category": "culture",
     "sigsRole": "co-organizer",
-    "summary": "SIGS and Iranian-American Students of WesternU presented Nowruz. The advertised program included traditional music, Persian dance, dinner and DJ Sepand.",
+    "summary": "SIGS and Iranian-American Students of WesternU presented Nowruz 1397 at UC Irvine. The advertised evening included traditional music, Persian dance, dinner and DJ Sepand.",
     "occurrenceEvidence": "institutional_retrospective",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -322,6 +1121,150 @@
     "generateEventStructuredData": false
   },
   {
+    "id": "game-hookah-night-2018",
+    "slug": "game-hookah-night-2018",
+    "title": "SIGS Game and Hookah Night",
+    "locale": "en",
+    "date": {
+      "value": "2018-05-04",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "timeDisplay": "From 8 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "IVY Lounge and Grill, Tustin",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a spring game night at IVY Lounge and Grill in Tustin. The invitation asked people to bring their favorite games and invite friends.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "game-hookah-night-2018-poster"
+    ],
+    "heroImage": "game-hookah-night-2018-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "iftar-2018",
+    "slug": "iftar-2018",
+    "title": "Iftar at UCI 2018",
+    "locale": "en",
+    "date": {
+      "value": "2018-06-08",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "timeDisplay": "7:45 to 9:45 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised Iftar and dinner at Palo Verde. Friends were welcome to contribute dishes to the shared table.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "iftar-2018-poster"
+    ],
+    "heroImage": "iftar-2018-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "beach-volleyball-2018",
+    "slug": "beach-volleyball-2018",
+    "title": "Summer Beach Gathering and Volleyball 2018",
+    "locale": "en",
+    "date": {
+      "value": "2018-07-07",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "timeDisplay": "4 to 8 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Newland Picnic Area A, Huntington Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS started its summer activities with a Huntington Beach gathering and a two-player volleyball tournament. The later recap thanked the players and everyone who joined the beach event.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "beach-volleyball-2018-recap"
+    ],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "taco-tuesday-2018",
+    "slug": "taco-tuesday-2018",
+    "title": "SIGS Taco Tuesday 2018",
+    "locale": "en",
+    "date": {
+      "value": "2018-07-31",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "timeDisplay": "8 PM to 2 AM the following day",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "American Junkie, Newport Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS met for Taco Tuesday at American Junkie in Newport Beach. A later video recap thanked the community and the venue for the evening.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "taco-tuesday-2018-recap"
+    ],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
     "id": "innovation-forum-2018",
     "slug": "innovation-forum-2018",
     "title": "Iranian American Innovation Forum",
@@ -338,7 +1281,7 @@
     "venue": "UCI Student Center",
     "category": "professional",
     "sigsRole": "co-sponsor",
-    "summary": "SIGS co-sponsored the Iranian American Innovation Forum alongside IACP and SUTA. The forum focused on technological, business and social innovation.",
+    "summary": "SIGS co-sponsored the Iranian American Innovation Forum alongside IACP and SUTA. The day at the UCI Student Center connected discussion of technology, business and social innovation with community organizations and students.",
     "occurrenceEvidence": "institutional_retrospective",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -358,6 +1301,124 @@
     "generateEventStructuredData": false
   },
   {
+    "id": "bonfire-2018-10-20",
+    "slug": "bonfire-2018-10-20",
+    "title": "Beach Bonfire, October 20, 2018",
+    "locale": "en",
+    "date": {
+      "value": "2018-10-20",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "timeDisplay": "6 to 10 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Corona del Mar State Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS moved its beach bonfire from October 13 to October 20. The revised invitation planned an evening at Corona del Mar with friends, food and games.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "rescheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "bonfire-2018-10-20-original-invitation",
+      "bonfire-2018-10-20-revised-invitation"
+    ],
+    "heroImage": "bonfire-2018-10-20-revised-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "halloween-2018",
+    "slug": "halloween-2018",
+    "title": "Halloween at Hotel Irvine 2018",
+    "locale": "en",
+    "date": {
+      "value": "2018-10-27",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "timeDisplay": "9 PM to 1:30 AM the following day",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Hotel Irvine",
+    "category": "community",
+    "sigsRole": "co-organizer",
+    "summary": "SIGS and ISU celebrated Halloween at Hotel Irvine. The advertised night included a costume contest and DJs Aaraa, Babak and Raavi.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "halloween-2018-photo-022",
+      "halloween-2018-photo-002",
+      "halloween-2018-photo-001",
+      "halloween-2018-photo-017",
+      "halloween-2018-photo-033",
+      "halloween-2018-photo-049",
+      "halloween-2018-photo-065",
+      "halloween-2018-photo-081",
+      "halloween-2018-photo-097",
+      "halloween-2018-photo-113",
+      "halloween-2018-photo-129",
+      "halloween-2018-photo-145"
+    ],
+    "heroImage": "halloween-2018-photo-019",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "mehmooni-2018",
+    "slug": "mehmooni-2018",
+    "title": "Mehmooni with UCLA and ISU 2018",
+    "locale": "en",
+    "date": {
+      "value": "2018-11-10",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "timeDisplay": "9 PM to 2 AM the following day",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Los Angeles",
+    "category": "community",
+    "sigsRole": "co-organizer",
+    "summary": "SIGS joined the Iranian Student Group at UCLA and ISU at UCI for Mehmooni in Los Angeles. A later community recap thanked everyone who came.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
     "id": "yalda-2018",
     "slug": "yalda-2018",
     "title": "Yalda Night 2018 with Kamyar",
@@ -367,14 +1428,14 @@
       "precision": "day",
       "contextYear": 2018
     },
-    "timeDisplay": null,
+    "timeDisplay": "Check-in 8:15 PM; program 9 PM to midnight",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "A SIGS Yalda gathering advertised Hafez poetry, traditional music, Kamyar, DJ Sepand and DJ Aaraa. The gathering is supported by later documentation.",
+    "summary": "SIGS celebrated Yalda at the UCI Student Center. The invitation featured Kamyar, Hafez recitation, traditional music and an after-party with DJ Sepand and DJ Aaraa.",
     "occurrenceEvidence": "occurrence_corroborated",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -383,9 +1444,22 @@
     "registrationUrl": null,
     "gallery": [
       "yalda-celebrations-image-042",
-      "yalda-celebrations-image-043"
+      "yalda-celebrations-image-043",
+      "yalda-2018-photo-003",
+      "yalda-2018-photo-013",
+      "yalda-2018-photo-019",
+      "yalda-2018-photo-077",
+      "yalda-2018-photo-114",
+      "yalda-2018-photo-030",
+      "yalda-2018-photo-001",
+      "gatherings-and-dance-image-045",
+      "yalda-2018-photo-025",
+      "yalda-2018-photo-050",
+      "yalda-2018-photo-075",
+      "yalda-2018-photo-100",
+      "yalda-2018-kamyar-performance"
     ],
-    "heroImage": "yalda-celebrations-image-042",
+    "heroImage": "yalda-2018-photo-015",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -404,14 +1478,14 @@
       "precision": "day",
       "contextYear": 2019
     },
-    "timeDisplay": null,
+    "timeDisplay": "8 to 11 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": null,
+    "venue": "Palo Verde, UC Irvine",
     "category": "film-poetry",
     "sigsRole": "organizer_named_in_title",
-    "summary": "A gathering centered on Persian poetry and time together. The date is preserved in the archive; the venue and advertised time have not been recovered.",
+    "summary": "SIGS held Persian Poetry Night at Palo Verde. The free public invitation welcomed anyone who wanted to share poetry or perform music.",
     "occurrenceEvidence": "occurrence_corroborated",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -422,6 +1496,44 @@
       "poetry-night-2019-photo"
     ],
     "heroImage": "poetry-night-2019-photo",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "persian-breakfast-2019",
+    "slug": "persian-breakfast-2019",
+    "title": "SIGS Persian Breakfast and General Meeting",
+    "locale": "en",
+    "date": {
+      "value": "2019-03-09",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "10 AM to 1 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Saturday Persian breakfast at Palo Verde. Friends and family were invited to share breakfast and hot tea at the general meeting.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "persian-breakfast-2019-poster"
+    ],
+    "heroImage": "persian-breakfast-2019-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -440,14 +1552,14 @@
       "precision": "day",
       "contextYear": 2019
     },
-    "timeDisplay": "Doors 7 PM",
+    "timeDisplay": "Doors 7 PM; advertised show 7:45 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": "Pacific Ballroom, UCI Student Center",
+    "venue": "Pacific Ballrooms C and D, UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS presented a Nowruz gathering at the Student Center. The program advertised K-Von, Rassam Ensemble, Persian dance, DJ Mohsen, DJ Julius and dinner.",
+    "summary": "SIGS celebrated Nowruz 1398 at the UCI Student Center. The advertised program brought together K-von, Rassam Ensemble, Persian dance, dinner and an after-party with DJ Mohsen and DJ Julius.",
     "occurrenceEvidence": "occurrence_corroborated",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -456,9 +1568,202 @@
     "registrationUrl": null,
     "gallery": [
       "nowruz-celebrations-image-047",
-      "nowruz-celebrations-image-048"
+      "nowruz-celebrations-image-048",
+      "nowruz-2019-photo-016",
+      "nowruz-2019-photo-015",
+      "nowruz-2019-photo-005",
+      "nowruz-2019-photo-006",
+      "nowruz-2019-photo-003",
+      "nowruz-2019-photo-001",
+      "nowruz-2019-photo-025",
+      "nowruz-2019-photo-049",
+      "nowruz-2019-photo-073",
+      "nowruz-2019-photo-097",
+      "nowruz-2019-photo-121",
+      "nowruz-2019-photo-145",
+      "nowruz-2019-dance-rehearsal"
     ],
-    "heroImage": "nowruz-celebrations-image-047",
+    "heroImage": "nowruz-2019-photo-010",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "iftar-2019",
+    "slug": "iftar-2019",
+    "title": "Iftar at UCI 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-05-14",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "8 to 10 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room, upstairs",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited friends to Iftar and dinner at Palo Verde. The invitation welcomed contributions to the meal and specified the upstairs community room.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "iftar-2019-poster"
+    ],
+    "heroImage": "iftar-2019-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "career-panel-2019",
+    "slug": "career-panel-2019",
+    "title": "Iranian American Alumni Career Panel",
+    "locale": "en",
+    "date": {
+      "value": "2019-06-27",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "6 to 7:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Newkirk Alumni Center",
+    "category": "professional",
+    "sigsRole": "partner",
+    "summary": "The Iranian American Alumni Chapter and SIGS invited students and alumni to a career panel at Newkirk Alumni Center. The advertised discussion covered the automotive industry, law and biotechnology.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised for students and alumni"
+  },
+  {
+    "id": "bonfire-2019",
+    "slug": "bonfire-2019",
+    "title": "SIGS Bonfire 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-10-12",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "4 to 9 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Corona del Mar State Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Saturday bonfire at Corona del Mar. The invitation welcomed students to share food and bring beach games.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "bonfire-2019-poster"
+    ],
+    "heroImage": "bonfire-2019-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "halloween-2019",
+    "slug": "halloween-2019",
+    "title": "Halloween at Hotel Irvine 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-10-26",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "8 PM to 1:30 AM the following day",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Hotel Irvine",
+    "category": "community",
+    "sigsRole": "collaborator",
+    "summary": "SIGS and ISU invited students to Halloween at Hotel Irvine. Shemroon Entertainment and Orange County Persian Community produced the advertised DJ night.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "halloween-2019-poster"
+    ],
+    "heroImage": "halloween-2019-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "sibarg-marrow-2019",
+    "slug": "sibarg-marrow-2019",
+    "title": "Sibarg Ensemble and The Marrow",
+    "locale": "en",
+    "date": {
+      "value": "2019-11-03",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "Doors 6 PM; concert 7 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Back Bay Bistro, Newport Beach",
+    "category": "culture",
+    "sigsRole": "co-sponsor",
+    "summary": "SIGS and the Jordan Center co-sponsored Sibarg Ensemble and The Marrow at Back Bay Bistro. The invitation advertised an evening concert overlooking Newport Beach's waterfront.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "sibarg-marrow-2019-poster"
+    ],
+    "heroImage": "sibarg-marrow-2019-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -484,7 +1789,7 @@
     "venue": "Pacific Ballroom CD, UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "A Yalda gathering at Pacific Ballroom CD. The advertised program featured Sandy and his band, games, karaoke and a DJ after-party.",
+    "summary": "SIGS celebrated Yalda at the UCI Student Center. The invitation advertised Sandy and his band, games, karaoke and a DJ after-party; the later recap thanked everyone who came.",
     "occurrenceEvidence": "occurrence_corroborated",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -496,6 +1801,182 @@
       "yalda-celebrations-image-049"
     ],
     "heroImage": "yalda-celebrations-image-046",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "nowruz-2020",
+    "slug": "nowruz-2020",
+    "title": "Nowruz 1399 / 2020, cancelled",
+    "locale": "en",
+    "date": {
+      "value": "2020-03-20",
+      "precision": "day",
+      "contextYear": 2020
+    },
+    "timeDisplay": "Doors 7 PM; advertised show 7:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "UCI Student Center",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Nowruz celebration at the UCI Student Center, then marked the event as cancelled. The planned music, dance and dinner are preserved as an announcement.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "cancelled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "yalda-2020",
+    "slug": "yalda-2020",
+    "title": "Virtual Yalda Night 2020",
+    "locale": "en",
+    "date": {
+      "value": "2020-12-20",
+      "precision": "day",
+      "contextYear": 2020
+    },
+    "timeDisplay": "7 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Online (Zoom)",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a free online Yalda celebration with poetry and musical performances. The program included an announced recorded message from Maz Jobrani.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [],
+    "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "tea-talks-2021",
+    "slug": "tea-talks-2021",
+    "title": "Tea Talks: The Relationship with Your Mind",
+    "locale": "en",
+    "date": {
+      "value": "2021-03-03",
+      "precision": "day",
+      "contextYear": 2021
+    },
+    "timeDisplay": "6:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "community",
+    "sigsRole": "partner",
+    "summary": "SIGS and the Iranian American Alumni Chapter invited the community to Tea Talks about mindfulness. The invitation included discussion and activities to help participants meet each other.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "tea-talks-2021-poster"
+    ],
+    "heroImage": "tea-talks-2021-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "stress-management-2021",
+    "slug": "stress-management-2021",
+    "title": "Stress Management in Covid and Post-Covid Eras",
+    "locale": "en",
+    "date": {
+      "value": "2021-03-07",
+      "precision": "day",
+      "contextYear": 2021
+    },
+    "timeDisplay": "10 AM to noon",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS announced a discussion of stress management during and after the pandemic. The advertised session was scheduled for a Sunday morning.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "stress-management-2021-poster"
+    ],
+    "heroImage": "stress-management-2021-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "game-night-2021-03-10",
+    "slug": "game-night-2021-03-10",
+    "title": "Online Mafia Game Night",
+    "locale": "en",
+    "date": {
+      "value": "2021-03-10",
+      "precision": "day",
+      "contextYear": 2021
+    },
+    "timeDisplay": "7 to 10 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Online (Zoom)",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Mafia game night on Zoom. Friends were welcome to join the online session.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "game-night-2021-03-10-poster"
+    ],
+    "heroImage": "game-night-2021-03-10-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -521,15 +2002,633 @@
     "venue": "Online",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS advertised an online Nowruz concert featuring Milad Derakhshani. The announcement listed 7 to 8 PM California time; an exact timestamp is not established.",
+    "summary": "SIGS advertised its first virtual Nowruz celebration with Milad Derakhshani. The free YouTube concert was scheduled for March 20, from 7 to 8 PM California time, as part of the ISC Nowruz festival.",
     "occurrenceEvidence": "announced_with_platform_recap",
     "archiveLabel": "Archived announcement",
     "publication": "published",
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-2021-poster"
+    ],
+    "heroImage": "nowruz-2021-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "spring-bonfire-2021",
+    "slug": "spring-bonfire-2021",
+    "title": "Spring Bonfire 2021",
+    "locale": "en",
+    "date": {
+      "value": "2021-05-08",
+      "precision": "day",
+      "contextYear": 2021
+    },
+    "timeDisplay": "6 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Corona del Mar State Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited the community to a spring bonfire at Corona del Mar. Music, s'mores and hot dogs were planned for the evening.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "spring-bonfire-2021-poster"
+    ],
+    "heroImage": "spring-bonfire-2021-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "bonfire-2021-10-08",
+    "slug": "bonfire-2021-10-08",
+    "title": "SIGS Fall Bonfire 2021",
+    "locale": "en",
+    "date": {
+      "value": "2021-10-08",
+      "precision": "day",
+      "contextYear": 2021
+    },
+    "timeDisplay": "From 5 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Corona del Mar State Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Friday evening bonfire at Corona del Mar. The invitation welcomed students back to time together at the beach.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "bonfire-2021-10-08-poster"
+    ],
+    "heroImage": "bonfire-2021-10-08-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "mehmooni-2021",
+    "slug": "mehmooni-2021",
+    "title": "SIGS and ISU Mehmooni 2021",
+    "locale": "en",
+    "date": {
+      "value": "2021-11-10",
+      "precision": "day",
+      "contextYear": 2021
+    },
+    "timeDisplay": "9 PM to 2 AM the following day",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Club Bleu, Westminster",
+    "category": "community",
+    "sigsRole": "co-organizer",
+    "summary": "SIGS and ISU advertised Mehmooni at Club Bleu in Westminster. DJ Sepand was named in the invitation for the night before Veterans Day.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "mehmooni-2021-poster"
+    ],
+    "heroImage": "mehmooni-2021-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "game-night-2021-12-12",
+    "slug": "game-night-2021-12-12",
+    "title": "SIGS Game Night, December 2021",
+    "locale": "en",
+    "date": {
+      "value": "2021-12-12",
+      "precision": "day",
+      "contextYear": 2021
+    },
+    "timeDisplay": null,
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde Clubhouse, UC Irvine",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited UCI friends to a game night at Palo Verde Clubhouse. The December gathering was advertised as a start to the new season of games.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "game-night-2021-12-12-poster"
+    ],
+    "heroImage": "game-night-2021-12-12-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "yalda-2021",
+    "slug": "yalda-2021",
+    "title": "Yalda Night 2021",
+    "locale": "en",
+    "date": {
+      "value": "2021-12-18",
+      "precision": "day",
+      "contextYear": 2021
+    },
+    "timeDisplay": "7 to 11 PM; entry closes 8 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited UCI students and alumni to celebrate Yalda together. The invitation planned refreshments and an evening from 7 to 11 PM, with entry closing at 8 PM.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "yalda-2021-poster"
+    ],
+    "heroImage": "yalda-2021-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "solidarity-2022-09-27",
+    "slug": "solidarity-2022-09-27",
+    "title": "Campus Solidarity Gathering, September 2022",
+    "locale": "en",
+    "date": {
+      "value": "2022-09-27",
+      "precision": "day_context_year",
+      "contextYear": 2022
+    },
+    "timeDisplay": "7 to 8 PM",
+    "timeZone": null,
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Humanities Gateway Courtyard, UC Irvine",
+    "category": "community",
+    "sigsRole": "partner",
+    "summary": "SIGS and the Jordan Center shared a solidarity invitation for the Humanities Gateway Courtyard. The advertised gathering was scheduled for Tuesday evening.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "solidarity-2022-09-27-poster"
+    ],
+    "heroImage": "solidarity-2022-09-27-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "solidarity-rally-2022-11-30",
+    "slug": "solidarity-rally-2022-11-30",
+    "title": "Campus Solidarity Rally, November 2022",
+    "locale": "en",
+    "date": {
+      "value": "2022-11-30",
+      "precision": "day_context_year",
+      "contextYear": 2022
+    },
+    "timeDisplay": "4 PM",
+    "timeZone": null,
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Flagpoles, UCI Student Center",
+    "category": "community",
+    "sigsRole": "shared_invitation",
+    "summary": "SIGS shared an invitation to a campus rally in solidarity with people in Iran. The poster advertised November 30 at the Student Center flagpoles.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "solidarity-rally-2022-11-30-poster"
+    ],
+    "heroImage": "solidarity-rally-2022-11-30-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "game-night-2022",
+    "slug": "game-night-2022",
+    "title": "SIGS Game Night 2022",
+    "locale": "en",
+    "date": {
+      "value": "2022-12-04",
+      "precision": "day_context_year",
+      "contextYear": 2022
+    },
+    "timeDisplay": "6 to 9 PM",
+    "timeZone": null,
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Sunday game night at Palo Verde. Everyone was invited to bring a favorite board game.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "game-night-2022-poster"
+    ],
+    "heroImage": "game-night-2022-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "student-solidarity-2022-12-07",
+    "slug": "student-solidarity-2022-12-07",
+    "title": "Students for Students Solidarity Action",
+    "locale": "en",
+    "date": {
+      "value": "2022-12-07",
+      "precision": "day",
+      "contextYear": 2022
+    },
+    "timeDisplay": "4 PM; approximately 30 minutes advertised",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Humanities Gateway Bridge, UC Irvine",
+    "category": "community",
+    "sigsRole": "shared_invitation",
+    "summary": "UCI students formed a human chain at Humanities Gateway Bridge in solidarity with students in Iran. SIGS shared the invitation and a later account of the action.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "student-solidarity-2022-12-07-poster"
+    ],
+    "heroImage": "student-solidarity-2022-12-07-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "yalda-2022",
+    "slug": "yalda-2022",
+    "title": "Yalda Night 2022",
+    "locale": "en",
+    "date": {
+      "value": "2022-12-21",
+      "precision": "day_context_year",
+      "contextYear": 2022
+    },
+    "timeDisplay": "6:30 to 9 PM",
+    "timeZone": null,
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Yalda gathering at Palo Verde. The December invitation announced that the event was sold out.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "yalda-2022-poster"
+    ],
+    "heroImage": "yalda-2022-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "bonfire-2023-02-04",
+    "slug": "bonfire-2023-02-04",
+    "title": "SIGS Winter Bonfire 2023",
+    "locale": "en",
+    "date": {
+      "value": "2023-02-04",
+      "precision": "day",
+      "contextYear": 2023
+    },
+    "timeDisplay": "1 to 4 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Corona del Mar State Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited friends to an afternoon bonfire at Corona del Mar. The invitation suggested bringing games, blankets and marshmallows for the beach.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "bonfire-2023-02-04-poster"
+    ],
+    "heroImage": "bonfire-2023-02-04-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "nowruz-2023",
+    "slug": "nowruz-2023",
+    "title": "Nowruz Night 2023",
+    "locale": "en",
+    "date": {
+      "value": "2023-03-20",
+      "precision": "day",
+      "contextYear": 2023
+    },
+    "timeDisplay": "7 to 10 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde Clubhouse, UC Irvine",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Nowruz evening at Palo Verde. The invitation welcomed friends to celebrate together, with light refreshments and food to share.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "nowruz-2023-poster"
+    ],
+    "heroImage": "nowruz-2023-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "nowruz-cruise-2023",
+    "slug": "nowruz-cruise-2023",
+    "title": "Nowruz Whale-Watching Party 2023",
+    "locale": "en",
+    "date": {
+      "value": "2023-03-27",
+      "precision": "day_context_year",
+      "contextYear": 2023
+    },
+    "timeDisplay": "4:30 to 8 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Nowruz party aboard a whale-watching boat, with DJ Farzad. A March announcement marked the event sold out.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "nowruz-cruise-2023-poster"
+    ],
+    "heroImage": "nowruz-cruise-2023-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "persian-tech-network-2023",
+    "slug": "persian-tech-network-2023",
+    "title": "Persian Tech Network with ISC and SIGS",
+    "locale": "en",
+    "date": {
+      "value": "2023-05-09",
+      "precision": "day",
+      "contextYear": 2023
+    },
+    "timeDisplay": "5:30 to 8 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Plug and Play HQ, Sunnyvale and online",
+    "category": "professional",
+    "sigsRole": "collaborator",
+    "summary": "SIGS and Iranian Students of California invited the community to Persian Tech Network. The advertised event combined an in-person gathering at Plug and Play HQ with an online broadcast.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "persian-tech-network-2023-poster"
+    ],
+    "heroImage": "persian-tech-network-2023-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "welcome-2023",
+    "slug": "welcome-2023",
+    "title": "Newcomer Welcome with ISC 2023",
+    "locale": "en",
+    "date": {
+      "value": "2023-09-23",
+      "precision": "day",
+      "contextYear": 2023
+    },
+    "timeDisplay": "6 to 9 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde Community Center",
+    "category": "newcomers",
+    "sigsRole": "partner",
+    "summary": "SIGS welcomed new students to Palo Verde for information, Q&A and dinner. Iranian Students of California supported the gathering through its NewComers program.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "welcome-2023-photo-001",
+      "indoor-community-gathering-image-073",
+      "welcome-2023-photo-003",
+      "welcome-2023-photo-004",
+      "welcome-2023-poster"
+    ],
+    "heroImage": "welcome-2023-photo-002",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "bonfire-2023-10-06",
+    "slug": "bonfire-2023-10-06",
+    "title": "SIGS Fall Bonfire 2023",
+    "locale": "en",
+    "date": {
+      "value": "2023-10-06",
+      "precision": "day",
+      "contextYear": 2023
+    },
+    "timeDisplay": "5 to 9 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Corona del Mar State Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a fall bonfire at Corona del Mar. The invitation continued the tradition of starting the year with an evening at the beach.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "bonfire-2023-10-06-poster"
+    ],
+    "heroImage": "bonfire-2023-10-06-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "halloween-2023",
+    "slug": "halloween-2023",
+    "title": "SIGS Halloween Night 2023",
+    "locale": "en",
+    "date": {
+      "value": "2023-10-29",
+      "precision": "day",
+      "contextYear": 2023
+    },
+    "timeDisplay": "6:30 to 10 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised a Halloween costume gathering at Palo Verde. The invitation planned an evening together from 6:30 to 10 PM.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "halloween-2023-poster"
+    ],
+    "heroImage": "halloween-2023-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -548,14 +2647,14 @@
       "precision": "day",
       "contextYear": 2023
     },
-    "timeDisplay": "Doors 6:30 PM; invitation end 11:30 PM",
+    "timeDisplay": "Check-in 6 PM; program 6:30 to 11:30 PM; entry closes 7 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Pacific Ballroom CD, UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS announced Yalda with DJ music, appetizers, games and prizes, traditional music and dance. This record preserves the December 2023 announcement.",
+    "summary": "SIGS advertised Yalda at Pacific Ballroom CD with dance, music and an after-party. The invitation named Ila Dance, Amir and DJ Julius, with appetizers and soft drinks included.",
     "occurrenceEvidence": "announced_with_platform_recap",
     "archiveLabel": "Archived announcement",
     "publication": "published",
@@ -564,6 +2663,78 @@
     "registrationUrl": null,
     "gallery": [],
     "heroImage": null,
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "crystal-cove-hike-2024",
+    "slug": "crystal-cove-hike-2024",
+    "title": "Crystal Cove Hike 2024",
+    "locale": "en",
+    "date": {
+      "value": "2024-02-24",
+      "precision": "day_context_year",
+      "contextYear": 2024
+    },
+    "timeDisplay": "10 AM to noon",
+    "timeZone": null,
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Crystal Cove State Park, Ridge Park Road meet-up",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited the community to a Saturday morning hike at Crystal Cove State Park. The meet-up point was Ridge Park Road in Newport Beach.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "crystal-cove-hike-2024-poster"
+    ],
+    "heroImage": "crystal-cove-hike-2024-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "movie-night-2024",
+    "slug": "movie-night-2024",
+    "title": "SIGS Movie Night and Party 2024",
+    "locale": "en",
+    "date": {
+      "value": "2024-03-02",
+      "precision": "day",
+      "contextYear": 2024
+    },
+    "timeDisplay": "6 to 11 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "The Lounge 107, Verano Place Community Center",
+    "category": "film-poetry",
+    "sigsRole": "organizer",
+    "summary": "SIGS advertised an evening of films and music at Verano Place. Snacks and pizza were included in the movie-night invitation.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "movie-night-2024-poster"
+    ],
+    "heroImage": "movie-night-2024-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -618,14 +2789,14 @@
       "precision": "day_context_year",
       "contextYear": 2025
     },
-    "timeDisplay": "6 PM",
+    "timeDisplay": "6 to 11 PM",
     "timeZone": null,
     "startInstant": null,
     "endInstant": null,
     "venue": "Verano Community Center, Multipurpose Room",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "The announcement described a Yalda gathering with Persian music, classical poetry, dinner and pomegranates at Verano Community Center. The year is supported by surrounding historical context.",
+    "summary": "SIGS invited the community to Yalda at Verano Community Center. The advertised December 21 evening paired Persian music and classical poetry with dinner and pomegranates, from 6 to 11 PM.",
     "occurrenceEvidence": "announced",
     "archiveLabel": "Archived announcement",
     "publication": "published",

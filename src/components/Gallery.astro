@@ -15,13 +15,13 @@ const t=(s:string)=>tr(locale,s);
     const language=event?eventLocale(event,locale):undefined;
     const caption=item.caption[locale]??item.caption.en??'';
     const credit=item.credit==='Photographer not recorded.'?undefined:t(item.credit);
-    const showCaption=photoCaptions||item.kind==='poster'||Boolean(event);
+    const showCaption=photoCaptions||item.kind==='poster';
     return <figure id={`image-${item.id}`} data-media-kind={item.kind??'photo'}>
       <a href={item.src} data-gallery-item data-caption={[caption,credit].filter(Boolean).join(' ')}><img src={item.thumbnail??item.src} width={item.width} height={item.height} alt={item.alt[locale]??item.alt.en??''} lang={item.alt[locale]?locale:'en'} loading="lazy" style={`object-position:${item.focalPoint[0]*100}% ${item.focalPoint[1]*100}%`} /></a>
       {(showCaption||credit)&&<figcaption>
         {showCaption&&<span lang={item.caption[locale]?locale:'en'}>{caption}</span>}
         {credit&&<small class="media-credit" dir="auto">{credit}</small>}
-        {event&&<p><a href={eventHref(event,locale)} hreflang={language}>{t('View event')}: <span lang={language}>{language==='fa'?reviewedTranslation(event.id)?.title:event.title}</span></a>{locale==='fa'&&language==='en'&&<span> ({t('English record')})</span>}</p>}
+        {event&&showCaption&&<p><a href={eventHref(event,locale)} hreflang={language}>{t('View event')}: <span lang={language}>{language==='fa'?reviewedTranslation(event.id)?.title:event.title}</span></a>{locale==='fa'&&language==='en'&&<span> ({t('English record')})</span>}</p>}
       </figcaption>}
     </figure>;
   })}</div>

@@ -1,0 +1,12 @@
+---
+import {href,type Locale} from '../config/site';
+import {formatNumber,tr} from '../i18n/ui';
+import {albumPagePath,type MediaCollection} from '../lib/media';
+const {collection,page,total,locale}=Astro.props as {collection:MediaCollection;page:number;total:number;locale:Locale};
+const t=(text:string)=>tr(locale,text);
+---
+{total>1&&<nav class="album-pagination" aria-label={t('Album pages')} data-pagefind-ignore>
+  {page>1?<a class="album-page-step" rel="prev" href={`${href(locale,albumPagePath(collection,page-1))}#photographs`}>{t('Previous page')}</a>:<span class="album-page-step" aria-disabled="true">{t('Previous page')}</span>}
+  <ol>{Array.from({length:total},(_,index)=>index+1).map(number=><li>{number===page?<span aria-current="page" aria-label={`${t('Page')} ${formatNumber(locale,number)}`}>{formatNumber(locale,number)}</span>:<a href={`${href(locale,albumPagePath(collection,number))}#photographs`} aria-label={`${t('Page')} ${formatNumber(locale,number)}`}>{formatNumber(locale,number)}</a>}</li>)}</ol>
+  {page<total?<a class="album-page-step" rel="next" href={`${href(locale,albumPagePath(collection,page+1))}#photographs`}>{t('Next page')}</a>:<span class="album-page-step" aria-disabled="true">{t('Next page')}</span>}
+</nav>}

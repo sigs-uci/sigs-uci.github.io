@@ -4,7 +4,7 @@ const root=document.querySelector<HTMLElement>('[data-events]');
 if(root){
   const form=root.querySelector<HTMLFormElement>('form')!;
   const rows=Array.from(root.querySelectorAll<HTMLElement>('[data-event-row]'));
-  const models=rows.map(element=>{const data=element.dataset;return {element,id:data.id!,title:data.title!,summary:`${data.summary??''} ${data.categoryLabel??''}`,venue:data.venue||null,
+  const models=rows.map(element=>{const data=element.dataset;return {element,id:data.id!,title:data.title!,summary:`${data.summary??''} ${data.categoryLabel??''}`,venue:data.venue||null,searchText:data.searchText??'',
     category:data.category as EventSearchRecord['category'],eventState:data.state as EventSearchRecord['eventState'],publication:'published' as const,
     editorial:{en:'edited' as const,fa:'not_translated' as const},date:{value:data.date||null,precision:'day' as const,contextYear:data.year?Number(data.year):null},
     startInstant:data.start||null,endInstant:data.end||null,timeZone:data.timeZone||null,allDay:data.allDayStart?{start:data.allDayStart,end:data.allDayEnd!}:null};});

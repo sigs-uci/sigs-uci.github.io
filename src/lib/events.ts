@@ -9,7 +9,7 @@ export interface EventFilters {
 
 export const campusTimeZone = 'America/Los_Angeles';
 export type EventSchedule = Pick<EventRecord, 'date' | 'startInstant' | 'allDay'> & Partial<Pick<EventRecord, 'timeZone' | 'endInstant'>>;
-export type EventSearchRecord = Pick<EventRecord, 'id' | 'title' | 'summary' | 'venue' | 'category' | 'publication' | 'editorial' | 'eventState'> & EventSchedule;
+export type EventSearchRecord = Pick<EventRecord, 'id' | 'title' | 'summary' | 'venue' | 'category' | 'publication' | 'editorial' | 'eventState'> & EventSchedule & {searchText?: string};
 
 export function isPublicEvent(event: Pick<EventRecord, 'publication' | 'editorial'> & { synthetic?: boolean }): boolean {
   return event.publication === 'published' && ['edited', 'reviewed'].includes(event.editorial.en)
@@ -123,6 +123,7 @@ export function filterEvents<T extends EventSearchRecord>(records: readonly T[],
   const filterText = (value: string) => normalizeSearch(value).replace(/[۰-۹٠-٩]/g, digit =>
     String(digit.charCodeAt(0) - (digit >= '۰' && digit <= '۹' ? 0x6f0 : 0x660)));
   const query = filterText(filters.query);
+  const terms = query.split(' ').filter(Boolean);
   return records.filter((event) => {
     if (!isPublicEvent(event)) return false;
     if (filters.year && !String(effectiveDay(event) ?? event.date.contextYear ?? '').startsWith(filters.year)) return false;
@@ -130,7 +131,8 @@ export function filterEvents<T extends EventSearchRecord>(records: readonly T[],
     if (filters.period === 'upcoming' && (!event.startInstant && !event.allDay
       || hasEnded(event, now) || !['scheduled', 'rescheduled'].includes(event.eventState))) return false;
     if (filters.period === 'past' && !hasEnded(event, now)) return false;
-    return !query || filterText([event.title, event.summary, event.venue, event.category].filter(Boolean).join(' ')).includes(query);
+    const text = filterText([event.title, event.summary, event.venue, event.category, event.searchText, effectiveDay(event), event.date.contextYear, event.eventState].filter(Boolean).join(' '));
+    return terms.every(term => text.includes(term));
   });
 }
 

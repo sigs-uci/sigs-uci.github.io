@@ -1,16 +1,16 @@
 # Published content and next additions
 
-The site includes 20 historical event records, retaining nine documented gatherings and eleven archived announcements. The current team has eight members for 2026-2027; the previous team has ten for 2025-2026. Team contacts belong to each term.
+The site includes 78 historical event records: 20 documented gatherings and 58 archived announcements, including one cancelled event and one rescheduled event. The archive covers 2012 through 2026, retaining incomplete dates and distinct SIGS roles. The current team has eight members for 2026-2027; the previous team has ten for 2025-2026. Team contacts belong to each term.
 
 The organization contact is `sigs@uci.edu`. Current registration for 2026-2027 is user-confirmed. It does not establish tax status, university endorsement or permission to use university branding.
 
-The media library contains 117 approved images and seven full-length videos across 12 collections. This includes the three earlier archive images alongside 114 further images and all seven videos approved for publication. The film-and-poetry collection keeps the Persian Poetry Night 2019 photograph and Tales 2016 poster; the Yalda 2025 flyer is in the Yalda collection and its QR remains historical.
+The media library contains 1,208 images and 12 videos across 23 collections. Event albums cover Yalda 2016 and 2018, Nowruz 2017 and 2019, Iftar 2017, a fall beach gathering, Halloween 2017 and 2018, and newcomer orientation in 2023. Other collections cover community meals, outings, football, film and poetry. Forty-one further historical posters illustrate 40 event pages. Large albums have 36 images per page, and every image remains available in its full view.
 
-All public videos are silent web editions with native controls, poster frames and English and Persian scene descriptions. Audio from the four original dinner recordings is not published. The three aerial originals have no audio stream. Unconfirmed event names, dates and individual event associations remain unset; thematic grouping does not change the historical event counts or occurrence labels.
+Twelve public videos have native controls, poster frames and English and Persian scene descriptions. The five new silent editions show a Nowruz dance rehearsal, a football gathering, beach volleyball, Taco Tuesday and Kamyar at Yalda 2018. The seven earlier videos remain available. All published files are silent; the scene descriptions do not claim to transcribe speech. Rehearsal footage is labeled as rehearsal, and upload dates do not become recording dates. Unconfirmed event names, dates and individual event associations remain unset; thematic grouping does not change historical event counts or occurrence labels.
 
 Each public media record belongs to one collection. Both language versions have collection pages, descriptions and media captions. Known visible credits are retained and unknown credits are labeled honestly. More precise dates, event names and credits can be added when confirmed. The current publication permission covers the included media; those optional details are not pending permission decisions. An empty upcoming list has working archive and contact routes.
 
-English and Persian versions cover the website, all 20 event records, six program profiles, 18 campus resources and both team terms. The language switch keeps the corresponding page. Event translations follow the exact reviewed English title and summary; a later source change requires another translation review. Public names and term-specific contact URLs retain their approved spelling.
+English and Persian versions cover the website, all 78 event records, six program profiles, 18 campus resources and both team terms. The language switch keeps the corresponding page, including album page numbers and event filters. Event translations follow the exact reviewed English title and summary; a later source change requires another translation review. Public names and term-specific contact URLs retain their approved spelling.
 
 Before adding further public content, confirm:
 

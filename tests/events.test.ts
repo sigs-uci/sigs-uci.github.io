@@ -26,10 +26,10 @@ test('future sorting compares instants rather than offset strings', () => {
 test('date-only filtering uses the campus day and keeps announcements past', () => {
   assert.equal(campusDay(new Date('2026-10-23T03:00:00Z')), '2026-10-22');
   assert.equal(filterEvents(events, { period: 'upcoming' }, testClock).length, 0);
-  assert.equal(filterEvents(events, { period: 'past' }, testClock).length, 20);
+  assert.equal(filterEvents(events, { period: 'past' }, testClock).length, events.length);
   assert.equal(filterEvents(events, { year: '2019', category: 'film-poetry' }, testClock)[0]?.id, 'poetry-night-2019');
   assert.equal(filterEvents(events, { query: 'no matching event phrase' }, testClock).length, 0);
-  assert.equal(filterEvents(events, {}, testClock).length, 20);
+  assert.equal(filterEvents(events, {}, testClock).length, events.length);
 });
 
 test('query state survives a URL round trip and unknown periods reset', () => {
@@ -49,9 +49,22 @@ test('event filters find the same records with Western, Persian and Arabic-Indic
     const translation = eventTranslations.find(record => record.eventId === event.id)!;
     return { ...event, title: translation.title, summary: translation.summary };
   });
-  for (const query of ['2025', '۲۰۲۵', '٢٠٢٥']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id), ['yalda-2025']);
-  for (const query of ['HG1030', 'HG۱۰۳۰', 'HG١٠٣٠']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id), ['tales-2016']);
+  for (const query of ['2025', '۲۰۲۵', '٢٠٢٥']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id).sort(), ['networking-2025','yalda-2025']);
+  for (const query of ['HG1030', 'HG۱۰۳۰', 'HG١٠٣٠']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id).sort(), ['super-sohrab-2016','tales-2016']);
   assert.equal(normalizeSearch('۲۰۲۵'), '۲۰۲۵');
+});
+
+test('event search combines title words with dates and lifecycle without requiring a phrase',()=>{
+  for(const query of ['Nowruz 2020','2020 Nowruz','Nowruz ۲۰۲۰','2020 cancelled'])assert.deepEqual(filterEvents(events,{query},testClock).map(event=>event.id),['nowruz-2020']);
+  const localized=events.map(event=>{
+    const translation=eventTranslations.find(record=>record.eventId===event.id)!;
+    return {...event,title:translation.title,summary:translation.summary,searchText:`${event.title} ${event.summary} ${translation.title} ${translation.summary}`};
+  });
+  assert.deepEqual(filterEvents(localized,{query:'نوروز ٢٠٢٠'},testClock).map(event=>event.id),['nowruz-2020']);
+  assert.deepEqual(filterEvents(localized,{query:'Nowruz 2020'},testClock).map(event=>event.id),['nowruz-2020']);
+  const english=events.map(event=>({...event,searchText:eventTranslations.find(record=>record.eventId===event.id)?.title}));
+  assert.deepEqual(filterEvents(english,{query:'نوروز 2020'},testClock).map(event=>event.id),['nowruz-2020']);
+  assert.deepEqual(filterEvents(events,{query:'Nowruz nonexistentword'},testClock),[]);
 });
 
 test('date labels retain the Gregorian calendar and date-only day', () => {

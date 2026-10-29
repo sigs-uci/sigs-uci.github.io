@@ -8,6 +8,43 @@
     "precision": "year_context"
   },
   {
+    "id": "campus-2012",
+    "year": 2012,
+    "title": "A community on campus",
+    "summary": "SIGS invited students to Nowruz, a barbecue and an art exhibition, and joined international graduate orientation.",
+    "eventIds": [
+      "nowruz-2012",
+      "barbecue-2012",
+      "art-exhibition-2012",
+      "orientation-2012"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "literature-and-film-2013",
+    "year": 2013,
+    "title": "Persian literature and film",
+    "summary": "Five dated Rumi and Shams sessions and the Saadat Abad screening invitation add literature and film to the archive.",
+    "eventIds": [
+      "rumi-2013-06-16",
+      "rumi-2013-10-20",
+      "saadat-abad-2013",
+      "hassan-kassai-2013"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "screen-and-celebrate-2014",
+    "year": 2014,
+    "title": "A screening and a New Year invitation",
+    "summary": "SIGS advertised Hush! Girls Don't Scream with a filmmaker Q&A, followed by a Nowruz invitation at the Student Center.",
+    "eventIds": [
+      "hush-2014",
+      "nowruz-2014"
+    ],
+    "precision": "day"
+  },
+  {
     "id": "yalda-2015",
     "year": 2015,
     "title": "Yalda together",
@@ -61,6 +98,17 @@
     "precision": "day"
   },
   {
+    "id": "changing-plans-2020",
+    "year": 2020,
+    "title": "Changing plans in 2020",
+    "summary": "The Nowruz celebration was cancelled. Later that year, SIGS advertised a virtual Yalda with poetry and music.",
+    "eventIds": [
+      "nowruz-2020",
+      "yalda-2020"
+    ],
+    "precision": "day"
+  },
+  {
     "id": "online-2021",
     "year": 2021,
     "title": "An online Nowruz announcement",
@@ -69,6 +117,37 @@
       "nowruz-2021"
     ],
     "precision": "day"
+  },
+  {
+    "id": "solidarity-2022",
+    "year": 2022,
+    "title": "Students for Students",
+    "summary": "Students formed a human chain at Humanities Gateway Bridge in solidarity with students in Iran. SIGS shared the invitation and a later account.",
+    "eventIds": [
+      "student-solidarity-2022-12-07"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "newcomers-2023",
+    "year": 2023,
+    "title": "Welcoming another cohort",
+    "summary": "SIGS welcomed new students at Palo Verde with support from the ISC NewComers program.",
+    "eventIds": [
+      "welcome-2023"
+    ],
+    "precision": "day"
+  },
+  {
+    "id": "film-and-hike-2024",
+    "year": 2024,
+    "title": "Movie night and Crystal Cove",
+    "summary": "The archive preserves invitations for a Crystal Cove hike and a movie night at Verano Place.",
+    "eventIds": [
+      "crystal-cove-hike-2024",
+      "movie-night-2024"
+    ],
+    "precision": "day_context_year"
   },
   {
     "id": "team-2026",
