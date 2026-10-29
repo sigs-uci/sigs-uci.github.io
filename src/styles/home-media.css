@@ -1,0 +1,35 @@
+.moments-toolbar{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-block:-10px 18px}
+.moments-skip:focus{position:static;display:inline-block;width:auto;height:auto;clip:auto;overflow:visible;margin:0 0 16px;padding:10px 14px;background:var(--gold);color:var(--navy);font-size:14px}
+.moments-toolbar>p{font-size:15px;color:var(--muted);max-width:65ch;margin:0}
+.moments-controls{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.moments-controls button{display:grid;place-items:center;width:46px;height:46px;border:1px solid var(--control);border-radius:50%;background:white;font-size:22px;line-height:1}
+.moments-controls button:hover:not(:disabled){background:var(--ice);border-color:var(--cobalt)}
+.moments-controls button:disabled{opacity:.4}
+.moments-controls bdi{font-size:13px;min-width:70px;text-align:center;direction:ltr;unicode-bidi:isolate}
+.moments-track{display:flex;gap:26px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-color:var(--control) var(--canvas);scrollbar-width:thin;padding-block:9px 18px}
+.moment{flex:0 0 calc((100% - 26px)/2);min-width:0;scroll-snap-align:start}
+.moment figure{margin:0}
+.moment .moment-photo>a{display:block;background:var(--navy);border-radius:5px;overflow:hidden}
+.moment .moment-photo img,.moment .video-record video{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;border-radius:5px;max-height:none;background:var(--navy)}
+.moment .moment-photo figcaption{margin-top:14px;color:var(--ink);font-size:20px;font-weight:700}
+.moment .moment-photo figcaption p{margin:0}
+.moment .moment-photo figcaption .moment-context{font-size:15px;line-height:1.7;font-weight:400;color:var(--muted);margin-top:8px;max-width:55ch}
+.moment .moment-photo figcaption small{display:block;margin-top:7px;color:var(--muted);font-size:12px;font-weight:400}
+.moment .video-record figcaption{margin-block:14px 0}
+.moment .video-record figcaption>p:not(.video-label){font-size:20px;font-weight:700;color:var(--ink);margin-block:7px 0}
+.moment .video-label{margin:0;font-size:12px}
+.moment .video-description{font-size:13px;margin-block:8px 0;border:0;padding:0}
+.moment .video-description summary{min-height:36px;align-content:center}
+.moment .video-record>.text-link{display:none}
+.moment-album{display:inline-flex;align-items:center;gap:20px;min-height:44px;margin-top:5px;color:var(--cobalt);font-size:14px;text-decoration:none}
+.moment-album:hover{text-decoration:underline}
+.moments-thumbnails{display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--control) var(--canvas);padding:8px 5px 12px;margin:15px -5px 0}
+.moments-thumbnails>a{display:block;position:relative;flex:0 0 96px;border-radius:4px;background:var(--navy);text-decoration:none}
+.moments-thumbnails img{width:96px;height:72px;object-fit:contain;border-radius:4px}
+.moments-thumbnails>a[aria-current]{outline:3px solid var(--cobalt);outline-offset:3px}
+.moment-thumbnail-video{position:absolute;inset:0;display:flex;align-items:end;justify-content:space-between;gap:6px;padding:6px;background:linear-gradient(transparent 40%,#071b38cc);color:white;border-radius:4px}
+.moment-thumbnail-video bdi{font-size:11px;line-height:16px}
+html[dir=rtl] .moments-controls button span{transform:scaleX(-1)}
+@media(max-width:1023px){.moment{flex-basis:70%}.moments-track{gap:22px}}
+@media(max-width:767px){.moments-toolbar{align-items:start;flex-direction:column;gap:14px;margin-block:-8px 14px}.moments-toolbar>p{font-size:14px}.moments-controls{align-self:end;gap:12px}.moment{flex-basis:88%}.moments-track{gap:16px}.moment .moment-photo figcaption,.moment .video-record figcaption>p:not(.video-label){font-size:18px}.moments-thumbnails>a{flex-basis:80px}.moments-thumbnails img{width:80px;height:60px}.moments-thumbnails{gap:10px}.moment .video-label{font-size:11px;gap:6px 12px}}
+@media print{.moments-track{display:grid;grid-template-columns:1fr 1fr;overflow:visible}.moments-controls,.moments-thumbnails{display:none}.moment{break-inside:avoid}}
