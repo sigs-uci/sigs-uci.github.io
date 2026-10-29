@@ -14,7 +14,7 @@ test('public content passes validation and keeps the historical evidence split',
 
 test('archive facts preserve dates, unknown rooms and closed registration', () => {
   const byId = Object.fromEntries(events.map((event) => [event.id, event]));
-  assert.equal(byId['nowruz-2017'].venue, 'Pacific Ballroom C, UCI Student Center');
+  assert.equal(byId['nowruz-2017'].venue, 'UCI Student Center');
   assert.equal(byId['nowruz-2018'].timeDisplay, '6:30 to 11 PM in the archived listing; 7:30 to 11:55 PM on the poster');
   assert.equal(byId['nowruz-2018'].startInstant, null);
   assert.equal(byId['nowruz-2018'].endInstant, null);
