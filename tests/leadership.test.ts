@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { boardTerms, data, people, validatePublicData } from '../src/data';
+import type { PersonRecord } from '../src/data/schema';
 
 test('the 2026 roster has distinct public professional profiles', () => {
   const current = boardTerms.find(term => term.id === '2026-2027')!;
@@ -35,4 +36,26 @@ test('professional contacts reject login pages, tracking and unrelated destinati
 test('professional profile updates preserve the approved term contacts', () => {
   assert.equal(boardTerms.find(term => term.id === '2026-2027')?.people[0].telegramUrl, 'https://t.me/KMirso');
   assert.equal(boardTerms.find(term => term.id === '2025-2026')?.people[0].telegramUrl, 'http://t.me/KMirsohi');
+});
+
+test('academic majors are optional and require complete English and Persian text', () => {
+  for (const major of [undefined, null, { en: 'Physics', fa: 'فیزیک' }]) {
+    const copy = structuredClone(data);
+    copy.people[0].major = major;
+    assert.deepEqual(validatePublicData(copy), []);
+  }
+});
+
+test('academic major validation rejects incomplete, blank and unrelated fields', () => {
+  const invalid: unknown[] = [
+    {}, { en: 'Physics' }, { fa: 'فیزیک' }, { en: '', fa: 'فیزیک' },
+    { en: 'Physics', fa: '  ' }, { en: 'Physics', fa: 'فیزیک', source: 'Unreviewed detail' },
+    { en: 'Physics', fa: 1 }, ['Physics', 'فیزیک'], 'Physics', 42,
+  ];
+  for (const major of invalid) {
+    const copy = structuredClone(data);
+    copy.people[0].major = major as PersonRecord['major'];
+    assert.ok(validatePublicData(copy).some(error => error.startsWith(`people.${copy.people[0].id}`)
+      && error.includes('Academic majors')), JSON.stringify(major));
+  }
 });

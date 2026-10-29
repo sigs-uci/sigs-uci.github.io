@@ -54,6 +54,7 @@ export interface PersonRecord {
   portrait: string | null;
   bio: string | null;
   linkedinUrl?: string | null;
+  major?: Record<Locale, string> | null;
 }
 
 export interface TeamMembership {
@@ -275,6 +276,12 @@ export function validatePublicData(data: PublicData): string[] {
   data.people.forEach(person => {
     if (person.portrait && !visibleImage(person.portrait)) issue(`people.${person.id}`, 'Portraits need published images with permission');
     if (person.linkedinUrl !== undefined && person.linkedinUrl !== null && !linkedInProfileUrl(person.linkedinUrl)) issue(`people.${person.id}`, 'LinkedIn links must be public HTTPS profile URLs');
+    const major = person.major;
+    if (major !== undefined && major !== null && (typeof major !== 'object' || Array.isArray(major)
+      || Object.keys(major).length !== 2 || Object.keys(major).some(locale => !['en', 'fa'].includes(locale))
+      || ['en', 'fa'].some(locale => typeof major[locale as Locale] !== 'string' || !major[locale as Locale].trim()))) {
+      issue(`people.${person.id}`, 'Academic majors need nonblank English and Persian text only');
+    }
   });
   const slugs = data.events.map(event => event.slug);
   if (new Set(slugs).size !== slugs.length) issue('events', 'Slugs must be unique');

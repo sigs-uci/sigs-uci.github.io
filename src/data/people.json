@@ -4,56 +4,88 @@
     "name": "Kourosh Mirsohi",
     "portrait": "kourosh-mirsohi-portrait",
     "bio": null,
-    "linkedinUrl": "https://www.linkedin.com/in/mirsohi"
+    "linkedinUrl": "https://www.linkedin.com/in/mirsohi",
+    "major": {
+      "en": "Computer Science",
+      "fa": "علوم کامپیوتر"
+    }
   },
   {
     "id": "shakib-kafashan",
     "name": "Shakib Kafashan",
     "portrait": "shakib-kafashan-portrait",
     "bio": null,
-    "linkedinUrl": "https://www.linkedin.com/in/shakib-kafashan-7217071b3"
+    "linkedinUrl": "https://www.linkedin.com/in/shakib-kafashan-7217071b3",
+    "major": {
+      "en": "Civil and Environmental Engineering",
+      "fa": "مهندسی عمران و محیط زیست"
+    }
   },
   {
     "id": "iman-mohammadi",
     "name": "Iman Mohammadi",
     "portrait": "iman-mohammadi-portrait",
     "bio": null,
-    "linkedinUrl": "https://www.linkedin.com/in/imanmohammadi02"
+    "linkedinUrl": "https://www.linkedin.com/in/imanmohammadi02",
+    "major": {
+      "en": "Computer Science",
+      "fa": "علوم کامپیوتر"
+    }
   },
   {
     "id": "kousha-changizi",
     "name": "Kousha Changizi",
     "portrait": "kousha-changizi-portrait",
     "bio": null,
-    "linkedinUrl": "https://www.linkedin.com/in/koushachangizi"
+    "linkedinUrl": "https://www.linkedin.com/in/koushachangizi",
+    "major": {
+      "en": "Computer Science",
+      "fa": "علوم کامپیوتر"
+    }
   },
   {
     "id": "nazanin-dolatkhah",
     "name": "Nazanin Dolatkhah",
     "portrait": "nazanin-dolatkhah-portrait",
     "bio": null,
-    "linkedinUrl": "https://www.linkedin.com/in/zahra-dolatkhah/"
+    "linkedinUrl": "https://www.linkedin.com/in/zahra-dolatkhah/",
+    "major": {
+      "en": "Law",
+      "fa": "حقوق"
+    }
   },
   {
     "id": "mehdi-zafari",
     "name": "Mehdi Zafari",
     "portrait": "mehdi-zafari-portrait",
     "bio": null,
-    "linkedinUrl": "https://www.linkedin.com/in/mehdi-zafari/"
+    "linkedinUrl": "https://www.linkedin.com/in/mehdi-zafari/",
+    "major": {
+      "en": "Electrical Engineering and Computer Science",
+      "fa": "مهندسی برق و علوم کامپیوتر"
+    }
   },
   {
     "id": "shayan-taherijam",
     "name": "Shayan Taherijam",
     "portrait": "shayan-taherijam-portrait",
     "bio": null,
-    "linkedinUrl": "https://www.linkedin.com/in/shayan-taherijam"
+    "linkedinUrl": "https://www.linkedin.com/in/shayan-taherijam",
+    "major": {
+      "en": "Computer Science",
+      "fa": "علوم کامپیوتر"
+    }
   },
   {
     "id": "amin-hajarian",
     "name": "Amin Hajarian",
     "portrait": "amin-hajarian-portrait",
     "bio": null,
-    "linkedinUrl": "https://www.linkedin.com/in/amin-hajarian-1ab2b1a2"
+    "linkedinUrl": "https://www.linkedin.com/in/amin-hajarian-1ab2b1a2",
+    "major": {
+      "en": "Mechanical and Aerospace Engineering",
+      "fa": "مهندسی مکانیک و هوافضا"
+    }
   },
   {
     "id": "ghazal-naderi",

@@ -72,6 +72,8 @@ Every published, approved community media record belongs to exactly one collecti
 
 A `BoardTerm` holds its ID, displayed term, current/former state and ordered memberships. Each membership links a stable person ID to that term, with the approved public name, role, group and display order. Existing term-specific Telegram records are retained as historical data. The team interface uses the person's optional `linkedinUrl`, verified as a public HTTPS LinkedIn profile. Set the person's `portrait` to an approved image media ID. Optional portrait, biography and continuous membership dates remain null when unknown; initials can stand in for a missing photograph.
 
+An optional person-level `major` contains exactly two nonblank strings, `en` and `fa`, for the confirmed academic field. Omit it or set it to null when unknown. Current team cards show the matching language without a label; previous term pages omit it. Roles remain in term memberships. Portrait cards omit photo-source captions, while media records and asset documentation retain provenance and required attribution.
+
 ## Story, document or annual highlights
 
 A `StoryRecord` in `src/data/stories.json` needs a stable ID/slug, title, summary, locale, publication/editorial states, actual publication date, body paragraphs, related event IDs, approved media IDs and any approved credit. Use `kind: "yearbook"` for annual highlights. Publish an edition only after its reflections and claims have been reviewed. A gallery uses existing event records; it does not create duplicate events.

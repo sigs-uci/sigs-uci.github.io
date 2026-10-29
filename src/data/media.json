@@ -32181,10 +32181,10 @@
   },
   {
     "id": "kourosh-mirsohi-portrait",
-    "src": "/media/team/kourosh-mirsohi.webp",
+    "src": "/media/team/kourosh-mirsohi-2026.webp",
     "kind": "photo",
-    "width": 320,
-    "height": 320,
+    "width": 400,
+    "height": 400,
     "eventId": null,
     "focalPoint": [
       0.5,
@@ -32204,14 +32204,14 @@
   },
   {
     "id": "shakib-kafashan-portrait",
-    "src": "/media/team/shakib-kafashan.webp",
+    "src": "/media/team/shakib-kafashan-2026.webp",
     "kind": "photo",
-    "width": 320,
-    "height": 320,
+    "width": 563,
+    "height": 640,
     "eventId": null,
     "focalPoint": [
       0.5,
-      0.5
+      0.9
     ],
     "alt": {
       "en": "Shakib Kafashan",
@@ -32250,10 +32250,10 @@
   },
   {
     "id": "kousha-changizi-portrait",
-    "src": "/media/team/kousha-changizi.webp",
+    "src": "/media/team/kousha-changizi-2026.webp",
     "kind": "photo",
-    "width": 320,
-    "height": 320,
+    "width": 400,
+    "height": 400,
     "eventId": null,
     "focalPoint": [
       0.5,
@@ -32296,14 +32296,14 @@
   },
   {
     "id": "mehdi-zafari-portrait",
-    "src": "/media/team/mehdi-zafari.webp",
+    "src": "/media/team/mehdi-zafari-2026.webp",
     "kind": "photo",
-    "width": 200,
-    "height": 250,
+    "width": 640,
+    "height": 640,
     "eventId": null,
     "focalPoint": [
       0.5,
-      0.35
+      0.5
     ],
     "alt": {
       "en": "Mehdi Zafari",
@@ -32313,7 +32313,7 @@
       "en": "Mehdi Zafari",
       "fa": "پرترهٔ Mehdi Zafari"
     },
-    "credit": "Wireless History Foundation.",
+    "credit": "SIGS team profile.",
     "publication": "published",
     "rights": "approved"
   },

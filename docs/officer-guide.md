@@ -36,6 +36,8 @@ Edit `src/data/people.json` for stable public names, verified public `linkedinUr
 
 Prepare headshots as local WebP images with location and identifying metadata removed. Check the person, credit and publication permission before importing a media record. Referenced team portraits appear on the homepage and team pages; they stay out of community albums and media counts.
 
+Use a person's optional `major` for a confirmed academic field, with nonblank `en` and `fa` values. Leave it absent or null when unknown; do not guess from a role, lab or photograph. Majors appear on the homepage and current team pages. They are omitted from previous terms so a present academic field does not become a historical claim. Keep photo provenance and required attribution in media records and asset documentation.
+
 For a new current term, mark the old term `former`, add the approved memberships, update `organization.currentBoardTermId` and synchronize `organization.currentBoard` in `src/data/organization.json`. Each term receives a page automatically; previous term URLs remain available. Do not infer continuous membership dates, biographies or portraits. Run validation before previewing both the current and former term pages.
 
 ## Publish photographs and collections
