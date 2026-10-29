@@ -20,27 +20,45 @@
         ]
       }
     ],
-    "relatedEventIds": ["tales-2016", "poetry-night-2019"],
+    "relatedEventIds": [
+      "tales-2016",
+      "poetry-night-2019"
+    ],
     "relatedPaths": [
-      { "label": "Explore film and poetry", "path": "community/programs/poetry-and-film" },
-      { "label": "Find current events", "path": "events", "query": { "period": "upcoming" } },
-      { "label": "Share a memory or correction", "path": "contact" }
+      {
+        "label": "Explore film and poetry",
+        "path": "community/programs/poetry-and-film"
+      },
+      {
+        "label": "Find current events",
+        "path": "events",
+        "query": {
+          "period": "upcoming"
+        }
+      },
+      {
+        "label": "Share a memory or correction",
+        "path": "contact"
+      }
     ],
     "publicContextLinks": [
-      { "label": "Jordan Center 2017-2018 annual report, Community Outreach", "url": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/7/1776/files/2021/04/2017-2018-Annual-Report.pdf" }
+      {
+        "label": "Jordan Center 2017-2018 annual report, Community Outreach",
+        "url": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/7/1776/files/2021/04/2017-2018-Annual-Report.pdf"
+      }
     ]
   },
   {
     "id": "welcome-and-orientation",
     "title": "A welcome to campus",
     "intro": "Getting settled involves small questions as well as official paperwork. Welcome gatherings and orientation materials are part of SIGS's history of helping incoming students find their feet at UC Irvine.",
-    "periodLabel": "A newcomer tradition, with a 2017 welcome announcement",
+    "periodLabel": "Orientation and welcome records from 2012, 2017 and 2023",
     "sections": [
       {
-        "title": "A gathering for new students",
+        "title": "Meeting the next group of students",
         "paragraphs": [
-          "A welcome gathering for new students was advertised for September 22, 2017 at Verano Place BBQ. Its archive page preserves that invitation and its location as an announcement.",
-          "The wider history includes Welcome Week and orientation materials. Together, they show that helping students get started has had a place alongside the larger cultural celebrations."
+          "SIGS joined International Graduate Students Orientation in 2012 and invited new Iranian students to find the team at the Student Center. A 2017 invitation offered another welcome at Verano Place BBQ.",
+          "In September 2023, SIGS welcomed new students to Palo Verde for information, Q&A and dinner. Iranian Students of California supported the gathering through its NewComers program."
         ]
       },
       {
@@ -51,11 +69,24 @@
         ]
       }
     ],
-    "relatedEventIds": ["welcome-2017"],
+    "relatedEventIds": [
+      "orientation-2012",
+      "welcome-2017",
+      "welcome-2023"
+    ],
     "relatedPaths": [
-      { "label": "Read the newcomer guide", "path": "resources/new-students" },
-      { "label": "Find campus resources", "path": "resources" },
-      { "label": "Say hello to SIGS", "path": "join" }
+      {
+        "label": "Read the newcomer guide",
+        "path": "resources/new-students"
+      },
+      {
+        "label": "Find campus resources",
+        "path": "resources"
+      },
+      {
+        "label": "Say hello to SIGS",
+        "path": "join"
+      }
     ],
     "publicContextLinks": []
   },
@@ -63,28 +94,44 @@
     "id": "social-and-outdoors",
     "title": "Time together",
     "intro": "The history includes time spent together between the larger celebrations: games, football viewing, beach visits and informal gatherings.",
-    "periodLabel": "Informal activities described in a 2019 organization account",
+    "periodLabel": "Barbecues, games and beach gatherings across the archive",
     "sections": [
       {
-        "title": "Between the big occasions",
+        "title": "An evening at the beach",
         "paragraphs": [
-          "A 2019 organization letter describes games and outdoor activities as part of SIGS life. These accounts give a sense of everyday community even where an exact date or a full program has not been recovered.",
-          "The event list is the place to find a current gathering with confirmed public details."
+          "A fall 2017 bonfire at Corona del Mar is preserved in the community archive without an exact day. The July 2018 Huntington Beach gathering has a dated volleyball tournament invitation and a later thank-you video.",
+          "The archive also keeps later bonfire invitations. Where a gathering was only announced, its record keeps that distinction."
         ]
       },
       {
-        "title": "Sharing a meal or an idea",
+        "title": "Games and a shared meal",
         "paragraphs": [
-          "The archive includes an Iftar gathering announced for June 18, 2017 at Palo Verde. Its record keeps the advertised date and venue without treating the invitation as proof of a completed program.",
-          "Have an idea for a game, an outdoor activity or a small gathering? Tell the team what you have in mind and how you would like to help. An initial conversation can happen through the organization email."
+          "Game Night 11 was advertised at Palo Verde in August 2017, with a potluck meal and card and board games. Later invitations included online Mafia and more evenings at the clubhouse.",
+          "Iftar brought friends to Palo Verde in 2017. Other invitations included a 2012 barbecue, Iftar in 2015, 2018 and 2019, and a Persian breakfast in March 2019."
         ]
       }
     ],
-    "relatedEventIds": ["iftar-2017"],
+    "relatedEventIds": [
+      "bonfire-fall-2017",
+      "beach-volleyball-2018",
+      "taco-tuesday-2018",
+      "game-night-11-2017",
+      "iftar-2017",
+      "persian-breakfast-2019"
+    ],
     "relatedPaths": [
-      { "label": "See events and the archive", "path": "events" },
-      { "label": "Offer an idea or a hand", "path": "join" },
-      { "label": "Meet the current team", "path": "about/leadership" }
+      {
+        "label": "See events and the archive",
+        "path": "events"
+      },
+      {
+        "label": "Offer an idea or a hand",
+        "path": "join"
+      },
+      {
+        "label": "Meet the current team",
+        "path": "about/leadership"
+      }
     ],
     "publicContextLinks": []
   },
@@ -92,42 +139,71 @@
     "id": "cultural-celebrations",
     "title": "Nowruz and Yalda",
     "intro": "Nowruz and Yalda appear across several generations of the SIGS archive. The records preserve particular gatherings, their rooms and the programs people were invited to share.",
-    "periodLabel": "Archive examples from 2015-2025",
+    "periodLabel": "Archive examples from 2012-2025",
     "sections": [
       {
         "title": "Poetry, music and a shared table",
         "paragraphs": [
-          "The Yalda 2015 program advertised Hafez recitation, ensemble music, Persian dinner and DJ Sepand, with SIGS and the Persian Language & Culture Club presenting the celebration. Nowruz 2018 advertised traditional music, Persian dance and dinner in a collaboration with Iranian-American Students of WesternU.",
-          "Later Yalda programs advertised Kamyar in 2018 and Sandy with his band in 2019. The archive distinguishes the supported gathering from each advertised program detail."
+          "The archive reaches back to a Nowruz invitation for March 2012. Later gatherings paired Hafez recitation and ensemble music with a shared meal, often with other student organizations.",
+          "The Yalda invitations named Kamyar in 2018 and Sandy with his band in 2019. Photo albums and later recaps preserve these gatherings."
         ]
       },
       {
         "title": "Different years, different formats",
         "paragraphs": [
-          "The 2021 Nowruz announcement moved the invitation online with a Milad Derakhshani concert. The 2025 Yalda announcement described an evening at Verano Community Center with Persian music, classical poetry, dinner and pomegranates.",
-          "Those two records remain archived announcements. The linked pages explain what is known about each occasion and its date. Registration is closed on these archive pages."
+          "The March 2020 Nowruz celebration was cancelled. A virtual Yalda was advertised that December, followed by the Milad Derakhshani online Nowruz concert announcement in March 2021.",
+          "The 2025 Yalda invitation returned to Verano Community Center with Persian music, classical poetry, dinner and pomegranates. The online programs and the 2025 gathering remain archived announcements."
         ]
       }
     ],
-    "relatedEventIds": ["yalda-2015", "nowruz-2018", "yalda-2019", "nowruz-2021", "yalda-2025"],
+    "relatedEventIds": [
+      "nowruz-2012",
+      "yalda-2016",
+      "nowruz-2017",
+      "yalda-2018",
+      "yalda-2019",
+      "nowruz-2020",
+      "yalda-2020",
+      "nowruz-2021",
+      "yalda-2025"
+    ],
     "relatedPaths": [
-      { "label": "Browse the cultural archive", "path": "events/archive", "query": { "category": "culture" } },
-      { "label": "Explore community memories", "path": "community/memories" },
-      { "label": "Talk about a future gathering", "path": "partners" }
+      {
+        "label": "Browse the cultural archive",
+        "path": "events/archive",
+        "query": {
+          "category": "culture"
+        }
+      },
+      {
+        "label": "Explore community memories",
+        "path": "community/memories"
+      },
+      {
+        "label": "Talk about a future gathering",
+        "path": "partners"
+      }
     ],
     "publicContextLinks": []
   },
   {
     "id": "professional-connections",
     "title": "Professional connections",
-    "intro": "SIGS's collaborations have included a campus innovation forum and an invitation to meet professionals through small discussion groups. The archive keeps the context of each format.",
-    "periodLabel": "A documented 2018 forum and a 2025 networking announcement",
+    "intro": "SIGS has joined conversations about careers, technology and community work. The archive records the role of each partner and the format people were invited to share.",
+    "periodLabel": "Career and community collaborations from 2018-2025",
     "sections": [
       {
         "title": "The Iranian American Innovation Forum",
         "paragraphs": [
           "The 2018 forum brought technological, business and social innovation into discussion at the UCI Student Center. SIGS co-sponsored it alongside the Iranian Americans' Contributions Project (IACP) and Sharif University of Technology Association (SUTA).",
           "The Jordan Center's annual report records the forum as a campus collaboration. Its event page holds the September 15 date and the historical context."
+        ]
+      },
+      {
+        "title": "Career panels and technology conversations",
+        "paragraphs": [
+          "The Iranian American Alumni Chapter and SIGS advertised a June 2019 career panel at Newkirk Alumni Center, with discussion of the automotive industry, law and biotechnology.",
+          "In May 2023, SIGS and Iranian Students of California invited the community to Persian Tech Network at Plug and Play HQ and online."
         ]
       },
       {
@@ -144,42 +220,86 @@
         ]
       }
     ],
-    "relatedEventIds": ["innovation-forum-2018", "networking-2025"],
+    "relatedEventIds": [
+      "innovation-forum-2018",
+      "career-panel-2019",
+      "persian-tech-network-2023",
+      "networking-2025"
+    ],
     "relatedPaths": [
-      { "label": "Discuss a collaboration", "path": "partners" },
-      { "label": "Contact the SIGS team", "path": "contact" }
+      {
+        "label": "Discuss a collaboration",
+        "path": "partners"
+      },
+      {
+        "label": "Contact the SIGS team",
+        "path": "contact"
+      }
     ],
     "publicContextLinks": [
-      { "label": "Jordan Center 2017-2018 annual report, Campuswide Collaborations", "url": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/7/1776/files/2021/04/2017-2018-Annual-Report.pdf" },
-      { "label": "IAW Foundation January 2025 newsletter, networking announcement", "url": "https://myemail.constantcontact.com/January-2025-Newsletter-.html?soid=1116262519406&aid=wS5s11ncNZs" }
+      {
+        "label": "Jordan Center 2017-2018 annual report, Campuswide Collaborations",
+        "url": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/7/1776/files/2021/04/2017-2018-Annual-Report.pdf"
+      },
+      {
+        "label": "IAW Foundation January 2025 newsletter, networking announcement",
+        "url": "https://myemail.constantcontact.com/January-2025-Newsletter-.html?soid=1116262519406&aid=wS5s11ncNZs"
+      }
     ]
   },
   {
     "id": "poetry-and-film",
     "title": "Poetry and film",
     "intro": "A film can give people a shared subject. A poetry evening offers another way to spend time together. Both have a place in the SIGS archive.",
-    "periodLabel": "Examples from 2016-2019",
+    "periodLabel": "Poetry and screening records from 2013-2024",
     "sections": [
       {
-        "title": "Tales and a screenwriter Q&A",
+        "title": "Rumi and Shams, one month at a time",
         "paragraphs": [
-          "A free public screening of Tales was advertised for March 31, 2016 in Humanities Gateway. The invitation paired the screening with a Q&A with the screenwriter and named SIGS and the Visual Studies PhD Program as co-sponsors.",
-          "The event page preserves the advertised screening and Q&A as an archived announcement."
+          "SIGS advertised five dated sessions on Rumi's Masnavi and the ghazals of Shams in 2013, with Dr. Khazali. The free public meetings moved between Palo Verde and rooms at the Student Center.",
+          "The June meeting was advertised as the third session in the series."
+        ]
+      },
+      {
+        "title": "Films and the people behind them",
+        "paragraphs": [
+          "A 2013 Saadat Abad screening invitation included a Q&A with Maziar Miri. A 2014 Hush! Girls Don't Scream invitation named Pouran Derakhshandeh, the film's director and producer.",
+          "The 2016 Tales invitation paired the film with a screenwriter Q&A. SIGS and the Visual Studies PhD Program co-sponsored the Jordan Center event. A later 2024 movie-night invitation offered another evening of films and music."
         ]
       },
       {
         "title": "An evening for Persian poetry",
         "paragraphs": [
-          "Persian Poetry Night is a documented gathering from February 23, 2019. Its date is supported, while the venue and advertised time have not been recovered.",
+          "SIGS held Persian Poetry Night at Palo Verde on February 23, 2019. The invitation advertised 8 to 11 PM and welcomed anyone who wanted to read poetry or perform music.",
           "The related Docunight program adds documentary film to this history, with a separately documented 2017-2018 series presented with the Jordan Center."
         ]
       }
     ],
-    "relatedEventIds": ["tales-2016", "poetry-night-2019"],
+    "relatedEventIds": [
+      "rumi-2013-06-16",
+      "rumi-2013-07-14",
+      "rumi-2013-08-18",
+      "rumi-2013-09-15",
+      "rumi-2013-10-20",
+      "saadat-abad-2013",
+      "hush-2014",
+      "tales-2016",
+      "poetry-night-2019",
+      "movie-night-2024"
+    ],
     "relatedPaths": [
-      { "label": "Read about Docunight", "path": "community/programs/docunight" },
-      { "label": "Browse the archive", "path": "events/archive" },
-      { "label": "Share an idea for a gathering", "path": "join" }
+      {
+        "label": "Read about Docunight",
+        "path": "community/programs/docunight"
+      },
+      {
+        "label": "Browse the archive",
+        "path": "events/archive"
+      },
+      {
+        "label": "Share an idea for a gathering",
+        "path": "join"
+      }
     ],
     "publicContextLinks": []
   }

@@ -13,11 +13,30 @@ export interface MediaCollection {
 }
 
 export const publicMedia = media.filter(item => item.publication === 'published' && item.rights === 'approved');
+const mediaById = new Map(publicMedia.map(item => [item.id, item]));
 export const mediaCollections = collectionData as MediaCollection[];
 export const publicVideos = publicMedia.filter(item => item.kind === 'video');
 export const collectionItems = (collection: MediaCollection): MediaRecord[] => collection.mediaIds
-  .map(id => publicMedia.find(item => item.id === id)).filter((item): item is MediaRecord => Boolean(item));
+  .map(id => mediaById.get(id)).filter((item): item is MediaRecord => Boolean(item));
 export const collectionPath = (collection: MediaCollection): string => `community/memories/${collection.id}`;
+export const albumPageSize = 36;
+export function albumPages(collection: MediaCollection, records: readonly MediaRecord[] = collectionItems(collection)): number {
+  return Math.max(1, Math.ceil(records.filter(item => item.kind !== 'video').length / albumPageSize));
+}
+export function albumPagePath(collection: MediaCollection, page = 1): string {
+  return page === 1 ? collectionPath(collection) : `${collectionPath(collection)}/page/${page}`;
+}
+export function albumPhotos(records: readonly MediaRecord[], page = 1): MediaRecord[] {
+  if (!Number.isInteger(page) || page < 1) return [];
+  return records.filter(item => item.kind !== 'video').slice((page - 1) * albumPageSize, page * albumPageSize);
+}
+export function albumAtPath(path: string): {collection: MediaCollection; page: number} | undefined {
+  for (const collection of mediaCollections) {
+    for (let page = 1; page <= albumPages(collection); page++) {
+      if (albumPagePath(collection, page) === path) return {collection, page};
+    }
+  }
+}
 export function validateMediaCollections(collections: readonly MediaCollection[] = mediaCollections, records: readonly MediaRecord[] = media): string[] {
   const errors: string[] = [];
   const visible = records.filter(item=>item.publication==='published'&&item.rights==='approved');

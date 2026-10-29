@@ -39,6 +39,13 @@
 .collection-video-poster bdi{position:absolute;inset-inline-end:8px;inset-block-end:8px;padding:2px 7px;font-size:12px;background:var(--navy);color:white;border-radius:3px}
 .collection-video-index a[aria-current] .collection-video-poster{outline:3px solid var(--cobalt);outline-offset:4px}
 .collection-video-player{min-inline-size:0}
+.album-range{font-size:14px;color:var(--muted)}
+.album-pagination{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;margin-block:24px 32px}
+.album-pagination ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0}
+.album-pagination :is(a,span){display:inline-flex;align-items:center;justify-content:center;min-inline-size:44px;min-block-size:44px;padding-inline:12px;font-size:14px;border:1px solid var(--line);border-radius:4px;text-decoration:none}
+.album-pagination a:hover{border-color:var(--cobalt);text-decoration:underline}
+.album-pagination [aria-current]{background:var(--navy);border-color:var(--navy);color:white}
+.album-pagination [aria-disabled]{color:var(--muted);border-color:transparent}
 .collection-video-player[hidden]{display:none!important}
 .collection-videos[data-video-selector-ready] .video-grid{grid-template-columns:1fr;margin-block:0}
 .collection-videos[data-video-selector-ready] .video-record{max-inline-size:760px;margin-inline:auto}
@@ -49,6 +56,10 @@
   .collection-video-index{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 @media(max-width:767px){
+  .album-pagination{display:grid;grid-template-columns:1fr 1fr;gap:14px 12px}
+  .album-pagination>.album-page-step:first-child{grid-area:1/1;justify-self:start}
+  .album-pagination>.album-page-step:last-child{grid-area:1/2;justify-self:end}
+  .album-pagination ol{grid-column:1/-1;grid-row:2;justify-content:center}
   .collection-directory{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 18px}
   .collection-directory .collection-preview h3{font-size:21px}
   .collection-directory .collection-preview p:not(.eyebrow){font-size:14px}

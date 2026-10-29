@@ -2,23 +2,27 @@
 import {events} from '../data';
 import {href,type Locale} from '../config/site';
 import {tr,formatNumber} from '../i18n/ui';
-import {collectionItems,mediaCollections,videoDuration,type MediaCollection} from '../lib/media';
+import {collectionItems,collectionPath,mediaCollections,videoDuration,albumPhotos,albumPages,albumPageSize,type MediaCollection} from '../lib/media';
 import {eventHref,reviewedTranslation} from '../lib/publication';
 import {isPublicEvent} from '../lib/events';
 import Gallery from './Gallery.astro';
 import Video from './Video.astro';
 import CollectionDirectory from './CollectionDirectory.astro';
-const {collection,locale='en'}=Astro.props as {collection:MediaCollection;locale:Locale};
+import AlbumPagination from './AlbumPagination.astro';
+const {collection,locale='en',page=1}=Astro.props as {collection:MediaCollection;locale:Locale;page?:number};
 const t=(text:string)=>tr(locale,text);
 const items=collectionItems(collection);
-const photos=items.filter(item=>item.kind!=='video');
-const videos=items.filter(item=>item.kind==='video');
+const photos=albumPhotos(items,page);
+const photoCount=items.filter(item=>item.kind!=='video').length;
+const totalPages=albumPages(collection,items);
+const allVideos=items.filter(item=>item.kind==='video');
+const videos=page===1?allVideos:[];
 const related=events.filter(event=>collection.eventIds.includes(event.id)&&isPublicEvent(event));
 ---
 <div class="wrap page-body collection-page">
   <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale,'community')}>{t('Community')}</a><span aria-hidden="true">/</span><a href={href(locale,'community/memories')}>{t('Memories')}</a><span aria-hidden="true">/</span><span>{collection.title[locale]}</span></nav>
-  <div class="collection-intro">{collection.note&&<p class="summary">{collection.note[locale]}</p>}<nav class="subnav" aria-label={t('In this collection')}>{photos.length>0&&<a href="#photographs">{t('Photographs and posters')} ({formatNumber(locale,photos.length)})</a>}{videos.length>0&&<a href="#videos">{t('Videos')} ({formatNumber(locale,videos.length)})</a>}{related.map(event=><a href={eventHref(event,locale)}>{locale==='fa'?reviewedTranslation(event.id)?.title:event.title}</a>)}</nav></div>
-  {photos.length>0&&<section id="photographs" class="collection-photographs" aria-labelledby="collection-photos"><div class="collection-section-heading"><h2 id="collection-photos">{t('Photographs and posters')}</h2><p>{t('Open a photograph for a larger view.')}</p></div><Gallery items={photos} locale={locale} dense photoCaptions={collection.id==='posters-and-venues'}/></section>}
+  <div class="collection-intro">{collection.note&&<p class="summary">{collection.note[locale]}</p>}<nav class="subnav" aria-label={t('In this collection')}>{photoCount>0&&<a href="#photographs">{t('Photographs and posters')} ({formatNumber(locale,photoCount)})</a>}{allVideos.length>0&&<a href={page===1?'#videos':`${href(locale,collectionPath(collection))}#videos`}>{t('Videos')} ({formatNumber(locale,allVideos.length)})</a>}{related.map(event=><a href={eventHref(event,locale)}>{locale==='fa'?reviewedTranslation(event.id)?.title:event.title}</a>)}</nav></div>
+  {photos.length>0&&<section id="photographs" class="collection-photographs" aria-labelledby="collection-photos"><div class="collection-section-heading"><h2 id="collection-photos">{t('Photographs and posters')}</h2><p>{t('Open a photograph for a larger view.')}</p></div>{totalPages>1&&<p class="album-range"><bdi dir="ltr">{formatNumber(locale,(page-1)*albumPageSize+1)}-{formatNumber(locale,Math.min(page*albumPageSize,photoCount))}</bdi> {t('of')} {formatNumber(locale,photoCount)} {t('images')}</p>}<AlbumPagination collection={collection} page={page} total={totalPages} locale={locale}/><Gallery items={photos} locale={locale} dense photoCaptions={collection.id==='posters-and-venues'}/><AlbumPagination collection={collection} page={page} total={totalPages} locale={locale}/></section>}
   {videos.length>0&&<section id="videos" class="collection-videos" aria-labelledby="collection-videos" data-collection-videos>
     <h2 id="collection-videos">{t('Videos')}</h2>
     <nav class="collection-video-index" aria-label={t('Choose a video')}>{videos.map(item=><a href={`#${item.id}`} data-collection-video-link={item.id}><span class="collection-video-poster"><img src={item.videoPoster} width={item.width} height={item.height} alt="" loading="lazy"/><span aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false"><path d="m8 4 12 8-12 8Z" fill="currentColor"/></svg></span><bdi dir="ltr">{videoDuration(item.duration??0,locale)}</bdi></span><span>{item.caption[locale]}</span></a>)}</nav>

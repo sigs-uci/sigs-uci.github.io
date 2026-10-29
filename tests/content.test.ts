@@ -4,12 +4,31 @@ import { boardTerms, data, events, media, people, programs, organization, valida
 
 test('public content passes validation and keeps the historical evidence split', () => {
   assert.deepEqual(validatePublicData(data), []);
-  assert.equal(events.length, 20);
-  assert.equal(new Set(events.map((event) => event.slug)).size, 20);
-  assert.equal(events.filter((event) => event.archiveLabel === 'Archived announcement').length, 11);
-  assert.equal(events.filter((event) => event.eventState === 'completed').length, 9);
-  assert.ok(events.filter((event) => event.archiveLabel === 'Archived announcement').every((event) => event.eventState === 'scheduled'));
+  assert.equal(new Set(events.map((event) => event.slug)).size, events.length);
+  const originalIds=['yalda-2015','nowruz-2016','tales-2016','yalda-2016','nowruz-2017','iftar-2017','welcome-2017','yalda-2017','nowruz-2018','innovation-forum-2018','yalda-2018','poetry-night-2019','nowruz-2019','yalda-2019','nowruz-2021','yalda-2023','networking-2025','yalda-2025','solidarity-2026-02-02','solidarity-2026-02-10'];
+  for(const id of originalIds)assert.ok(events.some(event=>event.id===id),id);
+  assert.ok(events.filter((event) => event.archiveLabel === 'Archived announcement').every((event) => ['scheduled','cancelled','postponed','rescheduled'].includes(event.eventState)));
+  assert.ok(events.filter(event=>event.eventState==='completed').every(event=>event.archiveLabel==='Documented gathering'));
   assert.equal(programs.length, 6);
+});
+
+test('expanded history retains cancellation, partial dates and participation roles',()=>{
+  const byId=new Map(events.map(event=>[event.id,event]));
+  assert.equal(byId.get('nowruz-2020')?.eventState,'cancelled');
+  assert.equal(byId.get('nowruz-2020')?.archiveLabel,'Archived announcement');
+  assert.equal(byId.get('bonfire-fall-2017')?.date.value,null);
+  assert.equal(byId.get('bonfire-fall-2017')?.date.precision,'year_context');
+  assert.equal(byId.get('bonfire-fall-2017')?.date.contextYear,2017);
+  assert.equal(byId.get('orientation-2012')?.sigsRole,'participant');
+  assert.equal(byId.get('welcome-2023')?.date.value,'2023-09-23');
+  assert.equal(byId.get('poetry-night-2019')?.venue,'Palo Verde, UC Irvine');
+  assert.equal(byId.get('poetry-night-2019')?.timeDisplay,'8 to 11 PM');
+  assert.equal(byId.get('bonfire-2018-10-20')?.eventState,'rescheduled');
+  assert.equal(byId.get('bonfire-2018-10-20')?.date.value,'2018-10-20');
+  assert.equal(byId.has('bonfire-2018-10-13'),false);
+  assert.equal(byId.get('nowruz-2023')?.date.value,'2023-03-20');
+  assert.equal(byId.get('nowruz-cruise-2023')?.date.value,'2023-03-27');
+  assert.equal(byId.get('nowruz-cruise-2023')?.venue,null);
 });
 
 test('archive facts preserve dates, unknown rooms and closed registration', () => {
