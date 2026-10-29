@@ -23,13 +23,14 @@
   {
     "id": "literature-and-film-2013",
     "year": 2013,
-    "title": "Persian literature and film",
-    "summary": "Five dated Rumi and Shams sessions and the Saadat Abad screening invitation add literature and film to the archive.",
+    "title": "Literature, film and music",
+    "summary": "The invitations included five Rumi and Shams sessions, film discussion, a Hassan Kassai memorial and a lecture with Mohammad Reza Shajarian and the Pournazeri brothers.",
     "eventIds": [
       "rumi-2013-06-16",
       "rumi-2013-10-20",
       "saadat-abad-2013",
-      "hassan-kassai-2013"
+      "hassan-kassai-2013",
+      "shajarian-2013"
     ],
     "precision": "day"
   },
@@ -88,23 +89,26 @@
   {
     "id": "poetry-2019",
     "year": 2019,
-    "title": "A place for poetry",
-    "summary": "The archive preserves a Persian Poetry Night alongside the year’s Nowruz and Yalda gatherings.",
+    "title": "Poetry, film and community",
+    "summary": "SIGS held Persian Poetry Night, joined Pol Media's film weekend and celebrated Nowruz and Yalda with the community.",
     "eventIds": [
       "poetry-night-2019",
       "nowruz-2019",
-      "yalda-2019"
+      "yalda-2019",
+      "pol-media-film-weekend-2019"
     ],
     "precision": "day"
   },
   {
     "id": "changing-plans-2020",
     "year": 2020,
-    "title": "Changing plans in 2020",
-    "summary": "The Nowruz celebration was cancelled. Later that year, SIGS advertised a virtual Yalda with poetry and music.",
+    "title": "New formats in 2020",
+    "summary": "The Nowruz celebration was cancelled. Other invitations that year included a Maryam Mirzakhani film screening, an online nutrition talk and a virtual Yalda.",
     "eventIds": [
       "nowruz-2020",
-      "yalda-2020"
+      "yalda-2020",
+      "secrets-of-the-surface-2020",
+      "nutrition-wellness-2020"
     ],
     "precision": "day"
   },
@@ -121,10 +125,11 @@
   {
     "id": "solidarity-2022",
     "year": 2022,
-    "title": "Students for Students",
-    "summary": "Students formed a human chain at Humanities Gateway Bridge in solidarity with students in Iran. SIGS shared the invitation and a later account.",
+    "title": "Culture and solidarity",
+    "summary": "SIGS and Northeastern Global Learner Support announced a joint Nowruz program. Later in the year, students formed a human chain at Humanities Gateway Bridge in solidarity with students in Iran.",
     "eventIds": [
-      "student-solidarity-2022-12-07"
+      "student-solidarity-2022-12-07",
+      "nowruz-2022"
     ],
     "precision": "day"
   },

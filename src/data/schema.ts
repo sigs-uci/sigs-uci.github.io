@@ -127,6 +127,7 @@ export interface MediaRecord {
   videoPoster?: string;
   duration?: number;
   audioContent?: 'music' | 'speech' | 'silent' | 'ambient';
+  audioNote?: Partial<Record<Locale, string>>;
   transcript?: Partial<Record<Locale, string>>;
   captions?: Partial<Record<Locale, string>>;
   width: number;
@@ -163,8 +164,9 @@ export interface StoryRecord {
   body: string[];
   relatedEventIds: string[];
   mediaIds: string[];
-  kind: 'story' | 'yearbook';
+  kind: 'story' | 'yearbook' | 'document';
   credit: string | null;
+  contextNote?: string;
 }
 
 export interface OrganizationRecord {
@@ -211,9 +213,9 @@ export interface PublicData {
 
 const occurrenceSupported = new Set<OccurrenceEvidence>(['occurrence_corroborated', 'occurrence_reported', 'institutional_retrospective', 'reported_occurrence']);
 const eventKeys = new Set(['id', 'slug', 'title', 'locale', 'date', 'timeDisplay', 'timeZone', 'startInstant', 'endInstant', 'venue', 'category', 'sigsRole', 'summary', 'occurrenceEvidence', 'archiveLabel', 'publication', 'eventState', 'registration', 'registrationUrl', 'gallery', 'heroImage', 'editorial', 'publicSourceLinks', 'generateCalendarDownload', 'generateEventStructuredData', 'allDay', 'calendarUpdated', 'calendarSequence', 'accessibility', 'cost', 'audience']);
-const storyKeys = new Set(['id', 'slug', 'title', 'summary', 'locale', 'publication', 'editorial', 'publishedOn', 'body', 'relatedEventIds', 'mediaIds', 'kind', 'credit']);
+const storyKeys = new Set(['id', 'slug', 'title', 'summary', 'locale', 'publication', 'editorial', 'publishedOn', 'body', 'relatedEventIds', 'mediaIds', 'kind', 'credit', 'contextNote']);
 const translationKeys = new Set(['eventId', 'locale', 'title', 'summary', 'body', 'status', 'sourceRevision', 'reviewedOn']);
-const mediaKeys = new Set(['id', 'src', 'thumbnail', 'kind', 'videoPoster', 'duration', 'audioContent', 'transcript', 'captions', 'width', 'height', 'eventId', 'focalPoint', 'alt', 'caption', 'credit', 'publication', 'rights']);
+const mediaKeys = new Set(['id', 'src', 'thumbnail', 'kind', 'videoPoster', 'duration', 'audioContent', 'audioNote', 'transcript', 'captions', 'width', 'height', 'eventId', 'focalPoint', 'alt', 'caption', 'credit', 'publication', 'rights']);
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const datePattern = /^\d{4}-\d{2}-\d{2}$/;
 const instantPattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/;
@@ -392,7 +394,7 @@ export function validatePublicData(data: PublicData): string[] {
       if (media.videoPoster !== undefined && !localMediaPath(media.videoPoster, '.webp')) issue(key, 'Video poster must use a local WebP path');
       if (media.duration !== undefined && (!Number.isFinite(media.duration) || media.duration <= 0)) issue(key, 'Video duration must be positive seconds');
       if (media.audioContent !== undefined && !['music', 'speech', 'silent', 'ambient'].includes(media.audioContent)) issue(key, 'Unknown video audio content');
-      for (const [field, texts] of [['transcript', media.transcript], ['captions', media.captions]] as const) {
+      for (const [field, texts] of [['transcript', media.transcript], ['captions', media.captions], ['audioNote', media.audioNote]] as const) {
         if (texts && (Object.keys(texts).some(locale => !['en', 'fa'].includes(locale)) || Object.values(texts).some(text => !text?.trim()))) issue(key, `Video ${field} needs supported languages and nonblank values`);
       }
       if (media.captions) for (const value of Object.values(media.captions)) {
@@ -402,8 +404,9 @@ export function validatePublicData(data: PublicData): string[] {
         if (!media.videoPoster || media.duration === undefined || !media.audioContent) issue(key, 'Published videos need a poster, duration and audio content classification');
         if (!media.transcript?.en?.trim() || !media.transcript.fa?.trim()) issue(key, 'Published videos need English and Persian descriptive transcripts');
         if (media.audioContent === 'speech' && (!media.captions?.en || !media.captions.fa)) issue(key, 'Speech videos need English and Persian timed captions');
+        if (media.audioNote && (!media.audioNote.en?.trim() || !media.audioNote.fa?.trim())) issue(key, 'Audio notes need English and Persian text');
       }
-    } else if (['videoPoster', 'duration', 'audioContent', 'transcript', 'captions'].some(field => field in media)) issue(key, 'Video fields belong to video records');
+    } else if (['videoPoster', 'duration', 'audioContent', 'audioNote', 'transcript', 'captions'].some(field => field in media)) issue(key, 'Video fields belong to video records');
   });
   const translated = new Set<string>();
   data.eventTranslations.forEach(translation => {
@@ -422,9 +425,10 @@ export function validatePublicData(data: PublicData): string[] {
     if (!slugPattern.test(story.id) || !slugPattern.test(story.slug)) issue(key, 'ID and slug must use lowercase words and hyphens');
     if (!['en', 'fa'].includes(story.locale)) issue(key, 'Unknown story locale');
     if (!['draft', 'published'].includes(story.publication) || !['draft', 'edited', 'reviewed', 'not_translated'].includes(story.editorial)) issue(key, 'Unknown story publication or editorial state');
-    if (!['story', 'yearbook'].includes(story.kind)) issue(key, 'Unknown story kind');
+    if (!['story', 'yearbook', 'document'].includes(story.kind)) issue(key, 'Unknown story kind');
     if (!isDay(story.publishedOn)) issue(key, 'Publication date must be a valid ISO day');
     if (story.publication === 'published' && story.editorial !== 'reviewed') issue(key, 'Published stories need reviewed text');
+    if (story.kind === 'document' && story.publication === 'published' && (typeof story.contextNote !== 'string' || !story.contextNote.trim() || !story.body.length || story.body.some(paragraph => !paragraph.trim()))) issue(key, 'Published documents need historical context and readable text');
     if (data.stories.some(other => other.id !== story.id && other.slug === story.slug && other.locale === story.locale)) issue(key, 'Story URL must be unique within a locale');
     story.relatedEventIds.forEach(id => { if (!eventIds.has(id)) issue(key, 'Event reference does not exist'); });
     story.mediaIds.forEach(id => { if (!mediaIds.has(id)) issue(key, 'Media reference does not exist'); });

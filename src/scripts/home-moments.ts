@@ -83,7 +83,7 @@ export function setupHomeMoments(root: HTMLElement) {
   videos.forEach(video => video.addEventListener('play', () => {
     videos.filter(other => other !== video).forEach(other => other.pause());
     const index = moments.findIndex(moment => moment.contains(video));
-    if (index >= 0) goTo(index);
+    if (index >= 0) update(index, true);
   }));
   const visibility = new IntersectionObserver(entries => {
     entries.forEach(entry => { if (!entry.isIntersecting) (entry.target as HTMLVideoElement).pause(); });

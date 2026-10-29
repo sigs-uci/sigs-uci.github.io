@@ -1,6 +1,14 @@
 import { boardTerms, organization, programs, type BoardTerm } from '../data';
-import { archiveYears } from './archive';
+import { archiveYears, archiveDescription } from './archive';
 import { mediaCollections, albumPagePath, albumPages } from './media';
+import type { Locale } from '../config/site';
+
+export interface PageDefinition {
+  path: string;
+  title: string;
+  description: string;
+  localized?: Partial<Record<Locale, { title: string; description: string }>>;
+}
 
 const corePages = [
   { path: '', title: 'Meet SIGS.', description: 'The Iranian graduate student community at UC Irvine. Find gatherings, meet the team, and get in touch.' },
@@ -8,7 +16,7 @@ const corePages = [
   { path: 'events/archive', title: 'The event archive', description: 'Cultural celebrations, film, poetry, and community gatherings from the SIGS record.' },
   { path: 'community', title: 'A community beyond the classroom.', description: 'Celebrations, conversations, and connections across the Iranian graduate community at UC Irvine.' },
   { path: 'community/memories', title: 'Memories', description: 'Photos and videos from SIGS celebrations and outings, alongside invitations from past events.' },
-  { path: 'community/videos', title: 'Videos', description: 'Watch short films from SIGS gatherings, celebrations and outings.' },
+  { path: 'community/videos', title: 'Videos', description: 'Watch SIGS gatherings, rehearsals and archival invitations, with English and Persian descriptions.' },
   { path: 'resources', title: 'Find what you need.', description: 'Official UC Irvine resources for arriving on campus, student life, and support.' },
   { path: 'resources/new-students', title: 'New to UCI?', description: 'A starting point for housing, campus services, transport, and finding your community.' },
   { path: 'about', title: 'This is SIGS.', description: 'Meet the Society of Iranian Graduate Students at UC Irvine and the people who keep it going.' },
@@ -23,7 +31,7 @@ const corePages = [
   { path: 'languages', title: 'English and Persian', description: 'Read SIGS in English and Persian, with shared event facts and a route for language corrections.' },
 ];
 
-export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTermId = organization.currentBoardTermId) {
+export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTermId = organization.currentBoardTermId): PageDefinition[] {
   const current = terms.find(term => term.id === currentTermId);
   return [
     ...corePages.map(page => page.path === 'about/leadership' && current
@@ -32,9 +40,10 @@ export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTerm
     ...terms.map(term => ({ path: `about/leadership/${term.id}`, title: `The ${term.term} team`,
       description: `The ${term.status === 'current' ? 'current' : 'previous'} SIGS team, with roles and contacts listed for ${term.term}.` })),
     ...programs.map(program => ({ path: `community/programs/${program.id}`, title: program.name, description: program.summary })),
-    ...mediaCollections.flatMap(collection=>Array.from({length:albumPages(collection)},(_,index)=>({path:albumPagePath(collection,index+1),title:collection.title.en,description:collection.description.en}))),
+    ...mediaCollections.flatMap(collection=>Array.from({length:albumPages(collection)},(_,index)=>({path:albumPagePath(collection,index+1),title:collection.title.en,description:collection.description.en,localized:{fa:{title:collection.title.fa,description:collection.description.fa}}}))),
     ...archiveYears().map(entry => ({ path: `events/archive/${entry.year}`, title: `SIGS in ${entry.year}`,
-      description: `Browse ${entry.records.length} historical event record${entry.records.length === 1 ? '' : 's'} from ${entry.year}, with dates, descriptions, and the context of each gathering or announcement.` })),
+      description: archiveDescription(entry.year, entry.records.length),
+      localized: { fa: { title: `SIGS در ${new Intl.NumberFormat('fa-IR', { useGrouping: false }).format(Number(entry.year))}`, description: archiveDescription(entry.year, entry.records.length, 'fa') } } })),
   ];
 }
 

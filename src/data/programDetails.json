@@ -52,13 +52,14 @@
     "id": "welcome-and-orientation",
     "title": "A welcome to campus",
     "intro": "Getting settled involves small questions as well as official paperwork. Welcome gatherings and orientation materials are part of SIGS's history of helping incoming students find their feet at UC Irvine.",
-    "periodLabel": "Orientation and welcome records from 2012, 2017 and 2023",
+    "periodLabel": "Orientation and welcome records from 2012 to 2023",
     "sections": [
       {
         "title": "Meeting the next group of students",
         "paragraphs": [
           "SIGS joined International Graduate Students Orientation in 2012 and invited new Iranian students to find the team at the Student Center. A 2017 invitation offered another welcome at Verano Place BBQ.",
-          "In September 2023, SIGS welcomed new students to Palo Verde for information, Q&A and dinner. Iranian Students of California supported the gathering through its NewComers program."
+          "In September 2023, SIGS welcomed new students to Palo Verde for information, Q&A and dinner. Iranian Students of California supported the gathering through its NewComers program.",
+          "The 2018 welcome invitation brought the barbecue and orientation format to Verano Place Commons for new and returning UCI students and alumni."
         ]
       },
       {
@@ -72,7 +73,8 @@
     "relatedEventIds": [
       "orientation-2012",
       "welcome-2017",
-      "welcome-2023"
+      "welcome-2023",
+      "welcome-2018"
     ],
     "relatedPaths": [
       {
@@ -100,14 +102,22 @@
         "title": "An evening at the beach",
         "paragraphs": [
           "A fall 2017 bonfire at Corona del Mar is preserved in the community archive without an exact day. The July 2018 Huntington Beach gathering has a dated volleyball tournament invitation and a later thank-you video.",
-          "The archive also keeps later bonfire invitations. Where a gathering was only announced, its record keeps that distinction."
+          "The archive also keeps later bonfire invitations. Where a gathering was only announced, its record keeps that distinction.",
+          "In August 2019, SIGS invited the community to another beach volleyball tournament at Corona del Mar, with two-player teams and a gift card for the winners."
         ]
       },
       {
         "title": "Games and a shared meal",
         "paragraphs": [
           "Game Night 11 was advertised at Palo Verde in August 2017, with a potluck meal and card and board games. Later invitations included online Mafia and more evenings at the clubhouse.",
-          "Iftar brought friends to Palo Verde in 2017. Other invitations included a 2012 barbecue, Iftar in 2015, 2018 and 2019, and a Persian breakfast in March 2019."
+          "Iftar brought friends to Palo Verde in 2017. Other invitations included a 2012 barbecue, Iftar in 2015, 2018 and 2019, and a Persian breakfast in March 2019.",
+          "SIGS invited students to Bowlmor Lanes for bowling in May 2019. A June invitation followed for an end-of-year potluck at Verano Place Commons, with burgers, hot dogs and shared dishes for lunch."
+        ]
+      },
+      {
+        "title": "Looking after the community",
+        "paragraphs": [
+          "The invitations also included time for practical questions. In September 2020, SIGS and Seeb Magazine advertised a Persian-language Zoom talk on nutrition and wellness with Dr. Zahra Azadbadi."
         ]
       }
     ],
@@ -117,7 +127,11 @@
       "taco-tuesday-2018",
       "game-night-11-2017",
       "iftar-2017",
-      "persian-breakfast-2019"
+      "persian-breakfast-2019",
+      "beach-volleyball-2019",
+      "bowling-2019",
+      "potluck-2019",
+      "nutrition-wellness-2020"
     ],
     "relatedPaths": [
       {
@@ -152,7 +166,14 @@
         "title": "Different years, different formats",
         "paragraphs": [
           "The March 2020 Nowruz celebration was cancelled. A virtual Yalda was advertised that December, followed by the Milad Derakhshani online Nowruz concert announcement in March 2021.",
-          "The 2025 Yalda invitation returned to Verano Community Center with Persian music, classical poetry, dinner and pomegranates. The online programs and the 2025 gathering remain archived announcements."
+          "The 2025 Yalda invitation returned to Verano Community Center with Persian music, classical poetry, dinner and pomegranates. The online programs and the 2025 gathering remain archived announcements.",
+          "For Nowruz 2022, SIGS and Northeastern University's Global Learner Support announced a program with Massoume Price on Nowruz history, symbolism and celebrations around the world, alongside traditional music from UCI."
+        ]
+      },
+      {
+        "title": "Music and cultural conversation",
+        "paragraphs": [
+          "The 2013 archive also includes SIGS's invitation to a lecture with Mohammad Reza Shajarian and the Pournazeri brothers on new instruments in Persian classical music, co-sponsored by the Samuel Jordan Center."
         ]
       }
     ],
@@ -165,7 +186,9 @@
       "nowruz-2020",
       "yalda-2020",
       "nowruz-2021",
-      "yalda-2025"
+      "yalda-2025",
+      "nowruz-2022",
+      "shajarian-2013"
     ],
     "relatedPaths": [
       {
@@ -203,7 +226,8 @@
         "title": "Career panels and technology conversations",
         "paragraphs": [
           "The Iranian American Alumni Chapter and SIGS advertised a June 2019 career panel at Newkirk Alumni Center, with discussion of the automotive industry, law and biotechnology.",
-          "In May 2023, SIGS and Iranian Students of California invited the community to Persian Tech Network at Plug and Play HQ and online."
+          "In May 2023, SIGS and Iranian Students of California invited the community to Persian Tech Network at Plug and Play HQ and online.",
+          "In January 2019, SIGS shared a networking invitation for students and alumni at Newkirk Alumni Center. An August invitation offered questions for immigration attorney Gazal N. Mehrani about the travel ban and HR-1044."
         ]
       },
       {
@@ -224,7 +248,9 @@
       "innovation-forum-2018",
       "career-panel-2019",
       "persian-tech-network-2023",
-      "networking-2025"
+      "networking-2025",
+      "iranian-american-reception-2019",
+      "immigration-panel-2019"
     ],
     "relatedPaths": [
       {
@@ -264,7 +290,8 @@
         "title": "Films and the people behind them",
         "paragraphs": [
           "A 2013 Saadat Abad screening invitation included a Q&A with Maziar Miri. A 2014 Hush! Girls Don't Scream invitation named Pouran Derakhshandeh, the film's director and producer.",
-          "The 2016 Tales invitation paired the film with a screenwriter Q&A. SIGS and the Visual Studies PhD Program co-sponsored the Jordan Center event. A later 2024 movie-night invitation offered another evening of films and music."
+          "The 2016 Tales invitation paired the film with a screenwriter Q&A. SIGS and the Visual Studies PhD Program co-sponsored the Jordan Center event. A later 2024 movie-night invitation offered another evening of films and music.",
+          "SIGS took part in Pol Media's Orange County film weekend in July 2019. The following year, SIGS appeared among the California student groups inviting viewers to Secrets of the Surface, followed by a panel with Maryam Mirzakhani's friends and collaborators."
         ]
       },
       {
@@ -285,7 +312,9 @@
       "hush-2014",
       "tales-2016",
       "poetry-night-2019",
-      "movie-night-2024"
+      "movie-night-2024",
+      "pol-media-film-weekend-2019",
+      "secrets-of-the-surface-2020"
     ],
     "relatedPaths": [
       {

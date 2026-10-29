@@ -47,7 +47,9 @@ Set `eventId` to a supported canonical event ID or null. Unknown names and dates
 
 Image `src` paths use WebP derivatives. An optional `thumbnail` points to a smaller local WebP file for gallery previews. Use `kind: "poster"` for a historical poster that should be shown in full. Poster wording and QR codes stay in their dated context; they do not reopen registration. Record the dimensions of the actual public derivative after preparing it. Preserve visible credits and use an honest unknown-credit label when the photographer or designer is not recorded.
 
-Video `src` paths use MP4. A published video also needs `videoPoster` pointing to a local WebP frame, positive `duration` in seconds, `audioContent`, and English and Persian descriptive text in `transcript`. `audioContent` describes the public file and accepts `silent`, `ambient`, `music` or `speech`. For an edition with audio removed, both descriptions must say it is a silent web version; do not describe the original as silent. Speech requires reviewed timed WebVTT files in both languages through `captions.en` and `captions.fa`. The visible caption gives the supported occasion or context without guessing event names or dates. Put visual detail in alt text and `transcript`, and describe relevant sound in `transcript`.
+Video `src` paths use MP4. A published video also needs `videoPoster` pointing to a local WebP frame, positive `duration` in seconds, `audioContent`, and English and Persian descriptive text in `transcript`. `audioContent` describes the public file and accepts `silent`, `ambient`, `music` or `speech`. Preserve the original sound. Use `silent` for files without an audio track and explain when the original has no sound. If there is a specific editorial reason to remove audio, identify that edition in both descriptions. Speech requires reviewed timed WebVTT files in both languages through `captions.en` and `captions.fa`. The player offers both tracks and defaults to the page language. The visible caption gives the supported occasion or context without guessing event names or dates. Put visual detail in alt text and `transcript`, and describe relevant sound in `transcript`.
+
+An optional `audioNote` gives visitors a visible explanation of an audio limitation, such as a gap already present in the source. Supply both `en` and `fa`. Do not fill missing original audio with an unrelated soundtrack or infer the cause of a gap.
 
 ## Media collection
 
@@ -68,9 +70,11 @@ Every published, approved media record belongs to exactly one collection. Valida
 
 A `BoardTerm` holds its ID, displayed term, current/former state and ordered memberships. Each membership links a stable person ID to that term, with the approved public name, role, group, display order and term-specific Telegram URL. Optional portrait, biography and continuous membership dates remain null when unknown.
 
-## Story or annual highlights
+## Story, document or annual highlights
 
 A `StoryRecord` in `src/data/stories.json` needs a stable ID/slug, title, summary, locale, publication/editorial states, actual publication date, body paragraphs, related event IDs, approved media IDs and any approved credit. Use `kind: "yearbook"` for annual highlights. Publish an edition only after its reflections and claims have been reviewed. A gallery uses existing event records; it does not create duplicate events.
+
+Use `kind: "document"` for a historical document with readable text and its original pages. A published document requires readable body paragraphs and a separate `contextNote` explaining its historical context. Preserve the original date and institutional authorship, and distinguish the historical text from a current invitation or position. Provide a reviewed record for each language, sharing the same slug, and keep page IDs in reading order. A collection links to a reading when they share approved media. Check a transcription against every original page and review its translation before publication.
 
 ## Event translation
 

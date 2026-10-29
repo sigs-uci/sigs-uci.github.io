@@ -1257,8 +1257,8 @@
     "duration": 25.466667,
     "audioContent": "silent",
     "transcript": {
-      "en": "A silent aerial view circles above a ring of lights on a dark beach.",
-      "fa": "در این فیلم بی‌صدا، نمای هوایی بالای حلقه‌ای از نور در ساحل تاریک حرکت می‌کند."
+      "en": "A silent aerial view circles above a ring of lights on a dark beach. The original recording has no audio.",
+      "fa": "در این فیلم بی‌صدا، نمای هوایی بالای حلقه‌ای از نور در ساحل تاریک حرکت می‌کند. نسخهٔ اصلی فیلم صدا ندارد."
     },
     "eventId": null,
     "focalPoint": [
@@ -1287,8 +1287,8 @@
     "duration": 28.966667,
     "audioContent": "silent",
     "transcript": {
-      "en": "Silent aerial footage moves over people gathered near beach fires and a ring of lights.",
-      "fa": "در این فیلم هوایی بی‌صدا، دوربین از بالای افرادی نزدیک آتش‌های ساحل و حلقه‌ای از نور می‌گذرد."
+      "en": "Silent aerial footage moves over people gathered near beach fires and a ring of lights. The original recording has no audio.",
+      "fa": "در این فیلم هوایی بی‌صدا، دوربین از بالای افرادی نزدیک آتش‌های ساحل و حلقه‌ای از نور می‌گذرد. نسخهٔ اصلی فیلم صدا ندارد."
     },
     "eventId": null,
     "focalPoint": [
@@ -1317,8 +1317,8 @@
     "duration": 6.4,
     "audioContent": "silent",
     "transcript": {
-      "en": "Silent aerial footage pulls back from a beach gathering to show the sand, fires and nearby walkway.",
-      "fa": "در این فیلم هوایی بی‌صدا، دوربین از دورهمی ساحلی فاصله می‌گیرد و شن‌ها، آتش‌ها و مسیر پیاده‌روی نزدیک را نشان می‌دهد."
+      "en": "Silent aerial footage pulls back from a beach gathering to show the sand, fires and nearby walkway. The original recording has no audio.",
+      "fa": "در این فیلم هوایی بی‌صدا، دوربین از دورهمی ساحلی فاصله می‌گیرد و شن‌ها، آتش‌ها و مسیر پیاده‌روی نزدیک را نشان می‌دهد. نسخهٔ اصلی فیلم صدا ندارد."
     },
     "eventId": null,
     "focalPoint": [
@@ -2251,16 +2251,16 @@
   },
   {
     "id": "community-meals-video-091",
-    "src": "/media/collections/community-meals-video-091.mp4",
+    "src": "/media/community-meals-video-091-with-audio.mp4",
     "kind": "video",
     "videoPoster": "/media/collections/community-meals-video-091-poster.webp",
     "width": 720,
     "height": 1280,
     "duration": 7.5,
-    "audioContent": "silent",
+    "audioContent": "speech",
     "transcript": {
-      "en": "Silent web version: the camera moves along a buffet table, showing people serving food, warming trays, salad and drinks.",
-      "fa": "نسخهٔ بی‌صدای وب: دوربین در طول میز بوفه حرکت می‌کند و افرادی در حال کشیدن غذا، ظرف‌های گرم‌کن، سالاد و نوشیدنی‌ها را نشان می‌دهد."
+      "en": "the camera moves along a buffet table, showing people serving food, warming trays, salad and drinks. Overlapping conversation and background music accompany the buffet scene.",
+      "fa": "دوربین در طول میز بوفه حرکت می‌کند و افرادی در حال کشیدن غذا، ظرف‌های گرم‌کن، سالاد و نوشیدنی‌ها را نشان می‌دهد. صدای هم‌زمان گفت‌وگوها و موسیقی پس‌زمینه در کنار میز بوفه شنیده می‌شود."
     },
     "eventId": null,
     "focalPoint": [
@@ -2277,20 +2277,24 @@
     },
     "credit": "Videographer not recorded.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/community-meals-video-091-en.vtt",
+      "fa": "/media/captions/community-meals-video-091-fa.vtt"
+    }
   },
   {
     "id": "community-meals-video-092",
-    "src": "/media/collections/community-meals-video-092.mp4",
+    "src": "/media/community-meals-video-092-with-audio.mp4",
     "kind": "video",
     "videoPoster": "/media/collections/community-meals-video-092-poster.webp",
     "width": 720,
     "height": 1280,
-    "duration": 9.633333,
-    "audioContent": "silent",
+    "duration": 9.635011,
+    "audioContent": "speech",
     "transcript": {
-      "en": "Silent web version: a close view moves from one tray of food to the next, ending with salad bowls and rows of drinks.",
-      "fa": "نسخهٔ بی‌صدای وب: نمای نزدیک از یک ظرف غذا به ظرف بعدی می‌رود و در پایان کاسه‌های سالاد و ردیف نوشیدنی‌ها را نشان می‌دهد."
+      "en": "a close view moves from one tray of food to the next, ending with salad bowls and rows of drinks. Overlapping conversation and background music accompany the buffet scene.",
+      "fa": "نمای نزدیک از یک ظرف غذا به ظرف بعدی می‌رود و در پایان کاسه‌های سالاد و ردیف نوشیدنی‌ها را نشان می‌دهد. صدای هم‌زمان گفت‌وگوها و موسیقی پس‌زمینه در کنار میز بوفه شنیده می‌شود."
     },
     "eventId": null,
     "focalPoint": [
@@ -2307,20 +2311,24 @@
     },
     "credit": "Videographer not recorded.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/community-meals-video-092-en.vtt",
+      "fa": "/media/captions/community-meals-video-092-fa.vtt"
+    }
   },
   {
     "id": "community-meals-video-093",
-    "src": "/media/collections/community-meals-video-093.mp4",
+    "src": "/media/community-meals-video-093-with-audio.mp4",
     "kind": "video",
     "videoPoster": "/media/collections/community-meals-video-093-poster.webp",
     "width": 720,
     "height": 1280,
-    "duration": 9.733333,
-    "audioContent": "silent",
+    "duration": 9.750998,
+    "audioContent": "speech",
     "transcript": {
-      "en": "Silent web version: the camera turns from the buffet queue toward round tables where attendees sit and talk.",
-      "fa": "نسخهٔ بی‌صدای وب: دوربین از صف بوفه به سمت میزهای گرد می‌چرخد؛ شرکت‌کنندگان پشت میزها نشسته‌اند و صحبت می‌کنند."
+      "en": "the camera turns from the buffet queue toward round tables where attendees sit and talk. Overlapping conversation and background music fill the dining room.",
+      "fa": "دوربین از صف بوفه به سمت میزهای گرد می‌چرخد؛ شرکت‌کنندگان پشت میزها نشسته‌اند و صحبت می‌کنند. صدای هم‌زمان گفت‌وگوها و موسیقی پس‌زمینه در سالن غذاخوری شنیده می‌شود."
     },
     "eventId": null,
     "focalPoint": [
@@ -2337,20 +2345,24 @@
     },
     "credit": "Videographer not recorded.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/community-meals-video-093-en.vtt",
+      "fa": "/media/captions/community-meals-video-093-fa.vtt"
+    }
   },
   {
     "id": "community-meals-video-094",
-    "src": "/media/collections/community-meals-video-094.mp4",
+    "src": "/media/community-meals-video-094-with-audio.mp4",
     "kind": "video",
     "videoPoster": "/media/collections/community-meals-video-094-poster.webp",
     "width": 720,
     "height": 1280,
-    "duration": 6.633333,
-    "audioContent": "silent",
+    "duration": 6.64,
+    "audioContent": "speech",
     "transcript": {
-      "en": "Silent web version: the camera moves along warming trays, showing several dishes and serving utensils.",
-      "fa": "نسخهٔ بی‌صدای وب: دوربین در طول ظرف‌های گرم‌کن حرکت می‌کند و چند نوع غذا و وسایل کشیدن غذا را نشان می‌دهد."
+      "en": "the camera moves along warming trays, showing several dishes and serving utensils. Overlapping conversation is audible beside the buffet.",
+      "fa": "دوربین در طول ظرف‌های گرم‌کن حرکت می‌کند و چند نوع غذا و وسایل کشیدن غذا را نشان می‌دهد. صدای هم‌زمان گفت‌وگوها در کنار میز بوفه شنیده می‌شود."
     },
     "eventId": null,
     "focalPoint": [
@@ -2367,7 +2379,11 @@
     },
     "credit": "Videographer not recorded.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/community-meals-video-094-en.vtt",
+      "fa": "/media/captions/community-meals-video-094-fa.vtt"
+    }
   },
   {
     "id": "community-meals-image-095",
@@ -28219,18 +28235,18 @@
   },
   {
     "id": "nowruz-2019-dance-rehearsal",
-    "src": "/media/nowruz-2019-dance-rehearsal-silent.mp4",
+    "src": "/media/nowruz-2019-dance-rehearsal-with-audio.mp4",
     "thumbnail": "/media/nowruz-2019-dance-rehearsal-small.webp",
     "kind": "video",
     "videoPoster": "/media/nowruz-2019-dance-rehearsal-poster.webp",
     "width": 400,
     "height": 218,
-    "duration": 44.8,
+    "duration": 44.976009,
     "eventId": "nowruz-2019",
-    "audioContent": "silent",
+    "audioContent": "music",
     "transcript": {
-      "en": "Silent version. A group rehearses a dance routine in a studio before the Nowruz 1398 celebration. The dancers step, turn and raise their arms together in front of a mirrored wall.",
-      "fa": "نسخهٔ بی‌صدا. گروهی پیش از جشن نوروز ۱۳۹۸ در سالن آینه‌دار رقص تمرین می‌کنند. رقصندگان هم‌زمان قدم برمی‌دارند، می‌چرخند و دست‌هایشان را بالا می‌برند."
+      "en": "A group rehearses a dance routine in a studio before the Nowruz 1398 celebration. The dancers step, turn and raise their arms together in front of a mirrored wall. Music plays during the rehearsal, with indistinct voices in the room.",
+      "fa": "گروهی پیش از جشن نوروز ۱۳۹۸ در سالن آینه‌دار رقص تمرین می‌کنند. رقصندگان هم‌زمان قدم برمی‌دارند، می‌چرخند و دست‌هایشان را بالا می‌برند. در طول تمرین، موسیقی و صدای نامفهوم افراد در سالن شنیده می‌شود."
     },
     "focalPoint": [
       0.5,
@@ -28241,27 +28257,31 @@
       "fa": "تمرین گروهی رقص در سالن آینه‌دار."
     },
     "caption": {
-      "en": "Dance rehearsal before Nowruz 1398, 2019. Silent version.",
-      "fa": "تمرین رقص پیش از جشن نوروز ۱۳۹۸، ۲۰۱۹. نسخهٔ بی‌صدا."
+      "en": "Dance rehearsal before Nowruz 1398, 2019.",
+      "fa": "تمرین رقص پیش از جشن نوروز ۱۳۹۸، ۲۰۱۹."
     },
     "credit": "SIGS archive.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/nowruz-2019-dance-rehearsal-en.vtt",
+      "fa": "/media/captions/nowruz-2019-dance-rehearsal-fa.vtt"
+    }
   },
   {
     "id": "football-gathering-recap",
-    "src": "/media/football-gathering-recap-silent.mp4",
+    "src": "/media/football-gathering-recap-with-audio.mp4",
     "thumbnail": "/media/football-gathering-recap-small.webp",
     "kind": "video",
     "videoPoster": "/media/football-gathering-recap-poster.webp",
     "width": 638,
     "height": 360,
-    "duration": 5.566667,
+    "duration": 5.619002,
     "eventId": null,
-    "audioContent": "silent",
+    "audioContent": "ambient",
     "transcript": {
-      "en": "Silent version. The camera pans across a crowded room of football fans, some wearing Iran shirts and raising their hands.",
-      "fa": "نسخهٔ بی‌صدا. دوربین جمعی از هواداران فوتبال را نشان می‌دهد؛ بعضی پیراهن ایران پوشیده‌اند و دست‌هایشان را بالا می‌برند."
+      "en": "The camera pans across a crowded room of football fans, some wearing Iran shirts and raising their hands. The crowd cheers together.",
+      "fa": "دوربین جمعی از هواداران فوتبال را نشان می‌دهد؛ بعضی پیراهن ایران پوشیده‌اند و دست‌هایشان را بالا می‌برند. صدای شادی و تشویق جمعیت شنیده می‌شود."
     },
     "focalPoint": [
       0.5,
@@ -28272,27 +28292,31 @@
       "fa": "شادی هواداران فوتبال در اتاقی پر از جمعیت."
     },
     "caption": {
-      "en": "Football with the SIGS community. Silent version.",
-      "fa": "فوتبال با جمع SIGS. نسخهٔ بی‌صدا."
+      "en": "Football with the SIGS community.",
+      "fa": "فوتبال با جمع SIGS."
     },
     "credit": "SIGS archive.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/football-gathering-recap-en.vtt",
+      "fa": "/media/captions/football-gathering-recap-fa.vtt"
+    }
   },
   {
     "id": "beach-volleyball-2018-recap",
-    "src": "/media/beach-volleyball-2018-recap-silent.mp4",
+    "src": "/media/beach-volleyball-2018-recap-with-audio.mp4",
     "thumbnail": "/media/beach-volleyball-2018-recap-small.webp",
     "kind": "video",
     "videoPoster": "/media/beach-volleyball-2018-recap-poster.webp",
     "width": 640,
     "height": 360,
-    "duration": 59.833333,
+    "duration": 59.953991,
     "eventId": "beach-volleyball-2018",
-    "audioContent": "silent",
+    "audioContent": "music",
     "transcript": {
-      "en": "Silent version. The clip begins with picnic food and friends playing backgammon on a blue groundsheet. Players rally a volleyball across a beach net. The camera returns to the picnic group and ends with a view of the ocean.",
-      "fa": "نسخهٔ بی‌صدا. فیلم با خوراکی‌های پیک‌نیک و بازی تخته‌نرد روی زیرانداز آبی آغاز می‌شود. بازیکنان در زمین ساحلی توپ والیبال را از روی تور رد می‌کنند. دوربین دوباره جمع کنار پیک‌نیک را نشان می‌دهد و با نمایی از دریا پایان می‌یابد."
+      "en": "The clip begins with picnic food and friends playing backgammon on a blue groundsheet. Players rally a volleyball across a beach net. The camera returns to the picnic group and ends with a view of the ocean. The original audio has brief music at the beginning and end. The middle section is silent.",
+      "fa": "فیلم با خوراکی‌های پیک‌نیک و بازی تخته‌نرد روی زیرانداز آبی آغاز می‌شود. بازیکنان در زمین ساحلی توپ والیبال را از روی تور رد می‌کنند. دوربین دوباره جمع کنار پیک‌نیک را نشان می‌دهد و با نمایی از دریا پایان می‌یابد. صدای نسخهٔ اصلی، موسیقی کوتاهی در ابتدا و انتها دارد و بخش میانی آن بی‌صداست."
     },
     "focalPoint": [
       0.5,
@@ -28303,16 +28327,24 @@
       "fa": "بازی والیبال و تخته‌نرد در کنار ساحل."
     },
     "caption": {
-      "en": "Beach volleyball and a day by the water, July 2018. Silent version.",
-      "fa": "والیبال ساحلی و یک روز کنار دریا، ژوئیهٔ ۲۰۱۸. نسخهٔ بی‌صدا."
+      "en": "Beach volleyball and a day by the water, July 2018.",
+      "fa": "والیبال ساحلی و یک روز کنار دریا، ژوئیهٔ ۲۰۱۸."
     },
     "credit": "SIGS archive.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "audioNote": {
+      "en": "The original recording has sound only at the beginning and end. The middle is silent.",
+      "fa": "نسخهٔ اصلی فقط در ابتدا و انتها صدا دارد. بخش میانی فیلم بی‌صداست."
+    },
+    "captions": {
+      "en": "/media/captions/beach-volleyball-2018-recap-en.vtt",
+      "fa": "/media/captions/beach-volleyball-2018-recap-fa.vtt"
+    }
   },
   {
     "id": "taco-tuesday-2018-recap",
-    "src": "/media/taco-tuesday-2018-recap-silent.mp4",
+    "src": "/media/taco-tuesday-2018-recap-with-audio.mp4",
     "thumbnail": "/media/taco-tuesday-2018-recap-small.webp",
     "kind": "video",
     "videoPoster": "/media/taco-tuesday-2018-recap-poster.webp",
@@ -28320,10 +28352,10 @@
     "height": 800,
     "duration": 58.166667,
     "eventId": "taco-tuesday-2018",
-    "audioContent": "silent",
+    "audioContent": "music",
     "transcript": {
-      "en": "Silent version. Friends spend Taco Tuesday together in a restaurant. The handheld camera moves past tables and people dancing beneath colored lights, with television screens in the background.",
-      "fa": "نسخهٔ بی‌صدا. دوستان سه‌شنبهٔ تاکو را در رستوران کنار هم می‌گذرانند. دوربین دستی از کنار میزها و افرادی که زیر نورهای رنگی می‌رقصند عبور می‌کند؛ تلویزیون‌ها در پس‌زمینه دیده می‌شوند."
+      "en": "Friends spend Taco Tuesday together in a restaurant. The handheld camera moves past tables and people dancing beneath colored lights, with television screens in the background. Dance music accompanies the clip.",
+      "fa": "دوستان سه‌شنبهٔ تاکو را در رستوران کنار هم می‌گذرانند. دوربین دستی از کنار میزها و افرادی که زیر نورهای رنگی می‌رقصند عبور می‌کند؛ تلویزیون‌ها در پس‌زمینه دیده می‌شوند. موسیقی رقص در طول فیلم پخش می‌شود."
     },
     "focalPoint": [
       0.5,
@@ -28334,27 +28366,31 @@
       "fa": "دوستان در فضای رقص رستوران، زیر نورهای رنگی."
     },
     "caption": {
-      "en": "Taco Tuesday with the SIGS community, July 2018. Silent version.",
-      "fa": "سه‌شنبهٔ تاکو با جمع SIGS، ژوئیهٔ ۲۰۱۸. نسخهٔ بی‌صدا."
+      "en": "Taco Tuesday with the SIGS community, July 2018.",
+      "fa": "سه‌شنبهٔ تاکو با جمع SIGS، ژوئیهٔ ۲۰۱۸."
     },
     "credit": "SIGS archive.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/taco-tuesday-2018-recap-en.vtt",
+      "fa": "/media/captions/taco-tuesday-2018-recap-fa.vtt"
+    }
   },
   {
     "id": "yalda-2018-kamyar-performance",
-    "src": "/media/yalda-2018-kamyar-performance-silent.mp4",
+    "src": "/media/yalda-2018-kamyar-performance-with-audio.mp4",
     "thumbnail": "/media/yalda-2018-kamyar-performance-small.webp",
     "kind": "video",
     "videoPoster": "/media/yalda-2018-kamyar-performance-poster.webp",
     "width": 720,
     "height": 1280,
-    "duration": 26.88563,
+    "duration": 27.001995,
     "eventId": "yalda-2018",
-    "audioContent": "silent",
+    "audioContent": "music",
     "transcript": {
-      "en": "Silent version. Kamyar performs on the Yalda Night stage under changing colored lights. The camera turns between the singer and guests clapping and raising their hands near the stage.",
-      "fa": "نسخهٔ بی‌صدا. کامیار زیر نورهای رنگی روی صحنهٔ شب یلدا اجرا می‌کند. دوربین میان خواننده و مهمانانی که نزدیک صحنه دست می‌زنند و دست‌هایشان را بالا می‌برند جابه‌جا می‌شود."
+      "en": "Kamyar performs on the Yalda Night stage under changing colored lights. The camera turns between the singer and guests clapping and raising their hands near the stage. The recording includes live singing, music and indistinct voices near the stage.",
+      "fa": "کامیار زیر نورهای رنگی روی صحنهٔ شب یلدا اجرا می‌کند. دوربین میان خواننده و مهمانانی که نزدیک صحنه دست می‌زنند و دست‌هایشان را بالا می‌برند جابه‌جا می‌شود. فیلم شامل آواز زنده، موسیقی و صدای نامفهوم افراد نزدیک صحنه است."
     },
     "focalPoint": [
       0.5,
@@ -28365,12 +28401,16 @@
       "fa": "خواننده روی صحنه و مهمانانی با دست‌های بالا در برابر صحنه."
     },
     "caption": {
-      "en": "Kamyar on stage at Yalda Night, 2018. Silent version.",
-      "fa": "کامیار روی صحنهٔ شب یلدا، ۲۰۱۸. نسخهٔ بی‌صدا."
+      "en": "Kamyar on stage at Yalda Night, 2018.",
+      "fa": "کامیار روی صحنهٔ شب یلدا، ۲۰۱۸."
     },
     "credit": "SIGS archive.",
     "publication": "published",
-    "rights": "approved"
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/yalda-2018-kamyar-performance-en.vtt",
+      "fa": "/media/captions/yalda-2018-kamyar-performance-fa.vtt"
+    }
   },
   {
     "id": "yalda-2021-poster",
@@ -29353,6 +29393,2765 @@
       "fa": "دعوت به دورهمی ۸ مهٔ ۲۰۲۱ در ساحل کرونا دل مار."
     },
     "credit": "SIGS event archive.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-001",
+    "src": "/media/mehmooni-2018-photo-001.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-001-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 593,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends standing together beside the restaurant booths.",
+      "fa": "دوستان کنار میزهای رستوران ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-002",
+    "src": "/media/mehmooni-2018-photo-002.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-002-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends around a booth, with one guest reclining across its back.",
+      "fa": "دوستان دور میز رستوران؛ یکی از مهمانان روی پشتی صندلی دراز کشیده است."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-003",
+    "src": "/media/mehmooni-2018-photo-003.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-003-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dancing beneath small mirror balls.",
+      "fa": "مهمانان زیر گوی‌های آینه‌ای می‌رقصند."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-004",
+    "src": "/media/mehmooni-2018-photo-004.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-004-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people behind the DJ decks, with a laptop and headphones.",
+      "fa": "دو نفر پشت میز دی‌جی با لپ‌تاپ و هدفون."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-005",
+    "src": "/media/mehmooni-2018-photo-005.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-005-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests singing along and raising their hands on the dance floor.",
+      "fa": "مهمانان در حال هم‌خوانی و دست‌زدن در فضای رقص."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-006",
+    "src": "/media/mehmooni-2018-photo-006.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-006-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Three friends standing together on the dance floor.",
+      "fa": "سه دوست کنار هم در فضای رقص ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-007",
+    "src": "/media/mehmooni-2018-photo-007.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-007-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group of friends standing and kneeling together by the wall.",
+      "fa": "گروهی از دوستان کنار دیوار ایستاده و نشسته‌اند."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-008",
+    "src": "/media/mehmooni-2018-photo-008.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-008-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Three guests smiling together, with the dance floor behind them.",
+      "fa": "سه مهمان کنار هم لبخند می‌زنند؛ فضای رقص پشت سر آن‌هاست."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-009",
+    "src": "/media/mehmooni-2018-photo-009.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-009-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends using a phone while another guest dances in a blue dress.",
+      "fa": "دوستان با تلفن همراه عکس می‌گیرند و مهمانی با لباس آبی می‌رقصد."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-010",
+    "src": "/media/mehmooni-2018-photo-010.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-010-small.webp",
+    "kind": "photo",
+    "width": 890,
+    "height": 594,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dancing together across the restaurant floor.",
+      "fa": "مهمانان در فضای رستوران با هم می‌رقصند."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-011",
+    "src": "/media/mehmooni-2018-photo-011.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-011-small.webp",
+    "kind": "photo",
+    "width": 960,
+    "height": 640,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests talking beside the restaurant bar.",
+      "fa": "مهمانان کنار بار رستوران گفت‌وگو می‌کنند."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-photo-012",
+    "src": "/media/mehmooni-2018-photo-012.webp",
+    "thumbnail": "/media/mehmooni-2018-photo-012-small.webp",
+    "kind": "photo",
+    "width": 960,
+    "height": 640,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests talking outside the entrance after dark.",
+      "fa": "مهمانان پس از تاریک‌شدن هوا کنار ورودی گفت‌وگو می‌کنند."
+    },
+    "caption": {
+      "en": "Mehmooni 2018, with friends from UCLA and UCI.",
+      "fa": "مهمونی ۲۰۱۸، با دوستان UCLA و UCI."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-001",
+    "src": "/media/yalda-2019-photo-001.webp",
+    "thumbnail": "/media/yalda-2019-photo-001-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1009,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy singing into a microphone beside the audience.",
+      "fa": "سندی کنار تماشاگران با میکروفن آواز می‌خواند."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-002",
+    "src": "/media/yalda-2019-photo-002.webp",
+    "thumbnail": "/media/yalda-2019-photo-002-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1003,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests standing and kneeling together in front of the stage.",
+      "fa": "مهمانان جلوی صحنه ایستاده و نشسته‌اند."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-003",
+    "src": "/media/yalda-2019-photo-003.webp",
+    "thumbnail": "/media/yalda-2019-photo-003-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1003,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performing as guests raise their hands beside the stage.",
+      "fa": "اجرای سندی کنار مهمانانی که دست‌های خود را بالا برده‌اند."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-004",
+    "src": "/media/yalda-2019-photo-004.webp",
+    "thumbnail": "/media/yalda-2019-photo-004-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1009,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Red and purple bags of nuts with Yalda greeting tags.",
+      "fa": "کیسه‌های قرمز و بنفش آجیل با برچسب تبریک یلدا."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-005",
+    "src": "/media/yalda-2019-photo-005.webp",
+    "thumbnail": "/media/yalda-2019-photo-005-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1009,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A Yalda table with carved watermelon, pomegranates, flowers and candles.",
+      "fa": "سفرهٔ یلدا با هندوانهٔ حکاکی‌شده، انار، گل و شمع."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-006",
+    "src": "/media/yalda-2019-photo-006.webp",
+    "thumbnail": "/media/yalda-2019-photo-006-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1009,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A performer facing guests who hold up their phone lights.",
+      "fa": "اجراکننده رو به مهمانانی ایستاده که چراغ تلفن‌های خود را بالا گرفته‌اند."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-007",
+    "src": "/media/yalda-2019-photo-007.webp",
+    "thumbnail": "/media/yalda-2019-photo-007-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1009,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy singing near the front row of guests.",
+      "fa": "سندی نزدیک ردیف جلوی مهمانان آواز می‌خواند."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-008",
+    "src": "/media/yalda-2019-photo-008.webp",
+    "thumbnail": "/media/yalda-2019-photo-008-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1003,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A performer and guests holding phone lights aloft.",
+      "fa": "اجراکننده و مهمانان چراغ تلفن‌های خود را بالا گرفته‌اند."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-009",
+    "src": "/media/yalda-2019-photo-009.webp",
+    "thumbnail": "/media/yalda-2019-photo-009-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1009,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people working behind laptops and DJ decks.",
+      "fa": "دو نفر پشت لپ‌تاپ‌ها و تجهیزات دی‌جی کار می‌کنند."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-photo-010",
+    "src": "/media/yalda-2019-photo-010.webp",
+    "thumbnail": "/media/yalda-2019-photo-010-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1003,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Performers facing a crowd with raised hands.",
+      "fa": "اجراکنندگان رو به جمعی ایستاده‌اند که دست‌هایشان را بالا برده‌اند."
+    },
+    "caption": {
+      "en": "Yalda 2019: Sandy, music and a night with our community.",
+      "fa": "یلدای ۲۰۱۹؛ سندی، موسیقی و شبی در کنار جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-nowruz-table",
+    "src": "/media/community-nowruz-table.webp",
+    "thumbnail": "/media/community-nowruz-table-small.webp",
+    "kind": "photo",
+    "width": 960,
+    "height": 606,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A festive table with flowers, pastries, candles, an open book and string instruments.",
+      "fa": "میزی آراسته با گل، شیرینی، شمع، کتابی باز و سازهای زهی."
+    },
+    "caption": {
+      "en": "A taste of Nowruz with our community.",
+      "fa": "حال‌وهوای نوروز در جمع ما."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-campus-portrait-01",
+    "src": "/media/community-campus-portrait-01.webp",
+    "thumbnail": "/media/community-campus-portrait-01-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 1171,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Seven people beside the Peter the Anteater bench on a campus terrace.",
+      "fa": "هفت نفر کنار نیمکت پیتر مورچه‌خوار در تراس دانشگاه."
+    },
+    "caption": {
+      "en": "Faces from the SIGS community.",
+      "fa": "چهره‌هایی از جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "sigs-team-2023-photo-01",
+    "src": "/media/sigs-team-2023-photo-01.webp",
+    "thumbnail": "/media/sigs-team-2023-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Seven people seated and standing around a Peter the Anteater bench.",
+      "fa": "هفت نفر نشسته و ایستاده دور نیمکت پیتر مورچه‌خوار."
+    },
+    "caption": {
+      "en": "The SIGS team introduced in 2023.",
+      "fa": "تیمی که SIGS در سال ۲۰۲۳ معرفی کرد."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "sigs-team-2023-photo-02",
+    "src": "/media/sigs-team-2023-photo-02.webp",
+    "thumbnail": "/media/sigs-team-2023-photo-02-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Seven people in formal clothes beside the Peter the Anteater bench.",
+      "fa": "هفت نفر با لباس رسمی کنار نیمکت پیتر مورچه‌خوار."
+    },
+    "caption": {
+      "en": "The SIGS team introduced in 2023.",
+      "fa": "تیمی که SIGS در سال ۲۰۲۳ معرفی کرد."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "graduate-orientation-2019-community",
+    "src": "/media/graduate-orientation-2019-community.webp",
+    "thumbnail": "/media/graduate-orientation-2019-community-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 941,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Five people in blue UCI Grad Life shirts seated beneath a giant inflatable anteater.",
+      "fa": "پنج نفر با تی‌شرت‌های آبی UCI Grad Life زیر مورچه‌خوار بادی بزرگ نشسته‌اند."
+    },
+    "caption": {
+      "en": "UCI Graduate Orientation, 2019.",
+      "fa": "برنامهٔ آشنایی دانشجویان تحصیلات تکمیلی UCI، سال ۲۰۱۹."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "student-solidarity-2022-photo-01",
+    "src": "/media/student-solidarity-2022-photo-01.webp",
+    "thumbnail": "/media/student-solidarity-2022-photo-01-small.webp",
+    "kind": "photo",
+    "width": 886,
+    "height": 613,
+    "eventId": "student-solidarity-2022-12-07",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A participant holding a Students for Students placard in front of their face.",
+      "fa": "شرکت‌کننده‌ای پلاکارد Students for Students را جلوی صورت خود گرفته است."
+    },
+    "caption": {
+      "en": "Students for Students: the December 2022 solidarity action.",
+      "fa": "دانشجویان برای دانشجویان؛ برنامهٔ همبستگی دسامبر ۲۰۲۲."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "student-solidarity-2022-photo-02",
+    "src": "/media/student-solidarity-2022-photo-02.webp",
+    "thumbnail": "/media/student-solidarity-2022-photo-02-small.webp",
+    "kind": "photo",
+    "width": 886,
+    "height": 613,
+    "eventId": "student-solidarity-2022-12-07",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A participant holding a Student Day placard while others stand behind them.",
+      "fa": "شرکت‌کننده‌ای پلاکارد روز دانشجو را در دست دارد و دیگران پشت سر او ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Students for Students: the December 2022 solidarity action.",
+      "fa": "دانشجویان برای دانشجویان؛ برنامهٔ همبستگی دسامبر ۲۰۲۲."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "student-solidarity-2022-photo-03",
+    "src": "/media/student-solidarity-2022-photo-03.webp",
+    "thumbnail": "/media/student-solidarity-2022-photo-03-small.webp",
+    "kind": "photo",
+    "width": 883,
+    "height": 609,
+    "eventId": "student-solidarity-2022-12-07",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Participants holding placards outside the UCI water tower.",
+      "fa": "شرکت‌کنندگان با پلاکارد مقابل برج آب UCI ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Students for Students: the December 2022 solidarity action.",
+      "fa": "دانشجویان برای دانشجویان؛ برنامهٔ همبستگی دسامبر ۲۰۲۲."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2019-musician-setar",
+    "src": "/media/nowruz-2019-musician-setar.webp",
+    "thumbnail": "/media/nowruz-2019-musician-setar-small.webp",
+    "kind": "photo",
+    "width": 1066,
+    "height": 1600,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A seated musician playing a setar and singing into a microphone.",
+      "fa": "نوازنده‌ای نشسته سه‌تار می‌نوازد و با میکروفن می‌خواند."
+    },
+    "caption": {
+      "en": "Live traditional music at Nowruz 2019.",
+      "fa": "اجرای زندهٔ موسیقی سنتی در نوروز ۲۰۱۹."
+    },
+    "credit": "Mojgan Salehi & Pegah Pouladian. Visible mark: PegioR.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2019-musician-tombak",
+    "src": "/media/nowruz-2019-musician-tombak.webp",
+    "thumbnail": "/media/nowruz-2019-musician-tombak-small.webp",
+    "kind": "photo",
+    "width": 1066,
+    "height": 1600,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A seated percussionist playing a tombak beside a microphone.",
+      "fa": "نوازنده‌ای نشسته کنار میکروفن تنبک می‌نوازد."
+    },
+    "caption": {
+      "en": "Live traditional music at Nowruz 2019.",
+      "fa": "اجرای زندهٔ موسیقی سنتی در نوروز ۲۰۱۹."
+    },
+    "credit": "Mojgan Salehi & Pegah Pouladian. Visible mark: PegioR.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2019-guest-portrait",
+    "src": "/media/nowruz-2019-guest-portrait.webp",
+    "thumbnail": "/media/nowruz-2019-guest-portrait-small.webp",
+    "kind": "photo",
+    "width": 1066,
+    "height": 1600,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A guest in a dark suit, white shirt and tie.",
+      "fa": "مهمانی با کت‌وشلوار تیره، پیراهن سفید و کراوات."
+    },
+    "caption": {
+      "en": "Nowruz 2019 with the SIGS community.",
+      "fa": "نوروز ۲۰۱۹ در جمع SIGS."
+    },
+    "credit": "Mojgan Salehi & Pegah Pouladian. Visible mark: PegioR.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-football-portrait",
+    "src": "/media/community-football-portrait.webp",
+    "thumbnail": "/media/community-football-portrait-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 810,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group outside a community building with Iran shirts and an Iranian flag.",
+      "fa": "گروهی با پیراهن‌های ایران و پرچم ایران بیرون ساختمان اجتماعات ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Football with the SIGS community.",
+      "fa": "فوتبال در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "innovation-forum-2018-community",
+    "src": "/media/innovation-forum-2018-community.webp",
+    "thumbnail": "/media/innovation-forum-2018-community-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 981,
+    "eventId": "innovation-forum-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Eight people at an information table with cookies, laptops and a display screen.",
+      "fa": "هشت نفر کنار میز معرفی با شیرینی، لپ‌تاپ و نمایشگر ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Meeting friends at the Iranian American Innovation Forum, 2018.",
+      "fa": "دیدار دوستان در همایش نوآوری ایرانی‌آمریکایی، ۲۰۱۸."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "welcome-2018-community",
+    "src": "/media/welcome-2018-community.webp",
+    "thumbnail": "/media/welcome-2018-community-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 809,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests together beneath outdoor lights after dark.",
+      "fa": "مهمانان پس از تاریک‌شدن هوا زیر چراغ‌های فضای باز ایستاده‌اند."
+    },
+    "caption": {
+      "en": "A SIGS welcome gathering in 2018.",
+      "fa": "دورهمی خوشامدگویی SIGS در سال ۲۰۱۸."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "pol-film-weekend-2019-community",
+    "src": "/media/pol-film-weekend-2019-community.webp",
+    "thumbnail": "/media/pol-film-weekend-2019-community-small.webp",
+    "kind": "photo",
+    "width": 1124,
+    "height": 944,
+    "eventId": "pol-media-film-weekend-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests on a red carpet in front of the Pol Media backdrop.",
+      "fa": "مهمانان روی فرش قرمز مقابل پس‌زمینهٔ Pol Media ایستاده‌اند."
+    },
+    "caption": {
+      "en": "The SIGS community at the 2019 Pol Media film weekend.",
+      "fa": "جمع SIGS در برنامهٔ سینمایی Pol Media در سال ۲۰۱۹."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-greeting-2024-community",
+    "src": "/media/yalda-greeting-2024-community.webp",
+    "thumbnail": "/media/yalda-greeting-2024-community-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1080,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends sharing a long outdoor dinner table in the evening sun.",
+      "fa": "دوستان دور میز بلند شام در فضای باز و نور عصر نشسته‌اند."
+    },
+    "caption": {
+      "en": "A Yalda greeting from our community, shared in 2024.",
+      "fa": "تبریک یلدا از جمع ما، به‌اشتراک‌گذاشته‌شده در سال ۲۰۲۴."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-early-gathering-01",
+    "src": "/media/community-early-gathering-01.webp",
+    "thumbnail": "/media/community-early-gathering-01-small.webp",
+    "kind": "photo",
+    "width": 1200,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Four people standing together inside a lounge.",
+      "fa": "چهار نفر در سالن کنار هم ایستاده‌اند."
+    },
+    "caption": {
+      "en": "An evening with the SIGS community.",
+      "fa": "شبی در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-early-gathering-02",
+    "src": "/media/community-early-gathering-02.webp",
+    "thumbnail": "/media/community-early-gathering-02-small.webp",
+    "kind": "photo",
+    "width": 1200,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Three people standing together inside a lounge.",
+      "fa": "سه نفر در سالن کنار هم ایستاده‌اند."
+    },
+    "caption": {
+      "en": "An evening with the SIGS community.",
+      "fa": "شبی در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-early-gathering-03",
+    "src": "/media/community-early-gathering-03.webp",
+    "thumbnail": "/media/community-early-gathering-03-small.webp",
+    "kind": "photo",
+    "width": 1200,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people smiling together beside an interior wall.",
+      "fa": "دو نفر کنار دیوار داخلی لبخند می‌زنند."
+    },
+    "caption": {
+      "en": "An evening with the SIGS community.",
+      "fa": "شبی در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-early-gathering-04",
+    "src": "/media/community-early-gathering-04.webp",
+    "thumbnail": "/media/community-early-gathering-04-small.webp",
+    "kind": "photo",
+    "width": 1200,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people standing together by a lounge wall.",
+      "fa": "دو نفر کنار دیوار سالن ایستاده‌اند."
+    },
+    "caption": {
+      "en": "An evening with the SIGS community.",
+      "fa": "شبی در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-early-gathering-05",
+    "src": "/media/community-early-gathering-05.webp",
+    "thumbnail": "/media/community-early-gathering-05-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests talking in a crowded room.",
+      "fa": "مهمانان در اتاقی شلوغ گفت‌وگو می‌کنند."
+    },
+    "caption": {
+      "en": "An evening with the SIGS community.",
+      "fa": "شبی در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-early-gathering-06",
+    "src": "/media/community-early-gathering-06.webp",
+    "thumbnail": "/media/community-early-gathering-06-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group of guests together inside a lounge.",
+      "fa": "گروه بزرگی از مهمانان در سالن کنار هم هستند."
+    },
+    "caption": {
+      "en": "An evening with the SIGS community.",
+      "fa": "شبی در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-early-gathering-07",
+    "src": "/media/community-early-gathering-07.webp",
+    "thumbnail": "/media/community-early-gathering-07-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Three people standing near a television.",
+      "fa": "سه نفر نزدیک تلویزیون ایستاده‌اند."
+    },
+    "caption": {
+      "en": "An evening with the SIGS community.",
+      "fa": "شبی در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-early-gathering-08",
+    "src": "/media/community-early-gathering-08.webp",
+    "thumbnail": "/media/community-early-gathering-08-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1200,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests talking beside a television in a lounge.",
+      "fa": "مهمانان کنار تلویزیون در سالن گفت‌وگو می‌کنند."
+    },
+    "caption": {
+      "en": "An evening with the SIGS community.",
+      "fa": "شبی در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-dj-friends-alternate",
+    "src": "/media/yalda-2018-dj-friends-alternate.webp",
+    "thumbnail": "/media/yalda-2018-dj-friends-alternate-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 756,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends standing and crouching together beside the DJ equipment.",
+      "fa": "دوستان کنار تجهیزات دی‌جی ایستاده و خم شده‌اند."
+    },
+    "caption": {
+      "en": "Yalda 2018 with the SIGS community.",
+      "fa": "یلدای ۲۰۱۸ در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-large-group-alternate",
+    "src": "/media/yalda-2018-large-group-alternate.webp",
+    "thumbnail": "/media/yalda-2018-large-group-alternate-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 753,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests standing and seated in a broad group across the ballroom.",
+      "fa": "مهمانان در گروهی بزرگ در عرض تالار ایستاده و نشسته‌اند."
+    },
+    "caption": {
+      "en": "Yalda 2018 with the SIGS community.",
+      "fa": "یلدای ۲۰۱۸ در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-friends-alternate",
+    "src": "/media/yalda-2018-friends-alternate.webp",
+    "thumbnail": "/media/yalda-2018-friends-alternate-small.webp",
+    "kind": "photo",
+    "width": 1279,
+    "height": 672,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends standing and seated beside the festive table.",
+      "fa": "دوستان کنار سفرهٔ جشن ایستاده و نشسته‌اند."
+    },
+    "caption": {
+      "en": "Yalda 2018 with the SIGS community.",
+      "fa": "یلدای ۲۰۱۸ در جمع SIGS."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2022-invitation",
+    "src": "/media/nowruz-2022-invitation.webp",
+    "thumbnail": "/media/nowruz-2022-invitation-small.webp",
+    "kind": "poster",
+    "width": 970,
+    "height": 508,
+    "eventId": "nowruz-2022",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Green Nowruz invitation with an illustration of wheatgrass and the Global Learner Support and SIGS names.",
+      "fa": "دعوت‌نامهٔ سبز نوروز با تصویر سبزه و نام‌های Global Learner Support و SIGS."
+    },
+    "caption": {
+      "en": "An invitation to Nowruz with Global Learner Support, 2022.",
+      "fa": "دعوت‌نامهٔ نوروز با برنامهٔ Global Learner Support، سال ۲۰۲۲."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "welcome-2018-barbecue-poster",
+    "src": "/media/welcome-2018-barbecue-poster.webp",
+    "thumbnail": "/media/welcome-2018-barbecue-poster-small.webp",
+    "kind": "poster",
+    "width": 600,
+    "height": 899,
+    "eventId": "welcome-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A red and orange Welcome Barbecue Party poster with the SIGS logo and September 22 date.",
+      "fa": "پوستر قرمز و نارنجی باربیکیو خوشامدگویی با نشان SIGS و تاریخ ۲۲ سپتامبر."
+    },
+    "caption": {
+      "en": "Welcome Barbecue and Orientation, 2018.",
+      "fa": "باربیکیو و آشنایی تازه‌واردان، ۲۰۱۸."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bowling-2019-invitation",
+    "src": "/media/bowling-2019-invitation.webp",
+    "thumbnail": "/media/bowling-2019-invitation-small.webp",
+    "kind": "poster",
+    "width": 1200,
+    "height": 628,
+    "eventId": "bowling-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Bowling Night invitation with a bowling ball and the SIGS logo.",
+      "fa": "دعوت‌نامهٔ شب بولینگ با توپ و نشان SIGS."
+    },
+    "caption": {
+      "en": "Bowling Night, 2019.",
+      "fa": "شب بولینگ، ۲۰۱۹."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "potluck-2019-invitation",
+    "src": "/media/potluck-2019-invitation.webp",
+    "thumbnail": "/media/potluck-2019-invitation-small.webp",
+    "kind": "poster",
+    "width": 1200,
+    "height": 628,
+    "eventId": "potluck-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Orange SIGS Potluck announcement for June 8, 2019.",
+      "fa": "اعلان نارنجی دورهمی غذای SIGS در ۸ ژوئن ۲۰۱۹."
+    },
+    "caption": {
+      "en": "The end-of-year potluck, 2019.",
+      "fa": "دورهمی غذا در پایان سال تحصیلی، ۲۰۱۹."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-volleyball-2019-invitation",
+    "src": "/media/beach-volleyball-2019-invitation.webp",
+    "thumbnail": "/media/beach-volleyball-2019-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 838,
+    "eventId": "beach-volleyball-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Beach volleyball invitation for Sunday, August 18, with volleyball photographs.",
+      "fa": "دعوت‌نامهٔ والیبال ساحلی یکشنبه ۱۸ اوت با عکس‌های والیبال."
+    },
+    "caption": {
+      "en": "Summer beach volleyball, 2019.",
+      "fa": "والیبال ساحلی تابستان، ۲۰۱۹."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "immigration-panel-2019-invitation",
+    "src": "/media/immigration-panel-2019-invitation.webp",
+    "thumbnail": "/media/immigration-panel-2019-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 900,
+    "eventId": "immigration-panel-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Red SIGS question-and-answer panel invitation with a portrait of Gazal N. Mehrani.",
+      "fa": "دعوت‌نامهٔ قرمز نشست پرسش‌وپاسخ SIGS با تصویر Gazal N. Mehrani."
+    },
+    "caption": {
+      "en": "Immigration questions with Gazal N. Mehrani, 2019.",
+      "fa": "پرسش‌های مهاجرتی با Gazal N. Mehrani، سال ۲۰۱۹."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "welcome-2019-barbecue-invitation",
+    "src": "/media/welcome-2019-barbecue-invitation.webp",
+    "thumbnail": "/media/welcome-2019-barbecue-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 838,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Yellow Welcome New Anteaters barbecue graphic with a burger illustration.",
+      "fa": "طرح زرد باربیکیو خوشامدگویی با تصویر همبرگر."
+    },
+    "caption": {
+      "en": "Welcoming new Anteaters, 2019.",
+      "fa": "خوشامدگویی به دانشجویان تازه‌وارد، ۲۰۱۹."
+    },
+    "credit": "Welcome event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "secrets-of-the-surface-2020-invitation",
+    "src": "/media/secrets-of-the-surface-2020-invitation.webp",
+    "thumbnail": "/media/secrets-of-the-surface-2020-invitation-small.webp",
+    "kind": "poster",
+    "width": 849,
+    "height": 1062,
+    "eventId": "secrets-of-the-surface-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Screening poster with an illustration of Maryam Mirzakhani and Iranian student group logos.",
+      "fa": "پوستر نمایش فیلم با تصویرسازی مریم میرزاخانی و نشان‌های انجمن‌های دانشجویی ایرانی."
+    },
+    "caption": {
+      "en": "Secrets of the Surface: a screening and discussion, 2020.",
+      "fa": "نمایش «اسرار سطح» و گفت‌وگو، ۲۰۲۰."
+    },
+    "credit": "Film and student-group promotional artwork. Drawing credit retained in artwork.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nutrition-wellness-2020-invitation",
+    "src": "/media/nutrition-wellness-2020-invitation.webp",
+    "thumbnail": "/media/nutrition-wellness-2020-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 838,
+    "eventId": "nutrition-wellness-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Green talk invitation naming Dr. Zahra Azadbadi, with SIGS and Seeb logos.",
+      "fa": "دعوت‌نامهٔ سبز نشست با نام Dr. Zahra Azadbadi و نشان‌های SIGS و سیب."
+    },
+    "caption": {
+      "en": "Eating Well, Feeling Well, 2020.",
+      "fa": "تغذیه و تندرستی، ۲۰۲۰."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "shajarian-2013-lecture-invitation",
+    "src": "/media/shajarian-2013-lecture-invitation.webp",
+    "thumbnail": "/media/shajarian-2013-lecture-invitation-small.webp",
+    "kind": "poster",
+    "width": 720,
+    "height": 960,
+    "eventId": "shajarian-2013",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "SIGS lecture poster with photographs of Mohammad Reza Shajarian and the Pournazeri Brothers.",
+      "fa": "پوستر سخنرانی SIGS با تصاویر محمدرضا شجریان و برادران پورناظری."
+    },
+    "caption": {
+      "en": "A lecture with Mohammad Reza Shajarian and the Pournazeri Brothers, 2013.",
+      "fa": "سخنرانی محمدرضا شجریان و برادران پورناظری، ۲۰۱۳."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iranian-american-reception-2019-poster",
+    "src": "/media/iranian-american-reception-2019-poster.webp",
+    "thumbnail": "/media/iranian-american-reception-2019-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1080,
+    "eventId": "iranian-american-reception-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Reception invitation for January 31 at the Newkirk Alumni Center, with partner credit lines.",
+      "fa": "دعوت‌نامهٔ گردهمایی ۳۱ ژانویه در مرکز فارغ‌التحصیلان نیوکرک با نام همکاران."
+    },
+    "caption": {
+      "en": "The Iranian American reception at UCI, 2019.",
+      "fa": "گردهمایی ایرانی‌آمریکایی در UCI، سال ۲۰۱۹."
+    },
+    "credit": "UCI reception promotional artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "poetry-night-2019-invitation",
+    "src": "/media/poetry-night-2019-invitation.webp",
+    "thumbnail": "/media/poetry-night-2019-invitation-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1350,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poetry and music invitation with a daf, a tar and the SIGS logo.",
+      "fa": "دعوت‌نامهٔ شب شعر و موسیقی با دف، تار و نشان SIGS."
+    },
+    "caption": {
+      "en": "Persian Poetry Night, 2019.",
+      "fa": "شب شعر فارسی، ۲۰۱۹."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "persian-breakfast-2019-invitation",
+    "src": "/media/persian-breakfast-2019-invitation.webp",
+    "thumbnail": "/media/persian-breakfast-2019-invitation-small.webp",
+    "kind": "poster",
+    "width": 960,
+    "height": 502,
+    "eventId": "persian-breakfast-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "SIGS general meeting and Persian breakfast banner with a glass of tea.",
+      "fa": "طرح نشست عمومی و صبحانهٔ ایرانی SIGS با تصویر استکان چای."
+    },
+    "caption": {
+      "en": "Persian breakfast and the SIGS general meeting, 2019.",
+      "fa": "صبحانهٔ ایرانی و نشست عمومی SIGS، سال ۲۰۱۹."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2020-announcement-artwork",
+    "src": "/media/nowruz-2020-announcement-artwork.webp",
+    "thumbnail": "/media/nowruz-2020-announcement-artwork-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 838,
+    "eventId": "nowruz-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Green Nowruz 1399 invitation naming DJ Mohsen and DJ Sepand.",
+      "fa": "دعوت‌نامهٔ سبز نوروز ۱۳۹۹ با نام دی‌جی محسن و دی‌جی سپند."
+    },
+    "caption": {
+      "en": "An invitation for Nowruz 2020, before the celebration was cancelled.",
+      "fa": "دعوت‌نامهٔ نوروز ۲۰۲۰، پیش از لغو جشن."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2020-invitation",
+    "src": "/media/yalda-2020-invitation.webp",
+    "thumbnail": "/media/yalda-2020-invitation-small.webp",
+    "kind": "poster",
+    "width": 960,
+    "height": 960,
+    "eventId": "yalda-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Yalda Night poster with pomegranates, candles, tea and the SIGS logo.",
+      "fa": "پوستر شب یلدا با انار، شمع، چای و نشان SIGS."
+    },
+    "caption": {
+      "en": "The invitation to a virtual Yalda, 2020.",
+      "fa": "دعوت‌نامهٔ یلدای مجازی، ۲۰۲۰."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2016-landscape-invitation",
+    "src": "/media/yalda-2016-landscape-invitation.webp",
+    "thumbnail": "/media/yalda-2016-landscape-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 591,
+    "eventId": "yalda-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Blue Yalda 2016 announcement with pomegranates and Iranian student group logos.",
+      "fa": "اعلان آبی یلدای ۲۰۱۶ با انار و نشان‌های انجمن‌های دانشجویی ایرانی."
+    },
+    "caption": {
+      "en": "An invitation to Yalda 2016.",
+      "fa": "دعوت‌نامهٔ یلدای ۲۰۱۶."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2016-program-invitation",
+    "src": "/media/yalda-2016-program-invitation.webp",
+    "thumbnail": "/media/yalda-2016-program-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 1088,
+    "eventId": "yalda-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Yalda 2016 program invitation on a parchment background with pomegranates.",
+      "fa": "دعوت‌نامهٔ برنامهٔ یلدای ۲۰۱۶ با زمینهٔ کاغذی و تصویر انار."
+    },
+    "caption": {
+      "en": "Yalda 2016: music, poetry and an evening together.",
+      "fa": "یلدای ۲۰۱۶؛ موسیقی، شعر و شبی در کنار هم."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2016-sold-out-announcement",
+    "src": "/media/yalda-2016-sold-out-announcement.webp",
+    "thumbnail": "/media/yalda-2016-sold-out-announcement-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 1088,
+    "eventId": "yalda-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A Sold Out stamp across the Yalda 2016 invitation.",
+      "fa": "نشان تکمیل ظرفیت روی دعوت‌نامهٔ یلدای ۲۰۱۶."
+    },
+    "caption": {
+      "en": "Yalda 2016 was announced sold out.",
+      "fa": "اعلام تکمیل ظرفیت یلدای ۲۰۱۶."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2016-program-invitation",
+    "src": "/media/nowruz-2016-program-invitation.webp",
+    "thumbnail": "/media/nowruz-2016-program-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 1267,
+    "eventId": "nowruz-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Blue Nowruz 2016 poster with a colorful Haft-Seen table, SIGS logo and AGS mark.",
+      "fa": "پوستر آبی نوروز ۲۰۱۶ با هفت‌سین رنگارنگ و نشان‌های SIGS و AGS."
+    },
+    "caption": {
+      "en": "The invitation to Nowruz 2016.",
+      "fa": "دعوت‌نامهٔ نوروز ۲۰۱۶."
+    },
+    "credit": "Artwork signed ©saman.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2017-program-invitation",
+    "src": "/media/nowruz-2017-program-invitation.webp",
+    "thumbnail": "/media/nowruz-2017-program-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 1600,
+    "eventId": "nowruz-2017",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Green Nowruz 2017 poster listing Sibarg Ensemble and student-group organizers.",
+      "fa": "پوستر سبز نوروز ۲۰۱۷ با نام گروه سیبرگ و انجمن‌های دانشجویی برگزارکننده."
+    },
+    "caption": {
+      "en": "Nowruz 2017: a spring celebration with music and friends.",
+      "fa": "نوروز ۲۰۱۷؛ جشن بهار با موسیقی و دوستان."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2017-invitation",
+    "src": "/media/iftar-2017-invitation.webp",
+    "thumbnail": "/media/iftar-2017-invitation-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 900,
+    "eventId": "iftar-2017",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Iftar invitation with dates on spoons, Persian lettering and the SIGS logo.",
+      "fa": "دعوت‌نامهٔ افطار با تصویر خرما در قاشق‌ها، نوشتهٔ فارسی و نشان SIGS."
+    },
+    "caption": {
+      "en": "An invitation to iftar, 2017.",
+      "fa": "دعوت‌نامهٔ افطار، ۲۰۱۷."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-sandy-portrait-invitation",
+    "src": "/media/yalda-2019-sandy-portrait-invitation.webp",
+    "thumbnail": "/media/yalda-2019-sandy-portrait-invitation-small.webp",
+    "kind": "poster",
+    "width": 1280,
+    "height": 1600,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Red and black invitation featuring Sandy, DJ Julius and DJ Aaraa.",
+      "fa": "دعوت‌نامهٔ قرمز و مشکی با تصویر سندی و نام دی‌جی جولیوس و دی‌جی آرا."
+    },
+    "caption": {
+      "en": "Sandy in the invitation to Yalda 2019.",
+      "fa": "سندی در دعوت‌نامهٔ یلدای ۲۰۱۹."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2015-evening-program",
+    "src": "/media/yalda-2015-evening-program.webp",
+    "thumbnail": "/media/yalda-2015-evening-program-small.webp",
+    "kind": "poster",
+    "width": 1130,
+    "height": 640,
+    "eventId": "yalda-2015",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Starry Yalda evening schedule listing Hafez recitation, Baarbad Ensemble, dinner and DJ music.",
+      "fa": "جدول برنامهٔ شب یلدا با زمینهٔ پرستاره و بخش‌های حافظ‌خوانی، گروه باربد، شام و موسیقی دی‌جی."
+    },
+    "caption": {
+      "en": "The Yalda 2015 evening program: Hafez, music and dinner.",
+      "fa": "برنامهٔ شب یلدای ۲۰۱۵؛ حافظ، موسیقی و شام."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2016-persian-invitation",
+    "src": "/media/nowruz-2016-persian-invitation.webp",
+    "thumbnail": "/media/nowruz-2016-persian-invitation-small.webp",
+    "kind": "poster",
+    "width": 1238,
+    "height": 1600,
+    "eventId": "nowruz-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Persian Nowruz 1395 invitation with a Haft-Seen table and SIGS logo.",
+      "fa": "دعوت‌نامهٔ فارسی نوروز ۱۳۹۵ با سفرهٔ هفت‌سین و نشان SIGS."
+    },
+    "caption": {
+      "en": "The Persian invitation to Nowruz 2016.",
+      "fa": "دعوت‌نامهٔ فارسی نوروز ۲۰۱۶."
+    },
+    "credit": "Artwork signed ©saman.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2016-sold-out-announcement",
+    "src": "/media/nowruz-2016-sold-out-announcement.webp",
+    "thumbnail": "/media/nowruz-2016-sold-out-announcement-small.webp",
+    "kind": "poster",
+    "width": 1600,
+    "height": 1267,
+    "eventId": "nowruz-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A red Sold Out stamp over the Nowruz 2016 invitation.",
+      "fa": "نشان قرمز تکمیل ظرفیت روی دعوت‌نامهٔ نوروز ۲۰۱۶."
+    },
+    "caption": {
+      "en": "Nowruz 2016 was announced sold out.",
+      "fa": "اعلام تکمیل ظرفیت نوروز ۲۰۱۶."
+    },
+    "credit": "Artwork signed ©saman.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2021-sold-out-announcement",
+    "src": "/media/yalda-2021-sold-out-announcement.webp",
+    "thumbnail": "/media/yalda-2021-sold-out-announcement-small.webp",
+    "kind": "poster",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "yalda-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A Sold Out announcement for the 2021 Yalda celebration.",
+      "fa": "اعلان تکمیل ظرفیت جشن یلدای ۲۰۲۱."
+    },
+    "caption": {
+      "en": "Yalda 2021 was announced sold out.",
+      "fa": "اعلام تکمیل ظرفیت یلدای ۲۰۲۱."
+    },
+    "credit": "SIGS event artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-welcome-desk-01",
+    "src": "/media/yalda-2018-welcome-desk-01.webp",
+    "thumbnail": "/media/yalda-2018-welcome-desk-01-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1274,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests and volunteers beside the check-in table with laptops and wristbands.",
+      "fa": "مهمانان و داوطلبان کنار میز پذیرش با لپ‌تاپ و دست‌بندهای ورودی."
+    },
+    "caption": {
+      "en": "Welcoming guests to Yalda 2018.",
+      "fa": "خوشامدگویی به مهمانان یلدای ۲۰۱۸."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-welcome-desk-02",
+    "src": "/media/yalda-2018-welcome-desk-02.webp",
+    "thumbnail": "/media/yalda-2018-welcome-desk-02-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1066,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Volunteers helping guests at a long check-in table.",
+      "fa": "داوطلبان پشت میز بلند پذیرش به مهمانان کمک می‌کنند."
+    },
+    "caption": {
+      "en": "Welcoming guests to Yalda 2018.",
+      "fa": "خوشامدگویی به مهمانان یلدای ۲۰۱۸."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-welcome-desk-03",
+    "src": "/media/yalda-2018-welcome-desk-03.webp",
+    "thumbnail": "/media/yalda-2018-welcome-desk-03-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 638,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Four volunteers seated behind laptops and ticket-type signs.",
+      "fa": "چهار داوطلب پشت لپ‌تاپ‌ها و تابلوهای نوع بلیت نشسته‌اند."
+    },
+    "caption": {
+      "en": "Welcoming guests to Yalda 2018.",
+      "fa": "خوشامدگویی به مهمانان یلدای ۲۰۱۸."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-ballroom-invitation",
+    "src": "/media/yalda-2018-ballroom-invitation.mp4",
+    "thumbnail": "/media/yalda-2018-ballroom-invitation-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/yalda-2018-ballroom-invitation-poster.webp",
+    "width": 848,
+    "height": 464,
+    "duration": 33.481995,
+    "eventId": "yalda-2018",
+    "audioContent": "music",
+    "transcript": {
+      "en": "An advance invitation combines earlier party scenes, performer imagery, event text and the SIGS logo. Recorded music and singing accompany the montage. The scenes illustrate the invitation and do not date the footage to the advertised celebration.",
+      "fa": "در این دعوت‌نامهٔ ویدیویی، نماهایی از مهمانی‌های پیشین، تصاویر هنرمندان، نوشته‌های برنامه و نشان SIGS دیده می‌شود. موسیقی و آواز، ویدیو را همراهی می‌کنند. این نماها برای معرفی جشن به کار رفته‌اند و تاریخ فیلم‌برداری آن‌ها را مشخص نمی‌کنند."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A Yalda invitation montage with ballroom and DJ scenes.",
+      "fa": "ویدیوی دعوت به یلدا با نماهایی از سالن و دی‌جی."
+    },
+    "caption": {
+      "en": "An archival invitation to SIGS Yalda 2018 at the UCI Student Center.",
+      "fa": "دعوت‌نامهٔ آرشیوی جشن یلدای ۲۰۱۸ SIGS در مرکز دانشجویی UCI."
+    },
+    "credit": "SIGS archive.",
+    "publication": "published",
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/yalda-2018-ballroom-invitation-en.vtt",
+      "fa": "/media/captions/yalda-2018-ballroom-invitation-fa.vtt"
+    }
+  },
+  {
+    "id": "nowruz-2019-sold-out-announcement",
+    "src": "/media/nowruz-2019-sold-out-announcement.mp4",
+    "thumbnail": "/media/nowruz-2019-sold-out-announcement-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/nowruz-2019-sold-out-announcement-poster.webp",
+    "width": 720,
+    "height": 1280,
+    "duration": 5,
+    "eventId": "nowruz-2019",
+    "audioContent": "silent",
+    "transcript": {
+      "en": "A five-second announcement displays the Nowruz 1398 poster with a Sold Out banner. It is a historical announcement, not event footage. The original recording has no audio.",
+      "fa": "در این اطلاعیهٔ پنج‌ثانیه‌ای، پوستر نوروز ۱۳۹۸ با نوار تکمیل ظرفیت دیده می‌شود. این فیلم، اطلاعیه‌ای قدیمی است و صحنه‌ای از برگزاری جشن را نشان نمی‌دهد. نسخهٔ اصلی صدا ندارد."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The Nowruz 1398 invitation with a red Sold Out banner.",
+      "fa": "دعوت‌نامهٔ نوروز ۱۳۹۸ با نوار قرمز تکمیل ظرفیت."
+    },
+    "caption": {
+      "en": "Nowruz 2019 was announced sold out.",
+      "fa": "ظرفیت جشن نوروز ۲۰۱۹ تکمیل شده بود."
+    },
+    "credit": "SIGS archive.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-kamyar-invitation",
+    "src": "/media/yalda-2018-kamyar-invitation.mp4",
+    "thumbnail": "/media/yalda-2018-kamyar-invitation-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/yalda-2018-kamyar-invitation-poster.webp",
+    "width": 480,
+    "height": 600,
+    "duration": 38.776009,
+    "eventId": "yalda-2018",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "Kamyar speaks to the camera in a portrait video, inviting the UCI community to Yalda. This is an invitation recorded before the celebration, rather than a performance. The speech is in Persian with a short English closing. Unclear words are marked in the captions.",
+      "fa": "کامیار در فیلمی عمودی، رو به دوربین با جامعهٔ UCI صحبت می‌کند و از آن‌ها به جشن یلدا دعوت می‌کند. این فیلم، دعوت‌نامه‌ای پیش از جشن است و اجرای روی صحنه نیست. گفتار به زبان فارسی است و با جمله‌ای کوتاه به انگلیسی پایان می‌یابد. واژه‌های نامفهوم در زیرنویس مشخص شده‌اند."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kamyar gives a portrait video invitation indoors.",
+      "fa": "دعوت‌نامهٔ ویدیویی کامیار در فضای سرپوشیده."
+    },
+    "caption": {
+      "en": "Kamyar invites the UCI community to SIGS Yalda 2018.",
+      "fa": "دعوت کامیار از جامعهٔ UCI به جشن یلدای ۲۰۱۸ SIGS."
+    },
+    "credit": "SIGS archive.",
+    "publication": "published",
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/yalda-2018-kamyar-invitation-en.vtt",
+      "fa": "/media/captions/yalda-2018-kamyar-invitation-fa.vtt"
+    }
+  },
+  {
+    "id": "nowruz-2019-k-von-invitation",
+    "src": "/media/nowruz-2019-k-von-invitation.mp4",
+    "thumbnail": "/media/nowruz-2019-k-von-invitation-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/nowruz-2019-k-von-invitation-poster.webp",
+    "width": 400,
+    "height": 226,
+    "duration": 20.595011,
+    "eventId": "nowruz-2019",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "K-von speaks to the camera in English from a backlit hotel room, inviting viewers to the Persian New Year celebration. The ticket invitation is historical; registration is closed. This is an invitation, not a recording of his performance.",
+      "fa": "K-von در اتاق هتل، با نور از پشت سر، به زبان انگلیسی رو به دوربین صحبت می‌کند و بینندگان را به جشن سال نوی ایرانی دعوت می‌کند. درخواست تهیهٔ بلیت مربوط به گذشته است و ثبت‌نام بسته است. این فیلم، دعوت‌نامه است و اجرای او را نشان نمی‌دهد."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "K-von records an invitation in a backlit room.",
+      "fa": "دعوت‌نامهٔ ویدیویی K-von در اتاقی با نور از پشت سر."
+    },
+    "caption": {
+      "en": "K-von invites the community to SIGS Nowruz 2019.",
+      "fa": "دعوت K-von از جامعهٔ دانشگاه به جشن نوروز ۲۰۱۹ SIGS."
+    },
+    "credit": "SIGS archive.",
+    "publication": "published",
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/nowruz-2019-k-von-invitation-en.vtt",
+      "fa": "/media/captions/nowruz-2019-k-von-invitation-fa.vtt"
+    }
+  },
+  {
+    "id": "pol-media-film-weekend-2019-invitation",
+    "src": "/media/pol-media-film-weekend-2019-invitation.mp4",
+    "thumbnail": "/media/pol-media-film-weekend-2019-invitation-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/pol-media-film-weekend-2019-invitation-poster.webp",
+    "width": 400,
+    "height": 218,
+    "duration": 60.091995,
+    "eventId": "pol-media-film-weekend-2019",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "The invitation film combines black-and-white speakers and film excerpts with program cards and closing credits. Music and indistinct speech accompany the images, including later portions of the film. Pol Media presented the program; SIGS participated. Video and editing are credited to Arian Khoroushi.",
+      "fa": "این دعوت‌نامهٔ ویدیویی، نماهای سیاه‌وسفید سخنرانان و بخش‌هایی از فیلم‌ها را با نوشته‌های برنامه و تیتراژ پایانی ترکیب می‌کند. موسیقی و گفتار نامفهوم، از جمله در بخش‌های پایانی، تصاویر را همراهی می‌کنند. Pol Media ارائه‌دهندهٔ برنامه بود و SIGS در آن مشارکت داشت. نام Arian Khoroushi برای ویدیو و تدوین در تیتراژ آمده است."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Black-and-white speakers and film scenes in a Pol Media invitation.",
+      "fa": "نماهای سیاه‌وسفید سخنرانان و فیلم‌ها در دعوت‌نامهٔ Pol Media."
+    },
+    "caption": {
+      "en": "Pol Media's invitation to its July 19 to 21, 2019 film program. SIGS took part in the weekend.",
+      "fa": "دعوت Pol Media به برنامهٔ سینمایی ۱۹ تا ۲۱ ژوئیهٔ ۲۰۱۹. SIGS در این آخرهفتهٔ سینمایی حضور داشت."
+    },
+    "credit": "Pol Media; video and editing by Arian Khoroushi.",
+    "publication": "published",
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/pol-media-film-weekend-2019-invitation-en.vtt",
+      "fa": "/media/captions/pol-media-film-weekend-2019-invitation-fa.vtt"
+    }
+  },
+  {
+    "id": "yalda-2019-sandy-invitation",
+    "src": "/media/yalda-2019-sandy-invitation.mp4",
+    "thumbnail": "/media/yalda-2019-sandy-invitation-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/yalda-2019-sandy-invitation-poster.webp",
+    "width": 400,
+    "height": 226,
+    "duration": 26.770998,
+    "eventId": "yalda-2019",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "Sandy speaks in Persian to the camera from a bright room, inviting the UCI community to Yalda. This is an invitation before the celebration, rather than performance footage. Unclear words are marked in the captions.",
+      "fa": "سندی در اتاقی روشن، به زبان فارسی رو به دوربین صحبت می‌کند و جامعهٔ UCI را به جشن یلدا دعوت می‌کند. این فیلم، دعوت‌نامه‌ای پیش از جشن است و صحنه‌ای از اجرای روی صحنه نیست. واژه‌های نامفهوم در زیرنویس مشخص شده‌اند."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy gives an invitation while seated in a bright room.",
+      "fa": "دعوت‌نامهٔ ویدیویی سندی، نشسته در اتاقی روشن."
+    },
+    "caption": {
+      "en": "Sandy invites the UCI community to SIGS Yalda 2019.",
+      "fa": "دعوت سندی از جامعهٔ UCI به جشن یلدای ۲۰۱۹ SIGS."
+    },
+    "credit": "SIGS archive.",
+    "publication": "published",
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/yalda-2019-sandy-invitation-en.vtt",
+      "fa": "/media/captions/yalda-2019-sandy-invitation-fa.vtt"
+    }
+  },
+  {
+    "id": "nowruz-2016-invitation-film",
+    "src": "/media/nowruz-2016-invitation-film.mp4",
+    "thumbnail": "/media/nowruz-2016-invitation-film-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/nowruz-2016-invitation-film-poster.webp",
+    "width": 1280,
+    "height": 720,
+    "duration": 69.218005,
+    "eventId": "nowruz-2016",
+    "audioContent": "music",
+    "transcript": {
+      "en": "The SIGS logo introduces a slideshow of haft-seen, earlier community images, music imagery and the March 19, 2016 invitation. Recorded music and rhythmic sounds accompany the film. It promotes a future gathering, with historical ticket and parking information.",
+      "fa": "نشان SIGS در آغاز ویدیو دیده می‌شود و پس از آن، هفت‌سین، تصاویری از جمع‌های پیشین، نماهای موسیقی و دعوت‌نامهٔ ۱۹ مارس ۲۰۱۶ می‌آیند. موسیقی ضبط‌شده و صداهای ریتمیک، فیلم را همراهی می‌کنند. این ویدیو برای معرفی جشنی در پیش رو ساخته شده بود و اطلاعات بلیت و پارکینگ آن مربوط به گذشته است."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A Nowruz invitation slideshow begins with the SIGS logo.",
+      "fa": "دعوت‌نامهٔ ویدیویی نوروز با نشان SIGS آغاز می‌شود."
+    },
+    "caption": {
+      "en": "The SIGS invitation film for Nowruz 2016.",
+      "fa": "ویدیوی دعوت SIGS به جشن نوروز ۲۰۱۶."
+    },
+    "credit": "SIGS archive.",
+    "publication": "published",
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/nowruz-2016-invitation-film-en.vtt",
+      "fa": "/media/captions/nowruz-2016-invitation-film-fa.vtt"
+    }
+  },
+  {
+    "id": "halloween-2017-costume-friends",
+    "src": "/media/halloween-2017-costume-friends.webp",
+    "thumbnail": "/media/halloween-2017-costume-friends-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1063,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Three guests together in costumes and a shirt and tie.",
+      "fa": "سه مهمان با لباس‌های نمایشی و پیراهن و کراوات کنار هم ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Halloween with the SIGS community, 2017.",
+      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "halloween-2017-large-group",
+    "src": "/media/halloween-2017-large-group.webp",
+    "thumbnail": "/media/halloween-2017-large-group-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1063,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group of guests in costumes across the room.",
+      "fa": "گروه بزرگی از مهمانان با لباس‌های نمایشی در اتاق کنار هم ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Halloween with the SIGS community, 2017.",
+      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "halloween-2017-costume-group",
+    "src": "/media/halloween-2017-costume-group.webp",
+    "thumbnail": "/media/halloween-2017-costume-group-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1063,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests in costumes standing and kneeling together.",
+      "fa": "مهمانان با لباس‌های نمایشی کنار هم ایستاده و نشسته‌اند."
+    },
+    "caption": {
+      "en": "Halloween with the SIGS community, 2017.",
+      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "halloween-2017-dj-at-decks",
+    "src": "/media/halloween-2017-dj-at-decks.webp",
+    "thumbnail": "/media/halloween-2017-dj-at-decks-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1063,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A DJ working at a mixing desk between two speakers.",
+      "fa": "دی‌جی پشت میز تنظیم صدا میان دو بلندگو کار می‌کند."
+    },
+    "caption": {
+      "en": "Halloween with the SIGS community, 2017.",
+      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "halloween-2017-dance-floor",
+    "src": "/media/halloween-2017-dance-floor.webp",
+    "thumbnail": "/media/halloween-2017-dance-floor-small.webp",
+    "kind": "photo",
+    "width": 1600,
+    "height": 1063,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Costumed guests dancing under colored lights.",
+      "fa": "مهمانان با لباس‌های نمایشی زیر نورهای رنگی می‌رقصند."
+    },
+    "caption": {
+      "en": "Halloween with the SIGS community, 2017.",
+      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-invitation-film",
+    "src": "/media/yalda-2018-invitation-film.mp4",
+    "thumbnail": "/media/yalda-2018-invitation-film-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/yalda-2018-invitation-film-poster.webp",
+    "width": 400,
+    "height": 224,
+    "duration": 65.087,
+    "eventId": "yalda-2018",
+    "audioContent": "music",
+    "transcript": {
+      "en": "An advance invitation combines scenes from earlier celebrations, images of Kamyar and the Yalda 2018 artwork. Recorded music accompanies the montage.",
+      "fa": "در این دعوت‌نامهٔ ویدیویی، نماهایی از جشن‌های پیشین، تصاویر Kamyar و پوستر یلدای ۲۰۱۸ کنار هم آمده‌اند. موسیقی ضبط‌شده، ویدیو را همراهی می‌کند."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A Yalda 2018 invitation montage with earlier celebrations and event artwork.",
+      "fa": "دعوت‌نامهٔ ویدیویی یلدای ۲۰۱۸ با نماهایی از جشن‌های پیشین و پوستر برنامه."
+    },
+    "caption": {
+      "en": "An invitation to Yalda 2018 with Kamyar.",
+      "fa": "دعوت به جشن یلدای ۲۰۱۸ با Kamyar."
+    },
+    "credit": "SIGS archive.",
+    "publication": "published",
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/yalda-2018-invitation-film-en.vtt",
+      "fa": "/media/captions/yalda-2018-invitation-film-fa.vtt"
+    }
+  },
+  {
+    "id": "halloween-2018-invitation-film",
+    "src": "/media/halloween-2018-invitation-film.mp4",
+    "thumbnail": "/media/halloween-2018-invitation-film-small.webp",
+    "kind": "video",
+    "videoPoster": "/media/halloween-2018-invitation-film-poster.webp",
+    "width": 640,
+    "height": 360,
+    "duration": 25.563991,
+    "eventId": "halloween-2018",
+    "audioContent": "music",
+    "transcript": {
+      "en": "An advance invitation combines earlier costume-party scenes with the Halloween 2018 artwork and SIGS and ISU logos. Recorded music accompanies the film.",
+      "fa": "در این دعوت‌نامهٔ ویدیویی، نماهایی از مهمانی‌های پیشین، پوستر هالووین ۲۰۱۸ و نشان‌های SIGS و ISU دیده می‌شود. موسیقی ضبط‌شده، فیلم را همراهی می‌کند."
+    },
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A Halloween invitation montage with costumed guests and event artwork.",
+      "fa": "دعوت‌نامهٔ ویدیویی هالووین با مهمانانی در لباس‌های نمایشی و پوستر برنامه."
+    },
+    "caption": {
+      "en": "The invitation to Halloween 2018 with SIGS and ISU at Hotel Irvine.",
+      "fa": "دعوت به هالووین ۲۰۱۸ با SIGS و ISU در هتل ایرواین."
+    },
+    "credit": "SIGS archive; Shemroon Entertainment.",
+    "publication": "published",
+    "rights": "approved",
+    "captions": {
+      "en": "/media/captions/halloween-2018-invitation-film-en.vtt",
+      "fa": "/media/captions/halloween-2018-invitation-film-fa.vtt"
+    }
+  },
+  {
+    "id": "halloween-2018-illustrated-invitation",
+    "src": "/media/halloween-2018-illustrated-invitation.webp",
+    "thumbnail": "/media/halloween-2018-illustrated-invitation-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1350,
+    "eventId": "halloween-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Halloween invitation with two illustrated skeletons and the SIGS, ISU and Shemroon Entertainment logos.",
+      "fa": "دعوت‌نامهٔ هالووین با دو اسکلت تصویرسازی‌شده و نشان‌های SIGS، ISU و Shemroon Entertainment."
+    },
+    "caption": {
+      "en": "The invitation to Halloween 2018 at Hotel Irvine.",
+      "fa": "دعوت‌نامهٔ هالووین ۲۰۱۸ در هتل ایرواین."
+    },
+    "credit": "SIGS, ISU and Shemroon Entertainment promotional artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2018-invitation",
+    "src": "/media/mehmooni-2018-invitation.webp",
+    "thumbnail": "/media/mehmooni-2018-invitation-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 565,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Mehmooni invitation over DJ equipment, naming DJ Gami, November 10 and Fu’s Palace.",
+      "fa": "دعوت‌نامهٔ مهمونی روی تصویر تجهیزات دی‌جی، با نام DJ Gami، تاریخ ۱۰ نوامبر و محل Fu’s Palace."
+    },
+    "caption": {
+      "en": "Mehmooni 2018: UCLA and UCI friends at Fu’s Palace.",
+      "fa": "مهمونی ۲۰۱۸؛ دوستان UCLA و UCI در Fu’s Palace."
+    },
+    "credit": "UCLA and UCI Iranian student groups promotional artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2018-kamyar-program-poster",
+    "src": "/media/yalda-2018-kamyar-program-poster.webp",
+    "thumbnail": "/media/yalda-2018-kamyar-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1350,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Yalda 2018 poster with Kamyar’s portrait, two DJ photographs and the SIGS logo.",
+      "fa": "پوستر یلدای ۲۰۱۸ با تصویر Kamyar، عکس دو دی‌جی و نشان SIGS."
+    },
+    "caption": {
+      "en": "Kamyar, DJ Sepand and DJ Aaraa in the Yalda 2018 invitation.",
+      "fa": "Kamyar، دی‌جی سپند و دی‌جی آرا در دعوت‌نامهٔ یلدای ۲۰۱۸."
+    },
+    "credit": "SIGS promotional artwork. Artist and portrait photographers not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-support-2020-invitation",
+    "src": "/media/community-support-2020-invitation.webp",
+    "thumbnail": "/media/community-support-2020-invitation-small.webp",
+    "kind": "poster",
+    "width": 1279,
+    "height": 1600,
+    "eventId": "community-support-2020-01-13",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Jordan Center invitation for a January 13 support gathering, signed by Touraj Daryaee, with SIGS and ISU logos.",
+      "fa": "دعوت‌نامهٔ مرکز جردن برای دورهمی همدلی در ۱۳ ژانویه، با نام Touraj Daryaee و نشان‌های SIGS و ISU."
+    },
+    "caption": {
+      "en": "A campus invitation for support and conversation, January 2020.",
+      "fa": "دعوتی دانشگاهی برای همدلی و گفت‌وگو، ژانویهٔ ۲۰۲۰."
+    },
+    "credit": "UCI Jordan Center for Persian Studies & Culture; SIGS and ISU logos retained.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "welcome-2023-newcomer-artwork",
+    "src": "/media/welcome-2023-newcomer-artwork.webp",
+    "thumbnail": "/media/welcome-2023-newcomer-artwork-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1080,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Welcome Newcomers artwork over a UCI campus entrance, with Persian lettering and SIGS and ISC logos.",
+      "fa": "طرح خوشامدگویی به تازه‌واردان روی تصویر ورودی دانشگاه UCI، با نوشتهٔ فارسی و نشان‌های SIGS و ISC."
+    },
+    "caption": {
+      "en": "A welcome to newcomers from SIGS and ISC.",
+      "fa": "خوشامدگویی به تازه‌واردان از سوی SIGS و ISC."
+    },
+    "credit": "SIGS and Iranian Students of California promotional artwork. Artist and photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2023-performer-portrait-01",
+    "src": "/media/yalda-2023-performer-portrait-01.webp",
+    "thumbnail": "/media/yalda-2023-performer-portrait-01-small.webp",
+    "kind": "photo",
+    "width": 1200,
+    "height": 1500,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Black-and-white promotional portrait of a performer in a dark coat.",
+      "fa": "تصویر تبلیغاتی سیاه‌وسفید اجراکننده‌ای با پالتوی تیره."
+    },
+    "caption": {
+      "en": "Introducing the performers for Yalda 2023.",
+      "fa": "تصاویر معرفی اجراکنندگان یلدای ۲۰۲۳."
+    },
+    "credit": "Promotional portrait shared by SIGS. Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2023-performer-portrait-02",
+    "src": "/media/yalda-2023-performer-portrait-02.webp",
+    "thumbnail": "/media/yalda-2023-performer-portrait-02-small.webp",
+    "kind": "photo",
+    "width": 1280,
+    "height": 1600,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Promotional portrait of a performer in an embroidered dress and purple head covering beside a tree.",
+      "fa": "تصویر تبلیغاتی اجراکننده‌ای با لباس سوزن‌دوزی‌شده و روسری بنفش کنار درخت."
+    },
+    "caption": {
+      "en": "Introducing the performers for Yalda 2023.",
+      "fa": "تصاویر معرفی اجراکنندگان یلدای ۲۰۲۳."
+    },
+    "credit": "Promotional portrait shared by SIGS. Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2023-performer-portrait-03",
+    "src": "/media/yalda-2023-performer-portrait-03.webp",
+    "thumbnail": "/media/yalda-2023-performer-portrait-03-small.webp",
+    "kind": "photo",
+    "width": 1284,
+    "height": 1600,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Promotional portrait of a performer holding a vintage-style microphone.",
+      "fa": "تصویر تبلیغاتی اجراکننده‌ای با میکروفنی به سبک قدیمی در دست."
+    },
+    "caption": {
+      "en": "Introducing the performers for Yalda 2023.",
+      "fa": "تصاویر معرفی اجراکنندگان یلدای ۲۰۲۳."
+    },
+    "credit": "Promotional portrait shared by SIGS. Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "maryam-mirzakhani-remembrance-2017",
+    "src": "/media/maryam-mirzakhani-remembrance-2017.webp",
+    "thumbnail": "/media/maryam-mirzakhani-remembrance-2017-small.webp",
+    "kind": "photo",
+    "width": 720,
+    "height": 913,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Black-and-white portrait of Maryam Mirzakhani against a dark background.",
+      "fa": "تصویر سیاه‌وسفید مریم میرزاخانی با پس‌زمینهٔ تیره."
+    },
+    "caption": {
+      "en": "Remembering Maryam Mirzakhani, 2017.",
+      "fa": "به یاد مریم میرزاخانی، ۲۰۱۷."
+    },
+    "credit": "Memorial portrait shared by SIGS. Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nabavi-2013-invitation",
+    "src": "/media/nabavi-2013-invitation.webp",
+    "thumbnail": "/media/nabavi-2013-invitation-small.webp",
+    "kind": "poster",
+    "width": 883,
+    "height": 1200,
+    "eventId": "ebrahim-nabavi-2013",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Red illustrated Ebrahim Nabavi comedy poster, with SIGS presenter credit, date and venue.",
+      "fa": "پوستر تصویرسازی‌شدهٔ قرمز اجرای کمدی ابراهیم نبوی، با نام SIGS به‌عنوان برگزارکننده، تاریخ و محل برنامه."
+    },
+    "caption": {
+      "en": "Why? Really Why? Ebrahim Nabavi’s 2013 comedy invitation.",
+      "fa": "دعوت‌نامهٔ اجرای کمدی «چرا؟ واقعاً چرا؟» ابراهیم نبوی، ۲۰۱۳."
+    },
+    "credit": "Artwork signed KD STUDIO; SIGS program.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "parissa-2013-invitation",
+    "src": "/media/parissa-2013-invitation.webp",
+    "thumbnail": "/media/parissa-2013-invitation-small.webp",
+    "kind": "poster",
+    "width": 1066,
+    "height": 1600,
+    "eventId": "parissa-2013",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Concert poster featuring Parissa and five musicians, with Nava Entertainment and SIGS presenter credits.",
+      "fa": "پوستر کنسرت با تصویر پریسا و پنج نوازنده و نام Nava Entertainment و SIGS به‌عنوان برگزارکنندگان."
+    },
+    "caption": {
+      "en": "Parissa and the Hamnavazan Ensemble: the 2013 invitation.",
+      "fa": "دعوت‌نامهٔ اجرای پریسا و گروه هم‌نوازان، ۲۰۱۳."
+    },
+    "credit": "Nava Entertainment and SIGS promotional artwork. Portrait photographers not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2014-invitation",
+    "src": "/media/nowruz-2014-invitation.webp",
+    "thumbnail": "/media/nowruz-2014-invitation-small.webp",
+    "kind": "poster",
+    "width": 1236,
+    "height": 1600,
+    "eventId": "nowruz-2014",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Nowruz invitation with Haft-Seen artwork, fish, flowers and SIGS and AGS presenter and sponsor credits.",
+      "fa": "دعوت‌نامهٔ نوروز با طرح هفت‌سین، ماهی، گل و نام SIGS و AGS به‌عنوان برگزارکننده و حامی."
+    },
+    "caption": {
+      "en": "Nowruz 2014: the invitation to music, dinner and spring.",
+      "fa": "نوروز ۲۰۱۴؛ دعوت‌نامهٔ موسیقی، شام و بهار."
+    },
+    "credit": "SIGS event artwork; AGS sponsor credit retained. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "halloween-2019-invitation",
+    "src": "/media/halloween-2019-invitation.webp",
+    "thumbnail": "/media/halloween-2019-invitation-small.webp",
+    "kind": "poster",
+    "width": 870,
+    "height": 1280,
+    "eventId": "halloween-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dark Halloween poster with illustrated skeletons, DJ names and Shemroon and OCPC marks.",
+      "fa": "پوستر تیرهٔ هالووین با اسکلت‌های تصویرسازی‌شده، نام دی‌جی‌ها و نشان‌های Shemroon و OCPC."
+    },
+    "caption": {
+      "en": "The Halloween 2019 invitation at Hotel Irvine.",
+      "fa": "دعوت‌نامهٔ هالووین ۲۰۱۹ در هتل ایرواین."
+    },
+    "credit": "Shemroon and OCPC promotional artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2023-invitation",
+    "src": "/media/yalda-2023-invitation.webp",
+    "thumbnail": "/media/yalda-2023-invitation-small.webp",
+    "kind": "poster",
+    "width": 1280,
+    "height": 1600,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Red and black Yalda Night poster with pomegranates, the SIGS presenter name and December 16 date.",
+      "fa": "پوستر قرمز و مشکی شب یلدا با انار، نام SIGS به‌عنوان برگزارکننده و تاریخ ۱۶ دسامبر."
+    },
+    "caption": {
+      "en": "The invitation to Yalda 2023 at UCI.",
+      "fa": "دعوت‌نامهٔ یلدای ۲۰۲۳ در UCI."
+    },
+    "credit": "SIGS promotional artwork. Artist not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-statement-2022-page-01",
+    "src": "/media/community-statement-2022-page-01.webp",
+    "thumbnail": "/media/community-statement-2022-page-01-small.webp",
+    "kind": "poster",
+    "width": 1286,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Title page dated October 5, 2022, addressed to UC leadership, with Iranian student-organization logos.",
+      "fa": "صفحهٔ عنوان با تاریخ ۵ اکتبر ۲۰۲۲، خطاب به مدیران دانشگاه کالیفرنیا و همراه با نشان‌های انجمن‌های دانشجویی ایرانی."
+    },
+    "caption": {
+      "en": "October 2022: a joint public statement from UC Iranian student organizations. Page 1 of 5.",
+      "fa": "اکتبر ۲۰۲۲؛ بیانیهٔ عمومی مشترک انجمن‌های دانشجویی ایرانی دانشگاه کالیفرنیا. صفحهٔ ۱ از ۵."
+    },
+    "credit": "Iranian Students of California and the institutional signatories, including SIGS.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-statement-2022-page-02",
+    "src": "/media/community-statement-2022-page-02.webp",
+    "thumbnail": "/media/community-statement-2022-page-02-small.webp",
+    "kind": "poster",
+    "width": 1286,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Opening statement by Iranian Students of California and campus organizations concerning Iran in 2022.",
+      "fa": "آغاز بیانیهٔ دانشجویان ایرانی کالیفرنیا و انجمن‌های دانشگاهی دربارهٔ ایران در سال ۲۰۲۲."
+    },
+    "caption": {
+      "en": "October 2022: a joint public statement from UC Iranian student organizations. Page 2 of 5.",
+      "fa": "اکتبر ۲۰۲۲؛ بیانیهٔ عمومی مشترک انجمن‌های دانشجویی ایرانی دانشگاه کالیفرنیا. صفحهٔ ۲ از ۵."
+    },
+    "credit": "Iranian Students of California and the institutional signatories, including SIGS.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-statement-2022-page-03",
+    "src": "/media/community-statement-2022-page-03.webp",
+    "thumbnail": "/media/community-statement-2022-page-03-small.webp",
+    "kind": "poster",
+    "width": 1286,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Statement page discussing Sharif University and requesting support from the University of California.",
+      "fa": "صفحه‌ای از بیانیه دربارهٔ دانشگاه شریف و درخواست حمایت از دانشگاه کالیفرنیا."
+    },
+    "caption": {
+      "en": "October 2022: a joint public statement from UC Iranian student organizations. Page 3 of 5.",
+      "fa": "اکتبر ۲۰۲۲؛ بیانیهٔ عمومی مشترک انجمن‌های دانشجویی ایرانی دانشگاه کالیفرنیا. صفحهٔ ۳ از ۵."
+    },
+    "credit": "Iranian Students of California and the institutional signatories, including SIGS.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-statement-2022-page-04",
+    "src": "/media/community-statement-2022-page-04.webp",
+    "thumbnail": "/media/community-statement-2022-page-04-small.webp",
+    "kind": "poster",
+    "width": 1286,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Statement page requesting public support and admissions accommodations for applicants from Iran.",
+      "fa": "صفحه‌ای از بیانیه با درخواست حمایت عمومی و تسهیلات پذیرش برای متقاضیان ساکن ایران."
+    },
+    "caption": {
+      "en": "October 2022: a joint public statement from UC Iranian student organizations. Page 4 of 5.",
+      "fa": "اکتبر ۲۰۲۲؛ بیانیهٔ عمومی مشترک انجمن‌های دانشجویی ایرانی دانشگاه کالیفرنیا. صفحهٔ ۴ از ۵."
+    },
+    "credit": "Iranian Students of California and the institutional signatories, including SIGS.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-statement-2022-page-05",
+    "src": "/media/community-statement-2022-page-05.webp",
+    "thumbnail": "/media/community-statement-2022-page-05-small.webp",
+    "kind": "poster",
+    "width": 1286,
+    "height": 1600,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Institutional signatories including SIGS, ISU and the UCI Jordan Center.",
+      "fa": "نام نهادهای امضاکننده، از جمله SIGS، ISU و مرکز جردن در UCI."
+    },
+    "caption": {
+      "en": "October 2022: a joint public statement from UC Iranian student organizations. Page 5 of 5.",
+      "fa": "اکتبر ۲۰۲۲؛ بیانیهٔ عمومی مشترک انجمن‌های دانشجویی ایرانی دانشگاه کالیفرنیا. صفحهٔ ۵ از ۵."
+    },
+    "credit": "Iranian Students of California and the institutional signatories, including SIGS.",
     "publication": "published",
     "rights": "approved"
   }

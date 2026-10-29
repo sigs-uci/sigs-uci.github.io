@@ -325,7 +325,17 @@
       "yalda-2018-photo-308",
       "yalda-2018-photo-309",
       "yalda-2018-photo-310",
-      "yalda-2018-kamyar-performance"
+      "yalda-2018-kamyar-performance",
+      "yalda-2018-dj-friends-alternate",
+      "yalda-2018-large-group-alternate",
+      "yalda-2018-friends-alternate",
+      "yalda-2018-welcome-desk-01",
+      "yalda-2018-welcome-desk-02",
+      "yalda-2018-welcome-desk-03",
+      "yalda-2018-ballroom-invitation",
+      "yalda-2018-kamyar-invitation",
+      "yalda-2018-invitation-film",
+      "yalda-2018-kamyar-program-poster"
     ]
   },
   {
@@ -633,7 +643,120 @@
       "nowruz-2019-photo-288",
       "nowruz-2019-photo-289",
       "nowruz-2019-photo-290",
-      "nowruz-2019-dance-rehearsal"
+      "nowruz-2019-dance-rehearsal",
+      "nowruz-2019-musician-setar",
+      "nowruz-2019-musician-tombak",
+      "nowruz-2019-guest-portrait",
+      "nowruz-2019-sold-out-announcement",
+      "nowruz-2019-k-von-invitation"
+    ]
+  },
+  {
+    "id": "mehmooni-2018",
+    "title": {
+      "en": "Mehmooni 2018",
+      "fa": "مهمونی ۲۰۱۸"
+    },
+    "description": {
+      "en": "Mehmooni in Los Angeles, with friends from the Iranian student groups at UCLA and UCI.",
+      "fa": "مهمونی در لس‌آنجلس، در کنار دوستان گروه‌های دانشجویی ایرانی UCLA و UCI."
+    },
+    "coverId": "mehmooni-2018-photo-001",
+    "mediaIds": [
+      "mehmooni-2018-photo-001",
+      "mehmooni-2018-photo-002",
+      "mehmooni-2018-photo-003",
+      "mehmooni-2018-photo-004",
+      "mehmooni-2018-photo-005",
+      "mehmooni-2018-photo-006",
+      "mehmooni-2018-photo-007",
+      "mehmooni-2018-photo-008",
+      "mehmooni-2018-photo-009",
+      "mehmooni-2018-photo-010",
+      "mehmooni-2018-photo-011",
+      "mehmooni-2018-photo-012",
+      "mehmooni-2018-invitation"
+    ],
+    "eventIds": [
+      "mehmooni-2018"
+    ]
+  },
+  {
+    "id": "yalda-2019",
+    "title": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "description": {
+      "en": "Sandy, bandari music and the SIGS community at the UCI Student Center.",
+      "fa": "سندی، موسیقی بندری و جمع SIGS در مرکز دانشجویی UCI."
+    },
+    "coverId": "yalda-2019-photo-001",
+    "mediaIds": [
+      "yalda-celebrations-image-046",
+      "yalda-celebrations-image-049",
+      "yalda-2019-photo-001",
+      "yalda-2019-photo-002",
+      "yalda-2019-photo-003",
+      "yalda-2019-photo-004",
+      "yalda-2019-photo-005",
+      "yalda-2019-photo-006",
+      "yalda-2019-photo-007",
+      "yalda-2019-photo-008",
+      "yalda-2019-photo-009",
+      "yalda-2019-photo-010",
+      "yalda-2019-sandy-portrait-invitation",
+      "yalda-2019-sandy-invitation"
+    ],
+    "eventIds": [
+      "yalda-2019"
+    ]
+  },
+  {
+    "id": "student-solidarity-2022",
+    "title": {
+      "en": "Students for Students, 2022",
+      "fa": "دانشجویان برای دانشجویان، ۲۰۲۲"
+    },
+    "description": {
+      "en": "The December 7 solidarity gathering at Humanities Gateway Bridge, in support of students in Iran.",
+      "fa": "گردهمایی همبستگی ۷ دسامبر روی پل Humanities Gateway، در همراهی با دانشجویان ایران."
+    },
+    "coverId": "student-solidarity-2022-photo-01",
+    "mediaIds": [
+      "student-solidarity-2022-12-07-poster",
+      "student-solidarity-2022-photo-01",
+      "student-solidarity-2022-photo-02",
+      "student-solidarity-2022-photo-03"
+    ],
+    "eventIds": [
+      "student-solidarity-2022-12-07"
+    ]
+  },
+  {
+    "id": "nowruz-2016",
+    "title": {
+      "en": "Invitations to Nowruz 2016",
+      "fa": "دعوت به نوروز ۲۰۱۶"
+    },
+    "description": {
+      "en": "The posters and invitation film for SIGS Nowruz 1395 at the UCI Student Center.",
+      "fa": "پوسترها و ویدیوی دعوت به جشن نوروز ۱۳۹۵ SIGS در مرکز دانشجویی UCI."
+    },
+    "note": {
+      "en": "These are historical invitations. Registration is closed.",
+      "fa": "این دعوت‌نامه‌ها مربوط به گذشته‌اند. ثبت‌نام بسته است."
+    },
+    "coverId": "nowruz-2016-program-invitation",
+    "mediaIds": [
+      "nowruz-celebrations-image-006",
+      "nowruz-2016-program-invitation",
+      "nowruz-2016-persian-invitation",
+      "nowruz-2016-sold-out-announcement",
+      "nowruz-2016-invitation-film"
+    ],
+    "eventIds": [
+      "nowruz-2016"
     ]
   },
   {
@@ -643,8 +766,8 @@
       "fa": "خوشامدگویی به دانشجویان جدید، ۲۰۲۳"
     },
     "description": {
-      "en": "Meeting the next group of UCI students over questions, conversation and dinner, with the ISC NewComers program.",
-      "fa": "آشنایی با دانشجویان تازه‌وارد UCI، همراه با پرسش‌وپاسخ، گفت‌وگو و شام در کنار برنامهٔ NewComers در ISC."
+      "en": "Welcoming newcomers, with orientation photographs and SIGS and ISC welcome artwork.",
+      "fa": "خوشامدگویی به تازه‌واردان، با عکس‌های برنامهٔ آشنایی و طرح خوشامدگویی SIGS و ISC."
     },
     "eventIds": [
       "welcome-2023"
@@ -655,7 +778,8 @@
       "welcome-2023-photo-001",
       "welcome-2023-photo-002",
       "welcome-2023-photo-003",
-      "welcome-2023-photo-004"
+      "welcome-2023-photo-004",
+      "welcome-2023-newcomer-artwork"
     ]
   },
   {
@@ -872,7 +996,9 @@
       "halloween-2018-photo-197",
       "halloween-2018-photo-198",
       "halloween-2018-photo-199",
-      "halloween-2018-photo-200"
+      "halloween-2018-photo-200",
+      "halloween-2018-invitation-film",
+      "halloween-2018-illustrated-invitation"
     ]
   },
   {
@@ -994,7 +1120,8 @@
       "nowruz-2017-photo-100",
       "nowruz-2017-photo-101",
       "nowruz-2017-photo-102",
-      "nowruz-2017-photo-103"
+      "nowruz-2017-photo-103",
+      "nowruz-2017-program-invitation"
     ]
   },
   {
@@ -1118,7 +1245,10 @@
       "yalda-2016-photo-102",
       "yalda-2016-photo-103",
       "yalda-2016-photo-104",
-      "yalda-2016-photo-105"
+      "yalda-2016-photo-105",
+      "yalda-2016-landscape-invitation",
+      "yalda-2016-program-invitation",
+      "yalda-2016-sold-out-announcement"
     ]
   },
   {
@@ -1150,7 +1280,8 @@
       "iftar-2017-photo-012",
       "iftar-2017-photo-013",
       "iftar-2017-photo-014",
-      "iftar-2017-photo-015"
+      "iftar-2017-photo-015",
+      "iftar-2017-invitation"
     ]
   },
   {
@@ -1211,7 +1342,12 @@
       "halloween-2017-photo-013",
       "halloween-2017-photo-014",
       "halloween-2017-photo-015",
-      "halloween-2017-photo-016"
+      "halloween-2017-photo-016",
+      "halloween-2017-costume-friends",
+      "halloween-2017-large-group",
+      "halloween-2017-costume-group",
+      "halloween-2017-dj-at-decks",
+      "halloween-2017-dance-floor"
     ]
   },
   {
@@ -1371,7 +1507,6 @@
     "mediaIds": [
       "nowruz-celebrations-image-002",
       "nowruz-celebrations-image-003",
-      "nowruz-celebrations-image-006",
       "nowruz-celebrations-image-008",
       "nowruz-celebrations-image-016",
       "nowruz-celebrations-image-022",
@@ -1386,10 +1521,10 @@
       "nowruz-celebrations-image-037",
       "nowruz-celebrations-image-038",
       "nowruz-celebrations-image-047",
-      "nowruz-celebrations-image-048"
+      "nowruz-celebrations-image-048",
+      "community-nowruz-table"
     ],
     "eventIds": [
-      "nowruz-2016",
       "nowruz-2017",
       "nowruz-2018",
       "nowruz-2019"
@@ -1459,7 +1594,15 @@
     "coverId": "indoor-community-gathering-image-072",
     "mediaIds": [
       "indoor-community-gathering-image-072",
-      "indoor-community-gathering-image-074"
+      "indoor-community-gathering-image-074",
+      "community-early-gathering-01",
+      "community-early-gathering-02",
+      "community-early-gathering-03",
+      "community-early-gathering-04",
+      "community-early-gathering-05",
+      "community-early-gathering-06",
+      "community-early-gathering-07",
+      "community-early-gathering-08"
     ],
     "eventIds": []
   },
@@ -1476,9 +1619,18 @@
     "coverId": "group-portraits-image-118",
     "mediaIds": [
       "group-portraits-image-118",
-      "group-portraits-image-121"
+      "group-portraits-image-121",
+      "community-campus-portrait-01",
+      "sigs-team-2023-photo-01",
+      "sigs-team-2023-photo-02",
+      "graduate-orientation-2019-community",
+      "innovation-forum-2018-community",
+      "welcome-2018-community"
     ],
-    "eventIds": []
+    "eventIds": [
+      "welcome-2018",
+      "innovation-forum-2018"
+    ]
   },
   {
     "id": "watching-football",
@@ -1494,7 +1646,8 @@
     "mediaIds": [
       "watching-football-image-119",
       "watching-football-image-120",
-      "football-gathering-recap"
+      "football-gathering-recap",
+      "community-football-portrait"
     ],
     "eventIds": []
   },
@@ -1505,8 +1658,8 @@
       "fa": "شب‌های یلدا"
     },
     "description": {
-      "en": "Invitations to Yalda evenings of poetry, music and dinner.",
-      "fa": "دعوت به شب‌های یلدا با شعر، موسیقی و شام."
+      "en": "Yalda greetings and invitations from across the years.",
+      "fa": "پیام‌های یلدایی و دعوت‌نامه‌هایی از سال‌های مختلف."
     },
     "note": {
       "en": "These are past invitations. Registration is closed.",
@@ -1518,15 +1671,20 @@
       "yalda-celebrations-image-013",
       "yalda-celebrations-image-042",
       "yalda-celebrations-image-043",
-      "yalda-celebrations-image-046",
-      "yalda-celebrations-image-049",
-      "yalda-2025-flyer"
+      "yalda-2025-flyer",
+      "yalda-greeting-2024-community",
+      "yalda-2020-invitation",
+      "yalda-2015-evening-program",
+      "yalda-2021-sold-out-announcement",
+      "yalda-2023-performer-portrait-01",
+      "yalda-2023-performer-portrait-02",
+      "yalda-2023-performer-portrait-03",
+      "yalda-2023-invitation"
     ],
     "eventIds": [
       "yalda-2015",
       "yalda-2017",
       "yalda-2018",
-      "yalda-2019",
       "yalda-2025"
     ]
   },
@@ -1556,7 +1714,6 @@
       "nowruz-2023-poster",
       "bonfire-2023-02-04-poster",
       "yalda-2022-poster",
-      "student-solidarity-2022-12-07-poster",
       "game-night-2022-poster",
       "solidarity-rally-2022-11-30-poster",
       "solidarity-2022-09-27-poster",
@@ -1592,7 +1749,24 @@
       "posters-and-venues-image-010",
       "posters-and-venues-image-014",
       "posters-and-venues-image-015",
-      "posters-and-venues-image-041"
+      "posters-and-venues-image-041",
+      "nowruz-2022-invitation",
+      "welcome-2018-barbecue-poster",
+      "bowling-2019-invitation",
+      "potluck-2019-invitation",
+      "beach-volleyball-2019-invitation",
+      "immigration-panel-2019-invitation",
+      "welcome-2019-barbecue-invitation",
+      "nutrition-wellness-2020-invitation",
+      "shajarian-2013-lecture-invitation",
+      "iranian-american-reception-2019-poster",
+      "persian-breakfast-2019-invitation",
+      "nowruz-2020-announcement-artwork",
+      "community-support-2020-invitation",
+      "nabavi-2013-invitation",
+      "parissa-2013-invitation",
+      "nowruz-2014-invitation",
+      "halloween-2019-invitation"
     ],
     "eventIds": []
   },
@@ -1603,8 +1777,8 @@
       "fa": "فیلم و شعر"
     },
     "description": {
-      "en": "Persian Poetry Night and the invitation to Tales, with a screenwriter Q&A.",
-      "fa": "شب شعر فارسی و دعوت‌نامهٔ نمایش فیلم «قصه‌ها»، همراه با پرسش‌وپاسخ با فیلم‌نامه‌نویس."
+      "en": "Poetry Night, film invitations and a weekend of Iranian cinema with the SIGS community.",
+      "fa": "شب شعر، دعوت‌نامه‌های نمایش فیلم و آخرهفته‌ای با سینمای ایران در کنار جمع SIGS."
     },
     "note": {
       "en": "Past invitation: Tales screening and screenwriter Q&A, March 31, 2016.",
@@ -1613,11 +1787,38 @@
     "coverId": "poetry-night-2019-photo",
     "mediaIds": [
       "poetry-night-2019-photo",
-      "tales-2016-poster"
+      "tales-2016-poster",
+      "pol-film-weekend-2019-community",
+      "secrets-of-the-surface-2020-invitation",
+      "poetry-night-2019-invitation",
+      "pol-media-film-weekend-2019-invitation"
     ],
     "eventIds": [
       "poetry-night-2019",
-      "tales-2016"
+      "tales-2016",
+      "pol-media-film-weekend-2019",
+      "secrets-of-the-surface-2020"
+    ]
+  },
+  {
+    "id": "community-voices",
+    "title": {
+      "en": "In remembrance and solidarity",
+      "fa": "یادبود و همبستگی"
+    },
+    "description": {
+      "en": "Remembering Maryam Mirzakhani in 2017, and a joint statement from Iranian student organizations across UC campuses on October 5, 2022, with SIGS among its signatories.",
+      "fa": "یاد مریم میرزاخانی در سال ۲۰۱۷ و بیانیهٔ مشترک انجمن‌های دانشجویی ایرانی دانشگاه کالیفرنیا در ۵ اکتبر ۲۰۲۲، با SIGS در میان امضاکنندگان آن."
+    },
+    "eventIds": [],
+    "coverId": "maryam-mirzakhani-remembrance-2017",
+    "mediaIds": [
+      "maryam-mirzakhani-remembrance-2017",
+      "community-statement-2022-page-01",
+      "community-statement-2022-page-02",
+      "community-statement-2022-page-03",
+      "community-statement-2022-page-04",
+      "community-statement-2022-page-05"
     ]
   }
 ]

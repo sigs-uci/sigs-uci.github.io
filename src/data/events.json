@@ -152,25 +152,28 @@
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": "Moss Cove AB, UCI Student Center",
+    "venue": "Moss Cove AB, A311, UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS invited Ebrahim Nabavi to UC Irvine for the final stop of his US tour. The advertised comedy show, Why? Really Why?, was planned for Moss Cove AB.",
+    "summary": "SIGS invited Ebrahim Nabavi to UC Irvine for the final stop of his US tour. The advertised comedy show, Why? Really Why?, was planned for Moss Cove AB. The Samuel Jordan Center sponsored the announced show.",
     "occurrenceEvidence": "announced",
     "archiveLabel": "Archived announcement",
     "publication": "published",
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nabavi-2013-invitation"
+    ],
+    "heroImage": "nabavi-2013-invitation",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
     },
     "publicSourceLinks": [],
     "generateCalendarDownload": false,
-    "generateEventStructuredData": false
+    "generateEventStructuredData": false,
+    "cost": "Advertised: students with valid student ID $15; general admission $25"
   },
   {
     "id": "saadat-abad-2013",
@@ -494,8 +497,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "parissa-2013-invitation"
+    ],
+    "heroImage": "parissa-2013-invitation",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -566,15 +571,18 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-2014-invitation"
+    ],
+    "heroImage": "nowruz-2014-invitation",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
     },
     "publicSourceLinks": [],
     "generateCalendarDownload": false,
-    "generateEventStructuredData": false
+    "generateEventStructuredData": false,
+    "cost": "Advertised: UCI students $15; other students and UCI affiliates $20; general admission $35"
   },
   {
     "id": "iftar-2015",
@@ -635,7 +643,8 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "yalda-celebrations-image-005"
+      "yalda-celebrations-image-005",
+      "yalda-2015-evening-program"
     ],
     "heroImage": "yalda-celebrations-image-005",
     "editorial": {
@@ -671,7 +680,11 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "nowruz-celebrations-image-006"
+      "nowruz-celebrations-image-006",
+      "nowruz-2016-program-invitation",
+      "nowruz-2016-persian-invitation",
+      "nowruz-2016-sold-out-announcement",
+      "nowruz-2016-invitation-film"
     ],
     "heroImage": "nowruz-celebrations-image-006",
     "editorial": {
@@ -783,6 +796,7 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "yalda-2016-photo-011",
       "yalda-2016-photo-007",
       "yalda-2016-photo-015",
       "yalda-2016-photo-013",
@@ -830,6 +844,7 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "bonfire-fall-2017-photo-003",
       "bonfire-fall-2017-photo-001",
       "bonfire-fall-2017-photo-002",
       "bonfire-fall-2017-photo-004",
@@ -874,6 +889,7 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "nowruz-2017-photo-017",
       "nowruz-celebrations-image-016",
       "nowruz-2017-photo-025",
       "nowruz-2017-photo-031",
@@ -885,8 +901,7 @@
       "nowruz-2017-photo-007",
       "nowruz-2017-photo-015",
       "nowruz-2017-photo-023",
-      "nowruz-2017-photo-039",
-      "nowruz-2017-photo-047"
+      "nowruz-2017-photo-039"
     ],
     "heroImage": "nowruz-2017-photo-017",
     "editorial": {
@@ -907,7 +922,7 @@
       "precision": "day",
       "contextYear": 2017
     },
-    "timeDisplay": "7:30 to 11 PM",
+    "timeDisplay": "7:30 PM start; 11 PM end in the listing, 11:55 PM on the poster",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
@@ -922,6 +937,7 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "iftar-2017-photo-003",
       "iftar-2017-photo-007",
       "iftar-2017-photo-001",
       "iftar-2017-photo-002",
@@ -1288,8 +1304,10 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "innovation-forum-2018-community"
+    ],
+    "heroImage": "innovation-forum-2018-community",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -1362,6 +1380,7 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "halloween-2018-photo-019",
       "halloween-2018-photo-022",
       "halloween-2018-photo-002",
       "halloween-2018-photo-001",
@@ -1373,7 +1392,9 @@
       "halloween-2018-photo-097",
       "halloween-2018-photo-113",
       "halloween-2018-photo-129",
-      "halloween-2018-photo-145"
+      "halloween-2018-photo-145",
+      "halloween-2018-invitation-film",
+      "halloween-2018-illustrated-invitation"
     ],
     "heroImage": "halloween-2018-photo-019",
     "editorial": {
@@ -1408,8 +1429,22 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "mehmooni-2018-photo-001",
+      "mehmooni-2018-photo-002",
+      "mehmooni-2018-photo-003",
+      "mehmooni-2018-photo-004",
+      "mehmooni-2018-photo-005",
+      "mehmooni-2018-photo-006",
+      "mehmooni-2018-photo-007",
+      "mehmooni-2018-photo-008",
+      "mehmooni-2018-photo-009",
+      "mehmooni-2018-photo-010",
+      "mehmooni-2018-photo-011",
+      "mehmooni-2018-photo-012",
+      "mehmooni-2018-invitation"
+    ],
+    "heroImage": "mehmooni-2018-photo-001",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -1435,7 +1470,7 @@
     "venue": "UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS celebrated Yalda at the UCI Student Center. The invitation featured Kamyar, Hafez recitation, traditional music and an after-party with DJ Sepand and DJ Aaraa.",
+    "summary": "SIGS celebrated Yalda at the UCI Student Center with Kamyar. The invitation also featured Hafez recitation, traditional music and an after-party with DJ Sepand and DJ Aaraa.",
     "occurrenceEvidence": "occurrence_corroborated",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -1443,6 +1478,7 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "yalda-2018-photo-015",
       "yalda-celebrations-image-042",
       "yalda-celebrations-image-043",
       "yalda-2018-photo-003",
@@ -1455,9 +1491,11 @@
       "gatherings-and-dance-image-045",
       "yalda-2018-photo-025",
       "yalda-2018-photo-050",
-      "yalda-2018-photo-075",
-      "yalda-2018-photo-100",
-      "yalda-2018-kamyar-performance"
+      "yalda-2018-kamyar-performance",
+      "yalda-2018-ballroom-invitation",
+      "yalda-2018-kamyar-invitation",
+      "yalda-2018-invitation-film",
+      "yalda-2018-kamyar-program-poster"
     ],
     "heroImage": "yalda-2018-photo-015",
     "editorial": {
@@ -1493,7 +1531,8 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "poetry-night-2019-photo"
+      "poetry-night-2019-photo",
+      "poetry-night-2019-invitation"
     ],
     "heroImage": "poetry-night-2019-photo",
     "editorial": {
@@ -1531,7 +1570,8 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "persian-breakfast-2019-poster"
+      "persian-breakfast-2019-poster",
+      "persian-breakfast-2019-invitation"
     ],
     "heroImage": "persian-breakfast-2019-poster",
     "editorial": {
@@ -1567,6 +1607,7 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "nowruz-2019-photo-010",
       "nowruz-celebrations-image-047",
       "nowruz-celebrations-image-048",
       "nowruz-2019-photo-016",
@@ -1579,9 +1620,9 @@
       "nowruz-2019-photo-049",
       "nowruz-2019-photo-073",
       "nowruz-2019-photo-097",
-      "nowruz-2019-photo-121",
-      "nowruz-2019-photo-145",
-      "nowruz-2019-dance-rehearsal"
+      "nowruz-2019-dance-rehearsal",
+      "nowruz-2019-sold-out-announcement",
+      "nowruz-2019-k-von-invitation"
     ],
     "heroImage": "nowruz-2019-photo-010",
     "editorial": {
@@ -1725,7 +1766,8 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "halloween-2019-poster"
+      "halloween-2019-poster",
+      "halloween-2019-invitation"
     ],
     "heroImage": "halloween-2019-poster",
     "editorial": {
@@ -1734,7 +1776,8 @@
     },
     "publicSourceLinks": [],
     "generateCalendarDownload": false,
-    "generateEventStructuredData": false
+    "generateEventStructuredData": false,
+    "audience": "Advertised for ages 18 and over"
   },
   {
     "id": "sibarg-marrow-2019",
@@ -1789,7 +1832,7 @@
     "venue": "Pacific Ballroom CD, UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS celebrated Yalda at the UCI Student Center. The invitation advertised Sandy and his band, games, karaoke and a DJ after-party; the later recap thanked everyone who came.",
+    "summary": "SIGS celebrated Yalda at the UCI Student Center with Sandy and his band. The invitation also advertised games, karaoke and a DJ after-party; the community recap thanked attendees for a night of bandari music.",
     "occurrenceEvidence": "occurrence_corroborated",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -1797,10 +1840,22 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "yalda-2019-photo-001",
       "yalda-celebrations-image-046",
-      "yalda-celebrations-image-049"
+      "yalda-celebrations-image-049",
+      "yalda-2019-photo-002",
+      "yalda-2019-photo-003",
+      "yalda-2019-photo-004",
+      "yalda-2019-photo-005",
+      "yalda-2019-photo-006",
+      "yalda-2019-photo-007",
+      "yalda-2019-photo-008",
+      "yalda-2019-photo-009",
+      "yalda-2019-photo-010",
+      "yalda-2019-sandy-portrait-invitation",
+      "yalda-2019-sandy-invitation"
     ],
-    "heroImage": "yalda-celebrations-image-046",
+    "heroImage": "yalda-2019-photo-001",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -1833,8 +1888,10 @@
     "eventState": "cancelled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-2020-announcement-artwork"
+    ],
+    "heroImage": "nowruz-2020-announcement-artwork",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -1867,8 +1924,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "yalda-2020-invitation"
+    ],
+    "heroImage": "yalda-2020-invitation",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -2190,7 +2249,8 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "yalda-2021-poster"
+      "yalda-2021-poster",
+      "yalda-2021-sold-out-announcement"
     ],
     "heroImage": "yalda-2021-poster",
     "editorial": {
@@ -2334,9 +2394,12 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "student-solidarity-2022-12-07-poster"
+      "student-solidarity-2022-photo-01",
+      "student-solidarity-2022-12-07-poster",
+      "student-solidarity-2022-photo-02",
+      "student-solidarity-2022-photo-03"
     ],
-    "heroImage": "student-solidarity-2022-12-07-poster",
+    "heroImage": "student-solidarity-2022-photo-01",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -2550,6 +2613,7 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "welcome-2023-photo-002",
       "welcome-2023-photo-001",
       "indoor-community-gathering-image-073",
       "welcome-2023-photo-003",
@@ -2647,7 +2711,7 @@
       "precision": "day",
       "contextYear": 2023
     },
-    "timeDisplay": "Check-in 6 PM; program 6:30 to 11:30 PM; entry closes 7 PM",
+    "timeDisplay": "Check-in 6 PM; doors 6:30 PM on the poster; program 6:30 to 11:30 PM; entry closes 7 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
@@ -2661,8 +2725,13 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "yalda-2023-performer-portrait-01",
+      "yalda-2023-performer-portrait-02",
+      "yalda-2023-performer-portrait-03",
+      "yalda-2023-invitation"
+    ],
+    "heroImage": "yalda-2023-invitation",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -2884,5 +2953,441 @@
     "publicSourceLinks": [],
     "generateCalendarDownload": false,
     "generateEventStructuredData": false
+  },
+  {
+    "id": "nowruz-2022",
+    "slug": "nowruz-2022",
+    "title": "Nowruz with Global Learner Support, 2022",
+    "locale": "en",
+    "date": {
+      "value": null,
+      "precision": "year_context",
+      "contextYear": 2022
+    },
+    "timeDisplay": null,
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "culture",
+    "sigsRole": "co-organizer",
+    "summary": "SIGS and Northeastern University's Global Learner Support announced a Nowruz program with Massoume Price. The invitation planned a conversation about Nowruz history, symbolism and celebrations around the world, alongside traditional music from UCI.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "nowruz-2022-invitation"
+    ],
+    "heroImage": "nowruz-2022-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "welcome-2018",
+    "slug": "welcome-2018",
+    "title": "Welcome Barbecue and Orientation 2018",
+    "locale": "en",
+    "date": {
+      "value": "2018-09-22",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "timeDisplay": "7 to 11:59 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Verano Place Commons",
+    "category": "newcomers",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited new and returning students to begin the academic year with a barbecue and orientation at Verano Place Commons. The invitation was free and limited to UCI students and alumni, with snacks and games welcome.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "welcome-2018-barbecue-poster"
+    ],
+    "heroImage": "welcome-2018-barbecue-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "beach-volleyball-2019",
+    "slug": "beach-volleyball-2019",
+    "title": "Summer Beach Volleyball 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-08-18",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "4 to 9 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Corona del Mar State Beach",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited friends to Corona del Mar for a two-player beach volleyball tournament. The free public gathering advertised pizza and light refreshments, with a SIGS gift card for the winning team.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "beach-volleyball-2019-invitation"
+    ],
+    "heroImage": "beach-volleyball-2019-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "potluck-2019",
+    "slug": "potluck-2019",
+    "title": "End-of-Year Potluck 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-06-08",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "11 AM to 2 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Verano Place Commons",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited UCI students and alumni to an end-of-year potluck and barbecue at Verano Place Commons. Burgers and hot dogs were planned for lunch, and guests were welcome to bring food, snacks and games.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "potluck-2019-invitation"
+    ],
+    "heroImage": "potluck-2019-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "bowling-2019",
+    "slug": "bowling-2019",
+    "title": "Bowling Night 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-05-05",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "7 to 9 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Bowlmor Lanes, 2405 Park Avenue, Irvine",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited students to take a break from the quarter with bowling at Bowlmor Lanes in Irvine. The invitation advertised an evening together and rides for students from campus housing.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "bowling-2019-invitation"
+    ],
+    "heroImage": "bowling-2019-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "immigration-panel-2019",
+    "slug": "immigration-panel-2019",
+    "title": "Immigration Questions with Gazal N. Mehrani, 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-08-07",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "6 to 8 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Palo Verde community room",
+    "category": "professional",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited the community to ask immigration attorney Gazal N. Mehrani about the travel ban and HR-1044. The historical panel was planned for Palo Verde, with a Facebook and YouTube broadcast also announced.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "immigration-panel-2019-invitation"
+    ],
+    "heroImage": "immigration-panel-2019-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "nutrition-wellness-2020",
+    "slug": "nutrition-wellness-2020",
+    "title": "Eating Well, Feeling Well: 2020",
+    "locale": "en",
+    "date": {
+      "value": "2020-09-08",
+      "precision": "day",
+      "contextYear": 2020
+    },
+    "timeDisplay": "6 to 7 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Online (Zoom)",
+    "category": "community",
+    "sigsRole": "partner",
+    "summary": "SIGS and Seeb Magazine advertised a Persian-language online talk on nutrition and wellness with Dr. Zahra Azadbadi. The September 8 invitation included a discussion of diet during the pandemic and a question-and-answer session.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "nutrition-wellness-2020-invitation"
+    ],
+    "heroImage": "nutrition-wellness-2020-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "secrets-of-the-surface-2020",
+    "slug": "secrets-of-the-surface-2020",
+    "title": "Secrets of the Surface Screening 2020",
+    "locale": "en",
+    "date": {
+      "value": "2020-05-16",
+      "precision": "day",
+      "contextYear": 2020
+    },
+    "timeDisplay": "6 to 8 PM; the poster labels the time PST",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "film-poetry",
+    "sigsRole": "partner",
+    "summary": "SIGS appeared among the California student groups on the invitation to Secrets of the Surface, a film about Maryam Mirzakhani. The May 16 screening advertised a panel with Mirzakhani’s friends and collaborators.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "secrets-of-the-surface-2020-invitation"
+    ],
+    "heroImage": "secrets-of-the-surface-2020-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "shajarian-2013",
+    "slug": "shajarian-2013",
+    "title": "Mohammad Reza Shajarian and the Pournazeri Brothers, 2013",
+    "locale": "en",
+    "date": {
+      "value": "2013-05-17",
+      "precision": "day",
+      "contextYear": 2013
+    },
+    "timeDisplay": "7:30 PM on the poster; 7 PM in the event listing",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "SSLH100, Social Sciences Lecture Hall, UC Irvine",
+    "category": "culture",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited the community to a lecture with Mohammad Reza Shajarian and the Pournazeri brothers about new instruments in Persian classical music. The Samuel Jordan Center for Persian Studies and Culture co-sponsored the announced program.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "shajarian-2013-lecture-invitation"
+    ],
+    "heroImage": "shajarian-2013-lecture-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "Advertised as open to the public"
+  },
+  {
+    "id": "pol-media-film-weekend-2019",
+    "slug": "pol-media-film-weekend-2019",
+    "title": "Pol Media's Orange County Film Weekend, 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-07-19",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": null,
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "film-poetry",
+    "sigsRole": "participant",
+    "summary": "SIGS took part in the film weekend presented by Pol Media in Orange County, July 19 to 21, 2019. The community's account of the program included meeting actors Behrouz Vossoughi and Shahab Hosseini.",
+    "occurrenceEvidence": "occurrence_reported",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "pol-film-weekend-2019-community",
+      "pol-media-film-weekend-2019-invitation"
+    ],
+    "heroImage": "pol-film-weekend-2019-community",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "iranian-american-reception-2019",
+    "slug": "iranian-american-reception-2019",
+    "title": "UCI Iranian American Networking Reception, 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-01-31",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "5:30 to 8 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Newkirk Alumni Center",
+    "category": "professional",
+    "sigsRole": "shared_invitation",
+    "summary": "SIGS shared an invitation for UCI students and alumni to meet the Iranian American community at Newkirk Alumni Center. Remarks by Rameen Talesh and Niaz Kasravi, Persian appetizers and tea were advertised for the reception.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "iranian-american-reception-2019-poster"
+    ],
+    "heroImage": "iranian-american-reception-2019-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "community-support-2020-01-13",
+    "slug": "community-support-2020-01-13",
+    "title": "Community Support at the Jordan Center, 2020",
+    "locale": "en",
+    "date": {
+      "value": "2020-01-13",
+      "precision": "day_context_year",
+      "contextYear": 2020
+    },
+    "timeDisplay": "5 to 6 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "First-floor lobby, Humanities Gateway, UC Irvine",
+    "category": "community",
+    "sigsRole": "partner",
+    "summary": "The Jordan Center invited UCI students, faculty and staff to come together over tea and coffee, offering support to Iranian and Iranian-American members of the campus community.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "community-support-2020-invitation"
+    ],
+    "heroImage": "community-support-2020-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "audience": "Advertised for UCI students, faculty and staff"
   }
 ]
