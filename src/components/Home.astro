@@ -30,7 +30,7 @@ const memoryTitle = memory && eventLocale(memory, locale) === 'fa' ? reviewedTra
       </div>
       {homePhoto && <figure class="gathering-cover">
         <a href={collectionHref}><img src={homePhoto.src} srcset={homePhoto.thumbnail ? `${homePhoto.thumbnail} 720w, ${homePhoto.src} ${homePhoto.width}w` : undefined} sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1190px) calc(100vw - 64px), min(1280px, 100vw - 96px)" width={homePhoto.width} height={homePhoto.height} alt={homePhoto.alt[locale]} loading="eager" fetchpriority="high" /></a>
-        <figcaption><a href={collectionHref}>{t('Out on the water')} <span aria-hidden="true">↗</span></a>{homePhoto.credit !== 'Photographer not recorded.' && <span>{t(homePhoto.credit)}</span>}</figcaption>
+        <figcaption><a href={collectionHref}>{homeCollection?.title[locale] ?? homePhoto.caption[locale]} <span aria-hidden="true">↗</span></a>{homePhoto.credit !== 'Photographer not recorded.' && <span>{t(homePhoto.credit)}</span>}</figcaption>
       </figure>}
       <a class="gathering-mobile-newcomer" href={href(locale, 'resources/new-students')}>{t('New to UCI? Start here')}</a>
     </div>
