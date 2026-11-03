@@ -572,7 +572,8 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "nowruz-2014-invitation"
+      "nowruz-2014-invitation",
+      "community-nowruz-table"
     ],
     "heroImage": "nowruz-2014-invitation",
     "editorial": {
@@ -644,7 +645,8 @@
     "registrationUrl": null,
     "gallery": [
       "yalda-celebrations-image-005",
-      "yalda-2015-evening-program"
+      "yalda-2015-evening-program",
+      "gatherings-and-dance-image-007"
     ],
     "heroImage": "yalda-celebrations-image-005",
     "editorial": {
@@ -808,7 +810,10 @@
       "yalda-2016-photo-023",
       "yalda-2016-photo-031",
       "yalda-2016-photo-039",
-      "yalda-2016-photo-047"
+      "yalda-2016-photo-047",
+      "gatherings-and-dance-image-019",
+      "gatherings-and-dance-image-020",
+      "gatherings-and-dance-image-021"
     ],
     "heroImage": "yalda-2016-photo-011",
     "editorial": {
@@ -825,18 +830,18 @@
     "title": "Corona del Mar Bonfire, Fall 2017",
     "locale": "en",
     "date": {
-      "value": null,
-      "precision": "year_context",
+      "value": "2017-10-07",
+      "precision": "day",
       "contextYear": 2017
     },
     "timeDisplay": null,
-    "timeZone": null,
+    "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Corona del Mar State Beach",
     "category": "community",
     "sigsRole": "community_archive",
-    "summary": "The SIGS community met for a fall bonfire at Corona del Mar in 2017. The exact day is still unconfirmed.",
+    "summary": "The SIGS community spent an evening at Corona del Mar for a fall bonfire on October 7, 2017.",
     "occurrenceEvidence": "occurrence_corroborated",
     "archiveLabel": "Documented gathering",
     "publication": "published",
@@ -901,7 +906,8 @@
       "nowruz-2017-photo-007",
       "nowruz-2017-photo-015",
       "nowruz-2017-photo-023",
-      "nowruz-2017-photo-039"
+      "nowruz-2017-photo-039",
+      "nowruz-celebrations-image-008"
     ],
     "heroImage": "nowruz-2017-photo-017",
     "editorial": {
@@ -1031,7 +1037,7 @@
   {
     "id": "halloween-2017",
     "slug": "halloween-2017",
-    "title": "SIGS October Party 2017",
+    "title": "SIGS Halloween Party 2017",
     "locale": "en",
     "date": {
       "value": "2017-10-28",
@@ -1045,15 +1051,34 @@
     "venue": "Palo Verde, UC Irvine",
     "category": "community",
     "sigsRole": "organizer",
-    "summary": "SIGS advertised an October party at Palo Verde with food, drinks and dancing. The invitation was for guests aged 21 and over.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "summary": "SIGS celebrated Halloween at Palo Verde on October 28, 2017, with costumes, music and dancing. The invitation was for guests aged 21 and over.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "halloween-2017-photo-001",
+      "halloween-2017-photo-003",
+      "halloween-2017-photo-004",
+      "halloween-2017-photo-006",
+      "halloween-2017-photo-007",
+      "halloween-2017-photo-008",
+      "halloween-2017-photo-009",
+      "halloween-2017-photo-011",
+      "halloween-2017-photo-012",
+      "halloween-2017-photo-013",
+      "halloween-2017-photo-014",
+      "halloween-2017-photo-015",
+      "halloween-2017-photo-016",
+      "halloween-2017-costume-friends",
+      "halloween-2017-large-group",
+      "halloween-2017-costume-group",
+      "halloween-2017-dj-at-decks",
+      "halloween-2017-dance-floor"
+    ],
+    "heroImage": "halloween-2017-large-group",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -1123,7 +1148,25 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "nowruz-celebrations-image-023"
+      "nowruz-celebrations-image-023",
+      "nowruz-celebrations-image-022",
+      "gatherings-and-dance-image-024",
+      "gatherings-and-dance-image-025",
+      "nowruz-celebrations-image-026",
+      "gatherings-and-dance-image-027",
+      "gatherings-and-dance-image-028",
+      "nowruz-celebrations-image-029",
+      "nowruz-celebrations-image-030",
+      "nowruz-celebrations-image-031",
+      "nowruz-celebrations-image-032",
+      "nowruz-celebrations-image-033",
+      "nowruz-celebrations-image-034",
+      "gatherings-and-dance-image-035",
+      "gatherings-and-dance-image-036",
+      "nowruz-celebrations-image-037",
+      "nowruz-celebrations-image-038",
+      "gatherings-and-dance-image-039",
+      "gatherings-and-dance-image-040"
     ],
     "heroImage": "nowruz-celebrations-image-023",
     "editorial": {
@@ -2268,11 +2311,11 @@
     "locale": "en",
     "date": {
       "value": "2022-09-27",
-      "precision": "day_context_year",
+      "precision": "day",
       "contextYear": 2022
     },
     "timeDisplay": "7 to 8 PM",
-    "timeZone": null,
+    "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Humanities Gateway Courtyard, UC Irvine",
@@ -2304,11 +2347,11 @@
     "locale": "en",
     "date": {
       "value": "2022-11-30",
-      "precision": "day_context_year",
+      "precision": "day",
       "contextYear": 2022
     },
     "timeDisplay": "4 PM",
-    "timeZone": null,
+    "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Flagpoles, UCI Student Center",
@@ -2340,11 +2383,11 @@
     "locale": "en",
     "date": {
       "value": "2022-12-04",
-      "precision": "day_context_year",
+      "precision": "day",
       "contextYear": 2022
     },
     "timeDisplay": "6 to 9 PM",
-    "timeZone": null,
+    "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Palo Verde community room",
@@ -2415,11 +2458,11 @@
     "locale": "en",
     "date": {
       "value": "2022-12-21",
-      "precision": "day_context_year",
+      "precision": "day",
       "contextYear": 2022
     },
     "timeDisplay": "6:30 to 9 PM",
-    "timeZone": null,
+    "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Palo Verde community room",
@@ -2638,7 +2681,9 @@
       "indoor-community-gathering-image-073",
       "welcome-2023-photo-003",
       "welcome-2023-photo-004",
-      "welcome-2023-poster"
+      "welcome-2023-poster",
+      "indoor-community-gathering-image-072",
+      "indoor-community-gathering-image-074"
     ],
     "heroImage": "welcome-2023-photo-002",
     "editorial": {
@@ -2785,11 +2830,11 @@
     "locale": "en",
     "date": {
       "value": "2024-02-24",
-      "precision": "day_context_year",
+      "precision": "day",
       "contextYear": 2024
     },
     "timeDisplay": "10 AM to noon",
-    "timeZone": null,
+    "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Crystal Cove State Park, Ridge Park Road meet-up",
@@ -3428,7 +3473,7 @@
     "locale": "en",
     "date": {
       "value": "2020-01-13",
-      "precision": "day_context_year",
+      "precision": "day",
       "contextYear": 2020
     },
     "timeDisplay": "5 to 6 PM",
@@ -3577,5 +3622,79 @@
     "archiveLabel": "Documented gathering",
     "publication": "published",
     "eventState": "completed"
+  },
+  {
+    "id": "welcome-2019",
+    "slug": "welcome-2019",
+    "title": "Welcome Week Barbecue 2019",
+    "locale": "en",
+    "date": {
+      "value": "2019-09-22",
+      "precision": "day",
+      "contextYear": 2019
+    },
+    "timeDisplay": "11 AM to 3 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "newcomers",
+    "sigsRole": "organizer",
+    "summary": "SIGS invited UCI students and alumni to a welcome-week barbecue and orientation for incoming students. The September 22 invitation was free, with snacks and games welcome.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "welcome-2019-barbecue-invitation"
+    ],
+    "heroImage": "welcome-2019-barbecue-invitation",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "cost": "Advertised as free",
+    "audience": "UCI students and alumni"
+  },
+  {
+    "id": "graduate-orientation-2019",
+    "slug": "graduate-orientation-2019",
+    "title": "UCI Graduate Orientation 2019",
+    "locale": "en",
+    "date": {
+      "value": null,
+      "precision": "year_context",
+      "contextYear": 2019
+    },
+    "timeDisplay": null,
+    "timeZone": null,
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "newcomers",
+    "sigsRole": "community_archive",
+    "summary": "A welcome to UCI's new graduate students at the 2019 orientation.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "graduate-orientation-2019-community"
+    ],
+    "heroImage": "graduate-orientation-2019-community",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
   }
 ]

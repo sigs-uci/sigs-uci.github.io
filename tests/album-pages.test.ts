@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import type {MediaRecord} from '../src/data';
-import {albumPages,albumPhotos,albumPagePath,albumAtPath,mediaCollections,collectionItems,albumPageSize} from '../src/lib/media';
+import {albumPages,albumRoutePages,albumPhotos,albumPagePath,albumAtPath,mediaCollections,collectionItems,albumPageSize} from '../src/lib/media';
 import {pages} from '../src/lib/routes';
 import {availableLocales} from '../src/lib/publication';
 
@@ -27,6 +27,6 @@ test('every populated album page has matching routes in both languages',()=>{
       assert.ok(page===1||albumPhotos(collectionItems(collection),page).length>0,path);
     }
     assert.equal(albumAtPath(`${albumPagePath(collection)}/page/1`),undefined);
-    assert.equal(albumAtPath(`${albumPagePath(collection)}/page/${total+1}`),undefined);
+    assert.equal(albumAtPath(`${albumPagePath(collection)}/page/${albumRoutePages(collection)+1}`),undefined);
   }
 });

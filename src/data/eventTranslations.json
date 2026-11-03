@@ -222,11 +222,11 @@
   {
     "eventId": "bonfire-fall-2017",
     "locale": "fa",
-    "title": "دورهمی ساحلی Corona del Mar، پاییز ۲۰۱۷",
-    "summary": "جمع SIGS در پاییز ۲۰۱۷ برای دورهمی کنار آتش به کرونا دل مار رفت. روز دقیق برنامه هنوز مشخص نیست.",
+    "title": "دورهمی ساحلی کرونا دل مار، پاییز ۲۰۱۷",
+    "summary": "دورهمی پاییزی SIGS کنار آتش در ساحل کرونا دل مار، ۷ اکتبر ۲۰۱۷.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "cb8594901c9bcc247d93432c3739c7d7a06952337ea141af5d1cb42d8df950fe",
+    "sourceRevision": "75bfb67d43fba92ef7a15c1545455d4c0a93f8eed7333bfa64b0e7048b0c9367",
     "reviewedOn": "2026-11-03"
   },
   {
@@ -272,12 +272,12 @@
   {
     "eventId": "halloween-2017",
     "locale": "fa",
-    "title": "مهمانی اکتبر SIGS، ۲۰۱۷",
-    "summary": "SIGS یک مهمانی اکتبر را با غذا، نوشیدنی و رقص در Palo Verde اعلام کرده بود. این دعوت‌نامه برای افراد ۲۱ ساله و بالاتر بود.",
+    "title": "مهمانی هالووین SIGS، ۲۰۱۷",
+    "summary": "مهمانی هالووین SIGS در ۲۸ اکتبر ۲۰۱۷ در پالو ورده برگزار شد؛ شبی با لباس‌های هالووین، موسیقی و رقص. این برنامه برای افراد ۲۱ ساله و بالاتر بود.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "366cc97d699b55b33703e826a584c56ba7d002022674eb127fbb8c8c708b76a4",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "f8a5253350e0a0ba186b35cded202365169b230da27c0b2c49fb145d62cb6725",
+    "reviewedOn": "2026-11-03"
   },
   {
     "eventId": "yalda-2017",
@@ -928,5 +928,25 @@
     "status": "reviewed",
     "reviewedOn": "2026-11-03",
     "sourceRevision": "22cdc3650d4ef8bf1e761613ff59bc1801e166674e10c4b44cb9d25ce0b4908d"
+  },
+  {
+    "eventId": "welcome-2019",
+    "locale": "fa",
+    "title": "باربیکیوی خوشامدگویی، ۲۰۱۹",
+    "summary": "SIGS از دانشجویان و فارغ‌التحصیلان UCI برای باربیکیو و آشنایی با دانشجویان تازه‌وارد در ۲۲ سپتامبر دعوت کرده بود. برنامه رایگان اعلام شده بود و مهمانان می‌توانستند خوراکی و بازی همراه بیاورند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "1a4dc894d0f748376e4a13676bd97c9b33a8e0c4d7d90caf98a45e99897ea06c",
+    "reviewedOn": "2026-11-03"
+  },
+  {
+    "eventId": "graduate-orientation-2019",
+    "locale": "fa",
+    "title": "برنامهٔ آشنایی دانشجویان تحصیلات تکمیلی UCI، ۲۰۱۹",
+    "summary": "خوشامدگویی به دانشجویان تازه‌وارد تحصیلات تکمیلی UCI در برنامهٔ آشنایی سال ۲۰۱۹.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "46e94722db7546398f8a06807b53cc11f48ac826ceb70ad7707791e6d7e1f4d5",
+    "reviewedOn": "2026-11-03"
   }
 ]
