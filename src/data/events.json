@@ -2519,38 +2519,58 @@
   {
     "id": "nowruz-cruise-2023",
     "slug": "nowruz-cruise-2023",
-    "title": "Nowruz Whale-Watching Party 2023",
+    "title": "Persian New Year Whale-Watching Cruise 2023",
     "locale": "en",
     "date": {
       "value": "2023-03-27",
-      "precision": "day_context_year",
+      "precision": "day",
       "contextYear": 2023
     },
-    "timeDisplay": "4:30 to 8 PM",
+    "timeDisplay": "Check-in at 4:15 PM; cruise 4:30 to 8 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": null,
+    "venue": "Balboa Pavilion Building, 400 Main St.",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS advertised a Nowruz party aboard a whale-watching boat, with DJ Farzad. A March announcement marked the event sold out.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "summary": "SIGS celebrated Nowruz with a whale-watching cruise from Balboa Pavilion on March 27, 2023.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "boat-outing-image-053",
+      "boat-outing-image-054",
+      "boat-outing-image-055",
+      "boat-outing-image-056",
+      "boat-outing-image-057",
+      "boat-outing-image-058",
+      "boat-outing-image-059",
+      "boat-outing-image-060",
+      "boat-outing-image-061",
+      "boat-outing-image-062",
+      "boat-outing-image-063",
+      "boat-outing-image-064",
+      "boat-outing-image-065",
+      "boat-outing-image-066",
+      "boat-outing-image-067",
+      "boat-outing-image-068",
+      "boat-outing-image-069",
+      "boat-outing-image-070",
+      "boat-outing-image-071",
       "nowruz-cruise-2023-poster"
     ],
-    "heroImage": "nowruz-cruise-2023-poster",
+    "heroImage": "boat-outing-image-071",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
     },
     "publicSourceLinks": [],
     "generateCalendarDownload": false,
-    "generateEventStructuredData": false
+    "generateEventStructuredData": false,
+    "registrationNote": "The boarding instructions asked guests to bring ID and arrive early for parking. Parking was not necessarily free."
   },
   {
     "id": "persian-tech-network-2023",
@@ -2646,24 +2666,33 @@
     "venue": "Corona del Mar State Beach",
     "category": "community",
     "sigsRole": "organizer",
-    "summary": "SIGS advertised a fall bonfire at Corona del Mar. The invitation continued the tradition of starting the year with an evening at the beach.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "summary": "We met at Corona del Mar for a bonfire on October 6, 2023, from 5 to 9 PM.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "beach-gatherings-image-075",
+      "beach-gatherings-image-076",
+      "beach-gatherings-image-077",
+      "beach-gatherings-image-078",
+      "beach-gatherings-image-079",
+      "beach-gatherings-image-080",
+      "beach-gatherings-image-081",
+      "beach-gatherings-image-082",
       "bonfire-2023-10-06-poster"
     ],
-    "heroImage": "bonfire-2023-10-06-poster",
+    "heroImage": "beach-gatherings-image-078",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
     },
     "publicSourceLinks": [],
     "generateCalendarDownload": false,
-    "generateEventStructuredData": false
+    "generateEventStructuredData": false,
+    "cost": "Historical admission: $5 per person."
   },
   {
     "id": "halloween-2023",
@@ -2682,24 +2711,30 @@
     "venue": "Palo Verde community room",
     "category": "community",
     "sigsRole": "organizer",
-    "summary": "SIGS invited friends to a Halloween costume gathering at Palo Verde, from 6:30 to 10 PM.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "summary": "Costumes, food and Halloween at Palo Verde. SIGS held the party on October 29, 2023, from 6:30 to 10 PM.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
+      "costume-and-karaoke-image-084",
+      "costume-and-karaoke-image-085",
+      "costume-and-karaoke-image-086",
+      "costume-and-karaoke-image-087",
+      "costume-and-karaoke-image-088",
       "halloween-2023-poster"
     ],
-    "heroImage": "halloween-2023-poster",
+    "heroImage": "costume-and-karaoke-image-085",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
     },
     "publicSourceLinks": [],
     "generateCalendarDownload": false,
-    "generateEventStructuredData": false
+    "generateEventStructuredData": false,
+    "cost": "Historical admission: $10 per person."
   },
   {
     "id": "yalda-2023",
@@ -2855,34 +2890,64 @@
     "locale": "en",
     "date": {
       "value": "2025-12-21",
-      "precision": "day_context_year",
+      "precision": "day",
       "contextYear": 2025
     },
     "timeDisplay": "6 to 11 PM",
-    "timeZone": null,
+    "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
     "venue": "Verano Community Center, Multipurpose Room",
     "category": "culture",
     "sigsRole": "organizer",
-    "summary": "SIGS invited the community to Yalda at Verano Community Center. The advertised December 21 evening paired Persian music and classical poetry with dinner and pomegranates, from 6 to 11 PM.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "summary": "Persian food, snacks and a night together at Verano: SIGS celebrated Yalda on December 21, 2025. It was the first event hosted by the then-new board.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "yalda-2025-flyer"
+      "yalda-2025-flyer",
+      "community-meals-video-091",
+      "community-meals-video-092",
+      "community-meals-video-093",
+      "community-meals-video-094",
+      "community-meals-image-095",
+      "community-meals-image-096",
+      "community-meals-image-097",
+      "community-meals-image-098",
+      "community-meals-image-099",
+      "community-meals-image-100",
+      "community-meals-image-101",
+      "community-meals-image-102",
+      "community-meals-image-103",
+      "community-meals-image-104",
+      "community-meals-image-105",
+      "community-meals-image-106",
+      "community-meals-image-107",
+      "community-meals-image-108",
+      "community-meals-image-109",
+      "community-meals-image-110",
+      "community-meals-image-111",
+      "community-meals-image-112",
+      "community-meals-image-113",
+      "community-meals-image-114",
+      "community-meals-image-115",
+      "community-meals-image-116",
+      "community-meals-image-117"
     ],
-    "heroImage": "yalda-2025-flyer",
+    "heroImage": "community-meals-image-110",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
     },
-    "publicSourceLinks": [],
+    "publicSourceLinks": [
+      "https://www.eventbrite.com/e/1978086613309?aff=oddtdtcreator"
+    ],
     "generateCalendarDownload": false,
-    "generateEventStructuredData": false
+    "generateEventStructuredData": false,
+    "cost": "Historical ticket prices: early bird $5 (first 20 tickets); students $10; non-students $15."
   },
   {
     "id": "solidarity-2026-02-02",
@@ -3430,5 +3495,84 @@
     "calendarSequence": 0,
     "audience": "Teams of three",
     "registrationNote": "Google sign-in is required for registration."
+  },
+  {
+    "id": "world-cup-iran-egypt-2026",
+    "slug": "world-cup-iran-egypt-2026",
+    "locale": "en",
+    "startInstant": null,
+    "endInstant": null,
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "watching-football-image-119",
+      "watching-football-image-120",
+      "iran-egypt-2026-poster"
+    ],
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "title": "Iran vs. Egypt: World Cup Watch Party 2026",
+    "date": {
+      "value": "2026-06-26",
+      "precision": "day",
+      "contextYear": 2026
+    },
+    "summary": "We watched Iran play Egypt together at Campus Village Community Center's Theater Room on June 26, 2026. Admission was free.",
+    "timeDisplay": "8 PM",
+    "venue": "Campus Village Community Center, Theater Room",
+    "category": "community",
+    "sigsRole": "organizer",
+    "cost": "Free",
+    "heroImage": "watching-football-image-119",
+    "publicSourceLinks": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/egypt-iran-preview-live-stream-team-news-tickets"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed"
+  },
+  {
+    "id": "world-cup-iran-morocco-2018",
+    "slug": "world-cup-iran-morocco-2018",
+    "locale": "en",
+    "startInstant": null,
+    "endInstant": null,
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "football-gathering-recap",
+      "community-football-portrait"
+    ],
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false,
+    "title": "Iran vs. Morocco: World Cup Watch Party 2018",
+    "date": {
+      "value": "2018-06-15",
+      "precision": "day",
+      "contextYear": 2018
+    },
+    "summary": "An early-morning World Cup screening at Palo Verde Clubhouse on June 15, 2018, followed by celebrations of Iran's 1-0 win over Morocco.",
+    "timeDisplay": "8 to 10 AM",
+    "venue": "Palo Verde Clubhouse",
+    "category": "community",
+    "sigsRole": "community_archive",
+    "cost": "Free",
+    "heroImage": "community-football-portrait",
+    "publicSourceLinks": [],
+    "timeZone": "America/Los_Angeles",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed"
   }
 ]

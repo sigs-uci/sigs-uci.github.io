@@ -1389,19 +1389,18 @@
   {
     "id": "community-meals",
     "title": {
-      "en": "Dinner together",
-      "fa": "شام در کنار هم"
+      "en": "Yalda Night, 2025",
+      "fa": "شب یلدا، ۲۰۲۵"
     },
     "description": {
-      "en": "An evening of dinner and conversation with the SIGS community.",
-      "fa": "شام و گفت‌وگو در کنار جمع SIGS."
+      "en": "Yalda Night at Verano Community Center on December 21, 2025, with Persian food and snacks.",
+      "fa": "در ۲۱ دسامبر ۲۰۲۵، شب یلدا را با شام ایرانی در سالن چندمنظورهٔ مرکز اجتماعات ورانو جشن گرفتیم."
     },
+    "eventIds": [
+      "yalda-2025"
+    ],
     "coverId": "community-meals-image-110",
     "mediaIds": [
-      "community-meals-video-091",
-      "community-meals-video-092",
-      "community-meals-video-093",
-      "community-meals-video-094",
       "community-meals-image-095",
       "community-meals-image-096",
       "community-meals-image-097",
@@ -1424,25 +1423,29 @@
       "community-meals-image-114",
       "community-meals-image-115",
       "community-meals-image-116",
-      "community-meals-image-117"
-    ],
-    "eventIds": []
+      "community-meals-image-117",
+      "yalda-2025-flyer",
+      "community-meals-video-091",
+      "community-meals-video-092",
+      "community-meals-video-093",
+      "community-meals-video-094"
+    ]
   },
   {
-    "id": "beach-gatherings",
+    "id": "bonfire-2023-10-06",
     "title": {
-      "en": "By the beach",
-      "fa": "کنار ساحل"
+      "en": "Fall bonfire, October 2023",
+      "fa": "دورهمی پاییزی کنار آتش، اکتبر ۲۰۲۳"
     },
     "description": {
-      "en": "Gathering around the fire on the beach after dark.",
-      "fa": "دورهمی کنار آتش ساحل، پس از غروب."
+      "en": "An evening around the fire at Corona del Mar Beach on October 6, 2023.",
+      "fa": "عصر ۶ اکتبر ۲۰۲۳، کنار آتش در ساحل کرونا دل مار دور هم جمع شدیم."
     },
-    "coverId": "beach-gatherings-image-083",
+    "eventIds": [
+      "bonfire-2023-10-06"
+    ],
+    "coverId": "beach-gatherings-image-075",
     "mediaIds": [
-      "beach-gatherings-video-050",
-      "beach-gatherings-video-051",
-      "beach-gatherings-video-052",
       "beach-gatherings-image-075",
       "beach-gatherings-image-076",
       "beach-gatherings-image-077",
@@ -1451,19 +1454,41 @@
       "beach-gatherings-image-080",
       "beach-gatherings-image-081",
       "beach-gatherings-image-082",
+      "bonfire-2023-10-06-poster"
+    ]
+  },
+  {
+    "id": "beach-gatherings",
+    "title": {
+      "en": "By the beach",
+      "fa": "کنار ساحل"
+    },
+    "description": {
+      "en": "A nighttime beach photo and three aerial clips.",
+      "fa": "یک عکس شبانه از ساحل و سه ویدیوی هوایی."
+    },
+    "coverId": "beach-gatherings-image-083",
+    "mediaIds": [
+      "beach-gatherings-video-050",
+      "beach-gatherings-video-051",
+      "beach-gatherings-video-052",
       "beach-gatherings-image-083"
     ],
-    "eventIds": []
+    "eventIds": [],
+    "note": {
+      "en": "The events and dates for this photograph and these videos have not been confirmed.",
+      "fa": "هنوز مشخص نیست این عکس و ویدیوها مربوط به کدام برنامه و چه تاریخی هستند."
+    }
   },
   {
     "id": "boat-outing",
     "title": {
-      "en": "Out on the water",
-      "fa": "گردش روی آب"
+      "en": "Nowruz whale-watching cruise, 2023",
+      "fa": "گردش نوروزی تماشای نهنگ‌ها، ۲۰۲۳"
     },
     "description": {
-      "en": "A boat outing with the SIGS community, from daylight to sunset.",
-      "fa": "گردش با قایق در کنار جمع SIGS، از روشنایی روز تا غروب."
+      "en": "We marked the Persian New Year with a whale-watching cruise from Balboa Pavilion on March 27, 2023.",
+      "fa": "در ۲۷ مارس ۲۰۲۳، برای جشن سال نو از بالبوا پاویلیون راهی گردش دریایی تماشای نهنگ‌ها شدیم."
     },
     "coverId": "boat-outing-image-071",
     "mediaIds": [
@@ -1485,9 +1510,12 @@
       "boat-outing-image-068",
       "boat-outing-image-069",
       "boat-outing-image-070",
-      "boat-outing-image-071"
+      "boat-outing-image-071",
+      "nowruz-cruise-2023-poster"
     ],
-    "eventIds": []
+    "eventIds": [
+      "nowruz-cruise-2023"
+    ]
   },
   {
     "id": "nowruz-celebrations",
@@ -1560,15 +1588,18 @@
     "eventIds": []
   },
   {
-    "id": "costume-and-karaoke",
+    "id": "halloween-2023",
     "title": {
-      "en": "Costume night",
-      "fa": "شبی با لباس‌های نمایشی"
+      "en": "Halloween Night, 2023",
+      "fa": "شب هالووین، ۲۰۲۳"
     },
     "description": {
-      "en": "Dressing up for an evening with the SIGS community.",
-      "fa": "دورهمی جمع SIGS با لباس‌های نمایشی."
+      "en": "Halloween at Palo Verde Community Room on October 29, 2023.",
+      "fa": "جشن هالووین در سالن اجتماعات پالو ورده، ۲۹ اکتبر ۲۰۲۳."
     },
+    "eventIds": [
+      "halloween-2023"
+    ],
     "coverId": "costume-and-karaoke-image-087",
     "mediaIds": [
       "costume-and-karaoke-image-084",
@@ -1576,10 +1607,29 @@
       "costume-and-karaoke-image-086",
       "costume-and-karaoke-image-087",
       "costume-and-karaoke-image-088",
+      "halloween-2023-poster"
+    ]
+  },
+  {
+    "id": "costume-and-karaoke",
+    "title": {
+      "en": "Community photographs",
+      "fa": "عکس‌های انجمن"
+    },
+    "description": {
+      "en": "Photos from the SIGS community.",
+      "fa": "عکس‌هایی از جمع SIGS."
+    },
+    "coverId": "costume-and-karaoke-image-089",
+    "mediaIds": [
       "costume-and-karaoke-image-089",
       "costume-and-karaoke-image-090"
     ],
-    "eventIds": []
+    "eventIds": [],
+    "note": {
+      "en": "The events and dates for these two photographs have not been confirmed.",
+      "fa": "هنوز مشخص نیست این دو عکس مربوط به کدام برنامه و چه تاریخی هستند."
+    }
   },
   {
     "id": "indoor-community-gathering",
@@ -1633,23 +1683,43 @@
     ]
   },
   {
-    "id": "watching-football",
+    "id": "iran-egypt-2026",
     "title": {
-      "en": "Football together",
-      "fa": "تماشای فوتبال در کنار هم"
+      "en": "Iran vs Egypt, World Cup 2026",
+      "fa": "ایران و مصر، جام جهانی ۲۰۲۶"
     },
     "description": {
-      "en": "Following the match with the SIGS community.",
-      "fa": "دورهمی جمع SIGS برای دنبال‌کردن مسابقه."
+      "en": "We watched Iran vs Egypt in the Campus Village Community Center Theater Room on June 26, 2026.",
+      "fa": "در ۲۶ ژوئن ۲۰۲۶، بازی ایران و مصر را در سالن نمایش مرکز اجتماعات Campus Village تماشا کردیم."
     },
+    "eventIds": [
+      "world-cup-iran-egypt-2026"
+    ],
     "coverId": "watching-football-image-119",
     "mediaIds": [
       "watching-football-image-119",
       "watching-football-image-120",
-      "football-gathering-recap",
-      "community-football-portrait"
+      "iran-egypt-2026-poster"
+    ]
+  },
+  {
+    "id": "watching-football",
+    "title": {
+      "en": "Iran vs Morocco, World Cup 2018",
+      "fa": "ایران و مراکش، جام جهانی ۲۰۱۸"
+    },
+    "description": {
+      "en": "We watched Iran play Morocco at Palo Verde Clubhouse on June 15, 2018, then celebrated Iran's 1-0 win.",
+      "fa": "در ۱۵ ژوئن ۲۰۱۸، بازی ایران و مراکش را در کلاب‌هاوس پالو ورده تماشا کردیم و برد یک بر صفر ایران را جشن گرفتیم."
+    },
+    "coverId": "community-football-portrait",
+    "mediaIds": [
+      "community-football-portrait",
+      "football-gathering-recap"
     ],
-    "eventIds": []
+    "eventIds": [
+      "world-cup-iran-morocco-2018"
+    ]
   },
   {
     "id": "yalda-celebrations",
@@ -1671,7 +1741,6 @@
       "yalda-celebrations-image-013",
       "yalda-celebrations-image-042",
       "yalda-celebrations-image-043",
-      "yalda-2025-flyer",
       "yalda-greeting-2024-community",
       "yalda-2020-invitation",
       "yalda-2015-evening-program",
@@ -1684,8 +1753,7 @@
     "eventIds": [
       "yalda-2015",
       "yalda-2017",
-      "yalda-2018",
-      "yalda-2025"
+      "yalda-2018"
     ]
   },
   {
@@ -1702,15 +1770,12 @@
       "en": "Venue images are references. The invitations are historical; registration is closed.",
       "fa": "تصاویر مکان‌ها برای معرفی فضاها آمده‌اند. دعوت‌نامه‌ها مربوط به گذشته‌اند و ثبت‌نام بسته است."
     },
-    "coverId": "nowruz-cruise-2023-poster",
+    "coverId": "movie-night-2024-poster",
     "mediaIds": [
       "movie-night-2024-poster",
       "crystal-cove-hike-2024-poster",
-      "halloween-2023-poster",
-      "bonfire-2023-10-06-poster",
       "welcome-2023-poster",
       "persian-tech-network-2023-poster",
-      "nowruz-cruise-2023-poster",
       "nowruz-2023-poster",
       "bonfire-2023-02-04-poster",
       "yalda-2022-poster",

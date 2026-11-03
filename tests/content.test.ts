@@ -28,7 +28,32 @@ test('expanded history retains cancellation, partial dates and participation rol
   assert.equal(byId.has('bonfire-2018-10-13'),false);
   assert.equal(byId.get('nowruz-2023')?.date.value,'2023-03-20');
   assert.equal(byId.get('nowruz-cruise-2023')?.date.value,'2023-03-27');
-  assert.equal(byId.get('nowruz-cruise-2023')?.venue,null);
+  assert.equal(byId.get('nowruz-cruise-2023')?.venue,'Balboa Pavilion Building, 400 Main St.');
+});
+
+test('identified event media keep World Cup gatherings and unknown beach clips distinct', () => {
+  for (const [id, count] of [['nowruz-cruise-2023', 19], ['yalda-2025', 23], ['halloween-2023', 5], ['bonfire-2023-10-06', 8], ['world-cup-iran-egypt-2026', 2], ['world-cup-iran-morocco-2018', 1]] as const) {
+    const event = events.find(event => event.id === id)!;
+    const photos = media.filter(item => item.eventId === id && item.kind === 'photo');
+    assert.equal(photos.length, count);
+    assert.ok(photos.every(item => event.gallery.includes(item.id)));
+    assert.equal(event.date.precision, 'day');
+    assert.equal(event.eventState, 'completed');
+    assert.equal(event.occurrenceEvidence, 'occurrence_corroborated');
+    assert.equal(event.archiveLabel, 'Documented gathering');
+  }
+  assert.equal(events.find(event => event.id === 'yalda-2025')?.date.value, '2025-12-21');
+  assert.equal(events.find(event => event.id === 'yalda-2025')?.venue, 'Verano Community Center, Multipurpose Room');
+  for (const number of ['091', '092', '093', '094']) {
+    const video = media.find(item => item.id === `community-meals-video-${number}`)!;
+    assert.equal(video.eventId, 'yalda-2025');
+    assert.ok(events.find(event => event.id === 'yalda-2025')!.gallery.includes(video.id));
+  }
+  assert.equal(events.find(event => event.id === 'world-cup-iran-egypt-2026')?.date.value, '2026-06-26');
+  assert.equal(events.find(event => event.id === 'world-cup-iran-morocco-2018')?.date.value, '2018-06-15');
+  assert.equal(media.find(item => item.id === 'football-gathering-recap')?.eventId, 'world-cup-iran-morocco-2018');
+  assert.equal(media.find(item => item.id === 'iran-egypt-2026-poster')?.eventId, 'world-cup-iran-egypt-2026');
+  for (const number of ['050', '051', '052']) assert.equal(media.find(item => item.id === `beach-gatherings-video-${number}`)?.eventId, null);
 });
 
 test('archive facts preserve dates, unknown rooms and closed registration', () => {
