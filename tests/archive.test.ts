@@ -16,8 +16,8 @@ test('year archives retain each canonical historical record exactly once', () =>
 });
 
 test('archive descriptions localize changing counts without a new dictionary entry', () => {
-  assert.match(archiveDescription('2022', 1), /1 historical event record from 2022/);
-  assert.match(archiveDescription('2022', 101), /101 historical event records from 2022/);
+  assert.match(archiveDescription('2022', 1), /1 SIGS event listing from 2022/);
+  assert.match(archiveDescription('2022', 101), /101 SIGS event listings from 2022/);
   const description = archiveDescription('2022', 101, 'fa');
   assert.match(description, /۱۰۱/);
   assert.match(description, /۲۰۲۲/);

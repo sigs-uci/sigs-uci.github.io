@@ -3,7 +3,7 @@
     "id": "registration-record",
     "year": 2008,
     "title": "An early registration record",
-    "summary": "A 2019 SIGS presentation records registration at UC Irvine in 2008. This is an attributed historical statement.",
+    "summary": "A 2019 SIGS presentation dates the organization’s registration at UCI to 2008.",
     "eventIds": [],
     "precision": "year_context"
   },
@@ -49,7 +49,7 @@
     "id": "yalda-2015",
     "year": 2015,
     "title": "Yalda together",
-    "summary": "The archive includes a documented Yalda gathering with the Persian Language & Culture Club.",
+    "summary": "SIGS and the Persian Language & Culture Club held Yalda at Palo Verde.",
     "eventIds": [
       "yalda-2015"
     ],
@@ -59,7 +59,7 @@
     "id": "film-and-welcome",
     "year": 2016,
     "title": "Film and conversation",
-    "summary": "The Tales announcement adds film and discussion to the archive, alongside Nowruz and Yalda.",
+    "summary": "The Tales screening invitation included a screenwriter Q&A. SIGS also celebrated Nowruz and Yalda that year.",
     "eventIds": [
       "tales-2016",
       "nowruz-2016"
@@ -136,7 +136,7 @@
   {
     "id": "newcomers-2023",
     "year": 2023,
-    "title": "Welcoming another cohort",
+    "title": "Welcoming new students",
     "summary": "SIGS welcomed new students at Palo Verde with support from the ISC NewComers program.",
     "eventIds": [
       "welcome-2023"
@@ -147,7 +147,7 @@
     "id": "film-and-hike-2024",
     "year": 2024,
     "title": "Movie night and Crystal Cove",
-    "summary": "The archive preserves invitations for a Crystal Cove hike and a movie night at Verano Place.",
+    "summary": "SIGS invited the community to a Crystal Cove hike and a movie night at Verano Place.",
     "eventIds": [
       "crystal-cove-hike-2024",
       "movie-night-2024"
