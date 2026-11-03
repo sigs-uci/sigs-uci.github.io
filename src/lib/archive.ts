@@ -3,9 +3,9 @@ import { effectiveDay, isPublicEvent, newestEventsFirst } from './events';
 import type { Locale } from '../config/site';
 
 export function archiveDescription(year: string, count: number, locale: Locale = 'en'): string {
-  if (locale === 'en') return `Browse ${count} historical event record${count === 1 ? '' : 's'} from ${year}, with dates, descriptions, and the context of each gathering or announcement.`;
+  if (locale === 'en') return `Browse ${count} SIGS event listing${count === 1 ? '' : 's'} from ${year}.`;
   const number = new Intl.NumberFormat('fa-IR', { useGrouping: false });
-  return `${number.format(count)} مدخل از برنامه‌های سال ${number.format(Number(year))} را همراه با تاریخ، توضیحات و زمینهٔ هر گردهمایی یا اطلاعیه ببینید.`;
+  return `${number.format(count)} برنامه و دعوت‌نامه از SIGS در سال ${number.format(Number(year))} را ببینید.`;
 }
 
 export function archiveYears(records: readonly EventRecord[] = events) {
