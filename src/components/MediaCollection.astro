@@ -2,7 +2,7 @@
 import {events,stories} from '../data';
 import {href,type Locale} from '../config/site';
 import {tr,formatNumber} from '../i18n/ui';
-import {collectionItems,collectionPath,mediaCollections,videoDuration,albumPhotos,albumPages,albumPageSize,type MediaCollection} from '../lib/media';
+import {collectionItems,collectionPath,mediaCollections,videoDuration,albumPhotos,albumPages,albumPageSize,mediaRedirectsForPage,type MediaCollection} from '../lib/media';
 import {eventHref,reviewedTranslation,isPublicStory} from '../lib/publication';
 import {isPublicEvent,newestEventsFirst} from '../lib/events';
 import Gallery from './Gallery.astro';
@@ -19,7 +19,9 @@ const allVideos=items.filter(item=>item.kind==='video');
 const videos=page===1?allVideos:[];
 const related=newestEventsFirst(events.filter(event=>collection.eventIds.includes(event.id)&&isPublicEvent(event)));
 const readings=stories.filter(story=>story.locale===locale&&isPublicStory(story)&&story.mediaIds.some(id=>collection.mediaIds.includes(id)));
+const legacyRedirects=mediaRedirectsForPage(collection,page,locale);
 ---
+{Object.keys(legacyRedirects).length>0&&<script type="application/json" data-media-redirects set:html={JSON.stringify(legacyRedirects).replaceAll('<','\\u003c')}/>}
 <div class="wrap page-body collection-page">
   <nav class="breadcrumbs" aria-label={t('Breadcrumb')}><a href={href(locale,'community')}>{t('Community')}</a><span aria-hidden="true">/</span><a href={href(locale,'community/memories')}>{t('Memories')}</a><span aria-hidden="true">/</span><span>{collection.title[locale]}</span></nav>
   <div class="collection-intro">{collection.note&&<p class="summary">{collection.note[locale]}</p>}<nav class="subnav" aria-label={t('In this collection')}>{photoCount>0&&<a href="#photographs">{t('Photographs and posters')} ({formatNumber(locale,photoCount)})</a>}{allVideos.length>0&&<a href={page===1?'#videos':`${href(locale,collectionPath(collection))}#videos`}>{t('Videos')} ({formatNumber(locale,allVideos.length)})</a>}{related.map(event=><a href={eventHref(event,locale)}>{locale==='fa'?reviewedTranslation(event.id)?.title:event.title}</a>)}</nav></div>
@@ -34,6 +36,12 @@ const readings=stories.filter(story=>story.locale===locale&&isPublicStory(story)
 </div>
 
 <script>
+  import {setupMediaRedirects} from '../scripts/media-redirects';
+  const redirectData=document.querySelector<HTMLScriptElement>('[data-media-redirects]');
+  if(redirectData?.textContent){
+    try{setupMediaRedirects(JSON.parse(redirectData.textContent));}
+    catch{}
+  }
   document.querySelectorAll<HTMLElement>('[data-collection-videos]').forEach(root=>{
     const players=Array.from(root.querySelectorAll<HTMLElement>('[data-collection-video-player]'));
     const links=Array.from(root.querySelectorAll<HTMLAnchorElement>('[data-collection-video-link]'));

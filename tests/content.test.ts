@@ -16,8 +16,8 @@ test('expanded history retains cancellation, partial dates and participation rol
   const byId=new Map(events.map(event=>[event.id,event]));
   assert.equal(byId.get('nowruz-2020')?.eventState,'cancelled');
   assert.equal(byId.get('nowruz-2020')?.archiveLabel,'Archived announcement');
-  assert.equal(byId.get('bonfire-fall-2017')?.date.value,null);
-  assert.equal(byId.get('bonfire-fall-2017')?.date.precision,'year_context');
+  assert.equal(byId.get('bonfire-fall-2017')?.date.value,'2017-10-07');
+  assert.equal(byId.get('bonfire-fall-2017')?.date.precision,'day');
   assert.equal(byId.get('bonfire-fall-2017')?.date.contextYear,2017);
   assert.equal(byId.get('orientation-2012')?.sigsRole,'participant');
   assert.equal(byId.get('welcome-2023')?.date.value,'2023-09-23');
@@ -59,6 +59,59 @@ test('identified event media retain their dates and separate World Cup gathering
     assert.ok(events.find(event => event.id === 'bonfire-2023-10-06')!.gallery.includes(id));
   }
   assert.equal(media.find(item => item.id === 'beach-gatherings-image-083')?.eventId, null);
+});
+
+test('archive photo associations preserve the occasion rather than a later promotion', () => {
+  const byEvent = new Map(events.map(event => [event.id, event]));
+  const byMedia = new Map(media.map(item => [item.id, item]));
+  for (const [eventId, date, photoIds] of [
+    ['yalda-2015', '2015-12-12', ['gatherings-and-dance-image-007']],
+    ['yalda-2016', '2016-12-10', ['gatherings-and-dance-image-019', 'gatherings-and-dance-image-020', 'gatherings-and-dance-image-021']],
+    ['nowruz-2017', '2017-03-18', ['nowruz-celebrations-image-008']],
+    ['nowruz-2018', '2018-03-18', ['gatherings-and-dance-image-035', 'gatherings-and-dance-image-036']],
+    ['welcome-2023', '2023-09-23', ['indoor-community-gathering-image-072', 'indoor-community-gathering-image-074']],
+  ] as const) {
+    const event = byEvent.get(eventId)!;
+    assert.equal(event.date.value, date);
+    for (const id of photoIds) {
+      assert.equal(byMedia.get(id)?.eventId, eventId);
+      assert.ok(event.gallery.includes(id));
+    }
+  }
+  const halloween = byEvent.get('halloween-2017')!;
+  assert.equal(halloween.date.value, '2017-10-28');
+  assert.equal(halloween.eventState, 'completed');
+  assert.equal(halloween.archiveLabel, 'Documented gathering');
+  assert.equal(media.filter(item => item.eventId === halloween.id && item.kind === 'photo').length, 18);
+  assert.equal(byMedia.get('nowruz-celebrations-image-008')?.credit, 'BLUEYE STUDIO (visible watermark).');
+  assert.equal(byMedia.get('community-nowruz-table')?.credit, 'Mahshid Fardadi');
+});
+
+test('dated invitations and known contexts do not become unsupported completed events', () => {
+  const byEvent = new Map(events.map(event => [event.id, event]));
+  for (const id of ['solidarity-2022-09-27', 'solidarity-rally-2022-11-30', 'game-night-2022', 'yalda-2022', 'crystal-cove-hike-2024', 'community-support-2020-01-13']) {
+    const event = byEvent.get(id)!;
+    assert.equal(event.date.precision, 'day');
+    assert.equal(event.archiveLabel, 'Archived announcement');
+    assert.equal(event.eventState, 'scheduled');
+    assert.equal(event.registration, 'closed');
+    assert.equal(event.startInstant, null);
+  }
+  const welcome = byEvent.get('welcome-2019')!;
+  assert.equal(welcome.date.value, '2019-09-22');
+  assert.equal(welcome.timeDisplay, '11 AM to 3 PM');
+  assert.equal(welcome.venue, null);
+  assert.equal(welcome.archiveLabel, 'Archived announcement');
+  const orientation = byEvent.get('graduate-orientation-2019')!;
+  assert.equal(orientation.date.precision, 'year_context');
+  assert.equal(orientation.date.contextYear, 2019);
+  assert.equal(orientation.date.value, null);
+  assert.equal(orientation.venue, null);
+  assert.equal(orientation.sigsRole, 'community_archive');
+  for (const id of ['nowruz-celebrations-image-002', 'nowruz-celebrations-image-003', 'posters-and-venues-image-004',
+    'posters-and-venues-image-010', 'welcome-2023-newcomer-artwork', 'yalda-greeting-2024-community']) {
+    assert.equal(media.find(item => item.id === id)?.eventId, null, id);
+  }
 });
 
 test('archive facts preserve dates, unknown rooms and closed registration', () => {

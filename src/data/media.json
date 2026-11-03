@@ -112,8 +112,8 @@
       "fa": "میزی گرد با رومیزی سیاه و چیدمانی از موز، انگور، سیب و آناناس."
     },
     "caption": {
-      "en": "Celebration preparations",
-      "fa": "تدارک یک جشن"
+      "en": "Preparing for Nowruz, March 21, 2014.",
+      "fa": "تدارک نوروز، ۲۱ مارس ۲۰۱۴."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -136,8 +136,8 @@
       "fa": "سفرهٔ هفت‌سین با پارچه‌های صورتی و فیروزه‌ای، گل، آینه، شمع و تخم‌مرغ‌های رنگی."
     },
     "caption": {
-      "en": "At the Haft-seen",
-      "fa": "کنار هفت‌سین"
+      "en": "Haft-seen preparations, March 21, 2014.",
+      "fa": "چیدن هفت‌سین، ۲۱ مارس ۲۰۱۴."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -160,8 +160,8 @@
       "fa": "سالن برنامه با میزهای گرد، رومیزی‌های سفید و دستمال‌های صورتی و فیروزه‌ای."
     },
     "caption": {
-      "en": "Event-room setup, occasion unconfirmed.",
-      "fa": "چیدمان سالن؛ مناسبت مشخص نیست."
+      "en": "Room preparations, March 21, 2014.",
+      "fa": "آماده‌سازی سالن، ۲۱ مارس ۲۰۱۴."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -222,7 +222,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 996,
-    "eventId": null,
+    "eventId": "yalda-2015",
     "focalPoint": [
       0.5,
       0.5
@@ -232,8 +232,8 @@
       "fa": "گروهی پشت میزی قرمز با شمع، گل، میوه و ظرف‌های انار دانه‌شده ایستاده‌اند."
     },
     "caption": {
-      "en": "At a celebration",
-      "fa": "در یک جشن"
+      "en": "Yalda at Palo Verde, December 12, 2015.",
+      "fa": "یلدا در پالو ورده، ۱۲ دسامبر ۲۰۱۵."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -246,7 +246,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 811,
-    "eventId": null,
+    "eventId": "nowruz-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -256,10 +256,10 @@
       "fa": "گروهی دور سفرهٔ هفت‌سینی با آینه، شمع، گل و تنگ کوچک ایستاده‌اند."
     },
     "caption": {
-      "en": "At the Haft-seen",
-      "fa": "کنار هفت‌سین"
+      "en": "Nowruz 1396 at UCI, March 18, 2017.",
+      "fa": "نوروز ۱۳۹۶ در UCI، ۱۸ مارس ۲۰۱۷."
     },
-    "credit": "Photographer not recorded.",
+    "credit": "BLUEYE STUDIO (visible watermark).",
     "publication": "published",
     "rights": "approved"
   },
@@ -304,8 +304,8 @@
       "fa": "افرادی با جلیقه‌های رنگی در سالنی بزرگ، زیر تصویر پرسش‌های بحث روی پرده، دور میزها نشسته‌اند."
     },
     "caption": {
-      "en": "A group session, occasion unconfirmed.",
-      "fa": "نشستی گروهی با مناسبت نامشخص."
+      "en": "Discussion session, January 12, 2015.",
+      "fa": "جلسهٔ گفت‌وگو، ۱۲ ژانویهٔ ۲۰۱۵."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -510,7 +510,7 @@
     "kind": "photo",
     "width": 760,
     "height": 472,
-    "eventId": null,
+    "eventId": "yalda-2016",
     "focalPoint": [
       0.5,
       0.5
@@ -520,10 +520,10 @@
       "fa": "مهمانان رو به صحنه نشسته‌اند؛ سینی‌های غذا روی میز جلوی تصویر و تصویر انار روی پرده دیده می‌شود."
     },
     "caption": {
-      "en": "At a celebration",
-      "fa": "در یک جشن"
+      "en": "Yalda at the UCI Student Center, December 10, 2016.",
+      "fa": "یلدا در مرکز دانشجویی UCI، ۱۰ دسامبر ۲۰۱۶."
     },
-    "credit": "Photographer not recorded.",
+    "credit": "Amir Mohsen Salmani Zadeh",
     "publication": "published",
     "rights": "approved"
   },
@@ -534,7 +534,7 @@
     "kind": "photo",
     "width": 640,
     "height": 539,
-    "eventId": null,
+    "eventId": "yalda-2016",
     "focalPoint": [
       0.5,
       0.5
@@ -544,10 +544,10 @@
       "fa": "نمای نزدیک مهمانان در حال رقص، با فردی در لباس سبز گل‌دار نزدیک مرکز تصویر."
     },
     "caption": {
-      "en": "Music and dance",
-      "fa": "موسیقی و رقص"
+      "en": "Yalda at the UCI Student Center, December 10, 2016.",
+      "fa": "یلدا در مرکز دانشجویی UCI، ۱۰ دسامبر ۲۰۱۶."
     },
-    "credit": "Photographer not recorded.",
+    "credit": "Amir Mohsen Salmani Zadeh",
     "publication": "published",
     "rights": "approved"
   },
@@ -558,7 +558,7 @@
     "kind": "photo",
     "width": 760,
     "height": 530,
-    "eventId": null,
+    "eventId": "yalda-2016",
     "focalPoint": [
       0.5,
       0.5
@@ -568,10 +568,10 @@
       "fa": "نمای بازتر مهمانان در حال رقص، با لباس سبز گل‌دار نزدیک مرکز و افراد در دو سوی تصویر."
     },
     "caption": {
-      "en": "Music and dance",
-      "fa": "موسیقی و رقص"
+      "en": "Yalda at the UCI Student Center, December 10, 2016.",
+      "fa": "یلدا در مرکز دانشجویی UCI، ۱۰ دسامبر ۲۰۱۶."
     },
-    "credit": "Photographer not recorded.",
+    "credit": "Amir Mohsen Salmani Zadeh",
     "publication": "published",
     "rights": "approved"
   },
@@ -582,7 +582,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1067,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -592,8 +592,8 @@
       "fa": "رقصندگان با لباس‌های زرد، صورتی و آبی، شال‌ها را روی صحنه و مقابل تصویر سبز پرده بالا گرفته‌اند."
     },
     "caption": {
-      "en": "On stage",
-      "fa": "روی صحنه"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -630,7 +630,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -640,8 +640,8 @@
       "fa": "مهمانان در فضای رقص روبه‌روی هم هستند و افراد دیگری پشت آن‌ها جمع شده‌اند."
     },
     "caption": {
-      "en": "Music and dance",
-      "fa": "موسیقی و رقص"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -654,7 +654,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -664,8 +664,8 @@
       "fa": "جمع بزرگی در فضای رقص، زیر نور گرم چراغ‌های سقف، برای عکس ایستاده‌اند."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -678,7 +678,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -688,8 +688,8 @@
       "fa": "مهمانان کنار سفرهٔ هفت‌سینی طلایی با شمع، سبزه و آینه برای عکس ایستاده‌اند."
     },
     "caption": {
-      "en": "At the Haft-seen",
-      "fa": "کنار هفت‌سین"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -702,7 +702,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -712,8 +712,8 @@
       "fa": "مهمانان در چند ردیف، رو به دوربین دست‌هایشان را بالا برده‌اند و سالن پشت آن‌ها پرجمعیت است."
     },
     "caption": {
-      "en": "Music and dance",
-      "fa": "موسیقی و رقص"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -726,7 +726,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -736,8 +736,8 @@
       "fa": "گروهی کوچک در فضای رقص پرجمعیت، نزدیک هم برای عکس ایستاده‌اند."
     },
     "caption": {
-      "en": "Music and dance",
-      "fa": "موسیقی و رقص"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -750,7 +750,7 @@
     "kind": "photo",
     "width": 1140,
     "height": 1331,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -760,8 +760,8 @@
       "fa": "نمای نزدیک‌تر گروهی کنار سفرهٔ هفت‌سین طلایی، با فردی نشسته در جلو."
     },
     "caption": {
-      "en": "At the Haft-seen",
-      "fa": "کنار هفت‌سین"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -774,7 +774,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -784,8 +784,8 @@
       "fa": "گروهی کنار سفرهٔ هفت‌سین طلایی هستند؛ یک نفر جلو نشسته و دیگران پشت او ایستاده‌اند."
     },
     "caption": {
-      "en": "At the Haft-seen",
-      "fa": "کنار هفت‌سین"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -798,7 +798,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1067,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -808,8 +808,8 @@
       "fa": "رقصندگان با لباس‌های صورتی، زرد و آبی، روی صحنه و زیر تصویر سبز پرده برای عکس ایستاده‌اند."
     },
     "caption": {
-      "en": "On stage",
-      "fa": "روی صحنه"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -822,7 +822,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -832,8 +832,8 @@
       "fa": "گروهی در دو سوی سفرهٔ هفت‌سین طلایی با آینه و شمع ایستاده‌اند."
     },
     "caption": {
-      "en": "At the Haft-seen",
-      "fa": "کنار هفت‌سین"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -846,7 +846,7 @@
     "kind": "photo",
     "width": 1140,
     "height": 1331,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -856,8 +856,8 @@
       "fa": "نمای بسته‌تر گروهی که سمت چپ سفرهٔ هفت‌سین طلایی ایستاده‌اند."
     },
     "caption": {
-      "en": "At the Haft-seen",
-      "fa": "کنار هفت‌سین"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -870,7 +870,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -880,8 +880,8 @@
       "fa": "گروهی کنار سفرهٔ هفت‌سین طلایی با گل، شمع و آینه ایستاده‌اند."
     },
     "caption": {
-      "en": "At the Haft-seen",
-      "fa": "کنار هفت‌سین"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -894,7 +894,7 @@
     "kind": "photo",
     "width": 1140,
     "height": 1334,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -904,8 +904,8 @@
       "fa": "نمای نزدیک‌تر جمعیت جلوی سالن، با فردی در پیراهن سفید که به جلو خم شده است."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -918,7 +918,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1067,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -928,8 +928,8 @@
       "fa": "نمای بازتر جمعیتی کنار تجهیزات موسیقی، با دست‌های بالاگرفته در ردیف‌های عقب."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -942,7 +942,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1066,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -952,8 +952,8 @@
       "fa": "گروهی روی صحنه، جلیقه و کلاه سیاه، شال و کمربند قرمز هماهنگ پوشیده‌اند."
     },
     "caption": {
-      "en": "On stage",
-      "fa": "روی صحنه"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -966,7 +966,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -976,8 +976,8 @@
       "fa": "دو نفر پشت کیبورد و لپ‌تاپ ایستاده‌اند؛ یکی میکروفن در دست دارد و نشان‌های SIGS و WesternU روی پردهٔ پشت آن‌ها دیده می‌شود."
     },
     "caption": {
-      "en": "At a celebration",
-      "fa": "در یک جشن"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -990,7 +990,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -1000,8 +1000,8 @@
       "fa": "گروهی نزدیک هم برای عکس ایستاده‌اند و مهمانان دیگری پشت آن‌ها دیده می‌شوند."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -1014,7 +1014,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1065,
-    "eventId": null,
+    "eventId": "nowruz-2018",
     "focalPoint": [
       0.5,
       0.5
@@ -1024,8 +1024,8 @@
       "fa": "گروهی در فضای رقص برای عکس ایستاده‌اند و مهمانان دیگر و نور گرم سالن پشت آن‌ها دیده می‌شود."
     },
     "caption": {
-      "en": "Music and dance",
-      "fa": "موسیقی و رقص"
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -1776,7 +1776,7 @@
     "kind": "photo",
     "width": 1280,
     "height": 960,
-    "eventId": null,
+    "eventId": "welcome-2023",
     "focalPoint": [
       0.5,
       0.5
@@ -1786,8 +1786,8 @@
       "fa": "گروهی بزرگ در چند ردیف، زیر نمایشگر دیواری یک اتاق، برای عکس قرار گرفته‌اند."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "Welcoming new students with ISC, September 23, 2023.",
+      "fa": "خوشامدگویی به دانشجویان تازه‌وارد با ISC، ۲۳ سپتامبر ۲۰۲۳."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -1824,7 +1824,7 @@
     "kind": "photo",
     "width": 1280,
     "height": 960,
-    "eventId": null,
+    "eventId": "welcome-2023",
     "focalPoint": [
       0.5,
       0.5
@@ -1834,8 +1834,8 @@
       "fa": "شرکت‌کنندگان در یک اتاق دور میزها نشسته‌اند و رو به دوربین دارند."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "Welcoming new students with ISC, September 23, 2023.",
+      "fa": "خوشامدگویی به دانشجویان تازه‌وارد با ISC، ۲۳ سپتامبر ۲۰۲۳."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3026,8 +3026,8 @@
       "fa": "چهار نفر کنار هم در ساحل ایستاده‌اند و غروب نارنجی پشت سرشان دیده می‌شود."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3050,8 +3050,8 @@
       "fa": "دوستان پشت میز پر از غذا و نوشیدنی ایستاده‌اند و خورشید روی آب در حال غروب است."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3074,8 +3074,8 @@
       "fa": "دوستان هنگام غروب دور میزهای غذا در ساحل جمع شده‌اند."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3098,8 +3098,8 @@
       "fa": "سه نفر در ساحل ایستاده‌اند و درختان نخل و خانه‌های روی تپه پشت سرشان دیده می‌شود."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3122,8 +3122,8 @@
       "fa": "مهمانان پس از غروب، روی زیراندازهای راه‌راه ساحلی نشسته‌اند یا کنار آن‌ها ایستاده‌اند."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3146,8 +3146,8 @@
       "fa": "سه نفر روی شن‌های ساحل ایستاده‌اند و چراغ‌های ساحل پشت سرشان روشن است."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3170,8 +3170,8 @@
       "fa": "دوستان دور آتشدان ساحلی جمع شده‌اند و یکی از مهمانان به سمت شعله‌ها خم شده است."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3194,8 +3194,8 @@
       "fa": "مهمانان دور شعله‌های یک آتشدان گرد در ساحل، ایستاده یا نشسته‌اند."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3218,8 +3218,8 @@
       "fa": "گروهی پس از تاریکی دور یک آتشدان بتنی در ساحل جمع شده‌اند."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -3242,8 +3242,8 @@
       "fa": "یکی از مهمانان کنار آتش نشسته و با دست علامت پیروزی نشان می‌دهد؛ دوستانش پشت سر او جمع شده‌اند."
     },
     "caption": {
-      "en": "Fall bonfire at Corona del Mar, 2017.",
-      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۲۰۱۷."
+      "en": "Corona del Mar bonfire, October 7, 2017.",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -17944,7 +17944,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -17954,8 +17954,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -17968,7 +17968,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -17978,8 +17978,8 @@
       "fa": "رقص مهمانان در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -17992,7 +17992,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18002,8 +18002,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18016,7 +18016,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18026,8 +18026,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18040,7 +18040,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18050,8 +18050,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18064,7 +18064,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18074,8 +18074,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18088,7 +18088,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18098,8 +18098,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18112,7 +18112,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18122,8 +18122,8 @@
       "fa": "رقص مهمانان در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18136,7 +18136,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18146,8 +18146,8 @@
       "fa": "رقص مهمانان در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18160,7 +18160,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18170,8 +18170,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18184,7 +18184,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18194,8 +18194,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18208,7 +18208,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18218,8 +18218,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -18232,7 +18232,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -18242,8 +18242,8 @@
       "fa": "مهمانان با لباس‌های هالووین در جشن."
     },
     "caption": {
-      "en": "The SIGS Halloween party, 2017.",
-      "fa": "جشن هالووین SIGS، ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -28429,8 +28429,8 @@
       "fa": "دعوت‌نامهٔ گردهمایی همبستگی با تصویر شمع‌ها و دست‌های به‌هم‌رسیده."
     },
     "caption": {
-      "en": "The September 27, 2022 invitation to gather at Humanities Gateway Courtyard.",
-      "fa": "دعوت به گردهمایی ۲۷ سپتامبر ۲۰۲۲ در حیاط Humanities Gateway."
+      "en": "Solidarity gathering invitation, September 27, 2022.",
+      "fa": "دعوت‌نامهٔ گردهمایی همبستگی، ۲۷ سپتامبر ۲۰۲۲."
     },
     "credit": "SIGS event archive.",
     "publication": "published",
@@ -28453,8 +28453,8 @@
       "fa": "پوستر تجمع دانشگاهی برای ایران در ۳۰ نوامبر در UCI."
     },
     "caption": {
-      "en": "The campus rally invitation for November 30, 2022.",
-      "fa": "دعوت‌نامهٔ تجمع دانشگاهی ۳۰ نوامبر ۲۰۲۲."
+      "en": "Campus rally invitation, November 30, 2022.",
+      "fa": "دعوت‌نامهٔ گردهمایی دانشگاهی، ۳۰ نوامبر ۲۰۲۲."
     },
     "credit": "Iranian Scholars for Liberty; SIGS event archive.",
     "publication": "published",
@@ -28477,8 +28477,8 @@
       "fa": "دعوت‌نامهٔ دورهمی غذا و بازی SIGS با تصویر ورق، شطرنج و دستهٔ بازی."
     },
     "caption": {
-      "en": "An invitation to bring food and games to Palo Verde on December 4, 2022.",
-      "fa": "دعوت به دورهمی غذا و بازی در پالو ورده، ۴ دسامبر ۲۰۲۲."
+      "en": "SIGS Game Night invitation, December 4, 2022.",
+      "fa": "دعوت‌نامهٔ شب بازی SIGS، ۴ دسامبر ۲۰۲۲."
     },
     "credit": "SIGS event archive.",
     "publication": "published",
@@ -28501,8 +28501,8 @@
       "fa": "دعوت‌نامهٔ جشن یلدا با طرح انار و نشان تکمیل ظرفیت."
     },
     "caption": {
-      "en": "The Yalda Night invitation for December 21, 2022.",
-      "fa": "دعوت‌نامهٔ جشن یلدای ۲۱ دسامبر ۲۰۲۲."
+      "en": "Yalda Night invitation, December 21, 2022.",
+      "fa": "دعوت‌نامهٔ شب یلدا، ۲۱ دسامبر ۲۰۲۲."
     },
     "credit": "SIGS event archive.",
     "publication": "published",
@@ -28573,8 +28573,8 @@
       "fa": "دعوت‌نامهٔ پیاده‌روی SIGS در پارک ساحلی کریستال کوو، ۲۴ فوریه."
     },
     "caption": {
-      "en": "The invitation to a morning hike at Crystal Cove on February 24, 2024.",
-      "fa": "دعوت به پیاده‌روی صبحگاهی در کریستال کوو، ۲۴ فوریهٔ ۲۰۲۴."
+      "en": "Crystal Cove hike invitation, February 24, 2024.",
+      "fa": "دعوت‌نامهٔ پیاده‌روی کریستال کوو، ۲۴ فوریهٔ ۲۰۲۴."
     },
     "credit": "SIGS event archive.",
     "publication": "published",
@@ -29907,7 +29907,7 @@
     "kind": "photo",
     "width": 960,
     "height": 606,
-    "eventId": null,
+    "eventId": "nowruz-2014",
     "focalPoint": [
       0.5,
       0.5
@@ -29917,10 +29917,10 @@
       "fa": "میزی آراسته با گل، شیرینی، شمع، کتابی باز و سازهای زهی."
     },
     "caption": {
-      "en": "Nowruz with SIGS",
-      "fa": "نوروز با SIGS"
+      "en": "Nowruz 1393 / 2014.",
+      "fa": "نوروز ۱۳۹۳ / ۲۰۱۴."
     },
-    "credit": "Photographer not recorded.",
+    "credit": "Mahshid Fardadi",
     "publication": "published",
     "rights": "approved"
   },
@@ -29931,7 +29931,7 @@
     "kind": "photo",
     "width": 1440,
     "height": 941,
-    "eventId": null,
+    "eventId": "graduate-orientation-2019",
     "focalPoint": [
       0.5,
       0.5
@@ -30205,8 +30205,8 @@
       "fa": "دوستان دور میز بلند شام در فضای باز و نور عصر نشسته‌اند."
     },
     "caption": {
-      "en": "A Yalda greeting from our community, shared in 2024.",
-      "fa": "تبریک یلدا از جمع ما، به‌اشتراک‌گذاشته‌شده در سال ۲۰۲۴."
+      "en": "Yalda greetings from SIGS, 2024.",
+      "fa": "تبریک یلدای SIGS در سال ۲۰۲۴."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -30627,7 +30627,7 @@
     "kind": "poster",
     "width": 1600,
     "height": 838,
-    "eventId": null,
+    "eventId": "welcome-2019",
     "focalPoint": [
       0.5,
       0.5
@@ -30637,8 +30637,8 @@
       "fa": "طرح زرد باربیکیو خوشامدگویی با تصویر همبرگر."
     },
     "caption": {
-      "en": "Welcoming new Anteaters, 2019.",
-      "fa": "خوشامدگویی به دانشجویان تازه‌وارد، ۲۰۱۹."
+      "en": "Welcome Week Barbecue invitation, September 22, 2019.",
+      "fa": "دعوت‌نامهٔ باربیکیوی خوشامدگویی، ۲۲ سپتامبر ۲۰۱۹."
     },
     "credit": "Welcome event artwork. Artist not recorded.",
     "publication": "published",
@@ -31420,7 +31420,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -31430,8 +31430,8 @@
       "fa": "سه مهمان با لباس‌های نمایشی و پیراهن و کراوات کنار هم ایستاده‌اند."
     },
     "caption": {
-      "en": "Halloween with the SIGS community, 2017.",
-      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -31444,7 +31444,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -31454,8 +31454,8 @@
       "fa": "گروه بزرگی از مهمانان با لباس‌های نمایشی در اتاق کنار هم ایستاده‌اند."
     },
     "caption": {
-      "en": "Halloween with the SIGS community, 2017.",
-      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -31468,7 +31468,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -31478,8 +31478,8 @@
       "fa": "مهمانان با لباس‌های نمایشی کنار هم ایستاده و نشسته‌اند."
     },
     "caption": {
-      "en": "Halloween with the SIGS community, 2017.",
-      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -31492,7 +31492,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -31502,8 +31502,8 @@
       "fa": "دی‌جی پشت میز تنظیم صدا میان دو بلندگو کار می‌کند."
     },
     "caption": {
-      "en": "Halloween with the SIGS community, 2017.",
-      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -31516,7 +31516,7 @@
     "kind": "photo",
     "width": 1600,
     "height": 1063,
-    "eventId": null,
+    "eventId": "halloween-2017",
     "focalPoint": [
       0.5,
       0.5
@@ -31526,8 +31526,8 @@
       "fa": "مهمانان با لباس‌های نمایشی زیر نورهای رنگی می‌رقصند."
     },
     "caption": {
-      "en": "Halloween with the SIGS community, 2017.",
-      "fa": "هالووین در جمع SIGS، سال ۲۰۱۷."
+      "en": "Halloween at Palo Verde, October 28, 2017.",
+      "fa": "هالووین در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -31692,8 +31692,8 @@
       "fa": "دعوت‌نامهٔ مرکز جردن برای دورهمی همدلی در ۱۳ ژانویه، با نام Touraj Daryaee و نشان‌های SIGS و ISU."
     },
     "caption": {
-      "en": "A campus invitation for support and conversation, January 2020.",
-      "fa": "دعوتی دانشگاهی برای همدلی و گفت‌وگو، ژانویهٔ ۲۰۲۰."
+      "en": "Jordan Center community support invitation, January 13, 2020.",
+      "fa": "دعوت‌نامهٔ دورهمی همدلی در مرکز جردن، ۱۳ ژانویهٔ ۲۰۲۰."
     },
     "credit": "UCI Jordan Center for Persian Studies & Culture; SIGS and ISU logos retained.",
     "publication": "published",
@@ -31716,8 +31716,8 @@
       "fa": "طرح خوشامدگویی به تازه‌واردان روی تصویر ورودی دانشگاه UCI، با نوشتهٔ فارسی و نشان‌های SIGS و ISC."
     },
     "caption": {
-      "en": "A welcome to newcomers from SIGS and ISC.",
-      "fa": "خوشامدگویی به تازه‌واردان از سوی SIGS و ISC."
+      "en": "The SIGS and ISC NewComers information portal, 2023.",
+      "fa": "پرتال راهنمای تازه‌واردهای SIGS و ISC، ۲۰۲۳."
     },
     "credit": "SIGS and Iranian Students of California promotional artwork. Artist and photographer not recorded.",
     "publication": "published",

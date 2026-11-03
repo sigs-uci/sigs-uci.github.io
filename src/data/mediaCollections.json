@@ -778,7 +778,8 @@
       "welcome-2023-photo-002",
       "welcome-2023-photo-003",
       "welcome-2023-photo-004",
-      "welcome-2023-newcomer-artwork"
+      "indoor-community-gathering-image-072",
+      "indoor-community-gathering-image-074"
     ]
   },
   {
@@ -1120,7 +1121,8 @@
       "nowruz-2017-photo-101",
       "nowruz-2017-photo-102",
       "nowruz-2017-photo-103",
-      "nowruz-2017-program-invitation"
+      "nowruz-2017-program-invitation",
+      "nowruz-celebrations-image-008"
     ]
   },
   {
@@ -1247,7 +1249,10 @@
       "yalda-2016-photo-105",
       "yalda-2016-landscape-invitation",
       "yalda-2016-program-invitation",
-      "yalda-2016-sold-out-announcement"
+      "yalda-2016-sold-out-announcement",
+      "gatherings-and-dance-image-019",
+      "gatherings-and-dance-image-020",
+      "gatherings-and-dance-image-021"
     ]
   },
   {
@@ -1290,8 +1295,8 @@
       "fa": "دورهمی کنار آتش، پاییز ۲۰۱۷"
     },
     "description": {
-      "en": "An evening at Corona del Mar, from the beach at sunset to the fire after dark.",
-      "fa": "عصری در ساحل کرونا دل مار؛ از غروب کنار دریا تا دورهمی شبانه کنار آتش."
+      "en": "The fall bonfire at Corona del Mar on October 7, 2017.",
+      "fa": "دورهمی پاییزی کنار آتش در ساحل کرونا دل مار، ۷ اکتبر ۲۰۱۷."
     },
     "eventIds": [
       "bonfire-fall-2017"
@@ -1313,16 +1318,12 @@
   {
     "id": "halloween-2017",
     "title": {
-      "en": "Halloween night, 2017",
-      "fa": "شب هالووین، ۲۰۱۷"
+      "en": "Halloween at Palo Verde, 2017",
+      "fa": "هالووین در پالو ورده، ۲۰۱۷"
     },
     "description": {
-      "en": "A costume party with the SIGS community in 2017.",
-      "fa": "شبی با لباس‌های هالووین و دورهمی دوستان SIGS در سال ۲۰۱۷."
-    },
-    "note": {
-      "en": "These photographs are from 2017. Their exact event day is not confirmed.",
-      "fa": "این عکس‌ها از سال ۲۰۱۷ هستند؛ روز دقیق این دورهمی مشخص نیست."
+      "en": "The SIGS Halloween party at Palo Verde on October 28, 2017.",
+      "fa": "مهمانی هالووین SIGS در پالو ورده، ۲۸ اکتبر ۲۰۱۷."
     },
     "eventIds": [
       "halloween-2017"
@@ -1523,37 +1524,23 @@
       "fa": "نوروز در کنار هم"
     },
     "description": {
-      "en": "Welcoming the new year with haft-seen, music and celebration.",
-      "fa": "استقبال از سال نو با هفت‌سین، موسیقی و جشن."
+      "en": "Haft-seen tables and photographs from past Nowruz celebrations.",
+      "fa": "هفت‌سین‌ها و عکس‌هایی از جشن‌های نوروز سال‌های گذشته."
     },
     "note": {
-      "en": "The invitations are historical; registration is closed.",
-      "fa": "دعوت‌نامه‌ها مربوط به گذشته‌اند و ثبت‌نام آن‌ها بسته است."
+      "en": "Some event names and dates in this collection are still unconfirmed.",
+      "fa": "نام و تاریخ بعضی از برنامه‌های این مجموعه هنوز مشخص نیست."
     },
-    "coverId": "nowruz-celebrations-image-026",
+    "coverId": "nowruz-celebrations-image-002",
     "mediaIds": [
       "nowruz-celebrations-image-002",
       "nowruz-celebrations-image-003",
-      "nowruz-celebrations-image-008",
       "nowruz-celebrations-image-016",
-      "nowruz-celebrations-image-022",
-      "nowruz-celebrations-image-023",
-      "nowruz-celebrations-image-026",
-      "nowruz-celebrations-image-029",
-      "nowruz-celebrations-image-030",
-      "nowruz-celebrations-image-031",
-      "nowruz-celebrations-image-032",
-      "nowruz-celebrations-image-033",
-      "nowruz-celebrations-image-034",
-      "nowruz-celebrations-image-037",
-      "nowruz-celebrations-image-038",
       "nowruz-celebrations-image-047",
-      "nowruz-celebrations-image-048",
-      "community-nowruz-table"
+      "nowruz-celebrations-image-048"
     ],
     "eventIds": [
       "nowruz-2017",
-      "nowruz-2018",
       "nowruz-2019"
     ]
   },
@@ -1567,21 +1554,9 @@
       "en": "Coming together for music, dancing and dinner.",
       "fa": "دورهمی با موسیقی، رقص و شام."
     },
-    "coverId": "gatherings-and-dance-image-027",
+    "coverId": "gatherings-and-dance-image-001",
     "mediaIds": [
       "gatherings-and-dance-image-001",
-      "gatherings-and-dance-image-007",
-      "gatherings-and-dance-image-019",
-      "gatherings-and-dance-image-020",
-      "gatherings-and-dance-image-021",
-      "gatherings-and-dance-image-024",
-      "gatherings-and-dance-image-025",
-      "gatherings-and-dance-image-027",
-      "gatherings-and-dance-image-028",
-      "gatherings-and-dance-image-035",
-      "gatherings-and-dance-image-036",
-      "gatherings-and-dance-image-039",
-      "gatherings-and-dance-image-040",
       "gatherings-and-dance-image-044"
     ],
     "eventIds": []
@@ -1640,10 +1615,8 @@
       "en": "Taking time to meet and talk with the SIGS community.",
       "fa": "دیدار و گفت‌وگو در جمع SIGS."
     },
-    "coverId": "indoor-community-gathering-image-072",
+    "coverId": "community-early-gathering-01",
     "mediaIds": [
-      "indoor-community-gathering-image-072",
-      "indoor-community-gathering-image-074",
       "community-early-gathering-01",
       "community-early-gathering-02",
       "community-early-gathering-03",
@@ -1674,8 +1647,8 @@
       "welcome-2018-community"
     ],
     "eventIds": [
-      "welcome-2018",
-      "innovation-forum-2018"
+      "innovation-forum-2018",
+      "graduate-orientation-2019"
     ]
   },
   {
@@ -1733,13 +1706,11 @@
     },
     "coverId": "yalda-celebrations-image-042",
     "mediaIds": [
-      "yalda-celebrations-image-005",
       "yalda-celebrations-image-013",
       "yalda-celebrations-image-042",
       "yalda-celebrations-image-043",
       "yalda-greeting-2024-community",
       "yalda-2020-invitation",
-      "yalda-2015-evening-program",
       "yalda-2021-sold-out-announcement",
       "yalda-2023-performer-portrait-01",
       "yalda-2023-performer-portrait-02",
@@ -1747,7 +1718,6 @@
       "yalda-2023-invitation"
     ],
     "eventIds": [
-      "yalda-2015",
       "yalda-2017",
       "yalda-2018"
     ]
@@ -1826,8 +1796,8 @@
       "community-support-2020-invitation",
       "nabavi-2013-invitation",
       "parissa-2013-invitation",
-      "nowruz-2014-invitation",
-      "halloween-2019-invitation"
+      "halloween-2019-invitation",
+      "welcome-2023-newcomer-artwork"
     ],
     "eventIds": []
   },
@@ -1898,6 +1868,81 @@
     "coverId": "gol-ya-pooch-2026-poster",
     "mediaIds": [
       "gol-ya-pooch-2026-poster"
+    ]
+  },
+  {
+    "id": "nowruz-2018",
+    "title": {
+      "en": "Nowruz 1397 / 2018",
+      "fa": "نوروز ۱۳۹۷ / ۲۰۱۸"
+    },
+    "description": {
+      "en": "Nowruz 1397 at UCI, March 18, 2018.",
+      "fa": "نوروز ۱۳۹۷ در UCI، ۱۸ مارس ۲۰۱۸."
+    },
+    "coverId": "gatherings-and-dance-image-024",
+    "mediaIds": [
+      "nowruz-celebrations-image-022",
+      "nowruz-celebrations-image-023",
+      "gatherings-and-dance-image-024",
+      "gatherings-and-dance-image-025",
+      "nowruz-celebrations-image-026",
+      "gatherings-and-dance-image-027",
+      "gatherings-and-dance-image-028",
+      "nowruz-celebrations-image-029",
+      "nowruz-celebrations-image-030",
+      "nowruz-celebrations-image-031",
+      "nowruz-celebrations-image-032",
+      "nowruz-celebrations-image-033",
+      "nowruz-celebrations-image-034",
+      "gatherings-and-dance-image-035",
+      "gatherings-and-dance-image-036",
+      "nowruz-celebrations-image-037",
+      "nowruz-celebrations-image-038",
+      "gatherings-and-dance-image-039",
+      "gatherings-and-dance-image-040"
+    ],
+    "eventIds": [
+      "nowruz-2018"
+    ]
+  },
+  {
+    "id": "nowruz-2014",
+    "title": {
+      "en": "Nowruz 1393 / 2014",
+      "fa": "نوروز ۱۳۹۳ / ۲۰۱۴"
+    },
+    "description": {
+      "en": "Nowruz 1393 at the UCI Student Center.",
+      "fa": "نوروز ۱۳۹۳ در مرکز دانشجویی UCI."
+    },
+    "coverId": "community-nowruz-table",
+    "mediaIds": [
+      "community-nowruz-table",
+      "nowruz-2014-invitation"
+    ],
+    "eventIds": [
+      "nowruz-2014"
+    ]
+  },
+  {
+    "id": "yalda-2015",
+    "title": {
+      "en": "Yalda at Palo Verde, 2015",
+      "fa": "یلدا در پالو ورده، ۲۰۱۵"
+    },
+    "description": {
+      "en": "The December 12, 2015 Yalda celebration with SIGS and PLCC.",
+      "fa": "جشن یلدای SIGS و PLCC در ۱۲ دسامبر ۲۰۱۵."
+    },
+    "coverId": "gatherings-and-dance-image-007",
+    "mediaIds": [
+      "yalda-celebrations-image-005",
+      "gatherings-and-dance-image-007",
+      "yalda-2015-evening-program"
+    ],
+    "eventIds": [
+      "yalda-2015"
     ]
   }
 ]

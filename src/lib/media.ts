@@ -1,6 +1,8 @@
 import { boardTerms, events, media, people, type MediaRecord, type Locale } from '../data';
 import collectionData from '../data/mediaCollections.json';
+import redirectData from '../data/mediaRedirects.json';
 import {isPublicEvent} from './events';
+import {buildMediaRedirectMap,legacyMediaPageCount,validateMediaRedirectAliases} from '../scripts/media-redirects';
 
 export interface MediaCollection {
   id: string;
@@ -27,6 +29,12 @@ export const albumPageSize = 36;
 export function albumPages(collection: MediaCollection, records: readonly MediaRecord[] = collectionItems(collection)): number {
   return Math.max(1, Math.ceil(records.filter(item => item.kind !== 'video').length / albumPageSize));
 }
+export function albumRoutePages(collection: MediaCollection): number {
+  return Math.max(albumPages(collection),legacyMediaPageCount(redirectData,collection.id));
+}
+export function mediaRedirectsForPage(collection: MediaCollection, page: number, locale: Locale): Record<string,string> {
+  return buildMediaRedirectMap(redirectData,mediaCollections,publicMedia,{collectionId:collection.id,page,locale},albumPageSize);
+}
 export function albumPagePath(collection: MediaCollection, page = 1): string {
   return page === 1 ? collectionPath(collection) : `${collectionPath(collection)}/page/${page}`;
 }
@@ -36,7 +44,7 @@ export function albumPhotos(records: readonly MediaRecord[], page = 1): MediaRec
 }
 export function albumAtPath(path: string): {collection: MediaCollection; page: number} | undefined {
   for (const collection of mediaCollections) {
-    for (let page = 1; page <= albumPages(collection); page++) {
+    for (let page = 1; page <= albumRoutePages(collection); page++) {
       if (albumPagePath(collection, page) === path) return {collection, page};
     }
   }
@@ -64,6 +72,7 @@ export function validateMediaCollections(collections: readonly MediaCollection[]
     for(const id of collection.eventIds)if(!events.some(event=>event.id===id&&isPublicEvent(event)))issue('Event link must identify a public record');
   }
   for(const item of visible)if(assignments.get(item.id)!==1)errors.push(`media.${item.id}: Needs one collection`);
+  errors.push(...validateMediaRedirectAliases(redirectData,collections,visible));
   return errors;
 }
 export function videoDuration(seconds: number, locale: Locale): string {

@@ -1,6 +1,6 @@
 import { boardTerms, organization, programs, type BoardTerm } from '../data';
 import { archiveYears, archiveDescription } from './archive';
-import { mediaCollections, albumPagePath, albumPages } from './media';
+import { mediaCollections, albumPagePath, albumRoutePages } from './media';
 import type { Locale } from '../config/site';
 
 export interface PageDefinition {
@@ -40,7 +40,7 @@ export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTerm
     ...terms.map(term => ({ path: `about/leadership/${term.id}`, title: `The ${term.term} team`,
       description: `Meet the ${term.term} SIGS team and find each member's role.` })),
     ...programs.map(program => ({ path: `community/programs/${program.id}`, title: program.name, description: program.summary })),
-    ...mediaCollections.flatMap(collection=>Array.from({length:albumPages(collection)},(_,index)=>({path:albumPagePath(collection,index+1),title:collection.title.en,description:collection.description.en,localized:{fa:{title:collection.title.fa,description:collection.description.fa}}}))),
+    ...mediaCollections.flatMap(collection=>Array.from({length:albumRoutePages(collection)},(_,index)=>({path:albumPagePath(collection,index+1),title:collection.title.en,description:collection.description.en,localized:{fa:{title:collection.title.fa,description:collection.description.fa}}}))),
     ...archiveYears().map(entry => ({ path: `events/archive/${entry.year}`, title: `SIGS in ${entry.year}`,
       description: archiveDescription(entry.year, entry.records.length),
       localized: { fa: { title: `SIGS در ${new Intl.NumberFormat('fa-IR', { useGrouping: false }).format(Number(entry.year))}`, description: archiveDescription(entry.year, entry.records.length, 'fa') } } })),
