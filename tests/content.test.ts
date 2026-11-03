@@ -31,7 +31,7 @@ test('expanded history retains cancellation, partial dates and participation rol
   assert.equal(byId.get('nowruz-cruise-2023')?.venue,'Balboa Pavilion Building, 400 Main St.');
 });
 
-test('identified event media keep World Cup gatherings and unknown beach clips distinct', () => {
+test('identified event media retain their dates and separate World Cup gatherings', () => {
   for (const [id, count] of [['nowruz-cruise-2023', 19], ['yalda-2025', 23], ['halloween-2023', 5], ['bonfire-2023-10-06', 8], ['world-cup-iran-egypt-2026', 2], ['world-cup-iran-morocco-2018', 1]] as const) {
     const event = events.find(event => event.id === id)!;
     const photos = media.filter(item => item.eventId === id && item.kind === 'photo');
@@ -53,7 +53,12 @@ test('identified event media keep World Cup gatherings and unknown beach clips d
   assert.equal(events.find(event => event.id === 'world-cup-iran-morocco-2018')?.date.value, '2018-06-15');
   assert.equal(media.find(item => item.id === 'football-gathering-recap')?.eventId, 'world-cup-iran-morocco-2018');
   assert.equal(media.find(item => item.id === 'iran-egypt-2026-poster')?.eventId, 'world-cup-iran-egypt-2026');
-  for (const number of ['050', '051', '052']) assert.equal(media.find(item => item.id === `beach-gatherings-video-${number}`)?.eventId, null);
+  for (const number of ['050', '051', '052']) {
+    const id = `beach-gatherings-video-${number}`;
+    assert.equal(media.find(item => item.id === id)?.eventId, 'bonfire-2023-10-06');
+    assert.ok(events.find(event => event.id === 'bonfire-2023-10-06')!.gallery.includes(id));
+  }
+  assert.equal(media.find(item => item.id === 'beach-gatherings-image-083')?.eventId, null);
 });
 
 test('archive facts preserve dates, unknown rooms and closed registration', () => {

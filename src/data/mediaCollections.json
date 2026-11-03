@@ -1454,7 +1454,10 @@
       "beach-gatherings-image-080",
       "beach-gatherings-image-081",
       "beach-gatherings-image-082",
-      "bonfire-2023-10-06-poster"
+      "bonfire-2023-10-06-poster",
+      "beach-gatherings-video-050",
+      "beach-gatherings-video-051",
+      "beach-gatherings-video-052"
     ]
   },
   {
@@ -1464,20 +1467,17 @@
       "fa": "کنار ساحل"
     },
     "description": {
-      "en": "A nighttime beach photo and three aerial clips.",
-      "fa": "یک عکس شبانه از ساحل و سه ویدیوی هوایی."
+      "en": "A nighttime beach photograph.",
+      "fa": "عکسی از یک دورهمی شبانه در ساحل."
     },
     "coverId": "beach-gatherings-image-083",
     "mediaIds": [
-      "beach-gatherings-video-050",
-      "beach-gatherings-video-051",
-      "beach-gatherings-video-052",
       "beach-gatherings-image-083"
     ],
     "eventIds": [],
     "note": {
-      "en": "The events and dates for this photograph and these videos have not been confirmed.",
-      "fa": "هنوز مشخص نیست این عکس و ویدیوها مربوط به کدام برنامه و چه تاریخی هستند."
+      "en": "The event and date for this photograph have not been confirmed.",
+      "fa": "نام برنامه و تاریخ این عکس هنوز مشخص نیست."
     }
   },
   {
