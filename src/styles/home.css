@@ -142,5 +142,5 @@ html[lang=fa] .gathering-team-list strong{font-family:Manrope,Vazirmatn,Arial,sa
   .gathering-collaborate .text-link{margin-top:10px}
   html[lang=fa] .gathering-opening h1{font-size:41px;line-height:1.45}
 }
-@media(max-width:350px){.gathering-opening h1{font-size:44px}.gathering-team-list{grid-template-columns:1fr}.gathering-person-summary{grid-template-columns:72px minmax(0,1fr);align-items:center;gap:16px}.gathering-person-profile{margin-inline-start:88px}.gathering-film{grid-template-columns:100px minmax(0,1fr);gap:18px}.gathering-film h3{font-size:22px}html[lang=fa] .gathering-opening h1{font-size:36px}}
+@media(max-width:350px){.gathering-opening h1{font-size:44px}.gathering-team-list{grid-template-columns:1fr}.gathering-person-summary{grid-template-columns:96px minmax(0,1fr);align-items:center;gap:16px}.gathering-person-profile{margin-inline-start:112px}.gathering-film{grid-template-columns:100px minmax(0,1fr);gap:18px}.gathering-film h3{font-size:22px}html[lang=fa] .gathering-opening h1{font-size:36px}}
 @media print{.gathering-opening,.gathering-newcomers,.gathering-collaborate{color:var(--ink);background:white}.gathering-opening h1>span{color:var(--ink)}.gathering-actions{display:none}}

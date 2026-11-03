@@ -1,0 +1,7 @@
+---
+import { cloudflareWebAnalyticsSiteId } from '../config/analytics';
+import { cloudflareAnalyticsBootstrap } from '../lib/analytics';
+
+const bootstrap = cloudflareAnalyticsBootstrap(cloudflareWebAnalyticsSiteId);
+---
+{bootstrap && <script is:inline data-sigs-analytics="cloudflare" set:html={bootstrap} />}

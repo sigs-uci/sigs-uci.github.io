@@ -34,4 +34,4 @@ These checks support review; they do not establish accessibility conformance or 
 
 ## Assets and licensing
 
-Font files and their licenses are served locally. The logo master and derivatives preserve the supplied emblem. Photograph rights are separate and may require credits or removal. No analytics, membership form, payment system or private member database is configured by this static site.
+Font files and their licenses are served locally. The logo master and derivatives preserve the supplied emblem. Photograph rights are separate and may require credits or removal. Cloudflare Web Analytics uses a public site ID in `src/config/analytics.ts`; its loader runs only on the production HTTPS hostname. The privacy page reflects whether a valid ID is configured. No membership form, payment system or private member database is configured by this static site.
