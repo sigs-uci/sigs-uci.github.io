@@ -1557,8 +1557,7 @@
     },
     "coverId": "gatherings-and-dance-image-001",
     "mediaIds": [
-      "gatherings-and-dance-image-001",
-      "gatherings-and-dance-image-044"
+      "gatherings-and-dance-image-001"
     ],
     "eventIds": []
   },
@@ -1709,7 +1708,6 @@
     },
     "coverId": "yalda-celebrations-image-042",
     "mediaIds": [
-      "yalda-celebrations-image-013",
       "yalda-celebrations-image-042",
       "yalda-celebrations-image-043",
       "yalda-greeting-2024-community",
@@ -1721,7 +1719,6 @@
       "yalda-2023-invitation"
     ],
     "eventIds": [
-      "yalda-2017",
       "yalda-2018"
     ]
   },
@@ -1965,6 +1962,25 @@
     ],
     "eventIds": [
       "spring-gathering-2026"
+    ]
+  },
+  {
+    "id": "yalda-2017",
+    "title": {
+      "en": "Yalda Night 2017",
+      "fa": "شب یلدای ۲۰۱۷"
+    },
+    "description": {
+      "en": "Yalda at the UCI Student Center in December 2017.",
+      "fa": "جشن یلدا در مرکز دانشجویی UCI در دسامبر ۲۰۱۷."
+    },
+    "coverId": "gatherings-and-dance-image-044",
+    "mediaIds": [
+      "gatherings-and-dance-image-044",
+      "yalda-celebrations-image-013"
+    ],
+    "eventIds": [
+      "yalda-2017"
     ]
   }
 ]

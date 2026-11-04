@@ -1105,14 +1105,15 @@
     "category": "culture",
     "sigsRole": "organizer",
     "summary": "SIGS advertised Yalda at the UCI Student Center with Hafez recitation and music by Barbad. The announced program also included Persian dance and DJ Aaraa with DJ Raavi.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "yalda-celebrations-image-013"
+      "yalda-celebrations-image-013",
+      "gatherings-and-dance-image-044"
     ],
     "heroImage": "yalda-celebrations-image-013",
     "editorial": {

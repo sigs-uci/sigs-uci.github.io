@@ -173,5 +173,15 @@
     "fromCollectionId": "group-portraits",
     "fromPage": 1,
     "mediaId": "group-portraits-image-118"
+  },
+  {
+    "fromCollectionId": "gatherings-and-dance",
+    "fromPage": 1,
+    "mediaId": "gatherings-and-dance-image-044"
+  },
+  {
+    "fromCollectionId": "yalda-celebrations",
+    "fromPage": 1,
+    "mediaId": "yalda-celebrations-image-013"
   }
 ]
