@@ -32,7 +32,7 @@ test('expanded history retains cancellation, partial dates and participation rol
 });
 
 test('identified event media retain their dates and separate World Cup gatherings', () => {
-  for (const [id, count] of [['nowruz-cruise-2023', 19], ['yalda-2025', 23], ['halloween-2023', 7], ['bonfire-2023-10-06', 8], ['world-cup-iran-egypt-2026', 2], ['world-cup-iran-morocco-2018', 1], ['spring-gathering-2026', 1]] as const) {
+  for (const [id, count] of [['nowruz-cruise-2023', 19], ['yalda-2025', 23], ['halloween-2023', 7], ['bonfire-2023-10-06', 8], ['world-cup-iran-egypt-2026', 2], ['world-cup-iran-morocco-2018', 1], ['spring-gathering-2026', 1], ['yalda-2017', 1]] as const) {
     const event = events.find(event => event.id === id)!;
     const photos = media.filter(item => item.eventId === id && item.kind === 'photo');
     assert.equal(photos.length, count);
@@ -65,7 +65,8 @@ test('identified event media retain their dates and separate World Cup gathering
   assert.equal(spring.registrationUrl, null);
   assert.equal(media.find(item => item.id === 'group-portraits-image-118')?.eventId, spring.id);
   assert.equal(media.find(item => item.id === 'spring-gathering-2026-poster')?.eventId, spring.id);
-  assert.equal(media.find(item => item.id === 'gatherings-and-dance-image-044')?.eventId, null);
+  assert.equal(media.find(item => item.id === 'gatherings-and-dance-image-044')?.eventId, 'yalda-2017');
+  assert.equal(events.find(event => event.id === 'yalda-2017')?.date.value, '2017-12-09');
 });
 
 test('archive photo associations preserve the occasion rather than a later promotion', () => {
