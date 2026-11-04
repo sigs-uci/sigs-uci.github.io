@@ -1101,7 +1101,7 @@
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": "UCI Student Center",
+    "venue": "Pacific Ballroom D, UCI Student Center",
     "category": "culture",
     "sigsRole": "organizer",
     "summary": "SIGS advertised Yalda at the UCI Student Center with Hafez recitation and music by Barbad. The announced program also included Persian dance and DJ Aaraa with DJ Raavi.",
@@ -1137,7 +1137,7 @@
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": "UC Irvine",
+    "venue": "Pacific Ballroom C, UCI Student Center",
     "category": "culture",
     "sigsRole": "co-organizer",
     "summary": "SIGS and Iranian-American Students of WesternU presented Nowruz 1397 at UC Irvine. The advertised evening included traditional music, Persian dance, dinner and DJ Sepand.",
@@ -1989,11 +1989,11 @@
       "precision": "day",
       "contextYear": 2021
     },
-    "timeDisplay": "6:30 PM",
+    "timeDisplay": "6:30 to 7:30 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": null,
+    "venue": "Online (Zoom)",
     "category": "community",
     "sigsRole": "partner",
     "summary": "SIGS and the Iranian American Alumni Chapter invited the community to Tea Talks about mindfulness. The invitation included discussion and activities to help participants meet each other.",
@@ -2029,7 +2029,7 @@
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
-    "venue": null,
+    "venue": "Online (Zoom)",
     "category": "community",
     "sigsRole": "organizer",
     "summary": "SIGS announced a Sunday-morning discussion about managing stress during and after the pandemic.",
@@ -2772,7 +2772,9 @@
       "costume-and-karaoke-image-086",
       "costume-and-karaoke-image-087",
       "costume-and-karaoke-image-088",
-      "halloween-2023-poster"
+      "halloween-2023-poster",
+      "costume-and-karaoke-image-089",
+      "costume-and-karaoke-image-090"
     ],
     "heroImage": "costume-and-karaoke-image-085",
     "editorial": {
@@ -3675,7 +3677,7 @@
     "timeZone": null,
     "startInstant": null,
     "endInstant": null,
-    "venue": null,
+    "venue": "UC Irvine",
     "category": "newcomers",
     "sigsRole": "community_archive",
     "summary": "A welcome to UCI's new graduate students at the 2019 orientation.",
@@ -3689,6 +3691,44 @@
       "graduate-orientation-2019-community"
     ],
     "heroImage": "graduate-orientation-2019-community",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "spring-gathering-2026",
+    "slug": "spring-gathering-2026",
+    "title": "Spring Quarter Gathering 2026",
+    "locale": "en",
+    "date": {
+      "value": "2026-05-31",
+      "precision": "day",
+      "contextYear": 2026
+    },
+    "timeDisplay": "7 to 11:30 PM",
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": "Verano Place Community Center, Multipurpose Room Side A&B",
+    "category": "community",
+    "sigsRole": "organizer",
+    "summary": "We wrapped up spring quarter with dinner, music and drinks at Verano Place on May 31, 2026.",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
+    "publication": "published",
+    "eventState": "completed",
+    "registration": "closed",
+    "registrationUrl": null,
+    "registrationNote": "Dinner was included and an RSVP was required.",
+    "gallery": [
+      "group-portraits-image-118",
+      "spring-gathering-2026-poster"
+    ],
+    "heroImage": "spring-gathering-2026-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"

@@ -1639,9 +1639,8 @@
       "en": "Getting together with the SIGS community.",
       "fa": "دیدار و دورهمی در جمع SIGS."
     },
-    "coverId": "group-portraits-image-118",
+    "coverId": "group-portraits-image-121",
     "mediaIds": [
-      "group-portraits-image-118",
       "group-portraits-image-121",
       "community-campus-portrait-01",
       "sigs-team-2023-photo-01",
@@ -1947,6 +1946,25 @@
     ],
     "eventIds": [
       "yalda-2015"
+    ]
+  },
+  {
+    "id": "spring-gathering-2026",
+    "title": {
+      "en": "Spring Quarter Gathering 2026",
+      "fa": "دورهمی پایان ترم بهار ۲۰۲۶"
+    },
+    "description": {
+      "en": "The Spring Quarter Gathering at Verano Place, May 31, 2026.",
+      "fa": "دورهمی پایان ترم بهار در ورانو پلیس، ۳۱ مهٔ ۲۰۲۶."
+    },
+    "coverId": "group-portraits-image-118",
+    "mediaIds": [
+      "group-portraits-image-118",
+      "spring-gathering-2026-poster"
+    ],
+    "eventIds": [
+      "spring-gathering-2026"
     ]
   }
 ]
