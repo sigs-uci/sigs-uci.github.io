@@ -32,7 +32,7 @@ test('expanded history retains cancellation, partial dates and participation rol
 });
 
 test('identified event media retain their dates and separate World Cup gatherings', () => {
-  for (const [id, count] of [['nowruz-cruise-2023', 19], ['yalda-2025', 23], ['halloween-2023', 5], ['bonfire-2023-10-06', 8], ['world-cup-iran-egypt-2026', 2], ['world-cup-iran-morocco-2018', 1]] as const) {
+  for (const [id, count] of [['nowruz-cruise-2023', 19], ['yalda-2025', 23], ['halloween-2023', 7], ['bonfire-2023-10-06', 8], ['world-cup-iran-egypt-2026', 2], ['world-cup-iran-morocco-2018', 1], ['spring-gathering-2026', 1]] as const) {
     const event = events.find(event => event.id === id)!;
     const photos = media.filter(item => item.eventId === id && item.kind === 'photo');
     assert.equal(photos.length, count);
@@ -59,6 +59,13 @@ test('identified event media retain their dates and separate World Cup gathering
     assert.ok(events.find(event => event.id === 'bonfire-2023-10-06')!.gallery.includes(id));
   }
   assert.equal(media.find(item => item.id === 'beach-gatherings-image-083')?.eventId, null);
+  const spring = events.find(event => event.id === 'spring-gathering-2026')!;
+  assert.equal(spring.date.value, '2026-05-31');
+  assert.equal(spring.registration, 'closed');
+  assert.equal(spring.registrationUrl, null);
+  assert.equal(media.find(item => item.id === 'group-portraits-image-118')?.eventId, spring.id);
+  assert.equal(media.find(item => item.id === 'spring-gathering-2026-poster')?.eventId, spring.id);
+  assert.equal(media.find(item => item.id === 'gatherings-and-dance-image-044')?.eventId, null);
 });
 
 test('archive photo associations preserve the occasion rather than a later promotion', () => {
@@ -106,7 +113,7 @@ test('dated invitations and known contexts do not become unsupported completed e
   assert.equal(orientation.date.precision, 'year_context');
   assert.equal(orientation.date.contextYear, 2019);
   assert.equal(orientation.date.value, null);
-  assert.equal(orientation.venue, null);
+  assert.equal(orientation.venue, 'UC Irvine');
   assert.equal(orientation.sigsRole, 'community_archive');
   for (const id of ['nowruz-celebrations-image-002', 'nowruz-celebrations-image-003', 'posters-and-venues-image-004',
     'posters-and-venues-image-010', 'welcome-2023-newcomer-artwork', 'yalda-greeting-2024-community']) {
@@ -120,6 +127,11 @@ test('archive facts preserve dates, unknown rooms and closed registration', () =
   assert.equal(byId['nowruz-2018'].timeDisplay, '6:30 to 11 PM in the archived listing; 7:30 to 11:55 PM on the poster');
   assert.equal(byId['nowruz-2018'].startInstant, null);
   assert.equal(byId['nowruz-2018'].endInstant, null);
+  assert.equal(byId['nowruz-2018'].venue, 'Pacific Ballroom C, UCI Student Center');
+  assert.equal(byId['yalda-2017'].venue, 'Pacific Ballroom D, UCI Student Center');
+  assert.equal(byId['tea-talks-2021'].venue, 'Online (Zoom)');
+  assert.equal(byId['tea-talks-2021'].timeDisplay, '6:30 to 7:30 PM');
+  assert.equal(byId['stress-management-2021'].venue, 'Online (Zoom)');
   assert.equal(byId['nowruz-2021'].startInstant, null);
   assert.equal(byId['yalda-2023'].date.value, '2023-12-16');
   assert.notEqual(byId['solidarity-2026-02-02'].id, byId['solidarity-2026-02-10'].id);

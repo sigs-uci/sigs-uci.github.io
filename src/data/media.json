@@ -2184,7 +2184,7 @@
     "kind": "photo",
     "width": 962,
     "height": 1280,
-    "eventId": null,
+    "eventId": "halloween-2023",
     "focalPoint": [
       0.5,
       0.5
@@ -2194,8 +2194,8 @@
       "fa": "فردی کنار یکی از حاضران که نشسته است میکروفون در دست دارد و نورهای رنگی روی دیوار دیده می‌شوند."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "SIGS Halloween Night, October 29, 2023.",
+      "fa": "جشن هالووین SIGS، ۲۹ اکتبر ۲۰۲۳."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -2208,7 +2208,7 @@
     "kind": "photo",
     "width": 962,
     "height": 1280,
-    "eventId": null,
+    "eventId": "halloween-2023",
     "focalPoint": [
       0.5,
       0.5
@@ -2218,8 +2218,8 @@
       "fa": "یکی از حاضران با پیراهن چهارخانه و کلاه سویشرت روی سر، با دست‌های روی سینه ایستاده است."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "SIGS Halloween Night, October 29, 2023.",
+      "fa": "جشن هالووین SIGS، ۲۹ اکتبر ۲۰۲۳."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -2920,7 +2920,7 @@
     "kind": "photo",
     "width": 1280,
     "height": 960,
-    "eventId": null,
+    "eventId": "spring-gathering-2026",
     "focalPoint": [
       0.5,
       0.5
@@ -2930,8 +2930,8 @@
       "fa": "گروهی بزرگ در سالنی با چراغ‌های حلقه‌ای سقف، لیوان‌هایشان را بالا گرفته‌اند و برای عکس قرار گرفته‌اند."
     },
     "caption": {
-      "en": "A community gathering",
-      "fa": "دورهمی"
+      "en": "Spring Quarter Gathering, May 31, 2026.",
+      "fa": "دورهمی پایان ترم بهار، ۳۱ مهٔ ۲۰۲۶."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -32102,6 +32102,30 @@
     "caption": {
       "en": "Invitation to the Iran and Egypt World Cup watch party, June 26, 2026. This event has ended.",
       "fa": "دعوت‌نامهٔ تماشای بازی ایران و مصر در جام جهانی، ۲۶ ژوئن ۲۰۲۶. این برنامه پایان یافته است."
+    },
+    "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "spring-gathering-2026-poster",
+    "src": "/media/spring-gathering-2026-poster.webp",
+    "thumbnail": "/media/spring-gathering-2026-poster-small.webp",
+    "kind": "poster",
+    "width": 853,
+    "height": 1280,
+    "eventId": "spring-gathering-2026",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Brown and gold Spring Quarter Gathering poster listing Sunday, May 31, 7 to 11:30 PM at Verano Place Community Center, Multipurpose Room Side A&B, with an RSVP code and SIGS and AGS logos.",
+      "fa": "پوستر قهوه‌ای و طلایی دورهمی پایان ترم بهار با تاریخ یکشنبه ۳۱ مه، ساعت ۷ تا ۱۱:۳۰ شب، در بخش‌های A و B سالن چندمنظورهٔ مرکز اجتماعات ورانو پلیس، با کد ثبت‌نام و نشان‌های SIGS و AGS."
+    },
+    "caption": {
+      "en": "Invitation to the Spring Quarter Gathering, May 31, 2026. Registration is closed.",
+      "fa": "دعوت‌نامهٔ دورهمی پایان ترم بهار، ۳۱ مهٔ ۲۰۲۶. ثبت‌نام این برنامه بسته است."
     },
     "credit": "Design credit not recorded.",
     "publication": "published",

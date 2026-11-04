@@ -948,5 +948,15 @@
     "status": "reviewed",
     "sourceRevision": "46e94722db7546398f8a06807b53cc11f48ac826ceb70ad7707791e6d7e1f4d5",
     "reviewedOn": "2026-11-03"
+  },
+  {
+    "eventId": "spring-gathering-2026",
+    "locale": "fa",
+    "title": "دورهمی پایان ترم بهار ۲۰۲۶",
+    "summary": "دورهمی پایان ترم بهار را ۳۱ مهٔ ۲۰۲۶ با شام، موسیقی و نوشیدنی در ورانو پلیس برگزار کردیم.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "b34704a42f22b242c68eb1aa97ab19dfed369b2a4effc939459cf8a494c178d2",
+    "reviewedOn": "2026-11-03"
   }
 ]
