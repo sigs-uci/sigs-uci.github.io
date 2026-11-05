@@ -1,13 +1,13 @@
-.header-inner{min-height:106px;gap:24px;padding-block:18px}
+.header-inner{min-height:94px;gap:24px;padding-block:14px}
 .identity img{width:56px;height:56px}
 .identity-name{max-width:195px;font-size:11px;line-height:1.45}
 .identity-campus{display:none;font-size:11px;margin-top:5px;line-height:1.35;color:var(--muted)}
 .language{min-width:44px;justify-content:center}
-.button{border-radius:5px}
-.page-heading h1{font-size:clamp(42px,5.2vw,72px);text-wrap:balance}
+.button{border-radius:3px}
+.page-heading h1{font-size:clamp(34px,4vw,56px);text-wrap:balance}
 .footer{padding-top:44px}
 .footer-grid{padding-bottom:36px}
-.footer a.footer-brand{font-size:38px}
+.footer a.footer-brand{font-size:32px}
 .footer .tiny-star{font-size:28px}
 .footer nav{gap:4px}
 .footer nav a{display:inline-flex;align-items:center;min-height:40px}
@@ -24,7 +24,7 @@
   .mobile-menu summary{font-size:13px;padding:9px 10px}
   .mobile-menu summary span{margin-inline-start:5px}
   .page-heading{padding-block:36px 28px}
-  .page-heading h1{font-size:42px}
+  .page-heading h1{font-size:36px}
   .footer nav a{min-height:44px}
   .footer-grid{gap:24px}
 }
@@ -35,5 +35,8 @@
   .identity strong{font-size:22px}
   .header-tools{gap:4px}
   .mobile-menu summary{padding-inline:8px}
-  .page-heading h1{font-size:38px}
+  .page-heading h1{font-size:32px}
 }
+
+.footer :is(p,a){font-size:14px}
+.footer-bottom,.footer-bottom a{font-size:12px}

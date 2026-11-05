@@ -85,10 +85,12 @@ export function setupHomeMoments(root: HTMLElement) {
     const index = moments.findIndex(moment => moment.contains(video));
     if (index >= 0) update(index, true);
   }));
-  const visibility = new IntersectionObserver(entries => {
-    entries.forEach(entry => { if (!entry.isIntersecting) (entry.target as HTMLVideoElement).pause(); });
-  }, { threshold: 0 });
-  videos.forEach(video => visibility.observe(video));
+  if ('IntersectionObserver' in window) {
+    const visibility = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if (!entry.isIntersecting) (entry.target as HTMLVideoElement).pause(); });
+    }, { threshold: 0 });
+    videos.forEach(video => visibility.observe(video));
+  }
   root.addEventListener('click', event => {
     if ((event.target as Element).closest('[data-gallery-item]')) pauseAll();
   });

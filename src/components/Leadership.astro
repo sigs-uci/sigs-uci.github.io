@@ -8,12 +8,31 @@ const t=(s:string)=>tr(locale,s);
 const term=boardTerms.find(term=>term.id===termId)!;
 const groups=[['board','Board'],['support','Support Team'],['advisor','Advisor']];
 ---
-<div class="wrap page-body"><nav class="roster-nav" aria-label={t('Team terms')}>{boardTerms.map(board=><a href={href(locale,`about/leadership/${board.id}`)} aria-current={term.id===board.id?'page':undefined}><bdi dir="ltr">{formatTerm(locale,board.term)}</bdi> · {t(board.status==='current'?'Current team':'Previous team')}</a>)}</nav>
+<div class="wrap page-body leadership-page"><nav class="roster-nav" aria-label={t('Team terms')}>{boardTerms.map(board=><a href={href(locale,`about/leadership/${board.id}`)} aria-current={term.id===board.id?'page':undefined}><bdi dir="ltr">{formatTerm(locale,board.term)}</bdi> · {t(board.status==='current'?'Current team':'Previous team')}</a>)}</nav>
 <p class="quiet">{t(term.status==='current'?'Meet this year’s SIGS team.':'This team served in an earlier term.')} {t('For SIGS questions, email')} <a href="mailto:sigs@uci.edu"><bdi>sigs@uci.edu</bdi></a>.</p>
 {term.people.length===0 && <p class="notice">{term.status==='current'&&organization.currentBoardNotice?organization.currentBoardNotice:t('Contact SIGS for team information for this term.')}</p>}
-{groups.map(([id,label])=>{const members=term.people.filter(member=>member.group===id).sort((a,b)=>a.displayOrder-b.displayOrder);return members.length>0&&<section class="roster-group"><h2>{t(label)}</h2><div class="people-list">{members.map(member=>{const person=people.find(person=>person.id===member.personId);const bio=member.bio??person?.bio;const major=term.status==='current'?person?.major?.[locale]:undefined;return <article class="person" id={member.personId}><TeamPortrait personId={member.personId} portraitId={member.portrait} locale={locale} /><h3><bdi lang="en" dir="ltr">{member.name}</bdi></h3><p>{t(member.role)}</p>{major&&<p class="person-major">{major}</p>}{bio&&<p>{t(bio)}</p>}{person?.linkedinUrl&&<a href={person.linkedinUrl} aria-label={`${member.name}: ${t('View LinkedIn profile')}`}><span>{t('LinkedIn profile')}</span> <span aria-hidden="true">↗</span></a>}</article>})}</div></section>})}
+{groups.map(([id,label])=>{const members=term.people.filter(member=>member.group===id).sort((a,b)=>a.displayOrder-b.displayOrder);return members.length>0&&<section class="roster-group"><h2>{t(label)}</h2><div class="people-list">{members.map(member=>{const person=people.find(person=>person.id===member.personId);const bio=member.bio??person?.bio;const major=term.status==='current'?person?.major?.[locale]:undefined;return <article class="person" id={member.personId}><TeamPortrait personId={member.personId} portraitId={member.portrait} locale={locale} /><div class="person-copy"><h3><bdi lang="en" dir="ltr">{member.name}</bdi></h3><p class="person-role">{t(member.role)}</p>{major&&<p class="person-major">{major}</p>}{bio&&<p>{t(bio)}</p>}{person?.linkedinUrl&&<a href={person.linkedinUrl} aria-label={`${member.name}: ${t('View LinkedIn profile')}`}><span>{t('LinkedIn profile')}</span> <span aria-hidden="true">↗</span></a>}</div></article>})}</div></section>})}
 <p class="archive-note">{t('For joining or other SIGS questions, email sigs@uci.edu.')}</p></div>
 
 <style>
+  .leadership-page .roster-nav{gap:8px 32px;margin-block-end:28px;border-block-end:1px solid var(--line)}
+  .leadership-page .roster-nav a{border:0;border-radius:0;padding:12px 0;font-size:14px;background:transparent}
+  .leadership-page .roster-nav a[aria-current]{color:var(--navy);box-shadow:0 2px var(--navy);font-weight:750}
+  .leadership-page>.quiet{max-inline-size:70ch;margin-block-end:36px;font-size:16px}
+  .leadership-page .roster-group{grid-template-columns:150px minmax(0,1fr);gap:24px 40px;margin-block-end:28px;padding-block-start:28px}
+  .leadership-page .roster-group>h2{font-size:21px;line-height:1.5;letter-spacing:-.02em}
+  .leadership-page .people-list{gap:28px 40px}
+  .leadership-page .person{display:grid;grid-template-columns:128px minmax(0,1fr);align-items:start;gap:24px;min-inline-size:0;padding-block-end:24px;margin:0}
+  .person :global(.team-portrait){margin:0}
+  .person-copy{min-inline-size:0}
+  .leadership-page .person h3{font-size:21px;line-height:1.4;letter-spacing:-.025em;overflow-wrap:anywhere}
+  .leadership-page .person p{font-size:14px;line-height:1.75;margin-block-end:6px}
+  .leadership-page .person .person-role{font-weight:650;color:var(--ink)}
+  .leadership-page .person a{font-size:13px;gap:12px}
   .person .person-major{color:var(--ink);font-size:14px;line-height:1.7;max-width:40ch;overflow-wrap:anywhere}
+  :global(html[lang=fa]) .person-copy p{line-height:1.95}
+  :global(html[lang=fa]) .roster-group>h2{letter-spacing:normal}
+  @media(max-width:1190px){.leadership-page .roster-group{grid-template-columns:1fr;gap:20px}.leadership-page .people-list{gap:28px 32px}}
+  @media(max-width:767px){.leadership-page .people-list{grid-template-columns:1fr}.leadership-page .person{gap:24px}.leadership-page .roster-group{padding-block-start:22px}.leadership-page .roster-nav{gap:8px 24px}.leadership-page .roster-nav a{font-size:13px}.leadership-page .person h3{font-size:21px}}
+  @media(max-width:540px){.leadership-page .person{grid-template-columns:96px minmax(0,1fr);gap:20px}.leadership-page .person h3{font-size:20px}.leadership-page .person .person-major{font-size:14px}}
 </style>

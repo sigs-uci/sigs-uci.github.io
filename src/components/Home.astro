@@ -23,14 +23,16 @@ const memoryTitle = memory && eventLocale(memory, locale) === 'fa' ? reviewedTra
 <div class="home-gathering">
   <section class="gathering-opening" aria-labelledby="home-title">
     <div class="wrap gathering-opening-grid">
-      <h1 id="home-title">{locale === 'fa' ? <>{t('With')} <bdi lang="en">SIGS</bdi> <span>{t('Get to know us.')}</span></> : <>{t('Meet')} <span><bdi lang="en">SIGS.</bdi></span></>}</h1>
+      <div class="gathering-welcome">
+      <h1 id="home-title"><bdi lang="en">SIGS</bdi> <span>{t('at UC Irvine')}</span></h1>
       <div class="gathering-introduction">
-        <p>{t('The Iranian graduate student community at UC Irvine.')}</p>
-        <div class="gathering-actions"><a class="button gold" href={href(locale, 'join')}>{t('Say hello')}</a><a class="gathering-newcomer-link" href={href(locale, 'resources/new-students')}>{t('New to UCI? Start here')}</a></div>
+        <p>{t("We're the Iranian graduate student community at UC Irvine. Come to a gathering, or get in touch if you're new here.")}</p>
+        <div class="gathering-actions"><a class="button gold" href={href(locale, 'events')}>{t('View events')}</a><a class="text-link" href={href(locale, 'join')}>{t('Say hello')}</a><a class="gathering-newcomer-link" href={href(locale, 'resources/new-students')}>{t('New to UCI? Start here')}</a></div>
+      </div>
       </div>
       {homePhoto && <figure class="gathering-cover">
-        <a href={collectionHref}><img src={homePhoto.src} srcset={homePhoto.thumbnail ? `${homePhoto.thumbnail} 720w, ${homePhoto.src} ${homePhoto.width}w` : undefined} sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1190px) calc(100vw - 64px), min(1280px, 100vw - 96px)" width={homePhoto.width} height={homePhoto.height} alt={homePhoto.alt[locale]} loading="eager" fetchpriority="high" /></a>
-        <figcaption><a href={collectionHref}>{homeCollection?.title[locale] ?? homePhoto.caption[locale]} <span aria-hidden="true">↗</span></a>{homePhoto.credit !== 'Photographer not recorded.' && <span>{t(homePhoto.credit)}</span>}</figcaption>
+        <a href={collectionHref}><img src={homePhoto.src} srcset={homePhoto.thumbnail ? `${homePhoto.thumbnail} 720w, ${homePhoto.src} ${homePhoto.width}w` : undefined} sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1190px) 55vw, 740px" width={homePhoto.width} height={homePhoto.height} alt={homePhoto.alt[locale]} loading="eager" fetchpriority="high" /></a>
+        <figcaption><a href={collectionHref}>{homeCollection?.title[locale] ?? homePhoto.caption[locale]}</a>{homePhoto.credit !== 'Photographer not recorded.' && <span>{t(homePhoto.credit)}</span>}</figcaption>
       </figure>}
       <a class="gathering-mobile-newcomer" href={href(locale, 'resources/new-students')}>{t('New to UCI? Start here')}</a>
     </div>
@@ -46,7 +48,7 @@ const memoryTitle = memory && eventLocale(memory, locale) === 'fa' ? reviewedTra
   </div></section>
 
   {currentTeam && <section class="wrap gathering-team" aria-labelledby="team-title">
-    <div class="gathering-section-heading"><div><h2 id="team-title">{t('The people behind SIGS.')}</h2><p class="gathering-term"><bdi>{formatTerm(locale, currentTeam.term)}</bdi> / {t('Leadership & Team')}</p></div><a class="text-link" href={href(locale, 'about/leadership')}>{t('Meet the team')} <span aria-hidden="true">↗</span></a></div>
+    <div class="gathering-section-heading"><div><h2 id="team-title">{t('The SIGS team')}</h2><p class="gathering-term"><bdi>{formatTerm(locale, currentTeam.term)}</bdi> / {t('Leadership & Team')}</p></div><a class="text-link" href={href(locale, 'about/leadership')}>{t('Meet the team')}</a></div>
     <div class="gathering-team-list">{currentTeam.people.slice().sort((a, b) => a.displayOrder - b.displayOrder).map(member => {
       const person = people.find(person => person.id === member.personId);
       const major = person?.major?.[locale];
