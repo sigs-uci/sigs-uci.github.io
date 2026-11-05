@@ -3,28 +3,28 @@
 .events-explorer .filters{display:grid;grid-template-columns:minmax(230px,1.65fr) minmax(170px,1fr) minmax(110px,.65fr) minmax(200px,1.15fr);gap:20px;margin:0;padding:0 0 24px;border:0;border-bottom:1px solid var(--line);background:transparent;border-radius:0}
 .events-explorer .filters .field{min-width:0;display:flex;flex-direction:column;gap:8px}
 .events-explorer .filters label{font-size:13px;line-height:1.5;font-weight:700;margin:0}
-.events-explorer .filters :is(input,select){width:100%;min-width:0;min-height:48px;border:1px solid var(--control);border-radius:6px;padding:10px 12px;background:var(--white);font-size:16px;line-height:1.5}
+.events-explorer .filters :is(input,select){width:100%;min-width:0;min-height:48px;border:1px solid var(--control);border-radius:3px;padding:10px 12px;background:var(--white);font-size:16px;line-height:1.5}
 .events-explorer .filters input::placeholder{color:var(--muted);opacity:1}
 .events-explorer .results-toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px 24px;margin:0;padding-block:16px;font-size:13px;line-height:1.5}
 .events-explorer .events-result-actions{display:flex;align-items:center;gap:20px;margin-inline-start:auto}
 .events-explorer .events-reset{min-height:44px;padding:8px 0;border:0;background:transparent;color:var(--cobalt);font-size:13px;text-decoration:underline;text-underline-offset:4px}
-.events-explorer .view-switch{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:visible}
-.events-explorer .view-switch button{min-height:44px;padding:9px 17px;border:0;border-radius:5px;background:transparent;font-size:13px;line-height:1.5}
+.events-explorer .view-switch{display:inline-flex;border:1px solid var(--line);border-radius:3px;overflow:visible}
+.events-explorer .view-switch button{min-height:44px;padding:9px 17px;border:0;border-radius:2px;background:transparent;font-size:13px;line-height:1.5}
 .events-explorer .view-switch button[aria-pressed=true]{background:var(--navy);color:var(--white)}
 .events-explorer .view-switch button:hover:not([aria-pressed=true]){background:var(--ice)}
-.events-explorer .events-year-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding-block:24px 14px;border-bottom:2px solid var(--navy)}
+.events-explorer .events-year-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding-block:24px 14px;border-bottom:1px solid var(--navy)}
 .events-explorer .events-year-group:first-child .events-year-heading{padding-block-start:12px}
-.events-explorer .events-year-heading h3{font-size:36px;line-height:1.3;letter-spacing:-.03em;margin:0}
+.events-explorer .events-year-heading h3{font-size:32px;line-height:1.3;letter-spacing:-.03em;margin:0}
 .events-explorer .events-year-heading p{font-size:13px;color:var(--muted);margin:0;text-align:end}
 .events-explorer .event-row{display:grid;grid-template-columns:76px minmax(0,1fr);gap:32px;padding-block:30px;border-bottom:1px solid var(--line);align-items:start}
 .events-explorer .event-date{display:block;padding-block-start:2px;text-align:start;color:var(--ink);font-size:14px;line-height:1.5;min-width:0;overflow-wrap:anywhere}
-.events-explorer .event-date strong{display:block;font-size:36px;font-weight:700;line-height:1.1;letter-spacing:-.04em}
+.events-explorer .event-date strong{display:block;font-size:32px;font-weight:700;line-height:1.1;letter-spacing:-.04em}
 .events-explorer .event-date>span{display:block;margin-block-start:3px}
 .events-explorer .event-date .event-date-year{font-size:12px;color:var(--muted)}
 .events-explorer .event-date .event-date-unknown{font-size:13px;line-height:1.7}
 .events-explorer .event-record-copy{min-width:0}
 .events-explorer .event-record-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px 28px;margin-block-end:12px}
-.events-explorer .event-record-heading h4{font-size:clamp(22px,2.2vw,28px);line-height:1.4;max-width:38ch;margin:0;overflow-wrap:anywhere}
+.events-explorer .event-record-heading h4{font-size:clamp(22px,2.1vw,26px);line-height:1.4;max-width:38ch;margin:0;overflow-wrap:anywhere}
 .events-explorer .event-record-heading h4 a{text-decoration:none}
 .events-explorer .event-record-heading h4 a:hover{text-decoration:underline}
 .events-explorer .event-record-heading .status{flex-shrink:0;font-size:12px;font-weight:600;line-height:1.6;padding:4px 9px;border-radius:4px;max-width:100%;text-align:start}

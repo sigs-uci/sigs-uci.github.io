@@ -28,7 +28,7 @@ export interface MediaRedirectLocation {
   hash: string;
 }
 
-interface MediaRedirectBrowser {
+export interface MediaRedirectBrowser {
   location: MediaRedirectLocation & { replace: (url: string) => void };
   addEventListener: (type: 'hashchange' | 'pageshow', listener: () => void) => void;
   removeEventListener: (type: 'hashchange' | 'pageshow', listener: () => void) => void;
@@ -51,6 +51,41 @@ function validAlias(value: unknown): value is MediaRedirectAlias {
 
 function collectionPage(collectionId: string, page: number, locale: 'en' | 'fa'): string {
   return `/${locale}/community/memories/${collectionId}/${page > 1 ? `page/${page}/` : ''}`;
+}
+
+function publicRecords(records: readonly RedirectMedia[]): Map<string, RedirectMedia> {
+  return new Map(records.filter(record => record.publication === 'published' && record.rights === 'approved'
+    && safeId.test(record.id)).map(record => [record.id, record]));
+}
+
+function targetForMedia(mediaId: string, collections: readonly RedirectCollection[], visible: ReadonlyMap<string, RedirectMedia>,
+  locale: 'en' | 'fa', pageSize: number): { path: string; hash: string } | undefined {
+  const item = visible.get(mediaId);
+  if (!item) return;
+  const destinations = collections.filter(collection => safeId.test(collection.id) && collection.mediaIds.includes(item.id));
+  if (destinations.length !== 1) return;
+  const destination = destinations[0];
+  const photos = destination.mediaIds.filter(id => visible.has(id) && visible.get(id)!.kind !== 'video');
+  const page = item.kind === 'video' ? 1 : Math.floor(photos.indexOf(item.id) / pageSize) + 1;
+  if (!positiveInteger(page)) return;
+  return { path: collectionPage(destination.id, page, locale), hash: `#${item.kind === 'video' ? '' : 'image-'}${item.id}` };
+}
+
+export function canonicalMediaTarget(mediaId: string, collections: readonly RedirectCollection[], records: readonly RedirectMedia[],
+  locale: 'en' | 'fa', pageSize = 36): { path: string; hash: string } | undefined {
+  if (!safeId.test(mediaId) || !['en', 'fa'].includes(locale) || !positiveInteger(pageSize)) return;
+  return targetForMedia(mediaId, collections, publicRecords(records), locale, pageSize);
+}
+
+export function videoTargetForHash(hash: string, ids: readonly string[]): { id: string; part: 'video' | 'caption' } | undefined {
+  let fragment: string;
+  try { fragment = decodeURIComponent(hash); }
+  catch { return; }
+  for (const id of ids) {
+    if (!safeId.test(id)) continue;
+    if (fragment === `#${id}`) return { id, part: 'video' };
+    if (fragment === `#${id}-caption`) return { id, part: 'caption' };
+  }
 }
 
 export function legacyMediaPageCount(aliases: unknown, collectionId: string): number {
@@ -87,22 +122,12 @@ export function buildMediaRedirectMap(aliases: unknown, collections: readonly Re
   if (!Array.isArray(aliases) || !safeId.test(source.collectionId) || !positiveInteger(source.page)
     || !['en', 'fa'].includes(source.locale) || !positiveInteger(pageSize)) return redirects;
   if (!collections.some(collection => collection.id === source.collectionId)) return redirects;
-  const visible = new Map(records.filter(record => record.publication === 'published' && record.rights === 'approved'
-    && safeId.test(record.id)).map(record => [record.id, record]));
+  const visible = publicRecords(records);
   const currentPath = collectionPage(source.collectionId, source.page, source.locale);
   for (const alias of aliases) {
     if (!validAlias(alias) || alias.fromCollectionId !== source.collectionId || alias.fromPage !== source.page) continue;
-    const item = visible.get(alias.mediaId);
-    if (!item) continue;
-    const destinations = collections.filter(collection => safeId.test(collection.id) && collection.mediaIds.includes(item.id));
-    if (destinations.length !== 1) continue;
-    const destination = destinations[0];
-    const photos = destination.mediaIds.filter(id => visible.has(id) && visible.get(id)!.kind !== 'video');
-    const page = item.kind === 'video' ? 1 : Math.floor(photos.indexOf(item.id) / pageSize) + 1;
-    if (!positiveInteger(page)) continue;
-    const hash = `#${item.kind === 'video' ? '' : 'image-'}${item.id}`;
-    const destinationPath = collectionPage(destination.id, page, source.locale);
-    if (destinationPath !== currentPath) redirects[hash] = destinationPath + hash;
+    const target = targetForMedia(alias.mediaId, collections, visible, source.locale, pageSize);
+    if (target && target.path !== currentPath) redirects[target.hash] = target.path + target.hash;
   }
   return redirects;
 }

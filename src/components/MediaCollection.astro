@@ -36,7 +36,7 @@ const legacyRedirects=mediaRedirectsForPage(collection,page,locale);
 </div>
 
 <script>
-  import {setupMediaRedirects} from '../scripts/media-redirects';
+  import {setupMediaRedirects,videoTargetForHash} from '../scripts/media-redirects';
   const redirectData=document.querySelector<HTMLScriptElement>('[data-media-redirects]');
   if(redirectData?.textContent){
     try{setupMediaRedirects(JSON.parse(redirectData.textContent));}
@@ -57,24 +57,25 @@ const legacyRedirects=mediaRedirectsForPage(collection,page,locale);
         else link.removeAttribute('aria-current');
       });
     };
+    const hashTarget=()=>videoTargetForHash(window.location.hash,players.map(player=>player.dataset.collectionVideoPlayer!));
     const fromHash=()=>{
-      const id=window.location.hash.slice(1);
-      const selected=players.find(player=>player.dataset.collectionVideoPlayer===id);
+      const target=hashTarget();
+      const selected=players.find(player=>player.dataset.collectionVideoPlayer===target?.id);
       if(!selected){
         if(players[0])select(players[0].dataset.collectionVideoPlayer!);
         return;
       }
-      select(id);
-      selected.querySelector('figure')?.scrollIntoView({block:'start',behavior:'instant'});
+      select(target!.id);
+      selected.querySelector(target!.part==='caption'?'figcaption':'figure')?.scrollIntoView({block:'start',behavior:'instant'});
     };
     root.dataset.videoSelectorReady='';
-    const initial=players.find(player=>`#${player.dataset.collectionVideoPlayer}`===window.location.hash)??players[0];
+    const initial=players.find(player=>player.dataset.collectionVideoPlayer===hashTarget()?.id)??players[0];
     if(initial)select(initial.dataset.collectionVideoPlayer!);
     links.forEach(link=>link.addEventListener('click',event=>{
       if(event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
       select(link.dataset.collectionVideoLink!);
     }));
     window.addEventListener('hashchange',fromHash);
-    if(players.some(player=>`#${player.dataset.collectionVideoPlayer}`===window.location.hash))requestAnimationFrame(fromHash);
+    if(hashTarget())requestAnimationFrame(fromHash);
   });
 </script>
