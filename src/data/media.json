@@ -1038,7 +1038,7 @@
     "kind": "poster",
     "width": 599,
     "height": 899,
-    "eventId": null,
+    "eventId": "summer-party-2018-06-16",
     "focalPoint": [
       0.5,
       0.5
@@ -1048,8 +1048,8 @@
       "fa": "پوستر Summer Party با لوزی نورانی، سایهٔ افراد در حال رقص و نوشته‌های ۱۶ ژوئن و DJ Aaraa."
     },
     "caption": {
-      "en": "SIGS Summer Party invitation for June 16; the year is not printed.",
-      "fa": "دعوت‌نامهٔ مهمانی تابستانی SIGS برای ۱۶ ژوئن؛ سال روی پوستر نیامده است."
+      "en": "SIGS Summer Party with DJ Aaraa, June 16, 2018, at VIEWS Hookah Lounge.",
+      "fa": "مهمانی تابستانی SIGS با DJ Aaraa، ۱۶ ژوئن ۲۰۱۸، در VIEWS Hookah Lounge."
     },
     "credit": "PosterMyWall mark visible; designer not recorded.",
     "publication": "published",
@@ -2040,18 +2040,18 @@
     "kind": "photo",
     "width": 1280,
     "height": 960,
-    "eventId": null,
+    "eventId": "bonfire-2023-10-06",
     "focalPoint": [
       0.5,
       0.5
     ],
     "alt": {
-      "en": "A large group poses on the sand around a small fire at night.",
-      "fa": "گروهی بزرگ شب‌هنگام روی شن‌ها دور آتشی کوچک برای عکس قرار گرفته‌اند."
+      "en": "SIGS friends beside the bonfire at Corona del Mar.",
+      "fa": "دوستان SIGS کنار آتش در ساحل کورونا دل مار."
     },
     "caption": {
-      "en": "Beach bonfire",
-      "fa": "دورهمی کنار آتش"
+      "en": "SIGS fall bonfire at Corona del Mar, October 6, 2023.",
+      "fa": "دورهمی پاییزی SIGS کنار آتش در ساحل کورونا دل مار، ۶ اکتبر ۲۰۲۳."
     },
     "credit": "Photographer not recorded.",
     "publication": "published",
@@ -32128,6 +32128,3632 @@
       "fa": "دعوت‌نامهٔ دورهمی پایان ترم بهار، ۳۱ مهٔ ۲۰۲۶. ثبت‌نام این برنامه بسته است."
     },
     "credit": "Design credit not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "solidarity-2022-archive-photo-01",
+    "src": "/media/solidarity-2022-archive-photo-01.webp",
+    "thumbnail": "/media/solidarity-2022-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 720,
+    "height": 405,
+    "eventId": "solidarity-2022-09-27",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An overhead view of a crowd in a courtyard at night, with several signs held above the group.",
+      "fa": "نمایی از بالا از جمعیت در حیاطی در شب؛ چند نفر پلاکاردهایی را بالای سر گرفته‌اند."
+    },
+    "caption": {
+      "en": "Solidarity gathering 2022",
+      "fa": "گردهمایی همبستگی ۲۰۲۲"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "solidarity-2022-archive-photo-02",
+    "src": "/media/solidarity-2022-archive-photo-02.webp",
+    "thumbnail": "/media/solidarity-2022-archive-photo-02-small.webp",
+    "kind": "photo",
+    "width": 1428,
+    "height": 805,
+    "eventId": "solidarity-2022-09-27",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Candles and flowers beside signs reading “Mahsa Amini” and “Women, life, freedom”.",
+      "fa": "شمع‌ها و گل‌ها کنار نوشته‌های «مهسا امینی» و «زن، زندگی، آزادی»."
+    },
+    "caption": {
+      "en": "Solidarity gathering 2022",
+      "fa": "گردهمایی همبستگی ۲۰۲۲"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bonfire-2019-archive-photo-01",
+    "src": "/media/bonfire-2019-archive-photo-01.webp",
+    "thumbnail": "/media/bonfire-2019-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 900,
+    "height": 675,
+    "eventId": "bonfire-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends beside a picnic table, chairs and coolers on the sand at sunset.",
+      "fa": "دوستان کنار میز پیک‌نیک، صندلی‌ها و یخدان‌ها روی شن‌های ساحل هنگام غروب."
+    },
+    "caption": {
+      "en": "Beach bonfire 2019",
+      "fa": "آتش ساحلی ۲۰۱۹"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bonfire-2019-archive-photo-02",
+    "src": "/media/bonfire-2019-archive-photo-02.webp",
+    "thumbnail": "/media/bonfire-2019-archive-photo-02-small.webp",
+    "kind": "photo",
+    "width": 900,
+    "height": 675,
+    "eventId": "bonfire-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends around a beach fire ring at night, with palm trees and the moon behind them.",
+      "fa": "دوستان دور آتش ساحلی در شب؛ درختان نخل و ماه در پس‌زمینه دیده می‌شوند."
+    },
+    "caption": {
+      "en": "Beach bonfire 2019",
+      "fa": "آتش ساحلی ۲۰۱۹"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bonfire-2019-archive-photo-03",
+    "src": "/media/bonfire-2019-archive-photo-03.webp",
+    "thumbnail": "/media/bonfire-2019-archive-photo-03-small.webp",
+    "kind": "photo",
+    "width": 900,
+    "height": 675,
+    "eventId": "bonfire-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends talking around a lit fire ring on the beach.",
+      "fa": "گفت‌وگوی دوستان دور آتش روشن در ساحل."
+    },
+    "caption": {
+      "en": "Beach bonfire 2019",
+      "fa": "آتش ساحلی ۲۰۱۹"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "pol-media-film-weekend-2019-archive-photo-01",
+    "src": "/media/pol-media-film-weekend-2019-archive-photo-01.webp",
+    "thumbnail": "/media/pol-media-film-weekend-2019-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 720,
+    "height": 720,
+    "eventId": "pol-media-film-weekend-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two guests with microphones address an audience beneath a cinema screen.",
+      "fa": "دو مهمان با میکروفون در برابر تماشاگران و زیر پردهٔ سینما صحبت می‌کنند."
+    },
+    "caption": {
+      "en": "Pol Media film weekend 2019",
+      "fa": "آخر هفتهٔ سینمایی پل مدیا، ۲۰۱۹"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-01",
+    "src": "/media/iftar-2019-archive-photo-01.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dates, zoolbia and bamieh, cheese, herbs, walnuts, cucumbers and tomatoes on the iftar table.",
+      "fa": "خرما، زولبیا و بامیه، پنیر، سبزی، گردو، خیار و گوجه روی سفرهٔ افطار."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-02",
+    "src": "/media/iftar-2019-archive-photo-02.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-02-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Four friends behind a kitchen counter set with bowls and a large tray of ash.",
+      "fa": "چهار نفر پشت پیشخوان آشپزخانه، کنار کاسه‌ها و ظرف بزرگ آش."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-03",
+    "src": "/media/iftar-2019-archive-photo-03.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-03-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests around a round dinner table in a busy community room.",
+      "fa": "مهمانان دور میز گرد شام در سالن دورهمی."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-04",
+    "src": "/media/iftar-2019-archive-photo-04.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-04-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends sitting together at dinner, with another guest leaning in behind them.",
+      "fa": "دوستان کنار هم سر میز شام؛ یکی از مهمانان از پشت به جمع پیوسته است."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-05",
+    "src": "/media/iftar-2019-archive-photo-05.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-05-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends around a rectangular dinner table, with other guests talking behind them.",
+      "fa": "دوستان دور میز مستطیلی شام؛ مهمانان دیگری در پس‌زمینه مشغول گفت‌وگو هستند."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-06",
+    "src": "/media/iftar-2019-archive-photo-06.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-06-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends around a round dinner table set with bread, herbs and shared plates.",
+      "fa": "دوستان دور میز گرد شام با نان، سبزی و بشقاب‌های مشترک."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-07",
+    "src": "/media/iftar-2019-archive-photo-07.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-07-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests seated around a dinner table, with two friends standing behind them.",
+      "fa": "مهمانان نشسته دور میز شام و دو نفر از دوستان ایستاده پشت آن‌ها."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-08",
+    "src": "/media/iftar-2019-archive-photo-08.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-08-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends with their arms around one another at a round dinner table.",
+      "fa": "دوستان با دست‌هایی روی شانهٔ یکدیگر دور میز گرد شام."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-09",
+    "src": "/media/iftar-2019-archive-photo-09.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-09-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group of friends around a dinner table, with several standing behind the seated guests.",
+      "fa": "جمعی از دوستان دور میز شام؛ چند نفر پشت مهمانان نشسته ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iftar-2019-archive-photo-10",
+    "src": "/media/iftar-2019-archive-photo-10.webp",
+    "thumbnail": "/media/iftar-2019-archive-photo-10-small.webp",
+    "kind": "photo",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Flatbread, sweets, herbs, vegetables and water bottles arranged on a buffet table.",
+      "fa": "نان، شیرینی، سبزی، صیفی‌جات و بطری‌های آب روی میز پذیرایی."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "@pegior",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "halloween-2018-archive-clip-01",
+    "src": "/media/halloween-2018-archive-clip-01.mp4",
+    "thumbnail": "/media/halloween-2018-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 480,
+    "eventId": "halloween-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین."
+    },
+    "caption": {
+      "en": "Halloween 2018",
+      "fa": "هالووین ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/halloween-2018-archive-clip-01-poster.webp",
+    "duration": 7.731995,
+    "audioContent": "music",
+    "transcript": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine. Music and crowd sound from the event.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "halloween-2018-archive-clip-02",
+    "src": "/media/halloween-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/halloween-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 480,
+    "eventId": "halloween-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین."
+    },
+    "caption": {
+      "en": "Halloween 2018",
+      "fa": "هالووین ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/halloween-2018-archive-clip-02-poster.webp",
+    "duration": 12.539002,
+    "audioContent": "music",
+    "transcript": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine. Music and crowd sound from the event.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "game-hookah-night-2018-archive-clip-01",
+    "src": "/media/game-hookah-night-2018-archive-clip-01.mp4",
+    "thumbnail": "/media/game-hookah-night-2018-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 360,
+    "eventId": "game-hookah-night-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل."
+    },
+    "caption": {
+      "en": "Game and Hookah Night 2018",
+      "fa": "شب بازی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/game-hookah-night-2018-archive-clip-01-poster.webp",
+    "duration": 17.233333,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "bonfire-2023-10-06-archive-clip-01",
+    "src": "/media/bonfire-2023-10-06-archive-clip-01.mp4",
+    "thumbnail": "/media/bonfire-2023-10-06-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 464,
+    "height": 824,
+    "eventId": "bonfire-2023-10-06",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The beach bonfire and gathering on October 6,2023.",
+      "fa": "آتش و دورهمی ساحلی ۶ اکتبر ۲۰۲۳."
+    },
+    "caption": {
+      "en": "Beach bonfire, October 2023",
+      "fa": "آتش ساحلی، اکتبر ۲۰۲۳"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/bonfire-2023-10-06-archive-clip-01-poster.webp",
+    "duration": 59.280998,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The beach bonfire and gathering on October 6,2023. Background sound from the gathering.",
+      "fa": "آتش و دورهمی ساحلی ۶ اکتبر ۲۰۲۳. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "movie-night-2024-archive-clip-01",
+    "src": "/media/movie-night-2024-archive-clip-01.mp4",
+    "thumbnail": "/media/movie-night-2024-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "movie-night-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Students at the 2024 movie night, with refreshments in the room.",
+      "fa": "جمع دانشجوها و خوراکی‌ها در شب فیلم ۲۰۲۴."
+    },
+    "caption": {
+      "en": "Movie night 2024",
+      "fa": "شب فیلم ۲۰۲۴"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/movie-night-2024-archive-clip-01-poster.webp",
+    "duration": 6.666016,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Students at the 2024 movie night, with refreshments in the room. The original recording has no audio.",
+      "fa": "جمع دانشجوها و خوراکی‌ها در شب فیلم ۲۰۲۴. نسخهٔ اصلی این فیلم صدا ندارد."
+    }
+  },
+  {
+    "id": "yalda-2023-archive-clip-01",
+    "src": "/media/yalda-2023-archive-clip-01.mp4",
+    "thumbnail": "/media/yalda-2023-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1278,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dancing and the stage at SIGS Yalda Night 2023.",
+      "fa": "رقص و برنامهٔ روی صحنه در شب یلدای ۲۰۲۳ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2023",
+      "fa": "یلدای ۲۰۲۳"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2023-archive-clip-01-poster.webp",
+    "duration": 7.956522,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Dancing and the stage at SIGS Yalda Night 2023. Music and crowd sound from the event.",
+      "fa": "رقص و برنامهٔ روی صحنه در شب یلدای ۲۰۲۳ SIGS. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2023-archive-clip-02",
+    "src": "/media/yalda-2023-archive-clip-02.mp4",
+    "thumbnail": "/media/yalda-2023-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dancing and the stage at SIGS Yalda Night 2023.",
+      "fa": "رقص و برنامهٔ روی صحنه در شب یلدای ۲۰۲۳ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2023",
+      "fa": "یلدای ۲۰۲۳"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2023-archive-clip-02-poster.webp",
+    "duration": 10.533333,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Dancing and the stage at SIGS Yalda Night 2023. Music and crowd sound from the event.",
+      "fa": "رقص و برنامهٔ روی صحنه در شب یلدای ۲۰۲۳ SIGS. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2023-archive-clip-05",
+    "src": "/media/yalda-2023-archive-clip-05.mp4",
+    "thumbnail": "/media/yalda-2023-archive-clip-05-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dancing and the stage at SIGS Yalda Night 2023.",
+      "fa": "رقص و برنامهٔ روی صحنه در شب یلدای ۲۰۲۳ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2023",
+      "fa": "یلدای ۲۰۲۳"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2023-archive-clip-05-poster.webp",
+    "duration": 16.9,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Dancing and the stage at SIGS Yalda Night 2023. The original recording has no audio.",
+      "fa": "رقص و برنامهٔ روی صحنه در شب یلدای ۲۰۲۳ SIGS. نسخهٔ اصلی این فیلم صدا ندارد."
+    }
+  },
+  {
+    "id": "yalda-2023-archive-clip-06",
+    "src": "/media/yalda-2023-archive-clip-06.mp4",
+    "thumbnail": "/media/yalda-2023-archive-clip-06-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dancing and the stage at SIGS Yalda Night 2023.",
+      "fa": "رقص و برنامهٔ روی صحنه در شب یلدای ۲۰۲۳ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2023",
+      "fa": "یلدای ۲۰۲۳"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2023-archive-clip-06-poster.webp",
+    "duration": 19.992993,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Dancing and the stage at SIGS Yalda Night 2023. Music and crowd sound from the event.",
+      "fa": "رقص و برنامهٔ روی صحنه در شب یلدای ۲۰۲۳ SIGS. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "bonfire-2023-10-06-archive-photo-01",
+    "src": "/media/bonfire-2023-10-06-archive-photo-01.webp",
+    "thumbnail": "/media/bonfire-2023-10-06-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": "bonfire-2023-10-06",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Six friends behind a bright beach fire at night.",
+      "fa": "شش نفر از دوستان پشت آتش روشن ساحل در شب."
+    },
+    "caption": {
+      "en": "Beach bonfire, October 2023",
+      "fa": "آتش ساحلی، اکتبر ۲۰۲۳"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bonfire-2023-10-06-archive-clip-02",
+    "src": "/media/bonfire-2023-10-06-archive-clip-02.mp4",
+    "thumbnail": "/media/bonfire-2023-10-06-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": "bonfire-2023-10-06",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The beach bonfire and gathering on October 6,2023.",
+      "fa": "آتش و دورهمی ساحلی ۶ اکتبر ۲۰۲۳."
+    },
+    "caption": {
+      "en": "Beach bonfire, October 2023",
+      "fa": "آتش ساحلی، اکتبر ۲۰۲۳"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/bonfire-2023-10-06-archive-clip-02-poster.webp",
+    "duration": 23.358005,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The beach bonfire and gathering on October 6,2023. Background sound from the gathering.",
+      "fa": "آتش و دورهمی ساحلی ۶ اکتبر ۲۰۲۳. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "bonfire-2023-02-archive-photo-01",
+    "src": "/media/bonfire-2023-02-archive-photo-01.webp",
+    "thumbnail": "/media/bonfire-2023-02-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": "bonfire-2023-02-04",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A two-photo collage of a large group on the beach in daylight, with palm trees behind them.",
+      "fa": "کلاژی از دو عکس جمعی در ساحل در روشنایی روز، با درختان نخل در پس‌زمینه."
+    },
+    "caption": {
+      "en": "Beach bonfire, February 2023",
+      "fa": "آتش ساحلی، فوریهٔ ۲۰۲۳"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "game-night-2022-12-archive-photo-01",
+    "src": "/media/game-night-2022-12-archive-photo-01.webp",
+    "thumbnail": "/media/game-night-2022-12-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": "game-night-2022",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Players seated around a long table in a community room, with one person standing at the end.",
+      "fa": "بازیکنان نشسته دور یک میز بلند در سالن، با یک نفر ایستاده در انتهای میز."
+    },
+    "caption": {
+      "en": "Game night, December 2022",
+      "fa": "شب بازی، دسامبر ۲۰۲۲"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "ps752-memorial-2020-archive-photo-01",
+    "src": "/media/ps752-memorial-2020-archive-photo-01.webp",
+    "thumbnail": "/media/ps752-memorial-2020-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Candles, flowers and a memorial board for the victims of flight PS752, with candles arranged in heart shapes.",
+      "fa": "شمع‌ها، گل‌ها و تابلوی یادبود جان‌باختگان پرواز پی‌اس ۷۵۲؛ بخشی از شمع‌ها به شکل قلب چیده شده‌اند."
+    },
+    "caption": {
+      "en": "Remembrance for the victims of Flight PS752, 2020",
+      "fa": "یادبود جان‌باختگان پرواز پی‌اس۷۵۲، ۲۰۲۰"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2019-archive-clip-01",
+    "src": "/media/yalda-2019-archive-clip-01.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-01-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-02",
+    "src": "/media/yalda-2019-archive-clip-02.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-02-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-03",
+    "src": "/media/yalda-2019-archive-clip-03.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-03-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-03-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-04",
+    "src": "/media/yalda-2019-archive-clip-04.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-04-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-04-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-05",
+    "src": "/media/yalda-2019-archive-clip-05.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-05-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-05-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-06",
+    "src": "/media/yalda-2019-archive-clip-06.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-06-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-06-poster.webp",
+    "duration": 10.666016,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-07",
+    "src": "/media/yalda-2019-archive-clip-07.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-07-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-07-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-08",
+    "src": "/media/yalda-2019-archive-clip-08.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-08-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-08-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-09",
+    "src": "/media/yalda-2019-archive-clip-09.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-09-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-09-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-10",
+    "src": "/media/yalda-2019-archive-clip-10.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-10-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-10-poster.webp",
+    "duration": 8.5,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-11",
+    "src": "/media/yalda-2019-archive-clip-11.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-11-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-11-poster.webp",
+    "duration": 15.0,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-12",
+    "src": "/media/yalda-2019-archive-clip-12.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-12-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-12-poster.webp",
+    "duration": 15.0,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-13",
+    "src": "/media/yalda-2019-archive-clip-13.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-13-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-13-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Sandy performs at Yalda Night 2019, with the audience around the stage. Music and crowd sound from the event.",
+      "fa": "اجرای سندی در شب یلدای ۲۰۱۹ و جمع حاضر کنار صحنه. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2019-archive-clip-14",
+    "src": "/media/yalda-2019-archive-clip-14.mp4",
+    "thumbnail": "/media/yalda-2019-archive-clip-14-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "yalda-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "DJs at the booth as guests dance at Yalda Night 2019.",
+      "fa": "دی‌جی‌ها پشت میز اجرا و مهمانان در حال رقص در شب یلدای ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Yalda 2019 with Sandy",
+      "fa": "یلدای ۲۰۱۹ با سندی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2019-archive-clip-14-poster.webp",
+    "duration": 15.023991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "DJs at the booth as guests dance at Yalda Night 2019. Music and background sounds.",
+      "fa": "دی‌جی‌ها پشت میز اجرا و مهمانان در حال رقص در شب یلدای ۲۰۱۹. موسیقی و صدای محیط."
+    }
+  },
+  {
+    "id": "mehmooni-2019-archive-clip-01",
+    "src": "/media/mehmooni-2019-archive-clip-01.mp4",
+    "thumbnail": "/media/mehmooni-2019-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "mehmooni-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at Mehmooni 2019.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Mehmooni 2019",
+      "fa": "مهمونی ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/mehmooni-2019-archive-clip-01-poster.webp",
+    "duration": 10.733008,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at Mehmooni 2019. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۹. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "mehmooni-2019-archive-clip-02",
+    "src": "/media/mehmooni-2019-archive-clip-02.mp4",
+    "thumbnail": "/media/mehmooni-2019-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "mehmooni-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at Mehmooni 2019.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Mehmooni 2019",
+      "fa": "مهمونی ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/mehmooni-2019-archive-clip-02-poster.webp",
+    "duration": 9.933333,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at Mehmooni 2019. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۹. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "mehmooni-2019-archive-clip-03",
+    "src": "/media/mehmooni-2019-archive-clip-03.mp4",
+    "thumbnail": "/media/mehmooni-2019-archive-clip-03-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "mehmooni-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at Mehmooni 2019.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Mehmooni 2019",
+      "fa": "مهمونی ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/mehmooni-2019-archive-clip-03-poster.webp",
+    "duration": 14.033333,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at Mehmooni 2019. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۹. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "bonfire-2019-archive-clip-01",
+    "src": "/media/bonfire-2019-archive-clip-01.mp4",
+    "thumbnail": "/media/bonfire-2019-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "bonfire-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The beach fire and the 2019 bonfire gathering.",
+      "fa": "آتش ساحلی و دورهمی سال ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Beach bonfire 2019",
+      "fa": "آتش ساحلی ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/bonfire-2019-archive-clip-01-poster.webp",
+    "duration": 5.466667,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "The beach fire and the 2019 bonfire gathering. The original recording has no audio.",
+      "fa": "آتش ساحلی و دورهمی سال ۲۰۱۹. نسخهٔ اصلی این فیلم صدا ندارد."
+    }
+  },
+  {
+    "id": "bonfire-2019-archive-clip-02",
+    "src": "/media/bonfire-2019-archive-clip-02.mp4",
+    "thumbnail": "/media/bonfire-2019-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "bonfire-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The beach fire and the 2019 bonfire gathering.",
+      "fa": "آتش ساحلی و دورهمی سال ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Beach bonfire 2019",
+      "fa": "آتش ساحلی ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/bonfire-2019-archive-clip-02-poster.webp",
+    "duration": 10.078005,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The beach fire and the 2019 bonfire gathering. Background sound from the gathering.",
+      "fa": "آتش ساحلی و دورهمی سال ۲۰۱۹. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "welcome-2019-archive-clip-01",
+    "src": "/media/welcome-2019-archive-clip-01.mp4",
+    "thumbnail": "/media/welcome-2019-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "welcome-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The 2019 welcome barbecue outside the Verano Housing Office.",
+      "fa": "باربیکیوی خوشامدگویی ۲۰۱۹ در فضای بیرونی دفتر مسکن ورانو."
+    },
+    "caption": {
+      "en": "Welcome barbecue 2019",
+      "fa": "باربیکیوی خوشامدگویی ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/welcome-2019-archive-clip-01-poster.webp",
+    "duration": 10.4,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The 2019 welcome barbecue outside the Verano Housing Office. Background sound from the gathering.",
+      "fa": "باربیکیوی خوشامدگویی ۲۰۱۹ در فضای بیرونی دفتر مسکن ورانو. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "potluck-2019-archive-clip-01",
+    "src": "/media/potluck-2019-archive-clip-01.mp4",
+    "thumbnail": "/media/potluck-2019-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "potluck-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Food on the grill at the 2019 end-of-year potluck.",
+      "fa": "غذا روی گریل در دورهمی پایان سال تحصیلی ۲۰۱۹."
+    },
+    "caption": {
+      "en": "End-of-year potluck 2019",
+      "fa": "دورهمی پایان سال تحصیلی ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/potluck-2019-archive-clip-01-poster.webp",
+    "duration": 4.2,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Food on the grill at the 2019 end-of-year potluck. The original recording has no audio.",
+      "fa": "غذا روی گریل در دورهمی پایان سال تحصیلی ۲۰۱۹. نسخهٔ اصلی این فیلم صدا ندارد."
+    }
+  },
+  {
+    "id": "iftar-2019-archive-clip-02",
+    "src": "/media/iftar-2019-archive-clip-02.mp4",
+    "thumbnail": "/media/iftar-2019-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "iftar-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Volunteers prepare food for Iftar 2019.",
+      "fa": "آماده‌کردن غذا برای افطار ۲۰۱۹ با کمک داوطلب‌ها."
+    },
+    "caption": {
+      "en": "Iftar 2019",
+      "fa": "افطار ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/iftar-2019-archive-clip-02-poster.webp",
+    "duration": 14.366016,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "Volunteers prepare food for Iftar 2019. Background sound from the gathering.",
+      "fa": "آماده‌کردن غذا برای افطار ۲۰۱۹ با کمک داوطلب‌ها. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-photo-12",
+    "src": "/media/nowruz-2019-archive-photo-12.webp",
+    "thumbnail": "/media/nowruz-2019-archive-photo-12-small.webp",
+    "kind": "photo",
+    "width": 750,
+    "height": 1334,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Five performers dressed in black, four wearing red waist sashes, standing against an interior wall.",
+      "fa": "پنج اجراکننده با لباس مشکی کنار دیوار؛ چهار نفر شال قرمز به کمر بسته‌اند."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2019-archive-photo-13",
+    "src": "/media/nowruz-2019-archive-photo-13.webp",
+    "thumbnail": "/media/nowruz-2019-archive-photo-13-small.webp",
+    "kind": "photo",
+    "width": 750,
+    "height": 1334,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A haft-sin on a white cloth with flowers, sabzeh, candles, painted eggs and a mirror.",
+      "fa": "سفرهٔ هفت‌سین روی پارچهٔ سفید با گل، سبزه، شمع، تخم‌مرغ‌های رنگی و آینه."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2019-archive-clip-05",
+    "src": "/media/nowruz-2019-archive-clip-05.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-05-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-05-poster.webp",
+    "duration": 15.0,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-06",
+    "src": "/media/nowruz-2019-archive-clip-06.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-06-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-06-poster.webp",
+    "duration": 14.3,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-08",
+    "src": "/media/nowruz-2019-archive-clip-08.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-08-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-08-poster.webp",
+    "duration": 7.733008,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-09",
+    "src": "/media/nowruz-2019-archive-clip-09.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-09-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-09-poster.webp",
+    "duration": 13.6,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-10",
+    "src": "/media/nowruz-2019-archive-clip-10.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-10-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-10-poster.webp",
+    "duration": 15.0,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-11",
+    "src": "/media/nowruz-2019-archive-clip-11.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-11-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-11-poster.webp",
+    "duration": 15.0,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-12",
+    "src": "/media/nowruz-2019-archive-clip-12.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-12-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-12-poster.webp",
+    "duration": 11.666667,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-13",
+    "src": "/media/nowruz-2019-archive-clip-13.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-13-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-13-poster.webp",
+    "duration": 15.0,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-14",
+    "src": "/media/nowruz-2019-archive-clip-14.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-14-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-14-poster.webp",
+    "duration": 7.6,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2019-archive-clip-15",
+    "src": "/media/nowruz-2019-archive-clip-15.mp4",
+    "thumbnail": "/media/nowruz-2019-archive-clip-15-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2019 Nowruz celebration.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸."
+    },
+    "caption": {
+      "en": "Nowruz 2019",
+      "fa": "نوروز ۱۳۹۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2019-archive-clip-15-poster.webp",
+    "duration": 15.0,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2019 Nowruz celebration. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در جشن نوروز ۱۳۹۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "persian-breakfast-2019-archive-clip-01",
+    "src": "/media/persian-breakfast-2019-archive-clip-01.mp4",
+    "thumbnail": "/media/persian-breakfast-2019-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "persian-breakfast-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A breakfast counter with flatbread, cheese, tomatoes, cucumbers and bowls of stew.",
+      "fa": "پیشخوان صبحانه با نان، پنیر، گوجه، خیار و کاسه‌های خوراک."
+    },
+    "caption": {
+      "en": "Persian breakfast 2019",
+      "fa": "صبحانهٔ ایرانی ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/persian-breakfast-2019-archive-clip-01-poster.webp",
+    "duration": 15.0,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "A breakfast counter with flatbread, cheese, tomatoes, cucumbers and bowls of stew. The original recording has no audio.",
+      "fa": "پیشخوان صبحانه با نان، پنیر، گوجه، خیار و کاسه‌های خوراک. نسخهٔ اصلی این فیلم صدا ندارد."
+    }
+  },
+  {
+    "id": "persian-breakfast-2019-archive-photo-01",
+    "src": "/media/persian-breakfast-2019-archive-photo-01.webp",
+    "thumbnail": "/media/persian-breakfast-2019-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1013,
+    "height": 1800,
+    "eventId": "persian-breakfast-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A breakfast counter with bowls of stew, cheese, walnuts, sliced tomatoes and cucumbers.",
+      "fa": "پیشخوان صبحانه با کاسه‌های خوراک، پنیر، گردو، خیار و گوجهٔ خردشده."
+    },
+    "caption": {
+      "en": "Persian breakfast 2019",
+      "fa": "صبحانهٔ ایرانی ۲۰۱۹"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "ociacc-valentines-mixer-2019-archive-clip-01",
+    "src": "/media/ociacc-valentines-mixer-2019-archive-clip-01.mp4",
+    "thumbnail": "/media/ociacc-valentines-mixer-2019-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "ociacc-professional-mixer-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Lagom Band rehearses on stage before the 2019 Valentine’s mixer.",
+      "fa": "تمرین گروه لاگوم روی صحنه پیش از گردهمایی ولنتاین ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Joint Valentine’s Mixer 2019",
+      "fa": "گردهمایی مشترک ولنتاین، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/ociacc-valentines-mixer-2019-archive-clip-01-poster.webp",
+    "duration": 12.539002,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "Lagom Band rehearses on stage before the 2019 Valentine’s mixer. Background sounds from the gathering.",
+      "fa": "تمرین گروه لاگوم روی صحنه پیش از گردهمایی ولنتاین ۲۰۱۹. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "ociacc-valentines-mixer-2019-archive-clip-02",
+    "src": "/media/ociacc-valentines-mixer-2019-archive-clip-02.mp4",
+    "thumbnail": "/media/ociacc-valentines-mixer-2019-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "ociacc-professional-mixer-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A buffet of hot dishes at the 2019 Valentine’s mixer.",
+      "fa": "غذاهای گرم روی میز پذیرایی گردهمایی ولنتاین ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Joint Valentine’s Mixer 2019",
+      "fa": "گردهمایی مشترک ولنتاین، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/ociacc-valentines-mixer-2019-archive-clip-02-poster.webp",
+    "duration": 6.733991,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "A buffet of hot dishes at the 2019 Valentine’s mixer. Background sounds from the gathering.",
+      "fa": "غذاهای گرم روی میز پذیرایی گردهمایی ولنتاین ۲۰۱۹. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "yalda-2018-archive-clip-01",
+    "src": "/media/yalda-2018-archive-clip-01.mp4",
+    "thumbnail": "/media/yalda-2018-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1138,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2018 with Kamyar",
+      "fa": "یلدای ۲۰۱۸ با کامیار"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2018-archive-clip-01-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018. Music and crowd sound from the event.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2018-archive-clip-02",
+    "src": "/media/yalda-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/yalda-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2018 with Kamyar",
+      "fa": "یلدای ۲۰۱۸ با کامیار"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2018-archive-clip-02-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018. Music and crowd sound from the event.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2018-archive-clip-03",
+    "src": "/media/yalda-2018-archive-clip-03.mp4",
+    "thumbnail": "/media/yalda-2018-archive-clip-03-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2018 with Kamyar",
+      "fa": "یلدای ۲۰۱۸ با کامیار"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2018-archive-clip-03-poster.webp",
+    "duration": 5.387007,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018. Music and crowd sound from the event.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2018-archive-clip-04",
+    "src": "/media/yalda-2018-archive-clip-04.mp4",
+    "thumbnail": "/media/yalda-2018-archive-clip-04-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2018 with Kamyar",
+      "fa": "یلدای ۲۰۱۸ با کامیار"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2018-archive-clip-04-poster.webp",
+    "duration": 11.889002,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018. Music and crowd sound from the event.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2018-archive-clip-05",
+    "src": "/media/yalda-2018-archive-clip-05.mp4",
+    "thumbnail": "/media/yalda-2018-archive-clip-05-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS."
+    },
+    "caption": {
+      "en": "Yalda 2018 with Kamyar",
+      "fa": "یلدای ۲۰۱۸ با کامیار"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2018-archive-clip-05-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Kamyar’s performance and the audience at SIGS Yalda Night 2018. Music and crowd sound from the event.",
+      "fa": "اجرای کامیار و جمع حاضر در شب یلدای ۲۰۱۸ SIGS. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "yalda-2018-archive-clip-07",
+    "src": "/media/yalda-2018-archive-clip-07.mp4",
+    "thumbnail": "/media/yalda-2018-archive-clip-07-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Kamyar checks the sound on stage before Yalda Night 2018.",
+      "fa": "کامیار پیش از شروع شب یلدای ۲۰۱۸ صدا را روی صحنه امتحان می‌کند."
+    },
+    "caption": {
+      "en": "Yalda 2018 with Kamyar",
+      "fa": "یلدای ۲۰۱۸ با کامیار"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2018-archive-clip-07-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Kamyar checks the sound on stage before Yalda Night 2018. Music and background sounds.",
+      "fa": "کامیار پیش از شروع شب یلدای ۲۰۱۸ صدا را روی صحنه امتحان می‌کند. موسیقی و صدای محیط."
+    }
+  },
+  {
+    "id": "yalda-2018-archive-clip-08",
+    "src": "/media/yalda-2018-archive-clip-08.mp4",
+    "thumbnail": "/media/yalda-2018-archive-clip-08-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The band checks instruments and sound on the Yalda 2018 stage before guests arrive.",
+      "fa": "گروه موسیقی پیش از رسیدن مهمان‌ها سازها و صدای صحنهٔ یلدای ۲۰۱۸ را امتحان می‌کند."
+    },
+    "caption": {
+      "en": "Yalda 2018 with Kamyar",
+      "fa": "یلدای ۲۰۱۸ با کامیار"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/yalda-2018-archive-clip-08-poster.webp",
+    "duration": 6.431995,
+    "audioContent": "music",
+    "transcript": {
+      "en": "The band checks instruments and sound on the Yalda 2018 stage before guests arrive. Music and background sounds.",
+      "fa": "گروه موسیقی پیش از رسیدن مهمان‌ها سازها و صدای صحنهٔ یلدای ۲۰۱۸ را امتحان می‌کند. موسیقی و صدای محیط."
+    }
+  },
+  {
+    "id": "mehmooni-2018-archive-clip-01",
+    "src": "/media/mehmooni-2018-archive-clip-01.mp4",
+    "thumbnail": "/media/mehmooni-2018-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس."
+    },
+    "caption": {
+      "en": "Mehmooni 2018",
+      "fa": "مهمونی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/mehmooni-2018-archive-clip-01-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "mehmooni-2018-archive-clip-02",
+    "src": "/media/mehmooni-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/mehmooni-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس."
+    },
+    "caption": {
+      "en": "Mehmooni 2018",
+      "fa": "مهمونی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/mehmooni-2018-archive-clip-02-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "mehmooni-2018-archive-clip-03",
+    "src": "/media/mehmooni-2018-archive-clip-03.mp4",
+    "thumbnail": "/media/mehmooni-2018-archive-clip-03-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس."
+    },
+    "caption": {
+      "en": "Mehmooni 2018",
+      "fa": "مهمونی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/mehmooni-2018-archive-clip-03-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "mehmooni-2018-archive-clip-04",
+    "src": "/media/mehmooni-2018-archive-clip-04.mp4",
+    "thumbnail": "/media/mehmooni-2018-archive-clip-04-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس."
+    },
+    "caption": {
+      "en": "Mehmooni 2018",
+      "fa": "مهمونی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/mehmooni-2018-archive-clip-04-poster.webp",
+    "duration": 14.815011,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "mehmooni-2018-archive-clip-05",
+    "src": "/media/mehmooni-2018-archive-clip-05.mp4",
+    "thumbnail": "/media/mehmooni-2018-archive-clip-05-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس."
+    },
+    "caption": {
+      "en": "Mehmooni 2018",
+      "fa": "مهمونی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/mehmooni-2018-archive-clip-05-poster.webp",
+    "duration": 13.653991,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at Mehmooni 2018 at Fu’s Palace. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در مهمونی ۲۰۱۸ در فوز پالاس. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "halloween-2018-archive-clip-04",
+    "src": "/media/halloween-2018-archive-clip-04.mp4",
+    "thumbnail": "/media/halloween-2018-archive-clip-04-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1138,
+    "eventId": "halloween-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین."
+    },
+    "caption": {
+      "en": "Halloween 2018",
+      "fa": "هالووین ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/halloween-2018-archive-clip-04-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine. Music and crowd sound from the event.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "halloween-2018-archive-clip-05",
+    "src": "/media/halloween-2018-archive-clip-05.mp4",
+    "thumbnail": "/media/halloween-2018-archive-clip-05-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "halloween-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین."
+    },
+    "caption": {
+      "en": "Halloween 2018",
+      "fa": "هالووین ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/halloween-2018-archive-clip-05-poster.webp",
+    "duration": 8.962993,
+    "audioContent": "music",
+    "transcript": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine. Music and crowd sound from the event.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "halloween-2018-archive-clip-07",
+    "src": "/media/halloween-2018-archive-clip-07.mp4",
+    "thumbnail": "/media/halloween-2018-archive-clip-07-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "halloween-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین."
+    },
+    "caption": {
+      "en": "Halloween 2018",
+      "fa": "هالووین ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/halloween-2018-archive-clip-07-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "The dance floor and DJs at Halloween 2018 at Hotel Irvine. Music and crowd sound from the event.",
+      "fa": "سالن رقص و دی‌جی‌ها در هالووین ۲۰۱۸ در هتل ارواین. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "bonfire-2018-10-20-archive-clip-01",
+    "src": "/media/bonfire-2018-10-20-archive-clip-01.mp4",
+    "thumbnail": "/media/bonfire-2018-10-20-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1138,
+    "eventId": "bonfire-2018-10-20",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The evening around the beach fire at SIGS’s October 2018 gathering.",
+      "fa": "دورهمی کنار آتش در برنامهٔ ساحلی SIGS در اکتبر ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Beach bonfire 2018",
+      "fa": "آتش ساحلی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/bonfire-2018-10-20-archive-clip-01-poster.webp",
+    "duration": 7.895011,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The evening around the beach fire at SIGS’s October 2018 gathering. Background sound from the gathering.",
+      "fa": "دورهمی کنار آتش در برنامهٔ ساحلی SIGS در اکتبر ۲۰۱۸. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "bonfire-2018-10-20-archive-clip-02",
+    "src": "/media/bonfire-2018-10-20-archive-clip-02.mp4",
+    "thumbnail": "/media/bonfire-2018-10-20-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "bonfire-2018-10-20",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The evening around the beach fire at SIGS’s October 2018 gathering.",
+      "fa": "دورهمی کنار آتش در برنامهٔ ساحلی SIGS در اکتبر ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Beach bonfire 2018",
+      "fa": "آتش ساحلی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/bonfire-2018-10-20-archive-clip-02-poster.webp",
+    "duration": 15.07,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The evening around the beach fire at SIGS’s October 2018 gathering. Background sound from the gathering.",
+      "fa": "دورهمی کنار آتش در برنامهٔ ساحلی SIGS در اکتبر ۲۰۱۸. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "bonfire-2018-10-20-archive-clip-03",
+    "src": "/media/bonfire-2018-10-20-archive-clip-03.mp4",
+    "thumbnail": "/media/bonfire-2018-10-20-archive-clip-03-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "bonfire-2018-10-20",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The evening around the beach fire at SIGS’s October 2018 gathering.",
+      "fa": "دورهمی کنار آتش در برنامهٔ ساحلی SIGS در اکتبر ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Beach bonfire 2018",
+      "fa": "آتش ساحلی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/bonfire-2018-10-20-archive-clip-03-poster.webp",
+    "duration": 13.722993,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The evening around the beach fire at SIGS’s October 2018 gathering. Background sound from the gathering.",
+      "fa": "دورهمی کنار آتش در برنامهٔ ساحلی SIGS در اکتبر ۲۰۱۸. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "taco-tuesday-2018-archive-clip-02",
+    "src": "/media/taco-tuesday-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/taco-tuesday-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "taco-tuesday-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at SIGS Taco Tuesday in 2018.",
+      "fa": "موسیقی و رقص در دورهمی سه‌شنبهٔ تاکوی SIGS در سال ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Taco Tuesday 2018",
+      "fa": "سه‌شنبهٔ تاکو، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/taco-tuesday-2018-archive-clip-02-poster.webp",
+    "duration": 12.098005,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at SIGS Taco Tuesday in 2018. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در دورهمی سه‌شنبهٔ تاکوی SIGS در سال ۲۰۱۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "taco-tuesday-2018-archive-clip-03",
+    "src": "/media/taco-tuesday-2018-archive-clip-03.mp4",
+    "thumbnail": "/media/taco-tuesday-2018-archive-clip-03-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "taco-tuesday-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at SIGS Taco Tuesday in 2018.",
+      "fa": "موسیقی و رقص در دورهمی سه‌شنبهٔ تاکوی SIGS در سال ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Taco Tuesday 2018",
+      "fa": "سه‌شنبهٔ تاکو، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/taco-tuesday-2018-archive-clip-03-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at SIGS Taco Tuesday in 2018. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در دورهمی سه‌شنبهٔ تاکوی SIGS در سال ۲۰۱۸. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "beach-volleyball-2018-archive-photo-01",
+    "src": "/media/beach-volleyball-2018-archive-photo-01.webp",
+    "thumbnail": "/media/beach-volleyball-2018-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 1794,
+    "eventId": "beach-volleyball-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends leaning together in a close circle beneath the night sky.",
+      "fa": "دوستان در حلقه‌ای نزدیک به هم زیر آسمان شب."
+    },
+    "caption": {
+      "en": "Beach volleyball 2018",
+      "fa": "والیبال ساحلی ۲۰۱۸"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-volleyball-2018-archive-photo-02",
+    "src": "/media/beach-volleyball-2018-archive-photo-02.webp",
+    "thumbnail": "/media/beach-volleyball-2018-archive-photo-02-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": "beach-volleyball-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends on the sand at Huntington Beach, with a volleyball held on the left.",
+      "fa": "دوستان روی شن‌های هانتینگتون بیچ؛ توپ والیبال در سمت چپ تصویر دیده می‌شود."
+    },
+    "caption": {
+      "en": "Beach volleyball 2018",
+      "fa": "والیبال ساحلی ۲۰۱۸"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-volleyball-2018-archive-clip-02",
+    "src": "/media/beach-volleyball-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/beach-volleyball-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "beach-volleyball-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dodgeball on the sand at the 2018 summer beach gathering.",
+      "fa": "بازی داج‌بال روی شن‌ها در دورهمی ساحلی تابستان ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Beach volleyball 2018",
+      "fa": "والیبال ساحلی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/beach-volleyball-2018-archive-clip-02-poster.webp",
+    "duration": 5.7,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Dodgeball on the sand at the 2018 summer beach gathering. The original recording has no audio.",
+      "fa": "بازی داج‌بال روی شن‌ها در دورهمی ساحلی تابستان ۲۰۱۸. نسخهٔ اصلی این فیلم صدا ندارد."
+    }
+  },
+  {
+    "id": "world-cup-iran-portugal-2018-archive-clip-01",
+    "src": "/media/world-cup-iran-portugal-2018-archive-clip-01.mp4",
+    "thumbnail": "/media/world-cup-iran-portugal-2018-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-portugal-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Students watch Iran’s 2018 match against Portugal together on the room’s television.",
+      "fa": "دانشجوها بازی ایران و پرتغال در سال ۲۰۱۸ را با هم تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Iran vs. Portugal watch party, 2018",
+      "fa": "تماشای بازی ایران و پرتغال، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/world-cup-iran-portugal-2018-archive-clip-01-poster.webp",
+    "duration": 15.07,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "Students watch Iran’s 2018 match against Portugal together on the room’s television. Background sound from the gathering.",
+      "fa": "دانشجوها بازی ایران و پرتغال در سال ۲۰۱۸ را با هم تماشا می‌کنند. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "world-cup-iran-portugal-2018-archive-clip-02",
+    "src": "/media/world-cup-iran-portugal-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/world-cup-iran-portugal-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-portugal-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Students watch Iran’s 2018 match against Portugal together on the room’s television.",
+      "fa": "دانشجوها بازی ایران و پرتغال در سال ۲۰۱۸ را با هم تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Iran vs. Portugal watch party, 2018",
+      "fa": "تماشای بازی ایران و پرتغال، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/world-cup-iran-portugal-2018-archive-clip-02-poster.webp",
+    "duration": 15.07,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "Students watch Iran’s 2018 match against Portugal together on the room’s television. Background sound from the gathering.",
+      "fa": "دانشجوها بازی ایران و پرتغال در سال ۲۰۱۸ را با هم تماشا می‌کنند. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "world-cup-iran-portugal-2018-archive-clip-03",
+    "src": "/media/world-cup-iran-portugal-2018-archive-clip-03.mp4",
+    "thumbnail": "/media/world-cup-iran-portugal-2018-archive-clip-03-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-portugal-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Students watch Iran’s 2018 match against Portugal together on the room’s television.",
+      "fa": "دانشجوها بازی ایران و پرتغال در سال ۲۰۱۸ را با هم تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Iran vs. Portugal watch party, 2018",
+      "fa": "تماشای بازی ایران و پرتغال، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/world-cup-iran-portugal-2018-archive-clip-03-poster.webp",
+    "duration": 15.07,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "Students watch Iran’s 2018 match against Portugal together on the room’s television. Background sound from the gathering.",
+      "fa": "دانشجوها بازی ایران و پرتغال در سال ۲۰۱۸ را با هم تماشا می‌کنند. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "world-cup-iran-morocco-2018-archive-clip-02",
+    "src": "/media/world-cup-iran-morocco-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/world-cup-iran-morocco-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-morocco-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The room celebrates during the 2018 Iran vs. Morocco watch party.",
+      "fa": "شادی جمع در دورهمی تماشای بازی ایران و مراکش در سال ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Iran vs. Morocco watch party, 2018",
+      "fa": "تماشای بازی ایران و مراکش، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/world-cup-iran-morocco-2018-archive-clip-02-poster.webp",
+    "duration": 15.07,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The room celebrates during the 2018 Iran vs. Morocco watch party. Background sound from the gathering.",
+      "fa": "شادی جمع در دورهمی تماشای بازی ایران و مراکش در سال ۲۰۱۸. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "world-cup-iran-morocco-2018-archive-photo-02",
+    "src": "/media/world-cup-iran-morocco-2018-archive-photo-02.webp",
+    "thumbnail": "/media/world-cup-iran-morocco-2018-archive-photo-02-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": "world-cup-iran-morocco-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Football fans sitting on chairs and the floor in a packed room, with a projector on a table in front.",
+      "fa": "تماشاگران فوتبال روی صندلی‌ها و کف سالن شلوغ نشسته‌اند؛ پروژکتور روی میز جلوی جمع قرار دارد."
+    },
+    "caption": {
+      "en": "Iran vs. Morocco watch party, 2018",
+      "fa": "تماشای بازی ایران و مراکش، ۲۰۱۸"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "world-cup-iran-morocco-2018-archive-clip-04",
+    "src": "/media/world-cup-iran-morocco-2018-archive-clip-04.mp4",
+    "thumbnail": "/media/world-cup-iran-morocco-2018-archive-clip-04-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-morocco-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Fans seated on chairs and the floor before the Iran vs. Morocco match in 2018.",
+      "fa": "تماشاگران پیش از شروع بازی ایران و مراکش در سال ۲۰۱۸ روی صندلی‌ها و کف سالن نشسته‌اند."
+    },
+    "caption": {
+      "en": "Iran vs. Morocco watch party, 2018",
+      "fa": "تماشای بازی ایران و مراکش، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/world-cup-iran-morocco-2018-archive-clip-04-poster.webp",
+    "duration": 5.7,
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Fans seated on chairs and the floor before the Iran vs. Morocco match in 2018. The original recording has no audio.",
+      "fa": "تماشاگران پیش از شروع بازی ایران و مراکش در سال ۲۰۱۸ روی صندلی‌ها و کف سالن نشسته‌اند. نسخهٔ اصلی این فیلم صدا ندارد."
+    }
+  },
+  {
+    "id": "iftar-2018-archive-clip-01",
+    "src": "/media/iftar-2018-archive-clip-01.mp4",
+    "thumbnail": "/media/iftar-2018-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "iftar-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Preparations for Iftar 2018, with food laid out for the evening gathering.",
+      "fa": "آماده‌سازی افطار ۲۰۱۸ و چیدن غذا برای دورهمی شب."
+    },
+    "caption": {
+      "en": "Iftar 2018",
+      "fa": "افطار ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/iftar-2018-archive-clip-01-poster.webp",
+    "duration": 11.702993,
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "Preparations for Iftar 2018, with food laid out for the evening gathering. Background sound from the gathering.",
+      "fa": "آماده‌سازی افطار ۲۰۱۸ و چیدن غذا برای دورهمی شب. صدای محیط دورهمی."
+    }
+  },
+  {
+    "id": "iftar-2018-archive-photo-01",
+    "src": "/media/iftar-2018-archive-photo-01.webp",
+    "thumbnail": "/media/iftar-2018-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 1794,
+    "eventId": "iftar-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Iftar tables with red and white checked cloths, plates of food and blue chairs.",
+      "fa": "میزهای افطار با رومیزی‌های چهارخانهٔ قرمز و سفید، بشقاب‌های غذا و صندلی‌های آبی."
+    },
+    "caption": {
+      "en": "Iftar 2018",
+      "fa": "افطار ۲۰۱۸"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "game-hookah-night-2018-archive-clip-02",
+    "src": "/media/game-hookah-night-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/game-hookah-night-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1062,
+    "eventId": "game-hookah-night-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل."
+    },
+    "caption": {
+      "en": "Game and Hookah Night 2018",
+      "fa": "شب بازی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/game-hookah-night-2018-archive-clip-02-poster.webp",
+    "duration": 11.966667,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "game-hookah-night-2018-archive-clip-03",
+    "src": "/media/game-hookah-night-2018-archive-clip-03.mp4",
+    "thumbnail": "/media/game-hookah-night-2018-archive-clip-03-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1062,
+    "eventId": "game-hookah-night-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل."
+    },
+    "caption": {
+      "en": "Game and Hookah Night 2018",
+      "fa": "شب بازی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/game-hookah-night-2018-archive-clip-03-poster.webp",
+    "duration": 14.721995,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "game-hookah-night-2018-archive-clip-04",
+    "src": "/media/game-hookah-night-2018-archive-clip-04.mp4",
+    "thumbnail": "/media/game-hookah-night-2018-archive-clip-04-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1062,
+    "eventId": "game-hookah-night-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل."
+    },
+    "caption": {
+      "en": "Game and Hookah Night 2018",
+      "fa": "شب بازی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/game-hookah-night-2018-archive-clip-04-poster.webp",
+    "duration": 14.768005,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "game-hookah-night-2018-archive-photo-01",
+    "src": "/media/game-hookah-night-2018-archive-photo-01.webp",
+    "thumbnail": "/media/game-hookah-night-2018-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 1794,
+    "eventId": "game-hookah-night-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends around tables on an outdoor terrace at night, beneath strings of lights.",
+      "fa": "دوستان دور میزهای تراس در شب، زیر ریسه‌های چراغ."
+    },
+    "caption": {
+      "en": "Game and Hookah Night 2018",
+      "fa": "شب بازی ۲۰۱۸"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "game-hookah-night-2018-archive-clip-05",
+    "src": "/media/game-hookah-night-2018-archive-clip-05.mp4",
+    "thumbnail": "/media/game-hookah-night-2018-archive-clip-05-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1062,
+    "eventId": "game-hookah-night-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل."
+    },
+    "caption": {
+      "en": "Game and Hookah Night 2018",
+      "fa": "شب بازی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/game-hookah-night-2018-archive-clip-05-poster.webp",
+    "duration": 6.222993,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and dancing at the 2018 Game and Hookah Night at Ivy Lounge and Grill. Music and crowd sound from the event.",
+      "fa": "موسیقی و رقص در شب بازی ۲۰۱۸ در آیوی لانج اند گریل. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2018-archive-clip-01",
+    "src": "/media/nowruz-2018-archive-clip-01.mp4",
+    "thumbnail": "/media/nowruz-2018-archive-clip-01-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 796,
+    "eventId": "nowruz-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Nowruz 2018 in the ballroom, with students at tables and music on stage.",
+      "fa": "جشن نوروز ۱۳۹۷ در سالن، با جمع دانشجوها و اجرای موسیقی."
+    },
+    "caption": {
+      "en": "Nowruz 2018",
+      "fa": "نوروز ۱۳۹۷"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2018-archive-clip-01-poster.webp",
+    "duration": 14.768005,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Nowruz 2018 in the ballroom, with students at tables and music on stage. Music and crowd sound from the event.",
+      "fa": "جشن نوروز ۱۳۹۷ در سالن، با جمع دانشجوها و اجرای موسیقی. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2018-archive-clip-02",
+    "src": "/media/nowruz-2018-archive-clip-02.mp4",
+    "thumbnail": "/media/nowruz-2018-archive-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "nowruz-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Nowruz 2018 in the ballroom, with students at tables and music on stage.",
+      "fa": "جشن نوروز ۱۳۹۷ در سالن، با جمع دانشجوها و اجرای موسیقی."
+    },
+    "caption": {
+      "en": "Nowruz 2018",
+      "fa": "نوروز ۱۳۹۷"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "videoPoster": "/media/nowruz-2018-archive-clip-02-poster.webp",
+    "duration": 15.07,
+    "audioContent": "music",
+    "transcript": {
+      "en": "Nowruz 2018 in the ballroom, with students at tables and music on stage. Music and crowd sound from the event.",
+      "fa": "جشن نوروز ۱۳۹۷ در سالن، با جمع دانشجوها و اجرای موسیقی. موسیقی و صدای جمع حاضر در برنامه."
+    }
+  },
+  {
+    "id": "nowruz-2018-archive-photo-01",
+    "src": "/media/nowruz-2018-archive-photo-01.webp",
+    "thumbnail": "/media/nowruz-2018-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": "nowruz-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A haft-sin with flowers, sabzeh, a silver-framed mirror and candles beneath strings of lights.",
+      "fa": "سفرهٔ هفت‌سین با گل، سبزه، آینه با قاب نقره‌ای و شمع، زیر ریسه‌های چراغ."
+    },
+    "caption": {
+      "en": "Nowruz 2018",
+      "fa": "نوروز ۱۳۹۷"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2017-archive-photo-01",
+    "src": "/media/yalda-2017-archive-photo-01.webp",
+    "thumbnail": "/media/yalda-2017-archive-photo-01-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 1794,
+    "eventId": "yalda-2017",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A red Yalda table with fruit, nuts, candles and an open book, beneath hanging red and gold ornaments.",
+      "fa": "سفرهٔ قرمز یلدا با میوه، آجیل، شمع و کتاب باز، زیر آویزهای قرمز و طلایی."
+    },
+    "caption": {
+      "en": "Yalda 2017",
+      "fa": "یلدای ۱۳۹۶"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mafia-night-2021-archive-poster",
+    "src": "/media/mafia-night-2021-archive-poster.webp",
+    "thumbnail": "/media/mafia-night-2021-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1349,
+    "height": 1687,
+    "eventId": "mafia-night-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Mafia Night, April 20, 2021.",
+      "fa": "پوستر دعوت به شب مافیا، ۲۰ آوریل ۲۰۲۱."
+    },
+    "caption": {
+      "en": "Mafia Night, April 20, 2021 invitation",
+      "fa": "شب مافیا، ۲۰ آوریل ۲۰۲۱؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mental-health-mindfulness-2020-archive-poster",
+    "src": "/media/mental-health-mindfulness-2020-archive-poster.webp",
+    "thumbnail": "/media/mental-health-mindfulness-2020-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1349,
+    "height": 1687,
+    "eventId": "mental-health-mindfulness-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Mental health and mindfulness, September 27, 2020.",
+      "fa": "پوستر دعوت به سلامت روان و ذهن‌آگاهی، ۲۷ سپتامبر ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Mental health and mindfulness, September 27, 2020 invitation",
+      "fa": "سلامت روان و ذهن‌آگاهی، ۲۷ سپتامبر ۲۰۲۰؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "dorehami-game-night-2020-archive-poster",
+    "src": "/media/dorehami-game-night-2020-archive-poster.webp",
+    "thumbnail": "/media/dorehami-game-night-2020-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "dorehami-game-night-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Dorehami Game Night, February 16, 2020.",
+      "fa": "پوستر دعوت به شب بازی دورهمی، ۱۶ فوریهٔ ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Dorehami Game Night, February 16, 2020 invitation",
+      "fa": "شب بازی دورهمی، ۱۶ فوریهٔ ۲۰۲۰؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "maryam-mirzakhani-memorial-2017-archive-poster",
+    "src": "/media/maryam-mirzakhani-memorial-2017-archive-poster.webp",
+    "thumbnail": "/media/maryam-mirzakhani-memorial-2017-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1288,
+    "eventId": "maryam-mirzakhani-memorial-2017",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Maryam Mirzakhani memorial, July 23, 2017.",
+      "fa": "پوستر دعوت به یادبود مریم میرزاخانی، ۲۳ ژوئیهٔ ۲۰۱۷."
+    },
+    "caption": {
+      "en": "Maryam Mirzakhani memorial, July 23, 2017 invitation",
+      "fa": "یادبود مریم میرزاخانی، ۲۳ ژوئیهٔ ۲۰۱۷؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "world-cup-iran-spain-2018-archive-poster",
+    "src": "/media/world-cup-iran-spain-2018-archive-poster.webp",
+    "thumbnail": "/media/world-cup-iran-spain-2018-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1080,
+    "eventId": "world-cup-iran-spain-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Iran vs. Spain watch party, June 20, 2018.",
+      "fa": "پوستر دعوت به دورهمی تماشای بازی ایران و اسپانیا، ۲۰ ژوئن ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Iran vs. Spain watch party, June 20, 2018 invitation",
+      "fa": "دورهمی تماشای بازی ایران و اسپانیا، ۲۰ ژوئن ۲۰۱۸؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "world-cup-iran-portugal-2018-archive-poster",
+    "src": "/media/world-cup-iran-portugal-2018-archive-poster.webp",
+    "thumbnail": "/media/world-cup-iran-portugal-2018-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1350,
+    "eventId": "world-cup-iran-portugal-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Iran vs. Portugal watch party, June 25, 2018.",
+      "fa": "پوستر دعوت به دورهمی تماشای بازی ایران و پرتغال، ۲۵ ژوئن ۲۰۱۸."
+    },
+    "caption": {
+      "en": "Iran vs. Portugal watch party, June 25, 2018 invitation",
+      "fa": "دورهمی تماشای بازی ایران و پرتغال، ۲۵ ژوئن ۲۰۱۸؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "spring-bonfire-2021-cancelled-notice",
+    "src": "/media/spring-bonfire-2021-cancelled-notice.webp",
+    "thumbnail": "/media/spring-bonfire-2021-cancelled-notice-small.webp",
+    "kind": "poster",
+    "width": 640,
+    "height": 1136,
+    "eventId": "spring-bonfire-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Cancellation notice for Spring Bonfire, May 8, 2021.",
+      "fa": "اطلاعیهٔ لغو آتش ساحلی بهار، ۸ مهٔ ۲۰۲۱."
+    },
+    "caption": {
+      "en": "Cancelled: Spring Bonfire, May 8, 2021 cancellation notice",
+      "fa": "لغوشده: آتش ساحلی بهار، ۸ مهٔ ۲۰۲۱؛ اطلاعیهٔ لغو برنامه"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "secrets-of-the-surface-2020-archive-poster",
+    "src": "/media/secrets-of-the-surface-2020-archive-poster.webp",
+    "thumbnail": "/media/secrets-of-the-surface-2020-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1280,
+    "height": 721,
+    "eventId": "secrets-of-the-surface-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Secrets of the Surface online screening, May 16, 2020.",
+      "fa": "پوستر دعوت به نمایش آنلاین «اسرار سطح»، ۱۶ مهٔ ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Secrets of the Surface online screening, May 16, 2020 invitation",
+      "fa": "نمایش آنلاین «اسرار سطح»، ۱۶ مهٔ ۲۰۲۰؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "happy-hour-2020-07-28-archive-poster",
+    "src": "/media/happy-hour-2020-07-28-archive-poster.webp",
+    "thumbnail": "/media/happy-hour-2020-07-28-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1440,
+    "height": 1799,
+    "eventId": "happy-hour-2020-07-28",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Virtual Happy Hour, July 28, 2020.",
+      "fa": "پوستر دعوت به دورهمی مجازی، ۲۸ ژوئیهٔ ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Virtual Happy Hour, July 28, 2020 invitation",
+      "fa": "دورهمی مجازی، ۲۸ ژوئیهٔ ۲۰۲۰؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "happy-hour-2020-08-07-archive-poster",
+    "src": "/media/happy-hour-2020-08-07-archive-poster.webp",
+    "thumbnail": "/media/happy-hour-2020-08-07-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1012,
+    "height": 1800,
+    "eventId": "happy-hour-2020-08-07",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for E-Happy Hour, August 7, 2020.",
+      "fa": "پوستر دعوت به دورهمی مجازی، ۷ اوت ۲۰۲۰."
+    },
+    "caption": {
+      "en": "E-Happy Hour, August 7, 2020 invitation",
+      "fa": "دورهمی مجازی، ۷ اوت ۲۰۲۰؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nutrition-wellness-2020-archive-poster",
+    "src": "/media/nutrition-wellness-2020-archive-poster.webp",
+    "thumbnail": "/media/nutrition-wellness-2020-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1349,
+    "height": 1687,
+    "eventId": "nutrition-wellness-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Eating Well, Feeling Well, September 8, 2020.",
+      "fa": "پوستر دعوت به نشست تغذیه و سلامت، ۸ سپتامبر ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Eating Well, Feeling Well, September 8, 2020 invitation",
+      "fa": "نشست تغذیه و سلامت، ۸ سپتامبر ۲۰۲۰؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "stress-management-2021-archive-poster",
+    "src": "/media/stress-management-2021-archive-poster.webp",
+    "thumbnail": "/media/stress-management-2021-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1440,
+    "height": 1655,
+    "eventId": "stress-management-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Stress management talk, March 7, 2021.",
+      "fa": "پوستر دعوت به نشست مدیریت استرس، ۷ مارس ۲۰۲۱."
+    },
+    "caption": {
+      "en": "Stress management talk, March 7, 2021 invitation",
+      "fa": "نشست مدیریت استرس، ۷ مارس ۲۰۲۱؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "dorehami-movie-night-2020-archive-poster",
+    "src": "/media/dorehami-movie-night-2020-archive-poster.webp",
+    "thumbnail": "/media/dorehami-movie-night-2020-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1440,
+    "height": 1731,
+    "eventId": "dorehami-movie-night-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Dorehami Movie Night, February 29, 2020.",
+      "fa": "پوستر دعوت به شب فیلم دورهمی، ۲۹ فوریهٔ ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Dorehami Movie Night, February 29, 2020 invitation",
+      "fa": "شب فیلم دورهمی، ۲۹ فوریهٔ ۲۰۲۰؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "welcome-2019-archive-poster",
+    "src": "/media/welcome-2019-archive-poster.webp",
+    "thumbnail": "/media/welcome-2019-archive-poster-small.webp",
+    "kind": "poster",
+    "width": 1349,
+    "height": 1687,
+    "eventId": "welcome-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Invitation poster for Welcome Barbecue, September 22, 2019.",
+      "fa": "پوستر دعوت به باربیکیوی خوشامدگویی، ۲۲ سپتامبر ۲۰۱۹."
+    },
+    "caption": {
+      "en": "Welcome Barbecue, September 22, 2019 invitation",
+      "fa": "باربیکیوی خوشامدگویی، ۲۲ سپتامبر ۲۰۱۹؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "yalda-2023-archive-clip-03",
+    "src": "/media/yalda-2023-archive-clip-03.mp4",
+    "thumbnail": "/media/yalda-2023-archive-clip-03-small.webp",
+    "videoPoster": "/media/yalda-2023-archive-clip-03-poster.webp",
+    "kind": "video",
+    "width": 1280,
+    "height": 720,
+    "duration": 12.283991,
+    "eventId": "yalda-2023",
+    "audioContent": "music",
+    "alt": {
+      "en": "The DJ booth at SIGS Yalda Night 2023.",
+      "fa": "دی‌جی در شب یلدای ۲۰۲۳ SIGS."
+    },
+    "caption": {
+      "en": "Yalda Night 2023",
+      "fa": "شب یلدای ۲۰۲۳"
+    },
+    "transcript": {
+      "en": "The DJ booth at SIGS Yalda Night 2023. Music from the event.",
+      "fa": "دی‌جی در شب یلدای ۲۰۲۳ SIGS. موسیقی برنامه."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "focalPoint": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "yalda-2023-archive-clip-04",
+    "src": "/media/yalda-2023-archive-clip-04.mp4",
+    "thumbnail": "/media/yalda-2023-archive-clip-04-small.webp",
+    "videoPoster": "/media/yalda-2023-archive-clip-04-poster.webp",
+    "kind": "video",
+    "width": 1280,
+    "height": 720,
+    "duration": 31.091995,
+    "eventId": "yalda-2023",
+    "audioContent": "music",
+    "alt": {
+      "en": "A dance performance on the Yalda 2023 stage, beside illuminated YALDA letters.",
+      "fa": "اجرای رقص روی صحنهٔ یلدای ۲۰۲۳، کنار حروف نورانی YALDA."
+    },
+    "caption": {
+      "en": "Yalda Night 2023",
+      "fa": "شب یلدای ۲۰۲۳"
+    },
+    "transcript": {
+      "en": "A dance performance on the Yalda 2023 stage, beside illuminated YALDA letters. Music from the event.",
+      "fa": "اجرای رقص روی صحنهٔ یلدای ۲۰۲۳، کنار حروف نورانی YALDA. موسیقی برنامه."
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "focalPoint": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "solidarity-2022-archive-clip-01",
+    "src": "/media/solidarity-2022-archive-clip-01.mp4",
+    "thumbnail": "/media/solidarity-2022-archive-clip-01-small.webp",
+    "videoPoster": "/media/solidarity-2022-archive-clip-01-poster.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 406,
+    "duration": 26.033008,
+    "eventId": "solidarity-2022-09-27",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An overhead video of a crowd filling the courtyard and holding signs at night.",
+      "fa": "نمایی از بالا از جمعیتی که شب در حیاط گرد آمده‌اند و پلاکارد در دست دارند."
+    },
+    "caption": {
+      "en": "Solidarity gathering, September 2022",
+      "fa": "گردهمایی همبستگی، سپتامبر ۲۰۲۲"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "audioContent": "music",
+    "transcript": {
+      "en": "The camera looks down over the crowd gathered in the courtyard at night. People hold signs as the view moves across the gathering. A recorded song accompanies the footage.",
+      "fa": "دوربین از بالا جمعیت حاضر در حیاط را در شب نشان می‌دهد و در طول جمع حرکت می‌کند. چند نفر پلاکارد در دست دارند. ترانه‌ای ضبط‌شده همراه این تصاویر پخش می‌شود."
+    }
+  },
+  {
+    "id": "iranian-american-reception-2019-archive-clip-01",
+    "src": "/media/iranian-american-reception-2019-archive-clip-01.mp4",
+    "thumbnail": "/media/iranian-american-reception-2019-archive-clip-01-small.webp",
+    "videoPoster": "/media/iranian-american-reception-2019-archive-clip-01-poster.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "duration": 8.127007,
+    "eventId": "iranian-american-reception-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests listen at the Newkirk Alumni Center beside a UCI sign and a green plant wall.",
+      "fa": "مهمان‌ها در مرکز دانش‌آموختگان نیوکرک، کنار نشان UCI و دیوار سبز گیاهان، به سخنرانی گوش می‌دهند."
+    },
+    "caption": {
+      "en": "UCI Iranian American Networking Reception, 2019",
+      "fa": "گردهمایی شبکه‌سازی ایرانیان آمریکا در UCI، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "audioContent": "speech",
+    "captions": {
+      "en": "/media/captions/iranian-american-reception-2019-archive-clip-01-en.vtt",
+      "fa": "/media/captions/iranian-american-reception-2019-archive-clip-01-fa.vtt"
+    },
+    "transcript": {
+      "en": "The clip starts during a sentence; its opening word is unclear. An off-camera speaker says: “[Clip begins mid-sentence; unclear word] is important and really strengthening the community. So for that to happen, we need support.”",
+      "fa": "فیلم از میان یک جمله شروع می‌شود و واژهٔ آغازین آن روشن نیست. سخنرانی که در تصویر دیده نمی‌شود می‌گوید: «[آغاز از میان جمله؛ واژهٔ اول نامشخص] مهم است و واقعاً جامعه را تقویت می‌کند. پس برای این کار، به حمایت نیاز داریم.»"
+    }
+  },
+  {
+    "id": "usc-sigs-nowruz-2024-joint-invitation",
+    "src": "/media/usc-sigs-nowruz-2024-joint-invitation.webp",
+    "thumbnail": "/media/usc-sigs-nowruz-2024-joint-invitation-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "usc-sigs-nowruz-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster for the USC and UCI Nowruz celebration on March 25, 2024, featuring DeejayAl.",
+      "fa": "پوستر جشن نوروز مشترک USC و UCI در ۲۵ مارس ۲۰۲۴ با دی‌جی ال."
+    },
+    "caption": {
+      "en": "USC and UCI Nowruz celebration, March 25, 2024 invitation",
+      "fa": "جشن نوروز مشترک USC و UCI، ۲۵ مارس ۲۰۲۴؛ پوستر دعوت"
+    },
+    "credit": "Designer not recorded.",
     "publication": "published",
     "rights": "approved"
   }

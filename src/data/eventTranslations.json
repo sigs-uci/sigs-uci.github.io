@@ -303,21 +303,21 @@
     "eventId": "game-hookah-night-2018",
     "locale": "fa",
     "title": "شب بازی و قلیان SIGS، ۲۰۱۸",
-    "summary": "SIGS یک شب بازی بهاری را در IVY Lounge and Grill در Tustin اعلام کرده بود. در دعوت‌نامه از دوستان خواسته شده بود بازی مورد علاقه‌شان را همراه بیاورند.",
+    "summary": "SIGS برای شب بازی جمعه در IVY Lounge and Grill در تاستین دور هم جمع شد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "d5607763006e9e35462c6a47379cae5b16c9090020c48db1f152eae4e27f1d8c",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "cc9bfef4ee4e2b6018cbc5b268cb511d4078802ff15fb983e6e15de8cc62587a",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "iftar-2018",
     "locale": "fa",
     "title": "افطار در UCI، ۲۰۱۸",
-    "summary": "SIGS برنامهٔ افطار و شام را در Palo Verde اعلام کرده بود. در دعوت‌نامه از دوستان برای مشارکت در تهیهٔ غذا استقبال شده بود.",
+    "summary": "SIGS مراسم افطار و شام را در سالن اجتماعات پالو ورده برگزار کرد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "79d70c30fc25fe8b3f9182f42bd1506c8b354094a22f38304ae75198c6bdb384",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "29854540f9f60dd86efa58cd2ca93dfdfa80233944f11a6cf69d62b130e4a84d",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "beach-volleyball-2018",
@@ -353,11 +353,11 @@
     "eventId": "bonfire-2018-10-20",
     "locale": "fa",
     "title": "دورهمی کنار آتش، ۲۰ اکتبر ۲۰۱۸",
-    "summary": "SIGS تاریخ دورهمی ساحلی خود را از ۱۳ اکتبر به ۲۰ اکتبر تغییر داد. در دعوت‌نامهٔ تازه، یک عصر دوستانه در ساحل کرونا دل مار همراه با غذا و بازی در نظر گرفته شده بود.",
+    "summary": "دورهمی پاییزی SIGS کنار آتش در کورونا دل مار، پس از جابه‌جایی از ۱۳ اکتبر، روز ۲۰ اکتبر برگزار شد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "3d0e10753ec772465b9c7197a26636e551ecee5cdce9fa8f54f4e367c5a6a46e",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "3262647c5b2a0bbe2731a2b932e886cbec9ec476e1d048787abbcdc397f3d6c9",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "halloween-2018",
@@ -403,11 +403,11 @@
     "eventId": "persian-breakfast-2019",
     "locale": "fa",
     "title": "صبحانهٔ ایرانی و نشست عمومی SIGS، ۲۰۱۹",
-    "summary": "SIGS یک صبحانهٔ ایرانی برای صبح شنبه در Palo Verde اعلام کرده بود. دوستان و خانواده‌ها دعوت شده بودند در نشست عمومی، صبحانه و چای را کنار هم صرف کنند.",
+    "summary": "SIGS شنبه‌صبح در پالو ورده با صبحانهٔ ایرانی و چای از دوستان پذیرایی کرد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "360f01bde82c834f61604d3450d89cb23894d8c7e2e439fd820ba02f22d574f2",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "c440171f5f2697ece00073036f4ed6e760261d76324ab89b5b0153bb579880d9",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "nowruz-2019",
@@ -423,11 +423,11 @@
     "eventId": "iftar-2019",
     "locale": "fa",
     "title": "افطار در UCI، ۲۰۱۹",
-    "summary": "SIGS از دوستان برای افطار و شام در Palo Verde دعوت کرده بود. در دعوت‌نامه از مشارکت در تهیهٔ غذا استقبال شده بود و محل برنامه، سالن اجتماعات طبقهٔ بالا بود.",
+    "summary": "SIGS مراسم افطار و شام را در طبقهٔ بالای سالن اجتماعات پالو ورده برگزار کرد. دوستان هم در آماده کردن سفره همراهی کردند.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "4aa7b30775173c8185f16a6dad8ee37cba14dce64947a8205ecbb3b8e31cb062",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "a02e8f6f18610bf09c79ca356af4617f1fba63f974b806b758a251721190dbf1",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "career-panel-2019",
@@ -443,11 +443,11 @@
     "eventId": "bonfire-2019",
     "locale": "fa",
     "title": "دورهمی ساحلی SIGS، ۲۰۱۹",
-    "summary": "SIGS برای شنبه یک دورهمی کنار آتش در ساحل Corona del Mar اعلام کرده بود. در دعوت‌نامه از دانشجویان خواسته شده بود خوراکی و بازی‌های ساحلی همراه بیاورند.",
+    "summary": "SIGS دورهمی پاییزی کنار آتش را در کورونا دل مار برگزار کرد و روز بعد از دوستانی که آمده بودند تشکر کرد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "10646616cefcdab3b3ffd2efaff35eede630a062327e9fc88f57515e0a404b5e",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "e2f77b0b93b7b63ff42c39eb481e8d51e046d7ebade49bce88bcb8a4e6cd1e53",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "halloween-2019",
@@ -523,11 +523,11 @@
     "eventId": "game-night-2021-03-10",
     "locale": "fa",
     "title": "شب مافیای آنلاین، مارس ۲۰۲۱",
-    "summary": "SIGS یک شب بازی مافیا در Zoom اعلام کرده بود. در دعوت‌نامه از دوستان هم برای شرکت در این دورهمی آنلاین دعوت شده بود.",
+    "summary": "SIGS برای یک شب بازی مافیا در زوم دور هم جمع شد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "3316cb5d8cf7b57b5cfc1c40d58146134b2bbb8dcfda6dc6dd2536e334d44843",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "035fd16547036041ced9602d86c77e3858e93772f35a4c49bd722b918c4a635f",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "nowruz-2021",
@@ -542,22 +542,22 @@
   {
     "eventId": "spring-bonfire-2021",
     "locale": "fa",
-    "title": "دورهمی کنار آتش، بهار ۲۰۲۱",
-    "summary": "SIGS از دوستان دعوت کرده بود برای یک دورهمی بهاری کنار آتش در ساحل Corona del Mar جمع شوند. موسیقی، شیرینی اسمورز و هات‌داگ برای این عصر در نظر گرفته شده بود.",
+    "title": "دورهمی کنار آتش، بهار ۲۰۲۱، لغوشده",
+    "summary": "SIGS دورهمی کنار آتش را که برای ۸ مه در کورونا دل مار برنامه‌ریزی کرده بود، لغو کرد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "7149a2c4d5e2d0732384c5d32a093cd6e8193273d9f76df084d4ba9d373c69fa",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "3b959182962269a3ee44709ccd3e5f893838e1ad34af22d67d15d9d971a01d34",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "bonfire-2021-10-08",
     "locale": "fa",
     "title": "دورهمی کنار آتش، پاییز ۲۰۲۱",
-    "summary": "دعوت به دورهمی عصر جمعه کنار آتش در کرونا دل مار، برای دیدار دوبارهٔ دانشجویان در ساحل.",
+    "summary": "SIGS جمعه‌شب دورهمی کنار آتش را در ساحل کورونا دل مار برگزار کرد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "d7fdebd2c07fd25402f687a0c7e1c158279eba67d3652ea7eca4371cb3b0ab01",
-    "reviewedOn": "2026-11-03"
+    "sourceRevision": "14a897cda770df910be3cbcdb27a3648d6723ae8af0a83ea308a858ba7f8588e",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "mehmooni-2021",
@@ -573,11 +573,11 @@
     "eventId": "game-night-2021-12-12",
     "locale": "fa",
     "title": "شب بازی SIGS، دسامبر ۲۰۲۱",
-    "summary": "SIGS از دوستان UCI برای یک شب بازی در Palo Verde Clubhouse دعوت کرده بود. این برنامهٔ دسامبر، شروع فصل تازه‌ای از شب‌های بازی معرفی شده بود.",
+    "summary": "SIGS برای دانشجویان و دانش‌آموختگان UCI شب بازی در کلاب‌هاوس پالو ورده برگزار کرد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "b14255b70f3b328655df6a6cb5bf90c86359ee411b495a2617331bcccef89558",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "da3f4701e92a165f55758961823fbbd5c6f576268b0ea9e62638085d83f35eb0",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "yalda-2021",
@@ -593,11 +593,11 @@
     "eventId": "solidarity-2022-09-27",
     "locale": "fa",
     "title": "گردهمایی همبستگی در دانشگاه، سپتامبر ۲۰۲۲",
-    "summary": "SIGS و مرکز جردن از جامعهٔ دانشگاهی برای گردهمایی همبستگی سه‌شنبه‌شب در حیاط Humanities Gateway دعوت کرده بودند.",
+    "summary": "SIGS و مرکز جردن همراه با جمع دانشگاهی UCI در گردهمایی همبستگی در حیاط هیومنیتیز گیت‌وی حضور داشتند. کیتی پورتر از سخنرانان مهمان برنامه بود.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "2b13242198c8909f6377f75de49fa90f23bc413ba53c54f0cfa7c3eb517daa1f",
-    "reviewedOn": "2026-11-03"
+    "sourceRevision": "8f5c8ac6eee5e1c9e3692d226872b550961be5888f4618f19f3a34383201bd8c",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "solidarity-rally-2022-11-30",
@@ -613,11 +613,11 @@
     "eventId": "game-night-2022",
     "locale": "fa",
     "title": "شب بازی SIGS، ۲۰۲۲",
-    "summary": "SIGS یک شب بازی یکشنبه در Palo Verde اعلام کرده بود. در دعوت‌نامه از همه خواسته شده بود بازی رومیزی مورد علاقه‌شان را همراه بیاورند.",
+    "summary": "SIGS دورهمی غذا و بازی را در سالن اجتماعات پالو ورده برگزار کرد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "84a35f24d391a9d62d555324c535a75427d8b9d6cae3617e4e84d0dd83b11d28",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "c03d46089301c557a2c1f74e1d2de39289155a80a26bb834a0b64a534aa85831",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "student-solidarity-2022-12-07",
@@ -643,21 +643,21 @@
     "eventId": "bonfire-2023-02-04",
     "locale": "fa",
     "title": "دورهمی کنار آتش، زمستان ۲۰۲۳",
-    "summary": "SIGS از دوستان برای یک دورهمی عصرگاهی کنار آتش در ساحل Corona del Mar دعوت کرده بود. در دعوت‌نامه پیشنهاد شده بود بازی، پتو و مارشمالو همراه بیاورند.",
+    "summary": "SIGS شنبه‌بعدازظهر دورهمی کنار آتش را در ساحل کورونا دل مار برگزار کرد.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "b64697e5750a19cdf99dd53453603606f8607a5154cd34bd1351325f2d2df880",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "2b83589080bb0e0eb81ad279e14f33c2f41ea388dd702c38d1094f94675c5d40",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "nowruz-2023",
     "locale": "fa",
     "title": "شب نوروز ۲۰۲۳",
-    "summary": "SIGS یک شب نوروزی را در Palo Verde اعلام کرده بود. در دعوت‌نامه از دوستان خواسته شده بود کنار هم جشن بگیرند؛ پذیرایی سبک در نظر گرفته شده بود و همراه‌آوردن غذا هم آزاد بود.",
+    "summary": "SIGS شب نوروز را با دورهمی در کلاب‌هاوس پالو ورده جشن گرفت.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "b19c59b28e4ee27b428f151d23a39680cee43a4d51857f67b2d7f5501abf08e4",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "d4fc6573dc6ffbb74cf42ef81cd88bc766fdc1441482e30d5412adbf7bb05aab",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "nowruz-cruise-2023",
@@ -713,11 +713,11 @@
     "eventId": "yalda-2023",
     "locale": "fa",
     "title": "شب یلدای ۲۰۲۳",
-    "summary": "SIGS جشن یلدا را با رقص، موسیقی و مهمانی پس از برنامه در سالن Pacific CD اعلام کرده بود. نام Ila Dance، Amir و DJ Julius در دعوت‌نامه آمده بود و پذیرایی شامل پیش‌غذا و نوشیدنی غیرالکلی بود.",
+    "summary": "SIGS شب یلدا را در سالن پسیفیک CD با موسیقی، رقص و بازی حدس آهنگ جشن گرفت. در اطلاعیهٔ برنامه نام Ila Dance، امیر و دی‌جی جولیوس آمده بود و پذیرایی شامل پیش‌غذا و نوشیدنی بدون الکل بود.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "fc654cb85fe881499a5ce75958261a4889dc3a0fcccb153b26395795538a2dd8",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "eac4c8abae8525b34e38a354b92fe905520c1a055137c3801be8f5d143986fd6",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "crystal-cove-hike-2024",
@@ -733,11 +733,11 @@
     "eventId": "movie-night-2024",
     "locale": "fa",
     "title": "شب فیلم و مهمانی SIGS، ۲۰۲۴",
-    "summary": "SIGS یک شب فیلم و موسیقی را در Verano Place اعلام کرده بود. در دعوت‌نامه، پذیرایی با خوراکی و پیتزا هم آمده بود.",
+    "summary": "SIGS در ورانو پلیس شب فیلم برگزار کرد و از دوستان با پیتزا و تنقلات پذیرایی شد. فیلم و موسیقی در برنامهٔ آن شب بود.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "fdc225d1795ab3b3da4f9a45412e187c4f0a40cdece5effa8280454e7d7cc331",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "03f50b1a64b24e45411ee5c477957a908291d606751043fee05165ec07093f9e",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "networking-2025",
@@ -813,11 +813,11 @@
     "eventId": "potluck-2019",
     "locale": "fa",
     "title": "دورهمی غذا در پایان سال تحصیلی، ۲۰۱۹",
-    "summary": "SIGS از دانشجویان و فارغ‌التحصیلان UCI به دورهمی غذا و باربیکیو در پایان سال تحصیلی در محوطهٔ مشترک ورانو دعوت کرده بود. برای ناهار همبرگر و هات‌داگ در نظر گرفته شده بود و مهمانان می‌توانستند غذا، خوراکی و بازی همراه بیاورند.",
+    "summary": "SIGS پایان سال تحصیلی را با دورهمی غذا و باربیکیو در ورانو پلیس کامنز گذراند.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "d9f9c46b4bc09c011a40e42de2fbe5be50f5dd928091037ca19d690b4a723533",
-    "reviewedOn": "2026-10-29"
+    "sourceRevision": "e0c8346ca334f6c051bf441b4392e9a2ebf274111cecb6f07c69050e925c61a3",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "bowling-2019",
@@ -933,11 +933,11 @@
     "eventId": "welcome-2019",
     "locale": "fa",
     "title": "باربیکیوی خوشامدگویی، ۲۰۱۹",
-    "summary": "SIGS از دانشجویان و فارغ‌التحصیلان UCI برای باربیکیو و آشنایی با دانشجویان تازه‌وارد در ۲۲ سپتامبر دعوت کرده بود. برنامه رایگان اعلام شده بود و مهمانان می‌توانستند خوراکی و بازی همراه بیاورند.",
+    "summary": "SIGS با باربیکیوی یکشنبه در دفتر مسکن ورانو به دانشجویان جدید خوشامد گفت. برنامه برای دانشجویان و دانش‌آموختگان UCI بود.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "1a4dc894d0f748376e4a13676bd97c9b33a8e0c4d7d90caf98a45e99897ea06c",
-    "reviewedOn": "2026-11-03"
+    "sourceRevision": "7c0488a6d1c868780e48443b7b2eecf23fc2db86cf26f37428e22a53e580be0b",
+    "reviewedOn": "2026-11-06"
   },
   {
     "eventId": "graduate-orientation-2019",
@@ -958,5 +958,945 @@
     "status": "reviewed",
     "sourceRevision": "b34704a42f22b242c68eb1aa97ab19dfed369b2a4effc939459cf8a494c178d2",
     "reviewedOn": "2026-11-03"
+  },
+  {
+    "eventId": "game-night-2017-02-03",
+    "locale": "fa",
+    "title": "شب بازی در پالو ورده",
+    "summary": "SIGS از دوستان دعوت کرد جمعه‌شب برای بازی به سالن اجتماعات پالو ورده بیایند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "094723759f8503713be5759de4b358fe4c3b13d7074aaf9e49572d4935977ead",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "game-night-2017-04-22",
+    "locale": "fa",
+    "title": "شب بازی در پالو ورده",
+    "summary": "دعوت SIGS به یک شب بازی در سالن پالو ورده، با شام اشتراکی و موسیقی در پایان برنامه.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "5685abc698ae45bc8d5ce46224232a7f8c64353a9e257a33f0b6c55d41f8cf40",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "game-night-2017-07-14",
+    "locale": "fa",
+    "title": "شب بازی در پالو ورده",
+    "summary": "SIGS از دوستان دعوت کرد با غذای اشتراکی به شب بازی جمعه در سالن پالو ورده بیایند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "ee6fcbbe9cce61a85550a67a9d4c7bdee4b81752ffcb74a1e69c43279f47d5b3",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "maryam-mirzakhani-memorial-2017",
+    "locale": "fa",
+    "title": "یادبود مریم میرزاخانی",
+    "summary": "SIGS دعوت SUTA به یادبود مریم میرزاخانی در UCI را به اشتراک گذاشت. ورود برای همه آزاد و رایگان بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "5b33aa6062f13b8cef8a68c5b1701a8c49eddb2be8f1cfd2d1e0a0bfacf4f6e6",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "summer-party-2018-06-16",
+    "locale": "fa",
+    "title": "مهمانی تابستانی با DJ Aaraa",
+    "summary": "SIGS از دوستان دعوت کرد برای آغاز تابستان به مهمانی با DJ Aaraa در VIEWS Hookah Lounge در بوئنا پارک بیایند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "1afd883774f4cab095a55f84f36b38621bf9bda16a1da8c0baff00fe130f9b18",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "world-cup-iran-spain-2018",
+    "locale": "fa",
+    "title": "تماشای بازی ایران و اسپانیا در جام جهانی",
+    "summary": "SIGS از دوستان دعوت کرد چهارشنبه پیش از ظهر برای تماشای بازی ایران و اسپانیا در پالو ورده کلاب‌هاوس دور هم جمع شوند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8152eeac6437027c00cb764d2134ceb5470d3ecbbef653dee8da1974c5909935",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "world-cup-iran-portugal-2018",
+    "locale": "fa",
+    "title": "تماشای بازی ایران و پرتغال در جام جهانی",
+    "summary": "دوستان SIGS بازی ایران و پرتغال را کنار هم تماشا کردند. طبق اطلاعیهٔ همان روز، محل دورهمی از کلاب‌هاوس به نشانی ۷۰۰۰ پالو ورده تغییر کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3b27e0234e3359d6d494e73a3d8cf772f82cacdb898ca8e00a27277727aee773",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "ociacc-professional-mixer-2019",
+    "locale": "fa",
+    "title": "دورهمی آشنایی با متخصصان با همکاری OCIACC",
+    "summary": "SIGS و OCIACC از دانشجویان و متخصصان منطقه دعوت کردند در هتل دلتا ماریوت آناهایم با هم آشنا شوند و گفت‌وگو کنند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "83011356491d5a05fbf92ad26ea8e1c1f830554e0dbdc3ff360aff436263cc73",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "standup-yost-memorial-day-2019",
+    "locale": "fa",
+    "title": "اجرای مکس امینی در تئاتر یاست",
+    "summary": "SIGS تخفیف دانشجویی اجراهای مکس امینی در تئاتر یاست را به اشتراک گذاشت. اجرای اضافهٔ جمعه برای ۲۴ مه، ساعت ۸ شب اعلام شده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "dcfdf013d611e294983eafda2742c710133b585cb9b0fe42c51399ddcdca2f12",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "ali-azimi-los-angeles-2019",
+    "locale": "fa",
+    "title": "کنسرت علی عظیمی در لس‌آنجلس",
+    "summary": "SIGS تخفیف دانشجویی کنسرت علی عظیمی در تئاتر ال‌ری لس‌آنجلس را به اشتراک گذاشت. برگزارکنندهٔ کنسرت SIAS بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "a7c03a041bd03e07f4e454086267bda43383f239bae5bfc8eee24a4b2113982c",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "ghasr-e-shirin-2019",
+    "locale": "fa",
+    "title": "نمایش فیلم قصر شیرین",
+    "summary": "SIGS دعوت به نمایش فیلم «قصر شیرین» در اورنج کانتی با حضور حامد بهداد را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "978de4c522ba7de6215a2e6974af8c09347b8d35a60e1086f74153ed01c1c972",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "mehmooni-2019",
+    "locale": "fa",
+    "title": "مهمونی",
+    "summary": "SIGS همراه با انجمن‌های دانشجویی UCLA، یو‌سی ریورساید و کال‌استیت فولرتون در مهمانی «مهمونی» SIAS در Fu’s Palace شرکت کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3370132f0fd99b74ec978ebd553950dc4cfe1a8fa6589d563006a793825d1ed1",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "dorehami-game-night-2020",
+    "locale": "fa",
+    "title": "دورهمی بازی",
+    "summary": "SIGS برای نخستین شب بازی از مجموعهٔ دورهمی‌های سال ۲۰۲۰ از دوستان دعوت کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "68a9fc64bae778178f6ceb5b4fbe613f5809446be184594d6f58f54f6cca4a76",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "dorehami-movie-night-2020",
+    "locale": "fa",
+    "title": "دورهمی تماشای فیلم",
+    "summary": "دومین جلسهٔ دورهمی برای تماشای فیلم در شنبه‌شب برنامه‌ریزی شد. محل برنامه با پیام به SIGS اعلام می‌شد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "c95f4f24808d24794fe1216a8ace43d7bf2f03ddbb86b06e8a1d5c7d991324c2",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "happy-hour-2020-07-28",
+    "locale": "fa",
+    "title": "دورهمی آنلاین",
+    "summary": "دانشجویان در زوم دور هم جمع شدند و دربارهٔ برنامه‌های بعدی SIGS صحبت کردند. بعد از برنامه، انجمن از شرکت‌کنندگان تشکر کرد و از پیشنهادهایشان برای دورهمی‌های آنلاین بعدی استقبال کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8d897eb24461072100da77d604f47f8e69acfadd8675f897c4afd7ceffbf9699",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "happy-hour-2020-08-07",
+    "locale": "fa",
+    "title": "دورهمی آنلاین با موسیقی",
+    "summary": "SIGS برای جمعه‌شب یک دورهمی در زوم همراه با اجرای موسیقی برنامه‌ریزی کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "657f2ac4b04a7ea0d18e1e021aeb9ae5acbba9c236bfbe5d157a176c8641d91e",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "isc-virtual-commencement-2020",
+    "locale": "fa",
+    "title": "جشن آنلاین دانش‌آموختگی ISC",
+    "summary": "SIGS دعوت ISC به جشن آنلاین دانش‌آموختگی سال ۲۰۲۰ را به اشتراک گذاشت. هما سرشار، ماز جبرانی و محسن نامجو از مهمانان اعلام‌شدهٔ برنامه در فیسبوک لایو بودند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "224e5c642af78907cdb9fad0a1c4a3e07abff1fe758595183035fa47a303e72f",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "mental-health-mindfulness-2020",
+    "locale": "fa",
+    "title": "گفت‌وگو دربارهٔ سلامت روان با افشین پوررضا",
+    "summary": "SIGS افشین پوررضا را برای گفت‌وگویی آنلاین دربارهٔ سلامت روان در دوران همه‌گیری، ذهن‌آگاهی و کنار آمدن با افسردگی دعوت کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8f5a31c4f6db28a69ce19249e5aedd8046bf76616b7cc711a20e8daa7a1bd1f1",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "welcome-2020",
+    "locale": "fa",
+    "title": "خوشامدگویی به دانشجویان جدید، ۲۰۲۰",
+    "summary": "SIGS از دانشجویان جدید UCI دعوت کرد در زوم با هم آشنا شوند. در اطلاعیه‌های باقی‌مانده، روز برنامه هم ۲۹ و هم ۳۰ سپتامبر آمده است.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "4d3d627a6e7e0206da9cb2386b8d31a67989dbf02aeee60d5d2c47dc01255948",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "mafia-night-2021",
+    "locale": "fa",
+    "title": "شب مافیای آنلاین",
+    "summary": "SIGS از دوستان دعوت کرد سه‌شنبه‌شب برای بازی مافیا در زوم دور هم جمع شوند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "577bf896c69041666dfc9f0a82483f5e1597428fdb9b447e13e0115b92486de5",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "nowruz-gathering-2024",
+    "locale": "fa",
+    "title": "دورهمی نوروزی",
+    "summary": "SIGS از دوستان دعوت کرد شب عید برای چای و شیرینی در مرکز اجتماعات ورانو پلیس دور هم جمع شوند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "72c664f75b227c33ea1c39855d20a657f525a1f1c876761dfa5e342907efb775",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "bowling-2024",
+    "locale": "fa",
+    "title": "دورهمی تابستانی بولینگ",
+    "summary": "SIGS دعوت NIALSA و IABA OC به دورهمی تابستانی بولینگ در تاستین را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "e4af52a8bcabb8033f5b394d590ab50c9f37e0256de7d2dda30836c7a57d00a2",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "beach-gathering-2025",
+    "locale": "fa",
+    "title": "روز بازی در ساحل",
+    "summary": "SIGS و IAWF از دوستان دعوت کردند شنبه برای بازی در ساحل کورونا دل مار دور هم جمع شوند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8349ef23800faac41031f673a4b049b17407859f167a1e64c742ecd95d2dd304",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "bia2-warwick-2018",
+    "locale": "fa",
+    "title": "مهمانی BIA2 در Warwick لس‌آنجلس",
+    "summary": "SIGS تخفیف بلیت دانشجویی مهمانی آخر هفتهٔ مموریال‌دی در Warwick لس‌آنجلس را به اشتراک گذاشت. برگزارکنندهٔ برنامه Level 9 Group بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "bb6aa46c0895d50a065ed2e5ca0cfd48dfc91e1ad8463a34068ba747b373c197",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "pool-party-2023",
+    "locale": "fa",
+    "title": "مهمانی استخر با همکاری ISU",
+    "summary": "SIGS و ISU از دانشجویان دعوت کردند برای مهمانی شنبه به استخر ویستا دل کامپو بیایند. غذا هم برای برنامه در نظر گرفته شده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3c8b98d1edc3ae08a2c589d5dc4e889492ec6f6b609b84388d01807af02306ea",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "meet-ceo-ramin-mousavi-2023",
+    "locale": "fa",
+    "title": "دیدار با رامین موسوی، مدیرعامل CathWorks",
+    "summary": "SIGS دعوت انجمن دانش‌آموختگان ایرانی‌آمریکایی UCI به دیدار با رامین موسوی، مدیرعامل CathWorks، را به اشتراک گذاشت. گفت‌وگو با متخصصان و پذیرایی با غذای ایرانی هم در برنامهٔ اعلام‌شده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "19cffcabe91f7184799da93087e67859cb06853d18480124d9c7584b38577ed5",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "tale-of-immigration-2023",
+    "locale": "fa",
+    "title": "گفت‌وگو با هما سرشار دربارهٔ مهاجرت",
+    "summary": "SIGS دعوت به گفت‌وگو با هما سرشار، نویسنده و روزنامه‌نگار، در USC را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "18ae7df13aeb0de21a7a46be9530a57751b9e7570cfed26334c3a78d02f9553f",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "behrouz-documentary-2023",
+    "locale": "fa",
+    "title": "نمایش مستند بهروز، اسطورهٔ پرده",
+    "summary": "SIGS تخفیف دانشجویی نمایش مستند «بهروز، اسطورهٔ پرده» را به اشتراک گذاشت. قرار بود مکس امینی مجری گفت‌وگوی پس از نمایش باشد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8aba2c14f7b3a24d333afd8a397c0f5377d46286029bd8b41f3379221a60d2f5",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "how-ai-affects-innovation-2023",
+    "locale": "fa",
+    "title": "نشست تأثیر هوش مصنوعی بر نوآوری",
+    "summary": "SIGS دعوت Women of MENA in Technology به نشستی دربارهٔ تأثیر هوش مصنوعی بر نوآوری در مرکز فناوری مایکروسافت در ارواین را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "70e13f1685e43aec463bc87b79bdb402d0a1252d02c5a123f25ad3a550dd0b0b",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "usc-networking-mixer-2023-10-22",
+    "locale": "fa",
+    "title": "دورهمی آشنایی با متخصصان در USC",
+    "summary": "SIGS دعوت به دورهمی یکشنبه برای آشنایی با متخصصان در USC را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "07d19aa53663d1cc585ab0c65073c54ea298057ea5b0fa674881dcd355aab5d8",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "traditions-alive-san-diego-2024",
+    "locale": "fa",
+    "title": "اجرای موسیقی و رقص Traditions Alive",
+    "summary": "SIGS تخفیف دانشجویی اجرای موسیقی و رقص ایرانی Traditions Alive در سن‌دیگو را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "ca6b57fb0a807b56cf44ad0ba9216a07442b74ad54a049f2f3ec87f22761c21c",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "chaharshanbe-souri-irvine-2024",
+    "locale": "fa",
+    "title": "چهارشنبه‌سوری در ارواین",
+    "summary": "SIGS تخفیف دانشجویی جشن چهارشنبه‌سوری در فضای باز هتل Hyatt Regency Irvine را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "9c61ad451936dacd38d364ff2c4c6870ad648e9f2b3fd7af37e5bc066c5b0f38",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "nowruz-happy-hour-2024",
+    "locale": "fa",
+    "title": "دورهمی نوروزی با سبزه و تخم‌مرغ‌رنگی",
+    "summary": "SIGS دعوت به یک دورهمی نوروزی در ارواین با سبزه و رنگ کردن تخم‌مرغ را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "239cdfd698c97baa565af0c443ae14fad224df5cb8198a86ef001f3f4e22d41a",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "spring-celebration-2024",
+    "locale": "fa",
+    "title": "جشن بهاری دانش‌آموختگان UCI",
+    "summary": "SIGS دعوت انجمن دانش‌آموختگان ایرانی‌آمریکایی UCI به جشن بهاری با چای و شیرینی را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "7ec171a2b50629520b3a9752da29568ac65142239314726ef178ea87039b00f5",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-networking-mixer-2024-08-10",
+    "locale": "fa",
+    "title": "برنامهٔ آشنایی با متخصصان در UCI",
+    "summary": "SIGS دعوت به برنامه‌ای در UCI با جلسات راهنمایی شغلی، دورهمی و نمایشگاه کار را به اشتراک گذاشت. شرکت برای دانشجویان UCI با ثبت‌نام رایگان بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "77bb4c9ce5c8454cd8a045d106ba6809d06e963ca1a9f211a392b4d01461faf3",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "tech-career-lab-2024",
+    "locale": "fa",
+    "title": "برنامهٔ آنلاین راهنمایی شغلی Tech Career Lab",
+    "summary": "SIGS دعوت Women of MENA in Technology به برنامهٔ آنلاین راهنمایی شغلی Tech Career Lab را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "97b6152bdb259a60690ba09d9bf82646fdc73ba4e8560534ec0650ba8f404af8",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "innovate-irvine-2024",
+    "locale": "fa",
+    "title": "نشست Innovate Irvine",
+    "summary": "SIGS دعوت به نشست Innovate Irvine با حضور فعالان و مدیران فناوری و با همکاری NIPOC را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "b9774de91f7138355401132b2488890ad0bc740760d51920144051ade4f1b882",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "community-conversation-2022-11-16",
+    "locale": "fa",
+    "title": "گفت‌وگوی جمعی با نگار شکرآبی",
+    "summary": "SIGS، ISU و انجمن دانش‌آموختگان ایرانی‌آمریکایی UCI از دوستان دعوت کردند با حضور نگار شکرآبی دربارهٔ رویدادهای ایران و کنار آمدن با تروما گفت‌وگو کنند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "77d15b3e4e765903ef8fa4f2ad50f46fdd9706881cdd059ea9553ed21377695e",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "career-law-real-estate-immigration-2025",
+    "locale": "fa",
+    "title": "گفت‌وگوی شغلی دربارهٔ حقوق، املاک و مهاجرت",
+    "summary": "SIGS دعوت انجمن دانش‌آموختگان ایرانی‌آمریکایی UCI به گفت‌وگویی دربارهٔ مسیرهای شغلی حقوق، املاک و مهاجرت را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "f4abc6669ec1927bc2bbcfd38c71461cf2d8d666b4ac1bc6c6cf93b01ceadf8d",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "csulb-nowruz-2025",
+    "locale": "fa",
+    "title": "جشن نوروز در CSULB",
+    "summary": "SIGS دعوت انجمن دانشجویان ایرانی CSULB به جشن نوروز در لانگ‌بیچ را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "ad50884f756ec8d17af634f4c7f82053ec6bb0df8a65787ac1e8bd5f4a95fd6c",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "women-ai-careers-2025",
+    "locale": "fa",
+    "title": "مهارت‌های شغلی زنان در عصر هوش مصنوعی",
+    "summary": "SIGS دعوت Women of MENA in Technology به نشستی دربارهٔ مهارت‌ها و فرصت‌های شغلی زنان در حوزهٔ هوش مصنوعی را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "a4dec8edf7dd6211c002cde0a3ba3fe5449f85ffaeae888caa72e1c5f6af02f0",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "usc-networking-mixer-2025-08-03",
+    "locale": "fa",
+    "title": "دورهمی و راهنمایی شغلی در USC",
+    "summary": "SIGS دعوت YEC و انجمن دانشجویان تحصیلات تکمیلی ایرانی USC به دورهمی و جلسات راهنمایی شغلی در Tommy’s Place را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "7c2a92974f7ad51da3074059486043a945aa6e0eb2f16d09fcc765ca572ded97",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "visa-status-career-growth-2025",
+    "locale": "fa",
+    "title": "وضعیت ویزا و مسیر شغلی",
+    "summary": "SIGS و GlobalAI برنامه‌ای دربارهٔ وضعیت ویزا و برنامه‌ریزی شغلی معرفی کردند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "acafa7f8d33bba66cc2d7e6c935720ae2542010cecc47666b73509aba03cb342",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "candlelight-vigil-2026-01-21",
+    "locale": "fa",
+    "title": "گردهمایی شمع‌افروزی در پارک میسون",
+    "summary": "SIGS و ISU از دوستان دعوت کردند برای همبستگی با مردم ایران در پارک میسون شمع روشن کنند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "205166502ced00dba0d36ce1003c8b4edda9dca9e9fb6e6a2d36e8661570f1fd",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "community-discussion-2026-02-03",
+    "locale": "fa",
+    "title": "گفت‌وگوی جمعی با نگار شکرآبی",
+    "summary": "SIGS و ISU از دوستان دعوت کردند با حضور نگار شکرآبی دربارهٔ رویدادهای ایران و کنار آمدن با تروما گفت‌وگو کنند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3f7a47c31194d82b2282844632b699b9a5889363d1de77b8a9e1b6a3f39a7e83",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "isc-trails-of-lights-2026",
+    "locale": "fa",
+    "title": "حلقهٔ گفت‌وگوی جمعی ISC",
+    "summary": "SIGS دعوت ISC به یک گفت‌وگوی جمعی آنلاین برای همراهی و حمایت از یکدیگر را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8e51b554204128fcbde91eae104781f815ea4469b9b92d8ceca3efbbcbeb032f",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "bamdad-ensemble-2018",
+    "locale": "fa",
+    "title": "کنسرت گروه بامداد در UCI",
+    "summary": "مرکز جردن کنسرت گروه بامداد را در UCI اعلام کرد. آهنگ‌سازی سیروان منهوبی و آواز علیرضا شاه‌محمدی در پوستر برنامه آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "6d2df775b5fbdafc841eb7d9dfb7f5d6654aa56d4e87ee228c1ebf93625e69d5",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "iransa-csuf-meet-greet-2020",
+    "locale": "fa",
+    "title": "دورهمی آشنایی IRANSA در کال‌استیت فولرتون",
+    "summary": "IRANSA از دانشجویان دعوت کرد برای بولینگ، پینگ‌پنگ، فوتبال‌دستی و بیلیارد به مرکز دانشجویی تایتان بیایند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "10e8cbb271810f960cb208f0f4f67931c22ee18cea3659588f3ad23a58f7a0b0",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "iransa-csuf-nowruz-2018",
+    "locale": "fa",
+    "title": "جشن نوروز IRANSA در کال‌استیت فولرتون، ۲۰۱۸",
+    "summary": "IRANSA و AICA در کال‌استیت فولرتون جشن نوروز با حضور کی‌وان را اعلام کردند. SIGS هم اطلاعیهٔ برنامه را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "0fd85cfab4ad4547c16c2d09b51505c865acc94d1e97beba3a7fc5dfacf08718",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "iransa-csuf-nowruz-2019",
+    "locale": "fa",
+    "title": "جشن نوروز IRANSA در کال‌استیت فولرتون، ۲۰۱۹",
+    "summary": "IRANSA برنامهٔ نوروز کال‌استیت فولرتون را با موسیقی، رقص و استندآپ کمدی اعلام کرد. نام تهران، دی‌جی کیا و دی‌جی آرا در پوستر آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8203c6a71664a8b1a48723654e089e19e7a992b851fbf2a2468258d969919083",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "doornavazi-album-conversation-2021",
+    "locale": "fa",
+    "title": "گفت‌وگو دربارهٔ آلبوم دورنوازی",
+    "summary": "انجمن دانشجویان ایرانی کالیفرنیا گفت‌وگویی زنده در اینستاگرام با پارسا خرسند و حسام عابدینی دربارهٔ آلبوم دورنوازی و فراخوان آن اعلام کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "e03a30da1b838d2ddf52e6075aa46bcca81380e939523ca6e11ca0fcfd89c7fe",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "flight-ps752-remembrance-2021",
+    "locale": "fa",
+    "title": "یادبود جان‌باختگان پرواز PS752، ۲۰۲۱",
+    "summary": "SIGS دعوت انجمن‌های ایرانی دانشگاه‌های کانادا را برای یادبود جان‌باختگان پرواز PS752 در ۸ ژانویه به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "f456f239db08254dcf3bb3271d776d649bd171b31a1f0e91c678a6bdfaf39ef2",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "isc-niw-webinar-2020",
+    "locale": "fa",
+    "title": "وبینار ISC دربارهٔ NIW برای دانشجویان بین‌المللی",
+    "summary": "انجمن دانشجویان ایرانی کالیفرنیا سخنرانی آنلاین توماس جی. آرکل، وکیل مهاجرت، را دربارهٔ NIW و تغییرات قوانین مهاجرت آمریکا اعلام کرد. این صفحه مربوط به اطلاعیهٔ سال ۲۰۲۰ است.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3f469ca5ec53e5517f3554378fc3726fd183b4e9ed8fc6b6906df8192e7498e8",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "isg-yacht-party-2023",
+    "locale": "fa",
+    "title": "مهمانی روی قایق ISG، ۲۰۲۳",
+    "summary": "انجمن دانشجویان ایرانی UCLA مهمانی عصرگاهی روی قایق در لانگ‌بیچ را با دی‌جی بابک اعلام کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "aa7b777c9603681bd08a8ed8eb18a0b52a5ec4b21676069d369ebb053f69c27f",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-mediterranean-nights-2020",
+    "locale": "fa",
+    "title": "مدیترنین نایتس UCI، ۲۰۲۰",
+    "summary": "انجمن دانشجویان ایرانی UCI برنامهٔ مدیترنین نایتس را در Bleu با دی‌جی ال اعلام کرد. ورود برای افراد ۱۸ سال به بالا بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "1a582e6c18432863721cc671f010bf54d49b8ae2eeb850fa444f5f16e04de68f",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "mednights-2019",
+    "locale": "fa",
+    "title": "مدنایتس ۲۰۱۹",
+    "summary": "انجمن‌های ASA، ISU و SAS در UCI برنامهٔ مدنایتس را در Envy Lounge با دی‌جی نیماجی اعلام کردند. SIGS دعوت آن‌ها را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "485533b5a5358c57a0070977b6503eeb9bfdad3808bad61ba9ae4a5cf72f01d8",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "mehmooni-2019-03-02",
+    "locale": "fa",
+    "title": "مهمونی، مارس ۲۰۱۹",
+    "summary": "انجمن‌های دانشجویی UCLA و SIAS مهمونی را در Fu’s Palace با دی‌جی سپند اعلام کردند. این برنامه در مارس بود و با مهمونی نوامبر تفاوت داشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "5ab5d17ba18d7f805d25686ee36570f9f8de6ade625451f035920833b929785c",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "tabestoon-murano-2019",
+    "locale": "fa",
+    "title": "تابستون در Murano، ۲۰۱۹",
+    "summary": "SIGS تخفیف دانشجویی مهمانی تابستون در Murano هالیوود را به اشتراک گذاشت. دی‌جی محسن، دی‌جی جولیوس و دی‌جی کیا در پوستر معرفی شده بودند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "545e0f4c6cd447a27cb2cad10d6d033b76489da9fcca5595b37cd471041588b1",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "persian-girls-night-out-2019",
+    "locale": "fa",
+    "title": "استندآپ «Persian Girls Night Out»",
+    "summary": "Minority Reportz برنامهٔ استندآپ کمدی در رستوران کاسپین ارواین را با میزبانی سارا مستجابی اعلام کرد. SIGS هم اطلاعیهٔ برنامه را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "204b02b46a56c3e8c04b50baa95db82ea6bf42a9f415dcebf27e82935bf627da",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "tea-talk-2021-01-28",
+    "locale": "fa",
+    "title": "گپ‌وچای با دانش‌آموختگان UCI، ژانویهٔ ۲۰۲۱",
+    "summary": "شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI از دانشجویان و دانش‌آموختگان برای نخستین گپ‌وچای آنلاین خود در زوم دعوت کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "94b3073824c6170e5bca1593c426c34fae284f6d2dcd4669734991fd3c141195",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "zots-in-the-kitchen-2021",
+    "locale": "fa",
+    "title": "آشپزی و تغذیهٔ سالم با Zots in the Kitchen",
+    "summary": "شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI برنامه‌ای عمومی در زوم با آیدا صادقی دربارهٔ غذا خوردن آگاهانه، سلامت گوارش، آشپزی و خرید مواد غذایی اعلام کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "7e2ec37244f3cadc09e5d504397c8ee4a4b6a7609774eafba59b2b4ca9041e3d",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "tehrangeles-nights-2023",
+    "locale": "fa",
+    "title": "مهمانی تهرانجلس نایتس، ۲۰۲۳",
+    "summary": "انجمن دانشجویان تحصیلات تکمیلی و حرفه‌ای ایرانی UCLA مهمانی تهرانجلس نایتس را در Frida Westwood با دی‌جی فرزاد اعلام کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "1f690ca93372a1ab7371f8ee0bc452be7506abb85213976d1881e521935639c9",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-alumni-nowruz-2023",
+    "locale": "fa",
+    "title": "نوروز با شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI، ۲۰۲۳",
+    "summary": "شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI دورهمی نوروز را با موسیقی، چای و شیرینی اعلام کرد. دکتر سودابه ویور (ملک‌زاده) برای صحبت دربارهٔ تاریخ و معنای نوروز دعوت شده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "6350ac5a94e765bc6a07c555b016318c1891a71a5c0cc506e1209d2f43c262f0",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-homecoming-2023",
+    "locale": "fa",
+    "title": "بازگشت دانش‌آموختگان به UCI، ۲۰۲۳",
+    "summary": "SIGS دعوت UCI برای روز بازگشت دانش‌آموختگان به دانشگاه را به اشتراک گذاشت؛ برنامه‌ای برای دیدار دانشجویان، دانش‌آموختگان و جامعهٔ دانشگاه.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3436b7330b8f1fb0d05160fd5f85adf997f0e7b5478b5693df58905bb4ead9ff",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-isu-culture-show-2019",
+    "locale": "fa",
+    "title": "جشن فرهنگی انجمن دانشجویان ایرانی UCI، ۲۰۱۹",
+    "summary": "انجمن دانشجویان ایرانی UCI جشن فرهنگی سالانهٔ خود را در تالار کریستال کوو اعلام کرد. یارا، دی‌جی ال، تهران و آرش آوین در فهرست مهمانان برنامه بودند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "437adf73eadd297e1515f8e067faa371eb875a0a84e2e2745a2533a536416d62",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-mens-soccer-alumni-night-2019",
+    "locale": "fa",
+    "title": "شب فوتبال مردان UCI با دانش‌آموختگان، ۲۰۱۹",
+    "summary": "شاخه‌های لاتین‌تبار، ایرانی و کره‌ای دانش‌آموختگان UCI دورهمی در Anthill Pub را پیش از بازی تیم فوتبال مردان مقابل CSUN در ورزشگاه آنت‌ایتر اعلام کردند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "b63beedd08ea7821e0afbbed44f02166f9acacd6d0af0308c0f973232829fb0d",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "dj-sepand-fanous-2025",
+    "locale": "fa",
+    "title": "مهمانی سفید با دی‌جی سپند، ۲۰۲۵",
+    "summary": "SIGS تخفیف مهمانی بعدازظهر موسیقی هاوس ایرانی با دی‌جی سپند در Fanous Lounge تاستین را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "91c3183b10a2022435828a9920f9530e01a9bd8e588d39cd9b9d57caf0c0838c",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "chaharshanbe-soori-flame-2025",
+    "locale": "fa",
+    "title": "چهارشنبه‌سوری ۲ در Flame International، ۲۰۲۵",
+    "summary": "ILSA و گروه صفر۲۱ مهمانی «چهارشنبه‌سوری ۲» را در Flame International با دی‌جی فرزاد اعلام کردند. طبق پوستر، برنامه جمعه ۷ مارس بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "54b5c10e0530fd6bfa60bca9519c931a9eee94678cd9ca4b99705f6130318f4a",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "investing-cryptocurrency-2023",
+    "locale": "fa",
+    "title": "سخنرانی کوین سلطانی دربارهٔ سرمایه‌گذاری در رمزارز",
+    "summary": "انجمن‌های دانشجویی UCI سخنرانی کوین سلطانی دربارهٔ رمزارز را اعلام کردند. نام ISU، FLA و Blockchain at UCI در اطلاعیه آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "01da7d28e324ec4ffdf1c5ace5c76dc2b6549074c6cc30c91b08902b23b1dfd1",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "reza-rohani-sara-naeini-2024",
+    "locale": "fa",
+    "title": "کنسرت رضا روحانی و سارا نائینی در لس‌آنجلس",
+    "summary": "SIGS تخفیف دانشجویی کنسرت رضا روحانی و سارا نائینی در تئاتر ویلشر ایبل را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "8367c501bf109cb479da530080c8a8c30b6ccabd0e6ecdb1d615fffb3727678f",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "sami-beigi-greek-theatre-2025",
+    "locale": "fa",
+    "title": "کنسرت سامی بیگی در گریک تئاتر، ۲۰۲۵",
+    "summary": "SIGS تخفیف کنسرت ۱۱ اکتبر سامی بیگی در گریک تئاتر را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "4e7889490910fd0fdc39d78329b340855f710689e487cd2416031057c1a64c71",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "shabhaye-tehran-la-2024-05-31",
+    "locale": "fa",
+    "title": "شب‌های تهران لس‌آنجلس، ۳۱ مهٔ ۲۰۲۴",
+    "summary": "SIGS تخفیف دانشجویی برنامهٔ شب‌های تهران لس‌آنجلس در Blue Bird را به اشتراک گذاشت. دی‌جی سپند و دی‌جی رهام در پوستر معرفی شده بودند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "b66a4905a5e95130cd5c49c47ca012dd8fecf64e6b9807876ef1c32c4a7ee605",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "tech-career-lab-2023",
+    "locale": "fa",
+    "title": "کارگاه مسیر شغلی فناوری Women of MENA، ۲۰۲۳",
+    "summary": "Women of MENA in Technology کارگاه آنلاین مسیر شغلی فناوری را با حضور منتورها اعلام کرد. SIGS دعوت این برنامه را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "bf3cd66cda3f24bf45fee0da93e34b2148bf631dd5db391e643951f871574d76",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "ucla-culture-show-2018",
+    "locale": "fa",
+    "title": "شانزدهمین جشن فرهنگی انجمن ایرانی UCLA، ۲۰۱۸",
+    "summary": "انجمن دانشجویان ایرانی UCLA جشن فرهنگی خود را در رویس هال اعلام کرد. نام سیبرگ، کامیار و سحر گلشنی در فهرست اجرای برنامه آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "248e557330984ad4cf72ebe5d78fb6182251d87ea2bb0dae58fd71b8f5f74f5e",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "ucla-fashion-paci-2019",
+    "locale": "fa",
+    "title": "شبی با مد به سود مؤسسهٔ سرطان ایرانی‌آمریکایی",
+    "summary": "انجمن دانشجویان ایرانی UCLA شبی با مد را به سود مؤسسهٔ سرطان ایرانی‌آمریکایی اعلام کرد. ماز جبرانی به‌عنوان مجری و مکسین واترز به‌عنوان سخنران مهمان معرفی شده بودند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "e8c84975b0a2f1a8d0c37e9ee8defa02f234e2f46e34be54432b3d78d838220d",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "ucla-igpa-year-end-party-2019",
+    "locale": "fa",
+    "title": "مهمانی پایان سال IGPA در UCLA، ۲۰۱۹",
+    "summary": "انجمن دانشجویان تحصیلات تکمیلی و حرفه‌ای ایرانی UCLA مهمانی پایان سال را در مارینا دل ری با دی‌جی بابک اعلام کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "36141350f404a61d341d2273f0dc74b2f90541e27eed8a7cac837444edee4db3",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "a-dragon-arrives-2016",
+    "locale": "fa",
+    "title": "نمایش «اژدها وارد می‌شود» در برنامهٔ مرکز جردن",
+    "summary": "مرکز جردن نمایش فیلم «اژدها وارد می‌شود» را در تئاتر مک‌کورمیک، در برنامهٔ آخر هفتهٔ فیلم نوامبر اعلام کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "f52e72bbaaf96f52121a84dba46f9bf9950ab64b4714aec4b157acafa1ef7425",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "a-modest-reception-2016",
+    "locale": "fa",
+    "title": "نمایش «پذیرایی ساده» در برنامهٔ مرکز جردن",
+    "summary": "مرکز جردن نمایش فیلم «پذیرایی ساده» را در دومین روز آخر هفتهٔ فیلم نوامبر در تئاتر مک‌کورمیک اعلام کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "1fc2b9fbad7ce861709bc8cbb3f81b711059903cde7f5065789a337160fc862c",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "vasht-persian-dance-2019",
+    "locale": "fa",
+    "title": "واشت؛ رقص‌های کلاسیک و محلی ایرانی",
+    "summary": "گروه هنرهای نمایشی واشت برنامهٔ رقص ایرانی را به کارگردانی سها شریف در تئاتر کلر ترور UCI اعلام کرد. SIGS تخفیف دانشجویی آن را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "5df4345934c0a6aa49d1fe4d82e54a4a2d2843ba4d99780b672004ad83063775",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-boo-bash-2023",
+    "locale": "fa",
+    "title": "مهمانی هالووین Boo Bash در UCI، ۲۰۲۳",
+    "summary": "ASA و انجمن دانشجویان ایرانی UCI مهمانی هالووین Boo Bash را در کلاب Bleu با دی‌جی دنی کین اعلام کردند. SIGS هم اطلاعیهٔ آن‌ها را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "89bc5eb8b6c1e47d6e1de3aa5b62b75d104784580471071a1d9896786b3154d1",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "arash-san-diego-2019",
+    "locale": "fa",
+    "title": "کنسرت آرش در سن‌دیگو، ۲۰۱۹",
+    "summary": "SIGS دعوت دانشجویی کنسرت آرش در Fluxx سن‌دیگو را به اشتراک گذاشت. SIAS برای رفت‌وآمد از مرکز تفریحی آنت‌ایتر UCI اتوبوس در نظر گرفته بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "ad73f966379f14807fe23aebc620df50a0bc0c338fe0d7288b76fc84a53f2c82",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "persian-music-beach-festival-2019",
+    "locale": "fa",
+    "title": "نخستین جشنوارهٔ ساحلی موسیقی ایرانی، ۲۰۱۹",
+    "summary": "Koobesh Entertainment و Barcode the Lounge جشنوارهٔ ساحلی موسیقی در نیوپورت دونز را اعلام کردند. SIGS تخفیف دانشجویی آن را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "4fbd7a2ce6706265ee56a244dff4d1245ef9c035dd080e65fd3cd1d4e170c65c",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "irvine-valley-rally-2022",
+    "locale": "fa",
+    "title": "گردهمایی زن، زندگی، آزادی در ارواین، اکتبر ۲۰۲۲",
+    "summary": "SIGS دعوت گردهمایی زن، زندگی، آزادی در تقاطع جفری و بارانکا، کنار کالج ارواین ولی، را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "eed06a7b1d7f1dc16ab976b07860ae51c478c51f97b373cfb61d6939ef1a70f4",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-isu-culture-show-2025",
+    "locale": "fa",
+    "title": "جشن فرهنگی و مراسم خداحافظی انجمن دانشجویان ایرانی UCI، ۲۰۲۵",
+    "summary": "انجمن دانشجویان ایرانی UCI جشن فرهنگی و مراسم خداحافظی را اعلام کرد. SIGS دعوت این برنامه را برای یکشنبه ۸ ژوئن به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "666146066087dfc9c8e6f2433b1e6d72fde1a0ff48a912abd16f0815fca4f83f",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "usc-sigs-nowruz-2024",
+    "locale": "fa",
+    "title": "جشن نوروز ۱۴۰۳ با USC و UCI",
+    "summary": "SIGS و انجمن دانشجویان تحصیلات تکمیلی ایرانی USC جشن مشترک نوروز را در تالار تروجن گرند USC با دی‌جی ال اعلام کردند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "7ba4b5ced3df8687ceeb3ba6ae4e87d438bb1b3218e2dd4b075c046eeb053d66",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "march-iran-afghanistan-2022",
+    "locale": "fa",
+    "title": "راهپیمایی برای ایران و افغانستان در UCI، ۲۰۲۲",
+    "summary": "انجمن دانشجویان ایرانی UCI و Middle East Matters راهپیمایی را با شروع از کنار میله‌های پرچم مرکز دانشجویی اعلام کردند. SIGS دعوت آن‌ها را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "648a0fcdf97a3b0425df3c445c62494891b71ff3df2af9990a8ad43068e76eac",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-graduate-support-2022-10-12",
+    "locale": "fa",
+    "title": "نشست حمایت از دانشجویان ایرانی UCI، اکتبر ۲۰۲۲",
+    "summary": "بخش تحصیلات تکمیلی UCI از جامعهٔ دانشجویان ایرانی برای نشست حمایتی در مرکز منابع دانشجویان تحصیلات تکمیلی و پژوهشگران پسادکتری دعوت کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "2f4e567d2f875f510e180fee3adf4aba5664b2dcbf66ab2cb9d028bdc345c90b",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "lily-sarafan-conversation-2022",
+    "locale": "fa",
+    "title": "گفت‌وگو با لیلی صرافان در مجموعهٔ روایت یک موفقیت",
+    "summary": "انجمن دانشجویان ایرانی کالیفرنیا و مرکز برابری پارس گفت‌وگو با لیلی صرافان را در مجموعهٔ «روایت یک موفقیت» اعلام کردند.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "7fdc3bdb3cb90a196409198f920a1aa9e68987041771b20211c384adad0c2063",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "usc-ucla-nowruz-2022",
+    "locale": "fa",
+    "title": "جشن نوروز ۱۴۰۱ با USC و UCLA",
+    "summary": "انجمن‌های دانشجویان ایرانی USC و UCLA جشن مشترک نوروز را در تالار تروجن USC اعلام کردند. SIGS اطلاعیهٔ برنامه را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "4016e243cfc1406166e18a4439c3a1e0196fb8bae09b17fd4ed32ddffe6b678e",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "uci-alumni-social-mixer-2020",
+    "locale": "fa",
+    "title": "دورهمی شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI، ۲۰۲۰",
+    "summary": "شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI دوستان را به دورهمی عصرگاهی در Anthill Pub and Grill دعوت کرد.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "0d3e9126e9f5c0bfbcf4c6b51903fc72b20c4ca8bcd588d459c9550d704b7656",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "womens-month-the-girls-2019",
+    "locale": "fa",
+    "title": "ماه جهانی زنان؛ نمایش «دخترها»",
+    "summary": "مرکز جردن نمایش «دخترها» را به مناسبت ماه جهانی زنان در تالار البرز اعلام کرد. SIGS هم دعوت نمایش را به اشتراک گذاشت.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "fc8d5e00991be88212662ddeb0192e7f4dae3cbf35b8301b16ae0885253de987",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "let-her-sing-2024",
+    "locale": "fa",
+    "title": "بگذار بخواند؛ جشنی برای صدای زنان",
+    "summary": "SIGS دعوت برنامهٔ «بگذار بخواند» در تالار کنسرت زیپر را به اشتراک گذاشت. در معرفی برنامه، نام Saba Zameni و Ayda Rastgoo آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "f54bed0f9a449ed53c674308c71921a5bcac3d993dca01461f9a06299b5ec8fd",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "color-party-2024",
+    "locale": "fa",
+    "title": "مهمانی رنگ‌ها، ۲۰۲۴",
+    "summary": "SIGS تخفیف دانشجویی مهمانی رنگ‌ها از Blue Birdy Entertainment در وست هالیوود را به اشتراک گذاشت. نام دی‌جی نسیم، دی‌جی سپند و دی‌جی رهام در پوستر آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "6a6e815abcb641842631ed0ee9a618ff9d08cee94d626c9429a4783affb35bfe",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "chaharshanbe-souri-flame-2024",
+    "locale": "fa",
+    "title": "چهارشنبه‌سوری در Flame International، ۲۰۲۴",
+    "summary": "Sefr21 و PAN مهمانی چهارشنبه‌سوری را در Flame International با دی‌جی فرزاد اعلام کردند. طبق پوستر، برنامه روز ۸ مارس بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "3754a2ee4678fb7219b18766bc96aa0c9a1a8d239e7061ec532a3d51b9d0738a",
+    "reviewedOn": "2026-11-06"
   }
 ]

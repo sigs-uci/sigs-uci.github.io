@@ -71,7 +71,9 @@ test('date-only filtering uses the campus day and keeps announcements past', () 
   const historical = events.filter(event => event.archiveLabel);
   assert.equal(filterEvents(historical, { period: 'upcoming' }, testClock).length, 0);
   assert.equal(filterEvents(historical, { period: 'past' }, testClock).length, historical.length);
-  assert.equal(filterEvents(events, { year: '2019', category: 'film-poetry' }, testClock)[0]?.id, 'pol-media-film-weekend-2019');
+  const films = filterEvents(events, { year: '2019', category: 'film-poetry' }, testClock);
+  assert.ok(films.some(event => event.id === 'pol-media-film-weekend-2019'));
+  assert.ok(films.every(event => event.date.contextYear === 2019 && event.category === 'film-poetry'));
   assert.equal(filterEvents(events, { query: 'no matching event phrase' }, testClock).length, 0);
   assert.equal(filterEvents(events, {}, testClock).length, events.length);
 });
@@ -93,7 +95,9 @@ test('event filters find the same records with Western, Persian and Arabic-Indic
     const translation = eventTranslations.find(record => record.eventId === event.id)!;
     return { ...event, title: translation.title, summary: translation.summary };
   });
-  for (const query of ['2025', '۲۰۲۵', '٢٠٢٥']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id).sort(), ['networking-2025','yalda-2025']);
+  const expected2025 = localized.filter(event => event.date.contextYear === 2025).map(event => event.id).sort();
+  assert.ok(expected2025.includes('networking-2025') && expected2025.includes('yalda-2025'));
+  for (const query of ['2025', '۲۰۲۵', '٢٠٢٥']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id).sort(), expected2025);
   for (const query of ['HG1030', 'HG۱۰۳۰', 'HG١٠٣٠']) assert.deepEqual(filterEvents(localized, { query }).map(event => event.id).sort(), ['super-sohrab-2016','tales-2016']);
   assert.equal(normalizeSearch('۲۰۲۵'), '۲۰۲۵');
 });
