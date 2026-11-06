@@ -89,6 +89,7 @@ const contactRoutes = [
 
   {path === 'contact' && <>
     <section class="prose"><p>{t('Each link below opens an email to SIGS with a suggested subject. You can also write directly to')} <a href={`mailto:${site.email}`}><bdi>{site.email}</bdi></a>.</p></section>
+    {organization.socialChannels.length > 0 && <nav class="subnav" aria-label={t('SIGS social accounts')}>{organization.socialChannels.map(channel => <a href={channel.url}>{t(channel.name)} <span aria-hidden="true">↗</span></a>)}</nav>}
     <div class="contact-routes">{contactRoutes.map(route => <section class="contact-route"><h2>{t(route.title)}</h2><p>{t(route.text)}</p><a class="text-link" href={emailLink(t(route.subject))}>{t(route.action)} <span aria-hidden="true">↗</span></a></section>)}</div>
     <p class="notice">{t('Email links open your email application. Please share only the personal information needed for your question. Public repository issues are visible to everyone.')}</p>
   </>}

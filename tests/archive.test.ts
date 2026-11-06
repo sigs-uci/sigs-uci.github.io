@@ -11,7 +11,8 @@ test('year archives retain each canonical historical record exactly once', () =>
   assert.equal(new Set(listed).size, listed.length);
   assert.ok(years.find(year => year.year === '2019')?.records.some(record=>record.id==='career-panel-2019'));
   assert.deepEqual(years.find(year => year.year === '2026')?.records.map(record => record.id).sort(),
-    ['solidarity-2026-02-02', 'solidarity-2026-02-10', 'spring-gathering-2026', 'world-cup-iran-egypt-2026'].sort());
+    ['candlelight-vigil-2026-01-21', 'community-discussion-2026-02-03', 'isc-trails-of-lights-2026',
+      'solidarity-2026-02-02', 'solidarity-2026-02-10', 'spring-gathering-2026', 'world-cup-iran-egypt-2026'].sort());
   assert.equal(years.find(year=>year.year==='2020')?.records.find(record=>record.id==='nowruz-2020')?.eventState,'cancelled');
   assert.equal(years.flatMap(year => year.records).filter(event => event.archiveLabel === 'Archived announcement').length, events.filter(event=>event.archiveLabel==='Archived announcement').length);
 });

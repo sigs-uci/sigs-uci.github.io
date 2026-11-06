@@ -335,7 +335,14 @@
       "yalda-2018-ballroom-invitation",
       "yalda-2018-kamyar-invitation",
       "yalda-2018-invitation-film",
-      "yalda-2018-kamyar-program-poster"
+      "yalda-2018-kamyar-program-poster",
+      "yalda-2018-archive-clip-01",
+      "yalda-2018-archive-clip-02",
+      "yalda-2018-archive-clip-03",
+      "yalda-2018-archive-clip-04",
+      "yalda-2018-archive-clip-05",
+      "yalda-2018-archive-clip-07",
+      "yalda-2018-archive-clip-08"
     ]
   },
   {
@@ -648,7 +655,19 @@
       "nowruz-2019-musician-tombak",
       "nowruz-2019-guest-portrait",
       "nowruz-2019-sold-out-announcement",
-      "nowruz-2019-k-von-invitation"
+      "nowruz-2019-k-von-invitation",
+      "nowruz-2019-archive-photo-12",
+      "nowruz-2019-archive-photo-13",
+      "nowruz-2019-archive-clip-05",
+      "nowruz-2019-archive-clip-06",
+      "nowruz-2019-archive-clip-08",
+      "nowruz-2019-archive-clip-09",
+      "nowruz-2019-archive-clip-10",
+      "nowruz-2019-archive-clip-11",
+      "nowruz-2019-archive-clip-12",
+      "nowruz-2019-archive-clip-13",
+      "nowruz-2019-archive-clip-14",
+      "nowruz-2019-archive-clip-15"
     ]
   },
   {
@@ -675,7 +694,12 @@
       "mehmooni-2018-photo-010",
       "mehmooni-2018-photo-011",
       "mehmooni-2018-photo-012",
-      "mehmooni-2018-invitation"
+      "mehmooni-2018-invitation",
+      "mehmooni-2018-archive-clip-01",
+      "mehmooni-2018-archive-clip-02",
+      "mehmooni-2018-archive-clip-03",
+      "mehmooni-2018-archive-clip-04",
+      "mehmooni-2018-archive-clip-05"
     ],
     "eventIds": [
       "mehmooni-2018"
@@ -706,7 +730,21 @@
       "yalda-2019-photo-009",
       "yalda-2019-photo-010",
       "yalda-2019-sandy-portrait-invitation",
-      "yalda-2019-sandy-invitation"
+      "yalda-2019-sandy-invitation",
+      "yalda-2019-archive-clip-01",
+      "yalda-2019-archive-clip-02",
+      "yalda-2019-archive-clip-03",
+      "yalda-2019-archive-clip-04",
+      "yalda-2019-archive-clip-05",
+      "yalda-2019-archive-clip-06",
+      "yalda-2019-archive-clip-07",
+      "yalda-2019-archive-clip-08",
+      "yalda-2019-archive-clip-09",
+      "yalda-2019-archive-clip-10",
+      "yalda-2019-archive-clip-11",
+      "yalda-2019-archive-clip-12",
+      "yalda-2019-archive-clip-13",
+      "yalda-2019-archive-clip-14"
     ],
     "eventIds": [
       "yalda-2019"
@@ -999,7 +1037,12 @@
       "halloween-2018-photo-199",
       "halloween-2018-photo-200",
       "halloween-2018-invitation-film",
-      "halloween-2018-illustrated-invitation"
+      "halloween-2018-illustrated-invitation",
+      "halloween-2018-archive-clip-01",
+      "halloween-2018-archive-clip-02",
+      "halloween-2018-archive-clip-04",
+      "halloween-2018-archive-clip-05",
+      "halloween-2018-archive-clip-07"
     ]
   },
   {
@@ -1366,7 +1409,10 @@
     ],
     "coverId": "beach-volleyball-2018-recap",
     "mediaIds": [
-      "beach-volleyball-2018-recap"
+      "beach-volleyball-2018-recap",
+      "beach-volleyball-2018-archive-photo-01",
+      "beach-volleyball-2018-archive-photo-02",
+      "beach-volleyball-2018-archive-clip-02"
     ]
   },
   {
@@ -1384,7 +1430,9 @@
     ],
     "coverId": "taco-tuesday-2018-recap",
     "mediaIds": [
-      "taco-tuesday-2018-recap"
+      "taco-tuesday-2018-recap",
+      "taco-tuesday-2018-archive-clip-02",
+      "taco-tuesday-2018-archive-clip-03"
     ]
   },
   {
@@ -1458,28 +1506,29 @@
       "bonfire-2023-10-06-poster",
       "beach-gatherings-video-050",
       "beach-gatherings-video-051",
-      "beach-gatherings-video-052"
+      "beach-gatherings-video-052",
+      "bonfire-2023-10-06-archive-clip-01",
+      "bonfire-2023-10-06-archive-photo-01",
+      "bonfire-2023-10-06-archive-clip-02"
     ]
   },
   {
     "id": "beach-gatherings",
     "title": {
-      "en": "By the beach",
-      "fa": "کنار ساحل"
+      "en": "Corona del Mar, October 2023",
+      "fa": "کورونا دل مار، اکتبر ۲۰۲۳"
     },
     "description": {
-      "en": "A nighttime beach photograph.",
-      "fa": "عکسی از یک دورهمی شبانه در ساحل."
+      "en": "SIGS fall bonfire at Corona del Mar, October 6, 2023.",
+      "fa": "دورهمی پاییزی SIGS کنار آتش در ساحل کورونا دل مار، ۶ اکتبر ۲۰۲۳."
     },
     "coverId": "beach-gatherings-image-083",
     "mediaIds": [
       "beach-gatherings-image-083"
     ],
-    "eventIds": [],
-    "note": {
-      "en": "The event and date for this photograph have not been confirmed.",
-      "fa": "نام برنامه و تاریخ این عکس هنوز مشخص نیست."
-    }
+    "eventIds": [
+      "bonfire-2023-10-06"
+    ]
   },
   {
     "id": "boat-outing",
@@ -1587,23 +1636,21 @@
   {
     "id": "costume-and-karaoke",
     "title": {
-      "en": "Community photographs",
-      "fa": "عکس‌های انجمن"
+      "en": "Halloween at Palo Verde, 2023",
+      "fa": "هالووین در پالو ورده، ۲۰۲۳"
     },
     "description": {
-      "en": "Photos from the SIGS community.",
-      "fa": "عکس‌هایی از جمع SIGS."
+      "en": "Halloween Night at Palo Verde Community Room, October 29, 2023.",
+      "fa": "شب هالووین در سالن اجتماعات پالو ورده، ۲۹ اکتبر ۲۰۲۳."
     },
     "coverId": "costume-and-karaoke-image-089",
     "mediaIds": [
       "costume-and-karaoke-image-089",
       "costume-and-karaoke-image-090"
     ],
-    "eventIds": [],
-    "note": {
-      "en": "The events and dates for these two photographs have not been confirmed.",
-      "fa": "هنوز مشخص نیست این دو عکس مربوط به کدام برنامه و چه تاریخی هستند."
-    }
+    "eventIds": [
+      "halloween-2023"
+    ]
   },
   {
     "id": "indoor-community-gathering",
@@ -1686,7 +1733,10 @@
     "coverId": "community-football-portrait",
     "mediaIds": [
       "community-football-portrait",
-      "football-gathering-recap"
+      "football-gathering-recap",
+      "world-cup-iran-morocco-2018-archive-clip-02",
+      "world-cup-iran-morocco-2018-archive-photo-02",
+      "world-cup-iran-morocco-2018-archive-clip-04"
     ],
     "eventIds": [
       "world-cup-iran-morocco-2018"
@@ -1797,9 +1847,34 @@
       "nabavi-2013-invitation",
       "parissa-2013-invitation",
       "halloween-2019-invitation",
-      "welcome-2023-newcomer-artwork"
+      "welcome-2023-newcomer-artwork",
+      "mafia-night-2021-archive-poster",
+      "mental-health-mindfulness-2020-archive-poster",
+      "dorehami-game-night-2020-archive-poster",
+      "maryam-mirzakhani-memorial-2017-archive-poster",
+      "world-cup-iran-spain-2018-archive-poster",
+      "spring-bonfire-2021-cancelled-notice",
+      "happy-hour-2020-07-28-archive-poster",
+      "happy-hour-2020-08-07-archive-poster",
+      "nutrition-wellness-2020-archive-poster",
+      "stress-management-2021-archive-poster",
+      "dorehami-movie-night-2020-archive-poster",
+      "usc-sigs-nowruz-2024-joint-invitation"
     ],
-    "eventIds": []
+    "eventIds": [
+      "mafia-night-2021",
+      "mental-health-mindfulness-2020",
+      "dorehami-game-night-2020",
+      "maryam-mirzakhani-memorial-2017",
+      "world-cup-iran-spain-2018",
+      "spring-bonfire-2021",
+      "happy-hour-2020-07-28",
+      "happy-hour-2020-08-07",
+      "nutrition-wellness-2020",
+      "stress-management-2021",
+      "dorehami-movie-night-2020",
+      "usc-sigs-nowruz-2024"
+    ]
   },
   {
     "id": "film-and-poetry",
@@ -1822,7 +1897,9 @@
       "pol-film-weekend-2019-community",
       "secrets-of-the-surface-2020-invitation",
       "poetry-night-2019-invitation",
-      "pol-media-film-weekend-2019-invitation"
+      "pol-media-film-weekend-2019-invitation",
+      "pol-media-film-weekend-2019-archive-photo-01",
+      "secrets-of-the-surface-2020-archive-poster"
     ],
     "eventIds": [
       "poetry-night-2019",
@@ -1849,7 +1926,8 @@
       "community-statement-2022-page-02",
       "community-statement-2022-page-03",
       "community-statement-2022-page-04",
-      "community-statement-2022-page-05"
+      "community-statement-2022-page-05",
+      "ps752-memorial-2020-archive-photo-01"
     ]
   },
   {
@@ -1900,7 +1978,10 @@
       "nowruz-celebrations-image-037",
       "nowruz-celebrations-image-038",
       "gatherings-and-dance-image-039",
-      "gatherings-and-dance-image-040"
+      "gatherings-and-dance-image-040",
+      "nowruz-2018-archive-clip-01",
+      "nowruz-2018-archive-clip-02",
+      "nowruz-2018-archive-photo-01"
     ],
     "eventIds": [
       "nowruz-2018"
@@ -1977,10 +2058,354 @@
     "coverId": "gatherings-and-dance-image-044",
     "mediaIds": [
       "gatherings-and-dance-image-044",
-      "yalda-celebrations-image-013"
+      "yalda-celebrations-image-013",
+      "yalda-2017-archive-photo-01"
     ],
     "eventIds": [
       "yalda-2017"
+    ]
+  },
+  {
+    "id": "solidarity-2022-09-27",
+    "title": {
+      "en": "Campus Solidarity Gathering, September 2022",
+      "fa": "گردهمایی همبستگی در دانشگاه، سپتامبر ۲۰۲۲"
+    },
+    "description": {
+      "en": "SIGS and the Jordan Center joined the UCI community for a solidarity gathering at Humanities Gateway Courtyard. Guest speakers included Katie Porter.",
+      "fa": "SIGS و مرکز جردن همراه با جمع دانشگاهی UCI در گردهمایی همبستگی در حیاط هیومنیتیز گیت‌وی حضور داشتند. کیتی پورتر از سخنرانان مهمان برنامه بود."
+    },
+    "coverId": "solidarity-2022-archive-photo-01",
+    "mediaIds": [
+      "solidarity-2022-archive-photo-01",
+      "solidarity-2022-archive-photo-02",
+      "solidarity-2022-archive-clip-01"
+    ],
+    "eventIds": [
+      "solidarity-2022-09-27"
+    ]
+  },
+  {
+    "id": "bonfire-2019",
+    "title": {
+      "en": "SIGS Bonfire 2019",
+      "fa": "دورهمی ساحلی SIGS، ۲۰۱۹"
+    },
+    "description": {
+      "en": "SIGS held its fall bonfire at Corona del Mar. The next-day recap thanked everyone who came.",
+      "fa": "SIGS دورهمی پاییزی کنار آتش را در کورونا دل مار برگزار کرد و روز بعد از دوستانی که آمده بودند تشکر کرد."
+    },
+    "coverId": "bonfire-2019-archive-photo-01",
+    "mediaIds": [
+      "bonfire-2019-archive-photo-01",
+      "bonfire-2019-archive-photo-02",
+      "bonfire-2019-archive-photo-03",
+      "bonfire-2019-archive-clip-01",
+      "bonfire-2019-archive-clip-02"
+    ],
+    "eventIds": [
+      "bonfire-2019"
+    ]
+  },
+  {
+    "id": "iftar-2019",
+    "title": {
+      "en": "Iftar at UCI 2019",
+      "fa": "افطار در UCI، ۲۰۱۹"
+    },
+    "description": {
+      "en": "SIGS hosted Iftar and dinner in the upstairs Palo Verde community room. Friends helped put the meal together.",
+      "fa": "SIGS مراسم افطار و شام را در طبقهٔ بالای سالن اجتماعات پالو ورده برگزار کرد. دوستان هم در آماده کردن سفره همراهی کردند."
+    },
+    "coverId": "iftar-2019-archive-photo-01",
+    "mediaIds": [
+      "iftar-2019-archive-photo-01",
+      "iftar-2019-archive-photo-02",
+      "iftar-2019-archive-photo-03",
+      "iftar-2019-archive-photo-04",
+      "iftar-2019-archive-photo-05",
+      "iftar-2019-archive-photo-06",
+      "iftar-2019-archive-photo-07",
+      "iftar-2019-archive-photo-08",
+      "iftar-2019-archive-photo-09",
+      "iftar-2019-archive-photo-10",
+      "iftar-2019-archive-clip-02"
+    ],
+    "eventIds": [
+      "iftar-2019"
+    ]
+  },
+  {
+    "id": "game-hookah-night-2018",
+    "title": {
+      "en": "SIGS Game and Hookah Night",
+      "fa": "شب بازی و قلیان SIGS، ۲۰۱۸"
+    },
+    "description": {
+      "en": "SIGS met at IVY Lounge and Grill in Tustin for a Friday game night.",
+      "fa": "SIGS برای شب بازی جمعه در IVY Lounge and Grill در تاستین دور هم جمع شد."
+    },
+    "coverId": "game-hookah-night-2018-archive-photo-01",
+    "mediaIds": [
+      "game-hookah-night-2018-archive-clip-01",
+      "game-hookah-night-2018-archive-clip-02",
+      "game-hookah-night-2018-archive-clip-03",
+      "game-hookah-night-2018-archive-clip-04",
+      "game-hookah-night-2018-archive-photo-01",
+      "game-hookah-night-2018-archive-clip-05"
+    ],
+    "eventIds": [
+      "game-hookah-night-2018"
+    ]
+  },
+  {
+    "id": "movie-night-2024",
+    "title": {
+      "en": "SIGS Movie Night and Party 2024",
+      "fa": "شب فیلم و مهمانی SIGS، ۲۰۲۴"
+    },
+    "description": {
+      "en": "SIGS held a movie night at Verano Place, with pizza and snacks. Films and music were on the evening’s program.",
+      "fa": "SIGS در ورانو پلیس شب فیلم برگزار کرد و از دوستان با پیتزا و تنقلات پذیرایی شد. فیلم و موسیقی در برنامهٔ آن شب بود."
+    },
+    "coverId": "movie-night-2024-archive-clip-01",
+    "mediaIds": [
+      "movie-night-2024-archive-clip-01"
+    ],
+    "eventIds": [
+      "movie-night-2024"
+    ]
+  },
+  {
+    "id": "yalda-2023",
+    "title": {
+      "en": "Yalda Night 2023",
+      "fa": "شب یلدای ۲۰۲۳"
+    },
+    "description": {
+      "en": "SIGS celebrated Yalda at Pacific Ballroom CD with music, dancing and a song quiz. The invitation advertised Ila Dance, Amir and DJ Julius, with appetizers and soft drinks included.",
+      "fa": "SIGS شب یلدا را در سالن پسیفیک CD با موسیقی، رقص و بازی حدس آهنگ جشن گرفت. در اطلاعیهٔ برنامه نام Ila Dance، امیر و دی‌جی جولیوس آمده بود و پذیرایی شامل پیش‌غذا و نوشیدنی بدون الکل بود."
+    },
+    "coverId": "yalda-2023-archive-clip-04",
+    "mediaIds": [
+      "yalda-2023-archive-clip-01",
+      "yalda-2023-archive-clip-02",
+      "yalda-2023-archive-clip-05",
+      "yalda-2023-archive-clip-06",
+      "yalda-2023-archive-clip-03",
+      "yalda-2023-archive-clip-04"
+    ],
+    "eventIds": [
+      "yalda-2023"
+    ]
+  },
+  {
+    "id": "bonfire-2023-02-04",
+    "title": {
+      "en": "SIGS Winter Bonfire 2023",
+      "fa": "دورهمی کنار آتش، زمستان ۲۰۲۳"
+    },
+    "description": {
+      "en": "SIGS held a Saturday-afternoon bonfire at Corona del Mar.",
+      "fa": "SIGS شنبه‌بعدازظهر دورهمی کنار آتش را در ساحل کورونا دل مار برگزار کرد."
+    },
+    "coverId": "bonfire-2023-02-archive-photo-01",
+    "mediaIds": [
+      "bonfire-2023-02-archive-photo-01"
+    ],
+    "eventIds": [
+      "bonfire-2023-02-04"
+    ]
+  },
+  {
+    "id": "game-night-2022",
+    "title": {
+      "en": "SIGS Game Night 2022",
+      "fa": "شب بازی SIGS، ۲۰۲۲"
+    },
+    "description": {
+      "en": "SIGS held a potluck and game night at the Palo Verde community room.",
+      "fa": "SIGS دورهمی غذا و بازی را در سالن اجتماعات پالو ورده برگزار کرد."
+    },
+    "coverId": "game-night-2022-12-archive-photo-01",
+    "mediaIds": [
+      "game-night-2022-12-archive-photo-01"
+    ],
+    "eventIds": [
+      "game-night-2022"
+    ]
+  },
+  {
+    "id": "mehmooni-2019",
+    "title": {
+      "en": "Mehmooni",
+      "fa": "مهمونی"
+    },
+    "description": {
+      "en": "SIGS joined student groups from UCLA, UC Riverside and Cal State Fullerton for the SIAS Mehmooni party at Fu’s Palace.",
+      "fa": "SIGS همراه با انجمن‌های دانشجویی UCLA، یو‌سی ریورساید و کال‌استیت فولرتون در مهمانی «مهمونی» SIAS در Fu’s Palace شرکت کرد."
+    },
+    "coverId": "mehmooni-2019-archive-clip-01",
+    "mediaIds": [
+      "mehmooni-2019-archive-clip-01",
+      "mehmooni-2019-archive-clip-02",
+      "mehmooni-2019-archive-clip-03"
+    ],
+    "eventIds": [
+      "mehmooni-2019"
+    ]
+  },
+  {
+    "id": "welcome-2019",
+    "title": {
+      "en": "Welcome Week Barbecue 2019",
+      "fa": "باربیکیوی خوشامدگویی، ۲۰۱۹"
+    },
+    "description": {
+      "en": "SIGS welcomed new students with a Sunday barbecue at the Verano Housing Office. UCI students and alumni were invited.",
+      "fa": "SIGS با باربیکیوی یکشنبه در دفتر مسکن ورانو به دانشجویان جدید خوشامد گفت. برنامه برای دانشجویان و دانش‌آموختگان UCI بود."
+    },
+    "coverId": "welcome-2019-archive-clip-01",
+    "mediaIds": [
+      "welcome-2019-archive-clip-01",
+      "welcome-2019-archive-poster"
+    ],
+    "eventIds": [
+      "welcome-2019"
+    ]
+  },
+  {
+    "id": "potluck-2019",
+    "title": {
+      "en": "End-of-Year Potluck 2019",
+      "fa": "دورهمی غذا در پایان سال تحصیلی، ۲۰۱۹"
+    },
+    "description": {
+      "en": "SIGS marked the end of the academic year with a potluck and barbecue at Verano Place Commons.",
+      "fa": "SIGS پایان سال تحصیلی را با دورهمی غذا و باربیکیو در ورانو پلیس کامنز گذراند."
+    },
+    "coverId": "potluck-2019-archive-clip-01",
+    "mediaIds": [
+      "potluck-2019-archive-clip-01"
+    ],
+    "eventIds": [
+      "potluck-2019"
+    ]
+  },
+  {
+    "id": "persian-breakfast-2019",
+    "title": {
+      "en": "SIGS Persian Breakfast and General Meeting",
+      "fa": "صبحانهٔ ایرانی و نشست عمومی SIGS، ۲۰۱۹"
+    },
+    "description": {
+      "en": "SIGS hosted Persian breakfast and tea at Palo Verde on a Saturday morning.",
+      "fa": "SIGS شنبه‌صبح در پالو ورده با صبحانهٔ ایرانی و چای از دوستان پذیرایی کرد."
+    },
+    "coverId": "persian-breakfast-2019-archive-photo-01",
+    "mediaIds": [
+      "persian-breakfast-2019-archive-clip-01",
+      "persian-breakfast-2019-archive-photo-01"
+    ],
+    "eventIds": [
+      "persian-breakfast-2019"
+    ]
+  },
+  {
+    "id": "ociacc-professional-mixer-2019",
+    "title": {
+      "en": "Joint Valentine's Mixer",
+      "fa": "دورهمی آشنایی با متخصصان با همکاری OCIACC"
+    },
+    "description": {
+      "en": "SIGS and OCIACC invited students and local professionals to an evening mixer at Delta Hotels by Marriott Anaheim.",
+      "fa": "SIGS و OCIACC از دانشجویان و متخصصان منطقه دعوت کردند در هتل دلتا ماریوت آناهایم با هم آشنا شوند و گفت‌وگو کنند."
+    },
+    "coverId": "ociacc-valentines-mixer-2019-archive-clip-01",
+    "mediaIds": [
+      "ociacc-valentines-mixer-2019-archive-clip-01",
+      "ociacc-valentines-mixer-2019-archive-clip-02"
+    ],
+    "eventIds": [
+      "ociacc-professional-mixer-2019"
+    ]
+  },
+  {
+    "id": "bonfire-2018-10-20",
+    "title": {
+      "en": "Beach Bonfire, October 20, 2018",
+      "fa": "دورهمی کنار آتش، ۲۰ اکتبر ۲۰۱۸"
+    },
+    "description": {
+      "en": "SIGS held its fall bonfire at Corona del Mar on October 20, after moving it from October 13.",
+      "fa": "دورهمی پاییزی SIGS کنار آتش در کورونا دل مار، پس از جابه‌جایی از ۱۳ اکتبر، روز ۲۰ اکتبر برگزار شد."
+    },
+    "coverId": "bonfire-2018-10-20-archive-clip-01",
+    "mediaIds": [
+      "bonfire-2018-10-20-archive-clip-01",
+      "bonfire-2018-10-20-archive-clip-02",
+      "bonfire-2018-10-20-archive-clip-03"
+    ],
+    "eventIds": [
+      "bonfire-2018-10-20"
+    ]
+  },
+  {
+    "id": "world-cup-iran-portugal-2018",
+    "title": {
+      "en": "Iran and Portugal World Cup watch party",
+      "fa": "تماشای بازی ایران و پرتغال در جام جهانی"
+    },
+    "description": {
+      "en": "SIGS watched Iran play Portugal together. A same-day update moved the gathering from the clubhouse to 7000 Palo Verde Road.",
+      "fa": "دوستان SIGS بازی ایران و پرتغال را کنار هم تماشا کردند. طبق اطلاعیهٔ همان روز، محل دورهمی از کلاب‌هاوس به نشانی ۷۰۰۰ پالو ورده تغییر کرد."
+    },
+    "coverId": "world-cup-iran-portugal-2018-archive-clip-01",
+    "mediaIds": [
+      "world-cup-iran-portugal-2018-archive-clip-01",
+      "world-cup-iran-portugal-2018-archive-clip-02",
+      "world-cup-iran-portugal-2018-archive-clip-03",
+      "world-cup-iran-portugal-2018-archive-poster"
+    ],
+    "eventIds": [
+      "world-cup-iran-portugal-2018"
+    ]
+  },
+  {
+    "id": "iftar-2018",
+    "title": {
+      "en": "Iftar at UCI 2018",
+      "fa": "افطار در UCI، ۲۰۱۸"
+    },
+    "description": {
+      "en": "SIGS hosted Iftar and dinner at the Palo Verde community room.",
+      "fa": "SIGS مراسم افطار و شام را در سالن اجتماعات پالو ورده برگزار کرد."
+    },
+    "coverId": "iftar-2018-archive-photo-01",
+    "mediaIds": [
+      "iftar-2018-archive-clip-01",
+      "iftar-2018-archive-photo-01"
+    ],
+    "eventIds": [
+      "iftar-2018"
+    ]
+  },
+  {
+    "id": "iranian-american-reception-2019",
+    "title": {
+      "en": "UCI Iranian American Networking Reception, 2019",
+      "fa": "دیدار و آشنایی جامعهٔ ایرانی‌آمریکایی UCI، ۲۰۱۹"
+    },
+    "description": {
+      "en": "SIGS shared an invitation for UCI students and alumni to meet the Iranian American community at Newkirk Alumni Center. Remarks by Rameen Talesh and Niaz Kasravi, Persian appetizers and tea were advertised for the reception.",
+      "fa": "SIGS دعوت‌نامه‌ای را برای دیدار دانشجویان و فارغ‌التحصیلان UCI با جامعهٔ ایرانی‌آمریکایی در مرکز فارغ‌التحصیلان نیوکرک منتشر کرده بود. سخنرانی Rameen Talesh و Niaz Kasravi، پیش‌غذاهای ایرانی و چای در برنامهٔ این دیدار آمده بود."
+    },
+    "coverId": "iranian-american-reception-2019-archive-clip-01",
+    "mediaIds": [
+      "iranian-american-reception-2019-archive-clip-01"
+    ],
+    "eventIds": [
+      "iranian-american-reception-2019"
     ]
   }
 ]
