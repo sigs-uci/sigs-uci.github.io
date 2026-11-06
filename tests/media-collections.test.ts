@@ -3,8 +3,21 @@ import assert from 'node:assert/strict';
 import { events } from '../src/data';
 import { isPublicEvent } from '../src/lib/events';
 import { availableLocales } from '../src/lib/publication';
-import { collectionItems, collectionPath, mediaCollections, publicMedia, teamPortraitIds, validateMediaCollections } from '../src/lib/media';
+import { collectionItems, collectionEventIds, collectionPath, mediaCollections, publicMedia, teamPortraitIds, validateMediaCollections } from '../src/lib/media';
 import { pages } from '../src/lib/routes';
+
+test('album search includes every linked item event while keeping the selected navigation links', () => {
+  const collection = mediaCollections.find(item => item.id === 'posters-and-venues')!;
+  const navigation = [...collection.eventIds];
+  const omitted = collectionItems(collection).filter(item => item.eventId && !navigation.includes(item.eventId));
+  assert.ok(omitted.length > 0);
+  const ids = collectionEventIds(collection);
+  assert.equal(new Set(ids).size, ids.length);
+  for (const item of omitted) assert.ok(ids.includes(item.eventId!), item.id);
+  assert.ok(navigation.every(id => ids.includes(id)));
+  assert.ok(ids.every(id => events.some(event => event.id === id && isPublicEvent(event))));
+  assert.deepEqual(collection.eventIds, navigation);
+});
 
 test('team portraits stay on team pages without inflating community albums', () => {
   assert.ok(teamPortraitIds.size > 0);
