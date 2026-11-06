@@ -24,6 +24,9 @@ export const mediaCollections = collectionData as MediaCollection[];
 export const publicVideos = publicMedia.filter(item => item.kind === 'video');
 export const collectionItems = (collection: MediaCollection): MediaRecord[] => collection.mediaIds
   .map(id => mediaById.get(id)).filter((item): item is MediaRecord => Boolean(item));
+export const collectionEventIds = (collection: MediaCollection): string[] => [...new Set([
+  ...collection.eventIds, ...collectionItems(collection).flatMap(item => item.eventId ? [item.eventId] : []),
+])];
 export const collectionPath = (collection: MediaCollection): string => `community/memories/${collection.id}`;
 export const albumPageSize = 36;
 export function albumPages(collection: MediaCollection, records: readonly MediaRecord[] = collectionItems(collection)): number {

@@ -34,13 +34,13 @@ test('shared canonical lookup counts approved photographs while videos stay on a
   assert.equal(canonicalMediaTarget(clip, collections, records, 'en', 0), undefined);
 });
 
-test('all 56 removed homepage fragments resolve to existing media in the same language', () => {
-  assert.equal(current.length, 8);
+test('all 52 removed homepage fragments resolve to existing media in the same language', () => {
+  assert.equal(current.length, 20);
   for (const locale of ['en', 'fa'] as const) {
     const redirects = buildHomeMediaRedirects(current, mediaCollections, publicMedia, locale);
-    assert.equal(redirects.length, 56);
-    assert.equal(new Set(redirects.map(item => item.hash)).size, 56);
-    assert.equal(redirects.filter(item => item.hash.startsWith('#home-moment-')).length, 30);
+    assert.equal(redirects.length, 52);
+    assert.equal(new Set(redirects.map(item => item.hash)).size, 52);
+    assert.equal(redirects.filter(item => item.hash.startsWith('#home-moment-')).length, 26);
     assert.equal(redirects.filter(item => item.hash.endsWith('-caption')).length, 13);
     const map = Object.fromEntries(redirects.map(item => [item.hash, item.href]));
     for (const redirect of redirects) {

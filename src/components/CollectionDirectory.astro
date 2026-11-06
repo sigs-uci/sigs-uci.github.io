@@ -1,7 +1,7 @@
 ---
 import {href,type Locale} from '../config/site';
 import {tr,formatNumber} from '../i18n/ui';
-import {mediaCollections,collectionItems,collectionPath,publicMedia,type MediaCollection} from '../lib/media';
+import {mediaCollections,collectionItems,collectionEventIds,collectionPath,publicMedia,type MediaCollection} from '../lib/media';
 import {events} from '../data';
 import {reviewedTranslation} from '../lib/publication';
 import '../styles/media.css';
@@ -9,7 +9,7 @@ const {locale='en',collections=mediaCollections,searchable=false}=Astro.props as
 const t=(text:string)=>tr(locale,text);
 const searchText=(collection:MediaCollection)=>[
   collection.title.en,collection.title.fa,collection.description.en,collection.description.fa,
-  ...collection.eventIds.flatMap(id=>{const event=events.find(item=>item.id===id);return event?[event.title,reviewedTranslation(id)?.title,event.date.value,event.date.contextYear,event.venue,event.venue?t(event.venue):'']:[];}),
+  ...collectionEventIds(collection).flatMap(id=>{const event=events.find(item=>item.id===id);return event?[event.title,reviewedTranslation(id)?.title,event.date.value,event.date.contextYear,event.venue,event.venue?t(event.venue):'']:[];}),
 ].filter(Boolean).join(' ');
 ---
 <div data-collection-directory={searchable?true:undefined} data-locale={locale} data-single={searchable?t('collection'):undefined} data-plural={searchable?t('collections'):undefined}>

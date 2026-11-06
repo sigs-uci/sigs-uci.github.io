@@ -11,11 +11,21 @@ const { locale = 'en' } = Astro.props as { locale: Locale };
 const t = (text: string) => tr(locale, text);
 const selected = [
   'group-portraits-image-118', 'community-meals-image-110',
-  'beach-volleyball-2018-recap', 'costume-and-karaoke-image-085',
-  'welcome-2023-photo-002', 'yalda-2018-kamyar-performance',
+  'uci-mentoring-session-2024-video', 'boat-outing-image-071',
+  'beach-gatherings-image-075', 'beach-volleyball-2018-recap',
+  'costume-and-karaoke-image-085', 'welcome-2023-photo-002',
+  'yalda-2023-archive-clip-04', 'yalda-2018-kamyar-performance',
   'nowruz-celebrations-image-022', 'poetry-night-2019-photo',
+  'poetry-night-2019-tombak-video', 'iftar-2017-photo-003',
+  'nowruz-2019-photo-010', 'halloween-2018-photo-019',
+  'nowruz-2019-group-dance-clip-01', 'world-cup-iran-portugal-2018-gathering-clip-01',
+  'iftar-2019-archive-clip-02', 'bonfire-2019-archive-photo-01',
 ];
-const thumbnailWidths: Record<string, number> = { 'welcome-2023-photo-002': 600 };
+const thumbnailWidths: Record<string, number> = {
+  'welcome-2023-photo-002': 600, 'iftar-2017-photo-003': 600,
+  'nowruz-2019-photo-010': 600, 'halloween-2018-photo-019': 600,
+  'bonfire-2019-archive-photo-01': 540,
+};
 const moments = selected.flatMap(id => {
   const item = publicMedia.find(record => record.id === id);
   const collection = mediaCollections.find(record => record.mediaIds.includes(id));
