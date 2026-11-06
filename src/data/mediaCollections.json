@@ -666,7 +666,12 @@
       "nowruz-2019-archive-clip-12",
       "nowruz-2019-archive-clip-13",
       "nowruz-2019-archive-clip-14",
-      "nowruz-2019-archive-clip-15"
+      "nowruz-2019-archive-clip-15",
+      "nowruz-2019-group-dance-clip-01",
+      "nowruz-2019-group-dance-clip-02",
+      "nowruz-2019-stage-duet-video",
+      "nowruz-2019-k-von-comedy-preview",
+      "nowruz-2019-student-invitation-video"
     ]
   },
   {
@@ -698,7 +703,10 @@
       "mehmooni-2018-archive-clip-02",
       "mehmooni-2018-archive-clip-03",
       "mehmooni-2018-archive-clip-04",
-      "mehmooni-2018-archive-clip-05"
+      "mehmooni-2018-archive-clip-05",
+      "mehmooni-2018-retrospective-clip-01",
+      "mehmooni-2018-retrospective-clip-02",
+      "mehmooni-2018-on-the-way-video"
     ],
     "eventIds": [
       "mehmooni-2018"
@@ -817,7 +825,8 @@
       "welcome-2023-photo-003",
       "welcome-2023-photo-004",
       "indoor-community-gathering-image-072",
-      "indoor-community-gathering-image-074"
+      "indoor-community-gathering-image-074",
+      "welcome-2023-orientation-room-photo"
     ]
   },
   {
@@ -1041,7 +1050,8 @@
       "halloween-2018-archive-clip-02",
       "halloween-2018-archive-clip-04",
       "halloween-2018-archive-clip-05",
-      "halloween-2018-archive-clip-07"
+      "halloween-2018-archive-clip-07",
+      "halloween-2018-dj-booth-photo"
     ]
   },
   {
@@ -1573,8 +1583,8 @@
       "fa": "نوروز در کنار هم"
     },
     "description": {
-      "en": "Haft-seen tables and photographs from past Nowruz celebrations.",
-      "fa": "هفت‌سین‌ها و عکس‌هایی از جشن‌های نوروز سال‌های گذشته."
+      "en": "Haft-sin tables, community gatherings and New Year greetings.",
+      "fa": "هفت‌سین‌ها، جمع‌های دوستانه و پیام‌های نوروزی."
     },
     "note": {
       "en": "Some event names and dates in this collection are still unconfirmed.",
@@ -1586,7 +1596,10 @@
       "nowruz-celebrations-image-003",
       "nowruz-celebrations-image-016",
       "nowruz-celebrations-image-047",
-      "nowruz-celebrations-image-048"
+      "nowruz-celebrations-image-048",
+      "nowruz-haft-sin-marina-photo",
+      "nowruz-indoor-gathering-photo",
+      "milad-derakhshani-nowruz-greeting-video"
     ],
     "eventIds": [
       "nowruz-2017",
@@ -1605,7 +1618,8 @@
     },
     "coverId": "gatherings-and-dance-image-001",
     "mediaIds": [
-      "gatherings-and-dance-image-001"
+      "gatherings-and-dance-image-001",
+      "shared-string-performance-video"
     ],
     "eventIds": []
   },
@@ -1645,7 +1659,8 @@
     "coverId": "costume-and-karaoke-image-089",
     "mediaIds": [
       "costume-and-karaoke-image-089",
-      "costume-and-karaoke-image-090"
+      "costume-and-karaoke-image-090",
+      "halloween-2023-community-group-photo"
     ],
     "eventIds": [
       "halloween-2023"
@@ -1689,7 +1704,8 @@
       "group-portraits-image-121",
       "graduate-orientation-2019-community",
       "innovation-forum-2018-community",
-      "welcome-2018-community"
+      "welcome-2018-community",
+      "community-banquet-photo"
     ],
     "eventIds": [
       "innovation-forum-2018",
@@ -1732,7 +1748,8 @@
       "football-gathering-recap",
       "world-cup-iran-morocco-2018-archive-clip-02",
       "world-cup-iran-morocco-2018-archive-photo-02",
-      "world-cup-iran-morocco-2018-archive-clip-04"
+      "world-cup-iran-morocco-2018-archive-clip-04",
+      "world-cup-iran-morocco-2018-gathering-clip-01"
     ],
     "eventIds": [
       "world-cup-iran-morocco-2018"
@@ -1762,10 +1779,13 @@
       "yalda-2023-performer-portrait-01",
       "yalda-2023-performer-portrait-02",
       "yalda-2023-performer-portrait-03",
-      "yalda-2023-invitation"
+      "yalda-2023-invitation",
+      "yalda-2018-music-preview-video",
+      "yalda-2023-hosts-invitation-video"
     ],
     "eventIds": [
-      "yalda-2018"
+      "yalda-2018",
+      "yalda-2023"
     ]
   },
   {
@@ -1855,7 +1875,111 @@
       "nutrition-wellness-2020-archive-poster",
       "stress-management-2021-archive-poster",
       "dorehami-movie-night-2020-archive-poster",
-      "usc-sigs-nowruz-2024-joint-invitation"
+      "usc-sigs-nowruz-2024-joint-invitation",
+      "jordan-film-weekend-2016-program-poster",
+      "solidarity-2026-02-02-program-poster",
+      "isc-distant-performance-festival-cover",
+      "isc-distant-performance-submission-guidelines",
+      "isc-distant-performance-program-outline",
+      "isc-distant-performance-submission-call",
+      "welcome-2020-program-poster",
+      "isc-virtual-commencement-2020-program-poster",
+      "mehmooni-2019-program-poster",
+      "ali-azimi-los-angeles-2019-program-poster",
+      "career-panel-2019-program-poster",
+      "standup-yost-memorial-day-2019-program-poster",
+      "nowruz-2019-full-program-poster",
+      "ociacc-professional-mixer-2019-program-poster",
+      "taco-tuesday-2018-program-poster",
+      "bia2-warwick-2018-program-poster",
+      "solidarity-2026-02-10-program-poster",
+      "community-discussion-2026-02-03-program-poster",
+      "isc-trails-of-lights-2026-program-poster",
+      "eastalgia-songs-for-freedom-invitation",
+      "candlelight-vigil-2026-01-21-program-poster",
+      "dj-sepand-fanous-2025-program-poster",
+      "sami-beigi-greek-theatre-2025-program-poster",
+      "usc-networking-mixer-2025-08-03-program-poster",
+      "visa-status-career-growth-2025-program-poster",
+      "beach-gathering-2025-updated-invitation",
+      "uci-isu-culture-show-2025-program-poster",
+      "career-law-real-estate-immigration-2025-program-poster",
+      "csulb-nowruz-2025-program-poster",
+      "chaharshanbe-soori-flame-2025-program-poster",
+      "women-ai-careers-2025-program-poster",
+      "networking-2025-program-poster",
+      "color-party-2024-program-poster",
+      "innovate-irvine-2024-program-poster",
+      "tech-career-lab-2024-program-poster",
+      "let-her-sing-2024-program-poster",
+      "uci-networking-mixer-2024-08-10-program-poster",
+      "bowling-2024-program-poster",
+      "shabhaye-tehran-la-2024-05-31-program-poster",
+      "spring-celebration-2024-program-poster",
+      "usc-sigs-nowruz-2024-evening-schedule",
+      "nowruz-gathering-2024-program-poster",
+      "nowruz-happy-hour-2024-program-poster",
+      "chaharshanbe-souri-flame-2024-program-poster",
+      "chaharshanbe-souri-irvine-2024-program-poster",
+      "traditions-alive-san-diego-2024-program-poster",
+      "reza-rohani-sara-naeini-2024-program-poster",
+      "tech-career-lab-2023-program-poster",
+      "uci-boo-bash-2023-program-poster",
+      "how-ai-affects-innovation-2023-program-poster",
+      "usc-networking-mixer-2023-10-22-program-poster",
+      "isg-yacht-party-2023-program-poster",
+      "behrouz-documentary-2023-program-poster",
+      "tale-of-immigration-2023-program-poster",
+      "pool-party-2023-program-poster",
+      "meet-ceo-ramin-mousavi-2023-program-poster",
+      "investing-cryptocurrency-2023-program-poster",
+      "uci-alumni-nowruz-2023-program-poster",
+      "uci-homecoming-2023-program-poster",
+      "community-conversation-2022-11-16-program-poster",
+      "march-iran-afghanistan-2022-program-poster",
+      "irvine-valley-rally-2022-program-poster",
+      "uci-graduate-support-2022-10-12-program-poster",
+      "lily-sarafan-conversation-2022-program-poster",
+      "usc-ucla-nowruz-2022-program-poster",
+      "isc-doornavazi-album-submission-call",
+      "zots-in-the-kitchen-2021-program-poster",
+      "isc-doornavazi-aqui-aqui-performer-card",
+      "isc-doornavazi-saman-porhemmat-performer-card",
+      "isc-doornavazi-stream-invitation",
+      "isc-doornavazi-abbas-milani-guest-card",
+      "tea-talk-2021-01-28-program-poster",
+      "flight-ps752-remembrance-2021-program-poster",
+      "isc-niw-webinar-2020-program-poster",
+      "uci-alumni-social-mixer-2020-program-poster",
+      "uci-mediterranean-nights-2020-program-poster",
+      "iransa-csuf-meet-greet-2020-program-poster",
+      "community-support-2020-01-13-program-poster",
+      "uci-mens-soccer-alumni-night-2019-program-poster",
+      "ghasr-e-shirin-2019-program-poster",
+      "tabestoon-murano-2019-program-poster",
+      "vasht-persian-dance-2019-program-poster",
+      "persian-music-beach-festival-2019-program-poster",
+      "arash-san-diego-2019-program-poster",
+      "ucla-igpa-year-end-party-2019-program-poster",
+      "uci-isu-culture-show-2019-program-poster",
+      "iransa-csuf-nowruz-2019-program-poster",
+      "womens-month-the-girls-2019-program-poster",
+      "mehmooni-2019-03-02-program-poster",
+      "mednights-2019-program-poster",
+      "persian-girls-night-out-2019-program-poster",
+      "ucla-fashion-paci-2019-program-poster",
+      "ucla-culture-show-2018-program-poster",
+      "bamdad-ensemble-2018-program-poster",
+      "iransa-csuf-nowruz-2018-program-poster",
+      "doornavazi-album-conversation-2021-program-poster",
+      "usc-ucla-sponsor-thanks-pearl32",
+      "csulb-isa-yalda-trailer-still",
+      "shabhaye-tehran-la-2024-07-06-trailer-still",
+      "tehrangeles-nights-2023-program-poster",
+      "csulb-yalda-invitation-video",
+      "shabhaye-tehran-la-2024-promotion-video",
+      "ali-azimi-2019-concert-preview-video",
+      "stress-management-2021-speaker-invitation"
     ],
     "eventIds": [
       "mafia-night-2021",
@@ -1869,7 +1993,95 @@
       "nutrition-wellness-2020",
       "stress-management-2021",
       "dorehami-movie-night-2020",
-      "usc-sigs-nowruz-2024"
+      "usc-sigs-nowruz-2024",
+      "a-dragon-arrives-2016",
+      "a-modest-reception-2016",
+      "solidarity-2026-02-02",
+      "welcome-2020",
+      "isc-virtual-commencement-2020",
+      "mehmooni-2019",
+      "ali-azimi-los-angeles-2019",
+      "career-panel-2019",
+      "standup-yost-memorial-day-2019",
+      "nowruz-2019",
+      "ociacc-professional-mixer-2019",
+      "taco-tuesday-2018",
+      "bia2-warwick-2018",
+      "solidarity-2026-02-10",
+      "community-discussion-2026-02-03",
+      "isc-trails-of-lights-2026",
+      "candlelight-vigil-2026-01-21",
+      "dj-sepand-fanous-2025",
+      "sami-beigi-greek-theatre-2025",
+      "usc-networking-mixer-2025-08-03",
+      "visa-status-career-growth-2025",
+      "beach-gathering-2025",
+      "uci-isu-culture-show-2025",
+      "career-law-real-estate-immigration-2025",
+      "csulb-nowruz-2025",
+      "chaharshanbe-soori-flame-2025",
+      "women-ai-careers-2025",
+      "networking-2025",
+      "color-party-2024",
+      "innovate-irvine-2024",
+      "tech-career-lab-2024",
+      "let-her-sing-2024",
+      "uci-networking-mixer-2024-08-10",
+      "bowling-2024",
+      "shabhaye-tehran-la-2024-05-31",
+      "spring-celebration-2024",
+      "nowruz-gathering-2024",
+      "nowruz-happy-hour-2024",
+      "chaharshanbe-souri-flame-2024",
+      "chaharshanbe-souri-irvine-2024",
+      "traditions-alive-san-diego-2024",
+      "reza-rohani-sara-naeini-2024",
+      "tech-career-lab-2023",
+      "uci-boo-bash-2023",
+      "how-ai-affects-innovation-2023",
+      "usc-networking-mixer-2023-10-22",
+      "isg-yacht-party-2023",
+      "behrouz-documentary-2023",
+      "tale-of-immigration-2023",
+      "pool-party-2023",
+      "meet-ceo-ramin-mousavi-2023",
+      "investing-cryptocurrency-2023",
+      "uci-alumni-nowruz-2023",
+      "uci-homecoming-2023",
+      "community-conversation-2022-11-16",
+      "march-iran-afghanistan-2022",
+      "irvine-valley-rally-2022",
+      "uci-graduate-support-2022-10-12",
+      "lily-sarafan-conversation-2022",
+      "usc-ucla-nowruz-2022",
+      "zots-in-the-kitchen-2021",
+      "tea-talk-2021-01-28",
+      "flight-ps752-remembrance-2021",
+      "isc-niw-webinar-2020",
+      "uci-alumni-social-mixer-2020",
+      "uci-mediterranean-nights-2020",
+      "iransa-csuf-meet-greet-2020",
+      "community-support-2020-01-13",
+      "uci-mens-soccer-alumni-night-2019",
+      "ghasr-e-shirin-2019",
+      "tabestoon-murano-2019",
+      "vasht-persian-dance-2019",
+      "persian-music-beach-festival-2019",
+      "arash-san-diego-2019",
+      "ucla-igpa-year-end-party-2019",
+      "uci-isu-culture-show-2019",
+      "iransa-csuf-nowruz-2019",
+      "womens-month-the-girls-2019",
+      "mehmooni-2019-03-02",
+      "mednights-2019",
+      "persian-girls-night-out-2019",
+      "ucla-fashion-paci-2019",
+      "ucla-culture-show-2018",
+      "bamdad-ensemble-2018",
+      "iransa-csuf-nowruz-2018",
+      "doornavazi-album-conversation-2021",
+      "shabhaye-tehran-la-2024-07-06",
+      "tehrangeles-nights-2023"
     ]
   },
   {
@@ -1895,7 +2107,15 @@
       "poetry-night-2019-invitation",
       "pol-media-film-weekend-2019-invitation",
       "pol-media-film-weekend-2019-archive-photo-01",
-      "secrets-of-the-surface-2020-archive-poster"
+      "secrets-of-the-surface-2020-archive-poster",
+      "poetry-night-2019-tombak-video",
+      "poetry-night-2019-applause-video",
+      "poetry-night-2019-guitar-and-vocals-video",
+      "poetry-night-2019-audience-song-video",
+      "poetry-night-2019-voice-and-tombak-video",
+      "poetry-night-2019-vocal-performance-video",
+      "poetry-night-2019-vocal-duet-video",
+      "pol-media-film-weekend-2019-after-screening-video"
     ],
     "eventIds": [
       "poetry-night-2019",
@@ -2258,13 +2478,14 @@
       "fa": "باربیکیوی خوشامدگویی، ۲۰۱۹"
     },
     "description": {
-      "en": "SIGS welcomed new students with a Sunday barbecue at the Verano Housing Office. UCI students and alumni were invited.",
-      "fa": "SIGS با باربیکیوی یکشنبه در دفتر مسکن ورانو به دانشجویان جدید خوشامد گفت. برنامه برای دانشجویان و دانش‌آموختگان UCI بود."
+      "en": "SIGS welcomed new students with an orientation and a Sunday barbecue at the Verano Housing Office. UCI students and alumni were invited.",
+      "fa": "SIGS با جلسهٔ آشنایی و باربیکیوی یکشنبه در دفتر مسکن ورانو به دانشجوهای جدید خوشامد گفت. دانشجوها و دانش‌آموختگان UCI به برنامه دعوت شده بودند."
     },
     "coverId": "welcome-2019-archive-clip-01",
     "mediaIds": [
       "welcome-2019-archive-clip-01",
-      "welcome-2019-archive-poster"
+      "welcome-2019-archive-poster",
+      "welcome-2019-orientation-video"
     ],
     "eventIds": [
       "welcome-2019"
@@ -2361,7 +2582,8 @@
       "world-cup-iran-portugal-2018-archive-clip-01",
       "world-cup-iran-portugal-2018-archive-clip-02",
       "world-cup-iran-portugal-2018-archive-clip-03",
-      "world-cup-iran-portugal-2018-archive-poster"
+      "world-cup-iran-portugal-2018-archive-poster",
+      "world-cup-iran-portugal-2018-gathering-clip-01"
     ],
     "eventIds": [
       "world-cup-iran-portugal-2018"
@@ -2402,6 +2624,307 @@
     ],
     "eventIds": [
       "iranian-american-reception-2019"
+    ]
+  },
+  {
+    "id": "welcoming-new-students",
+    "title": {
+      "en": "Welcoming new students",
+      "fa": "خوشامدگویی به تازه‌واردها"
+    },
+    "description": {
+      "en": "Meeting the SIGS community at Newcomers Welcome.",
+      "fa": "دیدار با جمع SIGS در برنامهٔ خوشامدگویی به تازه‌واردها."
+    },
+    "eventIds": [],
+    "coverId": "newcomers-welcome-community-photo",
+    "mediaIds": [
+      "newcomers-welcome-community-photo"
+    ]
+  },
+  {
+    "id": "shared-meals",
+    "title": {
+      "en": "Around the table",
+      "fa": "دور یک سفره"
+    },
+    "description": {
+      "en": "Picnic lunches, food preparation and desserts from the SIGS community.",
+      "fa": "ناهارهای پیک‌نیکی، آماده‌کردن غذا و دسر در جمع SIGS."
+    },
+    "eventIds": [],
+    "coverId": "community-picnic-food-photo",
+    "mediaIds": [
+      "community-watermelon-photo",
+      "community-picnic-food-photo",
+      "community-sigs-dessert-video",
+      "community-ash-serving-video",
+      "community-soup-preparation-video",
+      "community-restaurant-meal-video",
+      "community-after-party-dinner-video"
+    ]
+  },
+  {
+    "id": "beach-fire-ring-gatherings",
+    "title": {
+      "en": "By the fire",
+      "fa": "کنار آتش"
+    },
+    "description": {
+      "en": "Friends together around a fire ring.",
+      "fa": "دورهمی دوستان کنار آتش."
+    },
+    "eventIds": [],
+    "coverId": "community-fire-ring-gathering-video",
+    "mediaIds": [
+      "community-fire-ring-gathering-video"
+    ]
+  },
+  {
+    "id": "joint-nowruz-gatherings",
+    "title": {
+      "en": "Nowruz with fellow students",
+      "fa": "نوروز در کنار دانشجوهای دیگر"
+    },
+    "description": {
+      "en": "Music and dancing in Nowruz clips shared by SIGS.",
+      "fa": "موسیقی و رقص در کلیپ‌های نوروزی که SIGS به اشتراک گذاشته است."
+    },
+    "eventIds": [],
+    "coverId": "joint-nowruz-dance-floor-clip-01",
+    "mediaIds": [
+      "joint-nowruz-dance-floor-clip-01",
+      "joint-nowruz-dance-floor-clip-02",
+      "joint-nowruz-dance-floor-clip-03",
+      "joint-nowruz-dance-floor-clip-04"
+    ]
+  },
+  {
+    "id": "usc-sigs-nowruz-2024",
+    "title": {
+      "en": "Nowruz with USC and UCI, 2024",
+      "fa": "نوروز USC و UCI، ۲۰۲۴"
+    },
+    "description": {
+      "en": "The joint USC and SIGS Nowruz celebration.",
+      "fa": "جشن مشترک نوروز USC و SIGS."
+    },
+    "eventIds": [
+      "usc-sigs-nowruz-2024"
+    ],
+    "coverId": "usc-sigs-nowruz-2024-gathering-clip-01",
+    "mediaIds": [
+      "usc-sigs-nowruz-2024-gathering-clip-01",
+      "usc-sigs-nowruz-2024-gathering-clip-02",
+      "usc-sigs-nowruz-2024-gathering-clip-03"
+    ]
+  },
+  {
+    "id": "uci-networking-mixer-2024-08-10",
+    "title": {
+      "en": "Mentoring at UCI, 2024",
+      "fa": "منتورینگ در UCI، ۲۰۲۴"
+    },
+    "description": {
+      "en": "Small-group conversations at the August 10 mentoring and networking gathering.",
+      "fa": "گفت‌وگوهای گروهی در برنامهٔ منتورینگ و شبکه‌سازی ۱۰ اوت."
+    },
+    "eventIds": [
+      "uci-networking-mixer-2024-08-10"
+    ],
+    "coverId": "uci-mentoring-session-2024-video",
+    "mediaIds": [
+      "uci-mentoring-session-2024-video"
+    ]
+  },
+  {
+    "id": "uci-rally-2026-02-02",
+    "title": {
+      "en": "UCI rally, February 2026",
+      "fa": "تجمع UCI، فوریهٔ ۲۰۲۶"
+    },
+    "description": {
+      "en": "The February 2 campus solidarity rally.",
+      "fa": "تجمع همبستگی ۲ فوریه در محوطهٔ دانشگاه."
+    },
+    "eventIds": [
+      "solidarity-2026-02-02"
+    ],
+    "coverId": "uci-rally-2026-02-02-video",
+    "mediaIds": [
+      "uci-rally-2026-02-02-video"
+    ]
+  },
+  {
+    "id": "watching-iran-japan",
+    "title": {
+      "en": "Watching Iran and Japan",
+      "fa": "تماشای ایران و ژاپن"
+    },
+    "description": {
+      "en": "Watching the Iran and Japan football match together.",
+      "fa": "تماشای بازی فوتبال ایران و ژاپن در جمع دوستان."
+    },
+    "eventIds": [],
+    "coverId": "iran-japan-watch-party-clip-01",
+    "mediaIds": [
+      "iran-japan-watch-party-clip-01",
+      "iran-japan-watch-party-clip-02"
+    ]
+  },
+  {
+    "id": "campus-community",
+    "title": {
+      "en": "Around campus",
+      "fa": "در جمع دانشگاه"
+    },
+    "description": {
+      "en": "Student outreach, celebration planning and congratulations shared by SIGS.",
+      "fa": "فعالیت‌های دانشجویی، برنامه‌ریزی جشن و تبریک‌هایی که SIGS به اشتراک گذاشته است."
+    },
+    "eventIds": [],
+    "coverId": "isu-nowruz-campus-outreach-photo",
+    "mediaIds": [
+      "isu-nowruz-campus-outreach-photo",
+      "nowruz-volunteer-planning-photo",
+      "team-melli-championship-photo"
+    ]
+  },
+  {
+    "id": "professional-community",
+    "title": {
+      "en": "IAW Foundation gatherings",
+      "fa": "دیدارهای بنیاد IAW"
+    },
+    "description": {
+      "en": "IAW Foundation events shared by SIGS.",
+      "fa": "برنامه‌های بنیاد IAW که SIGS به اشتراک گذاشته است."
+    },
+    "eventIds": [],
+    "coverId": "professional-community-networking-photo",
+    "mediaIds": [
+      "professional-community-networking-video",
+      "professional-community-networking-photo"
+    ]
+  },
+  {
+    "id": "bonfire-2021",
+    "title": {
+      "en": "Bonfire, October 2021",
+      "fa": "دورهمی کنار آتش، اکتبر ۲۰۲۱"
+    },
+    "description": {
+      "en": "The October 8 beach bonfire at Corona del Mar.",
+      "fa": "دورهمی ۸ اکتبر کنار آتش در ساحل کرونا دل مار."
+    },
+    "eventIds": [
+      "bonfire-2021-10-08"
+    ],
+    "coverId": "bonfire-2021-community-photo",
+    "mediaIds": [
+      "bonfire-2021-community-photo"
+    ]
+  },
+  {
+    "id": "nowruz-2021",
+    "title": {
+      "en": "Nowruz online, 2021",
+      "fa": "نوروز آنلاین، ۲۰۲۱"
+    },
+    "description": {
+      "en": "Invitations and performance previews for the virtual Nowruz program with Milad Derakhshani.",
+      "fa": "دعوت‌نامه‌ها و پیش‌نمایش‌های اجرا برای برنامهٔ آنلاین نوروز با میلاد درخشانی."
+    },
+    "eventIds": [
+      "nowruz-2021"
+    ],
+    "coverId": "nowruz-2021-milad-performance-preview-01",
+    "mediaIds": [
+      "nowruz-2021-milad-performance-preview-01",
+      "nowruz-2021-milad-performance-preview-02",
+      "nowruz-2021-milad-performance-preview-03"
+    ]
+  },
+  {
+    "id": "uci-class-of-2020",
+    "title": {
+      "en": "UCI Class of 2020",
+      "fa": "دانش‌آموختگان UCI، ۲۰۲۰"
+    },
+    "description": {
+      "en": "Graduation cards shared by SIGS to celebrate UCI’s 2020 graduates.",
+      "fa": "کارت‌های یادبود فارغ‌التحصیلی که SIGS برای دانش‌آموختگان سال ۲۰۲۰ UCI منتشر کرده بود."
+    },
+    "coverId": "uci-class-of-2020-graduation-mosaic",
+    "mediaIds": [
+      "uci-class-of-2020-negin-gharaei",
+      "uci-class-of-2020-ahmad-razavi",
+      "uci-class-of-2020-parnian-kiani",
+      "uci-class-of-2020-deniz-nikkhah",
+      "uci-class-of-2020-behnam-pourghassemi",
+      "uci-class-of-2020-delaram-amiri",
+      "uci-class-of-2020-kasra-moazzemi",
+      "uci-class-of-2020-hamid-reza-kazemi",
+      "uci-class-of-2020-reyhaneh-jabbarvand",
+      "uci-class-of-2020-negin-hayatbini",
+      "uci-class-of-2020-bahareh-harandizadeh",
+      "uci-class-of-2020-graduation-mosaic"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "world-cup-iran-spain-2018",
+    "title": {
+      "en": "Iran and Spain, World Cup 2018",
+      "fa": "ایران و اسپانیا، جام جهانی ۲۰۱۸"
+    },
+    "description": {
+      "en": "Watching Iran and Spain at the 2018 World Cup.",
+      "fa": "تماشای بازی ایران و اسپانیا در جام جهانی ۲۰۱۸."
+    },
+    "coverId": "world-cup-iran-spain-2018-gathering-clip-01",
+    "mediaIds": [
+      "world-cup-iran-spain-2018-gathering-clip-01",
+      "world-cup-iran-spain-2018-gathering-clip-02"
+    ],
+    "eventIds": [
+      "world-cup-iran-spain-2018"
+    ]
+  },
+  {
+    "id": "solidarity-2026-02-10",
+    "title": {
+      "en": "UCI solidarity gathering, February 2026",
+      "fa": "تجمع همبستگی UCI، فوریهٔ ۲۰۲۶"
+    },
+    "description": {
+      "en": "The February 10, 2026 gathering at UCI.",
+      "fa": "تجمع ۱۰ فوریهٔ ۲۰۲۶ در UCI."
+    },
+    "eventIds": [
+      "solidarity-2026-02-10"
+    ],
+    "coverId": "uci-flagpoles-solidarity-2026-photo",
+    "mediaIds": [
+      "uci-flagpoles-solidarity-2026-photo"
+    ]
+  },
+  {
+    "id": "pool-party-2023",
+    "title": {
+      "en": "Pool party with ISU, 2023",
+      "fa": "مهمانی استخر با ISU، ۲۰۲۳"
+    },
+    "description": {
+      "en": "The pool party organized by SIGS and ISU in June 2023.",
+      "fa": "مهمانی استخر با همکاری SIGS و ISU در ژوئن ۲۰۲۳."
+    },
+    "eventIds": [
+      "pool-party-2023"
+    ],
+    "coverId": "pool-party-2023-community-recap-video",
+    "mediaIds": [
+      "pool-party-2023-community-recap-video"
     ]
   }
 ]

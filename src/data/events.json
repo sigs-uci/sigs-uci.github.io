@@ -1330,9 +1330,10 @@
     "gallery": [
       "taco-tuesday-2018-recap",
       "taco-tuesday-2018-archive-clip-02",
-      "taco-tuesday-2018-archive-clip-03"
+      "taco-tuesday-2018-archive-clip-03",
+      "taco-tuesday-2018-program-poster"
     ],
-    "heroImage": null,
+    "heroImage": "taco-tuesday-2018-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -1463,7 +1464,8 @@
       "halloween-2018-archive-clip-02",
       "halloween-2018-archive-clip-04",
       "halloween-2018-archive-clip-05",
-      "halloween-2018-archive-clip-07"
+      "halloween-2018-archive-clip-07",
+      "halloween-2018-dj-booth-photo"
     ],
     "heroImage": "halloween-2018-photo-019",
     "editorial": {
@@ -1516,7 +1518,10 @@
       "mehmooni-2018-archive-clip-02",
       "mehmooni-2018-archive-clip-03",
       "mehmooni-2018-archive-clip-04",
-      "mehmooni-2018-archive-clip-05"
+      "mehmooni-2018-archive-clip-05",
+      "mehmooni-2018-retrospective-clip-01",
+      "mehmooni-2018-retrospective-clip-02",
+      "mehmooni-2018-on-the-way-video"
     ],
     "heroImage": "mehmooni-2018-photo-001",
     "editorial": {
@@ -1575,7 +1580,8 @@
       "yalda-2018-archive-clip-04",
       "yalda-2018-archive-clip-05",
       "yalda-2018-archive-clip-07",
-      "yalda-2018-archive-clip-08"
+      "yalda-2018-archive-clip-08",
+      "yalda-2018-music-preview-video"
     ],
     "heroImage": "yalda-2018-photo-015",
     "editorial": {
@@ -1612,7 +1618,14 @@
     "registrationUrl": null,
     "gallery": [
       "poetry-night-2019-photo",
-      "poetry-night-2019-invitation"
+      "poetry-night-2019-invitation",
+      "poetry-night-2019-tombak-video",
+      "poetry-night-2019-applause-video",
+      "poetry-night-2019-guitar-and-vocals-video",
+      "poetry-night-2019-audience-song-video",
+      "poetry-night-2019-voice-and-tombak-video",
+      "poetry-night-2019-vocal-performance-video",
+      "poetry-night-2019-vocal-duet-video"
     ],
     "heroImage": "poetry-night-2019-photo",
     "editorial": {
@@ -1716,7 +1729,13 @@
       "nowruz-2019-archive-clip-12",
       "nowruz-2019-archive-clip-13",
       "nowruz-2019-archive-clip-14",
-      "nowruz-2019-archive-clip-15"
+      "nowruz-2019-archive-clip-15",
+      "nowruz-2019-group-dance-clip-01",
+      "nowruz-2019-group-dance-clip-02",
+      "nowruz-2019-full-program-poster",
+      "nowruz-2019-stage-duet-video",
+      "nowruz-2019-k-von-comedy-preview",
+      "nowruz-2019-student-invitation-video"
     ],
     "heroImage": "nowruz-2019-photo-010",
     "editorial": {
@@ -1798,8 +1817,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "career-panel-2019-program-poster"
+    ],
+    "heroImage": "career-panel-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -2122,7 +2143,8 @@
     "registrationUrl": null,
     "gallery": [
       "stress-management-2021-poster",
-      "stress-management-2021-archive-poster"
+      "stress-management-2021-archive-poster",
+      "stress-management-2021-speaker-invitation"
     ],
     "heroImage": "stress-management-2021-poster",
     "editorial": {
@@ -2194,7 +2216,10 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "nowruz-2021-poster"
+      "nowruz-2021-poster",
+      "nowruz-2021-milad-performance-preview-01",
+      "nowruz-2021-milad-performance-preview-02",
+      "nowruz-2021-milad-performance-preview-03"
     ],
     "heroImage": "nowruz-2021-poster",
     "editorial": {
@@ -2267,7 +2292,8 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "bonfire-2021-10-08-poster"
+      "bonfire-2021-10-08-poster",
+      "bonfire-2021-community-photo"
     ],
     "heroImage": "bonfire-2021-10-08-poster",
     "editorial": {
@@ -2771,7 +2797,8 @@
       "welcome-2023-photo-004",
       "welcome-2023-poster",
       "indoor-community-gathering-image-072",
-      "indoor-community-gathering-image-074"
+      "indoor-community-gathering-image-074",
+      "welcome-2023-orientation-room-photo"
     ],
     "heroImage": "welcome-2023-photo-002",
     "editorial": {
@@ -2866,7 +2893,8 @@
       "costume-and-karaoke-image-088",
       "halloween-2023-poster",
       "costume-and-karaoke-image-089",
-      "costume-and-karaoke-image-090"
+      "costume-and-karaoke-image-090",
+      "halloween-2023-community-group-photo"
     ],
     "heroImage": "costume-and-karaoke-image-085",
     "editorial": {
@@ -2912,7 +2940,8 @@
       "yalda-2023-archive-clip-05",
       "yalda-2023-archive-clip-06",
       "yalda-2023-archive-clip-03",
-      "yalda-2023-archive-clip-04"
+      "yalda-2023-archive-clip-04",
+      "yalda-2023-hosts-invitation-video"
     ],
     "heroImage": "yalda-2023-invitation",
     "editorial": {
@@ -3020,8 +3049,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "networking-2025-program-poster"
+    ],
+    "heroImage": "networking-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -3122,8 +3153,11 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-rally-2026-02-02-video",
+      "solidarity-2026-02-02-program-poster"
+    ],
+    "heroImage": "solidarity-2026-02-02-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -3158,8 +3192,11 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "solidarity-2026-02-10-program-poster",
+      "uci-flagpoles-solidarity-2026-photo"
+    ],
+    "heroImage": "solidarity-2026-02-10-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -3524,7 +3561,8 @@
     "gallery": [
       "pol-film-weekend-2019-community",
       "pol-media-film-weekend-2019-invitation",
-      "pol-media-film-weekend-2019-archive-photo-01"
+      "pol-media-film-weekend-2019-archive-photo-01",
+      "pol-media-film-weekend-2019-after-screening-video"
     ],
     "heroImage": "pol-film-weekend-2019-community",
     "editorial": {
@@ -3597,7 +3635,8 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "community-support-2020-invitation"
+      "community-support-2020-invitation",
+      "community-support-2020-01-13-program-poster"
     ],
     "heroImage": "community-support-2020-invitation",
     "editorial": {
@@ -3704,7 +3743,8 @@
       "community-football-portrait",
       "world-cup-iran-morocco-2018-archive-clip-02",
       "world-cup-iran-morocco-2018-archive-photo-02",
-      "world-cup-iran-morocco-2018-archive-clip-04"
+      "world-cup-iran-morocco-2018-archive-clip-04",
+      "world-cup-iran-morocco-2018-gathering-clip-01"
     ],
     "editorial": {
       "en": "edited",
@@ -3759,7 +3799,8 @@
     "gallery": [
       "welcome-2019-barbecue-invitation",
       "welcome-2019-archive-clip-01",
-      "welcome-2019-archive-poster"
+      "welcome-2019-archive-poster",
+      "welcome-2019-orientation-video"
     ],
     "heroImage": "welcome-2019-barbecue-invitation",
     "editorial": {
@@ -4045,7 +4086,9 @@
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "world-cup-iran-spain-2018-archive-poster"
+      "world-cup-iran-spain-2018-archive-poster",
+      "world-cup-iran-spain-2018-gathering-clip-01",
+      "world-cup-iran-spain-2018-gathering-clip-02"
     ],
     "heroImage": "world-cup-iran-spain-2018-archive-poster",
     "editorial": {
@@ -4084,7 +4127,8 @@
       "world-cup-iran-portugal-2018-archive-clip-01",
       "world-cup-iran-portugal-2018-archive-clip-02",
       "world-cup-iran-portugal-2018-archive-clip-03",
-      "world-cup-iran-portugal-2018-archive-poster"
+      "world-cup-iran-portugal-2018-archive-poster",
+      "world-cup-iran-portugal-2018-gathering-clip-01"
     ],
     "heroImage": "world-cup-iran-portugal-2018-archive-poster",
     "editorial": {
@@ -4121,9 +4165,10 @@
     "registrationUrl": null,
     "gallery": [
       "ociacc-valentines-mixer-2019-archive-clip-01",
-      "ociacc-valentines-mixer-2019-archive-clip-02"
+      "ociacc-valentines-mixer-2019-archive-clip-02",
+      "ociacc-professional-mixer-2019-program-poster"
     ],
-    "heroImage": null,
+    "heroImage": "ociacc-professional-mixer-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4156,8 +4201,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "standup-yost-memorial-day-2019-program-poster"
+    ],
+    "heroImage": "standup-yost-memorial-day-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4190,8 +4237,11 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "ali-azimi-los-angeles-2019-program-poster",
+      "ali-azimi-2019-concert-preview-video"
+    ],
+    "heroImage": "ali-azimi-los-angeles-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4224,8 +4274,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "ghasr-e-shirin-2019-program-poster"
+    ],
+    "heroImage": "ghasr-e-shirin-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4261,9 +4313,10 @@
     "gallery": [
       "mehmooni-2019-archive-clip-01",
       "mehmooni-2019-archive-clip-02",
-      "mehmooni-2019-archive-clip-03"
+      "mehmooni-2019-archive-clip-03",
+      "mehmooni-2019-program-poster"
     ],
-    "heroImage": null,
+    "heroImage": "mehmooni-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4440,8 +4493,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "isc-virtual-commencement-2020-program-poster"
+    ],
+    "heroImage": "isc-virtual-commencement-2020-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4492,8 +4547,8 @@
     "title": "New student welcome, 2020",
     "locale": "en",
     "date": {
-      "value": null,
-      "precision": "year_context",
+      "value": "2020-09-29",
+      "precision": "day_context_year",
       "contextYear": 2020
     },
     "timeDisplay": "10 AM",
@@ -4503,15 +4558,17 @@
     "venue": "Online (Zoom)",
     "category": "community",
     "sigsRole": "organizer",
-    "summary": "SIGS invited new UCI students to meet on Zoom. The announcements disagree on the day, September 29 or 30.",
+    "summary": "SIGS invited new UCI students to a welcome meeting on Zoom on September 29.",
     "occurrenceEvidence": "announced",
     "archiveLabel": "Archived announcement",
     "publication": "published",
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "welcome-2020-program-poster"
+    ],
+    "heroImage": "welcome-2020-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4580,8 +4637,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-gathering-2024-program-poster"
+    ],
+    "heroImage": "nowruz-gathering-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4614,8 +4673,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "bowling-2024-program-poster"
+    ],
+    "heroImage": "bowling-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4634,7 +4695,7 @@
       "precision": "day_context_year",
       "contextYear": 2025
     },
-    "timeDisplay": "10:30 AM to 3 PM",
+    "timeDisplay": "11:30 AM to 4 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
@@ -4648,8 +4709,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "beach-gathering-2025-updated-invitation"
+    ],
+    "heroImage": "beach-gathering-2025-updated-invitation",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4676,14 +4739,16 @@
     "category": "community",
     "sigsRole": "shared_invitation",
     "summary": "SIGS shared a student ticket discount for Level 9 Group’s Memorial Day weekend party at Warwick.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "occurrenceEvidence": "occurrence_reported",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "bia2-warwick-2018-program-poster"
+    ],
+    "heroImage": "bia2-warwick-2018-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4716,8 +4781,11 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "pool-party-2023-program-poster",
+      "pool-party-2023-community-recap-video"
+    ],
+    "heroImage": "pool-party-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4750,8 +4818,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "meet-ceo-ramin-mousavi-2023-program-poster"
+    ],
+    "heroImage": "meet-ceo-ramin-mousavi-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4784,8 +4854,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "tale-of-immigration-2023-program-poster"
+    ],
+    "heroImage": "tale-of-immigration-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4818,8 +4890,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "behrouz-documentary-2023-program-poster"
+    ],
+    "heroImage": "behrouz-documentary-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4852,8 +4926,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "how-ai-affects-innovation-2023-program-poster"
+    ],
+    "heroImage": "how-ai-affects-innovation-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4886,8 +4962,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "usc-networking-mixer-2023-10-22-program-poster"
+    ],
+    "heroImage": "usc-networking-mixer-2023-10-22-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4920,8 +4998,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "traditions-alive-san-diego-2024-program-poster"
+    ],
+    "heroImage": "traditions-alive-san-diego-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4954,8 +5034,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "chaharshanbe-souri-irvine-2024-program-poster"
+    ],
+    "heroImage": "chaharshanbe-souri-irvine-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -4988,8 +5070,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "nowruz-happy-hour-2024-program-poster"
+    ],
+    "heroImage": "nowruz-happy-hour-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5022,8 +5106,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "spring-celebration-2024-program-poster"
+    ],
+    "heroImage": "spring-celebration-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5050,14 +5136,17 @@
     "category": "professional",
     "sigsRole": "shared_invitation",
     "summary": "SIGS shared a networking program at UCI with mentorship sessions, a mixer and a job fair. UCI students could attend free after registering.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-mentoring-session-2024-video",
+      "uci-networking-mixer-2024-08-10-program-poster"
+    ],
+    "heroImage": "uci-networking-mixer-2024-08-10-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5090,8 +5179,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "tech-career-lab-2024-program-poster"
+    ],
+    "heroImage": "tech-career-lab-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5124,8 +5215,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "innovate-irvine-2024-program-poster"
+    ],
+    "heroImage": "innovate-irvine-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5158,8 +5251,10 @@
     "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "community-conversation-2022-11-16-program-poster"
+    ],
+    "heroImage": "community-conversation-2022-11-16-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5192,8 +5287,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "career-law-real-estate-immigration-2025-program-poster"
+    ],
+    "heroImage": "career-law-real-estate-immigration-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5226,8 +5323,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "csulb-nowruz-2025-program-poster"
+    ],
+    "heroImage": "csulb-nowruz-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5260,8 +5359,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "women-ai-careers-2025-program-poster"
+    ],
+    "heroImage": "women-ai-careers-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5294,8 +5395,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "usc-networking-mixer-2025-08-03-program-poster"
+    ],
+    "heroImage": "usc-networking-mixer-2025-08-03-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5328,8 +5431,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "visa-status-career-growth-2025-program-poster"
+    ],
+    "heroImage": "visa-status-career-growth-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5362,8 +5467,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "candlelight-vigil-2026-01-21-program-poster"
+    ],
+    "heroImage": "candlelight-vigil-2026-01-21-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5396,8 +5503,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "community-discussion-2026-02-03-program-poster"
+    ],
+    "heroImage": "community-discussion-2026-02-03-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5430,8 +5539,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "isc-trails-of-lights-2026-program-poster"
+    ],
+    "heroImage": "isc-trails-of-lights-2026-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5464,8 +5575,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "bamdad-ensemble-2018-program-poster"
+    ],
+    "heroImage": "bamdad-ensemble-2018-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5498,8 +5611,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "iransa-csuf-meet-greet-2020-program-poster"
+    ],
+    "heroImage": "iransa-csuf-meet-greet-2020-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5532,8 +5647,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "iransa-csuf-nowruz-2018-program-poster"
+    ],
+    "heroImage": "iransa-csuf-nowruz-2018-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5566,8 +5683,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "iransa-csuf-nowruz-2019-program-poster"
+    ],
+    "heroImage": "iransa-csuf-nowruz-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5600,8 +5719,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "doornavazi-album-conversation-2021-program-poster"
+    ],
+    "heroImage": "doornavazi-album-conversation-2021-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5634,8 +5755,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "flight-ps752-remembrance-2021-program-poster"
+    ],
+    "heroImage": "flight-ps752-remembrance-2021-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5668,8 +5791,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "isc-niw-webinar-2020-program-poster"
+    ],
+    "heroImage": "isc-niw-webinar-2020-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5702,8 +5827,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "isg-yacht-party-2023-program-poster"
+    ],
+    "heroImage": "isg-yacht-party-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5736,8 +5863,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-mediterranean-nights-2020-program-poster"
+    ],
+    "heroImage": "uci-mediterranean-nights-2020-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5770,8 +5899,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "mednights-2019-program-poster"
+    ],
+    "heroImage": "mednights-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5804,8 +5935,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "mehmooni-2019-03-02-program-poster"
+    ],
+    "heroImage": "mehmooni-2019-03-02-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5838,8 +5971,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "tabestoon-murano-2019-program-poster"
+    ],
+    "heroImage": "tabestoon-murano-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5872,8 +6007,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "persian-girls-night-out-2019-program-poster"
+    ],
+    "heroImage": "persian-girls-night-out-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5906,8 +6043,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "tea-talk-2021-01-28-program-poster"
+    ],
+    "heroImage": "tea-talk-2021-01-28-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5940,8 +6079,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "zots-in-the-kitchen-2021-program-poster"
+    ],
+    "heroImage": "zots-in-the-kitchen-2021-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -5974,8 +6115,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "tehrangeles-nights-2023-program-poster"
+    ],
+    "heroImage": "tehrangeles-nights-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6008,8 +6151,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-alumni-nowruz-2023-program-poster"
+    ],
+    "heroImage": "uci-alumni-nowruz-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6042,8 +6187,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-homecoming-2023-program-poster"
+    ],
+    "heroImage": "uci-homecoming-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6076,8 +6223,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-isu-culture-show-2019-program-poster"
+    ],
+    "heroImage": "uci-isu-culture-show-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6110,8 +6259,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-mens-soccer-alumni-night-2019-program-poster"
+    ],
+    "heroImage": "uci-mens-soccer-alumni-night-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6144,8 +6295,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "dj-sepand-fanous-2025-program-poster"
+    ],
+    "heroImage": "dj-sepand-fanous-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6178,8 +6331,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "chaharshanbe-soori-flame-2025-program-poster"
+    ],
+    "heroImage": "chaharshanbe-soori-flame-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6212,8 +6367,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "investing-cryptocurrency-2023-program-poster"
+    ],
+    "heroImage": "investing-cryptocurrency-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6246,8 +6403,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "reza-rohani-sara-naeini-2024-program-poster"
+    ],
+    "heroImage": "reza-rohani-sara-naeini-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6280,8 +6439,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "sami-beigi-greek-theatre-2025-program-poster"
+    ],
+    "heroImage": "sami-beigi-greek-theatre-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6314,8 +6475,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "shabhaye-tehran-la-2024-05-31-program-poster"
+    ],
+    "heroImage": "shabhaye-tehran-la-2024-05-31-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6348,8 +6511,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "tech-career-lab-2023-program-poster"
+    ],
+    "heroImage": "tech-career-lab-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6382,8 +6547,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "ucla-culture-show-2018-program-poster"
+    ],
+    "heroImage": "ucla-culture-show-2018-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6416,8 +6583,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "ucla-fashion-paci-2019-program-poster"
+    ],
+    "heroImage": "ucla-fashion-paci-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6450,8 +6619,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "ucla-igpa-year-end-party-2019-program-poster"
+    ],
+    "heroImage": "ucla-igpa-year-end-party-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6484,8 +6655,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "jordan-film-weekend-2016-program-poster"
+    ],
+    "heroImage": "jordan-film-weekend-2016-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6518,8 +6691,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "jordan-film-weekend-2016-program-poster"
+    ],
+    "heroImage": "jordan-film-weekend-2016-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6552,8 +6727,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "vasht-persian-dance-2019-program-poster"
+    ],
+    "heroImage": "vasht-persian-dance-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6586,8 +6763,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-boo-bash-2023-program-poster"
+    ],
+    "heroImage": "uci-boo-bash-2023-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6620,8 +6799,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "arash-san-diego-2019-program-poster"
+    ],
+    "heroImage": "arash-san-diego-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6654,8 +6835,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "persian-music-beach-festival-2019-program-poster"
+    ],
+    "heroImage": "persian-music-beach-festival-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6688,8 +6871,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "irvine-valley-rally-2022-program-poster"
+    ],
+    "heroImage": "irvine-valley-rally-2022-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6722,8 +6907,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-isu-culture-show-2025-program-poster"
+    ],
+    "heroImage": "uci-isu-culture-show-2025-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6742,7 +6929,7 @@
       "precision": "day_context_year",
       "contextYear": 2024
     },
-    "timeDisplay": null,
+    "timeDisplay": "6 to 10 PM",
     "timeZone": "America/Los_Angeles",
     "startInstant": null,
     "endInstant": null,
@@ -6750,14 +6937,18 @@
     "category": "culture",
     "sigsRole": "co-organizer",
     "summary": "SIGS and USC’s Iranian Graduate Students Association announced a joint Nowruz celebration at USC’s Trojan Grand Ballroom, with Deejay AL.",
-    "occurrenceEvidence": "announced",
-    "archiveLabel": "Archived announcement",
+    "occurrenceEvidence": "occurrence_corroborated",
+    "archiveLabel": "Documented gathering",
     "publication": "published",
-    "eventState": "scheduled",
+    "eventState": "completed",
     "registration": "closed",
     "registrationUrl": null,
     "gallery": [
-      "usc-sigs-nowruz-2024-joint-invitation"
+      "usc-sigs-nowruz-2024-joint-invitation",
+      "usc-sigs-nowruz-2024-gathering-clip-01",
+      "usc-sigs-nowruz-2024-gathering-clip-02",
+      "usc-sigs-nowruz-2024-gathering-clip-03",
+      "usc-sigs-nowruz-2024-evening-schedule"
     ],
     "heroImage": "usc-sigs-nowruz-2024-joint-invitation",
     "editorial": {
@@ -6792,8 +6983,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "march-iran-afghanistan-2022-program-poster"
+    ],
+    "heroImage": "march-iran-afghanistan-2022-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6826,8 +7019,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-graduate-support-2022-10-12-program-poster"
+    ],
+    "heroImage": "uci-graduate-support-2022-10-12-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6860,8 +7055,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "lily-sarafan-conversation-2022-program-poster"
+    ],
+    "heroImage": "lily-sarafan-conversation-2022-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6894,8 +7091,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "usc-ucla-nowruz-2022-program-poster"
+    ],
+    "heroImage": "usc-ucla-nowruz-2022-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6928,8 +7127,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "uci-alumni-social-mixer-2020-program-poster"
+    ],
+    "heroImage": "uci-alumni-social-mixer-2020-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6962,8 +7163,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "womens-month-the-girls-2019-program-poster"
+    ],
+    "heroImage": "womens-month-the-girls-2019-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -6996,8 +7199,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "let-her-sing-2024-program-poster"
+    ],
+    "heroImage": "let-her-sing-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -7030,8 +7235,10 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "color-party-2024-program-poster"
+    ],
+    "heroImage": "color-party-2024-program-poster",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"
@@ -7064,8 +7271,47 @@
     "eventState": "scheduled",
     "registration": "closed",
     "registrationUrl": null,
-    "gallery": [],
-    "heroImage": null,
+    "gallery": [
+      "chaharshanbe-souri-flame-2024-program-poster"
+    ],
+    "heroImage": "chaharshanbe-souri-flame-2024-program-poster",
+    "editorial": {
+      "en": "edited",
+      "fa": "reviewed"
+    },
+    "publicSourceLinks": [],
+    "generateCalendarDownload": false,
+    "generateEventStructuredData": false
+  },
+  {
+    "id": "shabhaye-tehran-la-2024-07-06",
+    "slug": "shabhaye-tehran-la-2024-07-06",
+    "title": "Shabhaye Tehran LA, July 6, 2024",
+    "locale": "en",
+    "date": {
+      "value": "2024-07-06",
+      "precision": "day_context_year",
+      "contextYear": 2024
+    },
+    "timeDisplay": null,
+    "timeZone": "America/Los_Angeles",
+    "startInstant": null,
+    "endInstant": null,
+    "venue": null,
+    "category": "culture",
+    "sigsRole": "shared_invitation",
+    "summary": "SIGS shared BlueBirdy’s invitation to Shabhaye Tehran LA on Saturday, July 6. The promotion included DJ Sepand and DJ Julius.",
+    "occurrenceEvidence": "announced",
+    "archiveLabel": "Archived announcement",
+    "publication": "published",
+    "eventState": "scheduled",
+    "registration": "closed",
+    "registrationUrl": null,
+    "gallery": [
+      "shabhaye-tehran-la-2024-07-06-trailer-still",
+      "shabhaye-tehran-la-2024-promotion-video"
+    ],
+    "heroImage": "shabhaye-tehran-la-2024-07-06-trailer-still",
     "editorial": {
       "en": "edited",
       "fa": "reviewed"

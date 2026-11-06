@@ -11,7 +11,7 @@ test('browser clock projections contain public scheduling fields alone', () => {
   const projected = publicEventClocks([published, draft, unedited, synthetic]);
   assert.equal(projected.length, 1);
   assert.equal(projected[0].id, published.id);
-  assert.deepEqual(Object.keys(projected[0]).sort(), ['allDay', 'archiveLabel', 'date', 'editorial', 'endInstant', 'eventState', 'id', 'publication', 'startInstant', 'timeZone']);
+  assert.deepEqual(Object.keys(projected[0]).sort(), ['allDay', 'date', 'editorial', 'endInstant', 'eventState', 'id', 'publication', 'startInstant', 'timeZone']);
   assert.doesNotMatch(JSON.stringify(projected), /draft-clock|unedited-clock|synthetic-clock|Unpublished title|Public title/);
   projected[0].date.value = '2027-01-01';
   projected[0].editorial.en = 'draft';
@@ -49,11 +49,15 @@ test('date-based refresh follows campus midnight through both daylight-saving ch
   }
 });
 
-test('expired announcements retain their evidence and cancellation keeps its status', () => {
+test('past events use plain status text without changing historical facts', () => {
   const now = new Date('2027-01-01T12:00:00Z');
   const announcement = eventFixture({ archiveLabel: 'Archived announcement' });
-  assert.deepEqual(eventViewState(announcement, now), { past: true, status: 'Archived announcement' });
+  assert.deepEqual(eventViewState(announcement, now), { past: true, status: 'Past' });
+  const gathering = eventFixture({ archiveLabel: 'Documented gathering', eventState: 'completed' });
+  assert.deepEqual(eventViewState(gathering, now), { past: true, status: 'Past' });
   assert.equal(eventViewState({ ...announcement, eventState: 'cancelled' }, now).status, 'cancelled');
   assert.equal(announcement.eventState, 'scheduled');
+  assert.equal(announcement.archiveLabel, 'Archived announcement');
+  assert.doesNotMatch(JSON.stringify(publicEventClocks([announcement, gathering])), /archiveLabel|Archived announcement|Documented gathering/);
   assert.equal(eventRefreshDelay([], now), 60_000);
 });

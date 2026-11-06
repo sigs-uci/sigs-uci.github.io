@@ -4,6 +4,21 @@ import { events, media, organization } from '../src/data';
 
 const event = (id: string) => events.find(record => record.id === id)!;
 
+test('revised invitations supply the final advertised hours without creating calendar instants', () => {
+  for (const [id, day, time] of [
+    ['beach-gathering-2025', '2025-06-07', '11:30 AM to 4 PM'],
+    ['usc-sigs-nowruz-2024', '2024-03-25', '6 to 10 PM'],
+  ]) {
+    const record = event(id);
+    assert.equal(record.date.value, day);
+    assert.equal(record.timeDisplay, time);
+    assert.equal(record.startInstant, null);
+    assert.equal(record.endInstant, null);
+    assert.equal(record.generateCalendarDownload, false);
+    assert.equal(record.generateEventStructuredData, false);
+  }
+});
+
 test('separate World Cup screenings retain their match dates and final venue', () => {
   const morocco = event('world-cup-iran-morocco-2018');
   const spain = event('world-cup-iran-spain-2018');
@@ -42,18 +57,30 @@ test('recovered places and poster associations do not fill unrelated date gaps',
   assert.equal(event('graduate-orientation-2019').date.value, null);
   assert.equal(event('yalda-2021').venue, null);
   const welcome = event('welcome-2020');
-  assert.deepEqual(welcome.date, { value: null, precision: 'year_context', contextYear: 2020 });
+  assert.deepEqual(welcome.date, { value: '2020-09-29', precision: 'day_context_year', contextYear: 2020 });
+  assert.equal(welcome.occurrenceEvidence, 'announced');
+  assert.equal(welcome.eventState, 'scheduled');
   assert.equal(welcome.startInstant, null);
+  assert.equal(welcome.endInstant, null);
   assert.equal(welcome.generateCalendarDownload, false);
+  assert.equal(welcome.generateEventStructuredData, false);
   assert.equal(media.find(record => record.id === 'posters-and-venues-image-041')?.eventId, 'summer-party-2018-06-16');
   assert.equal(event('summer-party-2018-06-16').date.value, '2018-06-16');
 });
 
 test('shared invitations keep third-party organizers separate from SIGS', () => {
-  for (const id of ['maryam-mirzakhani-memorial-2017', 'standup-yost-memorial-day-2019', 'ali-azimi-los-angeles-2019', 'behrouz-documentary-2023', 'csulb-nowruz-2025']) {
+  for (const id of ['maryam-mirzakhani-memorial-2017', 'standup-yost-memorial-day-2019', 'ali-azimi-los-angeles-2019', 'behrouz-documentary-2023', 'csulb-nowruz-2025', 'bia2-warwick-2018', 'shabhaye-tehran-la-2024-07-06']) {
     assert.equal(event(id).sigsRole, 'shared_invitation');
     assert.equal(event(id).generateEventStructuredData, false);
   }
+  assert.equal(event('bia2-warwick-2018').eventState, 'completed');
+  const invitation = event('shabhaye-tehran-la-2024-07-06');
+  assert.equal(invitation.date.value, '2024-07-06');
+  assert.equal(invitation.occurrenceEvidence, 'announced');
+  assert.equal(invitation.eventState, 'scheduled');
+  assert.equal(invitation.venue, null);
+  assert.equal(invitation.timeDisplay, null);
+  assert.equal(invitation.startInstant, null);
   assert.deepEqual(organization.socialChannels, [{ name: 'Instagram', url: 'https://www.instagram.com/sigs_uci/' }]);
 });
 
@@ -65,6 +92,7 @@ test('the two March 2024 Nowruz invitations stay distinct', () => {
   assert.match(joint.venue ?? '', /Trojan Grand Ballroom/);
   assert.equal(campus.sigsRole, 'organizer');
   assert.equal(joint.sigsRole, 'co-organizer');
-  assert.equal(joint.archiveLabel, 'Archived announcement');
+  assert.equal(joint.occurrenceEvidence, 'occurrence_corroborated');
+  assert.equal(joint.eventState, 'completed');
   assert.equal(event('usc-ucla-nowruz-2022').sigsRole, 'shared_invitation');
 });
