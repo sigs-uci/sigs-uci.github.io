@@ -36036,5 +36036,4678 @@
     "credit": "Designer not recorded.",
     "publication": "published",
     "rights": "approved"
+  },
+  {
+    "id": "halloween-2018-dj-booth-photo",
+    "src": "/media/halloween-2018-dj-booth-photo.webp",
+    "thumbnail": "/media/halloween-2018-dj-booth-photo-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 809,
+    "eventId": "halloween-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Four people behind a DJ booth with a blue-lit metal frame and an Element Productions backdrop.",
+      "fa": "چهار نفر پشت میز دی‌جی با سازهٔ فلزی روشن به رنگ آبی و پس‌زمینهٔ Element Productions."
+    },
+    "caption": {
+      "en": "Halloween 2018",
+      "fa": "هالووین ۲۰۱۸"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-banquet-photo",
+    "src": "/media/community-banquet-photo.webp",
+    "thumbnail": "/media/community-banquet-photo-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 1080,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests sit around banquet tables in a ballroom with a stage at the far end.",
+      "fa": "مهمان‌ها دور میزهای پذیرایی در سالنی نشسته‌اند که صحنه در انتهای آن قرار دارد."
+    },
+    "caption": {
+      "en": "A SIGS celebration",
+      "fa": "جشنی در جمع SIGS"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-haft-sin-marina-photo",
+    "src": "/media/nowruz-haft-sin-marina-photo.webp",
+    "thumbnail": "/media/nowruz-haft-sin-marina-photo-small.webp",
+    "kind": "photo",
+    "width": 886,
+    "height": 1108,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A haft-sin table with flowers, painted eggs and a goldfish bowl beside a window overlooking a marina.",
+      "fa": "هفت‌سینی با گل، تخم‌مرغ‌های رنگی و تنگ ماهی کنار پنجره‌ای رو به اسکله."
+    },
+    "caption": {
+      "en": "A Nowruz greeting shared by SIGS",
+      "fa": "پیام نوروزی SIGS"
+    },
+    "credit": "Farya Photo",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "newcomers-welcome-community-photo",
+    "src": "/media/newcomers-welcome-community-photo.webp",
+    "thumbnail": "/media/newcomers-welcome-community-photo-small.webp",
+    "kind": "photo",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Students beside a television in a community room, beneath the story caption SIGS Newcomers Welcome.",
+      "fa": "جمعی از دانشجوها کنار تلویزیون در سالن دورهمی، زیر نوشتهٔ خوشامدگویی SIGS به تازه‌واردها."
+    },
+    "caption": {
+      "en": "Newcomers Welcome",
+      "fa": "خوشامدگویی به دانشجوهای تازه‌وارد"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-indoor-gathering-photo",
+    "src": "/media/nowruz-indoor-gathering-photo.webp",
+    "thumbnail": "/media/nowruz-indoor-gathering-photo-small.webp",
+    "kind": "photo",
+    "width": 480,
+    "height": 854,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group stands and sits together in a room, with a Happy Nowruz decoration on the story image.",
+      "fa": "جمعی از دوستان نشسته و ایستاده در یک سالن، با طرح تبریک نوروز روی تصویر."
+    },
+    "caption": {
+      "en": "Nowruz together",
+      "fa": "نوروز در کنار هم"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-watermelon-photo",
+    "src": "/media/community-watermelon-photo.webp",
+    "thumbnail": "/media/community-watermelon-photo-small.webp",
+    "kind": "photo",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A slice of watermelon on an outdoor table with people and trees out of focus behind it.",
+      "fa": "برشی از هندوانه روی میز در فضای باز، با نمای محو افراد و درخت‌ها در پس‌زمینه."
+    },
+    "caption": {
+      "en": "Watermelon at the picnic",
+      "fa": "هندوانه در پیک‌نیک"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-picnic-food-photo",
+    "src": "/media/community-picnic-food-photo.webp",
+    "thumbnail": "/media/community-picnic-food-photo-small.webp",
+    "kind": "photo",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Burger ingredients, bread and watermelon on a table, with a Verano Place sticker and Ready for lunch text.",
+      "fa": "مواد برگر، نان و هندوانه روی میز، با برچسب ورانو پلیس و نوشتهٔ آمادهٔ ناهارید؟"
+    },
+    "caption": {
+      "en": "Lunch at Verano Place",
+      "fa": "ناهار در ورانو پلیس"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "welcome-2019-orientation-video",
+    "src": "/media/welcome-2019-orientation-video.mp4",
+    "thumbnail": "/media/welcome-2019-orientation-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 360,
+    "eventId": "welcome-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "New students listen to a presentation at the SIGS new-student welcome in 2019.",
+      "fa": "دانشجوهای تازه‌وارد در برنامهٔ خوشامدگویی SIGS در سال ۲۰۱۹ به ارائه‌ای در سالن دورهمی گوش می‌دهند."
+    },
+    "caption": {
+      "en": "New student welcome, September 22, 2019",
+      "fa": "خوشامدگویی به دانشجوهای تازه‌وارد، ۲۲ سپتامبر ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 5.7,
+    "videoPoster": "/media/welcome-2019-orientation-video-poster.webp",
+    "audioContent": "silent",
+    "transcript": {
+      "en": "A presenter stands beside a television while new students sit around tables. The original recording has no audio.",
+      "fa": "ارائه‌دهنده کنار تلویزیون ایستاده و دانشجوهای تازه‌وارد دور میزها نشسته‌اند. نسخهٔ اصلی این فیلم صدا ندارد."
+    }
+  },
+  {
+    "id": "community-sigs-dessert-video",
+    "src": "/media/community-sigs-dessert-video.mp4",
+    "thumbnail": "/media/community-sigs-dessert-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "The camera moves across a tray of dessert decorated with SIGS in cinnamon.",
+      "fa": "دوربین روی سینی دسری حرکت می‌کند که با دارچین روی آن SIGS نوشته شده است."
+    },
+    "caption": {
+      "en": "A SIGS dessert",
+      "fa": "دسر با نشان SIGS"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 4.226009,
+    "videoPoster": "/media/community-sigs-dessert-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A close view of a dessert tray, decorated with SIGS in cinnamon, with background music.",
+      "fa": "نمای نزدیک سینی دسری با نوشتهٔ SIGS از دارچین و موسیقی پس‌زمینه."
+    }
+  },
+  {
+    "id": "community-ash-serving-video",
+    "src": "/media/community-ash-serving-video.mp4",
+    "thumbnail": "/media/community-ash-serving-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A ladle lifts thick ash from a serving tray.",
+      "fa": "ملاقه‌ای از سینی آش غلیظ برداشته می‌شود."
+    },
+    "caption": {
+      "en": "Ash for the table",
+      "fa": "آش برای دورهمی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 3.3,
+    "videoPoster": "/media/community-ash-serving-video-poster.webp",
+    "audioContent": "silent",
+    "transcript": {
+      "en": "A ladle lifts ash from a large serving tray. The source recording has no audio.",
+      "fa": "ملاقه‌ای از سینی بزرگ آش برداشته می‌شود. فیلم اصلی صدا ندارد."
+    }
+  },
+  {
+    "id": "community-soup-preparation-video",
+    "src": "/media/community-soup-preparation-video.mp4",
+    "thumbnail": "/media/community-soup-preparation-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A person stirs a large tray of green soup beside a stack of bowls.",
+      "fa": "فردی کنار دسته‌ای از کاسه‌ها، سینی بزرگی از آش سبز را هم می‌زند."
+    },
+    "caption": {
+      "en": "Preparing food together",
+      "fa": "آماده‌کردن غذا برای دورهمی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 5.7,
+    "videoPoster": "/media/community-soup-preparation-video-poster.webp",
+    "audioContent": "silent",
+    "transcript": {
+      "en": "A person stirs a tray of soup beside stacked serving bowls. The source recording has no audio.",
+      "fa": "فردی کنار کاسه‌های روی هم، سینی آش را هم می‌زند. فیلم اصلی صدا ندارد."
+    }
+  },
+  {
+    "id": "mehmooni-2018-retrospective-clip-01",
+    "src": "/media/mehmooni-2018-retrospective-clip-01.mp4",
+    "thumbnail": "/media/mehmooni-2018-retrospective-clip-01-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dance under changing coloured lights, in a story labelled Last Year’s Mehmooni.",
+      "fa": "مهمان‌ها زیر نورهای رنگی می‌رقصند؛ روی استوری نوشته شده مهمونی سال گذشته."
+    },
+    "caption": {
+      "en": "Mehmooni 2018",
+      "fa": "مهمونی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 10.533333,
+    "videoPoster": "/media/mehmooni-2018-retrospective-clip-01-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Dancing at Mehmooni, with dance music and crowd sound.",
+      "fa": "رقص در مهمونی، همراه با موسیقی و صدای جمع."
+    }
+  },
+  {
+    "id": "mehmooni-2018-retrospective-clip-02",
+    "src": "/media/mehmooni-2018-retrospective-clip-02.mp4",
+    "thumbnail": "/media/mehmooni-2018-retrospective-clip-02-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dance under changing coloured lights, in a story labelled Last Year’s Mehmooni.",
+      "fa": "مهمان‌ها زیر نورهای رنگی می‌رقصند؛ روی استوری نوشته شده مهمونی سال گذشته."
+    },
+    "caption": {
+      "en": "Mehmooni 2018",
+      "fa": "مهمونی ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.066667,
+    "videoPoster": "/media/mehmooni-2018-retrospective-clip-02-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Dancing at Mehmooni, with dance music and crowd sound.",
+      "fa": "رقص در مهمونی، همراه با موسیقی و صدای جمع."
+    }
+  },
+  {
+    "id": "community-fire-ring-gathering-video",
+    "src": "/media/community-fire-ring-gathering-video.mp4",
+    "thumbnail": "/media/community-fire-ring-gathering-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 360,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends wave beside a concrete fire ring, with grass and a park building behind them.",
+      "fa": "دوستان کنار حلقهٔ سیمانی آتش دست تکان می‌دهند و پشت سرشان چمن و ساختمانی در محوطه دیده می‌شود."
+    },
+    "caption": {
+      "en": "By the fire",
+      "fa": "دورهمی کنار آتش"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 5.7,
+    "videoPoster": "/media/community-fire-ring-gathering-video-poster.webp",
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Friends wave and lean toward a fire ring. The source recording has no audio.",
+      "fa": "دوستان کنار حلقهٔ آتش دست تکان می‌دهند. فیلم اصلی صدا ندارد."
+    }
+  },
+  {
+    "id": "joint-nowruz-dance-floor-clip-01",
+    "src": "/media/joint-nowruz-dance-floor-clip-01.mp4",
+    "thumbnail": "/media/joint-nowruz-dance-floor-clip-01-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dance in a room lit blue and purple, in a shared Nowruz-party story.",
+      "fa": "مهمان‌ها در سالنی با نور آبی و بنفش می‌رقصند؛ استوری مربوط به جشن نوروز است."
+    },
+    "caption": {
+      "en": "Nowruz on the dance floor",
+      "fa": "نوروز در جمع دوستان"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 28.64001,
+    "videoPoster": "/media/joint-nowruz-dance-floor-clip-01-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A crowded Nowruz dance floor with dance music.",
+      "fa": "جمع دوستان در جشن نوروز، همراه با موسیقی برای رقص."
+    }
+  },
+  {
+    "id": "joint-nowruz-dance-floor-clip-02",
+    "src": "/media/joint-nowruz-dance-floor-clip-02.mp4",
+    "thumbnail": "/media/joint-nowruz-dance-floor-clip-02-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dance in a room lit blue and purple, in a shared Nowruz-party story.",
+      "fa": "مهمان‌ها در سالنی با نور آبی و بنفش می‌رقصند؛ استوری مربوط به جشن نوروز است."
+    },
+    "caption": {
+      "en": "Nowruz on the dance floor",
+      "fa": "نوروز در جمع دوستان"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 24.51669,
+    "videoPoster": "/media/joint-nowruz-dance-floor-clip-02-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A crowded Nowruz dance floor with dance music.",
+      "fa": "جمع دوستان در جشن نوروز، همراه با موسیقی برای رقص."
+    }
+  },
+  {
+    "id": "joint-nowruz-dance-floor-clip-03",
+    "src": "/media/joint-nowruz-dance-floor-clip-03.mp4",
+    "thumbnail": "/media/joint-nowruz-dance-floor-clip-03-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dance in a room lit blue and purple, in a shared Nowruz-party story.",
+      "fa": "مهمان‌ها در سالنی با نور آبی و بنفش می‌رقصند؛ استوری مربوط به جشن نوروز است."
+    },
+    "caption": {
+      "en": "Nowruz on the dance floor",
+      "fa": "نوروز در جمع دوستان"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 23.605011,
+    "videoPoster": "/media/joint-nowruz-dance-floor-clip-03-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A crowded Nowruz dance floor with dance music.",
+      "fa": "جمع دوستان در جشن نوروز، همراه با موسیقی برای رقص."
+    }
+  },
+  {
+    "id": "joint-nowruz-dance-floor-clip-04",
+    "src": "/media/joint-nowruz-dance-floor-clip-04.mp4",
+    "thumbnail": "/media/joint-nowruz-dance-floor-clip-04-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests dance in a room lit blue and purple, in a shared Nowruz-party story.",
+      "fa": "مهمان‌ها در سالنی با نور آبی و بنفش می‌رقصند؛ استوری مربوط به جشن نوروز است."
+    },
+    "caption": {
+      "en": "Nowruz on the dance floor",
+      "fa": "نوروز در جمع دوستان"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 5.633008,
+    "videoPoster": "/media/joint-nowruz-dance-floor-clip-04-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A crowded Nowruz dance floor with dance music.",
+      "fa": "جمع دوستان در جشن نوروز، همراه با موسیقی برای رقص."
+    }
+  },
+  {
+    "id": "usc-sigs-nowruz-2024-gathering-clip-01",
+    "src": "/media/usc-sigs-nowruz-2024-gathering-clip-01.mp4",
+    "thumbnail": "/media/usc-sigs-nowruz-2024-gathering-clip-01-small.webp",
+    "kind": "video",
+    "width": 432,
+    "height": 766,
+    "eventId": "usc-sigs-nowruz-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A DJ and guests fill the dance floor beneath purple stage lights.",
+      "fa": "دی‌جی و مهمان‌ها زیر نور بنفش صحنه در سالن جشن حضور دارند."
+    },
+    "caption": {
+      "en": "Nowruz with USC and UCI, 2024",
+      "fa": "نوروز USC و UCI، ۲۰۲۴"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 83.28415,
+    "videoPoster": "/media/usc-sigs-nowruz-2024-gathering-clip-01-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "The joint USC and SIGS Nowruz celebration, with dance music and the crowd around the DJ booth.",
+      "fa": "جشن مشترک نوروز USC و SIGS، همراه با موسیقی و جمع مهمان‌ها کنار میز دی‌جی."
+    }
+  },
+  {
+    "id": "usc-sigs-nowruz-2024-gathering-clip-02",
+    "src": "/media/usc-sigs-nowruz-2024-gathering-clip-02.mp4",
+    "thumbnail": "/media/usc-sigs-nowruz-2024-gathering-clip-02-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": "usc-sigs-nowruz-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A DJ and guests fill the dance floor beneath purple stage lights.",
+      "fa": "دی‌جی و مهمان‌ها زیر نور بنفش صحنه در سالن جشن حضور دارند."
+    },
+    "caption": {
+      "en": "Nowruz with USC and UCI, 2024",
+      "fa": "نوروز USC و UCI، ۲۰۲۴"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 29.627007,
+    "videoPoster": "/media/usc-sigs-nowruz-2024-gathering-clip-02-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "The joint USC and SIGS Nowruz celebration, with dance music and the crowd around the DJ booth.",
+      "fa": "جشن مشترک نوروز USC و SIGS، همراه با موسیقی و جمع مهمان‌ها کنار میز دی‌جی."
+    }
+  },
+  {
+    "id": "usc-sigs-nowruz-2024-gathering-clip-03",
+    "src": "/media/usc-sigs-nowruz-2024-gathering-clip-03.mp4",
+    "thumbnail": "/media/usc-sigs-nowruz-2024-gathering-clip-03-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": "usc-sigs-nowruz-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A DJ and guests fill the dance floor beneath purple stage lights.",
+      "fa": "دی‌جی و مهمان‌ها زیر نور بنفش صحنه در سالن جشن حضور دارند."
+    },
+    "caption": {
+      "en": "Nowruz with USC and UCI, 2024",
+      "fa": "نوروز USC و UCI، ۲۰۲۴"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.021995,
+    "videoPoster": "/media/usc-sigs-nowruz-2024-gathering-clip-03-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "The joint USC and SIGS Nowruz celebration, with dance music and the crowd around the DJ booth.",
+      "fa": "جشن مشترک نوروز USC و SIGS، همراه با موسیقی و جمع مهمان‌ها کنار میز دی‌جی."
+    }
+  },
+  {
+    "id": "uci-mentoring-session-2024-video",
+    "src": "/media/uci-mentoring-session-2024-video.mp4",
+    "thumbnail": "/media/uci-mentoring-session-2024-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "uci-networking-mixer-2024-08-10",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Attendees talk around tables in a meeting room, beneath the caption Mentoring session UCI8/10/2024.",
+      "fa": "شرکت‌کننده‌ها دور میزهای یک سالن گفت‌وگو می‌کنند؛ روی تصویر جلسهٔ منتورینگ در UCI و تاریخ ۱۰ اوت ۲۰۲۴ نوشته شده است."
+    },
+    "caption": {
+      "en": "Mentoring at UCI, August 10, 2024",
+      "fa": "جلسهٔ منتورینگ در UCI، ۱۰ اوت ۲۰۲۴"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.021995,
+    "videoPoster": "/media/uci-mentoring-session-2024-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "People talk in small groups during the mentoring session. Music accompanies the shared clip.",
+      "fa": "شرکت‌کننده‌ها در گروه‌های کوچک جلسهٔ منتورینگ گفت‌وگو می‌کنند. کلیپ با موسیقی همراه است."
+    }
+  },
+  {
+    "id": "uci-rally-2026-02-02-video",
+    "src": "/media/uci-rally-2026-02-02-video.mp4",
+    "thumbnail": "/media/uci-rally-2026-02-02-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "solidarity-2026-02-02",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A group walks across campus carrying Iranian flags, beneath the caption Today’s UCI Rally.",
+      "fa": "جمعی با پرچم‌های ایران در محوطهٔ دانشگاه راه می‌روند؛ روی تصویر نوشته شده تجمع امروز UCI."
+    },
+    "caption": {
+      "en": "UCI rally, February 2, 2026",
+      "fa": "تجمع UCI، ۲ فوریهٔ ۲۰۲۶"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 4.6,
+    "videoPoster": "/media/uci-rally-2026-02-02-video-poster.webp",
+    "audioContent": "silent",
+    "transcript": {
+      "en": "Participants walk across campus carrying flags. The source recording has no audio.",
+      "fa": "شرکت‌کننده‌ها با پرچم در محوطهٔ دانشگاه راه می‌روند. فیلم اصلی صدا ندارد."
+    }
+  },
+  {
+    "id": "poetry-night-2019-tombak-video",
+    "src": "/media/poetry-night-2019-tombak-video.mp4",
+    "thumbnail": "/media/poetry-night-2019-tombak-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A seated musician plays a tombak while the audience watches.",
+      "fa": "نوازنده‌ای نشسته تنبک می‌نوازد و حاضران اجرای او را تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Tombak at Poetry Night, 2019",
+      "fa": "تنبک در شب شعر، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 10.123991,
+    "videoPoster": "/media/poetry-night-2019-tombak-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A live tombak performance in the community room.",
+      "fa": "اجرای زندهٔ تنبک در سالن دورهمی."
+    }
+  },
+  {
+    "id": "poetry-night-2019-applause-video",
+    "src": "/media/poetry-night-2019-applause-video.mp4",
+    "thumbnail": "/media/poetry-night-2019-applause-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Audience members clap while seated around tables.",
+      "fa": "حاضران دور میزها نشسته‌اند و دست می‌زنند."
+    },
+    "caption": {
+      "en": "Applause at Poetry Night, 2019",
+      "fa": "تشویق در شب شعر، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 2.971995,
+    "videoPoster": "/media/poetry-night-2019-applause-video-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The audience applauds between performances.",
+      "fa": "تشویق حاضران بین اجراها."
+    }
+  },
+  {
+    "id": "iran-japan-watch-party-clip-01",
+    "src": "/media/iran-japan-watch-party-clip-01.mp4",
+    "thumbnail": "/media/iran-japan-watch-party-clip-01-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends watch the Iran and Japan football match on a television in a community room.",
+      "fa": "دوستان در سالن دورهمی بازی فوتبال ایران و ژاپن را از تلویزیون تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Watching Iran and Japan",
+      "fa": "تماشای بازی ایران و ژاپن"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.07,
+    "videoPoster": "/media/iran-japan-watch-party-clip-01-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The Iran and Japan match on television, with football-broadcast sound and reactions in the room.",
+      "fa": "بازی ایران و ژاپن از تلویزیون، همراه با صدای پخش مسابقه و واکنش حاضران در سالن."
+    }
+  },
+  {
+    "id": "iran-japan-watch-party-clip-02",
+    "src": "/media/iran-japan-watch-party-clip-02.mp4",
+    "thumbnail": "/media/iran-japan-watch-party-clip-02-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends watch the Iran and Japan football match on a television in a community room.",
+      "fa": "دوستان در سالن دورهمی بازی فوتبال ایران و ژاپن را از تلویزیون تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Watching Iran and Japan",
+      "fa": "تماشای بازی ایران و ژاپن"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 12.516009,
+    "videoPoster": "/media/iran-japan-watch-party-clip-02-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The Iran and Japan match on television, with football-broadcast sound and reactions in the room.",
+      "fa": "بازی ایران و ژاپن از تلویزیون، همراه با صدای پخش مسابقه و واکنش حاضران در سالن."
+    }
+  },
+  {
+    "id": "welcome-2023-orientation-room-photo",
+    "src": "/media/welcome-2023-orientation-room-photo.webp",
+    "thumbnail": "/media/welcome-2023-orientation-room-photo-small.webp",
+    "kind": "photo",
+    "width": 1800,
+    "height": 1013,
+    "eventId": "welcome-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Newcomers sit around tables facing a television during the welcome session.",
+      "fa": "تازه‌واردها در جلسهٔ خوشامدگویی دور میزها و رو به تلویزیون نشسته‌اند."
+    },
+    "caption": {
+      "en": "Welcoming new students, 2023",
+      "fa": "خوشامدگویی به دانشجوهای تازه‌وارد، ۲۰۲۳"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isu-nowruz-campus-outreach-photo",
+    "src": "/media/isu-nowruz-campus-outreach-photo.webp",
+    "thumbnail": "/media/isu-nowruz-campus-outreach-photo-small.webp",
+    "kind": "photo",
+    "width": 1013,
+    "height": 1800,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Students stand behind an ISU campus table with a haft-sin display and Nowruz information.",
+      "fa": "دانشجوها پشت میز ISU در محوطهٔ دانشگاه ایستاده‌اند؛ هفت‌سین و اطلاعات جشن نوروز روی میز دیده می‌شود."
+    },
+    "caption": {
+      "en": "Asking about Nowruz at the ISU table",
+      "fa": "آشنایی با نوروز کنار میز ISU"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-volunteer-planning-photo",
+    "src": "/media/nowruz-volunteer-planning-photo.webp",
+    "thumbnail": "/media/nowruz-volunteer-planning-photo-small.webp",
+    "kind": "photo",
+    "width": 640,
+    "height": 360,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Volunteers sit around tables for a meeting, beneath the caption Nowruz celebration planning.",
+      "fa": "داوطلب‌ها برای جلسه دور میز نشسته‌اند و روی تصویر نوشته شده برنامه‌ریزی جشن نوروز."
+    },
+    "caption": {
+      "en": "Planning a Nowruz celebration",
+      "fa": "برنامه‌ریزی جشن نوروز"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "team-melli-championship-photo",
+    "src": "/media/team-melli-championship-photo.webp",
+    "thumbnail": "/media/team-melli-championship-photo-small.webp",
+    "kind": "photo",
+    "width": 1080,
+    "height": 809,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A football team in red shirts poses beside a goal on an outdoor pitch.",
+      "fa": "تیمی با پیراهن‌های قرمز کنار دروازهٔ زمین فوتبال عکس گرفته است."
+    },
+    "caption": {
+      "en": "Congratulations, Team Melli",
+      "fa": "تبریک به تیم ملی"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "poetry-night-2019-guitar-and-vocals-video",
+    "src": "/media/poetry-night-2019-guitar-and-vocals-video.mp4",
+    "thumbnail": "/media/poetry-night-2019-guitar-and-vocals-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A guitarist sings to the seated audience.",
+      "fa": "نوازندهٔ گیتار برای حاضران نشسته آواز می‌خواند."
+    },
+    "caption": {
+      "en": "Music at Poetry Night, 2019",
+      "fa": "موسیقی در شب شعر، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.07,
+    "videoPoster": "/media/poetry-night-2019-guitar-and-vocals-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Live singing with acoustic guitar.",
+      "fa": "آواز زنده همراه با گیتار آکوستیک."
+    },
+    "captions": {
+      "en": "/media/poetry-night-2019-guitar-and-vocals-video-en.vtt",
+      "fa": "/media/poetry-night-2019-guitar-and-vocals-video-fa.vtt"
+    }
+  },
+  {
+    "id": "poetry-night-2019-audience-song-video",
+    "src": "/media/poetry-night-2019-audience-song-video.mp4",
+    "thumbnail": "/media/poetry-night-2019-audience-song-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Audience members join a song while seated around tables.",
+      "fa": "حاضران در حالی که دور میزها نشسته‌اند، با آواز همراهی می‌کنند."
+    },
+    "caption": {
+      "en": "Music at Poetry Night, 2019",
+      "fa": "موسیقی در شب شعر، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 14.930998,
+    "videoPoster": "/media/poetry-night-2019-audience-song-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A group sings together in the community room.",
+      "fa": "هم‌خوانی جمعی در سالن دورهمی."
+    },
+    "captions": {
+      "en": "/media/poetry-night-2019-audience-song-video-en.vtt",
+      "fa": "/media/poetry-night-2019-audience-song-video-fa.vtt"
+    }
+  },
+  {
+    "id": "poetry-night-2019-voice-and-tombak-video",
+    "src": "/media/poetry-night-2019-voice-and-tombak-video.mp4",
+    "thumbnail": "/media/poetry-night-2019-voice-and-tombak-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A singer and tombak player perform together at the front of the room.",
+      "fa": "خواننده و نوازندهٔ تنبک در جلوی سالن با هم اجرا می‌کنند."
+    },
+    "caption": {
+      "en": "Music at Poetry Night, 2019",
+      "fa": "موسیقی در شب شعر، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 10.496009,
+    "videoPoster": "/media/poetry-night-2019-voice-and-tombak-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Live singing accompanied by tombak.",
+      "fa": "آواز زنده همراه با تنبک."
+    },
+    "captions": {
+      "en": "/media/poetry-night-2019-voice-and-tombak-video-en.vtt",
+      "fa": "/media/poetry-night-2019-voice-and-tombak-video-fa.vtt"
+    }
+  },
+  {
+    "id": "poetry-night-2019-vocal-performance-video",
+    "src": "/media/poetry-night-2019-vocal-performance-video.mp4",
+    "thumbnail": "/media/poetry-night-2019-vocal-performance-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Audience members listen to a live vocal performance.",
+      "fa": "حاضران به اجرای زندهٔ آواز گوش می‌دهند."
+    },
+    "caption": {
+      "en": "Music at Poetry Night, 2019",
+      "fa": "موسیقی در شب شعر، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 14.42,
+    "videoPoster": "/media/poetry-night-2019-vocal-performance-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Live singing in the community room.",
+      "fa": "آواز زنده در سالن دورهمی."
+    },
+    "captions": {
+      "en": "/media/poetry-night-2019-vocal-performance-video-en.vtt",
+      "fa": "/media/poetry-night-2019-vocal-performance-video-fa.vtt"
+    }
+  },
+  {
+    "id": "poetry-night-2019-vocal-duet-video",
+    "src": "/media/poetry-night-2019-vocal-duet-video.mp4",
+    "thumbnail": "/media/poetry-night-2019-vocal-duet-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "poetry-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two performers sit at the front of the room for a vocal performance.",
+      "fa": "دو اجراکننده برای اجرای آواز جلوی سالن نشسته‌اند."
+    },
+    "caption": {
+      "en": "Music at Poetry Night, 2019",
+      "fa": "موسیقی در شب شعر، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.07,
+    "videoPoster": "/media/poetry-night-2019-vocal-duet-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A live vocal performance in front of the seated audience.",
+      "fa": "اجرای زندهٔ آواز برای حاضران در سالن."
+    },
+    "captions": {
+      "en": "/media/poetry-night-2019-vocal-duet-video-en.vtt",
+      "fa": "/media/poetry-night-2019-vocal-duet-video-fa.vtt"
+    }
+  },
+  {
+    "id": "nowruz-2019-group-dance-clip-01",
+    "src": "/media/nowruz-2019-group-dance-clip-01.mp4",
+    "thumbnail": "/media/nowruz-2019-group-dance-clip-01-small.webp",
+    "kind": "video",
+    "width": 1136,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dancers in yellow and red skirts perform with dancers in dark shirts on a stage.",
+      "fa": "گروهی با دامن‌های زرد و قرمز و پیراهن‌های تیره روی صحنه می‌رقصند."
+    },
+    "caption": {
+      "en": "Group dance at Nowruz, 2019",
+      "fa": "رقص گروهی در جشن نوروز، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 11.433333,
+    "videoPoster": "/media/nowruz-2019-group-dance-clip-01-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A group dance performance accompanied by music.",
+      "fa": "اجرای رقص گروهی همراه با موسیقی."
+    }
+  },
+  {
+    "id": "nowruz-2019-group-dance-clip-02",
+    "src": "/media/nowruz-2019-group-dance-clip-02.mp4",
+    "thumbnail": "/media/nowruz-2019-group-dance-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 360,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Dancers in yellow and red skirts perform with dancers in dark shirts on a stage.",
+      "fa": "گروهی با دامن‌های زرد و قرمز و پیراهن‌های تیره روی صحنه می‌رقصند."
+    },
+    "caption": {
+      "en": "Group dance at Nowruz, 2019",
+      "fa": "رقص گروهی در جشن نوروز، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.0,
+    "videoPoster": "/media/nowruz-2019-group-dance-clip-02-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A group dance performance accompanied by music.",
+      "fa": "اجرای رقص گروهی همراه با موسیقی."
+    }
+  },
+  {
+    "id": "jordan-film-weekend-2016-program-poster",
+    "src": "/media/jordan-film-weekend-2016-program-poster.webp",
+    "thumbnail": "/media/jordan-film-weekend-2016-program-poster-small.webp",
+    "kind": "poster",
+    "width": 720,
+    "height": 899,
+    "eventId": "a-dragon-arrives-2016",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Jordan Center film screenings, November 2016",
+      "fa": "پوستر نمایش فیلم‌های مرکز جردن، نوامبر ۲۰۱۶"
+    },
+    "caption": {
+      "en": "Jordan Center film screenings, November 2016",
+      "fa": "پوستر نمایش فیلم‌های مرکز جردن، نوامبر ۲۰۱۶"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "solidarity-2026-02-02-program-poster",
+    "src": "/media/solidarity-2026-02-02-program-poster.webp",
+    "thumbnail": "/media/solidarity-2026-02-02-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "solidarity-2026-02-02",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Campus solidarity rally with ISU invitation",
+      "fa": "پوستر تجمع همبستگی در دانشگاه با ISU"
+    },
+    "caption": {
+      "en": "Campus solidarity rally with ISU invitation",
+      "fa": "پوستر تجمع همبستگی در دانشگاه با ISU"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-distant-performance-festival-cover",
+    "src": "/media/isc-distant-performance-festival-cover.webp",
+    "thumbnail": "/media/isc-distant-performance-festival-cover-small.webp",
+    "kind": "poster",
+    "width": 1280,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Distant Performance, the first ISC Music Festival",
+      "fa": "«اجرای دورادور»، نخستین جشنوارهٔ موسیقی ISC"
+    },
+    "caption": {
+      "en": "Distant Performance, the first ISC Music Festival",
+      "fa": "«اجرای دورادور»، نخستین جشنوارهٔ موسیقی ISC"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-distant-performance-submission-guidelines",
+    "src": "/media/isc-distant-performance-submission-guidelines.webp",
+    "thumbnail": "/media/isc-distant-performance-submission-guidelines-small.webp",
+    "kind": "poster",
+    "width": 1280,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Distant Performance: musician submission guidelines",
+      "fa": "راهنمای ارسال آثار برای جشنوارهٔ موسیقی «اجرای دورادور»"
+    },
+    "caption": {
+      "en": "Distant Performance: musician submission guidelines",
+      "fa": "راهنمای ارسال آثار برای جشنوارهٔ موسیقی «اجرای دورادور»"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-distant-performance-program-outline",
+    "src": "/media/isc-distant-performance-program-outline.webp",
+    "thumbnail": "/media/isc-distant-performance-program-outline-small.webp",
+    "kind": "poster",
+    "width": 1280,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Distant Performance: planned online festival program",
+      "fa": "برنامهٔ پیشنهادی جشنوارهٔ آنلاین موسیقی «اجرای دورادور»"
+    },
+    "caption": {
+      "en": "Distant Performance: planned online festival program",
+      "fa": "برنامهٔ پیشنهادی جشنوارهٔ آنلاین موسیقی «اجرای دورادور»"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-distant-performance-submission-call",
+    "src": "/media/isc-distant-performance-submission-call.webp",
+    "thumbnail": "/media/isc-distant-performance-submission-call-small.webp",
+    "kind": "poster",
+    "width": 1280,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Distant Performance: call for works, deadline November 9, 2020",
+      "fa": "فراخوان آثار جشنوارهٔ «اجرای دورادور» با مهلت ارسال ۹ نوامبر ۲۰۲۰"
+    },
+    "caption": {
+      "en": "Distant Performance: call for works, deadline November 9, 2020",
+      "fa": "فراخوان آثار جشنوارهٔ «اجرای دورادور» با مهلت ارسال ۹ نوامبر ۲۰۲۰"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "welcome-2020-program-poster",
+    "src": "/media/welcome-2020-program-poster.webp",
+    "thumbnail": "/media/welcome-2020-program-poster-small.webp",
+    "kind": "poster",
+    "width": 720,
+    "height": 720,
+    "eventId": "welcome-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: New student welcome, 2020 invitation",
+      "fa": "پوستر خوشامدگویی به دانشجویان جدید، ۲۰۲۰"
+    },
+    "caption": {
+      "en": "New student welcome, 2020 invitation",
+      "fa": "پوستر خوشامدگویی به دانشجویان جدید، ۲۰۲۰"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-virtual-commencement-2020-program-poster",
+    "src": "/media/isc-virtual-commencement-2020-program-poster.webp",
+    "thumbnail": "/media/isc-virtual-commencement-2020-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1280,
+    "height": 1280,
+    "eventId": "isc-virtual-commencement-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: ISC virtual commencement invitation",
+      "fa": "پوستر جشن آنلاین دانش‌آموختگی ISC"
+    },
+    "caption": {
+      "en": "ISC virtual commencement invitation",
+      "fa": "پوستر جشن آنلاین دانش‌آموختگی ISC"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2019-program-poster",
+    "src": "/media/mehmooni-2019-program-poster.webp",
+    "thumbnail": "/media/mehmooni-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1080,
+    "eventId": "mehmooni-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Mehmooni invitation",
+      "fa": "پوستر مهمونی"
+    },
+    "caption": {
+      "en": "Mehmooni invitation",
+      "fa": "پوستر مهمونی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "ali-azimi-los-angeles-2019-program-poster",
+    "src": "/media/ali-azimi-los-angeles-2019-program-poster.webp",
+    "thumbnail": "/media/ali-azimi-los-angeles-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1440,
+    "height": 1440,
+    "eventId": "ali-azimi-los-angeles-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Ali Azimi live in Los Angeles invitation",
+      "fa": "پوستر کنسرت علی عظیمی در لس‌آنجلس"
+    },
+    "caption": {
+      "en": "Ali Azimi live in Los Angeles invitation",
+      "fa": "پوستر کنسرت علی عظیمی در لس‌آنجلس"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "career-panel-2019-program-poster",
+    "src": "/media/career-panel-2019-program-poster.webp",
+    "thumbnail": "/media/career-panel-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1080,
+    "eventId": "career-panel-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Iranian American Alumni Career Panel invitation",
+      "fa": "پوستر پنل مسیر شغلی با فارغ‌التحصیلان ایرانی‌آمریکایی، ۲۰۱۹"
+    },
+    "caption": {
+      "en": "Iranian American Alumni Career Panel invitation",
+      "fa": "پوستر پنل مسیر شغلی با فارغ‌التحصیلان ایرانی‌آمریکایی، ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "standup-yost-memorial-day-2019-program-poster",
+    "src": "/media/standup-yost-memorial-day-2019-program-poster.webp",
+    "thumbnail": "/media/standup-yost-memorial-day-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1274,
+    "height": 1274,
+    "eventId": "standup-yost-memorial-day-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Max Amini at The Yost Theatre invitation",
+      "fa": "پوستر اجرای مکس امینی در تئاتر یاست"
+    },
+    "caption": {
+      "en": "Max Amini at The Yost Theatre invitation",
+      "fa": "پوستر اجرای مکس امینی در تئاتر یاست"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-2019-full-program-poster",
+    "src": "/media/nowruz-2019-full-program-poster.webp",
+    "thumbnail": "/media/nowruz-2019-full-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1350,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Nowruz 1398 / 2019 invitation",
+      "fa": "پوستر نوروز ۱۳۹۸ / ۲۰۱۹"
+    },
+    "caption": {
+      "en": "Nowruz 1398 / 2019 invitation",
+      "fa": "پوستر نوروز ۱۳۹۸ / ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "ociacc-professional-mixer-2019-program-poster",
+    "src": "/media/ociacc-professional-mixer-2019-program-poster.webp",
+    "thumbnail": "/media/ociacc-professional-mixer-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 812,
+    "height": 1015,
+    "eventId": "ociacc-professional-mixer-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Joint Valentine's Mixer invitation",
+      "fa": "پوستر دورهمی آشنایی با متخصصان با همکاری OCIACC"
+    },
+    "caption": {
+      "en": "Joint Valentine's Mixer invitation",
+      "fa": "پوستر دورهمی آشنایی با متخصصان با همکاری OCIACC"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "taco-tuesday-2018-program-poster",
+    "src": "/media/taco-tuesday-2018-program-poster.webp",
+    "thumbnail": "/media/taco-tuesday-2018-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1080,
+    "eventId": "taco-tuesday-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: American Junkie venue poster shared for SIGS Taco Tuesday 2018",
+      "fa": "پوستر محل دورهمی سه‌شنبهٔ تاکو SIGS در American Junkie، ۲۰۱۸"
+    },
+    "caption": {
+      "en": "American Junkie venue poster shared for SIGS Taco Tuesday 2018",
+      "fa": "پوستر محل دورهمی سه‌شنبهٔ تاکو SIGS در American Junkie، ۲۰۱۸"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bia2-warwick-2018-program-poster",
+    "src": "/media/bia2-warwick-2018-program-poster.webp",
+    "thumbnail": "/media/bia2-warwick-2018-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 565,
+    "eventId": "bia2-warwick-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: BIA2 Los Angeles at Warwick invitation",
+      "fa": "پوستر مهمانی BIA2 در Warwick لس‌آنجلس"
+    },
+    "caption": {
+      "en": "BIA2 Los Angeles at Warwick invitation",
+      "fa": "پوستر مهمانی BIA2 در Warwick لس‌آنجلس"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "solidarity-2026-02-10-program-poster",
+    "src": "/media/solidarity-2026-02-10-program-poster.webp",
+    "thumbnail": "/media/solidarity-2026-02-10-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "solidarity-2026-02-10",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCI Solidarity Gathering for Freedom in Iran invitation",
+      "fa": "پوستر گردهمایی همبستگی UCI برای آزادی در ایران"
+    },
+    "caption": {
+      "en": "UCI Solidarity Gathering for Freedom in Iran invitation",
+      "fa": "پوستر گردهمایی همبستگی UCI برای آزادی در ایران"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-discussion-2026-02-03-program-poster",
+    "src": "/media/community-discussion-2026-02-03-program-poster.webp",
+    "thumbnail": "/media/community-discussion-2026-02-03-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "community-discussion-2026-02-03",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Community discussion with Negar Shekarabi invitation",
+      "fa": "پوستر گفت‌وگوی جمعی با نگار شکرآبی"
+    },
+    "caption": {
+      "en": "Community discussion with Negar Shekarabi invitation",
+      "fa": "پوستر گفت‌وگوی جمعی با نگار شکرآبی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-trails-of-lights-2026-program-poster",
+    "src": "/media/isc-trails-of-lights-2026-program-poster.webp",
+    "thumbnail": "/media/isc-trails-of-lights-2026-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "isc-trails-of-lights-2026",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: ISC Trails of Lights: community care circle invitation",
+      "fa": "پوستر حلقهٔ گفت‌وگوی جمعی ISC"
+    },
+    "caption": {
+      "en": "ISC Trails of Lights: community care circle invitation",
+      "fa": "پوستر حلقهٔ گفت‌وگوی جمعی ISC"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "eastalgia-songs-for-freedom-invitation",
+    "src": "/media/eastalgia-songs-for-freedom-invitation.webp",
+    "thumbnail": "/media/eastalgia-songs-for-freedom-invitation-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Eastalgia and NIPOC open mic: Free Iran, Songs for Freedom",
+      "fa": "پوستر برنامهٔ میکروفن آزاد Eastalgia و NIPOC: ترانه‌هایی برای آزادی ایران"
+    },
+    "caption": {
+      "en": "Eastalgia and NIPOC open mic: Free Iran, Songs for Freedom",
+      "fa": "پوستر برنامهٔ میکروفن آزاد Eastalgia و NIPOC: ترانه‌هایی برای آزادی ایران"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "candlelight-vigil-2026-01-21-program-poster",
+    "src": "/media/candlelight-vigil-2026-01-21-program-poster.webp",
+    "thumbnail": "/media/candlelight-vigil-2026-01-21-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "candlelight-vigil-2026-01-21",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Candlelight vigil at Mason Park invitation",
+      "fa": "پوستر گردهمایی شمع‌افروزی در پارک میسون"
+    },
+    "caption": {
+      "en": "Candlelight vigil at Mason Park invitation",
+      "fa": "پوستر گردهمایی شمع‌افروزی در پارک میسون"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "dj-sepand-fanous-2025-program-poster",
+    "src": "/media/dj-sepand-fanous-2025-program-poster.webp",
+    "thumbnail": "/media/dj-sepand-fanous-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "dj-sepand-fanous-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: White Party with DJ Sepand invitation",
+      "fa": "پوستر مهمانی سفید با دی‌جی سپند، ۲۰۲۵"
+    },
+    "caption": {
+      "en": "White Party with DJ Sepand invitation",
+      "fa": "پوستر مهمانی سفید با دی‌جی سپند، ۲۰۲۵"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "sami-beigi-greek-theatre-2025-program-poster",
+    "src": "/media/sami-beigi-greek-theatre-2025-program-poster.webp",
+    "thumbnail": "/media/sami-beigi-greek-theatre-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "sami-beigi-greek-theatre-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Sami Beigi at the Greek Theatre invitation",
+      "fa": "پوستر کنسرت سامی بیگی در گریک تئاتر، ۲۰۲۵"
+    },
+    "caption": {
+      "en": "Sami Beigi at the Greek Theatre invitation",
+      "fa": "پوستر کنسرت سامی بیگی در گریک تئاتر، ۲۰۲۵"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "usc-networking-mixer-2025-08-03-program-poster",
+    "src": "/media/usc-networking-mixer-2025-08-03-program-poster.webp",
+    "thumbnail": "/media/usc-networking-mixer-2025-08-03-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "usc-networking-mixer-2025-08-03",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Networking and mentorship at USC invitation",
+      "fa": "پوستر دورهمی و راهنمایی شغلی در USC"
+    },
+    "caption": {
+      "en": "Networking and mentorship at USC invitation",
+      "fa": "پوستر دورهمی و راهنمایی شغلی در USC"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "visa-status-career-growth-2025-program-poster",
+    "src": "/media/visa-status-career-growth-2025-program-poster.webp",
+    "thumbnail": "/media/visa-status-career-growth-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "visa-status-career-growth-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Visa status and career growth invitation",
+      "fa": "پوستر وضعیت ویزا و مسیر شغلی"
+    },
+    "caption": {
+      "en": "Visa status and career growth invitation",
+      "fa": "پوستر وضعیت ویزا و مسیر شغلی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "beach-gathering-2025-updated-invitation",
+    "src": "/media/beach-gathering-2025-updated-invitation.webp",
+    "thumbnail": "/media/beach-gathering-2025-updated-invitation-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "beach-gathering-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: IAWF and SIGS Beach Game Day, June 7, 2025: updated hours",
+      "fa": "پوستر روز بازی ساحلی IAWF و SIGS، ۷ ژوئن ۲۰۲۵، با ساعت جدید"
+    },
+    "caption": {
+      "en": "IAWF and SIGS Beach Game Day, June 7, 2025: updated hours",
+      "fa": "پوستر روز بازی ساحلی IAWF و SIGS، ۷ ژوئن ۲۰۲۵، با ساعت جدید"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-isu-culture-show-2025-program-poster",
+    "src": "/media/uci-isu-culture-show-2025-program-poster.webp",
+    "thumbnail": "/media/uci-isu-culture-show-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "uci-isu-culture-show-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCI Culture Show and Farewell Banquet invitation",
+      "fa": "پوستر جشن فرهنگی و مراسم خداحافظی انجمن دانشجویان ایرانی UCI، ۲۰۲۵"
+    },
+    "caption": {
+      "en": "UCI Culture Show and Farewell Banquet invitation",
+      "fa": "پوستر جشن فرهنگی و مراسم خداحافظی انجمن دانشجویان ایرانی UCI، ۲۰۲۵"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "career-law-real-estate-immigration-2025-program-poster",
+    "src": "/media/career-law-real-estate-immigration-2025-program-poster.webp",
+    "thumbnail": "/media/career-law-real-estate-immigration-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "career-law-real-estate-immigration-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Career conversations: law, real estate and immigration invitation",
+      "fa": "پوستر گفت‌وگوی شغلی دربارهٔ حقوق، املاک و مهاجرت"
+    },
+    "caption": {
+      "en": "Career conversations: law, real estate and immigration invitation",
+      "fa": "پوستر گفت‌وگوی شغلی دربارهٔ حقوق، املاک و مهاجرت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "csulb-nowruz-2025-program-poster",
+    "src": "/media/csulb-nowruz-2025-program-poster.webp",
+    "thumbnail": "/media/csulb-nowruz-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "csulb-nowruz-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Nowruz at CSULB invitation",
+      "fa": "پوستر جشن نوروز در CSULB"
+    },
+    "caption": {
+      "en": "Nowruz at CSULB invitation",
+      "fa": "پوستر جشن نوروز در CSULB"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "chaharshanbe-soori-flame-2025-program-poster",
+    "src": "/media/chaharshanbe-soori-flame-2025-program-poster.webp",
+    "thumbnail": "/media/chaharshanbe-soori-flame-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "chaharshanbe-soori-flame-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: 4 Shanbe Soori 2 at Flame International invitation",
+      "fa": "پوستر چهارشنبه‌سوری ۲ در Flame International، ۲۰۲۵"
+    },
+    "caption": {
+      "en": "4 Shanbe Soori 2 at Flame International invitation",
+      "fa": "پوستر چهارشنبه‌سوری ۲ در Flame International، ۲۰۲۵"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "women-ai-careers-2025-program-poster",
+    "src": "/media/women-ai-careers-2025-program-poster.webp",
+    "thumbnail": "/media/women-ai-careers-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "women-ai-careers-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Skills and careers in AI invitation",
+      "fa": "پوستر مهارت‌های شغلی زنان در عصر هوش مصنوعی"
+    },
+    "caption": {
+      "en": "Skills and careers in AI invitation",
+      "fa": "پوستر مهارت‌های شغلی زنان در عصر هوش مصنوعی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "networking-2025-program-poster",
+    "src": "/media/networking-2025-program-poster.webp",
+    "thumbnail": "/media/networking-2025-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "networking-2025",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: OC Rising Leaders × SIGS Networking Event invitation",
+      "fa": "پوستر رویداد شبکه‌سازی OC Rising Leaders و SIGS"
+    },
+    "caption": {
+      "en": "OC Rising Leaders × SIGS Networking Event invitation",
+      "fa": "پوستر رویداد شبکه‌سازی OC Rising Leaders و SIGS"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "color-party-2024-program-poster",
+    "src": "/media/color-party-2024-program-poster.webp",
+    "thumbnail": "/media/color-party-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "color-party-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Color Party invitation",
+      "fa": "پوستر مهمانی رنگ‌ها، ۲۰۲۴"
+    },
+    "caption": {
+      "en": "Color Party invitation",
+      "fa": "پوستر مهمانی رنگ‌ها، ۲۰۲۴"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "innovate-irvine-2024-program-poster",
+    "src": "/media/innovate-irvine-2024-program-poster.webp",
+    "thumbnail": "/media/innovate-irvine-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "innovate-irvine-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Innovate Irvine invitation",
+      "fa": "پوستر نشست Innovate Irvine"
+    },
+    "caption": {
+      "en": "Innovate Irvine invitation",
+      "fa": "پوستر نشست Innovate Irvine"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "tech-career-lab-2024-program-poster",
+    "src": "/media/tech-career-lab-2024-program-poster.webp",
+    "thumbnail": "/media/tech-career-lab-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "tech-career-lab-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Tech Career Lab mentorship invitation",
+      "fa": "پوستر برنامهٔ آنلاین راهنمایی شغلی Tech Career Lab"
+    },
+    "caption": {
+      "en": "Tech Career Lab mentorship invitation",
+      "fa": "پوستر برنامهٔ آنلاین راهنمایی شغلی Tech Career Lab"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "let-her-sing-2024-program-poster",
+    "src": "/media/let-her-sing-2024-program-poster.webp",
+    "thumbnail": "/media/let-her-sing-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "let-her-sing-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Let Her Sing: A Celebration of Female Voices invitation",
+      "fa": "پوستر بگذار بخواند؛ جشنی برای صدای زنان"
+    },
+    "caption": {
+      "en": "Let Her Sing: A Celebration of Female Voices invitation",
+      "fa": "پوستر بگذار بخواند؛ جشنی برای صدای زنان"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-networking-mixer-2024-08-10-program-poster",
+    "src": "/media/uci-networking-mixer-2024-08-10-program-poster.webp",
+    "thumbnail": "/media/uci-networking-mixer-2024-08-10-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "uci-networking-mixer-2024-08-10",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Networking mixer at UCI invitation",
+      "fa": "پوستر برنامهٔ آشنایی با متخصصان در UCI"
+    },
+    "caption": {
+      "en": "Networking mixer at UCI invitation",
+      "fa": "پوستر برنامهٔ آشنایی با متخصصان در UCI"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bowling-2024-program-poster",
+    "src": "/media/bowling-2024-program-poster.webp",
+    "thumbnail": "/media/bowling-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "bowling-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Summer bowling mixer invitation",
+      "fa": "پوستر دورهمی تابستانی بولینگ"
+    },
+    "caption": {
+      "en": "Summer bowling mixer invitation",
+      "fa": "پوستر دورهمی تابستانی بولینگ"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "shabhaye-tehran-la-2024-05-31-program-poster",
+    "src": "/media/shabhaye-tehran-la-2024-05-31-program-poster.webp",
+    "thumbnail": "/media/shabhaye-tehran-la-2024-05-31-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "shabhaye-tehran-la-2024-05-31",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Shabhaye Tehran LA: Party Friday invitation",
+      "fa": "پوستر شب‌های تهران لس‌آنجلس، ۳۱ مهٔ ۲۰۲۴"
+    },
+    "caption": {
+      "en": "Shabhaye Tehran LA: Party Friday invitation",
+      "fa": "پوستر شب‌های تهران لس‌آنجلس، ۳۱ مهٔ ۲۰۲۴"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "spring-celebration-2024-program-poster",
+    "src": "/media/spring-celebration-2024-program-poster.webp",
+    "thumbnail": "/media/spring-celebration-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "spring-celebration-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Spring celebration at UCI invitation",
+      "fa": "پوستر جشن بهاری دانش‌آموختگان UCI"
+    },
+    "caption": {
+      "en": "Spring celebration at UCI invitation",
+      "fa": "پوستر جشن بهاری دانش‌آموختگان UCI"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "usc-sigs-nowruz-2024-evening-schedule",
+    "src": "/media/usc-sigs-nowruz-2024-evening-schedule.webp",
+    "thumbnail": "/media/usc-sigs-nowruz-2024-evening-schedule-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "usc-sigs-nowruz-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: USC and UCI Nowruz 2024: evening schedule",
+      "fa": "برنامهٔ زمانی جشن مشترک نوروز ۲۰۲۴ USC و UCI"
+    },
+    "caption": {
+      "en": "USC and UCI Nowruz 2024: evening schedule",
+      "fa": "برنامهٔ زمانی جشن مشترک نوروز ۲۰۲۴ USC و UCI"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-gathering-2024-program-poster",
+    "src": "/media/nowruz-gathering-2024-program-poster.webp",
+    "thumbnail": "/media/nowruz-gathering-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-gathering-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Nowruz gathering invitation",
+      "fa": "پوستر دورهمی نوروزی"
+    },
+    "caption": {
+      "en": "Nowruz gathering invitation",
+      "fa": "پوستر دورهمی نوروزی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "nowruz-happy-hour-2024-program-poster",
+    "src": "/media/nowruz-happy-hour-2024-program-poster.webp",
+    "thumbnail": "/media/nowruz-happy-hour-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-happy-hour-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Nowruz-themed happy hour invitation",
+      "fa": "پوستر دورهمی نوروزی با سبزه و تخم‌مرغ‌رنگی"
+    },
+    "caption": {
+      "en": "Nowruz-themed happy hour invitation",
+      "fa": "پوستر دورهمی نوروزی با سبزه و تخم‌مرغ‌رنگی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "chaharshanbe-souri-flame-2024-program-poster",
+    "src": "/media/chaharshanbe-souri-flame-2024-program-poster.webp",
+    "thumbnail": "/media/chaharshanbe-souri-flame-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "chaharshanbe-souri-flame-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Chaharshanbe Soori at Flame International invitation",
+      "fa": "پوستر چهارشنبه‌سوری در Flame International، ۲۰۲۴"
+    },
+    "caption": {
+      "en": "Chaharshanbe Soori at Flame International invitation",
+      "fa": "پوستر چهارشنبه‌سوری در Flame International، ۲۰۲۴"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "chaharshanbe-souri-irvine-2024-program-poster",
+    "src": "/media/chaharshanbe-souri-irvine-2024-program-poster.webp",
+    "thumbnail": "/media/chaharshanbe-souri-irvine-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "chaharshanbe-souri-irvine-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Chaharshanbe Souri in Irvine invitation",
+      "fa": "پوستر چهارشنبه‌سوری در ارواین"
+    },
+    "caption": {
+      "en": "Chaharshanbe Souri in Irvine invitation",
+      "fa": "پوستر چهارشنبه‌سوری در ارواین"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "traditions-alive-san-diego-2024-program-poster",
+    "src": "/media/traditions-alive-san-diego-2024-program-poster.webp",
+    "thumbnail": "/media/traditions-alive-san-diego-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "traditions-alive-san-diego-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Traditions Alive: Iranian music and dance invitation",
+      "fa": "پوستر اجرای موسیقی و رقص Traditions Alive"
+    },
+    "caption": {
+      "en": "Traditions Alive: Iranian music and dance invitation",
+      "fa": "پوستر اجرای موسیقی و رقص Traditions Alive"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "reza-rohani-sara-naeini-2024-program-poster",
+    "src": "/media/reza-rohani-sara-naeini-2024-program-poster.webp",
+    "thumbnail": "/media/reza-rohani-sara-naeini-2024-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "reza-rohani-sara-naeini-2024",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Reza Rohani and Sara Naeini in Los Angeles invitation",
+      "fa": "پوستر کنسرت رضا روحانی و سارا نائینی در لس‌آنجلس"
+    },
+    "caption": {
+      "en": "Reza Rohani and Sara Naeini in Los Angeles invitation",
+      "fa": "پوستر کنسرت رضا روحانی و سارا نائینی در لس‌آنجلس"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "tech-career-lab-2023-program-poster",
+    "src": "/media/tech-career-lab-2023-program-poster.webp",
+    "thumbnail": "/media/tech-career-lab-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "tech-career-lab-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Women of MENA Tech Career Lab 2023 invitation",
+      "fa": "پوستر کارگاه مسیر شغلی فناوری Women of MENA، ۲۰۲۳"
+    },
+    "caption": {
+      "en": "Women of MENA Tech Career Lab 2023 invitation",
+      "fa": "پوستر کارگاه مسیر شغلی فناوری Women of MENA، ۲۰۲۳"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-boo-bash-2023-program-poster",
+    "src": "/media/uci-boo-bash-2023-program-poster.webp",
+    "thumbnail": "/media/uci-boo-bash-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "uci-boo-bash-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCI Boo Bash invitation",
+      "fa": "پوستر مهمانی هالووین Boo Bash در UCI، ۲۰۲۳"
+    },
+    "caption": {
+      "en": "UCI Boo Bash invitation",
+      "fa": "پوستر مهمانی هالووین Boo Bash در UCI، ۲۰۲۳"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "how-ai-affects-innovation-2023-program-poster",
+    "src": "/media/how-ai-affects-innovation-2023-program-poster.webp",
+    "thumbnail": "/media/how-ai-affects-innovation-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "how-ai-affects-innovation-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: How AI Affects Innovation invitation",
+      "fa": "پوستر نشست تأثیر هوش مصنوعی بر نوآوری"
+    },
+    "caption": {
+      "en": "How AI Affects Innovation invitation",
+      "fa": "پوستر نشست تأثیر هوش مصنوعی بر نوآوری"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "usc-networking-mixer-2023-10-22-program-poster",
+    "src": "/media/usc-networking-mixer-2023-10-22-program-poster.webp",
+    "thumbnail": "/media/usc-networking-mixer-2023-10-22-program-poster-small.webp",
+    "kind": "poster",
+    "width": 480,
+    "height": 854,
+    "eventId": "usc-networking-mixer-2023-10-22",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Networking mixer at USC invitation",
+      "fa": "پوستر دورهمی آشنایی با متخصصان در USC"
+    },
+    "caption": {
+      "en": "Networking mixer at USC invitation",
+      "fa": "پوستر دورهمی آشنایی با متخصصان در USC"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isg-yacht-party-2023-program-poster",
+    "src": "/media/isg-yacht-party-2023-program-poster.webp",
+    "thumbnail": "/media/isg-yacht-party-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "isg-yacht-party-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: ISG Yacht Party invitation",
+      "fa": "پوستر مهمانی روی قایق ISG، ۲۰۲۳"
+    },
+    "caption": {
+      "en": "ISG Yacht Party invitation",
+      "fa": "پوستر مهمانی روی قایق ISG، ۲۰۲۳"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "behrouz-documentary-2023-program-poster",
+    "src": "/media/behrouz-documentary-2023-program-poster.webp",
+    "thumbnail": "/media/behrouz-documentary-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "behrouz-documentary-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Behrouz: A Legend on Screen invitation",
+      "fa": "پوستر نمایش مستند بهروز، اسطورهٔ پرده"
+    },
+    "caption": {
+      "en": "Behrouz: A Legend on Screen invitation",
+      "fa": "پوستر نمایش مستند بهروز، اسطورهٔ پرده"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "tale-of-immigration-2023-program-poster",
+    "src": "/media/tale-of-immigration-2023-program-poster.webp",
+    "thumbnail": "/media/tale-of-immigration-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "tale-of-immigration-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: The Tale of Immigration with Homa Sarshar invitation",
+      "fa": "پوستر گفت‌وگو با هما سرشار دربارهٔ مهاجرت"
+    },
+    "caption": {
+      "en": "The Tale of Immigration with Homa Sarshar invitation",
+      "fa": "پوستر گفت‌وگو با هما سرشار دربارهٔ مهاجرت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "pool-party-2023-program-poster",
+    "src": "/media/pool-party-2023-program-poster.webp",
+    "thumbnail": "/media/pool-party-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "pool-party-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Pool party with ISU invitation",
+      "fa": "پوستر مهمانی استخر با همکاری ISU"
+    },
+    "caption": {
+      "en": "Pool party with ISU invitation",
+      "fa": "پوستر مهمانی استخر با همکاری ISU"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "meet-ceo-ramin-mousavi-2023-program-poster",
+    "src": "/media/meet-ceo-ramin-mousavi-2023-program-poster.webp",
+    "thumbnail": "/media/meet-ceo-ramin-mousavi-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "meet-ceo-ramin-mousavi-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Meet the CEO: Ramin Mousavi invitation",
+      "fa": "پوستر دیدار با رامین موسوی، مدیرعامل CathWorks"
+    },
+    "caption": {
+      "en": "Meet the CEO: Ramin Mousavi invitation",
+      "fa": "پوستر دیدار با رامین موسوی، مدیرعامل CathWorks"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "investing-cryptocurrency-2023-program-poster",
+    "src": "/media/investing-cryptocurrency-2023-program-poster.webp",
+    "thumbnail": "/media/investing-cryptocurrency-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "investing-cryptocurrency-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Investing in Cryptocurrency with Kevin R. Soltani invitation",
+      "fa": "پوستر سخنرانی کوین سلطانی دربارهٔ سرمایه‌گذاری در رمزارز"
+    },
+    "caption": {
+      "en": "Investing in Cryptocurrency with Kevin R. Soltani invitation",
+      "fa": "پوستر سخنرانی کوین سلطانی دربارهٔ سرمایه‌گذاری در رمزارز"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-alumni-nowruz-2023-program-poster",
+    "src": "/media/uci-alumni-nowruz-2023-program-poster.webp",
+    "thumbnail": "/media/uci-alumni-nowruz-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "uci-alumni-nowruz-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Nowruz with UCI’s Iranian American Alumni Chapter invitation",
+      "fa": "پوستر نوروز با شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI، ۲۰۲۳"
+    },
+    "caption": {
+      "en": "Nowruz with UCI’s Iranian American Alumni Chapter invitation",
+      "fa": "پوستر نوروز با شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI، ۲۰۲۳"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-homecoming-2023-program-poster",
+    "src": "/media/uci-homecoming-2023-program-poster.webp",
+    "thumbnail": "/media/uci-homecoming-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 480,
+    "height": 854,
+    "eventId": "uci-homecoming-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCI Homecoming 2023 invitation",
+      "fa": "پوستر بازگشت دانش‌آموختگان به UCI، ۲۰۲۳"
+    },
+    "caption": {
+      "en": "UCI Homecoming 2023 invitation",
+      "fa": "پوستر بازگشت دانش‌آموختگان به UCI، ۲۰۲۳"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-conversation-2022-11-16-program-poster",
+    "src": "/media/community-conversation-2022-11-16-program-poster.webp",
+    "thumbnail": "/media/community-conversation-2022-11-16-program-poster-small.webp",
+    "kind": "poster",
+    "width": 640,
+    "height": 1136,
+    "eventId": "community-conversation-2022-11-16",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Community conversation with Negar Shekarabi invitation",
+      "fa": "پوستر گفت‌وگوی جمعی با نگار شکرآبی"
+    },
+    "caption": {
+      "en": "Community conversation with Negar Shekarabi invitation",
+      "fa": "پوستر گفت‌وگوی جمعی با نگار شکرآبی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "march-iran-afghanistan-2022-program-poster",
+    "src": "/media/march-iran-afghanistan-2022-program-poster.webp",
+    "thumbnail": "/media/march-iran-afghanistan-2022-program-poster-small.webp",
+    "kind": "poster",
+    "width": 480,
+    "height": 854,
+    "eventId": "march-iran-afghanistan-2022",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: March for Iran and Afghanistan invitation",
+      "fa": "پوستر راهپیمایی برای ایران و افغانستان در UCI، ۲۰۲۲"
+    },
+    "caption": {
+      "en": "March for Iran and Afghanistan invitation",
+      "fa": "پوستر راهپیمایی برای ایران و افغانستان در UCI، ۲۰۲۲"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "irvine-valley-rally-2022-program-poster",
+    "src": "/media/irvine-valley-rally-2022-program-poster.webp",
+    "thumbnail": "/media/irvine-valley-rally-2022-program-poster-small.webp",
+    "kind": "poster",
+    "width": 480,
+    "height": 854,
+    "eventId": "irvine-valley-rally-2022",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Women, Life, Freedom rally in Irvine invitation",
+      "fa": "پوستر گردهمایی زن، زندگی، آزادی در ارواین، اکتبر ۲۰۲۲"
+    },
+    "caption": {
+      "en": "Women, Life, Freedom rally in Irvine invitation",
+      "fa": "پوستر گردهمایی زن، زندگی، آزادی در ارواین، اکتبر ۲۰۲۲"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-graduate-support-2022-10-12-program-poster",
+    "src": "/media/uci-graduate-support-2022-10-12-program-poster.webp",
+    "thumbnail": "/media/uci-graduate-support-2022-10-12-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "uci-graduate-support-2022-10-12",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Support for UCI’s Iranian student community invitation",
+      "fa": "پوستر نشست حمایت از دانشجویان ایرانی UCI، اکتبر ۲۰۲۲"
+    },
+    "caption": {
+      "en": "Support for UCI’s Iranian student community invitation",
+      "fa": "پوستر نشست حمایت از دانشجویان ایرانی UCI، اکتبر ۲۰۲۲"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "lily-sarafan-conversation-2022-program-poster",
+    "src": "/media/lily-sarafan-conversation-2022-program-poster.webp",
+    "thumbnail": "/media/lily-sarafan-conversation-2022-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "lily-sarafan-conversation-2022",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: The Tale of a Success: Lily Sarafan invitation",
+      "fa": "پوستر گفت‌وگو با لیلی صرافان در مجموعهٔ روایت یک موفقیت"
+    },
+    "caption": {
+      "en": "The Tale of a Success: Lily Sarafan invitation",
+      "fa": "پوستر گفت‌وگو با لیلی صرافان در مجموعهٔ روایت یک موفقیت"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "usc-ucla-nowruz-2022-program-poster",
+    "src": "/media/usc-ucla-nowruz-2022-program-poster.webp",
+    "thumbnail": "/media/usc-ucla-nowruz-2022-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "usc-ucla-nowruz-2022",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: USC and UCLA Nowruz 1401 invitation",
+      "fa": "پوستر جشن نوروز ۱۴۰۱ با USC و UCLA"
+    },
+    "caption": {
+      "en": "USC and UCLA Nowruz 1401 invitation",
+      "fa": "پوستر جشن نوروز ۱۴۰۱ با USC و UCLA"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-doornavazi-album-submission-call",
+    "src": "/media/isc-doornavazi-album-submission-call.webp",
+    "thumbnail": "/media/isc-doornavazi-album-submission-call-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Doornavazi Album: submissions, June 7 to August 7, 2021",
+      "fa": "فراخوان آلبوم دورنوازی، از ۷ ژوئن تا ۷ اوت ۲۰۲۱"
+    },
+    "caption": {
+      "en": "Doornavazi Album: submissions, June 7 to August 7, 2021",
+      "fa": "فراخوان آلبوم دورنوازی، از ۷ ژوئن تا ۷ اوت ۲۰۲۱"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "zots-in-the-kitchen-2021-program-poster",
+    "src": "/media/zots-in-the-kitchen-2021-program-poster.webp",
+    "thumbnail": "/media/zots-in-the-kitchen-2021-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "zots-in-the-kitchen-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Zots in the Kitchen: eating healthy invitation",
+      "fa": "پوستر آشپزی و تغذیهٔ سالم با Zots in the Kitchen"
+    },
+    "caption": {
+      "en": "Zots in the Kitchen: eating healthy invitation",
+      "fa": "پوستر آشپزی و تغذیهٔ سالم با Zots in the Kitchen"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-doornavazi-aqui-aqui-performer-card",
+    "src": "/media/isc-doornavazi-aqui-aqui-performer-card.webp",
+    "thumbnail": "/media/isc-doornavazi-aqui-aqui-performer-card-small.webp",
+    "kind": "poster",
+    "width": 828,
+    "height": 1472,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Doornavazi Music Festival: Aquí Aquí",
+      "fa": "معرفی گروه Aquí Aquí در جشنوارهٔ موسیقی دورنوازی"
+    },
+    "caption": {
+      "en": "Doornavazi Music Festival: Aquí Aquí",
+      "fa": "معرفی گروه Aquí Aquí در جشنوارهٔ موسیقی دورنوازی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-doornavazi-saman-porhemmat-performer-card",
+    "src": "/media/isc-doornavazi-saman-porhemmat-performer-card.webp",
+    "thumbnail": "/media/isc-doornavazi-saman-porhemmat-performer-card-small.webp",
+    "kind": "poster",
+    "width": 828,
+    "height": 1472,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Doornavazi Music Festival: Saman Porhemmat",
+      "fa": "معرفی سامان پرهمت در جشنوارهٔ موسیقی دورنوازی"
+    },
+    "caption": {
+      "en": "Doornavazi Music Festival: Saman Porhemmat",
+      "fa": "معرفی سامان پرهمت در جشنوارهٔ موسیقی دورنوازی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-doornavazi-stream-invitation",
+    "src": "/media/isc-doornavazi-stream-invitation.webp",
+    "thumbnail": "/media/isc-doornavazi-stream-invitation-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Doornavazi Music Festival: online performance invitation",
+      "fa": "دعوت به تماشای اجرای آنلاین جشنوارهٔ موسیقی دورنوازی"
+    },
+    "caption": {
+      "en": "Doornavazi Music Festival: online performance invitation",
+      "fa": "دعوت به تماشای اجرای آنلاین جشنوارهٔ موسیقی دورنوازی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-doornavazi-abbas-milani-guest-card",
+    "src": "/media/isc-doornavazi-abbas-milani-guest-card.webp",
+    "thumbnail": "/media/isc-doornavazi-abbas-milani-guest-card-small.webp",
+    "kind": "poster",
+    "width": 828,
+    "height": 1472,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Doornavazi Music Festival: guest Abbas Milani",
+      "fa": "معرفی عباس میلانی، مهمان جشنوارهٔ موسیقی دورنوازی"
+    },
+    "caption": {
+      "en": "Doornavazi Music Festival: guest Abbas Milani",
+      "fa": "معرفی عباس میلانی، مهمان جشنوارهٔ موسیقی دورنوازی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "tea-talk-2021-01-28-program-poster",
+    "src": "/media/tea-talk-2021-01-28-program-poster.webp",
+    "thumbnail": "/media/tea-talk-2021-01-28-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "tea-talk-2021-01-28",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Tea Talk with UCI alumni invitation",
+      "fa": "پوستر گپ‌وچای با دانش‌آموختگان UCI، ژانویهٔ ۲۰۲۱"
+    },
+    "caption": {
+      "en": "Tea Talk with UCI alumni invitation",
+      "fa": "پوستر گپ‌وچای با دانش‌آموختگان UCI، ژانویهٔ ۲۰۲۱"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "flight-ps752-remembrance-2021-program-poster",
+    "src": "/media/flight-ps752-remembrance-2021-program-poster.webp",
+    "thumbnail": "/media/flight-ps752-remembrance-2021-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "flight-ps752-remembrance-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Flight PS752 remembrance invitation",
+      "fa": "پوستر یادبود جان‌باختگان پرواز PS752، ۲۰۲۱"
+    },
+    "caption": {
+      "en": "Flight PS752 remembrance invitation",
+      "fa": "پوستر یادبود جان‌باختگان پرواز PS752، ۲۰۲۱"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "isc-niw-webinar-2020-program-poster",
+    "src": "/media/isc-niw-webinar-2020-program-poster.webp",
+    "thumbnail": "/media/isc-niw-webinar-2020-program-poster-small.webp",
+    "kind": "poster",
+    "width": 828,
+    "height": 1472,
+    "eventId": "isc-niw-webinar-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: ISC webinar on NIW for international students invitation",
+      "fa": "پوستر وبینار ISC دربارهٔ NIW برای دانشجویان بین‌المللی"
+    },
+    "caption": {
+      "en": "ISC webinar on NIW for international students invitation",
+      "fa": "پوستر وبینار ISC دربارهٔ NIW برای دانشجویان بین‌المللی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-alumni-social-mixer-2020-program-poster",
+    "src": "/media/uci-alumni-social-mixer-2020-program-poster.webp",
+    "thumbnail": "/media/uci-alumni-social-mixer-2020-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "uci-alumni-social-mixer-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCI Iranian American Alumni Chapter social mixer invitation",
+      "fa": "پوستر دورهمی شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI، ۲۰۲۰"
+    },
+    "caption": {
+      "en": "UCI Iranian American Alumni Chapter social mixer invitation",
+      "fa": "پوستر دورهمی شاخهٔ ایرانی‌آمریکایی دانش‌آموختگان UCI، ۲۰۲۰"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-mediterranean-nights-2020-program-poster",
+    "src": "/media/uci-mediterranean-nights-2020-program-poster.webp",
+    "thumbnail": "/media/uci-mediterranean-nights-2020-program-poster-small.webp",
+    "kind": "poster",
+    "width": 750,
+    "height": 1334,
+    "eventId": "uci-mediterranean-nights-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCI Mediterranean Nights invitation",
+      "fa": "پوستر مدیترنین نایتس UCI، ۲۰۲۰"
+    },
+    "caption": {
+      "en": "UCI Mediterranean Nights invitation",
+      "fa": "پوستر مدیترنین نایتس UCI، ۲۰۲۰"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iransa-csuf-meet-greet-2020-program-poster",
+    "src": "/media/iransa-csuf-meet-greet-2020-program-poster.webp",
+    "thumbnail": "/media/iransa-csuf-meet-greet-2020-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "iransa-csuf-meet-greet-2020",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: IRANSA Meet and Greet at CSUF invitation",
+      "fa": "پوستر دورهمی آشنایی IRANSA در کال‌استیت فولرتون"
+    },
+    "caption": {
+      "en": "IRANSA Meet and Greet at CSUF invitation",
+      "fa": "پوستر دورهمی آشنایی IRANSA در کال‌استیت فولرتون"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-support-2020-01-13-program-poster",
+    "src": "/media/community-support-2020-01-13-program-poster.webp",
+    "thumbnail": "/media/community-support-2020-01-13-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1024,
+    "height": 1821,
+    "eventId": "community-support-2020-01-13",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Community Support at the Jordan Center, 2020 invitation",
+      "fa": "پوستر دورهمی همدلی در مرکز جردن، ۲۰۲۰"
+    },
+    "caption": {
+      "en": "Community Support at the Jordan Center, 2020 invitation",
+      "fa": "پوستر دورهمی همدلی در مرکز جردن، ۲۰۲۰"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-mens-soccer-alumni-night-2019-program-poster",
+    "src": "/media/uci-mens-soccer-alumni-night-2019-program-poster.webp",
+    "thumbnail": "/media/uci-mens-soccer-alumni-night-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "uci-mens-soccer-alumni-night-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCI Men’s Soccer Alumni Night invitation",
+      "fa": "پوستر شب فوتبال مردان UCI با دانش‌آموختگان، ۲۰۱۹"
+    },
+    "caption": {
+      "en": "UCI Men’s Soccer Alumni Night invitation",
+      "fa": "پوستر شب فوتبال مردان UCI با دانش‌آموختگان، ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "ghasr-e-shirin-2019-program-poster",
+    "src": "/media/ghasr-e-shirin-2019-program-poster.webp",
+    "thumbnail": "/media/ghasr-e-shirin-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 750,
+    "height": 1334,
+    "eventId": "ghasr-e-shirin-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Ghasr-e Shirin screening invitation",
+      "fa": "پوستر نمایش فیلم قصر شیرین"
+    },
+    "caption": {
+      "en": "Ghasr-e Shirin screening invitation",
+      "fa": "پوستر نمایش فیلم قصر شیرین"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "tabestoon-murano-2019-program-poster",
+    "src": "/media/tabestoon-murano-2019-program-poster.webp",
+    "thumbnail": "/media/tabestoon-murano-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "tabestoon-murano-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Tabestoon at Murano invitation",
+      "fa": "پوستر تابستون در Murano، ۲۰۱۹"
+    },
+    "caption": {
+      "en": "Tabestoon at Murano invitation",
+      "fa": "پوستر تابستون در Murano، ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "vasht-persian-dance-2019-program-poster",
+    "src": "/media/vasht-persian-dance-2019-program-poster.webp",
+    "thumbnail": "/media/vasht-persian-dance-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1024,
+    "height": 1820,
+    "eventId": "vasht-persian-dance-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Vasht: Persian classical and folk dances invitation",
+      "fa": "پوستر واشت؛ رقص‌های کلاسیک و محلی ایرانی"
+    },
+    "caption": {
+      "en": "Vasht: Persian classical and folk dances invitation",
+      "fa": "پوستر واشت؛ رقص‌های کلاسیک و محلی ایرانی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "persian-music-beach-festival-2019-program-poster",
+    "src": "/media/persian-music-beach-festival-2019-program-poster.webp",
+    "thumbnail": "/media/persian-music-beach-festival-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 750,
+    "height": 1334,
+    "eventId": "persian-music-beach-festival-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: First Persian Music Beach Festival invitation",
+      "fa": "پوستر نخستین جشنوارهٔ ساحلی موسیقی ایرانی، ۲۰۱۹"
+    },
+    "caption": {
+      "en": "First Persian Music Beach Festival invitation",
+      "fa": "پوستر نخستین جشنوارهٔ ساحلی موسیقی ایرانی، ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "arash-san-diego-2019-program-poster",
+    "src": "/media/arash-san-diego-2019-program-poster.webp",
+    "thumbnail": "/media/arash-san-diego-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 750,
+    "height": 1334,
+    "eventId": "arash-san-diego-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Arash in San Diego invitation",
+      "fa": "پوستر کنسرت آرش در سن‌دیگو، ۲۰۱۹"
+    },
+    "caption": {
+      "en": "Arash in San Diego invitation",
+      "fa": "پوستر کنسرت آرش در سن‌دیگو، ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "ucla-igpa-year-end-party-2019-program-poster",
+    "src": "/media/ucla-igpa-year-end-party-2019-program-poster.webp",
+    "thumbnail": "/media/ucla-igpa-year-end-party-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 750,
+    "height": 1334,
+    "eventId": "ucla-igpa-year-end-party-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCLA IGPA End of the Year Party invitation",
+      "fa": "پوستر مهمانی پایان سال IGPA در UCLA، ۲۰۱۹"
+    },
+    "caption": {
+      "en": "UCLA IGPA End of the Year Party invitation",
+      "fa": "پوستر مهمانی پایان سال IGPA در UCLA، ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-isu-culture-show-2019-program-poster",
+    "src": "/media/uci-isu-culture-show-2019-program-poster.webp",
+    "thumbnail": "/media/uci-isu-culture-show-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "uci-isu-culture-show-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCI Iranian Student Union Culture Show invitation",
+      "fa": "پوستر جشن فرهنگی انجمن دانشجویان ایرانی UCI، ۲۰۱۹"
+    },
+    "caption": {
+      "en": "UCI Iranian Student Union Culture Show invitation",
+      "fa": "پوستر جشن فرهنگی انجمن دانشجویان ایرانی UCI، ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iransa-csuf-nowruz-2019-program-poster",
+    "src": "/media/iransa-csuf-nowruz-2019-program-poster.webp",
+    "thumbnail": "/media/iransa-csuf-nowruz-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 750,
+    "height": 1334,
+    "eventId": "iransa-csuf-nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: IRANSA Nowruz at CSUF invitation",
+      "fa": "پوستر جشن نوروز IRANSA در کال‌استیت فولرتون، ۲۰۱۹"
+    },
+    "caption": {
+      "en": "IRANSA Nowruz at CSUF invitation",
+      "fa": "پوستر جشن نوروز IRANSA در کال‌استیت فولرتون، ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "womens-month-the-girls-2019-program-poster",
+    "src": "/media/womens-month-the-girls-2019-program-poster.webp",
+    "thumbnail": "/media/womens-month-the-girls-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "womens-month-the-girls-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: International Women’s Month: The Girls invitation",
+      "fa": "پوستر ماه جهانی زنان؛ نمایش «دخترها»"
+    },
+    "caption": {
+      "en": "International Women’s Month: The Girls invitation",
+      "fa": "پوستر ماه جهانی زنان؛ نمایش «دخترها»"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mehmooni-2019-03-02-program-poster",
+    "src": "/media/mehmooni-2019-03-02-program-poster.webp",
+    "thumbnail": "/media/mehmooni-2019-03-02-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "mehmooni-2019-03-02",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Mehmooni, March 2019 invitation",
+      "fa": "پوستر مهمونی، مارس ۲۰۱۹"
+    },
+    "caption": {
+      "en": "Mehmooni, March 2019 invitation",
+      "fa": "پوستر مهمونی، مارس ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "mednights-2019-program-poster",
+    "src": "/media/mednights-2019-program-poster.webp",
+    "thumbnail": "/media/mednights-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": "mednights-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: MedNights 2019 invitation",
+      "fa": "پوستر مدنایتس ۲۰۱۹"
+    },
+    "caption": {
+      "en": "MedNights 2019 invitation",
+      "fa": "پوستر مدنایتس ۲۰۱۹"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "persian-girls-night-out-2019-program-poster",
+    "src": "/media/persian-girls-night-out-2019-program-poster.webp",
+    "thumbnail": "/media/persian-girls-night-out-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 750,
+    "height": 1334,
+    "eventId": "persian-girls-night-out-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Persian Girls Night Out invitation",
+      "fa": "پوستر استندآپ «Persian Girls Night Out»"
+    },
+    "caption": {
+      "en": "Persian Girls Night Out invitation",
+      "fa": "پوستر استندآپ «Persian Girls Night Out»"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "ucla-fashion-paci-2019-program-poster",
+    "src": "/media/ucla-fashion-paci-2019-program-poster.webp",
+    "thumbnail": "/media/ucla-fashion-paci-2019-program-poster-small.webp",
+    "kind": "poster",
+    "width": 750,
+    "height": 1334,
+    "eventId": "ucla-fashion-paci-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: An Evening of Fashion for PACI invitation",
+      "fa": "پوستر شبی با مد به سود مؤسسهٔ سرطان ایرانی‌آمریکایی"
+    },
+    "caption": {
+      "en": "An Evening of Fashion for PACI invitation",
+      "fa": "پوستر شبی با مد به سود مؤسسهٔ سرطان ایرانی‌آمریکایی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "ucla-culture-show-2018-program-poster",
+    "src": "/media/ucla-culture-show-2018-program-poster.webp",
+    "thumbnail": "/media/ucla-culture-show-2018-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1794,
+    "eventId": "ucla-culture-show-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: UCLA’s 16th Annual Culture Show invitation",
+      "fa": "پوستر شانزدهمین جشن فرهنگی انجمن ایرانی UCLA، ۲۰۱۸"
+    },
+    "caption": {
+      "en": "UCLA’s 16th Annual Culture Show invitation",
+      "fa": "پوستر شانزدهمین جشن فرهنگی انجمن ایرانی UCLA، ۲۰۱۸"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bamdad-ensemble-2018-program-poster",
+    "src": "/media/bamdad-ensemble-2018-program-poster.webp",
+    "thumbnail": "/media/bamdad-ensemble-2018-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1024,
+    "height": 1821,
+    "eventId": "bamdad-ensemble-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: Bamdad Ensemble at UCI invitation",
+      "fa": "پوستر کنسرت گروه بامداد در UCI"
+    },
+    "caption": {
+      "en": "Bamdad Ensemble at UCI invitation",
+      "fa": "پوستر کنسرت گروه بامداد در UCI"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "iransa-csuf-nowruz-2018-program-poster",
+    "src": "/media/iransa-csuf-nowruz-2018-program-poster.webp",
+    "thumbnail": "/media/iransa-csuf-nowruz-2018-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1080,
+    "height": 1794,
+    "eventId": "iransa-csuf-nowruz-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: IRANSA Nowruz Show at CSUF invitation",
+      "fa": "پوستر جشن نوروز IRANSA در کال‌استیت فولرتون، ۲۰۱۸"
+    },
+    "caption": {
+      "en": "IRANSA Nowruz Show at CSUF invitation",
+      "fa": "پوستر جشن نوروز IRANSA در کال‌استیت فولرتون، ۲۰۱۸"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "doornavazi-album-conversation-2021-program-poster",
+    "src": "/media/doornavazi-album-conversation-2021-program-poster.webp",
+    "thumbnail": "/media/doornavazi-album-conversation-2021-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "doornavazi-album-conversation-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Poster: A conversation about the Doornavazi album invitation",
+      "fa": "پوستر گفت‌وگو دربارهٔ آلبوم دورنوازی"
+    },
+    "caption": {
+      "en": "A conversation about the Doornavazi album invitation",
+      "fa": "پوستر گفت‌وگو دربارهٔ آلبوم دورنوازی"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "professional-community-networking-video",
+    "src": "/media/professional-community-networking-video.mp4",
+    "thumbnail": "/media/professional-community-networking-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A shared montage shows guests arriving, meeting and listening to a presentation at an IAW Foundation gathering.",
+      "fa": "در ویدیوی اشتراکی، مهمان‌های برنامهٔ بنیاد IAW وارد می‌شوند، با هم دیدار می‌کنند و پای ارائه می‌نشینند."
+    },
+    "caption": {
+      "en": "An IAW Foundation networking event",
+      "fa": "برنامهٔ آشنایی حرفه‌ای بنیاد IAW"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.133333,
+    "videoPoster": "/media/professional-community-networking-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Guests meet and listen to a presentation, in a montage accompanied by music.",
+      "fa": "دیدار مهمان‌ها و تماشای ارائه در کلیپی همراه با موسیقی."
+    }
+  },
+  {
+    "id": "professional-community-networking-photo",
+    "src": "/media/professional-community-networking-photo.webp",
+    "thumbnail": "/media/professional-community-networking-photo-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Attendees sit around round tables beneath a presentation screen at an IAW Foundation gathering.",
+      "fa": "شرکت‌کننده‌ها در برنامهٔ بنیاد IAW دور میزهای گرد و رو به پردهٔ ارائه نشسته‌اند."
+    },
+    "caption": {
+      "en": "An IAW Foundation networking event",
+      "fa": "برنامهٔ آشنایی حرفه‌ای بنیاد IAW"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "bonfire-2021-community-photo",
+    "src": "/media/bonfire-2021-community-photo.webp",
+    "thumbnail": "/media/bonfire-2021-community-photo-small.webp",
+    "kind": "photo",
+    "width": 828,
+    "height": 1472,
+    "eventId": "bonfire-2021-10-08",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A large group poses around a bright beach bonfire after dark.",
+      "fa": "جمع بزرگی پس از تاریکی هوا دور آتش روشن ساحل ایستاده‌اند."
+    },
+    "caption": {
+      "en": "Bonfire at Corona del Mar, October 8, 2021",
+      "fa": "دورهمی کنار آتش در کرونا دل مار، ۸ اکتبر ۲۰۲۱"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "community-restaurant-meal-video",
+    "src": "/media/community-restaurant-meal-video.mp4",
+    "thumbnail": "/media/community-restaurant-meal-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends eat rice and kebab around a restaurant table.",
+      "fa": "دوستان در رستوران دور میز نشسته‌اند و برنج و کباب می‌خورند."
+    },
+    "caption": {
+      "en": "Sharing a meal",
+      "fa": "غذا در کنار دوستان"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 12.7,
+    "videoPoster": "/media/community-restaurant-meal-video-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "A restaurant meal with conversation around the table.",
+      "fa": "غذا در رستوران همراه با گفت‌وگوی دور میز."
+    }
+  },
+  {
+    "id": "community-after-party-dinner-video",
+    "src": "/media/community-after-party-dinner-video.mp4",
+    "thumbnail": "/media/community-after-party-dinner-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends share a meal under red patio umbrellas and string lights, in a story labelled After Party.",
+      "fa": "دوستان زیر چترهای قرمز حیاط و ریسه‌های چراغ دور میز غذا نشسته‌اند؛ روی استوری نوشته شده بعد از مهمانی."
+    },
+    "caption": {
+      "en": "After-party dinner",
+      "fa": "شام بعد از مهمانی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 12.333333,
+    "videoPoster": "/media/community-after-party-dinner-video-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "Conversation around a restaurant patio table after a party.",
+      "fa": "گفت‌وگو دور میز رستوران پس از مهمانی."
+    }
+  },
+  {
+    "id": "nowruz-2019-stage-duet-video",
+    "src": "/media/nowruz-2019-stage-duet-video.mp4",
+    "thumbnail": "/media/nowruz-2019-stage-duet-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A violinist accompanies a dancer in a red skirt on stage.",
+      "fa": "نوازندهٔ ویولن روی صحنه یک رقصنده با دامن قرمز را همراهی می‌کند."
+    },
+    "caption": {
+      "en": "Music and dance at Nowruz, 2019",
+      "fa": "موسیقی و رقص در جشن نوروز، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.0,
+    "videoPoster": "/media/nowruz-2019-stage-duet-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Violin music accompanies a dancer on stage.",
+      "fa": "اجرای ویولن همراه با رقص روی صحنه."
+    }
+  },
+  {
+    "id": "yalda-2018-music-preview-video",
+    "src": "/media/yalda-2018-music-preview-video.mp4",
+    "thumbnail": "/media/yalda-2018-music-preview-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "yalda-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A singer holds a microphone on a small stage beneath blue lights.",
+      "fa": "خواننده‌ای با میکروفن روی صحنه‌ای کوچک زیر نور آبی ایستاده است."
+    },
+    "caption": {
+      "en": "Music preview for Yalda, 2018",
+      "fa": "پیش‌نمایش موسیقی برای یلدا، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 10.38,
+    "videoPoster": "/media/yalda-2018-music-preview-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Singing on a small stage in a music preview shared for Yalda.",
+      "fa": "آواز روی صحنه‌ای کوچک در پیش‌نمایش موسیقی یلدا."
+    }
+  },
+  {
+    "id": "mehmooni-2018-on-the-way-video",
+    "src": "/media/mehmooni-2018-on-the-way-video.mp4",
+    "thumbnail": "/media/mehmooni-2018-on-the-way-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "mehmooni-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends stand together inside a bus beneath the story caption Pre Party.",
+      "fa": "دوستان در اتوبوس کنار هم ایستاده‌اند و روی استوری نوشته شده پیش از مهمانی."
+    },
+    "caption": {
+      "en": "On the way to Mehmooni, 2018",
+      "fa": "در راه مهمونی، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 9.891995,
+    "videoPoster": "/media/mehmooni-2018-on-the-way-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and conversation on the bus before Mehmooni.",
+      "fa": "موسیقی و گفت‌وگو در اتوبوس پیش از مهمونی."
+    }
+  },
+  {
+    "id": "world-cup-iran-portugal-2018-gathering-clip-01",
+    "src": "/media/world-cup-iran-portugal-2018-gathering-clip-01.mp4",
+    "thumbnail": "/media/world-cup-iran-portugal-2018-gathering-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-portugal-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends watch a World Cup match on a television in a community room.",
+      "fa": "دوستان در سالن دورهمی مسابقهٔ جام جهانی را از تلویزیون تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Iran and Portugal, 2018",
+      "fa": "ایران و پرتغال، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.07,
+    "videoPoster": "/media/world-cup-iran-portugal-2018-gathering-clip-01-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The football broadcast and reactions from people watching together.",
+      "fa": "صدای پخش مسابقهٔ فوتبال و واکنش دوستانی که بازی را با هم تماشا می‌کنند."
+    }
+  },
+  {
+    "id": "world-cup-iran-spain-2018-gathering-clip-01",
+    "src": "/media/world-cup-iran-spain-2018-gathering-clip-01.mp4",
+    "thumbnail": "/media/world-cup-iran-spain-2018-gathering-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-spain-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends watch a World Cup match on a television in a community room.",
+      "fa": "دوستان در سالن دورهمی مسابقهٔ جام جهانی را از تلویزیون تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Iran and Spain, 2018",
+      "fa": "ایران و اسپانیا، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.07,
+    "videoPoster": "/media/world-cup-iran-spain-2018-gathering-clip-01-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The football broadcast and reactions from people watching together.",
+      "fa": "صدای پخش مسابقهٔ فوتبال و واکنش دوستانی که بازی را با هم تماشا می‌کنند."
+    }
+  },
+  {
+    "id": "world-cup-iran-spain-2018-gathering-clip-02",
+    "src": "/media/world-cup-iran-spain-2018-gathering-clip-02.mp4",
+    "thumbnail": "/media/world-cup-iran-spain-2018-gathering-clip-02-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-spain-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends watch a World Cup match on a television in a community room.",
+      "fa": "دوستان در سالن دورهمی مسابقهٔ جام جهانی را از تلویزیون تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Iran and Spain, 2018",
+      "fa": "ایران و اسپانیا، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 13.769002,
+    "videoPoster": "/media/world-cup-iran-spain-2018-gathering-clip-02-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The football broadcast and reactions from people watching together.",
+      "fa": "صدای پخش مسابقهٔ فوتبال و واکنش دوستانی که بازی را با هم تماشا می‌کنند."
+    }
+  },
+  {
+    "id": "world-cup-iran-morocco-2018-gathering-clip-01",
+    "src": "/media/world-cup-iran-morocco-2018-gathering-clip-01.mp4",
+    "thumbnail": "/media/world-cup-iran-morocco-2018-gathering-clip-01-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 1136,
+    "eventId": "world-cup-iran-morocco-2018",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Friends watch a World Cup match on a television in a community room.",
+      "fa": "دوستان در سالن دورهمی مسابقهٔ جام جهانی را از تلویزیون تماشا می‌کنند."
+    },
+    "caption": {
+      "en": "Iran and Morocco, 2018",
+      "fa": "ایران و مراکش، ۲۰۱۸"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.07,
+    "videoPoster": "/media/world-cup-iran-morocco-2018-gathering-clip-01-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "The football broadcast and reactions from people watching together.",
+      "fa": "صدای پخش مسابقهٔ فوتبال و واکنش دوستانی که بازی را با هم تماشا می‌کنند."
+    }
+  },
+  {
+    "id": "pol-media-film-weekend-2019-after-screening-video",
+    "src": "/media/pol-media-film-weekend-2019-after-screening-video.mp4",
+    "thumbnail": "/media/pol-media-film-weekend-2019-after-screening-video-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 720,
+    "eventId": "pol-media-film-weekend-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A guest signs a white T-shirt at a table near the cinema windows, with others beside him.",
+      "fa": "مهمانی کنار پنجره‌های سینما روی یک تیشرت سفید امضا می‌کند و چند نفر کنارش ایستاده‌اند."
+    },
+    "caption": {
+      "en": "After the screening, 2019",
+      "fa": "پس از نمایش فیلم، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 8.707483,
+    "videoPoster": "/media/pol-media-film-weekend-2019-after-screening-video-poster.webp",
+    "audioContent": "ambient",
+    "transcript": {
+      "en": "A guest signs a T-shirt after the screening, with room conversation in the background.",
+      "fa": "یکی از مهمان‌ها پس از نمایش فیلم روی تیشرت امضا می‌کند؛ صدای گفت‌وگوی اطراف شنیده می‌شود."
+    }
+  },
+  {
+    "id": "nowruz-2021-milad-performance-preview-01",
+    "src": "/media/nowruz-2021-milad-performance-preview-01.mp4",
+    "thumbnail": "/media/nowruz-2021-milad-performance-preview-01-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 566,
+    "eventId": "nowruz-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Milad Derakhshani sings and plays guitar with fellow musicians in a recording studio.",
+      "fa": "میلاد درخشانی در استودیو همراه با نوازنده‌های دیگر گیتار می‌نوازد و آواز می‌خواند."
+    },
+    "caption": {
+      "en": "Milad Derakhshani: Nowruz performance preview",
+      "fa": "میلاد درخشانی: پیش‌نمایش اجرای نوروز"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 35.66585,
+    "videoPoster": "/media/nowruz-2021-milad-performance-preview-01-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Milad Derakhshani sings and plays guitar with fellow musicians in a recording studio.",
+      "fa": "میلاد درخشانی در استودیو همراه با نوازنده‌های دیگر گیتار می‌نوازد و آواز می‌خواند."
+    }
+  },
+  {
+    "id": "nowruz-2021-milad-performance-preview-02",
+    "src": "/media/nowruz-2021-milad-performance-preview-02.mp4",
+    "thumbnail": "/media/nowruz-2021-milad-performance-preview-02-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 566,
+    "eventId": "nowruz-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Milad Derakhshani sings while playing acoustic guitar.",
+      "fa": "میلاد درخشانی هنگام نواختن گیتار آکوستیک آواز می‌خواند."
+    },
+    "caption": {
+      "en": "Milad Derakhshani: Nowruz performance preview",
+      "fa": "میلاد درخشانی: پیش‌نمایش اجرای نوروز"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 47.600907,
+    "videoPoster": "/media/nowruz-2021-milad-performance-preview-02-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Milad Derakhshani sings while playing acoustic guitar.",
+      "fa": "میلاد درخشانی هنگام نواختن گیتار آکوستیک آواز می‌خواند."
+    }
+  },
+  {
+    "id": "nowruz-2021-milad-performance-preview-03",
+    "src": "/media/nowruz-2021-milad-performance-preview-03.mp4",
+    "thumbnail": "/media/nowruz-2021-milad-performance-preview-03-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 502,
+    "eventId": "nowruz-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Milad Derakhshani plays a long-necked string instrument with percussion accompaniment.",
+      "fa": "میلاد درخشانی با همراهی سازهای کوبه‌ای، سازی زهی و دسته‌بلند می‌نوازد."
+    },
+    "caption": {
+      "en": "Milad Derakhshani: Nowruz performance preview",
+      "fa": "میلاد درخشانی: پیش‌نمایش اجرای نوروز"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 32.647007,
+    "videoPoster": "/media/nowruz-2021-milad-performance-preview-03-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Milad Derakhshani plays a long-necked string instrument with percussion accompaniment.",
+      "fa": "میلاد درخشانی با همراهی سازهای کوبه‌ای، سازی زهی و دسته‌بلند می‌نوازد."
+    }
+  },
+  {
+    "id": "uci-class-of-2020-negin-gharaei",
+    "src": "/media/uci-class-of-2020-negin-gharaei.webp",
+    "thumbnail": "/media/uci-class-of-2020-negin-gharaei-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Negin Gharaei, BS in Biology at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Negin Gharaei، کارشناسی زیست‌شناسی دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Negin Gharaei, BS in Biology, UCI Class of 2020.",
+      "fa": "Negin Gharaei، کارشناسی زیست‌شناسی، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-ahmad-razavi",
+    "src": "/media/uci-class-of-2020-ahmad-razavi.webp",
+    "thumbnail": "/media/uci-class-of-2020-ahmad-razavi-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Ahmad Razavi, PhD in Computer Science at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Ahmad Razavi، دکتری علوم کامپیوتر دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Ahmad Razavi, PhD in Computer Science, UCI Class of 2020.",
+      "fa": "Ahmad Razavi، دکتری علوم کامپیوتر، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-parnian-kiani",
+    "src": "/media/uci-class-of-2020-parnian-kiani.webp",
+    "thumbnail": "/media/uci-class-of-2020-parnian-kiani-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Parnian Kiani, PhD in Materials Science and Engineering at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Parnian Kiani، دکتری علوم و مهندسی مواد دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Parnian Kiani, PhD in Materials Science and Engineering, UCI Class of 2020.",
+      "fa": "Parnian Kiani، دکتری علوم و مهندسی مواد، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-deniz-nikkhah",
+    "src": "/media/uci-class-of-2020-deniz-nikkhah.webp",
+    "thumbnail": "/media/uci-class-of-2020-deniz-nikkhah-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Deniz Nikkhah, BSc in Bio Engineering at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Deniz Nikkhah، کارشناسی زیست‌مهندسی دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Deniz Nikkhah, BSc in Bio Engineering, UCI Class of 2020.",
+      "fa": "Deniz Nikkhah، کارشناسی زیست‌مهندسی، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-behnam-pourghassemi",
+    "src": "/media/uci-class-of-2020-behnam-pourghassemi.webp",
+    "thumbnail": "/media/uci-class-of-2020-behnam-pourghassemi-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Behnam Pourghassemi, PhD in Computer Engineering at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Behnam Pourghassemi، دکتری مهندسی کامپیوتر دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Behnam Pourghassemi, PhD in Computer Engineering, UCI Class of 2020.",
+      "fa": "Behnam Pourghassemi، دکتری مهندسی کامپیوتر، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-delaram-amiri",
+    "src": "/media/uci-class-of-2020-delaram-amiri.webp",
+    "thumbnail": "/media/uci-class-of-2020-delaram-amiri-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Delaram Amiri, PhD in Electrical Engineering at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Delaram Amiri، دکتری مهندسی برق دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Delaram Amiri, PhD in Electrical Engineering, UCI Class of 2020.",
+      "fa": "Delaram Amiri، دکتری مهندسی برق، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-kasra-moazzemi",
+    "src": "/media/uci-class-of-2020-kasra-moazzemi.webp",
+    "thumbnail": "/media/uci-class-of-2020-kasra-moazzemi-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Kasra Moazzemi, PhD in Computer Engineering at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Kasra Moazzemi، دکتری مهندسی کامپیوتر دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Kasra Moazzemi, PhD in Computer Engineering, UCI Class of 2020.",
+      "fa": "Kasra Moazzemi، دکتری مهندسی کامپیوتر، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-hamid-reza-kazemi",
+    "src": "/media/uci-class-of-2020-hamid-reza-kazemi.webp",
+    "thumbnail": "/media/uci-class-of-2020-hamid-reza-kazemi-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Hamid Reza Kazemi, PhD in Electrical Engineering at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Hamid Reza Kazemi، دکتری مهندسی برق دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Hamid Reza Kazemi, PhD in Electrical Engineering, UCI Class of 2020.",
+      "fa": "Hamid Reza Kazemi، دکتری مهندسی برق، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-reyhaneh-jabbarvand",
+    "src": "/media/uci-class-of-2020-reyhaneh-jabbarvand.webp",
+    "thumbnail": "/media/uci-class-of-2020-reyhaneh-jabbarvand-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Reyhaneh Jabbarvand, PhD in Software Engineering at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Reyhaneh Jabbarvand، دکتری مهندسی نرم‌افزار دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Reyhaneh Jabbarvand, PhD in Software Engineering, UCI Class of 2020.",
+      "fa": "Reyhaneh Jabbarvand، دکتری مهندسی نرم‌افزار، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-negin-hayatbini",
+    "src": "/media/uci-class-of-2020-negin-hayatbini.webp",
+    "thumbnail": "/media/uci-class-of-2020-negin-hayatbini-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Negin Hayatbini, PhD in Hydrology at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Negin Hayatbini، دکتری هیدرولوژی دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Negin Hayatbini, PhD in Hydrology, UCI Class of 2020.",
+      "fa": "Negin Hayatbini، دکتری هیدرولوژی، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-bahareh-harandizadeh",
+    "src": "/media/uci-class-of-2020-bahareh-harandizadeh.webp",
+    "thumbnail": "/media/uci-class-of-2020-bahareh-harandizadeh-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduation card for Bahareh Harandizadeh, MSc in Computer Science at the University of California, Irvine, Class of 2020.",
+      "fa": "کارت یادبود فارغ‌التحصیلی Bahareh Harandizadeh، کارشناسی ارشد علوم کامپیوتر دانشگاه کالیفرنیا در ارواین، در مجموعهٔ دانش‌آموختگان سال ۲۰۲۰."
+    },
+    "caption": {
+      "en": "Bahareh Harandizadeh, MSc in Computer Science, UCI Class of 2020.",
+      "fa": "Bahareh Harandizadeh، کارشناسی ارشد علوم کامپیوتر، دانش‌آموختهٔ UCI در سال ۲۰۲۰."
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "uci-class-of-2020-graduation-mosaic",
+    "src": "/media/uci-class-of-2020-graduation-mosaic.webp",
+    "thumbnail": "/media/uci-class-of-2020-graduation-mosaic-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Graduate portrait collage with the SIGS emblem and congratulations to UCI’s Class of 2020.",
+      "fa": "کلاژی از چهره‌های دانش‌آموختگان، همراه با نشان SIGS و پیام تبریک به دانش‌آموختگان سال ۲۰۲۰ UCI."
+    },
+    "caption": {
+      "en": "Congratulations to UCI’s Class of 2020",
+      "fa": "یادگار تبریک به دانش‌آموختگان UCI در سال ۲۰۲۰"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "usc-ucla-sponsor-thanks-pearl32",
+    "src": "/media/usc-ucla-sponsor-thanks-pearl32.webp",
+    "thumbnail": "/media/usc-ucla-sponsor-thanks-pearl32-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Promotional sponsor thank-you card for Pearl32 Dentistry and Wellness, with USC and UCLA student-group tags.",
+      "fa": "کارت تبلیغاتی قدردانی از حامی مالی Pearl32 Dentistry and Wellness، با برچسب گروه‌های دانشجویی USC و UCLA."
+    },
+    "caption": {
+      "en": "Pearl32 Dentistry and Wellness thank-you card",
+      "fa": "کارت قدردانی از Pearl32 Dentistry and Wellness"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "csulb-isa-yalda-trailer-still",
+    "src": "/media/csulb-isa-yalda-trailer-still.webp",
+    "thumbnail": "/media/csulb-isa-yalda-trailer-still-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "CSULB ISA Yalda Night: a promotional preview",
+      "fa": "تصویری از تیزر تبلیغاتی شب یلدای انجمن دانشجویان ایرانی CSULB"
+    },
+    "caption": {
+      "en": "CSULB ISA Yalda Night: a promotional preview",
+      "fa": "تصویری از تیزر تبلیغاتی شب یلدای انجمن دانشجویان ایرانی CSULB"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "shabhaye-tehran-la-2024-07-06-trailer-still",
+    "src": "/media/shabhaye-tehran-la-2024-07-06-trailer-still.webp",
+    "thumbnail": "/media/shabhaye-tehran-la-2024-07-06-trailer-still-small.webp",
+    "kind": "poster",
+    "width": 360,
+    "height": 638,
+    "eventId": "shabhaye-tehran-la-2024-07-06",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Shabhaye Tehran LA invitation for July 6, 2024",
+      "fa": "دعوت‌نامهٔ برنامهٔ شب‌های تهران لس‌آنجلس برای ۶ ژوئیهٔ ۲۰۲۴"
+    },
+    "caption": {
+      "en": "Shabhaye Tehran LA invitation for July 6, 2024",
+      "fa": "دعوت‌نامهٔ برنامهٔ شب‌های تهران لس‌آنجلس برای ۶ ژوئیهٔ ۲۰۲۴"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "tehrangeles-nights-2023-program-poster",
+    "src": "/media/tehrangeles-nights-2023-program-poster.webp",
+    "thumbnail": "/media/tehrangeles-nights-2023-program-poster-small.webp",
+    "kind": "poster",
+    "width": 1125,
+    "height": 2000,
+    "eventId": "tehrangeles-nights-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Tehrangeles Nights poster with Deejay Farzad, June 2, 2023, in Westwood.",
+      "fa": "پوستر برنامهٔ Tehrangeles Nights با دی‌جی فرزاد در وست‌وود، ۲ ژوئن ۲۰۲۳."
+    },
+    "caption": {
+      "en": "Tehrangeles Nights invitation, June 2, 2023",
+      "fa": "پوستر دعوت به برنامهٔ Tehrangeles Nights، ۲ ژوئن ۲۰۲۳"
+    },
+    "credit": "Designer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "csulb-yalda-invitation-video",
+    "src": "/media/csulb-yalda-invitation-video.mp4",
+    "thumbnail": "/media/csulb-yalda-invitation-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A shared CSULB ISA invitation shows Yalda food, decorations and people at a gathering.",
+      "fa": "دعوت‌نامهٔ اشتراکی انجمن دانشجویان ایرانی CSULB، غذا، تزیینات یلدا و جمع مهمان‌ها را نشان می‌دهد."
+    },
+    "caption": {
+      "en": "CSULB ISA Yalda invitation",
+      "fa": "دعوت‌نامهٔ یلدای انجمن دانشجویان ایرانی CSULB"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.021995,
+    "videoPoster": "/media/csulb-yalda-invitation-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "A musical invitation for CSULB ISA Yalda Night. On-screen text says this is the second year and invites people to the gathering.",
+      "fa": "دعوت‌نامه‌ای همراه با موسیقی برای شب یلدای انجمن دانشجویان ایرانی CSULB؛ نوشتهٔ روی تصویر به دومین سال برنامه اشاره می‌کند و مخاطب را دعوت می‌کند."
+    }
+  },
+  {
+    "id": "shabhaye-tehran-la-2024-promotion-video",
+    "src": "/media/shabhaye-tehran-la-2024-promotion-video.mp4",
+    "thumbnail": "/media/shabhaye-tehran-la-2024-promotion-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 638,
+    "eventId": "shabhaye-tehran-la-2024-07-06",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A club-night promotion combines DJ names, dancing, lights and a July 6 invitation.",
+      "fa": "ویدیوی تبلیغ شب موسیقی، نام دی‌جی‌ها، رقص، نورپردازی و دعوت به برنامهٔ ۶ ژوئیه را نشان می‌دهد."
+    },
+    "caption": {
+      "en": "Shabhaye Tehran LA: July 6, 2024 invitation",
+      "fa": "دعوت‌نامهٔ شب‌های تهران لس‌آنجلس، ۶ ژوئیهٔ ۲۰۲۴"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 59.033333,
+    "videoPoster": "/media/shabhaye-tehran-la-2024-promotion-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music accompanies a Shabhaye Tehran LA invitation, with dance-floor footage and event details on screen.",
+      "fa": "دعوت‌نامهٔ شب‌های تهران لس‌آنجلس با موسیقی، تصاویری از سالن رقص و اطلاعات برنامه روی تصویر."
+    }
+  },
+  {
+    "id": "ali-azimi-2019-concert-preview-video",
+    "src": "/media/ali-azimi-2019-concert-preview-video.mp4",
+    "thumbnail": "/media/ali-azimi-2019-concert-preview-video-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 406,
+    "eventId": "ali-azimi-los-angeles-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A concert promotion shows Ali Azimi and musicians on stage, followed by the October 19, 2019 El Rey Theatre details.",
+      "fa": "ویدیوی تبلیغ کنسرت، علی عظیمی و نوازنده‌ها را روی صحنه نشان می‌دهد و سپس اطلاعات اجرای ۱۹ اکتبر ۲۰۱۹ در سالن ال‌ری را نمایش می‌دهد."
+    },
+    "caption": {
+      "en": "Ali Azimi in Los Angeles: 2019 invitation",
+      "fa": "دعوت‌نامهٔ اجرای علی عظیمی در لس‌آنجلس، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 29.396009,
+    "videoPoster": "/media/ali-azimi-2019-concert-preview-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "Music and stage footage in a shared Ali Azimi concert invitation. The date, venue and artist ticket website appear on screen.",
+      "fa": "موسیقی و تصاویر اجرا در دعوت‌نامهٔ اشتراکی کنسرت علی عظیمی؛ تاریخ، محل و وب‌سایت بلیت هنرمند روی تصویر دیده می‌شود."
+    }
+  },
+  {
+    "id": "nowruz-2019-k-von-comedy-preview",
+    "src": "/media/nowruz-2019-k-von-comedy-preview.mp4",
+    "thumbnail": "/media/nowruz-2019-k-von-comedy-preview-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 360,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "K-von speaks into a microphone on a stage in front of red curtains.",
+      "fa": "کی‌وان جلوی پرده‌های قرمز صحنه با میکروفن صحبت می‌کند."
+    },
+    "caption": {
+      "en": "K-von comedy preview for Nowruz, 2019",
+      "fa": "پیش‌نمایش کمدی کی‌وان برای نوروز، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 16.626009,
+    "videoPoster": "/media/nowruz-2019-k-von-comedy-preview-poster.webp",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "All right, for you two girls who never dated a Middle Eastern man, here’s what I recommend. Start with a half first. See if you like it. See if you like it! Dip your toe before you dive all the way in, okay?",
+      "fa": "خب، برای شما دو دختری که هیچ‌وقت با یک مرد خاورمیانه‌ای قرار نگذاشته‌اید، پیشنهادم این است: اول با یک نیمه‌خاورمیانه‌ای شروع کنید. ببینید خوشتان می‌آید یا نه. ببینید خوشتان می‌آید! پیش از شیرجه‌زدن، اول پایتان را توی آب بگذارید، خب؟"
+    },
+    "captions": {
+      "en": "/media/nowruz-2019-k-von-comedy-preview-en.vtt",
+      "fa": "/media/nowruz-2019-k-von-comedy-preview-fa.vtt"
+    }
+  },
+  {
+    "id": "milad-derakhshani-nowruz-greeting-video",
+    "src": "/media/milad-derakhshani-nowruz-greeting-video.mp4",
+    "thumbnail": "/media/milad-derakhshani-nowruz-greeting-video-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 1280,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Milad Derakhshani speaks to the camera beneath a framed patterned wallhanging.",
+      "fa": "میلاد درخشانی رو به دوربین صحبت می‌کند و پشت سرش تابلویی نقش‌دار دیده می‌شود."
+    },
+    "caption": {
+      "en": "A Nowruz greeting from Milad Derakhshani",
+      "fa": "پیام نوروزی میلاد درخشانی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 71.378141,
+    "videoPoster": "/media/milad-derakhshani-nowruz-greeting-video-poster.webp",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "Greetings to my fellow Iranians around the world, especially the Iranian students at the University of California, Irvine. I’m Milad Derakhshani, born in 1363 in Isfahan. I’m very happy to share this holiday with you. Last year was a very difficult year. We don’t want to dwell on it. To quote Khayyam: “Never have I worried about two days… [last phrase unclear] the day not yet come and the day already gone.” I wish you good health in the coming year, and dedicate this performance to each of you. I hope watching it helps you set aside the difficulties of the past year for a moment, think about the future, and feel refreshed. I also want to thank the Iranian student association at UCI for arranging this performance. They worked very hard. I hope we can meet in a concert hall one day. Happy New Year in advance. Goodbye.",
+      "fa": "درود به همهٔ هم‌وطنان عزیزم در هر نقطه از جهان، و به‌خصوص دانشجویان ایرانی دانشگاه کالیفرنیا، ارواین. من میلاد درخشانی هستم، متولد ۱۳۶۳ در شهر اصفهان. خیلی خیلی خوشحالم که این عید رو در کنار شما... سال گذشته سال واقعاً بدی بود. نمی‌خواهیم در مورد اون صحبت بکنیم. به قول خیام: «هرگز غمِ دو روز مرا [ادامهٔ مصراع نامفهوم]؛ روزی که نیامده‌ست و روزی که گذشت.» اما براتون در سال آینده سلامتی آرزو می‌کنم و این اجرا رو تقدیم می‌کنم به تک‌تک شما. امیدوارم با دیدنش، سختی‌هایی که در سال گذشته داشتید رو برای لحظاتی فراموش بکنید، به آینده فکر بکنید و انرژی بگیرید. خواستم از انجمن دانشجویان ایرانی دانشگاه یو‌سی‌آی خیلی تشکر بکنم برای تدارک این اجرا. واقعاً زحمت کشیدند. با امید روزی که در سالن کنسرت با هم دیدار کنیم. پیشاپیش سال نو رو بهتون تبریک می‌گم. خدانگهدار."
+    },
+    "captions": {
+      "en": "/media/milad-derakhshani-nowruz-greeting-video-en.vtt",
+      "fa": "/media/milad-derakhshani-nowruz-greeting-video-fa.vtt"
+    }
+  },
+  {
+    "id": "stress-management-2021-speaker-invitation",
+    "src": "/media/stress-management-2021-speaker-invitation.mp4",
+    "thumbnail": "/media/stress-management-2021-speaker-invitation-small.webp",
+    "kind": "video",
+    "width": 720,
+    "height": 900,
+    "eventId": "stress-management-2021",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Arash Taqavi speaks to the camera in a workshop invitation.",
+      "fa": "آرش تقوی در دعوت‌نامهٔ کارگاه رو به دوربین صحبت می‌کند."
+    },
+    "caption": {
+      "en": "Arash Taqavi: March 7, 2021 workshop invitation",
+      "fa": "دعوت آرش تقوی به کارگاه ۷ مارس ۲۰۲۱"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 60.186122,
+    "videoPoster": "/media/stress-management-2021-speaker-invitation-poster.webp",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "Hello. I’m Dr. Arash Taqavi, with a doctorate in psychology, a university lecturer and director of a Center of Excellence [Persian name partly unclear], the Transformation Center of Excellence, at California Miramar University. I’m pleased to join you on March 7, 2021, or 17 Esfand [Persian year unclear], from 10 AM to noon California time, or 9:30 to 11:30 PM Iran time, with the Iranian graduate student community at the university in Irvine, the University of California, Irvine, UCI, for a two-hour workshop on managing stress, especially during and after the coronavirus pandemic. Registration details for the workshop will be… [recording cuts off]",
+      "fa": "سلام. من دکتر آرش تقوی هستم، دکتر روان‌شناسی، مدرس دانشگاه و مدیر مرکز تعالی [بخشی از نام فارسی مرکز نامفهوم است]، Transformation Center of Excellence، در California Miramar University. این افتخار رو دارم که در تاریخ ۷ مارچ ۲۰۲۱، برابر با ۱۷ اسفند [سال نامفهوم]، از ساعت ۱۰ تا ۱۲ صبح به وقت کالیفرنیا و ۹:۳۰ تا ۱۱:۳۰ شب به وقت ایران، همراه با جامعهٔ دانشجویان ایرانی تحصیلات تکمیلی دانشگاه کالیفرنیا در شهر ارواین، University of California, Irvine, UCI، مهمان شما باشیم، با برگزاری یک کارگاه دو ساعته در زمینهٔ کنترل استرس، به‌ویژه در دوران کرونا و پساکرونا. نحوهٔ ثبت‌نام در این کارگاه به اطلاع شما خواهد... [ادامهٔ جمله قطع می‌شود]"
+    },
+    "captions": {
+      "en": "/media/stress-management-2021-speaker-invitation-en.vtt",
+      "fa": "/media/stress-management-2021-speaker-invitation-fa.vtt"
+    }
+  },
+  {
+    "id": "nowruz-2019-student-invitation-video",
+    "src": "/media/nowruz-2019-student-invitation-video.mp4",
+    "thumbnail": "/media/nowruz-2019-student-invitation-video-small.webp",
+    "kind": "video",
+    "width": 640,
+    "height": 360,
+    "eventId": "nowruz-2019",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A SIGS vice president speaks to the camera outdoors in a Nowruz invitation.",
+      "fa": "معاون SIGS در فضای باز و در دعوت به جشن نوروز، رو به دوربین صحبت می‌کند."
+    },
+    "caption": {
+      "en": "An invitation to Nowruz, 2019",
+      "fa": "دعوت به جشن نوروز، ۲۰۱۹"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 30.325011,
+    "videoPoster": "/media/nowruz-2019-student-invitation-video-poster.webp",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "Hello, I’m [name unclear], vice president of SIGS. Happy New Year to each of you in advance. I wanted to invite you all to UCI’s Nowruz program on March 22 at the Student Center. A wonderful evening with traditional dance and music, and K-von will perform standup comedy. We will have an after-party with DJ Mohsen and DJ [name unclear]. If you haven’t got your tickets, tickets are limited. Get them, and I hope to see each of you.",
+      "fa": "سلام، [نام نامفهوم] هستم، معاون SIGS. پیشاپیش سال نو رو به تک‌تکتون تبریک می‌گم. می‌خواستم همه‌تون رو دعوت کنم به برنامهٔ نوروزی UCI که قراره روز ۲۲ مارچ توی استیودنت‌سنتر برگزار بشه. یه شب فوق‌العاده همراه با رقص و موسیقی سنتی، و کی‌وان عزیز قراره بیاد برامون استندآپ کمدی بکنه. و افترپارتی با دی‌جی محسن و دی‌جی [نام نامفهوم]. اگر هنوز تیکتتون رو نگرفتین، تیکت‌ها محدوده. برین بگیرین. به امید دیدار تک‌تکتون."
+    },
+    "captions": {
+      "en": "/media/nowruz-2019-student-invitation-video-en.vtt",
+      "fa": "/media/nowruz-2019-student-invitation-video-fa.vtt"
+    }
+  },
+  {
+    "id": "yalda-2023-hosts-invitation-video",
+    "src": "/media/yalda-2023-hosts-invitation-video.mp4",
+    "thumbnail": "/media/yalda-2023-hosts-invitation-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": "yalda-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Two people speak to the camera about the Yalda program.",
+      "fa": "دو نفر رو به دوربین دربارهٔ برنامهٔ یلدا صحبت می‌کنند."
+    },
+    "caption": {
+      "en": "An invitation to Yalda, 2023",
+      "fa": "دعوت به یلدا، ۲۰۲۳"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 15.021995,
+    "videoPoster": "/media/yalda-2023-hosts-invitation-video-poster.webp",
+    "audioContent": "speech",
+    "transcript": {
+      "en": "Hello everyone. I hope you’re doing well. We came to explain that we have two programs: one is Yalda Night and the other is our own concert. Yalda Night is next week, December 16, at UCI.",
+      "fa": "سلام به همگی، امیدوارم خوب باشین. ما اومدیم براتون توضیح بدیم که ما دوتا برنامه داریم. یکی برنامهٔ شب یلدا، یکی هم کنسرت خودمون. برنامهٔ شب یلدا هفتهٔ دیگه، ۱۶ دسامبره، توی دانشگاه UCI."
+    },
+    "captions": {
+      "en": "/media/yalda-2023-hosts-invitation-video-en.vtt",
+      "fa": "/media/yalda-2023-hosts-invitation-video-fa.vtt"
+    }
+  },
+  {
+    "id": "shared-string-performance-video",
+    "src": "/media/shared-string-performance-video.mp4",
+    "thumbnail": "/media/shared-string-performance-video-small.webp",
+    "kind": "video",
+    "width": 360,
+    "height": 640,
+    "eventId": null,
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "A musician plays a plucked-string instrument in a black-and-white shared performance clip.",
+      "fa": "نوازنده‌ای در کلیپی سیاه‌وسفید سازی زهی را می‌نوازد."
+    },
+    "caption": {
+      "en": "A shared music performance",
+      "fa": "اجرای موسیقی"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 9.473741,
+    "videoPoster": "/media/shared-string-performance-video-poster.webp",
+    "audioContent": "music",
+    "transcript": {
+      "en": "An instrumental performance on a plucked-string instrument.",
+      "fa": "اجرای بی‌کلام با یک ساز زهی."
+    },
+    "captions": {
+      "en": "/media/shared-string-performance-video-en.vtt",
+      "fa": "/media/shared-string-performance-video-fa.vtt"
+    }
+  },
+  {
+    "id": "uci-flagpoles-solidarity-2026-photo",
+    "src": "/media/uci-flagpoles-solidarity-2026-photo.webp",
+    "thumbnail": "/media/uci-flagpoles-solidarity-2026-photo-small.webp",
+    "kind": "photo",
+    "width": 1012,
+    "height": 1800,
+    "eventId": "solidarity-2026-02-10",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An Iranian flag is held above the UCI Flagpoles plaza, with students and campus buildings in the background.",
+      "fa": "پرچم ایران در محوطهٔ میله‌های پرچم UCI برافراشته است و دانشجوها و ساختمان‌های دانشگاه در پس‌زمینه دیده می‌شوند."
+    },
+    "caption": {
+      "en": "At the UCI Flagpoles, February 10, 2026",
+      "fa": "کنار میله‌های پرچم UCI، ۱۰ فوریهٔ ۲۰۲۶"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "halloween-2023-community-group-photo",
+    "src": "/media/halloween-2023-community-group-photo.webp",
+    "thumbnail": "/media/halloween-2023-community-group-photo-small.webp",
+    "kind": "photo",
+    "width": 1000,
+    "height": 748,
+    "eventId": "halloween-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "Guests in Halloween costumes stand and sit together in the Palo Verde community room.",
+      "fa": "مهمان‌ها با لباس‌های هالووین در سالن اجتماعات پالو ورده کنار هم ایستاده یا نشسته‌اند."
+    },
+    "caption": {
+      "en": "Halloween at Palo Verde, 2023",
+      "fa": "هالووین در پالو ورده، ۲۰۲۳"
+    },
+    "credit": "Photographer not recorded.",
+    "publication": "published",
+    "rights": "approved"
+  },
+  {
+    "id": "pool-party-2023-community-recap-video",
+    "src": "/media/pool-party-2023-community-recap-video.mp4",
+    "thumbnail": "/media/pool-party-2023-community-recap-video-small.webp",
+    "kind": "video",
+    "width": 480,
+    "height": 854,
+    "eventId": "pool-party-2023",
+    "focalPoint": [
+      0.5,
+      0.5
+    ],
+    "alt": {
+      "en": "An ISU pool-party group photograph appears above an animated clapping sticker in a blue story.",
+      "fa": "عکس گروهی مهمانی استخر ISU در استوری آبی‌رنگی دیده می‌شود و زیر عکس برچسب متحرک دست‌زدن قرار دارد."
+    },
+    "caption": {
+      "en": "Pool party with ISU, 2023",
+      "fa": "مهمانی استخر با ISU، ۲۰۲۳"
+    },
+    "credit": "Videographer not recorded.",
+    "publication": "published",
+    "rights": "approved",
+    "duration": 5.0,
+    "videoPoster": "/media/pool-party-2023-community-recap-video-poster.webp",
+    "audioContent": "silent",
+    "transcript": {
+      "en": "A silent recap shows a group in a swimming pool, with an animated clapping sticker below the photograph.",
+      "fa": "مروری بی‌صدا بر مهمانی استخر: عکس گروه در استخر و برچسب متحرک دست‌زدن زیر آن دیده می‌شود."
+    }
   }
 ]

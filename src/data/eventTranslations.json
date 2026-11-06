@@ -1143,10 +1143,10 @@
     "eventId": "welcome-2020",
     "locale": "fa",
     "title": "خوشامدگویی به دانشجویان جدید، ۲۰۲۰",
-    "summary": "SIGS از دانشجویان جدید UCI دعوت کرد در زوم با هم آشنا شوند. در اطلاعیه‌های باقی‌مانده، روز برنامه هم ۲۹ و هم ۳۰ سپتامبر آمده است.",
+    "summary": "SIGS از دانشجویان تازه‌وارد UCI دعوت کرده بود روز ۲۹ سپتامبر در نشست آشنایی و خوشامدگویی در زوم شرکت کنند.",
     "body": [],
     "status": "reviewed",
-    "sourceRevision": "4d3d627a6e7e0206da9cb2386b8d31a67989dbf02aeee60d5d2c47dc01255948",
+    "sourceRevision": "daab154ab77e2e1f4a0dddb6a2427170b3f26d729c705b4162af4ded514f342a",
     "reviewedOn": "2026-11-06"
   },
   {
@@ -1897,6 +1897,16 @@
     "body": [],
     "status": "reviewed",
     "sourceRevision": "3754a2ee4678fb7219b18766bc96aa0c9a1a8d239e7061ec532a3d51b9d0738a",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "eventId": "shabhaye-tehran-la-2024-07-06",
+    "locale": "fa",
+    "title": "شب‌های تهران لس‌آنجلس، ۶ ژوئیهٔ ۲۰۲۴",
+    "summary": "SIGS دعوت‌نامهٔ BlueBirdy برای برنامهٔ «شب‌های تهران لس‌آنجلس» در روز شنبه ۶ ژوئیه را به اشتراک گذاشته بود. در تبلیغ برنامه نام دی‌جی سپند و دی‌جی جولیوس آمده بود.",
+    "body": [],
+    "status": "reviewed",
+    "sourceRevision": "f9aad9b402ec85d987518dba769ba8592ec7dab2cacf2beea89eac59415b459f",
     "reviewedOn": "2026-11-06"
   }
 ]

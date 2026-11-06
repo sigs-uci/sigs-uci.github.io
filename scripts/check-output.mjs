@@ -27,6 +27,7 @@ for (const filename of files) {
   pages++;
   const html = await readFile(filename, 'utf8');
   htmlPages.set(relative, html);
+  if (/documented gatherings?|archived announcements?|گردهمایی مستند|اطلاعیهٔ آرشیوی/i.test(html)) errors.push(`${relative}: internal event labels appear in public output`);
   if (!/<html\b[^>]*\blang=["'][^"']+["']/i.test(html)) errors.push(`${relative}: missing language`);
   if (!/<title>[^<]+<\/title>/.test(html)) errors.push(`${relative}: missing title`);
   if (!/<link\b[^>]*rel=["']canonical["']/i.test(html)) errors.push(`${relative}: missing canonical URL`);

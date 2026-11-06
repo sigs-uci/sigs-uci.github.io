@@ -16,7 +16,7 @@ These templates describe records, not events to publish. Prepare missing details
 | `venue`, `cost`, `audience`, `accessibility` | Public logistics that have been checked |
 | `category` | `culture`, `film-poetry`, `community`, `newcomers` or `professional` |
 | `sigsRole` | The documented SIGS role |
-| `occurrenceEvidence`, `archiveLabel` | Accurate occurrence support and historical label; a future event has no archive label |
+| `occurrenceEvidence`, `archiveLabel` | Internal validation fields for historical support; never display them as visitor-facing labels. A future event has no archive label |
 | `publication` | `published` when ready for public inclusion |
 | `eventState` | `tentative`, `scheduled`, `postponed`, `rescheduled`, `cancelled` or `completed` |
 | `registration` | `not_required`, `not_open`, `open`, `full`, `waitlist` or `closed` |

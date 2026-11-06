@@ -10,7 +10,7 @@ export interface EventFilters {
 export const campusTimeZone = 'America/Los_Angeles';
 export type EventSchedule = Pick<EventRecord, 'date' | 'startInstant' | 'allDay'> & Partial<Pick<EventRecord, 'timeZone' | 'endInstant'>>;
 export type EventSearchRecord = Pick<EventRecord, 'id' | 'title' | 'summary' | 'venue' | 'category' | 'publication' | 'editorial' | 'eventState'> & EventSchedule & {searchText?: string};
-export type EventFeatureRecord = EventSchedule & Pick<EventRecord, 'id' | 'publication' | 'editorial' | 'eventState' | 'archiveLabel'>;
+export type EventFeatureRecord = EventSchedule & Pick<EventRecord, 'id' | 'publication' | 'editorial' | 'eventState'>;
 
 export function isPublicEvent(event: Pick<EventRecord, 'publication' | 'editorial'> & { synthetic?: boolean }): boolean {
   return event.publication === 'published' && ['edited', 'reviewed'].includes(event.editorial.en)
@@ -112,7 +112,7 @@ export function isFeatureCandidate(event: EventFeatureRecord): boolean {
 export function publicEventClocks(records: readonly EventFeatureRecord[]): EventFeatureRecord[] {
   return records.filter(isPublicEvent).map(event => ({
     id: event.id, publication: event.publication, editorial: { ...event.editorial }, eventState: event.eventState,
-    archiveLabel: event.archiveLabel, date: { ...event.date }, startInstant: event.startInstant,
+    date: { ...event.date }, startInstant: event.startInstant,
     endInstant: event.endInstant ?? null, timeZone: event.timeZone ?? null,
     allDay: event.allDay ? { ...event.allDay } : null,
   }));
@@ -132,9 +132,9 @@ export function eventViewState(event: EventFeatureRecord, now = new Date()): { p
   return { past, status };
 }
 
-export function elapsedEventStatus(event: Pick<EventFeatureRecord, 'archiveLabel' | 'eventState'>): string {
+export function elapsedEventStatus(event: Pick<EventFeatureRecord, 'eventState'>): string {
   return ['cancelled', 'postponed', 'rescheduled'].includes(event.eventState)
-    ? event.eventState : event.archiveLabel ?? 'Past';
+    ? event.eventState : 'Past';
 }
 
 export function eventRefreshDelay(records: readonly EventSchedule[], now = new Date()): number {

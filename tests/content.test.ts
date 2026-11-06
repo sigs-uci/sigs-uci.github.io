@@ -151,7 +151,12 @@ test('archive facts preserve dates, unknown rooms and closed registration', () =
     assert.equal(event.endInstant, null);
     const imageId = approved.get(event.id);
     if (imageId) assert.ok(event.gallery.includes(imageId));
-    for (const id of [...event.gallery, ...(event.heroImage ? [event.heroImage] : [])]) assert.ok(media.some(image => image.id === id && image.eventId === event.id && image.publication === 'published' && image.rights === 'approved'));
+    for (const id of [...event.gallery, ...(event.heroImage ? [event.heroImage] : [])]) {
+      const image = media.find(item => item.id === id && item.publication === 'published' && item.rights === 'approved');
+      assert.ok(image, `${event.id}: ${id}`);
+      const sharedFilmPoster = id === 'jordan-film-weekend-2016-program-poster' && event.id === 'a-modest-reception-2016';
+      assert.equal(image.eventId, sharedFilmPoster ? 'a-dragon-arrives-2016' : event.id);
+    }
     if (imageId) {
       const image = media.find(item => item.id === imageId)!;
       assert.equal(image.eventId, event.id);
@@ -162,6 +167,7 @@ test('archive facts preserve dates, unknown rooms and closed registration', () =
     assert.equal(event.generateEventStructuredData, false);
     assert.equal(event.editorial.fa, 'reviewed');
   }
+  assert.deepEqual(events.filter(event => event.gallery.includes('jordan-film-weekend-2016-program-poster')).map(event => event.id).sort(), ['a-dragon-arrives-2016', 'a-modest-reception-2016']);
 });
 
 test('team terms preserve assignments, order and separate contacts', () => {

@@ -12,6 +12,6 @@ const translation = language === 'fa' ? reviewedTranslation(event.id) : undefine
 const t = (s: string) => tr(locale, s);
 ---
 <article class="record-preview">
-  <div class="record-preview-date"><time datetime={event.date.value ?? undefined}><bdi>{formatDate(event, locale)}</bdi></time><span>{t(event.archiveLabel ?? event.eventState)}</span></div>
+  <div class="record-preview-date"><time datetime={event.date.value ?? undefined}><bdi>{formatDate(event, locale)}</bdi></time>{['cancelled', 'postponed', 'rescheduled'].includes(event.eventState) && <span>{t(event.eventState)}</span>}</div>
   <div><Heading><a href={eventHref(event, locale)} lang={language}>{translation?.title ?? event.title}</a></Heading><p lang={language}>{translation?.summary ?? event.summary}</p>{event.venue && <p class="record-preview-place">{t(event.venue)}</p>}{locale === 'fa' && language === 'en' && <span class="quiet">{t('English record')}</span>}</div>
 </article>
