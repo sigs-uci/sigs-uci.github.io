@@ -5,6 +5,7 @@ import {tr,formatNumber} from '../i18n/ui';
 import {collectionItems,collectionPath,mediaCollections,videoDuration,albumPhotos,albumPages,albumPageSize,mediaRedirectsForPage,type MediaCollection} from '../lib/media';
 import {eventHref,reviewedTranslation,isPublicStory} from '../lib/publication';
 import {isPublicEvent,newestEventsFirst} from '../lib/events';
+import {relatedCollections} from '../lib/related-collections';
 import Gallery from './Gallery.astro';
 import Video from './Video.astro';
 import CollectionDirectory from './CollectionDirectory.astro';
@@ -20,6 +21,7 @@ const videos=page===1?allVideos:[];
 const related=newestEventsFirst(events.filter(event=>collection.eventIds.includes(event.id)&&isPublicEvent(event)));
 const readings=stories.filter(story=>story.locale===locale&&isPublicStory(story)&&story.mediaIds.some(id=>collection.mediaIds.includes(id)));
 const legacyRedirects=mediaRedirectsForPage(collection,page,locale);
+const recommendations=relatedCollections(collection,mediaCollections,events);
 ---
 {Object.keys(legacyRedirects).length>0&&<script type="application/json" data-media-redirects set:html={JSON.stringify(legacyRedirects).replaceAll('<','\\u003c')}/>}
 <div class="wrap page-body collection-page">
@@ -32,7 +34,7 @@ const legacyRedirects=mediaRedirectsForPage(collection,page,locale);
     <nav class="collection-video-index" aria-label={t('Choose a video')}>{videos.map(item=><a href={`#${item.id}`} data-collection-video-link={item.id}><span class="collection-video-poster"><img src={item.videoPoster} width={item.width} height={item.height} alt="" loading="lazy"/><span aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false"><path d="m8 4 12 8-12 8Z" fill="currentColor"/></svg></span><bdi dir="ltr">{videoDuration(item.duration??0,locale)}</bdi></span><span>{item.caption[locale]}</span></a>)}</nav>
     <div class="video-grid">{videos.map(item=><div class="collection-video-player" data-collection-video-player={item.id}><Video item={item} locale={locale}/></div>)}</div>
   </section>}
-  <section class="section" aria-labelledby="more-collections" data-pagefind-ignore><div class="section-heading"><h2 id="more-collections">{t('Keep exploring')}</h2><a class="text-link" href={href(locale,'community/memories')}>{t('All collections')} ↗</a></div><CollectionDirectory locale={locale} collections={mediaCollections.filter(other=>other.id!==collection.id).slice(0,3)}/></section>
+  <section class="section" aria-labelledby="more-collections" data-pagefind-ignore><div class="section-heading"><h2 id="more-collections">{t('Keep exploring')}</h2><a class="text-link" href={href(locale,'community/memories')}>{t('All collections')} ↗</a></div><CollectionDirectory locale={locale} collections={recommendations}/></section>
 </div>
 
 <script>

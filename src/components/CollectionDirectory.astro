@@ -2,8 +2,26 @@
 import {href,type Locale} from '../config/site';
 import {tr,formatNumber} from '../i18n/ui';
 import {mediaCollections,collectionItems,collectionPath,publicMedia,type MediaCollection} from '../lib/media';
+import {events} from '../data';
+import {reviewedTranslation} from '../lib/publication';
 import '../styles/media.css';
-const {locale='en',collections=mediaCollections}=Astro.props as {locale:Locale;collections?:MediaCollection[]};
+const {locale='en',collections=mediaCollections,searchable=false}=Astro.props as {locale:Locale;collections?:MediaCollection[];searchable?:boolean};
 const t=(text:string)=>tr(locale,text);
+const searchText=(collection:MediaCollection)=>[
+  collection.title.en,collection.title.fa,collection.description.en,collection.description.fa,
+  ...collection.eventIds.flatMap(id=>{const event=events.find(item=>item.id===id);return event?[event.title,reviewedTranslation(id)?.title,event.date.value,event.date.contextYear,event.venue,event.venue?t(event.venue):'']:[];}),
+].filter(Boolean).join(' ');
 ---
-<div class="collection-directory">{collections.map(collection=>{const cover=publicMedia.find(item=>item.id===collection.coverId);const items=collectionItems(collection);const photos=items.filter(item=>item.kind!=='video').length;const videos=items.length-photos;return <article class="collection-preview"><a class="collection-image" href={href(locale,collectionPath(collection))}>{cover&&<img src={cover.thumbnail??cover.videoPoster??cover.src} width={cover.width} height={cover.height} alt={cover.alt[locale]} loading="lazy" />}</a><div><p class="eyebrow">{photos>0&&<>{formatNumber(locale,photos)} {t(photos===1?'image':'images')}</>}{photos>0&&videos>0&&' · '}{videos>0&&<>{formatNumber(locale,videos)} {t(videos===1?'video':'videos')}</>}</p><h3><a href={href(locale,collectionPath(collection))}>{collection.title[locale]} <span aria-hidden="true">↗</span></a></h3><p>{collection.description[locale]}</p></div></article>;})}</div>
+<div data-collection-directory={searchable?true:undefined} data-locale={locale} data-single={searchable?t('collection'):undefined} data-plural={searchable?t('collections'):undefined}>
+  {searchable&&<form class="collection-search" data-collection-search hidden role="search" aria-label={t('Find a photo collection')}>
+    <div class="field"><label for="collection-query">{t('Find a photo collection')}</label><input type="search" name="q" id="collection-query" placeholder={t('Event, year, or place')} aria-controls="collection-results" /></div>
+    <button type="submit">{t('Search')}</button><button type="reset">{t('Reset')}</button>
+    <p data-collection-count role="status" aria-live="polite" aria-atomic="true"></p>
+  </form>}
+  <p class="notice" data-collection-empty hidden>{t('No collections match. Try an event name, year, or place, or reset the search.')}</p>
+  <div class="collection-directory" id={searchable?'collection-results':undefined}>{collections.map(collection=>{const cover=publicMedia.find(item=>item.id===collection.coverId);const items=collectionItems(collection);const photos=items.filter(item=>item.kind!=='video').length;const videos=items.length-photos;return <article class="collection-preview" data-collection-search-text={searchable?searchText(collection):undefined}><a class="collection-image" href={href(locale,collectionPath(collection))}>{cover&&<img src={cover.thumbnail??cover.videoPoster??cover.src} width={cover.width} height={cover.height} alt={cover.alt[locale]} loading="lazy" />}</a><div><p class="eyebrow">{photos>0&&<>{formatNumber(locale,photos)} {t(photos===1?'image':'images')}</>}{photos>0&&videos>0&&' · '}{videos>0&&<>{formatNumber(locale,videos)} {t(videos===1?'video':'videos')}</>}</p><h3><a href={href(locale,collectionPath(collection))}>{collection.title[locale]} <span aria-hidden="true">↗</span></a></h3><p>{collection.description[locale]}</p></div></article>;})}</div>
+</div>
+<script>
+  import {setupCollectionSearch} from '../scripts/collection-search';
+  document.querySelectorAll<HTMLElement>('[data-collection-directory]').forEach(setupCollectionSearch);
+</script>
