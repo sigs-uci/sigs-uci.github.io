@@ -5,7 +5,7 @@ export function languageSwitchHref(destination: string, current: URL): string {
   const route = (url: URL) => url.pathname.replace(/^\/(?:en|fa)(?=\/)/, '');
   if (target.origin !== current.origin || route(target) !== route(current)) return target.href;
   const keys = /^\/events\/(?:archive\/)?$/.test(route(current)) ? eventState
-    : route(current) === '/search/' ? ['q'] : [];
+    : ['/search/', '/community/memories/'].includes(route(current)) ? ['q'] : [];
   for (const key of keys) {
     const value = current.searchParams.get(key);
     if (value) target.searchParams.set(key, value);

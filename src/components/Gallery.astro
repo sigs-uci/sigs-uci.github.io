@@ -4,6 +4,7 @@ import type {Locale} from '../config/site';
 import {tr} from '../i18n/ui';
 import {isPublicEvent} from '../lib/events';
 import {eventHref,eventLocale,reviewedTranslation} from '../lib/publication';
+import {displayMediaCredit} from '../lib/media-credit';
 import '../styles/editorial.css';
 import '../styles/media.css';
 const {items,locale='en',dense=false,photoCaptions=true} = Astro.props as {items:MediaRecord[];locale:Locale;dense?:boolean;photoCaptions?:boolean};
@@ -14,7 +15,7 @@ const t=(s:string)=>tr(locale,s);
     const event=events.find(event=>event.id===item.eventId&&isPublicEvent(event));
     const language=event?eventLocale(event,locale):undefined;
     const caption=item.caption[locale]??item.caption.en??'';
-    const credit=['Photographer not recorded.', 'Designer not recorded.', 'Design credit not recorded.'].includes(item.credit)?undefined:t(item.credit);
+    const credit=displayMediaCredit(item.credit,locale);
     const showCaption=photoCaptions||item.kind==='poster';
     return <figure id={`image-${item.id}`} data-media-kind={item.kind??'photo'}>
       <a href={item.src} data-gallery-item data-caption={[caption,credit].filter(Boolean).join(' ')}><img src={item.thumbnail??item.src} width={item.width} height={item.height} alt={item.alt[locale]??item.alt.en??''} lang={item.alt[locale]?locale:'en'} loading="lazy" style={`object-position:${item.focalPoint[0]*100}% ${item.focalPoint[1]*100}%`} /></a>

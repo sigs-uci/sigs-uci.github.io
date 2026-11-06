@@ -33,7 +33,7 @@ const filterLink=(query:Record<string,string>)=>`${href(locale,archive?'events/a
       </form>
       <div class="results-toolbar"><span data-count role="status" aria-live="polite"></span><div class="events-result-actions"><button class="events-reset" type="reset" form="event-filters">{t('Reset')}</button><div class="view-switch" aria-label={t('Event view')}><button type="button" data-view="list" aria-pressed="true">{t('List')}</button><button type="button" data-view="calendar" aria-pressed="false">{t('Calendar')}</button></div></div></div>
     </div>
-    <noscript><p class="notice">{t('All published event records are listed below. Use the year archive links or search this page with your browser. Interactive filters and the calendar need JavaScript.')} <a href="#event-years">{t('Browse the archive by year')}</a></p></noscript>
+    <noscript><p class="notice">{t('All events are listed below. Browse by year or use your browser’s search. Filters and the calendar need JavaScript.')} <a href="#event-years">{t('Browse the archive by year')}</a></p></noscript>
 
     <div data-event-list>{groups.map(group=><section class="events-year-group" data-event-year-group data-year={group.year} aria-labelledby={`records-${group.year||'undated'}`}><header class="events-year-heading"><h3 id={`records-${group.year||'undated'}`}>{group.year?number(Number(group.year)):t('Year not recorded')}</h3><p data-year-count>{number(group.records.length)} {t(group.records.length===1?'event':'events')}</p></header>{group.records.map(event=>{
       const day=effectiveDay(event);

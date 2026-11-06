@@ -10,6 +10,7 @@ import { calendarDownload } from '../lib/calendar';
 import Gallery from './Gallery.astro';
 import Video from './Video.astro';
 import {mediaCollections,collectionItems,collectionPath} from '../lib/media';
+import {displayMediaCredit} from '../lib/media-credit';
 import '../styles/event-detail.css';
 const { event, translation, locale = 'en' } = Astro.props as { event: EventRecord; translation?: EventTranslation; locale: Locale };
 const t = (s: string) => tr(locale, s);
@@ -21,7 +22,7 @@ const action = registrationAction(event);
 const { past, status } = eventViewState(event);
 const pastStatus = elapsedEventStatus(event);
 const hero = media.find(item => item.id === event.heroImage && item.publication === 'published' && item.rights === 'approved');
-const heroCredit = hero && !['Photographer not recorded.', 'Designer not recorded.', 'Design credit not recorded.'].includes(hero.credit) ? t(hero.credit) : undefined;
+const heroCredit = hero ? displayMediaCredit(hero.credit, locale) : undefined;
 const gallery = media.filter(item => item.kind !== 'video' && item.id !== hero?.id && event.gallery.includes(item.id) && item.publication === 'published' && item.rights === 'approved');
 const eventVideos = media.filter(item => item.kind === 'video' && (event.gallery.includes(item.id) || item.eventId === event.id) && item.publication === 'published' && item.rights === 'approved');
 const albums = mediaCollections.filter(collection=>collection.eventIds.includes(event.id)).map(collection=>{

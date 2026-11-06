@@ -20,3 +20,10 @@ test('a fallback page does not inherit an unrelated query or anchor', () => {
   assert.equal(languageSwitchHref('/fa/', new URL('https://sigs-uci.github.io/en/community/stories/example/?q=example#memory')), 'https://sigs-uci.github.io/fa/');
   assert.equal(languageSwitchHref('/fa/contact/', new URL('https://sigs-uci.github.io/en/contact/?extra=unused')), 'https://sigs-uci.github.io/fa/contact/');
 });
+
+test('album search keeps its query and album jump when switching language', () => {
+  const url = new URL(languageSwitchHref('/fa/community/memories/', new URL('https://sigs-uci.github.io/en/community/memories/?q=yalda&extra=unused#photo-collections')));
+  assert.equal(url.searchParams.get('q'), 'yalda');
+  assert.equal(url.searchParams.has('extra'), false);
+  assert.equal(url.hash, '#photo-collections');
+});
