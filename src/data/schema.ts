@@ -76,6 +76,7 @@ export interface BoardTerm {
   term: string;
   status: 'current' | 'former';
   people: TeamMembership[];
+  note?: Record<Locale, string>;
 }
 
 export interface ProgramRecord {
@@ -351,6 +352,11 @@ export function validatePublicData(data: PublicData): string[] {
   data.boardTerms.forEach(term => {
     const key = `boardTerms.${term.id}`;
     unique(term.people, key);
+    if (term.note !== undefined && (!term.note || typeof term.note !== 'object' || Array.isArray(term.note)
+      || Object.keys(term.note).some(locale => !['en', 'fa'].includes(locale))
+      || !['en', 'fa'].every(locale => typeof term.note?.[locale as Locale] === 'string' && term.note[locale as Locale].trim()))) {
+      issue(key, 'Team notes need complete English and Persian text');
+    }
     const orders = term.people.map(member => member.displayOrder);
     if (new Set(orders).size !== orders.length) issue(key, 'Display order must be unique within a term');
     term.people.forEach(member => {
@@ -358,6 +364,7 @@ export function validatePublicData(data: PublicData): string[] {
       if (member.termId !== term.id || member.id !== `${term.id}:${member.personId}`) issue(key, 'Membership must belong to its term and person');
       if (!member.role.trim() || !['board', 'support', 'advisor'].includes(member.group)) issue(key, 'Role and group are required');
       if (!Number.isInteger(member.displayOrder) || member.displayOrder < 1) issue(key, 'Display order must be a positive integer');
+      if (member.membershipTerm !== null && (typeof member.membershipTerm !== 'string' || !member.membershipTerm.trim())) issue(key, 'Membership period must be text or null');
       if (member.telegramUrl && !/^https?:\/\/t\.me\/[A-Za-z0-9_]+$/.test(member.telegramUrl)) issue(key, 'Team contact must be a public Telegram profile');
       if (member.portrait && !mediaIds.has(member.portrait)) issue(key, 'Portrait reference does not exist');
       if (member.portrait && !visibleImage(member.portrait)) issue(key, 'Team portraits need published images with permission');

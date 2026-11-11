@@ -2,6 +2,7 @@ import { boardTerms, organization, programs, type BoardTerm } from '../data';
 import { archiveYears, archiveDescription } from './archive';
 import { mediaCollections, albumPagePath, albumRoutePages } from './media';
 import type { Locale } from '../config/site';
+import { formatTerm } from '../i18n/ui';
 
 export interface PageDefinition {
   path: string;
@@ -38,7 +39,9 @@ export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTerm
       ? { ...page, description: `The current SIGS leadership and team for ${current.term}.` }
       : page),
     ...terms.map(term => ({ path: `about/leadership/${term.id}`, title: `The ${term.term} team`,
-      description: `Meet the ${term.term} SIGS team and find each member's role.` })),
+      description: term.people.length ? `Meet the ${term.term} SIGS team and find each member's role.` : `Help us fill in the history of the ${term.term} SIGS team.`,
+      localized: { fa: { title: `تیم \u2066${formatTerm('fa', term.term)}\u2069`,
+        description: term.people.length ? `با اعضای تیم SIGS در دورهٔ \u2066${formatTerm('fa', term.term)}\u2069 و مسئولیت آن‌ها آشنا شوید.` : `به ما در تکمیل نام اعضای تیم SIGS در دورهٔ \u2066${formatTerm('fa', term.term)}\u2069 کمک کنید.` } } })),
     ...programs.map(program => ({ path: `community/programs/${program.id}`, title: program.name, description: program.summary })),
     ...mediaCollections.flatMap(collection=>Array.from({length:albumRoutePages(collection)},(_,index)=>({path:albumPagePath(collection,index+1),title:collection.title.en,description:collection.description.en,localized:{fa:{title:collection.title.fa,description:collection.description.fa}}}))),
     ...archiveYears().map(entry => ({ path: `events/archive/${entry.year}`, title: `SIGS in ${entry.year}`,

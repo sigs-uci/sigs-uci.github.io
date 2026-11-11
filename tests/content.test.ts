@@ -174,8 +174,11 @@ test('team terms preserve assignments, order and separate contacts', () => {
   const previous = boardTerms.find((term) => term.id === '2025-2026')!;
   assert.equal(current.people.length, 8);
   assert.equal(previous.people.length, 10);
-  assert.equal(people.length, 13);
-  assert.equal(new Set(boardTerms.flatMap((term) => term.people.map((member) => member.personId))).size, 13);
+  assert.equal(people.length, 49);
+  assert.equal(boardTerms.length, 19);
+  assert.equal(boardTerms.flatMap(term => term.people).length, 72);
+  assert.deepEqual(new Set(boardTerms.flatMap(term => term.people.map(member => member.personId))), new Set(people.map(person => person.id)));
+  assert.deepEqual(boardTerms.map(term => term.id), Array.from({ length: 19 }, (_, index) => `${2026-index}-${2027-index}`));
   for (const term of boardTerms) {
     assert.deepEqual(term.people.map((person) => person.displayOrder), term.people.map((_, index) => index + 1));
     assert.ok(term.people.every((person) => person.termId === term.id));
