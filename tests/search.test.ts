@@ -12,7 +12,7 @@ test('numeric search variants are equivalent and consistently ordered across key
 
 test('numeric search merges distinct pages once and retains a stable result order and excerpt', async () => {
   const rows: Record<string, { url: string; excerpt: string }[]> = {
-    '2025': [{ url: '/fa/about/leadership/', excerpt: 'Latin contact handle' }, { url: '/fa/events/yalda-2025/', excerpt: 'First matching excerpt' }],
+    '2025': [{ url: '/fa/resources/new-students/', excerpt: 'A matching resource excerpt' }, { url: '/fa/events/yalda-2025/', excerpt: 'First matching excerpt' }],
     '۲۰۲۵': [{ url: '/fa/events/yalda-2025/', excerpt: 'A duplicate excerpt' }, { url: '/fa/events/archive/2025/', excerpt: 'Persian year archive' }],
     '٢٠٢٥': [{ url: '/fa/events/archive/2025/', excerpt: 'Another duplicate excerpt' }],
   };

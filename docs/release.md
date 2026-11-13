@@ -14,7 +14,7 @@ When publication is authorized, enable the repository variable and manually run 
 
 The separate deployment job receives Pages and OIDC write permissions and uses the `github-pages` environment. It deploys the artifact from that successful run. No production secret is required in the build job. Action versions are pinned to immutable commits; review their official releases before updating the pins.
 
-After a successful deployment, check the public root, English and Persian homepages, an event deep link in both languages, the team pages, search, keyboard navigation and `/404.html`. Check that the language switch preserves the page. Record the live URL and deployed SHA, then return `PAGES_DEPLOY_ENABLED` to `false`. A successful upload or skipped deployment is not proof that a site is live.
+After a successful deployment, check the public root, English and Persian homepages, an event deep link in both languages, the About page, search, keyboard navigation and `/404.html`. Check that the language switch preserves the page. Record the live URL and deployed SHA, then return `PAGES_DEPLOY_ENABLED` to `false`. A successful upload or skipped deployment is not proof that a site is live.
 
 ## Correct or recover
 

@@ -51,3 +51,20 @@ test('search output must include usable English and Persian indexes without an a
   assert.ok(validateSearchLanguages({ languages: { en: { page_count: 52 }, fa: { page_count: 0 } } }, ['en', 'fa']).some(error => error.includes('missing fa')));
   assert.ok(validateSearchLanguages({ languages: { en: { page_count: 52 }, fa: { page_count: 52 }, unknown: { page_count: 1 } } }, ['en', 'fa']).some(error => error.includes('Unexpected search language')));
 });
+
+test('retired directory URLs redirect to localized About without entering search', () => {
+  const pages = new Map<string, string>([['en/about/index.html', page('en', 'about')], ['fa/about/index.html', page('fa', 'about')]]);
+  for (const locale of ['en', 'fa'] as const) {
+    const redirect = page(locale, 'about').replace('</head>', `<meta http-equiv="refresh" content="0;url=/${locale}/about/"><meta name="robots" content="noindex, nofollow"></head>`);
+    pages.set(`${locale}/about/leadership/index.html`, redirect);
+  }
+  assert.deepEqual(validateLocalizedPages(pages, origin, ['about', 'about/leadership']), []);
+  const key = 'fa/about/leadership/index.html';
+  const valid = pages.get(key)!;
+  pages.set(key, valid.replace('0;url=/fa/about/', '0;url=/en/about/').replace('noindex, nofollow', 'index, follow'));
+  const errors = validateLocalizedPages(pages, origin, ['about', 'about/leadership']);
+  assert.ok(errors.some(error => error.includes('immediately redirect')));
+  assert.ok(errors.some(error => error.includes('excluded from search')));
+  pages.set(key, valid.replace('<main>', '<main data-pagefind-body>'));
+  assert.ok(validateLocalizedPages(pages, origin, ['about', 'about/leadership']).some(error => error.includes('cannot enter the site search index')));
+});

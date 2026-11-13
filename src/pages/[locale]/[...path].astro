@@ -3,7 +3,6 @@ import Base from '../../layouts/Base.astro';
 import Home from '../../components/Home.astro';
 import EventDetail from '../../components/EventDetail.astro';
 import EventExplorer from '../../components/EventExplorer.astro';
-import Leadership from '../../components/Leadership.astro';
 import StandardContent from '../../components/StandardContent.astro';
 import Search from '../../components/Search.astro';
 import Story from '../../components/Story.astro';
@@ -12,8 +11,8 @@ import ArchiveYear from '../../components/ArchiveYear.astro';
 import MediaLibrary from '../../components/MediaLibrary.astro';
 import MediaCollection from '../../components/MediaCollection.astro';
 import {albumAtPath} from '../../lib/media';
-import {locales,type Locale} from '../../config/site';
-import {pages,type PageDefinition} from '../../lib/routes';
+import {href,locales,type Locale} from '../../config/site';
+import {pages,legacyRedirects,type PageDefinition} from '../../lib/routes';
 import {events,media,programDetails,stories,type EventRecord,type StoryRecord,type EventTranslation} from '../../data';
 import {eventShareImage} from '../../lib/metadata';
 import {isPublicEvent} from '../../lib/events';
@@ -21,14 +20,14 @@ import {reviewedTranslation,isPublicStory} from '../../lib/publication';
 import {tr,formatNumber} from '../../i18n/ui';
 export function getStaticPaths(){
   return locales.flatMap(locale=>[
-    ...pages.map(page=>({params:{locale,path:page.path||undefined},props:{page}})),
+    ...[...pages,...legacyRedirects].map(page=>({params:{locale,path:page.path||undefined},props:{page}})),
     ...events.filter(isPublicEvent).filter(event=>locale==='en'||reviewedTranslation(event.id)).map(event=>{const translation=locale==='fa'?reviewedTranslation(event.id):undefined;return {params:{locale,path:`events/${event.slug}`},props:{page:{path:`events/${event.slug}`,title:translation?.title??event.title,description:translation?.summary??event.summary},event,translation}};}),
     ...stories.filter(story=>isPublicStory(story)&&story.locale===locale).map(story=>({params:{locale,path:`community/stories/${story.slug}`},props:{page:{path:`community/stories/${story.slug}`,title:story.title,description:story.summary},story}})),
   ]);
 }
 const {page,event,story,translation}=Astro.props as {page:PageDefinition;event?:EventRecord;story?:StoryRecord;translation?:EventTranslation};
 const locale=Astro.params.locale as Locale;const path=page.path;const t=(s:string)=>tr(locale,s);
-const noindex=['search','languages'].includes(path);
+const noindex=Boolean(page.redirectTo)||['search','languages'].includes(path);
 const program = programDetails.find(program => path === `community/programs/${program.id}`);
 const archiveYear = /^events\/archive\/\d{4}$/.test(path) ? path.split('/')[2] : undefined;
 const album=albumAtPath(path);
@@ -36,9 +35,9 @@ const collection=album?.collection;
 const title=collection?`${collection.title[locale]}${album&&album.page>1?`${locale==='fa'?'، ':', '}${t('Page')} ${formatNumber(locale,album.page)}`:''}`:page.localized?.[locale]?.title??page.title;
 const description=page.localized?.[locale]?.description??page.description;
 ---
-<Base title={title} description={description} locale={locale} path={path} noindex={noindex} search={!noindex&&(!album||album.page===1)} shareImage={eventShareImage(event,locale,media)}>
-{path===''?<Home locale={locale}/>:event?<EventDetail event={event} translation={translation} locale={locale}/>:story?<Story story={story} locale={locale}/>:<>
+<Base title={title} description={description} locale={locale} path={path} redirectTo={page.redirectTo} noindex={noindex} search={!noindex&&(!album||album.page===1)} shareImage={eventShareImage(event,locale,media)}>
+{page.redirectTo?<section class="wrap page-body"><h1>{t('About SIGS')}</h1><p><a href={href(locale,page.redirectTo)}>{t('Continue to About SIGS')}</a></p></section>:path===''?<Home locale={locale}/>:event?<EventDetail event={event} translation={translation} locale={locale}/>:story?<Story story={story} locale={locale}/>:<>
 <section class:list={['page-heading',{'media-heading':collection||['community/memories','community/videos'].includes(path)}]}><div class="wrap"><p class="eyebrow">SIGS / {t(path.split('/')[0]==='events'?'Gatherings':path.split('/')[0]==='about'?'Our community':path.split('/')[0]==='resources'?'Student life':path.split('/')[0]==='community'?'Life together':'At UC Irvine')}</p><h1 data-pagefind-meta="title">{t(title)}</h1><p>{t(description)}</p></div></section>
-{collection?<MediaCollection collection={collection} page={album?.page} locale={locale}/>:path==='community/memories'||path==='community/videos'?<MediaLibrary locale={locale} videosOnly={path==='community/videos'}/>:program?<Program program={program} locale={locale}/>:archiveYear?<ArchiveYear year={archiveYear} locale={locale}/>:path==='events'||path==='events/archive'?<EventExplorer locale={locale} archive={path.endsWith('archive')}/>:path.startsWith('about/leadership')?<Leadership locale={locale} termId={path.split('/')[2]}/>:path==='search'?<Search locale={locale}/>:<StandardContent locale={locale} path={path}/>}
+{collection?<MediaCollection collection={collection} page={album?.page} locale={locale}/>:path==='community/memories'||path==='community/videos'?<MediaLibrary locale={locale} videosOnly={path==='community/videos'}/>:program?<Program program={program} locale={locale}/>:archiveYear?<ArchiveYear year={archiveYear} locale={locale}/>:path==='events'||path==='events/archive'?<EventExplorer locale={locale} archive={path.endsWith('archive')}/>:path==='search'?<Search locale={locale}/>:<StandardContent locale={locale} path={path}/>}
 </>}
 </Base>

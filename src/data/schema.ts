@@ -48,37 +48,6 @@ export interface EventRecord {
   audience?: string;
 }
 
-export interface PersonRecord {
-  id: string;
-  name: string;
-  portrait: string | null;
-  bio: string | null;
-  linkedinUrl?: string | null;
-  major?: Record<Locale, string> | null;
-}
-
-export interface TeamMembership {
-  id: string;
-  personId: string;
-  termId: string;
-  name: string;
-  role: string;
-  group: 'board' | 'support' | 'advisor';
-  displayOrder: number;
-  telegramUrl: string | null;
-  portrait: string | null;
-  bio: string | null;
-  membershipTerm: string | null;
-}
-
-export interface BoardTerm {
-  id: string;
-  term: string;
-  status: 'current' | 'former';
-  people: TeamMembership[];
-  note?: Record<Locale, string>;
-}
-
 export interface ProgramRecord {
   id: string;
   name: string;
@@ -183,9 +152,6 @@ export interface OrganizationRecord {
   origin: string;
   timeZone: string;
   description: string;
-  currentBoardTermId: string;
-  currentBoard: TeamMembership[];
-  currentBoardNotice: string | null;
   currentSponsors: { name: string; url: string | null; logo: string | null }[];
   telegramInvite: string | null;
   upcomingEvents: string[];
@@ -206,8 +172,6 @@ export interface PublicData {
   events: EventRecord[];
   programs: ProgramRecord[];
   programDetails: ProgramDetail[];
-  people: PersonRecord[];
-  boardTerms: BoardTerm[];
   milestones: MilestoneRecord[];
   resources: ResourceRecord[];
   media: MediaRecord[];
@@ -216,6 +180,8 @@ export interface PublicData {
   migrations: MigrationRecord[];
 }
 
+const publicDataKeys = new Set(['organization', 'events', 'programs', 'programDetails', 'milestones', 'resources', 'media', 'stories', 'eventTranslations', 'migrations']);
+const organizationKeys = new Set(['name', 'shortName', 'institution', 'displayName', 'email', 'origin', 'timeZone', 'description', 'currentSponsors', 'telegramInvite', 'upcomingEvents', 'registration', 'historicalAcknowledgments', 'socialChannels']);
 const occurrenceSupported = new Set<OccurrenceEvidence>(['occurrence_corroborated', 'occurrence_reported', 'institutional_retrospective', 'reported_occurrence']);
 const eventKeys = new Set(['id', 'slug', 'title', 'locale', 'date', 'timeDisplay', 'timeZone', 'startInstant', 'endInstant', 'venue', 'category', 'sigsRole', 'summary', 'occurrenceEvidence', 'archiveLabel', 'publication', 'eventState', 'registration', 'registrationUrl', 'registrationNote', 'rulesUrl', 'gallery', 'heroImage', 'editorial', 'publicSourceLinks', 'generateCalendarDownload', 'generateEventStructuredData', 'allDay', 'calendarUpdated', 'calendarSequence', 'accessibility', 'cost', 'audience']);
 const storyKeys = new Set(['id', 'slug', 'title', 'summary', 'locale', 'publication', 'editorial', 'publishedOn', 'body', 'relatedEventIds', 'mediaIds', 'kind', 'credit', 'contextNote']);
@@ -249,17 +215,6 @@ function localMediaPath(value: string, extension?: string): boolean {
     && (!extension || value.toLowerCase().endsWith(extension));
 }
 
-function linkedInProfileUrl(value: string): boolean {
-  try {
-    const url = new URL(value);
-    return url.protocol === 'https:' && url.hostname === 'www.linkedin.com'
-      && /^\/in\/[A-Za-z0-9%_-]+\/?$/.test(url.pathname)
-      && !url.username && !url.password && !url.port && !url.search && !url.hash;
-  } catch {
-    return false;
-  }
-}
-
 export function validatePublicData(data: PublicData): string[] {
   const errors: string[] = [];
   const issue = (path: string, message: string) => errors.push(`${path}: ${message}`);
@@ -267,23 +222,13 @@ export function validatePublicData(data: PublicData): string[] {
     const ids = records.map(record => record.id);
     if (new Set(ids).size !== ids.length) issue(collection, 'IDs must be unique');
   };
-  for (const key of ['events', 'programs', 'programDetails', 'people', 'boardTerms', 'milestones', 'resources', 'media', 'stories'] as const) unique(data[key], key);
+  for (const key of ['events', 'programs', 'programDetails', 'milestones', 'resources', 'media', 'stories'] as const) unique(data[key], key);
+  if (Object.keys(data).some(field => !publicDataKeys.has(field))) issue('data', 'Contains an unsupported public collection');
+  if (Object.keys(data.organization).some(field => !organizationKeys.has(field))) issue('organization', 'Contains an unsupported public field');
   const eventIds = new Set(data.events.map(event => event.id));
   const mediaIds = new Set(data.media.map(media => media.id));
   const mediaRecords = new Map(data.media.map(media => [media.id, media]));
   const visibleMedia = (id: string): boolean => mediaRecords.get(id)?.publication === 'published' && mediaRecords.get(id)?.rights === 'approved';
-  const visibleImage = (id: string): boolean => visibleMedia(id) && mediaRecords.get(id)?.kind !== 'video';
-  const people = new Map(data.people.map(person => [person.id, person]));
-  data.people.forEach(person => {
-    if (person.portrait && !visibleImage(person.portrait)) issue(`people.${person.id}`, 'Portraits need published images with permission');
-    if (person.linkedinUrl !== undefined && person.linkedinUrl !== null && !linkedInProfileUrl(person.linkedinUrl)) issue(`people.${person.id}`, 'LinkedIn links must be public HTTPS profile URLs');
-    const major = person.major;
-    if (major !== undefined && major !== null && (typeof major !== 'object' || Array.isArray(major)
-      || Object.keys(major).length !== 2 || Object.keys(major).some(locale => !['en', 'fa'].includes(locale))
-      || ['en', 'fa'].some(locale => typeof major[locale as Locale] !== 'string' || !major[locale as Locale].trim()))) {
-      issue(`people.${person.id}`, 'Academic majors need nonblank English and Persian text only');
-    }
-  });
   const slugs = data.events.map(event => event.slug);
   if (new Set(slugs).size !== slugs.length) issue('events', 'Slugs must be unique');
   data.events.forEach(event => {
@@ -349,31 +294,6 @@ export function validatePublicData(data: PublicData): string[] {
     }
     event.publicSourceLinks.forEach(url => { if (!publicUrl(url)) issue(key, 'Public source link is invalid'); });
   });
-  data.boardTerms.forEach(term => {
-    const key = `boardTerms.${term.id}`;
-    unique(term.people, key);
-    if (term.note !== undefined && (!term.note || typeof term.note !== 'object' || Array.isArray(term.note)
-      || Object.keys(term.note).some(locale => !['en', 'fa'].includes(locale))
-      || !['en', 'fa'].every(locale => typeof term.note?.[locale as Locale] === 'string' && term.note[locale as Locale].trim()))) {
-      issue(key, 'Team notes need complete English and Persian text');
-    }
-    const orders = term.people.map(member => member.displayOrder);
-    if (new Set(orders).size !== orders.length) issue(key, 'Display order must be unique within a term');
-    term.people.forEach(member => {
-      if (!people.has(member.personId) || people.get(member.personId)?.name !== member.name) issue(key, 'Person reference must match the public name');
-      if (member.termId !== term.id || member.id !== `${term.id}:${member.personId}`) issue(key, 'Membership must belong to its term and person');
-      if (!member.role.trim() || !['board', 'support', 'advisor'].includes(member.group)) issue(key, 'Role and group are required');
-      if (!Number.isInteger(member.displayOrder) || member.displayOrder < 1) issue(key, 'Display order must be a positive integer');
-      if (member.membershipTerm !== null && (typeof member.membershipTerm !== 'string' || !member.membershipTerm.trim())) issue(key, 'Membership period must be text or null');
-      if (member.telegramUrl && !/^https?:\/\/t\.me\/[A-Za-z0-9_]+$/.test(member.telegramUrl)) issue(key, 'Team contact must be a public Telegram profile');
-      if (member.portrait && !mediaIds.has(member.portrait)) issue(key, 'Portrait reference does not exist');
-      if (member.portrait && !visibleImage(member.portrait)) issue(key, 'Team portraits need published images with permission');
-    });
-  });
-  const current = data.boardTerms.filter(term => term.status === 'current');
-  if (current.length !== 1 || current[0]?.id !== data.organization.currentBoardTermId) issue('organization', 'Current team must identify one matching term');
-  if (JSON.stringify(current[0]?.people) !== JSON.stringify(data.organization.currentBoard)) issue('organization', 'Current team must match its term');
-  if (data.organization.currentBoard.length > 0 && data.organization.currentBoardNotice !== null) issue('organization', 'A populated current team must not have a missing-team notice');
   data.resources.forEach(resource => {
     if (!publicUrl(resource.url) || !isDay(resource.reviewedOn) || !resource.source.trim() || !resource.ownerRole.trim()) issue(`resources.${resource.id}`, 'URL, review date, source and owner role are required');
   });
@@ -407,6 +327,7 @@ export function validatePublicData(data: PublicData): string[] {
   data.media.forEach(media => {
     const key = `media.${media.id}`;
     if (Object.keys(media).some(field => !mediaKeys.has(field))) issue(key, 'Contains an unsupported media field');
+    if (/^\/media\/team(?:\/|$)/i.test(media.src)) issue(key, 'Individual team profiles do not belong in public media');
     if (!slugPattern.test(media.id)) issue(key, 'Media IDs must use lowercase words and hyphens');
     if (media.publication === 'published' && media.rights !== 'approved') issue(key, 'Published media needs permission');
     if (!['draft', 'published'].includes(media.publication) || !['approved', 'pending'].includes(media.rights)) issue(key, 'Unknown media publication or permission state');

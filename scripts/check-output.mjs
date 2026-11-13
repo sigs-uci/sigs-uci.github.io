@@ -22,10 +22,12 @@ const htmlPages = new Map();
 const searchable = { en: 0, fa: 0 };
 for (const filename of files) {
   const relative = path.relative(output, filename).split(path.sep).join('/');
+  if (/(?:^|\/)media\/team(?:\/|$)/i.test(relative)) errors.push(`Individual team profiles cannot be published: ${relative}`);
   if (/(?:^|\/)(?:node_modules|\.git|tests|scripts)(?:\/|$)|\.map$|\.(?:ts|astro|zip)$/i.test(relative)) errors.push(`Unexpected output file: ${relative}`);
   if (!filename.endsWith('.html')) continue;
   pages++;
   const html = await readFile(filename, 'utf8');
+  if (/\/media\/team\//i.test(html) || /class=["'][^"']*\b(?:gathering-team-list|team-grid|person-card)\b/i.test(html)) errors.push(`${relative}: individual team information appears in public output`);
   htmlPages.set(relative, html);
   if (/documented gatherings?|archived announcements?|گردهمایی مستند|اطلاعیهٔ آرشیوی|SIGS content steward|متولی محتوای SIGS|Public context|2017-2018 documented series|Archive examples from 2012-2025/i.test(html)) errors.push(`${relative}: internal labels appear in public output`);
   if (!/<html\b[^>]*\blang=["'][^"']+["']/i.test(html)) errors.push(`${relative}: missing language`);

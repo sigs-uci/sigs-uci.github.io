@@ -1,18 +1,18 @@
-import { boardTerms, organization, programs, type BoardTerm } from '../data';
+import { programs } from '../data';
 import { archiveYears, archiveDescription } from './archive';
 import { mediaCollections, albumPagePath, albumRoutePages } from './media';
 import type { Locale } from '../config/site';
-import { formatTerm } from '../i18n/ui';
 
 export interface PageDefinition {
   path: string;
   title: string;
   description: string;
   localized?: Partial<Record<Locale, { title: string; description: string }>>;
+  redirectTo?: string;
 }
 
 const corePages = [
-  { path: '', title: 'Society of Iranian Graduate Students', description: 'The Iranian graduate student community at UC Irvine. Find gatherings, meet the team, and get in touch.' },
+  { path: '', title: 'Society of Iranian Graduate Students', description: 'The Iranian graduate student community at UC Irvine. Find gatherings and get in touch.' },
   { path: 'events', title: 'Events', description: "See what's coming up at SIGS, or find past events by year or topic." },
   { path: 'events/archive', title: 'The event archive', description: 'Past SIGS events and invitations, from Nowruz and Yalda to film nights and beach outings.' },
   { path: 'community', title: 'Community', description: 'Meet the Iranian graduate community at UC Irvine through our celebrations, photos and stories.' },
@@ -20,8 +20,7 @@ const corePages = [
   { path: 'community/videos', title: 'Videos', description: 'Watch videos from SIGS events and rehearsals, along with invitations from past years.' },
   { path: 'resources', title: 'Campus resources', description: 'Official UC Irvine resources for arriving on campus, student life, and support.' },
   { path: 'resources/new-students', title: 'New to UCI?', description: 'A starting point for housing, campus services, transport, and finding your community.' },
-  { path: 'about', title: 'About SIGS', description: 'Meet the Society of Iranian Graduate Students at UC Irvine and the people who keep it going.' },
-  { path: 'about/leadership', title: 'Leadership & Team', description: 'Meet the current SIGS team and browse previous terms.' },
+  { path: 'about', title: 'About SIGS', description: 'Learn about the Society of Iranian Graduate Students at UC Irvine and its activities.' },
   { path: 'about/history', title: 'SIGS history', description: 'Look back at SIGS celebrations, outings and student activities by year.' },
   { path: 'partners', title: 'Work with SIGS', description: 'Have an idea for a SIGS event or collaboration? Get in touch with the team.' },
   { path: 'join', title: 'Join SIGS', description: 'Get in touch with SIGS, attend a gathering, or help organize the next one.' },
@@ -32,16 +31,9 @@ const corePages = [
   { path: 'languages', title: 'English and Persian', description: 'Switch between English and Persian, or send us a translation correction.' },
 ];
 
-export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTermId = organization.currentBoardTermId): PageDefinition[] {
-  const current = terms.find(term => term.id === currentTermId);
+export function buildPages(): PageDefinition[] {
   return [
-    ...corePages.map(page => page.path === 'about/leadership' && current
-      ? { ...page, description: `The current SIGS leadership and team for ${current.term}.` }
-      : page),
-    ...terms.map(term => ({ path: `about/leadership/${term.id}`, title: `The ${term.term} team`,
-      description: term.people.length ? `Meet the ${term.term} SIGS team and find each member's role.` : `Help us fill in the history of the ${term.term} SIGS team.`,
-      localized: { fa: { title: `تیم \u2066${formatTerm('fa', term.term)}\u2069`,
-        description: term.people.length ? `با اعضای تیم SIGS در دورهٔ \u2066${formatTerm('fa', term.term)}\u2069 و مسئولیت آن‌ها آشنا شوید.` : `به ما در تکمیل نام اعضای تیم SIGS در دورهٔ \u2066${formatTerm('fa', term.term)}\u2069 کمک کنید.` } } })),
+    ...corePages,
     ...programs.map(program => ({ path: `community/programs/${program.id}`, title: program.name, description: program.summary })),
     ...mediaCollections.flatMap(collection=>Array.from({length:albumRoutePages(collection)},(_,index)=>({path:albumPagePath(collection,index+1),title:collection.title.en,description:collection.description.en,localized:{fa:{title:collection.title.fa,description:collection.description.fa}}}))),
     ...archiveYears().map(entry => ({ path: `events/archive/${entry.year}`, title: `SIGS in ${entry.year}`,
@@ -51,3 +43,8 @@ export function buildPages(terms: readonly BoardTerm[] = boardTerms, currentTerm
 }
 
 export const pages = buildPages();
+
+export const legacyRedirects: PageDefinition[] = [
+  'about/leadership',
+  ...Array.from({ length: 19 }, (_, index) => `about/leadership/${2008 + index}-${2009 + index}`),
+].map(path => ({ path, title: 'About SIGS', description: corePages.find(page => page.path === 'about')!.description, redirectTo: 'about' }));

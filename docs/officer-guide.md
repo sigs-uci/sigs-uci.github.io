@@ -1,6 +1,6 @@
 # Editing the SIGS website
 
-Use a local checkout on `main`. Fetch before editing and preserve other people's work. Every file committed to this repository is public, including files that do not appear on the site. Keep attendee information, permissions evidence, administrative records and credentials in controlled storage.
+Use a local checkout on `main`. Fetch before editing and preserve other people's work. Every file committed to this repository is public, including files that do not appear on the site. Keep attendee information, permissions evidence, administrative records and credentials in controlled storage. Board records and member portraits belong in private organization storage. Do not add rosters, individual board profiles or board portraits to this public repository.
 
 ## A normal update
 
@@ -66,4 +66,4 @@ Review new text in both languages, with reciprocal language links and correct `l
 
 Read the first validation error, correct the named record, and rerun the same checks. Avoid deleting unrelated content to make a build pass. Restore the last working file from Git if needed, then make a new corrective commit. For a live correction, validate and release the corrective commit through the same release gate.
 
-At the annual handoff, assign a technical steward, content owner and Persian reviewer. Confirm at least two organization owners and the organization mailbox recovery route. Review service ownership, dependencies, resource links. Store credentials in the relevant account's secure settings, with recovery access held by the organization.
+At the annual handoff, assign a technical steward, content owner and Persian reviewer. Confirm at least two organization owners and the organization mailbox recovery route. Review service ownership, dependencies, resource links and organization contact routes. Store credentials in the relevant account's secure settings, with recovery access held by the organization.

@@ -4,7 +4,6 @@ import { readFile, lstat, realpath } from 'node:fs/promises';
 import path from 'node:path';
 import { imageMetadata } from 'astro/assets/utils';
 import { data, media, validatePublicData, type MediaRecord } from '../src/data';
-import { teamPortraitIds } from '../src/lib/media';
 
 async function assetBytes(src: string) {
   const root = path.resolve('public');
@@ -34,7 +33,7 @@ test('published image records match metadata-free public derivatives and smaller
     const full = await inspectAsset(image.src);
     assert.equal(full.width, image.width);
     assert.equal(full.height, image.height);
-    assert.ok(image.thumbnail || teamPortraitIds.has(image.id));
+    assert.ok(image.thumbnail);
     if (image.thumbnail) {
       const thumbnail = await inspectAsset(image.thumbnail);
       assert.ok(thumbnail.width < full.width);
@@ -228,14 +227,10 @@ test('media paths reject remote originals, traversal and mismatched derivative t
   assert.ok(validatePublicData(brokenId).some(error => error.includes('Media IDs must')));
 });
 
-test('a video cannot become a broken image hero or team portrait', () => {
+test('a video cannot become a broken image hero', () => {
   const copy = structuredClone(data);
   copy.media.push(videoFixture());
   copy.events[0].heroImage = 'test-video';
-  copy.people[0].portrait = 'test-video';
-  copy.boardTerms[0].people[0].portrait = 'test-video';
   const errors = validatePublicData(copy);
   assert.ok(errors.some(error => error.includes('Hero image must reference an image')));
-  assert.ok(errors.some(error => error.startsWith('people.') && error.includes('published images')));
-  assert.ok(errors.some(error => error.startsWith('boardTerms.') && error.includes('published images')));
 });

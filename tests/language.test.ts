@@ -13,7 +13,7 @@ test('switching the event archive language retains filters and calendar state', 
 
 test('search terms and shared deep links survive a language change', () => {
   assert.equal(new URL(languageSwitchHref('/en/search/', new URL('https://sigs-uci.github.io/fa/search/?q=یلدا'))).searchParams.get('q'), 'یلدا');
-  assert.equal(languageSwitchHref('/fa/community/memories/', new URL('https://sigs-uci.github.io/en/community/memories/#photo')), 'https://sigs-uci.github.io/fa/community/memories/#photo');
+  assert.equal(languageSwitchHref('/fa/resources/new-students/', new URL('https://sigs-uci.github.io/en/resources/new-students/#arriving')), 'https://sigs-uci.github.io/fa/resources/new-students/#arriving');
 });
 
 test('a fallback page does not inherit an unrelated query or anchor', () => {

@@ -32,22 +32,30 @@ export function validateLocalizedPages(pages, origin, requiredPairs) {
     if (!match) continue;
     const locale = match[1];
     const route = match[2].replace(/\/$/, '');
+    const metadata = [...html.matchAll(/<meta\b[^>]*>/gi)].map(value => attributes(value[0]));
+    const legacy = /^about\/leadership(?:\/\d{4}-\d{4})?$/.test(route);
+    const refresh = metadata.filter(meta => meta.get('http-equiv')?.toLowerCase() === 'refresh');
+    if (legacy) {
+      if (refresh.length !== 1 || refresh[0].get('content') !== `0;url=/${locale}/about/`) errors.push(`${filename}: legacy page must immediately redirect to its language's About page`);
+      if (!metadata.some(meta => meta.get('name') === 'robots' && /\bnoindex\b/.test(meta.get('content') ?? ''))) errors.push(`${filename}: legacy redirect must be excluded from search`);
+      if (html.includes('data-pagefind-body')) errors.push(`${filename}: legacy redirect cannot enter the site search index`);
+    } else if (refresh.length) errors.push(`${filename}: unexpected page redirect`);
+    const canonicalRoute = legacy ? 'about' : route;
     const htmlTag = attributes(html.match(/<html\b[^>]*>/i)?.[0] ?? '');
     if (htmlTag.get('lang') !== locale) errors.push(`${filename}: language does not match its route`);
     if (htmlTag.get('dir') !== (locale === 'fa' ? 'rtl' : 'ltr')) errors.push(`${filename}: incorrect reading direction`);
     if ((html.match(/<h1(?:\s|>)/gi) ?? []).length !== 1) errors.push(`${filename}: expected one main heading`);
-    const urlFor = (language) => new URL(`/${language}/${route ? `${route}/` : ''}`, origin).href;
+    const urlFor = (language) => new URL(`/${language}/${canonicalRoute ? `${canonicalRoute}/` : ''}`, origin).href;
     const links = [...html.matchAll(/<link\b[^>]*>/gi)].map(value => attributes(value[0]));
     const canonical = links.filter(link => link.get('rel') === 'canonical');
     if (canonical.length !== 1 || canonical[0].get('href') !== urlFor(locale)) errors.push(`${filename}: canonical URL does not match its route`);
-    const counterparts = locales.filter(language => pages.has(filenameFor(language, route)));
+    const counterparts = locales.filter(language => pages.has(filenameFor(language, canonicalRoute)));
     const alternates = links.filter(link => link.get('rel') === 'alternate' && link.has('hreflang'));
     const expected = [...counterparts, ...(counterparts.includes('en') ? ['x-default'] : [])];
     if (alternates.length !== expected.length || expected.some(language =>
       alternates.filter(link => link.get('hreflang') === language && link.get('href') === urlFor(language === 'x-default' ? 'en' : language)).length !== 1)) {
       errors.push(`${filename}: language alternates must point to actual matching pages`);
     }
-    const metadata = [...html.matchAll(/<meta\b[^>]*>/gi)].map(value => attributes(value[0]));
     if (metadata.find(meta => meta.get('property') === 'og:locale')?.get('content') !== (locale === 'fa' ? 'fa_IR' : 'en_US')) {
       errors.push(`${filename}: incorrect social language metadata`);
     }

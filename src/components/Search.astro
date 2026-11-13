@@ -7,8 +7,8 @@ const {locale='en'}=Astro.props as {locale:Locale};const t=(s:string)=>tr(locale
 <p class="quiet">{t('Search for an event, a campus resource, or a page on this site.')}</p>
 <form class="search-form" role="search"><div class="field"><label for="site-search">{t('Search SIGS')}</label><input id="site-search" name="q" type="search" autocomplete="off" required /></div><button class="button primary" type="submit">{t('Search')}</button></form>
 <p data-search-status role="status" aria-live="polite"></p><ol class="search-results" data-search-results></ol>
-<noscript><p class="notice">{t('Search needs JavaScript. Use the links below to browse all published events, resources, or team information.')}</p></noscript>
-<nav class="subnav" aria-label={t('Browse SIGS')}><a href={href(locale,'events/archive')}>{t('Event archive')}</a><a href={href(locale,'resources')}>{t('Resources')}</a><a href={href(locale,'about/leadership')}>{t('Leadership & Team')}</a></nav>
+<noscript><p class="notice">{t('Search needs JavaScript. Use the links below to browse all published events and resources.')}</p></noscript>
+<nav class="subnav" aria-label={t('Browse SIGS')}><a href={href(locale,'events/archive')}>{t('Event archive')}</a><a href={href(locale,'resources')}>{t('Resources')}</a><a href={href(locale,'contact')}>{t('Contact SIGS')}</a></nav>
 </div>
 <script>
   import '../scripts/search';

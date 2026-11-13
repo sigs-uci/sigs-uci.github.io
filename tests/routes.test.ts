@@ -1,15 +1,22 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { buildPages } from '../src/lib/routes';
-import { boardTerms } from '../src/data';
+import { buildPages, legacyRedirects } from '../src/lib/routes';
 
-test('a new team term receives a durable route and current-team metadata', () => {
-  const terms = structuredClone(boardTerms);
-  terms.forEach(term => term.status = 'former');
-  terms.unshift({ id: '2027-2028', term: '2027-2028', status: 'current', people: [] });
-  const pages = buildPages(terms, '2027-2028');
-  assert.ok(pages.some(page => page.path === 'about/leadership/2027-2028'));
-  assert.match(pages.find(page => page.path === 'about/leadership')!.description, /2027-2028/);
-  for (const term of boardTerms) assert.ok(pages.some(page => page.path === `about/leadership/${term.id}`));
+test('public routes keep the event archive without publishing a team directory', () => {
+  const pages = buildPages();
+  assert.ok(pages.some(page => page.path === 'about'));
+  assert.ok(pages.some(page => page.path === 'about/history'));
+  assert.ok(pages.some(page => page.path === 'events/archive'));
+  assert.ok(pages.every(page => !page.path.startsWith('about/leadership')));
   assert.equal(new Set(pages.map(page => page.path)).size, pages.length);
+});
+
+test('old directory links redirect to About without importing personal records', () => {
+  assert.equal(legacyRedirects.length, 20);
+  assert.equal(new Set(legacyRedirects.map(page => page.path)).size, legacyRedirects.length);
+  assert.ok(legacyRedirects.every(page => page.redirectTo === 'about' && page.title === 'About SIGS'));
+  assert.ok(legacyRedirects.some(page => page.path === 'about/leadership'));
+  for (let year = 2008; year <= 2026; year++) {
+    assert.ok(legacyRedirects.some(page => page.path === `about/leadership/${year}-${year + 1}`));
+  }
 });

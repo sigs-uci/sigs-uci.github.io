@@ -2,7 +2,7 @@
 
 # SIGS at UC Irvine
 
-The website for the Society of Iranian Graduate Students at UC Irvine, in English and Persian. We keep event information, community photographs and videos, campus resources and SIGS contact information in one place.
+The website for the Society of Iranian Graduate Students at UC Irvine, in English and Persian. We keep event information, community photographs and videos, campus resources and organization contact details in one place.
 
 [English](https://sigs-uci.github.io/en/) · [فارسی](https://sigs-uci.github.io/fa/) · [Event archive](https://sigs-uci.github.io/en/events/archive/) · [Photos and videos](https://sigs-uci.github.io/en/community/memories/) · [Email SIGS](mailto:sigs@uci.edu)
 
@@ -10,7 +10,7 @@ Explore Nowruz and Yalda, film and poetry, newcomer support and professional con
 
 <div dir="rtl" lang="fa">
 
-<p>برنامه‌ها، آرشیو رویدادها، عکس‌ها و ویدیوها، منابع دانشگاهی و اطلاعات تیم را در <a href="https://sigs-uci.github.io/fa/">نسخهٔ فارسی وب‌سایت</a> ببینید. برای پیشنهاد اصلاح متن یا اطلاعات، به <a href="mailto:sigs@uci.edu" dir="ltr">sigs@uci.edu</a> ایمیل بزنید.</p>
+<p>برنامه‌ها، آرشیو رویدادها، عکس‌ها و ویدیوها، منابع دانشگاهی و راه‌های ارتباط با انجمن را در <a href="https://sigs-uci.github.io/fa/">نسخهٔ فارسی وب‌سایت</a> ببینید. برای پیشنهاد اصلاح متن یا اطلاعات، به <a href="mailto:sigs@uci.edu" dir="ltr">sigs@uci.edu</a> ایمیل بزنید.</p>
 
 </div>
 
@@ -30,7 +30,7 @@ npm run preview
 
 Open the local preview address printed by Astro. The preview serves the built site, including search. `npm run dev` starts the editing server; search needs a build first. Run validation locally before committing or publishing. Pushes and pull requests do not run GitHub CI.
 
-Astro and TypeScript build the static site. Pagefind provides separate search indexes for English and Persian. Persian pages use a right-to-left layout and Persian number formatting; both languages share event facts and term-specific contacts.
+Astro and TypeScript build the static site. Pagefind provides separate search indexes for English and Persian. Persian pages use a right-to-left layout and Persian number formatting; both languages share event facts and organization contact details.
 
 ## Edit and release
 

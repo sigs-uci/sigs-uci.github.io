@@ -5,4 +5,4 @@ const errors = [...validatePublicData(data),...validateMediaCollections()];
 if (errors.length) {
   for (const error of errors) console.error(error);
   process.exitCode = 1;
-} else console.log(`Validated ${data.events.length} events and ${data.boardTerms.length} team terms`);
+} else console.log(`Validated ${data.events.length} events and ${data.media.length} media records`);

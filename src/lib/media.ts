@@ -1,4 +1,4 @@
-import { boardTerms, events, media, people, type MediaRecord, type Locale } from '../data';
+import { events, media, type MediaRecord, type Locale } from '../data';
 import collectionData from '../data/mediaCollections.json';
 import redirectData from '../data/mediaRedirects.json';
 import {isPublicEvent} from './events';
@@ -14,11 +14,7 @@ export interface MediaCollection {
   eventIds: string[];
 }
 
-export const teamPortraitIds = new Set([
-  ...people.map(person => person.portrait),
-  ...boardTerms.flatMap(term => term.people.map(member => member.portrait)),
-].filter((id): id is string => Boolean(id)));
-export const publicMedia = media.filter(item => item.publication === 'published' && item.rights === 'approved' && !teamPortraitIds.has(item.id));
+export const publicMedia = media.filter(item => item.publication === 'published' && item.rights === 'approved');
 const mediaById = new Map(publicMedia.map(item => [item.id, item]));
 export const mediaCollections = collectionData as MediaCollection[];
 export const publicVideos = publicMedia.filter(item => item.kind === 'video');
@@ -52,9 +48,9 @@ export function albumAtPath(path: string): {collection: MediaCollection; page: n
     }
   }
 }
-export function validateMediaCollections(collections: readonly MediaCollection[] = mediaCollections, records: readonly MediaRecord[] = media, portraitIds: ReadonlySet<string> = teamPortraitIds): string[] {
+export function validateMediaCollections(collections: readonly MediaCollection[] = mediaCollections, records: readonly MediaRecord[] = media): string[] {
   const errors: string[] = [];
-  const visible = records.filter(item=>item.publication==='published'&&item.rights==='approved'&&!portraitIds.has(item.id));
+  const visible = records.filter(item=>item.publication==='published'&&item.rights==='approved');
   const ids = new Set<string>();
   const assignments = new Map<string,number>();
   for(const collection of collections){
@@ -67,7 +63,6 @@ export function validateMediaCollections(collections: readonly MediaCollection[]
     if(!collection.mediaIds.length||new Set(collection.mediaIds).size!==collection.mediaIds.length)issue('Collection needs distinct media');
     if(!collection.mediaIds.includes(collection.coverId))issue('Cover must belong to the collection');
     for(const id of collection.mediaIds){
-      if(portraitIds.has(id))issue('Team portraits belong on team pages');
       if(!visible.some(item=>item.id===id))issue('Media must be published with permission');
       assignments.set(id,(assignments.get(id)??0)+1);
     }

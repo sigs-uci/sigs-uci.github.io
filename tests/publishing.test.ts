@@ -22,16 +22,6 @@ test('event addition and cancellation preserve the archive and identity', () => 
   assert.equal(copy.events.at(-1)?.slug, addition.slug);
 });
 
-test('team update synchronizes the organization and preserves previous terms', () => {
-  const copy = structuredClone(data);
-  const former = structuredClone(copy.boardTerms[1]);
-  copy.boardTerms[0].people[3].role = 'Cultural Chair';
-  assert.ok(validatePublicData(copy).length > 0);
-  copy.organization.currentBoard = structuredClone(copy.boardTerms[0].people);
-  assert.deepEqual(validatePublicData(copy), []);
-  assert.deepEqual(copy.boardTerms[1], former);
-});
-
 test('photo update needs published permission before a public event can reference it', () => {
   const copy = structuredClone(data);
   const event = copy.events[0];

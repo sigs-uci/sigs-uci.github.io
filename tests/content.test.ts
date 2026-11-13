@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { boardTerms, data, events, media, people, programs, organization, validatePublicData } from '../src/data/index';
+import { data, events, media, programs, organization, validatePublicData } from '../src/data/index';
 
 test('public content passes validation and keeps the historical evidence split', () => {
   assert.deepEqual(validatePublicData(data), []);
@@ -118,7 +118,8 @@ test('dated invitations and known contexts do not become unsupported completed e
   assert.equal(orientation.venue, 'UC Irvine');
   assert.equal(orientation.sigsRole, 'community_archive');
   for (const id of ['nowruz-celebrations-image-002', 'nowruz-celebrations-image-003', 'posters-and-venues-image-004',
-    'posters-and-venues-image-010', 'welcome-2023-newcomer-artwork', 'yalda-greeting-2024-community']) {
+    'posters-and-venues-image-010', 'welcome-2023-newcomer-artwork',
+     'yalda-greeting-2024-community']) {
     assert.equal(media.find(item => item.id === id)?.eventId, null, id);
   }
 });
@@ -169,33 +170,16 @@ test('archive facts preserve dates, unknown rooms and closed registration', () =
   assert.deepEqual(events.filter(event => event.gallery.includes('jordan-film-weekend-2016-program-poster')).map(event => event.id).sort(), ['a-dragon-arrives-2016', 'a-modest-reception-2016']);
 });
 
-test('team terms preserve assignments, order and separate contacts', () => {
-  const current = boardTerms.find((term) => term.id === '2026-2027')!;
-  const previous = boardTerms.find((term) => term.id === '2025-2026')!;
-  assert.equal(current.people.length, 8);
-  assert.equal(previous.people.length, 10);
-  assert.equal(people.length, 49);
-  assert.equal(boardTerms.length, 19);
-  assert.equal(boardTerms.flatMap(term => term.people).length, 72);
-  assert.deepEqual(new Set(boardTerms.flatMap(term => term.people.map(member => member.personId))), new Set(people.map(person => person.id)));
-  assert.deepEqual(boardTerms.map(term => term.id), Array.from({ length: 19 }, (_, index) => `${2026-index}-${2027-index}`));
-  for (const term of boardTerms) {
-    assert.deepEqual(term.people.map((person) => person.displayOrder), term.people.map((_, index) => index + 1));
-    assert.ok(term.people.every((person) => person.termId === term.id));
-  }
-  assert.equal(current.people[0].telegramUrl, 'https://t.me/KMirso');
-  assert.equal(previous.people[0].telegramUrl, 'http://t.me/KMirsohi');
-  assert.equal(organization.currentBoardTermId, current.id);
-  assert.deepEqual(organization.currentBoard, current.people);
+test('public organization preserves its shared contact and sponsorship information', () => {
   assert.equal(organization.telegramInvite, null);
   assert.deepEqual(organization.currentSponsors, []);
 });
 
-test('content validation rejects duplicate event URLs and broken term references', () => {
+test('content validation rejects duplicate event URLs and broken media references', () => {
   const copy = structuredClone(data);
   copy.events.push(structuredClone(copy.events[0]));
   assert.ok(validatePublicData(copy).length > 0);
   const broken = structuredClone(data);
-  broken.boardTerms[0].people[0].personId = 'missing-person';
+  broken.events[0].gallery.push('missing-media');
   assert.ok(validatePublicData(broken).length > 0);
 });

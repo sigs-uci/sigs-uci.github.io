@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import ts from 'typescript';
 import { locales } from '../src/config/site';
 import { data, events, eventTranslations, type EventTranslation, type EventState, type RegistrationState, validatePublicData } from '../src/data';
-import { dictionaries, formatDay, formatNumber, formatTerm, tr } from '../src/i18n/ui';
+import { dictionaries, formatDay, formatNumber, tr } from '../src/i18n/ui';
 import { isPublicEvent, registrationAction } from '../src/lib/events';
 import { availableLocales, eventHref, eventTextRevision, reviewedTranslation } from '../src/lib/publication';
 import { pages } from '../src/lib/routes';
@@ -57,7 +57,6 @@ test('the Persian dictionary covers the current data-driven public interface', (
       ...program.relatedPaths.map(link => link.label), ...program.publicContextLinks.map(link => link.label)]),
     ...data.resources.flatMap(resource => [resource.title, resource.description, resource.source, resource.ownerRole]),
     ...data.milestones.flatMap(milestone => [milestone.title, milestone.summary, `Event records for ${milestone.year}`]),
-    ...data.boardTerms.flatMap(term => term.people.flatMap(person => [person.role, person.bio])),
     ...events.flatMap(event => [event.venue, event.timeDisplay, event.cost, event.audience, event.accessibility]),
     ...data.media.map(item => item.credit),
   ].filter((value): value is string => Boolean(value));
@@ -136,15 +135,13 @@ test('a missing Persian interface message fails before it can become an English 
   assert.equal(tr('fa', 'برنامهٔ SIGS'), 'برنامهٔ SIGS');
 });
 
-test('published media has Persian alternatives and captions while names and contact links remain shared', () => {
+test('published media has Persian alternatives and captions and keep Gregorian date formatting', () => {
   for (const item of data.media.filter(item => item.publication === 'published' && item.rights === 'approved')) {
     assert.match(item.alt.fa ?? '', persianText, `${item.id}: alternative text`);
     assert.match(item.caption.fa ?? '', persianText, `${item.id}: caption`);
   }
   assert.match(tr('fa', 'Events'), persianText);
   assert.equal(formatNumber('fa', 2026), '۲۰۲۶');
-  assert.equal(formatTerm('fa', '2026-2027'), '۲۰۲۶-۲۰۲۷');
-  assert.ok(tr('fa', 'The 2026-2027 team').includes('\u2066۲۰۲۶-۲۰۲۷\u2069'));
   assert.match(formatDay('fa', '2026-10-22'), /۲۰۲۶/);
   assert.equal(formatDay('fa', '2026-10-22').includes('۱۴۰۵'), false);
 });
